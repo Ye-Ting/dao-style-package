@@ -1,0 +1,23 @@
+{
+  "name": "dao-style",
+  "homepage": "https://github.com/daocloud/dao-style",
+  "authors": [
+    "叶挺 <me@yeting.info>"
+  ],
+  "description": "DaoCloud style for Angular",
+  "main": "dao-style.js",
+  "moduleType": [],
+  "keywords": [
+    "DaoCloud",
+    "Angular",
+    "Component"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
