@@ -5,7 +5,7 @@
     "叶挺 <me@yeting.info>"
   ],
   "description": "DaoCloud style for Angular",
-  "main": "dao-style.js",
+  "main": "dao-style.min.js",
   "moduleType": [],
   "keywords": [
     "DaoCloud",

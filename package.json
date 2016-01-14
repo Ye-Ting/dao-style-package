@@ -1,6 +1,6 @@
 {
   "name": "dao-style",
-  "version": "0.0.1-beta",
+  "version": "0.0.1",
   "description": "DaoCloud style for Angualr",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
   "author": "Ye-Ting (me@yeting.info)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Ye-Ting/dao-style-package/issues"
+    "url": "https://github.com/Ye-Ting/dao-style/issues"
   },
   "homepage": "https://github.com/Ye-Ting/dao-style-package#readme"
 }
