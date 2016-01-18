@@ -50,37 +50,51 @@
 	  value: true
 	});
 	
-	var _classHelper = __webpack_require__(1);
+	__webpack_require__(1);
+	
+	__webpack_require__(5);
+	
+	__webpack_require__(7);
+	
+	__webpack_require__(9);
+	
+	__webpack_require__(11);
+	
+	var _classHelper = __webpack_require__(19);
 	
 	var _classHelper2 = _interopRequireDefault(_classHelper);
 	
-	var _index = __webpack_require__(2);
+	var _index = __webpack_require__(20);
 	
 	var _index2 = _interopRequireDefault(_index);
 	
-	__webpack_require__(33);
-	
-	var _index3 = __webpack_require__(35);
+	var _index3 = __webpack_require__(49);
 	
 	var _index4 = _interopRequireDefault(_index3);
 	
-	var _index5 = __webpack_require__(43);
+	var _index5 = __webpack_require__(57);
 	
 	var _index6 = _interopRequireDefault(_index5);
 	
-	var _daoInputDirective = __webpack_require__(50);
+	var _index7 = __webpack_require__(64);
+	
+	var _index8 = _interopRequireDefault(_index7);
+	
+	var _daoInputDirective = __webpack_require__(67);
 	
 	var _daoInputDirective2 = _interopRequireDefault(_daoInputDirective);
 	
-	var _daoDemoDirective = __webpack_require__(54);
+	var _daoDemoDirective = __webpack_require__(71);
 	
 	var _daoDemoDirective2 = _interopRequireDefault(_daoDemoDirective);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	var app = angular.module('daoStyle', [_index2.default, _index4.default, _index6.default]); /**
-	                                                                                            * Created by yeting on 15/10/18.
-	                                                                                            */
+	/**
+	 * Created by yeting on 15/10/18.
+	 */
+	
+	var app = angular.module('daoStyle', [_index2.default, _index4.default, _index6.default, _index8.default]);
 	
 	var appHelp = (0, _classHelper2.default)('daoStyle');
 	
@@ -92,6 +106,805 @@
 
 /***/ },
 /* 1 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+	
+	// load the styles
+	var content = __webpack_require__(2);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(4)(content, {"singleton":true});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../node_modules/css-loader/index.js?minimize!./../../node_modules/postcss-loader/index.js!./../../node_modules/sass-loader/index.js!./dao.scss", function() {
+				var newContent = require("!!./../../node_modules/css-loader/index.js?minimize!./../../node_modules/postcss-loader/index.js!./../../node_modules/sass-loader/index.js!./dao.scss");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 2 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(3)();
+	// imports
+	
+	
+	// module
+	exports.push([module.id, "/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}\n\n/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */@media print{*,:after,:before{background:transparent!important;color:#000!important;box-shadow:none!important;text-shadow:none!important}a,a:visited{text-decoration:underline}a[href]:after{content:\" (\" attr(href) \")\"}abbr[title]:after{content:\" (\" attr(title) \")\"}a[href^=\"#\"]:after,a[href^=\"javascript:\"]:after{content:\"\"}blockquote,pre{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}img,tr{page-break-inside:avoid}img{max-width:100%!important}h2,h3,p{orphans:3;widows:3}h2,h3{page-break-after:avoid}.navbar{display:none}.btn>.caret,.dropup>.btn>.caret{border-top-color:#000!important}.label{border:1px solid #000}.table{border-collapse:collapse!important}.table td,.table th{background-color:#fff!important}.table-bordered td,.table-bordered th{border:1px solid #ddd!important}}", ""]);
+	
+	// exports
+
+
+/***/ },
+/* 3 */
+/***/ function(module, exports) {
+
+	/*
+		MIT License http://www.opensource.org/licenses/mit-license.php
+		Author Tobias Koppers @sokra
+	*/
+	// css base code, injected by the css-loader
+	module.exports = function() {
+		var list = [];
+	
+		// return the list of modules as css string
+		list.toString = function toString() {
+			var result = [];
+			for(var i = 0; i < this.length; i++) {
+				var item = this[i];
+				if(item[2]) {
+					result.push("@media " + item[2] + "{" + item[1] + "}");
+				} else {
+					result.push(item[1]);
+				}
+			}
+			return result.join("");
+		};
+	
+		// import a list of modules into the list
+		list.i = function(modules, mediaQuery) {
+			if(typeof modules === "string")
+				modules = [[null, modules, ""]];
+			var alreadyImportedModules = {};
+			for(var i = 0; i < this.length; i++) {
+				var id = this[i][0];
+				if(typeof id === "number")
+					alreadyImportedModules[id] = true;
+			}
+			for(i = 0; i < modules.length; i++) {
+				var item = modules[i];
+				// skip already imported module
+				// this implementation is not 100% perfect for weird media query combinations
+				//  when a module is imported multiple times with different media queries.
+				//  I hope this will never occur (Hey this way we have smaller bundles)
+				if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
+					if(mediaQuery && !item[2]) {
+						item[2] = mediaQuery;
+					} else if(mediaQuery) {
+						item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
+					}
+					list.push(item);
+				}
+			}
+		};
+		return list;
+	};
+
+
+/***/ },
+/* 4 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/*
+		MIT License http://www.opensource.org/licenses/mit-license.php
+		Author Tobias Koppers @sokra
+	*/
+	var stylesInDom = {},
+		memoize = function(fn) {
+			var memo;
+			return function () {
+				if (typeof memo === "undefined") memo = fn.apply(this, arguments);
+				return memo;
+			};
+		},
+		isOldIE = memoize(function() {
+			return /msie [6-9]\b/.test(window.navigator.userAgent.toLowerCase());
+		}),
+		getHeadElement = memoize(function () {
+			return document.head || document.getElementsByTagName("head")[0];
+		}),
+		singletonElement = null,
+		singletonCounter = 0,
+		styleElementsInsertedAtTop = [];
+	
+	module.exports = function(list, options) {
+		if(false) {
+			if(typeof document !== "object") throw new Error("The style-loader cannot be used in a non-browser environment");
+		}
+	
+		options = options || {};
+		// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+		// tags it will allow on a page
+		if (typeof options.singleton === "undefined") options.singleton = isOldIE();
+	
+		// By default, add <style> tags to the bottom of <head>.
+		if (typeof options.insertAt === "undefined") options.insertAt = "bottom";
+	
+		var styles = listToStyles(list);
+		addStylesToDom(styles, options);
+	
+		return function update(newList) {
+			var mayRemove = [];
+			for(var i = 0; i < styles.length; i++) {
+				var item = styles[i];
+				var domStyle = stylesInDom[item.id];
+				domStyle.refs--;
+				mayRemove.push(domStyle);
+			}
+			if(newList) {
+				var newStyles = listToStyles(newList);
+				addStylesToDom(newStyles, options);
+			}
+			for(var i = 0; i < mayRemove.length; i++) {
+				var domStyle = mayRemove[i];
+				if(domStyle.refs === 0) {
+					for(var j = 0; j < domStyle.parts.length; j++)
+						domStyle.parts[j]();
+					delete stylesInDom[domStyle.id];
+				}
+			}
+		};
+	}
+	
+	function addStylesToDom(styles, options) {
+		for(var i = 0; i < styles.length; i++) {
+			var item = styles[i];
+			var domStyle = stylesInDom[item.id];
+			if(domStyle) {
+				domStyle.refs++;
+				for(var j = 0; j < domStyle.parts.length; j++) {
+					domStyle.parts[j](item.parts[j]);
+				}
+				for(; j < item.parts.length; j++) {
+					domStyle.parts.push(addStyle(item.parts[j], options));
+				}
+			} else {
+				var parts = [];
+				for(var j = 0; j < item.parts.length; j++) {
+					parts.push(addStyle(item.parts[j], options));
+				}
+				stylesInDom[item.id] = {id: item.id, refs: 1, parts: parts};
+			}
+		}
+	}
+	
+	function listToStyles(list) {
+		var styles = [];
+		var newStyles = {};
+		for(var i = 0; i < list.length; i++) {
+			var item = list[i];
+			var id = item[0];
+			var css = item[1];
+			var media = item[2];
+			var sourceMap = item[3];
+			var part = {css: css, media: media, sourceMap: sourceMap};
+			if(!newStyles[id])
+				styles.push(newStyles[id] = {id: id, parts: [part]});
+			else
+				newStyles[id].parts.push(part);
+		}
+		return styles;
+	}
+	
+	function insertStyleElement(options, styleElement) {
+		var head = getHeadElement();
+		var lastStyleElementInsertedAtTop = styleElementsInsertedAtTop[styleElementsInsertedAtTop.length - 1];
+		if (options.insertAt === "top") {
+			if(!lastStyleElementInsertedAtTop) {
+				head.insertBefore(styleElement, head.firstChild);
+			} else if(lastStyleElementInsertedAtTop.nextSibling) {
+				head.insertBefore(styleElement, lastStyleElementInsertedAtTop.nextSibling);
+			} else {
+				head.appendChild(styleElement);
+			}
+			styleElementsInsertedAtTop.push(styleElement);
+		} else if (options.insertAt === "bottom") {
+			head.appendChild(styleElement);
+		} else {
+			throw new Error("Invalid value for parameter 'insertAt'. Must be 'top' or 'bottom'.");
+		}
+	}
+	
+	function removeStyleElement(styleElement) {
+		styleElement.parentNode.removeChild(styleElement);
+		var idx = styleElementsInsertedAtTop.indexOf(styleElement);
+		if(idx >= 0) {
+			styleElementsInsertedAtTop.splice(idx, 1);
+		}
+	}
+	
+	function createStyleElement(options) {
+		var styleElement = document.createElement("style");
+		styleElement.type = "text/css";
+		insertStyleElement(options, styleElement);
+		return styleElement;
+	}
+	
+	function createLinkElement(options) {
+		var linkElement = document.createElement("link");
+		linkElement.rel = "stylesheet";
+		insertStyleElement(options, linkElement);
+		return linkElement;
+	}
+	
+	function addStyle(obj, options) {
+		var styleElement, update, remove;
+	
+		if (options.singleton) {
+			var styleIndex = singletonCounter++;
+			styleElement = singletonElement || (singletonElement = createStyleElement(options));
+			update = applyToSingletonTag.bind(null, styleElement, styleIndex, false);
+			remove = applyToSingletonTag.bind(null, styleElement, styleIndex, true);
+		} else if(obj.sourceMap &&
+			typeof URL === "function" &&
+			typeof URL.createObjectURL === "function" &&
+			typeof URL.revokeObjectURL === "function" &&
+			typeof Blob === "function" &&
+			typeof btoa === "function") {
+			styleElement = createLinkElement(options);
+			update = updateLink.bind(null, styleElement);
+			remove = function() {
+				removeStyleElement(styleElement);
+				if(styleElement.href)
+					URL.revokeObjectURL(styleElement.href);
+			};
+		} else {
+			styleElement = createStyleElement(options);
+			update = applyToTag.bind(null, styleElement);
+			remove = function() {
+				removeStyleElement(styleElement);
+			};
+		}
+	
+		update(obj);
+	
+		return function updateStyle(newObj) {
+			if(newObj) {
+				if(newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap)
+					return;
+				update(obj = newObj);
+			} else {
+				remove();
+			}
+		};
+	}
+	
+	var replaceText = (function () {
+		var textStore = [];
+	
+		return function (index, replacement) {
+			textStore[index] = replacement;
+			return textStore.filter(Boolean).join('\n');
+		};
+	})();
+	
+	function applyToSingletonTag(styleElement, index, remove, obj) {
+		var css = remove ? "" : obj.css;
+	
+		if (styleElement.styleSheet) {
+			styleElement.styleSheet.cssText = replaceText(index, css);
+		} else {
+			var cssNode = document.createTextNode(css);
+			var childNodes = styleElement.childNodes;
+			if (childNodes[index]) styleElement.removeChild(childNodes[index]);
+			if (childNodes.length) {
+				styleElement.insertBefore(cssNode, childNodes[index]);
+			} else {
+				styleElement.appendChild(cssNode);
+			}
+		}
+	}
+	
+	function applyToTag(styleElement, obj) {
+		var css = obj.css;
+		var media = obj.media;
+		var sourceMap = obj.sourceMap;
+	
+		if(media) {
+			styleElement.setAttribute("media", media)
+		}
+	
+		if(styleElement.styleSheet) {
+			styleElement.styleSheet.cssText = css;
+		} else {
+			while(styleElement.firstChild) {
+				styleElement.removeChild(styleElement.firstChild);
+			}
+			styleElement.appendChild(document.createTextNode(css));
+		}
+	}
+	
+	function updateLink(linkElement, obj) {
+		var css = obj.css;
+		var media = obj.media;
+		var sourceMap = obj.sourceMap;
+	
+		if(sourceMap) {
+			// http://stackoverflow.com/a/26603875
+			css += "\n/*# sourceMappingURL=data:application/json;base64," + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + " */";
+		}
+	
+		var blob = new Blob([css], { type: "text/css" });
+	
+		var oldSrc = linkElement.href;
+	
+		linkElement.href = URL.createObjectURL(blob);
+	
+		if(oldSrc)
+			URL.revokeObjectURL(oldSrc);
+	}
+
+
+/***/ },
+/* 5 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+	
+	// load the styles
+	var content = __webpack_require__(6);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(4)(content, {"singleton":true});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?minimize!./../../../node_modules/postcss-loader/index.js!./../../../node_modules/sass-loader/index.js!./dao-button.scss", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?minimize!./../../../node_modules/postcss-loader/index.js!./../../../node_modules/sass-loader/index.js!./dao-button.scss");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 6 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(3)();
+	// imports
+	
+	
+	// module
+	exports.push([module.id, ".dao-btn{padding:0 16px;min-width:65px;height:33px;border:1px solid #ccd1d9;border-radius:16px;background-color:transparent;color:#434a54;font-size:14px;line-height:24px;outline:none;cursor:pointer}.dao-btn:focus,.dao-btn:hover{border:1px solid #aab2bd}.dao-btn.btn-disabled,.dao-btn[disabled]{color:#ccd1d9;border:1px solid #ccd1d9}.dao-btn.btn-disabled:focus,.dao-btn.btn-disabled:hover,.dao-btn[disabled]:focus,.dao-btn[disabled]:hover{border:1px solid #ccd1d9}.dao-btn.btn-primary{color:#fff;border:1px solid #5d9cec;background-color:#5d9cec}.dao-btn.btn-primary:focus,.dao-btn.btn-primary:hover{border:1px solid #4a89dc;background-color:#4a89dc}", ""]);
+	
+	// exports
+
+
+/***/ },
+/* 7 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+	
+	// load the styles
+	var content = __webpack_require__(8);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(4)(content, {"singleton":true});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?minimize!./../../../node_modules/postcss-loader/index.js!./../../../node_modules/sass-loader/index.js!./dao-layout.scss", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?minimize!./../../../node_modules/postcss-loader/index.js!./../../../node_modules/sass-loader/index.js!./dao-layout.scss");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 8 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(3)();
+	// imports
+	
+	
+	// module
+	exports.push([module.id, "html.dao.layout body{height:100%;margin:0}.dao.layout,.dao.layout .layout-wrap{overflow:hidden;height:100%;margin:0}.dao.layout .layout-wrap{display:flex;flex-direction:row}.dao.layout .layout-sidebar{display:flex;flex:none}.dao.layout .layout-content{overflow:auto;flex:auto}.dao.layout .layout-content .content-body{padding:20px 40px}.dao.layout .layout-content.has-topbar{display:flex;flex-direction:column}.dao.layout .layout-content.has-topbar.has-topbar-fixed>.content-topbar{flex:none}.dao.layout .layout-content.has-topbar.has-topbar-fixed>.content-body{flex:auto;overflow:auto}", ""]);
+	
+	// exports
+
+
+/***/ },
+/* 9 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+	
+	// load the styles
+	var content = __webpack_require__(10);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(4)(content, {"singleton":true});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?minimize!./../../../node_modules/postcss-loader/index.js!./../../../node_modules/sass-loader/index.js!./dao-nav.scss", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?minimize!./../../../node_modules/postcss-loader/index.js!./../../../node_modules/sass-loader/index.js!./dao-nav.scss");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 10 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(3)();
+	// imports
+	
+	
+	// module
+	exports.push([module.id, ".dao.left-nav{width:60px;background-color:#3d444f}.dao.left-nav .nav-logo{margin:10px auto;width:40px;height:40px}.dao.left-nav .nav-item{display:flex;justify-content:center;cursor:pointer;width:30px;height:30px;padding:14px 15px}.dao.left-nav .nav-item svg{width:100%;height:100%;fill:#9ba3af;transition:fill .2s}.dao.left-nav .nav-item svg:hover{fill:#fff}.dao.top-nav{width:100%;height:40px;background-color:#fff;box-shadow:0 2px 5px #e4e7ed}.dao.top-nav *{box-sizing:border-box}.dao.left-nav .dao.tooltip.in{transform:translateX(5px);animation:tooltipMove .3s ease-out;opacity:1}@keyframes tooltipMove{0%{transform:translateX(-5px);opacity:0}to{transform:translateX(5px);opacity:1}}.dao.left-nav .dao.tooltip.in .tooltip-inner{padding:11px 16px;font-size:14px;background-color:#1f2126;border-radius:6px}.dao.left-nav .dao.tooltip.in .tooltip-arrow{border-width:7px;border-radius:0 0 0 3px;border-color:transparent transparent #1f2126 #1f2126;transform:rotate(45deg);margin-top:-7px}", ""]);
+	
+	// exports
+
+
+/***/ },
+/* 11 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	__webpack_require__(12);
+	
+	__webpack_require__(15);
+	
+	__webpack_require__(16);
+	
+	__webpack_require__(17);
+	
+	__webpack_require__(18);
+
+/***/ },
+/* 12 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(13);;
+	var image = "<symbol viewBox=\"0 0 47 45\" id=\"auto-messages\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <path d=\"M44.063,-0.000 C44.063,-0.000 33.781,6.839 33.781,6.839 C33.781,6.839 33.781,31.349 33.781,31.349 C33.781,31.349 44.063,38.188 44.063,38.188 C44.858,38.188 45.547,37.897 46.128,37.316 C46.710,36.734 47.000,36.046 47.000,35.250 C47.000,35.250 47.000,2.937 47.000,2.937 C47.000,2.142 46.710,1.453 46.128,0.872 C45.547,0.290 44.858,-0.000 44.063,-0.000 ZM-0.000,19.094 C-0.000,21.848 0.841,24.081 2.524,25.795 C4.207,27.509 6.318,28.610 8.858,29.100 C8.828,29.130 8.812,29.169 8.812,29.215 C8.812,29.260 8.812,29.314 8.812,29.375 C8.812,29.375 8.812,41.125 8.812,41.125 C8.812,41.921 9.103,42.609 9.684,43.191 C10.266,43.772 10.954,44.063 11.750,44.063 C11.750,44.063 16.156,44.063 16.156,44.063 C16.952,44.063 17.640,43.772 18.222,43.191 C18.803,42.609 19.094,41.921 19.094,41.125 C19.094,41.125 19.094,29.375 19.094,29.375 C19.094,29.375 23.500,29.375 23.500,29.375 C23.500,29.375 23.500,8.812 23.500,8.812 C23.500,8.812 11.750,8.812 11.750,8.812 C10.128,8.812 8.606,9.042 7.183,9.501 C5.760,9.960 4.513,10.633 3.442,11.520 C2.371,12.408 1.530,13.486 0.918,14.756 C0.306,16.026 -0.000,17.472 -0.000,19.094 ZM26.437,29.375 C26.437,29.375 30.844,29.375 30.844,29.375 C30.844,29.375 30.844,8.812 30.844,8.812 C30.844,8.812 26.437,8.812 26.437,8.812 C26.437,8.812 26.437,29.375 26.437,29.375 Z\" id=\"auto-messages_path-1\" class=\"cls-2\" fill-rule=\"evenodd\"/> </symbol>";
+	module.exports = sprite.add(image, "auto-messages");
+
+/***/ },
+/* 13 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var Sprite = __webpack_require__(14);
+	var globalSprite = new Sprite();
+	
+	if (document.body) {
+	  globalSprite.elem = globalSprite.render(document.body);
+	} else {
+	  document.addEventListener('DOMContentLoaded', function () {
+	    globalSprite.elem = globalSprite.render(document.body);
+	  }, false);
+	}
+	
+	module.exports = globalSprite;
+
+
+/***/ },
+/* 14 */
+/***/ function(module, exports) {
+
+	/**
+	 * List of SVG attributes to fix url target in them
+	 * @type {string[]}
+	 */
+	var fixAttributes = [
+	  'clipPath',
+	  'colorProfile',
+	  'src',
+	  'cursor',
+	  'fill',
+	  'filter',
+	  'marker',
+	  'markerStart',
+	  'markerMid',
+	  'markerEnd',
+	  'mask',
+	  'stroke'
+	];
+	
+	/**
+	 * Query to find'em
+	 * @type {string}
+	 */
+	var fixAttributesQuery = '[' + fixAttributes.join('],[') + ']';
+	/**
+	 * @type {RegExp}
+	 */
+	var URI_FUNC_REGEX = /^url\((.*)\)$/;
+	
+	/**
+	 * Convert array-like to array
+	 * @param {Object} arrayLike
+	 * @returns {Array.<*>}
+	 */
+	function arrayFrom(arrayLike) {
+	  return Array.prototype.slice.call(arrayLike, 0);
+	}
+	
+	/**
+	 * Handles forbidden symbols which cannot be directly used inside attributes with url(...) content.
+	 * Adds leading slash for the brackets
+	 * @param {string} url
+	 * @return {string} encoded url
+	 */
+	function encodeUrlForEmbedding(url) {
+	  return url.replace(/\(|\)/g, "\\$&");
+	}
+	
+	/**
+	 * Replaces prefix in `url()` functions
+	 * @param {Element} svg
+	 * @param {string} currentUrlPrefix
+	 * @param {string} newUrlPrefix
+	 */
+	function baseUrlWorkAround(svg, currentUrlPrefix, newUrlPrefix) {
+	  var nodes = svg.querySelectorAll(fixAttributesQuery);
+	
+	  if (!nodes) {
+	    return;
+	  }
+	
+	  arrayFrom(nodes).forEach(function (node) {
+	    if (!node.attributes) {
+	      return;
+	    }
+	
+	    arrayFrom(node.attributes).forEach(function (attribute) {
+	      if (fixAttributes.indexOf(attribute.localName) !== -1) {
+	        var match = URI_FUNC_REGEX.exec(node.getAttribute(attribute.localName));
+	
+	        // Do not touch urls with unexpected prefix
+	        if (match && match[1].indexOf(currentUrlPrefix) === 0) {
+	          var referenceUrl = encodeUrlForEmbedding(newUrlPrefix + match[1].split(currentUrlPrefix)[1]);
+	          node.setAttribute(attribute.localName, 'url(' + referenceUrl + ')');
+	        }
+	      }
+	    });
+	  });
+	}
+	
+	/**
+	 * Because of Firefox bug #353575 gradients and patterns don't work if they are within a symbol.
+	 * To workaround this we move the gradient definition outside the symbol element
+	 * @see https://bugzilla.mozilla.org/show_bug.cgi?id=353575
+	 * @param {Element} svg
+	 */
+	var FirefoxSymbolBugWorkaround = function (svg) {
+	  var defs = svg.querySelector('defs');
+	
+	  var moveToDefsElems = svg.querySelectorAll('symbol linearGradient, symbol radialGradient, symbol pattern');
+	  for (var i = 0, len = moveToDefsElems.length; i < len; i++) {
+	    defs.appendChild(moveToDefsElems[i]);
+	  }
+	};
+	
+	/**
+	 * @type {string}
+	 */
+	var DEFAULT_URI_PREFIX = '#';
+	
+	/**
+	 * @type {string}
+	 */
+	var xLinkHref = 'xlink:href';
+	/**
+	 * @type {string}
+	 */
+	var xLinkNS = 'http://www.w3.org/1999/xlink';
+	/**
+	 * @type {string}
+	 */
+	var svgOpening = '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="' + xLinkNS + '"';
+	/**
+	 * @type {string}
+	 */
+	var svgClosing = '</svg>';
+	/**
+	 * @type {string}
+	 */
+	var contentPlaceHolder = '{content}';
+	
+	/**
+	 * Representation of SVG sprite
+	 * @constructor
+	 */
+	function Sprite() {
+	  var baseElement = document.getElementsByTagName('base')[0];
+	  var currentUrl = window.location.href.split('#')[0];
+	  var baseUrl = baseElement && baseElement.href;
+	  this.urlPrefix = baseUrl && baseUrl !== currentUrl ? currentUrl + DEFAULT_URI_PREFIX : DEFAULT_URI_PREFIX;
+	
+	  this.content = [];
+	  this.isFirefox = /firefox\//i.test(navigator.userAgent);
+	  this.isIE = /(trident|edge)\//i.test(navigator.userAgent);
+	
+	  if (!this.isIE && baseUrl) {
+	    window.addEventListener('spriteLoaderLocationUpdated', function (e) {
+	      var currentPrefix = this.urlPrefix;
+	      var newUrlPrefix = e.detail.newUrl.split(DEFAULT_URI_PREFIX)[0] + DEFAULT_URI_PREFIX;
+	      baseUrlWorkAround(this.svg, currentPrefix, newUrlPrefix);
+	      this.urlPrefix = newUrlPrefix;
+	
+	      if (this.isFirefox) {
+	        var nodes = arrayFrom(document.querySelectorAll('use[*|href]'));
+	        nodes.forEach(function (node) {
+	          var href = node.getAttribute(xLinkHref);
+	          if (href && href.indexOf(currentPrefix) === 0) {
+	            node.setAttributeNS(xLinkNS, xLinkHref, newUrlPrefix + href.split(DEFAULT_URI_PREFIX)[1]);
+	          }
+	        });
+	      }
+	    }.bind(this));
+	  }
+	}
+	
+	Sprite.styles = ['position:absolute', 'width:0', 'height:0', 'visibility:hidden'];
+	
+	Sprite.spriteTemplate = svgOpening + ' style="'+ Sprite.styles.join(';') +'"><defs>' + contentPlaceHolder + '</defs>' + svgClosing;
+	Sprite.symbolTemplate = svgOpening + '>' + contentPlaceHolder + svgClosing;
+	
+	/**
+	 * @type {Array<String>}
+	 */
+	Sprite.prototype.content = null;
+	
+	/**
+	 * @param {String} content
+	 * @param {String} id
+	 */
+	Sprite.prototype.add = function (content, id) {
+	  if (this.svg) {
+	    this.appendSymbol(content);
+	  }
+	
+	  this.content.push(content);
+	
+	  return DEFAULT_URI_PREFIX + id;
+	};
+	
+	/**
+	 *
+	 * @param content
+	 * @param template
+	 * @returns {Element}
+	 */
+	Sprite.prototype.wrapSVG = function (content, template) {
+	  var svgString = template.replace(contentPlaceHolder, content);
+	
+	  var svg = new DOMParser().parseFromString(svgString, 'image/svg+xml').documentElement;
+	
+	  if (!this.isIE && this.urlPrefix) {
+	    baseUrlWorkAround(svg, DEFAULT_URI_PREFIX, this.urlPrefix);
+	  }
+	
+	  return svg;
+	};
+	
+	Sprite.prototype.appendSymbol = function (content) {
+	  var symbol = this.wrapSVG(content, Sprite.symbolTemplate).childNodes[0];
+	
+	  this.svg.querySelector('defs').appendChild(symbol);
+	  if (this.isFirefox) {
+	    FirefoxSymbolBugWorkaround(this.svg);
+	  }
+	};
+	
+	/**
+	 * @returns {String}
+	 */
+	Sprite.prototype.toString = function () {
+	  var wrapper = document.createElement('div');
+	  wrapper.appendChild(this.render());
+	  return wrapper.innerHTML;
+	};
+	
+	/**
+	 * @param {HTMLElement} [target]
+	 * @param {Boolean} [prepend=true]
+	 * @returns {HTMLElement} Rendered sprite node
+	 */
+	Sprite.prototype.render = function (target, prepend) {
+	  target = target || null;
+	  prepend = typeof prepend === 'boolean' ? prepend : true;
+	
+	  var svg = this.wrapSVG(this.content.join(''), Sprite.spriteTemplate);
+	
+	  if (this.isFirefox) {
+	    FirefoxSymbolBugWorkaround(svg);
+	  }
+	
+	  if (target) {
+	    if (prepend && target.childNodes[0]) {
+	      target.insertBefore(svg, target.childNodes[0]);
+	    } else {
+	      target.appendChild(svg);
+	    }
+	  }
+	
+	  this.svg = svg;
+	
+	  return svg;
+	};
+	
+	module.exports = Sprite;
+
+
+/***/ },
+/* 15 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(13);;
+	var image = "<symbol viewBox=\"0 0 46 46\" id=\"conversation\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <path d=\"M26.469,0.000 C31.719,0.000 36.203,1.805 39.922,5.414 C43.641,9.024 45.500,13.344 45.500,18.375 C45.500,21.802 44.479,25.083 42.438,28.219 C42.438,28.219 42.328,28.328 42.328,28.328 C42.255,28.401 42.219,28.474 42.219,28.547 C42.000,28.984 41.891,29.422 41.891,29.859 C41.891,29.859 43.750,37.953 43.750,37.953 C43.750,37.953 36.203,35.109 36.203,35.109 C35.766,34.964 35.401,34.891 35.109,34.891 C34.891,34.891 34.562,34.964 34.125,35.109 C34.125,35.109 33.906,35.219 33.906,35.219 C33.323,35.438 32.448,35.693 31.281,35.984 C29.750,36.422 28.146,36.641 26.469,36.641 C21.219,36.641 16.753,34.854 13.070,31.281 C9.388,27.708 7.547,23.406 7.547,18.375 C7.547,17.063 7.656,15.787 7.875,14.547 C8.750,10.391 10.937,6.927 14.438,4.156 C17.938,1.385 21.948,0.000 26.469,0.000 ZM2.734,37.516 C2.661,37.443 2.625,37.406 2.625,37.406 C2.625,37.406 2.625,37.188 2.625,37.188 C0.875,34.635 -0.000,31.828 -0.000,28.766 C-0.000,24.099 1.786,20.234 5.359,17.172 C5.068,18.776 4.922,20.016 4.922,20.891 C4.922,25.922 6.781,30.242 10.500,33.852 C14.219,37.461 18.703,39.266 23.953,39.266 C25.630,39.266 27.234,39.047 28.766,38.609 C25.484,42.474 21.292,44.406 16.188,44.406 C14.219,44.406 12.104,43.969 9.844,43.094 C9.844,43.094 9.734,43.094 9.734,43.094 C9.443,42.948 9.151,42.875 8.859,42.875 C8.641,42.875 8.312,42.948 7.875,43.094 C7.875,43.094 1.750,45.500 1.750,45.500 C1.750,45.500 3.063,38.609 3.063,38.609 C3.063,38.245 2.953,37.880 2.734,37.516 Z\" id=\"conversation_path-1\" class=\"cls-2\" fill-rule=\"evenodd\"/> </symbol>";
+	module.exports = sprite.add(image, "conversation");
+
+/***/ },
+/* 16 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(13);;
+	var image = "<symbol viewBox=\"0 0 200 200\" id=\"dont-starve\" ><title>dont-starve</title><rect width=\"200\" height=\"200\" fill=\"#93c1d1\"/><path d=\"M321.556,1612.9c0,1.628,1.32,3.446,1.632,5.327,0.11,0.664,1.132,1.376,1.272,2.055a90.267,90.267,0,0,0,5.117,16.663,69.932,69.932,0,0,0,9.648,15.663c4.843,6.149,17.1,15.173,20.98,15.173,2.309,0,14.441-10.977,20.986-32.9,0.777-2.6,1.859-10.517,2.95-17.184,0.983-6.01,1.872-11,1.872-11L384,1602.342l2.012-26.073-32.172,12.942-38.014-6.322,1.462,19.764A15.5,15.5,0,0,1,321.556,1612.9Z\" transform=\"translate(-250 -1500)\" fill=\"#fff\"/><ellipse cx=\"342.34\" cy=\"1620.189\" rx=\"7.111\" ry=\"8.141\" transform=\"translate(-684.93 -1342.022) rotate(-16.063)\" fill=\"#93c1d1\" opacity=\"0.3\"/><ellipse cx=\"367.641\" cy=\"1618.685\" rx=\"7.413\" ry=\"8.246\" transform=\"translate(-683.526 -1335.08) rotate(-16.063)\" fill=\"#93c1d1\" opacity=\"0.3\"/><path d=\"M330.9,1611.223l17.3,1.992a0.7,0.7,0,0,0,.825-0.641l-0.105-2.74a0.681,0.681,0,0,0-.773-0.589l-17.216,1.239A0.369,0.369,0,1,0,330.9,1611.223Z\" transform=\"translate(-250 -1500)\" fill=\"#212223\"/><path d=\"M362.072,1608.185l-0.83,3.567a0.624,0.624,0,0,0,.7.72l16.921-1.125a0.356,0.356,0,0,0,.049-0.711l-16.058-2.916A0.667,0.667,0,0,0,362.072,1608.185Z\" transform=\"translate(-250 -1500)\" fill=\"#212223\"/><ellipse cx=\"94.844\" cy=\"120.984\" rx=\"2.482\" ry=\"3.552\" fill=\"#212223\"/><ellipse cx=\"365.41\" cy=\"1618.565\" rx=\"3.177\" ry=\"1.816\" transform=\"translate(-1541.707 203.659) rotate(-80.218)\" fill=\"#212223\"/><path d=\"M345.126,1627.1l3.754-2.457a0.259,0.259,0,0,1,.3.425l-3.592,2.688a0.4,0.4,0,0,1-.479-0.641Z\" transform=\"translate(-250 -1500)\" fill=\"#212223\"/><path d=\"M362.157,1623.7l2.657,1.77a0.4,0.4,0,0,1-.444.666l-0.025-.018-2.512-1.97A0.277,0.277,0,0,1,362.157,1623.7Z\" transform=\"translate(-250 -1500)\" fill=\"#212223\"/><path d=\"M359.425,1638.265l-0.711-15.923a0.25,0.25,0,0,0-.5.009l-0.128,14.6-2.494-1.836a0.394,0.394,0,0,0-.506.6l3.229,3.076a0.657,0.657,0,0,0,1.11-.505v-0.024Z\" transform=\"translate(-250 -1500)\" fill=\"#212223\"/><path d=\"M352.282,1644.834l10.462-3.514a0.252,0.252,0,0,1,.175.471l-10.22,4.167a0.6,0.6,0,0,1-.453-1.112Z\" transform=\"translate(-250 -1500)\" fill=\"#212223\"/><path d=\"M398.98,1597l-7.929-2.587s16.392-18.776,16.392-22.074-24.949-39.771-29.856-40.11c-7.41-.511-10.007,20.538-3.213,20.538,4.2,0,6.116-4.731,6.116-4.731s-3.431,2.963-5.322,1.248c-1.461-1.325-.566-10.709,3.614-10.709,2.607,0,4.88,9.463,3.918,14.772-0.967,5.333-8.766,14.454-14.647,14.454-5.681,0-2.951-8.328,0-10.15,0,0-21.114-18.485-30.014-18.485-11.028,0-10.805,24.624-10.805,24.624s3.463-11.3,6.42-11.3c3.471,0,12.495,20.919-6.406,19.558-5.9-.425-13.552-10.162-13.552-17.091a21.655,21.655,0,0,1,9.031-18.118c-8.076,0-33.969,35.638-33.969,39.894s19.836,26.441,19.836,26.441l-5.631,6.056a1.179,1.179,0,0,0,.151,1.742l9.941,7.531a4.414,4.414,0,0,0,2.228.874l8.69,0.864s-2.149-11,1.2-19.876a0.961,0.961,0,0,0,.043-0.921c-1.8-2.662-6.632-10.257-5.461-11.987,1.192-1.762,18.8-.867,33,4.932A2.281,2.281,0,0,0,355,1592.1c11.63-8.691,25.03-9.794,26.8-9.145,1.473,0.539.713,10.836-1.192,16.645a1.038,1.038,0,0,0,.114.858c2.345,4,2.934,17.2,2.934,17.2l15.618-19.225A0.947,0.947,0,0,0,398.98,1597Z\" transform=\"translate(-250 -1500)\" fill=\"#212223\"/><path d=\"M327.042,1629.037s-2.283,5.25-4.708,5.716c-2.729.524-8.405-13.232-6.529-17.187,1.038-2.187,8.64,1.983,8.64,1.983Z\" transform=\"translate(-250 -1500)\" fill=\"#fff\"/><path d=\"M381.262,1625.319s3.238,3.983,4.966,3.561c1.611-.393,4.082-7.48,4.565-10.095s0.794-7.1-.675-7.651-7.347,7.49-7.347,7.49Z\" transform=\"translate(-250 -1500)\" fill=\"#fff\"/></symbol>";
+	module.exports = sprite.add(image, "dont-starve");
+
+/***/ },
+/* 17 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(13);;
+	var image = "<symbol viewBox=\"0 0 46 46\" id=\"manual-messages\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <path d=\"M12.250,19.250 C11.229,19.250 10.391,19.578 9.734,20.234 C9.078,20.891 8.750,21.729 8.750,22.750 C8.750,23.771 9.078,24.609 9.734,25.266 C10.391,25.922 11.229,26.250 12.250,26.250 C13.271,26.250 14.109,25.922 14.766,25.266 C15.422,24.609 15.750,23.771 15.750,22.750 C15.750,21.729 15.422,20.891 14.766,20.234 C14.109,19.578 13.271,19.250 12.250,19.250 ZM22.750,19.250 C21.729,19.250 20.891,19.578 20.234,20.234 C19.578,20.891 19.250,21.729 19.250,22.750 C19.250,23.771 19.578,24.609 20.234,25.266 C20.891,25.922 21.729,26.250 22.750,26.250 C23.771,26.250 24.609,25.922 25.266,25.266 C25.922,24.609 26.250,23.771 26.250,22.750 C26.250,21.729 25.922,20.891 25.266,20.234 C24.609,19.578 23.771,19.250 22.750,19.250 ZM33.250,19.250 C32.229,19.250 31.391,19.578 30.734,20.234 C30.078,20.891 29.750,21.729 29.750,22.750 C29.750,23.771 30.078,24.609 30.734,25.266 C31.391,25.922 32.229,26.250 33.250,26.250 C34.271,26.250 35.109,25.922 35.766,25.266 C36.422,24.609 36.750,23.771 36.750,22.750 C36.750,21.729 36.422,20.891 35.766,20.234 C35.109,19.578 34.271,19.250 33.250,19.250 ZM22.750,43.859 C16.479,43.859 11.120,41.727 6.672,37.461 C2.224,33.195 -0.000,28.036 -0.000,21.984 C-0.000,15.932 2.224,10.755 6.672,6.453 C11.120,2.151 16.479,0.000 22.750,0.000 C29.021,0.000 34.380,2.151 38.828,6.453 C43.276,10.755 45.500,15.932 45.500,21.984 C45.500,26.287 44.297,30.224 41.891,33.797 C41.818,33.870 41.745,33.943 41.672,34.016 C41.599,34.089 41.562,34.162 41.562,34.234 C41.271,34.818 41.125,35.365 41.125,35.875 C41.125,35.875 43.531,45.500 43.531,45.500 C43.531,45.500 34.344,42.109 34.344,42.109 C34.052,41.964 33.615,41.891 33.031,41.891 C32.812,41.891 32.411,41.964 31.828,42.109 C31.755,42.109 31.719,42.128 31.719,42.164 C31.719,42.201 31.682,42.219 31.609,42.219 C28.911,43.312 25.958,43.859 22.750,43.859 Z\" id=\"manual-messages_path-1\" class=\"cls-2\" fill-rule=\"evenodd\"/> </symbol>";
+	module.exports = sprite.add(image, "manual-messages");
+
+/***/ },
+/* 18 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(13);;
+	var image = "<symbol viewBox=\"0 0 58 53\" id=\"users\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <path d=\"M-0.012,52.500 C-0.012,52.172 0.006,51.739 0.042,51.201 C0.079,50.663 0.279,49.798 0.644,48.604 C1.009,47.410 1.519,46.484 2.175,45.828 C2.813,45.190 4.080,44.488 5.976,43.723 C7.872,42.957 10.014,42.150 12.403,41.303 C14.791,40.455 16.541,39.749 17.653,39.184 C19.057,38.473 20.146,37.434 20.921,36.066 C21.696,34.699 22.083,33.277 22.083,31.801 C22.083,30.798 21.482,29.613 20.279,28.246 C19.057,26.842 18.068,24.933 17.311,22.518 C16.555,20.102 16.177,17.318 16.177,14.164 C16.177,11.794 16.514,9.684 17.188,7.834 C17.863,5.984 18.783,4.503 19.950,3.391 C21.117,2.279 22.443,1.436 23.929,0.861 C25.415,0.287 27.006,0.000 28.701,0.000 C30.397,0.000 31.978,0.287 33.446,0.861 C34.913,1.436 36.235,2.279 37.411,3.391 C38.587,4.503 39.512,5.984 40.187,7.834 C40.861,9.684 41.198,11.794 41.198,14.164 C41.198,17.318 40.825,20.102 40.077,22.518 C39.330,24.933 38.345,26.842 37.124,28.246 C35.902,29.632 35.292,30.816 35.292,31.801 C35.292,33.259 35.684,34.677 36.467,36.053 C37.251,37.429 38.345,38.473 39.749,39.184 C40.861,39.749 42.611,40.455 44.999,41.303 C47.388,42.150 49.521,42.957 51.399,43.723 C53.276,44.488 54.534,45.190 55.172,45.828 C55.829,46.484 56.339,47.369 56.704,48.480 C57.068,49.592 57.269,50.540 57.305,51.324 C57.305,51.324 57.387,52.500 57.387,52.500 C57.387,52.500 -0.012,52.500 -0.012,52.500 Z\" id=\"users_path-1\" class=\"cls-2\" fill-rule=\"evenodd\"/> </symbol>";
+	module.exports = sprite.add(image, "users");
+
+/***/ },
+/* 19 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -250,7 +1063,7 @@
 	exports.default = register;
 
 /***/ },
-/* 2 */
+/* 20 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -259,21 +1072,21 @@
 	  value: true
 	});
 	
-	var _dialog = __webpack_require__(3);
+	var _dialog = __webpack_require__(21);
 	
 	var dialog = _interopRequireWildcard(_dialog);
 	
-	__webpack_require__(18);
+	__webpack_require__(36);
 	
-	var _daoDialogHeader = __webpack_require__(22);
+	var _daoDialogHeader = __webpack_require__(38);
 	
 	var _daoDialogHeader2 = _interopRequireDefault(_daoDialogHeader);
 	
-	var _daoMultiStep = __webpack_require__(24);
+	var _daoMultiStep = __webpack_require__(40);
 	
 	var _daoMultiStep2 = _interopRequireDefault(_daoMultiStep);
 	
-	var _daoStep = __webpack_require__(31);
+	var _daoStep = __webpack_require__(47);
 	
 	var _daoStep2 = _interopRequireDefault(_daoStep);
 	
@@ -288,7 +1101,7 @@
 	exports.default = 'dao.dialog';
 
 /***/ },
-/* 3 */
+/* 21 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -307,15 +1120,15 @@
 	exports.daoDialogAnimationClass = daoDialogAnimationClass;
 	exports.daoDialogTransclude = daoDialogTransclude;
 	
-	var _keys = __webpack_require__(4);
+	var _keys = __webpack_require__(22);
 	
 	var _keys2 = _interopRequireDefault(_keys);
 	
-	var _daoBackdrop = __webpack_require__(16);
+	var _daoBackdrop = __webpack_require__(34);
 	
 	var _daoBackdrop2 = _interopRequireDefault(_daoBackdrop);
 	
-	var _daoWindow = __webpack_require__(17);
+	var _daoWindow = __webpack_require__(35);
 	
 	var _daoWindow2 = _interopRequireDefault(_daoWindow);
 	
@@ -1081,43 +1894,43 @@
 	}
 
 /***/ },
-/* 4 */
+/* 22 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = { "default": __webpack_require__(5), __esModule: true };
+	module.exports = { "default": __webpack_require__(23), __esModule: true };
 
 /***/ },
-/* 5 */
+/* 23 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(6);
-	module.exports = __webpack_require__(12).Object.keys;
+	__webpack_require__(24);
+	module.exports = __webpack_require__(30).Object.keys;
 
 /***/ },
-/* 6 */
+/* 24 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 19.1.2.14 Object.keys(O)
-	var toObject = __webpack_require__(7);
+	var toObject = __webpack_require__(25);
 	
-	__webpack_require__(9)('keys', function($keys){
+	__webpack_require__(27)('keys', function($keys){
 	  return function keys(it){
 	    return $keys(toObject(it));
 	  };
 	});
 
 /***/ },
-/* 7 */
+/* 25 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 7.1.13 ToObject(argument)
-	var defined = __webpack_require__(8);
+	var defined = __webpack_require__(26);
 	module.exports = function(it){
 	  return Object(defined(it));
 	};
 
 /***/ },
-/* 8 */
+/* 26 */
 /***/ function(module, exports) {
 
 	// 7.2.1 RequireObjectCoercible(argument)
@@ -1127,13 +1940,13 @@
 	};
 
 /***/ },
-/* 9 */
+/* 27 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// most Object methods by ES6 should accept primitives
-	var $export = __webpack_require__(10)
-	  , core    = __webpack_require__(12)
-	  , fails   = __webpack_require__(15);
+	var $export = __webpack_require__(28)
+	  , core    = __webpack_require__(30)
+	  , fails   = __webpack_require__(33);
 	module.exports = function(KEY, exec){
 	  var fn  = (core.Object || {})[KEY] || Object[KEY]
 	    , exp = {};
@@ -1142,12 +1955,12 @@
 	};
 
 /***/ },
-/* 10 */
+/* 28 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var global    = __webpack_require__(11)
-	  , core      = __webpack_require__(12)
-	  , ctx       = __webpack_require__(13)
+	var global    = __webpack_require__(29)
+	  , core      = __webpack_require__(30)
+	  , ctx       = __webpack_require__(31)
 	  , PROTOTYPE = 'prototype';
 	
 	var $export = function(type, name, source){
@@ -1193,7 +2006,7 @@
 	module.exports = $export;
 
 /***/ },
-/* 11 */
+/* 29 */
 /***/ function(module, exports) {
 
 	// https://github.com/zloirock/core-js/issues/86#issuecomment-115759028
@@ -1202,18 +2015,18 @@
 	if(typeof __g == 'number')__g = global; // eslint-disable-line no-undef
 
 /***/ },
-/* 12 */
+/* 30 */
 /***/ function(module, exports) {
 
 	var core = module.exports = {version: '1.2.6'};
 	if(typeof __e == 'number')__e = core; // eslint-disable-line no-undef
 
 /***/ },
-/* 13 */
+/* 31 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// optional / simple context binding
-	var aFunction = __webpack_require__(14);
+	var aFunction = __webpack_require__(32);
 	module.exports = function(fn, that, length){
 	  aFunction(fn);
 	  if(that === undefined)return fn;
@@ -1234,7 +2047,7 @@
 	};
 
 /***/ },
-/* 14 */
+/* 32 */
 /***/ function(module, exports) {
 
 	module.exports = function(it){
@@ -1243,7 +2056,7 @@
 	};
 
 /***/ },
-/* 15 */
+/* 33 */
 /***/ function(module, exports) {
 
 	module.exports = function(exec){
@@ -1255,28 +2068,28 @@
 	};
 
 /***/ },
-/* 16 */
+/* 34 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao backdrop\" ng-style=\"{'z-index': 1040 + (index && 1 || 0) + index*10}\"></div>"
 
 /***/ },
-/* 17 */
+/* 35 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao dialog dialog-overlay\" dialog-render={{$isRendered}} tabindex=-1 role=dialog ng-style=\"{'z-index': 1050 + index*10, display: 'flex'}\"><div class=dialog-overlay-inner><div class=\"dialog-container show-dialog\" dao-dialog-transclude></div></div></div>"
 
 /***/ },
-/* 18 */
+/* 36 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(19);
+	var content = __webpack_require__(37);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(21)(content, {"singleton":true});
+	var update = __webpack_require__(4)(content, {"singleton":true});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -1293,10 +2106,10 @@
 	}
 
 /***/ },
-/* 19 */
+/* 37 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(20)();
+	exports = module.exports = __webpack_require__(3)();
 	// imports
 	
 	
@@ -1307,317 +2120,7 @@
 
 
 /***/ },
-/* 20 */
-/***/ function(module, exports) {
-
-	/*
-		MIT License http://www.opensource.org/licenses/mit-license.php
-		Author Tobias Koppers @sokra
-	*/
-	// css base code, injected by the css-loader
-	module.exports = function() {
-		var list = [];
-	
-		// return the list of modules as css string
-		list.toString = function toString() {
-			var result = [];
-			for(var i = 0; i < this.length; i++) {
-				var item = this[i];
-				if(item[2]) {
-					result.push("@media " + item[2] + "{" + item[1] + "}");
-				} else {
-					result.push(item[1]);
-				}
-			}
-			return result.join("");
-		};
-	
-		// import a list of modules into the list
-		list.i = function(modules, mediaQuery) {
-			if(typeof modules === "string")
-				modules = [[null, modules, ""]];
-			var alreadyImportedModules = {};
-			for(var i = 0; i < this.length; i++) {
-				var id = this[i][0];
-				if(typeof id === "number")
-					alreadyImportedModules[id] = true;
-			}
-			for(i = 0; i < modules.length; i++) {
-				var item = modules[i];
-				// skip already imported module
-				// this implementation is not 100% perfect for weird media query combinations
-				//  when a module is imported multiple times with different media queries.
-				//  I hope this will never occur (Hey this way we have smaller bundles)
-				if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
-					if(mediaQuery && !item[2]) {
-						item[2] = mediaQuery;
-					} else if(mediaQuery) {
-						item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
-					}
-					list.push(item);
-				}
-			}
-		};
-		return list;
-	};
-
-
-/***/ },
-/* 21 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/*
-		MIT License http://www.opensource.org/licenses/mit-license.php
-		Author Tobias Koppers @sokra
-	*/
-	var stylesInDom = {},
-		memoize = function(fn) {
-			var memo;
-			return function () {
-				if (typeof memo === "undefined") memo = fn.apply(this, arguments);
-				return memo;
-			};
-		},
-		isOldIE = memoize(function() {
-			return /msie [6-9]\b/.test(window.navigator.userAgent.toLowerCase());
-		}),
-		getHeadElement = memoize(function () {
-			return document.head || document.getElementsByTagName("head")[0];
-		}),
-		singletonElement = null,
-		singletonCounter = 0,
-		styleElementsInsertedAtTop = [];
-	
-	module.exports = function(list, options) {
-		if(false) {
-			if(typeof document !== "object") throw new Error("The style-loader cannot be used in a non-browser environment");
-		}
-	
-		options = options || {};
-		// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
-		// tags it will allow on a page
-		if (typeof options.singleton === "undefined") options.singleton = isOldIE();
-	
-		// By default, add <style> tags to the bottom of <head>.
-		if (typeof options.insertAt === "undefined") options.insertAt = "bottom";
-	
-		var styles = listToStyles(list);
-		addStylesToDom(styles, options);
-	
-		return function update(newList) {
-			var mayRemove = [];
-			for(var i = 0; i < styles.length; i++) {
-				var item = styles[i];
-				var domStyle = stylesInDom[item.id];
-				domStyle.refs--;
-				mayRemove.push(domStyle);
-			}
-			if(newList) {
-				var newStyles = listToStyles(newList);
-				addStylesToDom(newStyles, options);
-			}
-			for(var i = 0; i < mayRemove.length; i++) {
-				var domStyle = mayRemove[i];
-				if(domStyle.refs === 0) {
-					for(var j = 0; j < domStyle.parts.length; j++)
-						domStyle.parts[j]();
-					delete stylesInDom[domStyle.id];
-				}
-			}
-		};
-	}
-	
-	function addStylesToDom(styles, options) {
-		for(var i = 0; i < styles.length; i++) {
-			var item = styles[i];
-			var domStyle = stylesInDom[item.id];
-			if(domStyle) {
-				domStyle.refs++;
-				for(var j = 0; j < domStyle.parts.length; j++) {
-					domStyle.parts[j](item.parts[j]);
-				}
-				for(; j < item.parts.length; j++) {
-					domStyle.parts.push(addStyle(item.parts[j], options));
-				}
-			} else {
-				var parts = [];
-				for(var j = 0; j < item.parts.length; j++) {
-					parts.push(addStyle(item.parts[j], options));
-				}
-				stylesInDom[item.id] = {id: item.id, refs: 1, parts: parts};
-			}
-		}
-	}
-	
-	function listToStyles(list) {
-		var styles = [];
-		var newStyles = {};
-		for(var i = 0; i < list.length; i++) {
-			var item = list[i];
-			var id = item[0];
-			var css = item[1];
-			var media = item[2];
-			var sourceMap = item[3];
-			var part = {css: css, media: media, sourceMap: sourceMap};
-			if(!newStyles[id])
-				styles.push(newStyles[id] = {id: id, parts: [part]});
-			else
-				newStyles[id].parts.push(part);
-		}
-		return styles;
-	}
-	
-	function insertStyleElement(options, styleElement) {
-		var head = getHeadElement();
-		var lastStyleElementInsertedAtTop = styleElementsInsertedAtTop[styleElementsInsertedAtTop.length - 1];
-		if (options.insertAt === "top") {
-			if(!lastStyleElementInsertedAtTop) {
-				head.insertBefore(styleElement, head.firstChild);
-			} else if(lastStyleElementInsertedAtTop.nextSibling) {
-				head.insertBefore(styleElement, lastStyleElementInsertedAtTop.nextSibling);
-			} else {
-				head.appendChild(styleElement);
-			}
-			styleElementsInsertedAtTop.push(styleElement);
-		} else if (options.insertAt === "bottom") {
-			head.appendChild(styleElement);
-		} else {
-			throw new Error("Invalid value for parameter 'insertAt'. Must be 'top' or 'bottom'.");
-		}
-	}
-	
-	function removeStyleElement(styleElement) {
-		styleElement.parentNode.removeChild(styleElement);
-		var idx = styleElementsInsertedAtTop.indexOf(styleElement);
-		if(idx >= 0) {
-			styleElementsInsertedAtTop.splice(idx, 1);
-		}
-	}
-	
-	function createStyleElement(options) {
-		var styleElement = document.createElement("style");
-		styleElement.type = "text/css";
-		insertStyleElement(options, styleElement);
-		return styleElement;
-	}
-	
-	function createLinkElement(options) {
-		var linkElement = document.createElement("link");
-		linkElement.rel = "stylesheet";
-		insertStyleElement(options, linkElement);
-		return linkElement;
-	}
-	
-	function addStyle(obj, options) {
-		var styleElement, update, remove;
-	
-		if (options.singleton) {
-			var styleIndex = singletonCounter++;
-			styleElement = singletonElement || (singletonElement = createStyleElement(options));
-			update = applyToSingletonTag.bind(null, styleElement, styleIndex, false);
-			remove = applyToSingletonTag.bind(null, styleElement, styleIndex, true);
-		} else if(obj.sourceMap &&
-			typeof URL === "function" &&
-			typeof URL.createObjectURL === "function" &&
-			typeof URL.revokeObjectURL === "function" &&
-			typeof Blob === "function" &&
-			typeof btoa === "function") {
-			styleElement = createLinkElement(options);
-			update = updateLink.bind(null, styleElement);
-			remove = function() {
-				removeStyleElement(styleElement);
-				if(styleElement.href)
-					URL.revokeObjectURL(styleElement.href);
-			};
-		} else {
-			styleElement = createStyleElement(options);
-			update = applyToTag.bind(null, styleElement);
-			remove = function() {
-				removeStyleElement(styleElement);
-			};
-		}
-	
-		update(obj);
-	
-		return function updateStyle(newObj) {
-			if(newObj) {
-				if(newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap)
-					return;
-				update(obj = newObj);
-			} else {
-				remove();
-			}
-		};
-	}
-	
-	var replaceText = (function () {
-		var textStore = [];
-	
-		return function (index, replacement) {
-			textStore[index] = replacement;
-			return textStore.filter(Boolean).join('\n');
-		};
-	})();
-	
-	function applyToSingletonTag(styleElement, index, remove, obj) {
-		var css = remove ? "" : obj.css;
-	
-		if (styleElement.styleSheet) {
-			styleElement.styleSheet.cssText = replaceText(index, css);
-		} else {
-			var cssNode = document.createTextNode(css);
-			var childNodes = styleElement.childNodes;
-			if (childNodes[index]) styleElement.removeChild(childNodes[index]);
-			if (childNodes.length) {
-				styleElement.insertBefore(cssNode, childNodes[index]);
-			} else {
-				styleElement.appendChild(cssNode);
-			}
-		}
-	}
-	
-	function applyToTag(styleElement, obj) {
-		var css = obj.css;
-		var media = obj.media;
-		var sourceMap = obj.sourceMap;
-	
-		if(media) {
-			styleElement.setAttribute("media", media)
-		}
-	
-		if(styleElement.styleSheet) {
-			styleElement.styleSheet.cssText = css;
-		} else {
-			while(styleElement.firstChild) {
-				styleElement.removeChild(styleElement.firstChild);
-			}
-			styleElement.appendChild(document.createTextNode(css));
-		}
-	}
-	
-	function updateLink(linkElement, obj) {
-		var css = obj.css;
-		var media = obj.media;
-		var sourceMap = obj.sourceMap;
-	
-		if(sourceMap) {
-			// http://stackoverflow.com/a/26603875
-			css += "\n/*# sourceMappingURL=data:application/json;base64," + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + " */";
-		}
-	
-		var blob = new Blob([css], { type: "text/css" });
-	
-		var oldSrc = linkElement.href;
-	
-		linkElement.href = URL.createObjectURL(blob);
-	
-		if(oldSrc)
-			URL.revokeObjectURL(oldSrc);
-	}
-
-
-/***/ },
-/* 22 */
+/* 38 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1626,7 +2129,7 @@
 	  value: true
 	});
 	
-	var _daoDialogHeader = __webpack_require__(23);
+	var _daoDialogHeader = __webpack_require__(39);
 	
 	var _daoDialogHeader2 = _interopRequireDefault(_daoDialogHeader);
 	
@@ -1644,13 +2147,13 @@
 	exports.default = DaoDialogHeader;
 
 /***/ },
-/* 23 */
+/* 39 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=dialog-header><ng-transclude></ng-transclude><div ng-click=\"$dismiss('close')\" class=dao-close><svg preserveaspectratio=xMidYMid width=34 height=34 viewbox=\"0 0 34 34\"><path d=\"M17.000,0.001 C7.612,0.001 0.001,7.612 0.001,17.000 C0.001,26.388 7.612,33.999 17.000,33.999 C26.388,33.999 33.999,26.388 33.999,17.000 C33.999,7.612 26.388,0.001 17.000,0.001 ZM24.166,21.666 C24.166,21.666 21.666,24.166 21.666,24.166 C21.666,24.166 17.000,19.500 17.000,19.500 C17.000,19.500 12.334,24.166 12.334,24.166 C12.334,24.166 9.834,21.666 9.834,21.666 C9.834,21.666 14.500,17.000 14.500,17.000 C14.500,17.000 9.834,12.335 9.834,12.335 C9.834,12.335 12.334,9.834 12.334,9.834 C12.334,9.834 17.000,14.500 17.000,14.500 C17.000,14.500 21.666,9.834 21.666,9.834 C21.666,9.834 24.166,12.335 24.166,12.335 C24.166,12.335 19.500,17.000 19.500,17.000 C19.500,17.000 24.166,21.666 24.166,21.666 Z\" id=path-1 fill-rule=evenodd></path></svg></div></div>"
 
 /***/ },
-/* 24 */
+/* 40 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1659,15 +2162,15 @@
 	  value: true
 	});
 	
-	var _classCallCheck2 = __webpack_require__(25);
+	var _classCallCheck2 = __webpack_require__(41);
 	
 	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 	
-	var _createClass2 = __webpack_require__(26);
+	var _createClass2 = __webpack_require__(42);
 	
 	var _createClass3 = _interopRequireDefault(_createClass2);
 	
-	var _daoMultiStep = __webpack_require__(30);
+	var _daoMultiStep = __webpack_require__(46);
 	
 	var _daoMultiStep2 = _interopRequireDefault(_daoMultiStep);
 	
@@ -1763,7 +2266,7 @@
 	exports.default = DaoMultiStep;
 
 /***/ },
-/* 25 */
+/* 41 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -1777,12 +2280,12 @@
 	exports.__esModule = true;
 
 /***/ },
-/* 26 */
+/* 42 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
 	
-	var _defineProperty = __webpack_require__(27);
+	var _defineProperty = __webpack_require__(43);
 	
 	var _defineProperty2 = _interopRequireDefault(_defineProperty);
 	
@@ -1809,22 +2312,22 @@
 	exports.__esModule = true;
 
 /***/ },
-/* 27 */
+/* 43 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = { "default": __webpack_require__(28), __esModule: true };
+	module.exports = { "default": __webpack_require__(44), __esModule: true };
 
 /***/ },
-/* 28 */
+/* 44 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var $ = __webpack_require__(29);
+	var $ = __webpack_require__(45);
 	module.exports = function defineProperty(it, key, desc){
 	  return $.setDesc(it, key, desc);
 	};
 
 /***/ },
-/* 29 */
+/* 45 */
 /***/ function(module, exports) {
 
 	var $Object = Object;
@@ -1842,13 +2345,13 @@
 	};
 
 /***/ },
-/* 30 */
+/* 46 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=dao-multi-step ng-transclude></div>"
 
 /***/ },
-/* 31 */
+/* 47 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1857,7 +2360,7 @@
 	  value: true
 	});
 	
-	var _daoStep = __webpack_require__(32);
+	var _daoStep = __webpack_require__(48);
 	
 	var _daoStep2 = _interopRequireDefault(_daoStep);
 	
@@ -1889,53 +2392,13 @@
 	exports.default = DaoStep;
 
 /***/ },
-/* 32 */
+/* 48 */
 /***/ function(module, exports) {
 
 	module.exports = "<div ng-if=isActive class=dao-step ng-class=\"{'dao-animate':daoAnimate}\" ng-transclude></div>"
 
 /***/ },
-/* 33 */
-/***/ function(module, exports, __webpack_require__) {
-
-	// style-loader: Adds some css to the DOM by adding a <style> tag
-	
-	// load the styles
-	var content = __webpack_require__(34);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(21)(content, {"singleton":true});
-	if(content.locals) module.exports = content.locals;
-	// Hot Module Replacement
-	if(false) {
-		// When the styles change, update the <style> tags
-		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/css-loader/index.js?minimize!./../../../node_modules/postcss-loader/index.js!./../../../node_modules/sass-loader/index.js!./dao-button.scss", function() {
-				var newContent = require("!!./../../../node_modules/css-loader/index.js?minimize!./../../../node_modules/postcss-loader/index.js!./../../../node_modules/sass-loader/index.js!./dao-button.scss");
-				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-				update(newContent);
-			});
-		}
-		// When the module is disposed, remove the <style> tags
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
-/* 34 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(20)();
-	// imports
-	
-	
-	// module
-	exports.push([module.id, ".dao-btn{padding:0 16px;min-width:65px;height:33px;border:1px solid #ccd1d9;border-radius:16px;background-color:transparent;color:#434a54;font-size:14px;line-height:24px;outline:none;cursor:pointer}.dao-btn:focus,.dao-btn:hover{border:1px solid #aab2bd}.dao-btn.btn-disabled,.dao-btn[disabled]{color:#ccd1d9;border:1px solid #ccd1d9}.dao-btn.btn-disabled:focus,.dao-btn.btn-disabled:hover,.dao-btn[disabled]:focus,.dao-btn[disabled]:hover{border:1px solid #ccd1d9}.dao-btn.btn-primary{color:#fff;border:1px solid #5d9cec;background-color:#5d9cec}.dao-btn.btn-primary:focus,.dao-btn.btn-primary:hover{border:1px solid #4a89dc;background-color:#4a89dc}", ""]);
-	
-	// exports
-
-
-/***/ },
-/* 35 */
+/* 49 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1944,13 +2407,13 @@
 	  value: true
 	});
 	
-	var _tooltip = __webpack_require__(36);
+	var _tooltip = __webpack_require__(50);
 	
 	var tooltip = _interopRequireWildcard(_tooltip);
 	
-	__webpack_require__(40);
+	__webpack_require__(54);
 	
-	var _position = __webpack_require__(42);
+	var _position = __webpack_require__(56);
 	
 	var position = _interopRequireWildcard(_position);
 	
@@ -1970,7 +2433,7 @@
 	exports.default = moduleName;
 
 /***/ },
-/* 36 */
+/* 50 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1993,15 +2456,15 @@
 	exports.daoTooltipHtmlPopup = daoTooltipHtmlPopup;
 	exports.daoTooltipHtml = daoTooltipHtml;
 	
-	var _tooltipTemplatePopup = __webpack_require__(37);
+	var _tooltipTemplatePopup = __webpack_require__(51);
 	
 	var _tooltipTemplatePopup2 = _interopRequireDefault(_tooltipTemplatePopup);
 	
-	var _tooltipHtmlPopup = __webpack_require__(38);
+	var _tooltipHtmlPopup = __webpack_require__(52);
 	
 	var _tooltipHtmlPopup2 = _interopRequireDefault(_tooltipHtmlPopup);
 	
-	var _tooltipPopup = __webpack_require__(39);
+	var _tooltipPopup = __webpack_require__(53);
 	
 	var _tooltipPopup2 = _interopRequireDefault(_tooltipPopup);
 	
@@ -2734,34 +3197,34 @@
 	}
 
 /***/ },
-/* 37 */
+/* 51 */
 /***/ function(module, exports) {
 
-	module.exports = "<div class=tooltip tooltip-animation-class=fade dao-tooltip-classes ng-class=\"{ in: isOpen() }\"><div class=tooltip-arrow></div><div class=tooltip-inner dao-tooltip-template-transclude=contentExp() tooltip-template-transclude-scope=originScope()></div></div>"
+	module.exports = "<div class=\"dao tooltip\" tooltip-animation-class=fade dao-tooltip-classes ng-class=\"{ in: isOpen() }\"><div class=tooltip-arrow></div><div class=tooltip-inner dao-tooltip-template-transclude=contentExp() tooltip-template-transclude-scope=originScope()></div></div>"
 
 /***/ },
-/* 38 */
+/* 52 */
 /***/ function(module, exports) {
 
-	module.exports = "<div class=tooltip tooltip-animation-class=fade dao-tooltip-classes ng-class=\"{ in: isOpen() }\"><div class=tooltip-arrow></div><div class=tooltip-inner ng-bind-html=contentExp()></div></div>"
+	module.exports = "<div class=\"dao tooltip\" tooltip-animation-class=fade dao-tooltip-classes ng-class=\"{ in: isOpen() }\"><div class=tooltip-arrow></div><div class=tooltip-inner ng-bind-html=contentExp()></div></div>"
 
 /***/ },
-/* 39 */
+/* 53 */
 /***/ function(module, exports) {
 
-	module.exports = "<div class=tooltip tooltip-animation-class=fade dao-tooltip-classes ng-class=\"{ in: isOpen() }\"><div class=tooltip-arrow></div><div class=tooltip-inner ng-bind=content></div></div>"
+	module.exports = "<div class=\"dao tooltip\" tooltip-animation-class=fade dao-tooltip-classes ng-class=\"{ in: isOpen() }\"><div class=tooltip-arrow></div><div class=tooltip-inner ng-bind=content></div></div>"
 
 /***/ },
-/* 40 */
+/* 54 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(41);
+	var content = __webpack_require__(55);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(21)(content, {"singleton":true});
+	var update = __webpack_require__(4)(content, {"singleton":true});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -2778,21 +3241,21 @@
 	}
 
 /***/ },
-/* 41 */
+/* 55 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(20)();
+	exports = module.exports = __webpack_require__(3)();
 	// imports
 	
 	
 	// module
-	exports.push([module.id, ".tooltip{position:absolute;z-index:1070;display:block;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-style:normal;font-weight:400;letter-spacing:normal;line-break:auto;line-height:1.42857;text-align:left;text-align:start;text-decoration:none;text-shadow:none;text-transform:none;white-space:normal;word-break:normal;word-spacing:normal;word-wrap:normal;font-size:12px;opacity:0;filter:alpha(opacity=0)}.tooltip.in{opacity:.9;filter:alpha(opacity=90)}.tooltip.top{margin-top:-3px;padding:5px 0}.tooltip.right{margin-left:3px;padding:0 5px}.tooltip.bottom{margin-top:3px;padding:5px 0}.tooltip.left{margin-left:-3px;padding:0 5px}.tooltip-inner{max-width:200px;padding:3px 8px;color:#fff;text-align:center;background-color:#000;border-radius:4px}.tooltip-arrow{position:absolute;width:0;height:0;border-color:transparent;border-style:solid}.tooltip.top .tooltip-arrow{bottom:0;left:50%;margin-left:-5px;border-width:5px 5px 0;border-top-color:#000}.tooltip.top-left .tooltip-arrow{right:5px}.tooltip.top-left .tooltip-arrow,.tooltip.top-right .tooltip-arrow{bottom:0;margin-bottom:-5px;border-width:5px 5px 0;border-top-color:#000}.tooltip.top-right .tooltip-arrow{left:5px}.tooltip.right .tooltip-arrow{top:50%;left:0;margin-top:-5px;border-width:5px 5px 5px 0;border-right-color:#000}.tooltip.left .tooltip-arrow{top:50%;right:0;margin-top:-5px;border-width:5px 0 5px 5px;border-left-color:#000}.tooltip.bottom .tooltip-arrow{top:0;left:50%;margin-left:-5px;border-width:0 5px 5px;border-bottom-color:#000}.tooltip.bottom-left .tooltip-arrow{top:0;right:5px;margin-top:-5px;border-width:0 5px 5px;border-bottom-color:#000}.tooltip.bottom-right .tooltip-arrow{top:0;left:5px;margin-top:-5px;border-width:0 5px 5px;border-bottom-color:#000}", ""]);
+	exports.push([module.id, ".dao.tooltip{position:absolute;z-index:1070;display:block;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-style:normal;font-weight:400;letter-spacing:normal;line-break:auto;line-height:1.42857;text-align:left;text-align:start;text-decoration:none;text-shadow:none;text-transform:none;white-space:normal;word-break:normal;word-spacing:normal;word-wrap:normal;font-size:12px;opacity:0;filter:alpha(opacity=0)}.dao.tooltip.in{opacity:.9;filter:alpha(opacity=90)}.dao.tooltip.top{margin-top:-3px;padding:5px 0}.dao.tooltip.right{margin-left:3px;padding:0 5px}.dao.tooltip.bottom{margin-top:3px;padding:5px 0}.dao.tooltip.left{margin-left:-3px;padding:0 5px}.dao.tooltip .tooltip-inner{max-width:200px;padding:3px 8px;color:#fff;text-align:center;background-color:#000;border-radius:4px}.dao.tooltip .tooltip-arrow{position:absolute;width:0;height:0;border-color:transparent;border-style:solid}.dao.tooltip.top .tooltip-arrow{bottom:0;left:50%;margin-left:-5px;border-width:5px 5px 0;border-top-color:#000}.dao.tooltip.top-left .tooltip-arrow{bottom:0;right:5px;margin-bottom:-5px;border-width:5px 5px 0;border-top-color:#000}.dao.tooltip.top-right .tooltip-arrow{bottom:0;left:5px;margin-bottom:-5px;border-width:5px 5px 0;border-top-color:#000}.dao.tooltip.right .tooltip-arrow{top:50%;left:0;margin-top:-5px;border-width:5px 5px 5px 0;border-right-color:#000}.dao.tooltip.left .tooltip-arrow{top:50%;right:0;margin-top:-5px;border-width:5px 0 5px 5px;border-left-color:#000}.dao.tooltip.bottom .tooltip-arrow{top:0;left:50%;margin-left:-5px;border-width:0 5px 5px;border-bottom-color:#000}.dao.tooltip.bottom-left .tooltip-arrow{top:0;right:5px;margin-top:-5px;border-width:0 5px 5px;border-bottom-color:#000}.dao.tooltip.bottom-right .tooltip-arrow{top:0;left:5px;margin-top:-5px;border-width:0 5px 5px;border-bottom-color:#000}", ""]);
 	
 	// exports
 
 
 /***/ },
-/* 42 */
+/* 56 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -2950,7 +3413,7 @@
 	}
 
 /***/ },
-/* 43 */
+/* 57 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2959,11 +3422,11 @@
 	  value: true
 	});
 	
-	var _popover = __webpack_require__(44);
+	var _popover = __webpack_require__(58);
 	
 	var popover = _interopRequireWildcard(_popover);
 	
-	__webpack_require__(48);
+	__webpack_require__(62);
 	
 	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 	
@@ -2979,7 +3442,7 @@
 	exports.default = moduleName;
 
 /***/ },
-/* 44 */
+/* 58 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2997,15 +3460,15 @@
 	exports.daoPopoverPopup = daoPopoverPopup;
 	exports.daoPopover = daoPopover;
 	
-	var _popover = __webpack_require__(45);
+	var _popover = __webpack_require__(59);
 	
 	var _popover2 = _interopRequireDefault(_popover);
 	
-	var _popoverTemplate = __webpack_require__(46);
+	var _popoverTemplate = __webpack_require__(60);
 	
 	var _popoverTemplate2 = _interopRequireDefault(_popoverTemplate);
 	
-	var _popoverHtml = __webpack_require__(47);
+	var _popoverHtml = __webpack_require__(61);
 	
 	var _popoverHtml2 = _interopRequireDefault(_popoverHtml);
 	
@@ -3080,34 +3543,34 @@
 	}
 
 /***/ },
-/* 45 */
+/* 59 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao popover\" tooltip-animation-class=fade dao-tooltip-classes ng-class=\"{ in: isOpen() }\"><div class=arrow></div><div class=popover-inner><h3 class=popover-title ng-bind=title ng-if=title></h3><div class=popover-content ng-bind=content></div></div></div>"
 
 /***/ },
-/* 46 */
+/* 60 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao popover\" tooltip-animation-class=fade dao-tooltip-classes ng-class=\"{ in: isOpen() }\"><div class=arrow></div><div class=popover-inner><h3 class=popover-title ng-bind=title ng-if=title></h3><div class=popover-content dao-tooltip-template-transclude=contentExp() tooltip-template-transclude-scope=originScope()></div></div></div>"
 
 /***/ },
-/* 47 */
+/* 61 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao popover\" tooltip-animation-class=fade dao-tooltip-classes ng-class=\"{ in: isOpen() }\"><div class=arrow></div><div class=popover-inner><h3 class=popover-title ng-bind=title ng-if=title></h3><div class=popover-content ng-bind-html=contentExp()></div></div></div>"
 
 /***/ },
-/* 48 */
+/* 62 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(49);
+	var content = __webpack_require__(63);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(21)(content, {"singleton":true});
+	var update = __webpack_require__(4)(content, {"singleton":true});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -3124,21 +3587,21 @@
 	}
 
 /***/ },
-/* 49 */
+/* 63 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(20)();
+	exports = module.exports = __webpack_require__(3)();
 	// imports
 	
 	
 	// module
-	exports.push([module.id, ".dao.popover{position:absolute;top:0;left:0;z-index:1060;display:none;max-width:276px;padding:1px;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-style:normal;font-weight:400;letter-spacing:normal;line-break:auto;line-height:1.42857;text-align:left;text-align:start;text-decoration:none;text-shadow:none;text-transform:none;white-space:normal;word-break:normal;word-spacing:normal;word-wrap:normal;font-size:14px;background-color:#fff;background-clip:padding-box;border:1px solid #ccc;border:1px solid rgba(0,0,0,.2);border-radius:6px;box-shadow:0 5px 10px rgba(0,0,0,.2)}.dao.popover.top{margin-top:-10px}.dao.popover.right{margin-left:10px}.dao.popover.bottom{margin-top:10px}.dao.popover.left{margin-left:-10px}.dao.popover-title{margin:0;padding:20px 22px;font-size:14px;background-color:#e6e9ed;box-shadow:inset 0 -1px 0 rgba(204,209,217,.5);border-radius:5px 5px 0 0}.dao.popover-content{padding:20px 22px}.dao.popover>.arrow,.dao.popover>.arrow:after{position:absolute;display:block;width:0;height:0;border-color:transparent;border-style:solid}.dao.popover>.arrow{border-width:11px}.dao.popover>.arrow:after{border-width:10px;content:\"\"}.dao.popover.top>.arrow{left:50%;margin-left:-11px;border-bottom-width:0;border-top-color:#999;border-top-color:rgba(0,0,0,.25);bottom:-11px}.dao.popover.top>.arrow:after{content:\" \";bottom:1px;margin-left:-10px;border-bottom-width:0;border-top-color:#fff}.dao.popover.right>.arrow{top:50%;left:-11px;margin-top:-11px;border-left-width:0;border-right-color:#999;border-right-color:rgba(0,0,0,.25)}.dao.popover.right>.arrow:after{content:\" \";left:1px;bottom:-10px;border-left-width:0;border-right-color:#fff}.dao.popover.bottom>.arrow{left:50%;margin-left:-11px;border-top-width:0;border-bottom-color:#999;border-bottom-color:rgba(0,0,0,.25);top:-11px}.dao.popover.bottom>.arrow:after{content:\" \";top:1px;margin-left:-10px;border-top-width:0;border-bottom-color:#fff}.dao.popover.left>.arrow{top:50%;right:-11px;margin-top:-11px;border-right-width:0;border-left-color:#999;border-left-color:rgba(0,0,0,.25)}.dao.popover.left>.arrow:after{content:\" \";right:1px;border-right-width:0;border-left-color:#fff;bottom:-10px}", ""]);
+	exports.push([module.id, ".dao.popover{position:absolute;top:0;left:0;z-index:1060;display:none;max-width:276px;padding:1px;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-style:normal;font-weight:400;letter-spacing:normal;line-break:auto;line-height:1.42857;text-align:left;text-align:start;text-decoration:none;text-shadow:none;text-transform:none;white-space:normal;word-break:normal;word-spacing:normal;word-wrap:normal;font-size:14px;background-color:#fff;background-clip:padding-box;border:1px solid #ccc;border:1px solid rgba(0,0,0,.2);border-radius:6px;box-shadow:0 5px 10px rgba(0,0,0,.2)}.dao.popover.top{margin-top:-10px}.dao.popover.right{margin-left:10px}.dao.popover.bottom{margin-top:10px}.dao.popover.left{margin-left:-10px}.dao.popover .popover-title{margin:0;padding:20px 22px;font-size:14px;background-color:#e6e9ed;box-shadow:inset 0 -1px 0 rgba(204,209,217,.5);border-radius:5px 5px 0 0}.dao.popover .popover-content{padding:20px 22px}.dao.popover>.arrow,.dao.popover>.arrow:after{position:absolute;display:block;width:0;height:0;border-color:transparent;border-style:solid}.dao.popover>.arrow{border-width:11px}.dao.popover>.arrow:after{border-width:10px;content:\"\"}.dao.popover.top>.arrow{left:50%;margin-left:-11px;border-bottom-width:0;border-top-color:#999;border-top-color:rgba(0,0,0,.25);bottom:-11px}.dao.popover.top>.arrow:after{content:\" \";bottom:1px;margin-left:-10px;border-bottom-width:0;border-top-color:#fff}.dao.popover.right>.arrow{top:50%;left:-11px;margin-top:-11px;border-left-width:0;border-right-color:#999;border-right-color:rgba(0,0,0,.25)}.dao.popover.right>.arrow:after{content:\" \";left:1px;bottom:-10px;border-left-width:0;border-right-color:#fff}.dao.popover.bottom>.arrow{left:50%;margin-left:-11px;border-top-width:0;border-bottom-color:#999;border-bottom-color:rgba(0,0,0,.25);top:-11px}.dao.popover.bottom>.arrow:after{content:\" \";top:1px;margin-left:-10px;border-top-width:0;border-bottom-color:#fff}.dao.popover.left>.arrow{top:50%;right:-11px;margin-top:-11px;border-right-width:0;border-left-color:#999;border-left-color:rgba(0,0,0,.25)}.dao.popover.left>.arrow:after{content:\" \";right:1px;border-right-width:0;border-left-color:#fff;bottom:-10px}", ""]);
 	
 	// exports
 
 
 /***/ },
-/* 50 */
+/* 64 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3147,11 +3610,74 @@
 	  value: true
 	});
 	
-	var _daoInput = __webpack_require__(51);
+	var _leftNav = __webpack_require__(65);
+	
+	var moduleName = 'dao.nav'; /**
+	                             * Created by yeting on 16/1/15.
+	                             */
+	
+	angular.module(moduleName, []).directive('leftNav', _leftNav.LeftNavDirective);
+	
+	exports.default = moduleName;
+
+/***/ },
+/* 65 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.LeftNavDirective = LeftNavDirective;
+	
+	var _leftNav = __webpack_require__(66);
+	
+	var _leftNav2 = _interopRequireDefault(_leftNav);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function LeftNavDirective() {
+	  /*ngInject*/
+	
+	  return {
+	    restrict: 'E',
+	    scope: {},
+	    template: _leftNav2.default,
+	    replace: true
+	  };
+	
+	  //function LeftNavLink() {
+	  //}
+	  //
+	  //function LeftNavCompile() {
+	  //}
+	}
+	
+	//function LeftNavController() {
+	//}
+
+/***/ },
+/* 66 */
+/***/ function(module, exports) {
+
+	module.exports = "<div class=\"dao left-nav\"><div class=nav-logo></div><div class=nav-item tooltip-placement=right dao-tooltip=用户><svg><use xlink:href=#users></use></svg></div><div class=nav-item tooltip-placement=right dao-tooltip=对话><svg><use xlink:href=#conversation></use></svg></div><div class=nav-item tooltip-placement=right dao-tooltip=手动消息><svg><use xlink:href=#manual-messages></use></svg></div><div class=nav-item tooltip-placement=right dao-tooltip=自动消息><svg><use xlink:href=#auto-messages></use></svg></div></div>"
+
+/***/ },
+/* 67 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _daoInput = __webpack_require__(68);
 	
 	var _daoInput2 = _interopRequireDefault(_daoInput);
 	
-	__webpack_require__(52);
+	__webpack_require__(69);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -3189,22 +3715,22 @@
 	exports.default = DaoInputDirective;
 
 /***/ },
-/* 51 */
+/* 68 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao input\" ng-class=\"[state,{'has-button': hasButton}]\"><input type=text placeholder={{::placeholder}}><ng-transclude></ng-transclude><div ng-bind-html=message></div></div>"
 
 /***/ },
-/* 52 */
+/* 69 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(53);
+	var content = __webpack_require__(70);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(21)(content, {"singleton":true});
+	var update = __webpack_require__(4)(content, {"singleton":true});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -3221,10 +3747,10 @@
 	}
 
 /***/ },
-/* 53 */
+/* 70 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(20)();
+	exports = module.exports = __webpack_require__(3)();
 	// imports
 	
 	
@@ -3235,7 +3761,7 @@
 
 
 /***/ },
-/* 54 */
+/* 71 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3244,15 +3770,15 @@
 	  value: true
 	});
 	
-	var _classCallCheck2 = __webpack_require__(25);
+	var _classCallCheck2 = __webpack_require__(41);
 	
 	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 	
-	var _daoDemo = __webpack_require__(55);
+	var _daoDemo = __webpack_require__(72);
 	
 	var _daoDemo2 = _interopRequireDefault(_daoDemo);
 	
-	__webpack_require__(56);
+	__webpack_require__(73);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -3281,22 +3807,22 @@
 	exports.default = DaoDemoBlockDirective;
 
 /***/ },
-/* 55 */
+/* 72 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao demo-block\"><h4 class=demo-block-header>{{dao.title}}</h4><div ng-transclude></div></div>"
 
 /***/ },
-/* 56 */
+/* 73 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(57);
+	var content = __webpack_require__(74);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(21)(content, {"singleton":true});
+	var update = __webpack_require__(4)(content, {"singleton":true});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -3313,10 +3839,10 @@
 	}
 
 /***/ },
-/* 57 */
+/* 74 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(20)();
+	exports = module.exports = __webpack_require__(3)();
 	// imports
 	
 	
