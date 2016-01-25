@@ -60,25 +60,23 @@
 	
 	__webpack_require__(11);
 	
-	var _classHelper = __webpack_require__(19);
+	__webpack_require__(13);
+	
+	var _classHelper = __webpack_require__(21);
 	
 	var _classHelper2 = _interopRequireDefault(_classHelper);
 	
-	var _index = __webpack_require__(20);
+	var _index = __webpack_require__(22);
 	
 	var _index2 = _interopRequireDefault(_index);
 	
-	var _index3 = __webpack_require__(49);
+	var _index3 = __webpack_require__(51);
 	
 	var _index4 = _interopRequireDefault(_index3);
 	
-	var _index5 = __webpack_require__(57);
+	var _index5 = __webpack_require__(60);
 	
 	var _index6 = _interopRequireDefault(_index5);
-	
-	var _index7 = __webpack_require__(64);
-	
-	var _index8 = _interopRequireDefault(_index7);
 	
 	var _daoInputDirective = __webpack_require__(67);
 	
@@ -94,7 +92,7 @@
 	 * Created by yeting on 15/10/18.
 	 */
 	
-	var app = angular.module('daoStyle', [_index2.default, _index4.default, _index6.default, _index8.default]);
+	var app = angular.module('daoStyle', [_index2.default, _index4.default, _index6.default]);
 	
 	var appHelp = (0, _classHelper2.default)('daoStyle');
 	
@@ -489,7 +487,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".dao-btn{padding:0 16px;min-width:65px;height:33px;border:1px solid #ccd1d9;border-radius:16px;background-color:transparent;color:#434a54;font-size:14px;line-height:24px;outline:none;cursor:pointer}.dao-btn:focus,.dao-btn:hover{border:1px solid #aab2bd}.dao-btn.btn-disabled,.dao-btn[disabled]{color:#ccd1d9;border:1px solid #ccd1d9}.dao-btn.btn-disabled:focus,.dao-btn.btn-disabled:hover,.dao-btn[disabled]:focus,.dao-btn[disabled]:hover{border:1px solid #ccd1d9}.dao-btn.btn-primary{color:#fff;border:1px solid #5d9cec;background-color:#5d9cec}.dao-btn.btn-primary:focus,.dao-btn.btn-primary:hover{border:1px solid #4a89dc;background-color:#4a89dc}", ""]);
+	exports.push([module.id, ".dao.btn{display:inline-block;margin-bottom:0;font-weight:400;text-align:center;vertical-align:middle;touch-action:manipulation;cursor:pointer;background-image:none;border:1px solid transparent;white-space:nowrap;padding:6px 18px;font-size:14px;line-height:1.42857;border-radius:4px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.dao.btn.active.focus,.dao.btn.active:focus,.dao.btn.focus,.dao.btn:active.focus,.dao.btn:active:focus,.dao.btn:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}.dao.btn.focus,.dao.btn:focus,.dao.btn:hover{color:#333;text-decoration:none}.dao.btn.active,.dao.btn:active{outline:0;background-image:none;box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}.dao.btn+.dao.btn{margin-left:5px}a.dao.btn.disabled,fieldset[disabled] a.dao.btn{pointer-events:none}.dao.btn.blue{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,.1);border-color:#217ef2;box-shadow:inset 0 1px 0 hsla(0,0%,100%,.08),0 1px 1px rgba(0,0,0,.08);background-image:linear-gradient(0deg,hsla(0,0%,100%,.06) 0,hsla(0,0%,100%,.06)),linear-gradient(0deg,rgba(9,109,236,.5) 0,rgba(71,153,255,.5));background-color:#3890ff}.dao.btn.blue:hover{background-image:linear-gradient(0deg,rgba(9,109,236,.5) 0,rgba(71,153,255,.5))}.dao.btn.blue:active{background-image:none;box-shadow:inset 0 0 8px rgba(0,0,0,.04)}.color-card.blue>div{display:block;float:left;height:50px;width:50px}.color-card.blue>div:first-child{background-color:#4799ff}.color-card.blue>div:nth-child(2){background-color:#3890ff}.color-card.blue>div:nth-child(3){background-color:#217ef2}.color-card.blue>div:nth-child(4){background-color:#096dec}.dao.btn.green{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,.1);border-color:#279a5b;box-shadow:inset 0 1px 0 hsla(0,0%,100%,.08),0 1px 1px rgba(0,0,0,.08);background-image:linear-gradient(0deg,hsla(0,0%,100%,.06) 0,hsla(0,0%,100%,.06)),linear-gradient(0deg,rgba(30,133,76,.5) 0,rgba(36,208,113,.5));background-color:#22c36a}.dao.btn.green:hover{background-image:linear-gradient(0deg,rgba(30,133,76,.5) 0,rgba(36,208,113,.5))}.dao.btn.green:active{background-image:none;box-shadow:inset 0 0 8px rgba(0,0,0,.04)}.color-card.green>div{display:block;float:left;height:50px;width:50px}.color-card.green>div:first-child{background-color:#24d071}.color-card.green>div:nth-child(2){background-color:#22c36a}.color-card.green>div:nth-child(3){background-color:#279a5b}.color-card.green>div:nth-child(4){background-color:#1e854c}.dao.btn.yellow{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,.1);border-color:#e7a217;box-shadow:inset 0 1px 0 hsla(0,0%,100%,.08),0 1px 1px rgba(0,0,0,.08);background-image:linear-gradient(0deg,hsla(0,0%,100%,.06) 0,hsla(0,0%,100%,.06)),linear-gradient(0deg,rgba(208,144,16,.5) 0,rgba(248,184,58,.5));background-color:#f7b32b}.dao.btn.yellow:hover{background-image:linear-gradient(0deg,rgba(208,144,16,.5) 0,rgba(248,184,58,.5))}.dao.btn.yellow:active{background-image:none;box-shadow:inset 0 0 8px rgba(0,0,0,.04)}.color-card.yellow>div{display:block;float:left;height:50px;width:50px}.color-card.yellow>div:first-child{background-color:#f8b83a}.color-card.yellow>div:nth-child(2){background-color:#f7b32b}.color-card.yellow>div:nth-child(3){background-color:#e7a217}.color-card.yellow>div:nth-child(4){background-color:#d09010}.dao.btn.orange{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,.1);border-color:#de5e18;box-shadow:inset 0 1px 0 hsla(0,0%,100%,.08),0 1px 1px rgba(0,0,0,.08);background-image:linear-gradient(0deg,hsla(0,0%,100%,.06) 0,hsla(0,0%,100%,.06)),linear-gradient(0deg,rgba(199,81,17,.5) 0,rgba(246,120,52,.5));background-color:#f56e25}.dao.btn.orange:hover{background-image:linear-gradient(0deg,rgba(199,81,17,.5) 0,rgba(246,120,52,.5))}.dao.btn.orange:active{background-image:none;box-shadow:inset 0 0 8px rgba(0,0,0,.04)}.color-card.orange>div{display:block;float:left;height:50px;width:50px}.color-card.orange>div:first-child{background-color:#f67834}.color-card.orange>div:nth-child(2){background-color:#f56e25}.color-card.orange>div:nth-child(3){background-color:#de5e18}.color-card.orange>div:nth-child(4){background-color:#c75111}.dao.btn.red{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,.1);border-color:#e1342b;box-shadow:inset 0 1px 0 hsla(0,0%,100%,.08),0 1px 1px rgba(0,0,0,.08);background-image:linear-gradient(0deg,hsla(0,0%,100%,.06) 0,hsla(0,0%,100%,.06)),linear-gradient(0deg,rgba(213,34,24,.5) 0,rgba(242,86,77,.5));background-color:#f1483f}.dao.btn.red:hover{background-image:linear-gradient(0deg,rgba(213,34,24,.5) 0,rgba(242,86,77,.5))}.dao.btn.red:active{background-image:none;box-shadow:inset 0 0 8px rgba(0,0,0,.04)}.color-card.red>div{display:block;float:left;height:50px;width:50px}.color-card.red>div:first-child{background-color:#f2564d}.color-card.red>div:nth-child(2){background-color:#f1483f}.color-card.red>div:nth-child(3){background-color:#e1342b}.color-card.red>div:nth-child(4){background-color:#d52218}.dao.btn.purple{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,.1);border-color:#6142d0;box-shadow:inset 0 1px 0 hsla(0,0%,100%,.08),0 1px 1px rgba(0,0,0,.08);background-image:linear-gradient(0deg,hsla(0,0%,100%,.06) 0,hsla(0,0%,100%,.06)),linear-gradient(0deg,rgba(78,44,200,.5) 0,rgba(126,97,228,.5));background-color:#7354e2}.dao.btn.purple:hover{background-image:linear-gradient(0deg,rgba(78,44,200,.5) 0,rgba(126,97,228,.5))}.dao.btn.purple:active{background-image:none;box-shadow:inset 0 0 8px rgba(0,0,0,.04)}.color-card.purple>div{display:block;float:left;height:50px;width:50px}.color-card.purple>div:first-child{background-color:#7e61e4}.color-card.purple>div:nth-child(2){background-color:#7354e2}.color-card.purple>div:nth-child(3){background-color:#6142d0}.color-card.purple>div:nth-child(4){background-color:#4e2cc8}.dao.btn.grey{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,.1);border-color:#bec0c3;box-shadow:inset 0 1px 0 hsla(0,0%,100%,.08),0 1px 1px rgba(0,0,0,.08);background-image:linear-gradient(0deg,hsla(0,0%,100%,.06) 0,hsla(0,0%,100%,.06)),linear-gradient(0deg,hsla(215,8%,69%,.5) 0,rgba(213,217,224,.5));background-color:#ccd1d9}.dao.btn.grey:hover{background-image:linear-gradient(0deg,hsla(215,8%,69%,.5) 0,rgba(213,217,224,.5))}.dao.btn.grey:active{background-image:none;box-shadow:inset 0 0 8px rgba(0,0,0,.04)}.color-card.grey>div{display:block;float:left;height:50px;width:50px}.color-card.grey>div:first-child{background-color:#d5d9e0}.color-card.grey>div:nth-child(2){background-color:#ccd1d9}.color-card.grey>div:nth-child(3){background-color:#bec0c3}.color-card.grey>div:nth-child(4){background-color:#abb0b7}.color-card:after,.color-card:before{content:\" \";display:table}.color-card:after{clear:both}.dao.btn.ghost{color:#3d444f;text-shadow:0 1px 0 hsla(0,0%,100%,.9);border-color:#ccd1d9;box-shadow:inset 0 1px 0 hsla(0,0%,100%,.9),0 1px 0 hsla(0,0%,100%,.9);background:none}.dao.btn.ghost:hover{background-color:rgba(204,209,217,.1);box-shadow:0 1px 0 hsla(0,0%,100%,.9)}.dao.btn.ghost.active,.dao.btn.ghost:active{background-color:rgba(204,209,217,.15);box-shadow:inset 0 1px 3px 0 rgba(0,0,0,.07),inset 0 0 4px 0 rgba(0,0,0,.08),0 1px 0 hsla(0,0%,100%,.9)}.dao.btn.disabled,.dao.btn[disabled],fieldset[disabled] .dao.btn{cursor:not-allowed;color:#ccd1d9;text-shadow:0 1px 0 hsla(0,0%,100%,.9);border-color:#ccd1d9!important;box-shadow:inset 0 1px 0 hsla(0,0%,100%,.9),0 1px 0 hsla(0,0%,100%,.9)!important;background:none!important}", ""]);
 	
 	// exports
 
@@ -529,7 +527,7 @@
 	
 	
 	// module
-	exports.push([module.id, "html.dao.layout body{height:100%;margin:0}.dao.layout,.dao.layout .layout-wrap{overflow:hidden;height:100%;margin:0}.dao.layout .layout-wrap{display:flex;flex-direction:row}.dao.layout .layout-sidebar{display:flex;flex:none}.dao.layout .layout-content{overflow:auto;flex:auto}.dao.layout .layout-content .content-body{padding:20px 40px}.dao.layout .layout-content.has-topbar{display:flex;flex-direction:column}.dao.layout .layout-content.has-topbar.has-topbar-fixed>.content-topbar{flex:none}.dao.layout .layout-content.has-topbar.has-topbar-fixed>.content-body{flex:auto;overflow:auto}", ""]);
+	exports.push([module.id, "html.dao.layout *{box-sizing:border-box}html.dao.layout body{height:100%;margin:0;font-family:-apple-system,BlinkMacSystemFont,Neue Haas Grotesk Text Pro,Arial Nova,Segoe UI,Helvetica Neue,\\.PingFang SC,PingFang SC,Microsoft YaHei,Microsoft JhengHei,Source Han Sans SC,Noto Sans CJK SC,Source Han Sans CN,Noto Sans SC,Source Han Sans TC,Noto Sans CJK TC,Hiragino Sans GB,sans-serif}.dao.layout,.dao.layout .layout-wrap{overflow:hidden;height:100%;margin:0}.dao.layout .layout-wrap{display:flex;flex-direction:row}.dao.layout .layout-sidebar{display:flex;flex:none;z-index:10001}.dao.layout .layout-content{overflow:auto;flex:auto}.dao.layout .layout-content .content-body{position:relative}.dao.layout .layout-content.has-topbar{display:flex;flex-direction:column}.dao.layout .layout-content.has-topbar.has-topbar-fixed>.content-topbar{flex:none;z-index:10000}.dao.layout .layout-content.has-topbar.has-topbar-fixed>.content-body{flex:auto;overflow:auto}", ""]);
 	
 	// exports
 
@@ -569,7 +567,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".dao.left-nav{width:60px;background-color:#3d444f}.dao.left-nav .nav-logo{margin:10px auto;width:40px;height:40px}.dao.left-nav .nav-item{display:flex;justify-content:center;cursor:pointer;width:30px;height:30px;padding:14px 15px}.dao.left-nav .nav-item svg{width:100%;height:100%;fill:#9ba3af;transition:fill .2s}.dao.left-nav .nav-item svg:hover{fill:#fff}.dao.top-nav{width:100%;height:40px;background-color:#fff;box-shadow:0 2px 5px #e4e7ed}.dao.top-nav *{box-sizing:border-box}.dao.left-nav .dao.tooltip.in{transform:translateX(5px);animation:tooltipMove .3s ease-out;opacity:1}@keyframes tooltipMove{0%{transform:translateX(-5px);opacity:0}to{transform:translateX(5px);opacity:1}}.dao.left-nav .dao.tooltip.in .tooltip-inner{padding:11px 16px;font-size:14px;background-color:#1f2126;border-radius:6px}.dao.left-nav .dao.tooltip.in .tooltip-arrow{border-width:7px;border-radius:0 0 0 3px;border-color:transparent transparent #1f2126 #1f2126;transform:rotate(45deg);margin-top:-7px}", ""]);
+	exports.push([module.id, ".dao.left-nav{width:60px;background-color:#3d444f}.dao.left-nav .nav-logo{padding:10px;margin-top:15px;width:60px;height:60px;cursor:pointer}.dao.left-nav .nav-logo img,.dao.left-nav .nav-logo svg{width:100%;height:100%;border-radius:3px}.dao.left-nav .nav-logo+.dao.popover{padding:0;max-width:none;border:none;background-color:rgba(31,33,38,.9);color:#fff;font-size:13px;transform:translateX(-5px);animation:tooltipHide .3s ease-in;opacity:0}.dao.left-nav .nav-logo+.dao.popover.in{transform:translateX(5px);animation:tooltipShow .3s ease-out;opacity:1}.dao.left-nav .nav-logo+.dao.popover .arrow{top:26px!important;border-width:7px;border-radius:0 0 0 3px;border-color:transparent transparent #1f2126 #1f2126;transform:rotate(45deg);margin-top:-7px}.dao.left-nav .nav-logo+.dao.popover .arrow:after{display:none}.dao.left-nav .nav-logo+.dao.popover .popover-inner .popover-content{padding:0}.dao.left-nav .nav-item{display:flex;justify-content:center;cursor:pointer;width:60px;height:60px;padding:14px 15px}.dao.left-nav .nav-item svg{width:100%;height:100%;fill:#9ba3af;transition:fill .2s}.dao.left-nav .nav-item.active svg,.dao.left-nav .nav-item svg:hover{fill:#fff}.dao.top-nav{width:100%;height:40px;background-color:#fff;box-shadow:0 2px 5px #e4e7ed}.dao.top-nav .nav-item{display:flex;justify-content:center;align-items:center;float:left;height:100%;line-height:40px;font-size:14px;padding:0 14px;text-shadow:0 2px 0 hsla(0,0%,100%,.8);color:#595f69;font-weight:500;cursor:pointer}.dao.top-nav .nav-item.active{background-color:#f5f7fa}.dao.top-nav .nav-item.active .numeric-badge{background-color:#3890ff}.dao.top-nav .nav-item .numeric-badge{margin-left:4px}.dao.left-nav .dao.tooltip.in{transform:translateX(5px);animation:tooltipShow .3s ease-out;opacity:1}.dao.left-nav .dao.tooltip.in .tooltip-inner{padding:11px 16px;font-size:14px;background-color:#1f2126;border-radius:6px}.dao.left-nav .dao.tooltip.in .tooltip-arrow{border-width:7px;border-radius:0 0 0 3px;border-color:transparent transparent #1f2126 #1f2126;transform:rotate(45deg);margin-top:-7px}@keyframes tooltipShow{0%{transform:translateX(-5px);opacity:0}to{transform:translateX(5px);opacity:1}}@keyframes tooltipHide{0%{transform:translateX(5px);opacity:1}to{transform:translateX(-5px);opacity:0}}", ""]);
 	
 	// exports
 
@@ -578,32 +576,72 @@
 /* 11 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
-	__webpack_require__(12);
-	
-	__webpack_require__(15);
-	
-	__webpack_require__(16);
-	
-	__webpack_require__(17);
-	
-	__webpack_require__(18);
+	// load the styles
+	var content = __webpack_require__(12);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(4)(content, {"singleton":true});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?minimize!./../../../node_modules/postcss-loader/index.js!./../../../node_modules/sass-loader/index.js!./dao-numeric-badge.scss", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?minimize!./../../../node_modules/postcss-loader/index.js!./../../../node_modules/sass-loader/index.js!./dao-numeric-badge.scss");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
 
 /***/ },
 /* 12 */
 /***/ function(module, exports, __webpack_require__) {
 
-	;
-	var sprite = __webpack_require__(13);;
-	var image = "<symbol viewBox=\"0 0 47 45\" id=\"auto-messages\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <path d=\"M44.063,-0.000 C44.063,-0.000 33.781,6.839 33.781,6.839 C33.781,6.839 33.781,31.349 33.781,31.349 C33.781,31.349 44.063,38.188 44.063,38.188 C44.858,38.188 45.547,37.897 46.128,37.316 C46.710,36.734 47.000,36.046 47.000,35.250 C47.000,35.250 47.000,2.937 47.000,2.937 C47.000,2.142 46.710,1.453 46.128,0.872 C45.547,0.290 44.858,-0.000 44.063,-0.000 ZM-0.000,19.094 C-0.000,21.848 0.841,24.081 2.524,25.795 C4.207,27.509 6.318,28.610 8.858,29.100 C8.828,29.130 8.812,29.169 8.812,29.215 C8.812,29.260 8.812,29.314 8.812,29.375 C8.812,29.375 8.812,41.125 8.812,41.125 C8.812,41.921 9.103,42.609 9.684,43.191 C10.266,43.772 10.954,44.063 11.750,44.063 C11.750,44.063 16.156,44.063 16.156,44.063 C16.952,44.063 17.640,43.772 18.222,43.191 C18.803,42.609 19.094,41.921 19.094,41.125 C19.094,41.125 19.094,29.375 19.094,29.375 C19.094,29.375 23.500,29.375 23.500,29.375 C23.500,29.375 23.500,8.812 23.500,8.812 C23.500,8.812 11.750,8.812 11.750,8.812 C10.128,8.812 8.606,9.042 7.183,9.501 C5.760,9.960 4.513,10.633 3.442,11.520 C2.371,12.408 1.530,13.486 0.918,14.756 C0.306,16.026 -0.000,17.472 -0.000,19.094 ZM26.437,29.375 C26.437,29.375 30.844,29.375 30.844,29.375 C30.844,29.375 30.844,8.812 30.844,8.812 C30.844,8.812 26.437,8.812 26.437,8.812 C26.437,8.812 26.437,29.375 26.437,29.375 Z\" id=\"auto-messages_path-1\" class=\"cls-2\" fill-rule=\"evenodd\"/> </symbol>";
-	module.exports = sprite.add(image, "auto-messages");
+	exports = module.exports = __webpack_require__(3)();
+	// imports
+	
+	
+	// module
+	exports.push([module.id, ".dao.numeric-badge{display:inline-block;box-sizing:border-box;color:#fff;background-color:#ccd1d9;font-family:Helvetica,sans-serif;text-align:center;text-shadow:none;font-weight:400;font-size:12px;line-height:16px;height:16px;min-width:16px;padding:0 4px;border-radius:8px}.dao.numeric-badge.active{background-color:#3890ff}", ""]);
+	
+	// exports
+
 
 /***/ },
 /* 13 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var Sprite = __webpack_require__(14);
+	'use strict';
+	
+	__webpack_require__(14);
+	
+	__webpack_require__(17);
+	
+	__webpack_require__(18);
+	
+	__webpack_require__(19);
+	
+	__webpack_require__(20);
+
+/***/ },
+/* 14 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(15);;
+	var image = "<symbol viewBox=\"0 0 47 45\" id=\"auto-messages\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <path d=\"M44.063,-0.000 C44.063,-0.000 33.781,6.839 33.781,6.839 C33.781,6.839 33.781,31.349 33.781,31.349 C33.781,31.349 44.063,38.188 44.063,38.188 C44.858,38.188 45.547,37.897 46.128,37.316 C46.710,36.734 47.000,36.046 47.000,35.250 C47.000,35.250 47.000,2.937 47.000,2.937 C47.000,2.142 46.710,1.453 46.128,0.872 C45.547,0.290 44.858,-0.000 44.063,-0.000 ZM-0.000,19.094 C-0.000,21.848 0.841,24.081 2.524,25.795 C4.207,27.509 6.318,28.610 8.858,29.100 C8.828,29.130 8.812,29.169 8.812,29.215 C8.812,29.260 8.812,29.314 8.812,29.375 C8.812,29.375 8.812,41.125 8.812,41.125 C8.812,41.921 9.103,42.609 9.684,43.191 C10.266,43.772 10.954,44.063 11.750,44.063 C11.750,44.063 16.156,44.063 16.156,44.063 C16.952,44.063 17.640,43.772 18.222,43.191 C18.803,42.609 19.094,41.921 19.094,41.125 C19.094,41.125 19.094,29.375 19.094,29.375 C19.094,29.375 23.500,29.375 23.500,29.375 C23.500,29.375 23.500,8.812 23.500,8.812 C23.500,8.812 11.750,8.812 11.750,8.812 C10.128,8.812 8.606,9.042 7.183,9.501 C5.760,9.960 4.513,10.633 3.442,11.520 C2.371,12.408 1.530,13.486 0.918,14.756 C0.306,16.026 -0.000,17.472 -0.000,19.094 ZM26.437,29.375 C26.437,29.375 30.844,29.375 30.844,29.375 C30.844,29.375 30.844,8.812 30.844,8.812 C30.844,8.812 26.437,8.812 26.437,8.812 C26.437,8.812 26.437,29.375 26.437,29.375 Z\" id=\"auto-messages_path-1\" class=\"cls-2\" fill-rule=\"evenodd\"/> </symbol>";
+	module.exports = sprite.add(image, "auto-messages");
+
+/***/ },
+/* 15 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var Sprite = __webpack_require__(16);
 	var globalSprite = new Sprite();
 	
 	if (document.body) {
@@ -618,7 +656,7 @@
 
 
 /***/ },
-/* 14 */
+/* 16 */
 /***/ function(module, exports) {
 
 	/**
@@ -868,43 +906,43 @@
 
 
 /***/ },
-/* 15 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(13);;
-	var image = "<symbol viewBox=\"0 0 46 46\" id=\"conversation\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <path d=\"M26.469,0.000 C31.719,0.000 36.203,1.805 39.922,5.414 C43.641,9.024 45.500,13.344 45.500,18.375 C45.500,21.802 44.479,25.083 42.438,28.219 C42.438,28.219 42.328,28.328 42.328,28.328 C42.255,28.401 42.219,28.474 42.219,28.547 C42.000,28.984 41.891,29.422 41.891,29.859 C41.891,29.859 43.750,37.953 43.750,37.953 C43.750,37.953 36.203,35.109 36.203,35.109 C35.766,34.964 35.401,34.891 35.109,34.891 C34.891,34.891 34.562,34.964 34.125,35.109 C34.125,35.109 33.906,35.219 33.906,35.219 C33.323,35.438 32.448,35.693 31.281,35.984 C29.750,36.422 28.146,36.641 26.469,36.641 C21.219,36.641 16.753,34.854 13.070,31.281 C9.388,27.708 7.547,23.406 7.547,18.375 C7.547,17.063 7.656,15.787 7.875,14.547 C8.750,10.391 10.937,6.927 14.438,4.156 C17.938,1.385 21.948,0.000 26.469,0.000 ZM2.734,37.516 C2.661,37.443 2.625,37.406 2.625,37.406 C2.625,37.406 2.625,37.188 2.625,37.188 C0.875,34.635 -0.000,31.828 -0.000,28.766 C-0.000,24.099 1.786,20.234 5.359,17.172 C5.068,18.776 4.922,20.016 4.922,20.891 C4.922,25.922 6.781,30.242 10.500,33.852 C14.219,37.461 18.703,39.266 23.953,39.266 C25.630,39.266 27.234,39.047 28.766,38.609 C25.484,42.474 21.292,44.406 16.188,44.406 C14.219,44.406 12.104,43.969 9.844,43.094 C9.844,43.094 9.734,43.094 9.734,43.094 C9.443,42.948 9.151,42.875 8.859,42.875 C8.641,42.875 8.312,42.948 7.875,43.094 C7.875,43.094 1.750,45.500 1.750,45.500 C1.750,45.500 3.063,38.609 3.063,38.609 C3.063,38.245 2.953,37.880 2.734,37.516 Z\" id=\"conversation_path-1\" class=\"cls-2\" fill-rule=\"evenodd\"/> </symbol>";
-	module.exports = sprite.add(image, "conversation");
-
-/***/ },
-/* 16 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(13);;
-	var image = "<symbol viewBox=\"0 0 200 200\" id=\"dont-starve\" ><title>dont-starve</title><rect width=\"200\" height=\"200\" fill=\"#93c1d1\"/><path d=\"M321.556,1612.9c0,1.628,1.32,3.446,1.632,5.327,0.11,0.664,1.132,1.376,1.272,2.055a90.267,90.267,0,0,0,5.117,16.663,69.932,69.932,0,0,0,9.648,15.663c4.843,6.149,17.1,15.173,20.98,15.173,2.309,0,14.441-10.977,20.986-32.9,0.777-2.6,1.859-10.517,2.95-17.184,0.983-6.01,1.872-11,1.872-11L384,1602.342l2.012-26.073-32.172,12.942-38.014-6.322,1.462,19.764A15.5,15.5,0,0,1,321.556,1612.9Z\" transform=\"translate(-250 -1500)\" fill=\"#fff\"/><ellipse cx=\"342.34\" cy=\"1620.189\" rx=\"7.111\" ry=\"8.141\" transform=\"translate(-684.93 -1342.022) rotate(-16.063)\" fill=\"#93c1d1\" opacity=\"0.3\"/><ellipse cx=\"367.641\" cy=\"1618.685\" rx=\"7.413\" ry=\"8.246\" transform=\"translate(-683.526 -1335.08) rotate(-16.063)\" fill=\"#93c1d1\" opacity=\"0.3\"/><path d=\"M330.9,1611.223l17.3,1.992a0.7,0.7,0,0,0,.825-0.641l-0.105-2.74a0.681,0.681,0,0,0-.773-0.589l-17.216,1.239A0.369,0.369,0,1,0,330.9,1611.223Z\" transform=\"translate(-250 -1500)\" fill=\"#212223\"/><path d=\"M362.072,1608.185l-0.83,3.567a0.624,0.624,0,0,0,.7.72l16.921-1.125a0.356,0.356,0,0,0,.049-0.711l-16.058-2.916A0.667,0.667,0,0,0,362.072,1608.185Z\" transform=\"translate(-250 -1500)\" fill=\"#212223\"/><ellipse cx=\"94.844\" cy=\"120.984\" rx=\"2.482\" ry=\"3.552\" fill=\"#212223\"/><ellipse cx=\"365.41\" cy=\"1618.565\" rx=\"3.177\" ry=\"1.816\" transform=\"translate(-1541.707 203.659) rotate(-80.218)\" fill=\"#212223\"/><path d=\"M345.126,1627.1l3.754-2.457a0.259,0.259,0,0,1,.3.425l-3.592,2.688a0.4,0.4,0,0,1-.479-0.641Z\" transform=\"translate(-250 -1500)\" fill=\"#212223\"/><path d=\"M362.157,1623.7l2.657,1.77a0.4,0.4,0,0,1-.444.666l-0.025-.018-2.512-1.97A0.277,0.277,0,0,1,362.157,1623.7Z\" transform=\"translate(-250 -1500)\" fill=\"#212223\"/><path d=\"M359.425,1638.265l-0.711-15.923a0.25,0.25,0,0,0-.5.009l-0.128,14.6-2.494-1.836a0.394,0.394,0,0,0-.506.6l3.229,3.076a0.657,0.657,0,0,0,1.11-.505v-0.024Z\" transform=\"translate(-250 -1500)\" fill=\"#212223\"/><path d=\"M352.282,1644.834l10.462-3.514a0.252,0.252,0,0,1,.175.471l-10.22,4.167a0.6,0.6,0,0,1-.453-1.112Z\" transform=\"translate(-250 -1500)\" fill=\"#212223\"/><path d=\"M398.98,1597l-7.929-2.587s16.392-18.776,16.392-22.074-24.949-39.771-29.856-40.11c-7.41-.511-10.007,20.538-3.213,20.538,4.2,0,6.116-4.731,6.116-4.731s-3.431,2.963-5.322,1.248c-1.461-1.325-.566-10.709,3.614-10.709,2.607,0,4.88,9.463,3.918,14.772-0.967,5.333-8.766,14.454-14.647,14.454-5.681,0-2.951-8.328,0-10.15,0,0-21.114-18.485-30.014-18.485-11.028,0-10.805,24.624-10.805,24.624s3.463-11.3,6.42-11.3c3.471,0,12.495,20.919-6.406,19.558-5.9-.425-13.552-10.162-13.552-17.091a21.655,21.655,0,0,1,9.031-18.118c-8.076,0-33.969,35.638-33.969,39.894s19.836,26.441,19.836,26.441l-5.631,6.056a1.179,1.179,0,0,0,.151,1.742l9.941,7.531a4.414,4.414,0,0,0,2.228.874l8.69,0.864s-2.149-11,1.2-19.876a0.961,0.961,0,0,0,.043-0.921c-1.8-2.662-6.632-10.257-5.461-11.987,1.192-1.762,18.8-.867,33,4.932A2.281,2.281,0,0,0,355,1592.1c11.63-8.691,25.03-9.794,26.8-9.145,1.473,0.539.713,10.836-1.192,16.645a1.038,1.038,0,0,0,.114.858c2.345,4,2.934,17.2,2.934,17.2l15.618-19.225A0.947,0.947,0,0,0,398.98,1597Z\" transform=\"translate(-250 -1500)\" fill=\"#212223\"/><path d=\"M327.042,1629.037s-2.283,5.25-4.708,5.716c-2.729.524-8.405-13.232-6.529-17.187,1.038-2.187,8.64,1.983,8.64,1.983Z\" transform=\"translate(-250 -1500)\" fill=\"#fff\"/><path d=\"M381.262,1625.319s3.238,3.983,4.966,3.561c1.611-.393,4.082-7.48,4.565-10.095s0.794-7.1-.675-7.651-7.347,7.49-7.347,7.49Z\" transform=\"translate(-250 -1500)\" fill=\"#fff\"/></symbol>";
-	module.exports = sprite.add(image, "dont-starve");
-
-/***/ },
 /* 17 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
-	var sprite = __webpack_require__(13);;
-	var image = "<symbol viewBox=\"0 0 46 46\" id=\"manual-messages\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <path d=\"M12.250,19.250 C11.229,19.250 10.391,19.578 9.734,20.234 C9.078,20.891 8.750,21.729 8.750,22.750 C8.750,23.771 9.078,24.609 9.734,25.266 C10.391,25.922 11.229,26.250 12.250,26.250 C13.271,26.250 14.109,25.922 14.766,25.266 C15.422,24.609 15.750,23.771 15.750,22.750 C15.750,21.729 15.422,20.891 14.766,20.234 C14.109,19.578 13.271,19.250 12.250,19.250 ZM22.750,19.250 C21.729,19.250 20.891,19.578 20.234,20.234 C19.578,20.891 19.250,21.729 19.250,22.750 C19.250,23.771 19.578,24.609 20.234,25.266 C20.891,25.922 21.729,26.250 22.750,26.250 C23.771,26.250 24.609,25.922 25.266,25.266 C25.922,24.609 26.250,23.771 26.250,22.750 C26.250,21.729 25.922,20.891 25.266,20.234 C24.609,19.578 23.771,19.250 22.750,19.250 ZM33.250,19.250 C32.229,19.250 31.391,19.578 30.734,20.234 C30.078,20.891 29.750,21.729 29.750,22.750 C29.750,23.771 30.078,24.609 30.734,25.266 C31.391,25.922 32.229,26.250 33.250,26.250 C34.271,26.250 35.109,25.922 35.766,25.266 C36.422,24.609 36.750,23.771 36.750,22.750 C36.750,21.729 36.422,20.891 35.766,20.234 C35.109,19.578 34.271,19.250 33.250,19.250 ZM22.750,43.859 C16.479,43.859 11.120,41.727 6.672,37.461 C2.224,33.195 -0.000,28.036 -0.000,21.984 C-0.000,15.932 2.224,10.755 6.672,6.453 C11.120,2.151 16.479,0.000 22.750,0.000 C29.021,0.000 34.380,2.151 38.828,6.453 C43.276,10.755 45.500,15.932 45.500,21.984 C45.500,26.287 44.297,30.224 41.891,33.797 C41.818,33.870 41.745,33.943 41.672,34.016 C41.599,34.089 41.562,34.162 41.562,34.234 C41.271,34.818 41.125,35.365 41.125,35.875 C41.125,35.875 43.531,45.500 43.531,45.500 C43.531,45.500 34.344,42.109 34.344,42.109 C34.052,41.964 33.615,41.891 33.031,41.891 C32.812,41.891 32.411,41.964 31.828,42.109 C31.755,42.109 31.719,42.128 31.719,42.164 C31.719,42.201 31.682,42.219 31.609,42.219 C28.911,43.312 25.958,43.859 22.750,43.859 Z\" id=\"manual-messages_path-1\" class=\"cls-2\" fill-rule=\"evenodd\"/> </symbol>";
-	module.exports = sprite.add(image, "manual-messages");
+	var sprite = __webpack_require__(15);;
+	var image = "<symbol viewBox=\"0 0 46 46\" id=\"conversation\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <path d=\"M26.469,0.000 C31.719,0.000 36.203,1.805 39.922,5.414 C43.641,9.024 45.500,13.344 45.500,18.375 C45.500,21.802 44.479,25.083 42.438,28.219 C42.438,28.219 42.328,28.328 42.328,28.328 C42.255,28.401 42.219,28.474 42.219,28.547 C42.000,28.984 41.891,29.422 41.891,29.859 C41.891,29.859 43.750,37.953 43.750,37.953 C43.750,37.953 36.203,35.109 36.203,35.109 C35.766,34.964 35.401,34.891 35.109,34.891 C34.891,34.891 34.562,34.964 34.125,35.109 C34.125,35.109 33.906,35.219 33.906,35.219 C33.323,35.438 32.448,35.693 31.281,35.984 C29.750,36.422 28.146,36.641 26.469,36.641 C21.219,36.641 16.753,34.854 13.070,31.281 C9.388,27.708 7.547,23.406 7.547,18.375 C7.547,17.063 7.656,15.787 7.875,14.547 C8.750,10.391 10.937,6.927 14.438,4.156 C17.938,1.385 21.948,0.000 26.469,0.000 ZM2.734,37.516 C2.661,37.443 2.625,37.406 2.625,37.406 C2.625,37.406 2.625,37.188 2.625,37.188 C0.875,34.635 -0.000,31.828 -0.000,28.766 C-0.000,24.099 1.786,20.234 5.359,17.172 C5.068,18.776 4.922,20.016 4.922,20.891 C4.922,25.922 6.781,30.242 10.500,33.852 C14.219,37.461 18.703,39.266 23.953,39.266 C25.630,39.266 27.234,39.047 28.766,38.609 C25.484,42.474 21.292,44.406 16.188,44.406 C14.219,44.406 12.104,43.969 9.844,43.094 C9.844,43.094 9.734,43.094 9.734,43.094 C9.443,42.948 9.151,42.875 8.859,42.875 C8.641,42.875 8.312,42.948 7.875,43.094 C7.875,43.094 1.750,45.500 1.750,45.500 C1.750,45.500 3.063,38.609 3.063,38.609 C3.063,38.245 2.953,37.880 2.734,37.516 Z\" id=\"conversation_path-1\" class=\"cls-2\" fill-rule=\"evenodd\"/> </symbol>";
+	module.exports = sprite.add(image, "conversation");
 
 /***/ },
 /* 18 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
-	var sprite = __webpack_require__(13);;
+	var sprite = __webpack_require__(15);;
+	var image = "<symbol viewBox=\"0 0 200 200\" id=\"dont-starve\" ><title>dont-starve</title><rect width=\"200\" height=\"200\" fill=\"#93c1d1\"/><path d=\"M321.556,1612.9c0,1.628,1.32,3.446,1.632,5.327,0.11,0.664,1.132,1.376,1.272,2.055a90.267,90.267,0,0,0,5.117,16.663,69.932,69.932,0,0,0,9.648,15.663c4.843,6.149,17.1,15.173,20.98,15.173,2.309,0,14.441-10.977,20.986-32.9,0.777-2.6,1.859-10.517,2.95-17.184,0.983-6.01,1.872-11,1.872-11L384,1602.342l2.012-26.073-32.172,12.942-38.014-6.322,1.462,19.764A15.5,15.5,0,0,1,321.556,1612.9Z\" transform=\"translate(-250 -1500)\" fill=\"#fff\"/><ellipse cx=\"342.34\" cy=\"1620.189\" rx=\"7.111\" ry=\"8.141\" transform=\"translate(-684.93 -1342.022) rotate(-16.063)\" fill=\"#93c1d1\" opacity=\"0.3\"/><ellipse cx=\"367.641\" cy=\"1618.685\" rx=\"7.413\" ry=\"8.246\" transform=\"translate(-683.526 -1335.08) rotate(-16.063)\" fill=\"#93c1d1\" opacity=\"0.3\"/><path d=\"M330.9,1611.223l17.3,1.992a0.7,0.7,0,0,0,.825-0.641l-0.105-2.74a0.681,0.681,0,0,0-.773-0.589l-17.216,1.239A0.369,0.369,0,1,0,330.9,1611.223Z\" transform=\"translate(-250 -1500)\" fill=\"#212223\"/><path d=\"M362.072,1608.185l-0.83,3.567a0.624,0.624,0,0,0,.7.72l16.921-1.125a0.356,0.356,0,0,0,.049-0.711l-16.058-2.916A0.667,0.667,0,0,0,362.072,1608.185Z\" transform=\"translate(-250 -1500)\" fill=\"#212223\"/><ellipse cx=\"94.844\" cy=\"120.984\" rx=\"2.482\" ry=\"3.552\" fill=\"#212223\"/><ellipse cx=\"365.41\" cy=\"1618.565\" rx=\"3.177\" ry=\"1.816\" transform=\"translate(-1541.707 203.659) rotate(-80.218)\" fill=\"#212223\"/><path d=\"M345.126,1627.1l3.754-2.457a0.259,0.259,0,0,1,.3.425l-3.592,2.688a0.4,0.4,0,0,1-.479-0.641Z\" transform=\"translate(-250 -1500)\" fill=\"#212223\"/><path d=\"M362.157,1623.7l2.657,1.77a0.4,0.4,0,0,1-.444.666l-0.025-.018-2.512-1.97A0.277,0.277,0,0,1,362.157,1623.7Z\" transform=\"translate(-250 -1500)\" fill=\"#212223\"/><path d=\"M359.425,1638.265l-0.711-15.923a0.25,0.25,0,0,0-.5.009l-0.128,14.6-2.494-1.836a0.394,0.394,0,0,0-.506.6l3.229,3.076a0.657,0.657,0,0,0,1.11-.505v-0.024Z\" transform=\"translate(-250 -1500)\" fill=\"#212223\"/><path d=\"M352.282,1644.834l10.462-3.514a0.252,0.252,0,0,1,.175.471l-10.22,4.167a0.6,0.6,0,0,1-.453-1.112Z\" transform=\"translate(-250 -1500)\" fill=\"#212223\"/><path d=\"M398.98,1597l-7.929-2.587s16.392-18.776,16.392-22.074-24.949-39.771-29.856-40.11c-7.41-.511-10.007,20.538-3.213,20.538,4.2,0,6.116-4.731,6.116-4.731s-3.431,2.963-5.322,1.248c-1.461-1.325-.566-10.709,3.614-10.709,2.607,0,4.88,9.463,3.918,14.772-0.967,5.333-8.766,14.454-14.647,14.454-5.681,0-2.951-8.328,0-10.15,0,0-21.114-18.485-30.014-18.485-11.028,0-10.805,24.624-10.805,24.624s3.463-11.3,6.42-11.3c3.471,0,12.495,20.919-6.406,19.558-5.9-.425-13.552-10.162-13.552-17.091a21.655,21.655,0,0,1,9.031-18.118c-8.076,0-33.969,35.638-33.969,39.894s19.836,26.441,19.836,26.441l-5.631,6.056a1.179,1.179,0,0,0,.151,1.742l9.941,7.531a4.414,4.414,0,0,0,2.228.874l8.69,0.864s-2.149-11,1.2-19.876a0.961,0.961,0,0,0,.043-0.921c-1.8-2.662-6.632-10.257-5.461-11.987,1.192-1.762,18.8-.867,33,4.932A2.281,2.281,0,0,0,355,1592.1c11.63-8.691,25.03-9.794,26.8-9.145,1.473,0.539.713,10.836-1.192,16.645a1.038,1.038,0,0,0,.114.858c2.345,4,2.934,17.2,2.934,17.2l15.618-19.225A0.947,0.947,0,0,0,398.98,1597Z\" transform=\"translate(-250 -1500)\" fill=\"#212223\"/><path d=\"M327.042,1629.037s-2.283,5.25-4.708,5.716c-2.729.524-8.405-13.232-6.529-17.187,1.038-2.187,8.64,1.983,8.64,1.983Z\" transform=\"translate(-250 -1500)\" fill=\"#fff\"/><path d=\"M381.262,1625.319s3.238,3.983,4.966,3.561c1.611-.393,4.082-7.48,4.565-10.095s0.794-7.1-.675-7.651-7.347,7.49-7.347,7.49Z\" transform=\"translate(-250 -1500)\" fill=\"#fff\"/></symbol>";
+	module.exports = sprite.add(image, "dont-starve");
+
+/***/ },
+/* 19 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(15);;
+	var image = "<symbol viewBox=\"0 0 46 46\" id=\"manual-messages\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <path d=\"M12.250,19.250 C11.229,19.250 10.391,19.578 9.734,20.234 C9.078,20.891 8.750,21.729 8.750,22.750 C8.750,23.771 9.078,24.609 9.734,25.266 C10.391,25.922 11.229,26.250 12.250,26.250 C13.271,26.250 14.109,25.922 14.766,25.266 C15.422,24.609 15.750,23.771 15.750,22.750 C15.750,21.729 15.422,20.891 14.766,20.234 C14.109,19.578 13.271,19.250 12.250,19.250 ZM22.750,19.250 C21.729,19.250 20.891,19.578 20.234,20.234 C19.578,20.891 19.250,21.729 19.250,22.750 C19.250,23.771 19.578,24.609 20.234,25.266 C20.891,25.922 21.729,26.250 22.750,26.250 C23.771,26.250 24.609,25.922 25.266,25.266 C25.922,24.609 26.250,23.771 26.250,22.750 C26.250,21.729 25.922,20.891 25.266,20.234 C24.609,19.578 23.771,19.250 22.750,19.250 ZM33.250,19.250 C32.229,19.250 31.391,19.578 30.734,20.234 C30.078,20.891 29.750,21.729 29.750,22.750 C29.750,23.771 30.078,24.609 30.734,25.266 C31.391,25.922 32.229,26.250 33.250,26.250 C34.271,26.250 35.109,25.922 35.766,25.266 C36.422,24.609 36.750,23.771 36.750,22.750 C36.750,21.729 36.422,20.891 35.766,20.234 C35.109,19.578 34.271,19.250 33.250,19.250 ZM22.750,43.859 C16.479,43.859 11.120,41.727 6.672,37.461 C2.224,33.195 -0.000,28.036 -0.000,21.984 C-0.000,15.932 2.224,10.755 6.672,6.453 C11.120,2.151 16.479,0.000 22.750,0.000 C29.021,0.000 34.380,2.151 38.828,6.453 C43.276,10.755 45.500,15.932 45.500,21.984 C45.500,26.287 44.297,30.224 41.891,33.797 C41.818,33.870 41.745,33.943 41.672,34.016 C41.599,34.089 41.562,34.162 41.562,34.234 C41.271,34.818 41.125,35.365 41.125,35.875 C41.125,35.875 43.531,45.500 43.531,45.500 C43.531,45.500 34.344,42.109 34.344,42.109 C34.052,41.964 33.615,41.891 33.031,41.891 C32.812,41.891 32.411,41.964 31.828,42.109 C31.755,42.109 31.719,42.128 31.719,42.164 C31.719,42.201 31.682,42.219 31.609,42.219 C28.911,43.312 25.958,43.859 22.750,43.859 Z\" id=\"manual-messages_path-1\" class=\"cls-2\" fill-rule=\"evenodd\"/> </symbol>";
+	module.exports = sprite.add(image, "manual-messages");
+
+/***/ },
+/* 20 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(15);;
 	var image = "<symbol viewBox=\"0 0 58 53\" id=\"users\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <path d=\"M-0.012,52.500 C-0.012,52.172 0.006,51.739 0.042,51.201 C0.079,50.663 0.279,49.798 0.644,48.604 C1.009,47.410 1.519,46.484 2.175,45.828 C2.813,45.190 4.080,44.488 5.976,43.723 C7.872,42.957 10.014,42.150 12.403,41.303 C14.791,40.455 16.541,39.749 17.653,39.184 C19.057,38.473 20.146,37.434 20.921,36.066 C21.696,34.699 22.083,33.277 22.083,31.801 C22.083,30.798 21.482,29.613 20.279,28.246 C19.057,26.842 18.068,24.933 17.311,22.518 C16.555,20.102 16.177,17.318 16.177,14.164 C16.177,11.794 16.514,9.684 17.188,7.834 C17.863,5.984 18.783,4.503 19.950,3.391 C21.117,2.279 22.443,1.436 23.929,0.861 C25.415,0.287 27.006,0.000 28.701,0.000 C30.397,0.000 31.978,0.287 33.446,0.861 C34.913,1.436 36.235,2.279 37.411,3.391 C38.587,4.503 39.512,5.984 40.187,7.834 C40.861,9.684 41.198,11.794 41.198,14.164 C41.198,17.318 40.825,20.102 40.077,22.518 C39.330,24.933 38.345,26.842 37.124,28.246 C35.902,29.632 35.292,30.816 35.292,31.801 C35.292,33.259 35.684,34.677 36.467,36.053 C37.251,37.429 38.345,38.473 39.749,39.184 C40.861,39.749 42.611,40.455 44.999,41.303 C47.388,42.150 49.521,42.957 51.399,43.723 C53.276,44.488 54.534,45.190 55.172,45.828 C55.829,46.484 56.339,47.369 56.704,48.480 C57.068,49.592 57.269,50.540 57.305,51.324 C57.305,51.324 57.387,52.500 57.387,52.500 C57.387,52.500 -0.012,52.500 -0.012,52.500 Z\" id=\"users_path-1\" class=\"cls-2\" fill-rule=\"evenodd\"/> </symbol>";
 	module.exports = sprite.add(image, "users");
 
 /***/ },
-/* 19 */
+/* 21 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -1063,7 +1101,7 @@
 	exports.default = register;
 
 /***/ },
-/* 20 */
+/* 22 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1072,21 +1110,21 @@
 	  value: true
 	});
 	
-	var _dialog = __webpack_require__(21);
+	var _dialog = __webpack_require__(23);
 	
 	var dialog = _interopRequireWildcard(_dialog);
 	
-	__webpack_require__(36);
+	__webpack_require__(38);
 	
-	var _daoDialogHeader = __webpack_require__(38);
+	var _daoDialogHeader = __webpack_require__(40);
 	
 	var _daoDialogHeader2 = _interopRequireDefault(_daoDialogHeader);
 	
-	var _daoMultiStep = __webpack_require__(40);
+	var _daoMultiStep = __webpack_require__(42);
 	
 	var _daoMultiStep2 = _interopRequireDefault(_daoMultiStep);
 	
-	var _daoStep = __webpack_require__(47);
+	var _daoStep = __webpack_require__(49);
 	
 	var _daoStep2 = _interopRequireDefault(_daoStep);
 	
@@ -1101,7 +1139,7 @@
 	exports.default = 'dao.dialog';
 
 /***/ },
-/* 21 */
+/* 23 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1120,15 +1158,15 @@
 	exports.daoDialogAnimationClass = daoDialogAnimationClass;
 	exports.daoDialogTransclude = daoDialogTransclude;
 	
-	var _keys = __webpack_require__(22);
+	var _keys = __webpack_require__(24);
 	
 	var _keys2 = _interopRequireDefault(_keys);
 	
-	var _daoBackdrop = __webpack_require__(34);
+	var _daoBackdrop = __webpack_require__(36);
 	
 	var _daoBackdrop2 = _interopRequireDefault(_daoBackdrop);
 	
-	var _daoWindow = __webpack_require__(35);
+	var _daoWindow = __webpack_require__(37);
 	
 	var _daoWindow2 = _interopRequireDefault(_daoWindow);
 	
@@ -1894,43 +1932,43 @@
 	}
 
 /***/ },
-/* 22 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = { "default": __webpack_require__(23), __esModule: true };
-
-/***/ },
-/* 23 */
-/***/ function(module, exports, __webpack_require__) {
-
-	__webpack_require__(24);
-	module.exports = __webpack_require__(30).Object.keys;
-
-/***/ },
 /* 24 */
 /***/ function(module, exports, __webpack_require__) {
 
+	module.exports = { "default": __webpack_require__(25), __esModule: true };
+
+/***/ },
+/* 25 */
+/***/ function(module, exports, __webpack_require__) {
+
+	__webpack_require__(26);
+	module.exports = __webpack_require__(32).Object.keys;
+
+/***/ },
+/* 26 */
+/***/ function(module, exports, __webpack_require__) {
+
 	// 19.1.2.14 Object.keys(O)
-	var toObject = __webpack_require__(25);
+	var toObject = __webpack_require__(27);
 	
-	__webpack_require__(27)('keys', function($keys){
+	__webpack_require__(29)('keys', function($keys){
 	  return function keys(it){
 	    return $keys(toObject(it));
 	  };
 	});
 
 /***/ },
-/* 25 */
+/* 27 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 7.1.13 ToObject(argument)
-	var defined = __webpack_require__(26);
+	var defined = __webpack_require__(28);
 	module.exports = function(it){
 	  return Object(defined(it));
 	};
 
 /***/ },
-/* 26 */
+/* 28 */
 /***/ function(module, exports) {
 
 	// 7.2.1 RequireObjectCoercible(argument)
@@ -1940,13 +1978,13 @@
 	};
 
 /***/ },
-/* 27 */
+/* 29 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// most Object methods by ES6 should accept primitives
-	var $export = __webpack_require__(28)
-	  , core    = __webpack_require__(30)
-	  , fails   = __webpack_require__(33);
+	var $export = __webpack_require__(30)
+	  , core    = __webpack_require__(32)
+	  , fails   = __webpack_require__(35);
 	module.exports = function(KEY, exec){
 	  var fn  = (core.Object || {})[KEY] || Object[KEY]
 	    , exp = {};
@@ -1955,12 +1993,12 @@
 	};
 
 /***/ },
-/* 28 */
+/* 30 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var global    = __webpack_require__(29)
-	  , core      = __webpack_require__(30)
-	  , ctx       = __webpack_require__(31)
+	var global    = __webpack_require__(31)
+	  , core      = __webpack_require__(32)
+	  , ctx       = __webpack_require__(33)
 	  , PROTOTYPE = 'prototype';
 	
 	var $export = function(type, name, source){
@@ -2006,7 +2044,7 @@
 	module.exports = $export;
 
 /***/ },
-/* 29 */
+/* 31 */
 /***/ function(module, exports) {
 
 	// https://github.com/zloirock/core-js/issues/86#issuecomment-115759028
@@ -2015,18 +2053,18 @@
 	if(typeof __g == 'number')__g = global; // eslint-disable-line no-undef
 
 /***/ },
-/* 30 */
+/* 32 */
 /***/ function(module, exports) {
 
 	var core = module.exports = {version: '1.2.6'};
 	if(typeof __e == 'number')__e = core; // eslint-disable-line no-undef
 
 /***/ },
-/* 31 */
+/* 33 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// optional / simple context binding
-	var aFunction = __webpack_require__(32);
+	var aFunction = __webpack_require__(34);
 	module.exports = function(fn, that, length){
 	  aFunction(fn);
 	  if(that === undefined)return fn;
@@ -2047,7 +2085,7 @@
 	};
 
 /***/ },
-/* 32 */
+/* 34 */
 /***/ function(module, exports) {
 
 	module.exports = function(it){
@@ -2056,7 +2094,7 @@
 	};
 
 /***/ },
-/* 33 */
+/* 35 */
 /***/ function(module, exports) {
 
 	module.exports = function(exec){
@@ -2068,25 +2106,25 @@
 	};
 
 /***/ },
-/* 34 */
+/* 36 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao backdrop\" ng-style=\"{'z-index': 1040 + (index && 1 || 0) + index*10}\"></div>"
 
 /***/ },
-/* 35 */
+/* 37 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao dialog dialog-overlay\" dialog-render={{$isRendered}} tabindex=-1 role=dialog ng-style=\"{'z-index': 1050 + index*10, display: 'flex'}\"><div class=dialog-overlay-inner><div class=\"dialog-container show-dialog\" dao-dialog-transclude></div></div></div>"
 
 /***/ },
-/* 36 */
+/* 38 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(37);
+	var content = __webpack_require__(39);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -2106,7 +2144,7 @@
 	}
 
 /***/ },
-/* 37 */
+/* 39 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -2120,7 +2158,7 @@
 
 
 /***/ },
-/* 38 */
+/* 40 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2129,7 +2167,7 @@
 	  value: true
 	});
 	
-	var _daoDialogHeader = __webpack_require__(39);
+	var _daoDialogHeader = __webpack_require__(41);
 	
 	var _daoDialogHeader2 = _interopRequireDefault(_daoDialogHeader);
 	
@@ -2147,13 +2185,13 @@
 	exports.default = DaoDialogHeader;
 
 /***/ },
-/* 39 */
+/* 41 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=dialog-header><ng-transclude></ng-transclude><div ng-click=\"$dismiss('close')\" class=dao-close><svg preserveaspectratio=xMidYMid width=34 height=34 viewbox=\"0 0 34 34\"><path d=\"M17.000,0.001 C7.612,0.001 0.001,7.612 0.001,17.000 C0.001,26.388 7.612,33.999 17.000,33.999 C26.388,33.999 33.999,26.388 33.999,17.000 C33.999,7.612 26.388,0.001 17.000,0.001 ZM24.166,21.666 C24.166,21.666 21.666,24.166 21.666,24.166 C21.666,24.166 17.000,19.500 17.000,19.500 C17.000,19.500 12.334,24.166 12.334,24.166 C12.334,24.166 9.834,21.666 9.834,21.666 C9.834,21.666 14.500,17.000 14.500,17.000 C14.500,17.000 9.834,12.335 9.834,12.335 C9.834,12.335 12.334,9.834 12.334,9.834 C12.334,9.834 17.000,14.500 17.000,14.500 C17.000,14.500 21.666,9.834 21.666,9.834 C21.666,9.834 24.166,12.335 24.166,12.335 C24.166,12.335 19.500,17.000 19.500,17.000 C19.500,17.000 24.166,21.666 24.166,21.666 Z\" id=path-1 fill-rule=evenodd></path></svg></div></div>"
 
 /***/ },
-/* 40 */
+/* 42 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2162,15 +2200,15 @@
 	  value: true
 	});
 	
-	var _classCallCheck2 = __webpack_require__(41);
+	var _classCallCheck2 = __webpack_require__(43);
 	
 	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 	
-	var _createClass2 = __webpack_require__(42);
+	var _createClass2 = __webpack_require__(44);
 	
 	var _createClass3 = _interopRequireDefault(_createClass2);
 	
-	var _daoMultiStep = __webpack_require__(46);
+	var _daoMultiStep = __webpack_require__(48);
 	
 	var _daoMultiStep2 = _interopRequireDefault(_daoMultiStep);
 	
@@ -2266,7 +2304,7 @@
 	exports.default = DaoMultiStep;
 
 /***/ },
-/* 41 */
+/* 43 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -2280,12 +2318,12 @@
 	exports.__esModule = true;
 
 /***/ },
-/* 42 */
+/* 44 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
 	
-	var _defineProperty = __webpack_require__(43);
+	var _defineProperty = __webpack_require__(45);
 	
 	var _defineProperty2 = _interopRequireDefault(_defineProperty);
 	
@@ -2312,22 +2350,22 @@
 	exports.__esModule = true;
 
 /***/ },
-/* 43 */
+/* 45 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = { "default": __webpack_require__(44), __esModule: true };
+	module.exports = { "default": __webpack_require__(46), __esModule: true };
 
 /***/ },
-/* 44 */
+/* 46 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var $ = __webpack_require__(45);
+	var $ = __webpack_require__(47);
 	module.exports = function defineProperty(it, key, desc){
 	  return $.setDesc(it, key, desc);
 	};
 
 /***/ },
-/* 45 */
+/* 47 */
 /***/ function(module, exports) {
 
 	var $Object = Object;
@@ -2345,13 +2383,13 @@
 	};
 
 /***/ },
-/* 46 */
+/* 48 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=dao-multi-step ng-transclude></div>"
 
 /***/ },
-/* 47 */
+/* 49 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2360,7 +2398,7 @@
 	  value: true
 	});
 	
-	var _daoStep = __webpack_require__(48);
+	var _daoStep = __webpack_require__(50);
 	
 	var _daoStep2 = _interopRequireDefault(_daoStep);
 	
@@ -2392,13 +2430,13 @@
 	exports.default = DaoStep;
 
 /***/ },
-/* 48 */
+/* 50 */
 /***/ function(module, exports) {
 
 	module.exports = "<div ng-if=isActive class=dao-step ng-class=\"{'dao-animate':daoAnimate}\" ng-transclude></div>"
 
 /***/ },
-/* 49 */
+/* 51 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2407,45 +2445,657 @@
 	  value: true
 	});
 	
-	var _tooltip = __webpack_require__(50);
+	var _daoPosition = __webpack_require__(52);
 	
-	var tooltip = _interopRequireWildcard(_tooltip);
+	var position = _interopRequireWildcard(_daoPosition);
 	
-	__webpack_require__(54);
+	var _daoStackedMap = __webpack_require__(53);
 	
-	var _position = __webpack_require__(56);
+	var stackedMap = _interopRequireWildcard(_daoStackedMap);
 	
-	var position = _interopRequireWildcard(_position);
+	var _daoTooltip = __webpack_require__(54);
+	
+	var tooltip = _interopRequireWildcard(_daoTooltip);
+	
+	__webpack_require__(58);
 	
 	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 	
-	/**
-	 * The following features are still outstanding: popup delay, animation as a
-	 * function, placement as a function, inside, support for more triggers than
-	 * just mouse enter/leave, and selector delegatation.
-	 */
+	angular.module('dao.position', []).factory('$daoPosition', position.$daoPosition);
+	
+	angular.module('dao.stackedMap', []).factory('$daoStackedMap', stackedMap.$daoStackedMap);
 	
 	var moduleName = 'dao.tooltip';
-	angular.module(moduleName, ['dao.position']).provider('$daoTooltip', tooltip.$daoTooltip).directive('daoTooltipTemplateTransclude', tooltip.daoTooltipTemplateTransclude).directive('daoTooltipClasses', tooltip.daoTooltipClasses).directive('daoTooltipPopup', tooltip.daoTooltipPopup).directive('daoTooltip', tooltip.daoTooltip).directive('daoTooltipTemplatePopup', tooltip.daoTooltipTemplatePopup).directive('daoTooltipTemplate', tooltip.daoTooltipTemplate).directive('daoTooltipHtmlPopup', tooltip.daoTooltipHtmlPopup).directive('daoTooltipHtml', tooltip.daoTooltipHtml);
-	
-	angular.module('dao.position', []).factory('$daoPosition', position.$daoPosition);
+	angular.module(moduleName, ['dao.position', 'dao.stackedMap']).provider('$daoTooltip', tooltip.$daoTooltip).directive('daoTooltipTemplateTransclude', tooltip.daoTooltipTemplateTransclude).directive('daoTooltipClasses', tooltip.daoTooltipClasses).directive('daoTooltipPopup', tooltip.daoTooltipPopup).directive('daoTooltip', tooltip.daoTooltip).directive('daoTooltipTemplatePopup', tooltip.daoTooltipTemplatePopup).directive('daoTooltipTemplate', tooltip.daoTooltipTemplate).directive('daoTooltipHtmlPopup', tooltip.daoTooltipHtmlPopup).directive('daoTooltipHtml', tooltip.daoTooltipHtml);
 	
 	exports.default = moduleName;
 
 /***/ },
-/* 50 */
+/* 52 */
+/***/ function(module, exports) {
+
+	/**
+	 * A set of utility methods for working with the DOM.
+	 * It is meant to be used where we need to absolute-position elements in
+	 * relation to another element (this is the case for tooltips, popovers,
+	 * typeahead suggestions etc.).
+	 */
+	
+	'use strict';
+	
+	$daoPosition.$inject = ["$document", "$window"];
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.$daoPosition = $daoPosition;
+	/*@ngInject*/function $daoPosition($document, $window) {
+	  /**
+	   * Used by scrollbarWidth() function to cache scrollbar's width.
+	   * Do not access this variable directly, use scrollbarWidth() instead.
+	   */
+	  var SCROLLBAR_WIDTH;
+	  var OVERFLOW_REGEX = {
+	    normal: /(auto|scroll)/,
+	    hidden: /(auto|scroll|hidden)/
+	  };
+	  var PLACEMENT_REGEX = {
+	    auto: /\s?auto?\s?/i,
+	    primary: /^(top|bottom|left|right)$/,
+	    secondary: /^(top|bottom|left|right|center)$/,
+	    vertical: /^(top|bottom)$/
+	  };
+	
+	  return {
+	
+	    /**
+	     * Provides a raw DOM element from a jQuery/jQLite element.
+	     *
+	     * @param {element} elem - The element to convert.
+	     *
+	     * @returns {element} A HTML element.
+	     */
+	    getRawNode: function getRawNode(elem) {
+	      return elem[0] || elem;
+	    },
+	
+	    /**
+	     * Provides a parsed number for a style property.  Strips
+	     * units and casts invalid numbers to 0.
+	     *
+	     * @param {string} value - The style value to parse.
+	     *
+	     * @returns {number} A valid number.
+	     */
+	    parseStyle: function parseStyle(value) {
+	      value = parseFloat(value);
+	      return isFinite(value) ? value : 0;
+	    },
+	
+	    /**
+	     * Provides the closest positioned ancestor.
+	     *
+	     * @param {element} element - The element to get the offest parent for.
+	     *
+	     * @returns {element} The closest positioned ancestor.
+	     */
+	    offsetParent: function offsetParent(elem) {
+	      elem = this.getRawNode(elem);
+	
+	      var offsetParent = elem.offsetParent || $document[0].documentElement;
+	
+	      function isStaticPositioned(el) {
+	        return ($window.getComputedStyle(el).position || 'static') === 'static';
+	      }
+	
+	      while (offsetParent && offsetParent !== $document[0].documentElement && isStaticPositioned(offsetParent)) {
+	        offsetParent = offsetParent.offsetParent;
+	      }
+	
+	      return offsetParent || $document[0].documentElement;
+	    },
+	
+	    /**
+	     * Provides the scrollbar width, concept from TWBS measureScrollbar()
+	     * function in https://github.com/twbs/bootstrap/blob/master/js/modal.js
+	     *
+	     * @returns {number} The width of the browser scollbar.
+	     */
+	    scrollbarWidth: function scrollbarWidth() {
+	      if (angular.isUndefined(SCROLLBAR_WIDTH)) {
+	        var scrollElem = angular.element('<div style="position: absolute; top: -9999px; width: 50px; height: 50px; overflow: scroll;"></div>');
+	        $document.find('body').append(scrollElem);
+	        SCROLLBAR_WIDTH = scrollElem[0].offsetWidth - scrollElem[0].clientWidth;
+	        SCROLLBAR_WIDTH = isFinite(SCROLLBAR_WIDTH) ? SCROLLBAR_WIDTH : 0;
+	        scrollElem.remove();
+	      }
+	
+	      return SCROLLBAR_WIDTH;
+	    },
+	
+	    /**
+	     * Provides the closest scrollable ancestor.
+	     * A port of the jQuery UI scrollParent method:
+	     * https://github.com/jquery/jquery-ui/blob/master/ui/scroll-parent.js
+	     *
+	     * @param {element} elem - The element to find the scroll parent of.
+	     * @param {boolean=} [includeHidden=false] - Should scroll style of 'hidden' be considered,
+	     *   default is false.
+	     *
+	     * @returns {element} A HTML element.
+	     */
+	    scrollParent: function scrollParent(elem, includeHidden) {
+	      elem = this.getRawNode(elem);
+	
+	      var overflowRegex = includeHidden ? OVERFLOW_REGEX.hidden : OVERFLOW_REGEX.normal;
+	      var documentEl = $document[0].documentElement;
+	      var elemStyle = $window.getComputedStyle(elem);
+	      var excludeStatic = elemStyle.position === 'absolute';
+	      var scrollParent = elem.parentElement || documentEl;
+	
+	      if (scrollParent === documentEl || elemStyle.position === 'fixed') {
+	        return documentEl;
+	      }
+	
+	      while (scrollParent.parentElement && scrollParent !== documentEl) {
+	        var spStyle = $window.getComputedStyle(scrollParent);
+	        if (excludeStatic && spStyle.position !== 'static') {
+	          excludeStatic = false;
+	        }
+	
+	        if (!excludeStatic && overflowRegex.test(spStyle.overflow + spStyle.overflowY + spStyle.overflowX)) {
+	          break;
+	        }
+	        scrollParent = scrollParent.parentElement;
+	      }
+	
+	      return scrollParent;
+	    },
+	
+	    /**
+	     * Provides read-only equivalent of jQuery's position function:
+	     * http://api.jquery.com/position/ - distance to closest positioned
+	     * ancestor.  Does not account for margins by default like jQuery position.
+	     *
+	     * @param {element} elem - The element to caclulate the position on.
+	     * @param {boolean=} [includeMargins=false] - Should margins be accounted
+	     * for, default is false.
+	     *
+	     * @returns {object} An object with the following properties:
+	     *   <ul>
+	     *     <li>**width**: the width of the element</li>
+	     *     <li>**height**: the height of the element</li>
+	     *     <li>**top**: distance to top edge of offset parent</li>
+	     *     <li>**left**: distance to left edge of offset parent</li>
+	     *   </ul>
+	     */
+	    position: function position(elem, includeMagins) {
+	      elem = this.getRawNode(elem);
+	
+	      var elemOffset = this.offset(elem);
+	      if (includeMagins) {
+	        var elemStyle = $window.getComputedStyle(elem);
+	        elemOffset.top -= this.parseStyle(elemStyle.marginTop);
+	        elemOffset.left -= this.parseStyle(elemStyle.marginLeft);
+	      }
+	      var parent = this.offsetParent(elem);
+	      var parentOffset = {
+	        top: 0,
+	        left: 0
+	      };
+	
+	      if (parent !== $document[0].documentElement) {
+	        parentOffset = this.offset(parent);
+	        parentOffset.top += parent.clientTop - parent.scrollTop;
+	        parentOffset.left += parent.clientLeft - parent.scrollLeft;
+	      }
+	
+	      return {
+	        width: Math.round(angular.isNumber(elemOffset.width) ? elemOffset.width : elem.offsetWidth),
+	        height: Math.round(angular.isNumber(elemOffset.height) ? elemOffset.height : elem.offsetHeight),
+	        top: Math.round(elemOffset.top - parentOffset.top),
+	        left: Math.round(elemOffset.left - parentOffset.left)
+	      };
+	    },
+	
+	    /**
+	     * Provides read-only equivalent of jQuery's offset function:
+	     * http://api.jquery.com/offset/ - distance to viewport.  Does
+	     * not account for borders, margins, or padding on the body
+	     * element.
+	     *
+	     * @param {element} elem - The element to calculate the offset on.
+	     *
+	     * @returns {object} An object with the following properties:
+	     *   <ul>
+	     *     <li>**width**: the width of the element</li>
+	     *     <li>**height**: the height of the element</li>
+	     *     <li>**top**: distance to top edge of viewport</li>
+	     *     <li>**right**: distance to bottom edge of viewport</li>
+	     *   </ul>
+	     */
+	    offset: function offset(elem) {
+	      elem = this.getRawNode(elem);
+	
+	      var elemBCR = elem.getBoundingClientRect();
+	      return {
+	        width: Math.round(angular.isNumber(elemBCR.width) ? elemBCR.width : elem.offsetWidth),
+	        height: Math.round(angular.isNumber(elemBCR.height) ? elemBCR.height : elem.offsetHeight),
+	        top: Math.round(elemBCR.top + ($window.pageYOffset || $document[0].documentElement.scrollTop)),
+	        left: Math.round(elemBCR.left + ($window.pageXOffset || $document[0].documentElement.scrollLeft))
+	      };
+	    },
+	
+	    /**
+	     * Provides offset distance to the closest scrollable ancestor
+	     * or viewport.  Accounts for border and scrollbar width.
+	     *
+	     * Right and bottom dimensions represent the distance to the
+	     * respective edge of the viewport element.  If the element
+	     * edge extends beyond the viewport, a negative value will be
+	     * reported.
+	     *
+	     * @param {element} elem - The element to get the viewport offset for.
+	     * @param {boolean=} [useDocument=false] - Should the viewport be the document element instead
+	     * of the first scrollable element, default is false.
+	     * @param {boolean=} [includePadding=true] - Should the padding on the offset parent element
+	     * be accounted for, default is true.
+	     *
+	     * @returns {object} An object with the following properties:
+	     *   <ul>
+	     *     <li>**top**: distance to the top content edge of viewport element</li>
+	     *     <li>**bottom**: distance to the bottom content edge of viewport element</li>
+	     *     <li>**left**: distance to the left content edge of viewport element</li>
+	     *     <li>**right**: distance to the right content edge of viewport element</li>
+	     *   </ul>
+	     */
+	    viewportOffset: function viewportOffset(elem, useDocument, includePadding) {
+	      elem = this.getRawNode(elem);
+	      includePadding = includePadding !== false ? true : false;
+	
+	      var elemBCR = elem.getBoundingClientRect();
+	      var offsetBCR = {
+	        top: 0,
+	        left: 0,
+	        bottom: 0,
+	        right: 0
+	      };
+	
+	      var offsetParent = useDocument ? $document[0].documentElement : this.scrollParent(elem);
+	      var offsetParentBCR = offsetParent.getBoundingClientRect();
+	
+	      offsetBCR.top = offsetParentBCR.top + offsetParent.clientTop;
+	      offsetBCR.left = offsetParentBCR.left + offsetParent.clientLeft;
+	      if (offsetParent === $document[0].documentElement) {
+	        offsetBCR.top += $window.pageYOffset;
+	        offsetBCR.left += $window.pageXOffset;
+	      }
+	      offsetBCR.bottom = offsetBCR.top + offsetParent.clientHeight;
+	      offsetBCR.right = offsetBCR.left + offsetParent.clientWidth;
+	
+	      if (includePadding) {
+	        var offsetParentStyle = $window.getComputedStyle(offsetParent);
+	        offsetBCR.top += this.parseStyle(offsetParentStyle.paddingTop);
+	        offsetBCR.bottom -= this.parseStyle(offsetParentStyle.paddingBottom);
+	        offsetBCR.left += this.parseStyle(offsetParentStyle.paddingLeft);
+	        offsetBCR.right -= this.parseStyle(offsetParentStyle.paddingRight);
+	      }
+	
+	      return {
+	        top: Math.round(elemBCR.top - offsetBCR.top),
+	        bottom: Math.round(offsetBCR.bottom - elemBCR.bottom),
+	        left: Math.round(elemBCR.left - offsetBCR.left),
+	        right: Math.round(offsetBCR.right - elemBCR.right)
+	      };
+	    },
+	
+	    /**
+	     * Provides an array of placement values parsed from a placement string.
+	     * Along with the 'auto' indicator, supported placement strings are:
+	     *   <ul>
+	     *     <li>top: element on top, horizontally centered on host element.</li>
+	     *     <li>top-left: element on top, left edge aligned with host element left edge.</li>
+	     *     <li>top-right: element on top, lerightft edge aligned with host element right edge.</li>
+	     *     <li>bottom: element on bottom, horizontally centered on host element.</li>
+	     *     <li>bottom-left: element on bottom, left edge aligned with host element left edge.</li>
+	     *     <li>bottom-right: element on bottom, right edge aligned with host element right edge.</li>
+	     *     <li>left: element on left, vertically centered on host element.</li>
+	     *     <li>left-top: element on left, top edge aligned with host element top edge.</li>
+	     *     <li>left-bottom: element on left, bottom edge aligned with host element bottom edge.</li>
+	     *     <li>right: element on right, vertically centered on host element.</li>
+	     *     <li>right-top: element on right, top edge aligned with host element top edge.</li>
+	     *     <li>right-bottom: element on right, bottom edge aligned with host element bottom edge.</li>
+	     *   </ul>
+	     * A placement string with an 'auto' indicator is expected to be
+	     * space separated from the placement, i.e: 'auto bottom-left'  If
+	     * the primary and secondary placement values do not match 'top,
+	     * bottom, left, right' then 'top' will be the primary placement and
+	     * 'center' will be the secondary placement.  If 'auto' is passed, true
+	     * will be returned as the 3rd value of the array.
+	     *
+	     * @param {string} placement - The placement string to parse.
+	     *
+	     * @returns {array} An array with the following values
+	     * <ul>
+	     *   <li>**[0]**: The primary placement.</li>
+	     *   <li>**[1]**: The secondary placement.</li>
+	     *   <li>**[2]**: If auto is passed: true, else undefined.</li>
+	     * </ul>
+	     */
+	    parsePlacement: function parsePlacement(placement) {
+	      var autoPlace = PLACEMENT_REGEX.auto.test(placement);
+	      if (autoPlace) {
+	        placement = placement.replace(PLACEMENT_REGEX.auto, '');
+	      }
+	
+	      placement = placement.split('-');
+	
+	      placement[0] = placement[0] || 'top';
+	      if (!PLACEMENT_REGEX.primary.test(placement[0])) {
+	        placement[0] = 'top';
+	      }
+	
+	      placement[1] = placement[1] || 'center';
+	      if (!PLACEMENT_REGEX.secondary.test(placement[1])) {
+	        placement[1] = 'center';
+	      }
+	
+	      if (autoPlace) {
+	        placement[2] = true;
+	      } else {
+	        placement[2] = false;
+	      }
+	
+	      return placement;
+	    },
+	
+	    /**
+	     * Provides coordinates for an element to be positioned relative to
+	     * another element.  Passing 'auto' as part of the placement parameter
+	     * will enable smart placement - where the element fits. i.e:
+	     * 'auto left-top' will check to see if there is enough space to the left
+	     * of the hostElem to fit the targetElem, if not place right (same for secondary
+	     * top placement).  Available space is calculated using the viewportOffset
+	     * function.
+	     *
+	     * @param {element} hostElem - The element to position against.
+	     * @param {element} targetElem - The element to position.
+	     * @param {string=} [placement=top] - The placement for the targetElem,
+	     *   default is 'top'. 'center' is assumed as secondary placement for
+	     *   'top', 'left', 'right', and 'bottom' placements.  Available placements are:
+	     *   <ul>
+	     *     <li>top</li>
+	     *     <li>top-right</li>
+	     *     <li>top-left</li>
+	     *     <li>bottom</li>
+	     *     <li>bottom-left</li>
+	     *     <li>bottom-right</li>
+	     *     <li>left</li>
+	     *     <li>left-top</li>
+	     *     <li>left-bottom</li>
+	     *     <li>right</li>
+	     *     <li>right-top</li>
+	     *     <li>right-bottom</li>
+	     *   </ul>
+	     * @param {boolean=} [appendToBody=false] - Should the top and left values returned
+	     *   be calculated from the body element, default is false.
+	     *
+	     * @returns {object} An object with the following properties:
+	     *   <ul>
+	     *     <li>**top**: Value for targetElem top.</li>
+	     *     <li>**left**: Value for targetElem left.</li>
+	     *     <li>**placement**: The resolved placement.</li>
+	     *   </ul>
+	     */
+	    positionElements: function positionElements(hostElem, targetElem, placement, appendToBody) {
+	      hostElem = this.getRawNode(hostElem);
+	      targetElem = this.getRawNode(targetElem);
+	
+	      // need to read from prop to support tests.
+	      var targetWidth = angular.isDefined(targetElem.offsetWidth) ? targetElem.offsetWidth : targetElem.prop('offsetWidth');
+	      var targetHeight = angular.isDefined(targetElem.offsetHeight) ? targetElem.offsetHeight : targetElem.prop('offsetHeight');
+	
+	      placement = this.parsePlacement(placement);
+	
+	      var hostElemPos = appendToBody ? this.offset(hostElem) : this.position(hostElem);
+	      var targetElemPos = {
+	        top: 0,
+	        left: 0,
+	        placement: ''
+	      };
+	
+	      if (placement[2]) {
+	        var viewportOffset = this.viewportOffset(hostElem);
+	
+	        var targetElemStyle = $window.getComputedStyle(targetElem);
+	        var adjustedSize = {
+	          width: targetWidth + Math.round(Math.abs(this.parseStyle(targetElemStyle.marginLeft) + this.parseStyle(targetElemStyle.marginRight))),
+	          height: targetHeight + Math.round(Math.abs(this.parseStyle(targetElemStyle.marginTop) + this.parseStyle(targetElemStyle.marginBottom)))
+	        };
+	
+	        placement[0] = placement[0] === 'top' && adjustedSize.height > viewportOffset.top && adjustedSize.height <= viewportOffset.bottom ? 'bottom' : placement[0] === 'bottom' && adjustedSize.height > viewportOffset.bottom && adjustedSize.height <= viewportOffset.top ? 'top' : placement[0] === 'left' && adjustedSize.width > viewportOffset.left && adjustedSize.width <= viewportOffset.right ? 'right' : placement[0] === 'right' && adjustedSize.width > viewportOffset.right && adjustedSize.width <= viewportOffset.left ? 'left' : placement[0];
+	
+	        placement[1] = placement[1] === 'top' && adjustedSize.height - hostElemPos.height > viewportOffset.bottom && adjustedSize.height - hostElemPos.height <= viewportOffset.top ? 'bottom' : placement[1] === 'bottom' && adjustedSize.height - hostElemPos.height > viewportOffset.top && adjustedSize.height - hostElemPos.height <= viewportOffset.bottom ? 'top' : placement[1] === 'left' && adjustedSize.width - hostElemPos.width > viewportOffset.right && adjustedSize.width - hostElemPos.width <= viewportOffset.left ? 'right' : placement[1] === 'right' && adjustedSize.width - hostElemPos.width > viewportOffset.left && adjustedSize.width - hostElemPos.width <= viewportOffset.right ? 'left' : placement[1];
+	
+	        if (placement[1] === 'center') {
+	          if (PLACEMENT_REGEX.vertical.test(placement[0])) {
+	            var xOverflow = hostElemPos.width / 2 - targetWidth / 2;
+	            if (viewportOffset.left + xOverflow < 0 && adjustedSize.width - hostElemPos.width <= viewportOffset.right) {
+	              placement[1] = 'left';
+	            } else if (viewportOffset.right + xOverflow < 0 && adjustedSize.width - hostElemPos.width <= viewportOffset.left) {
+	              placement[1] = 'right';
+	            }
+	          } else {
+	            var yOverflow = hostElemPos.height / 2 - adjustedSize.height / 2;
+	            if (viewportOffset.top + yOverflow < 0 && adjustedSize.height - hostElemPos.height <= viewportOffset.bottom) {
+	              placement[1] = 'top';
+	            } else if (viewportOffset.bottom + yOverflow < 0 && adjustedSize.height - hostElemPos.height <= viewportOffset.top) {
+	              placement[1] = 'bottom';
+	            }
+	          }
+	        }
+	      }
+	
+	      switch (placement[0]) {
+	        case 'top':
+	          targetElemPos.top = hostElemPos.top - targetHeight;
+	          break;
+	        case 'bottom':
+	          targetElemPos.top = hostElemPos.top + hostElemPos.height;
+	          break;
+	        case 'left':
+	          targetElemPos.left = hostElemPos.left - targetWidth;
+	          break;
+	        case 'right':
+	          targetElemPos.left = hostElemPos.left + hostElemPos.width;
+	          break;
+	      }
+	
+	      switch (placement[1]) {
+	        case 'top':
+	          targetElemPos.top = hostElemPos.top;
+	          break;
+	        case 'bottom':
+	          targetElemPos.top = hostElemPos.top + hostElemPos.height - targetHeight;
+	          break;
+	        case 'left':
+	          targetElemPos.left = hostElemPos.left;
+	          break;
+	        case 'right':
+	          targetElemPos.left = hostElemPos.left + hostElemPos.width - targetWidth;
+	          break;
+	        case 'center':
+	          if (PLACEMENT_REGEX.vertical.test(placement[0])) {
+	            targetElemPos.left = hostElemPos.left + hostElemPos.width / 2 - targetWidth / 2;
+	          } else {
+	            targetElemPos.top = hostElemPos.top + hostElemPos.height / 2 - targetHeight / 2;
+	          }
+	          break;
+	      }
+	
+	      targetElemPos.top = Math.round(targetElemPos.top);
+	      targetElemPos.left = Math.round(targetElemPos.left);
+	      targetElemPos.placement = placement[1] === 'center' ? placement[0] : placement[0] + '-' + placement[1];
+	
+	      return targetElemPos;
+	    },
+	
+	    /**
+	     * Provides a way for positioning tooltip & dropdown
+	     * arrows when using placement options beyond the standard
+	     * left, right, top, or bottom.
+	     *
+	     * @param {element} elem - The tooltip/dropdown element.
+	     * @param {string} placement - The placement for the elem.
+	     */
+	    positionArrow: function positionArrow(elem, placement) {
+	      elem = this.getRawNode(elem);
+	
+	      var innerElem = elem.querySelector('.tooltip-inner, .popover-inner');
+	      if (!innerElem) {
+	        return;
+	      }
+	
+	      var isTooltip = angular.element(innerElem).hasClass('tooltip-inner');
+	
+	      var arrowElem = isTooltip ? elem.querySelector('.tooltip-arrow') : elem.querySelector('.arrow');
+	      if (!arrowElem) {
+	        return;
+	      }
+	
+	      placement = this.parsePlacement(placement);
+	      if (placement[1] === 'center') {
+	        // no adjustment necessary - just reset styles
+	        angular.element(arrowElem).css({
+	          top: '',
+	          bottom: '',
+	          right: '',
+	          left: '',
+	          margin: ''
+	        });
+	        return;
+	      }
+	
+	      var borderProp = 'border-' + placement[0] + '-width';
+	      var borderWidth = $window.getComputedStyle(arrowElem)[borderProp];
+	
+	      var borderRadiusProp = 'border-';
+	      if (PLACEMENT_REGEX.vertical.test(placement[0])) {
+	        borderRadiusProp += placement[0] + '-' + placement[1];
+	      } else {
+	        borderRadiusProp += placement[1] + '-' + placement[0];
+	      }
+	      borderRadiusProp += '-radius';
+	      var borderRadius = $window.getComputedStyle(isTooltip ? innerElem : elem)[borderRadiusProp];
+	
+	      var arrowCss = {
+	        top: 'auto',
+	        bottom: 'auto',
+	        left: 'auto',
+	        right: 'auto',
+	        margin: 0
+	      };
+	
+	      switch (placement[0]) {
+	        case 'top':
+	          arrowCss.bottom = isTooltip ? '0' : '-' + borderWidth;
+	          break;
+	        case 'bottom':
+	          arrowCss.top = isTooltip ? '0' : '-' + borderWidth;
+	          break;
+	        case 'left':
+	          arrowCss.right = isTooltip ? '0' : '-' + borderWidth;
+	          break;
+	        case 'right':
+	          arrowCss.left = isTooltip ? '0' : '-' + borderWidth;
+	          break;
+	      }
+	
+	      arrowCss[placement[1]] = borderRadius;
+	
+	      angular.element(arrowElem).css(arrowCss);
+	    }
+	  };
+	};
+
+/***/ },
+/* 53 */
+/***/ function(module, exports) {
+
+	/**
+	 * A helper, internal data structure that acts as a map but also allows getting / removing
+	 * elements in the LIFO order
+	 */
+	
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.$daoStackedMap = $daoStackedMap;
+	/*@ngInject*/function $daoStackedMap() {
+	  return {
+	    createNew: function createNew() {
+	      var stack = [];
+	
+	      return {
+	        add: function add(key, value) {
+	          stack.push({
+	            key: key,
+	            value: value
+	          });
+	        },
+	        get: function get(key) {
+	          for (var i = 0; i < stack.length; i++) {
+	            if (key === stack[i].key) {
+	              return stack[i];
+	            }
+	          }
+	        },
+	        keys: function keys() {
+	          var keys = [];
+	          for (var i = 0; i < stack.length; i++) {
+	            keys.push(stack[i].key);
+	          }
+	          return keys;
+	        },
+	        top: function top() {
+	          return stack[stack.length - 1];
+	        },
+	        remove: function remove(key) {
+	          var idx = -1;
+	          for (var i = 0; i < stack.length; i++) {
+	            if (key === stack[i].key) {
+	              idx = i;
+	              break;
+	            }
+	          }
+	          return stack.splice(idx, 1)[0];
+	        },
+	        removeTop: function removeTop() {
+	          return stack.splice(stack.length - 1, 1)[0];
+	        },
+	        length: function length() {
+	          return stack.length;
+	        }
+	      };
+	    }
+	  };
+	};
+
+/***/ },
+/* 54 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
 	daoTooltipTemplateTransclude.$inject = ["$animate", "$sce", "$compile", "$templateRequest"];
+	daoTooltipClasses.$inject = ["$daoPosition"];
 	daoTooltip.$inject = ["$daoTooltip"];
 	daoTooltipTemplate.$inject = ["$daoTooltip"];
 	daoTooltipHtml.$inject = ["$daoTooltip"];
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	exports.stackedMap = undefined;
 	exports.$daoTooltip = $daoTooltip;
 	exports.daoTooltipTemplateTransclude = daoTooltipTemplateTransclude;
 	exports.daoTooltipClasses = daoTooltipClasses;
@@ -2456,85 +3106,35 @@
 	exports.daoTooltipHtmlPopup = daoTooltipHtmlPopup;
 	exports.daoTooltipHtml = daoTooltipHtml;
 	
-	var _tooltipTemplatePopup = __webpack_require__(51);
+	var _tooltipTemplatePopup = __webpack_require__(55);
 	
 	var _tooltipTemplatePopup2 = _interopRequireDefault(_tooltipTemplatePopup);
 	
-	var _tooltipHtmlPopup = __webpack_require__(52);
+	var _tooltipHtmlPopup = __webpack_require__(56);
 	
 	var _tooltipHtmlPopup2 = _interopRequireDefault(_tooltipHtmlPopup);
 	
-	var _tooltipPopup = __webpack_require__(53);
+	var _tooltipPopup = __webpack_require__(57);
 	
 	var _tooltipPopup2 = _interopRequireDefault(_tooltipPopup);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	var stackedMap = exports.stackedMap = {
-	  createNew: function createNew() {
-	    var stack = [];
+	'use strict'; /**
+	               * The $tooltip service creates tooltip- and popover-like directives as well as
+	               * houses global options for them.
+	               */
 	
-	    return {
-	      add: function add(key, value) {
-	        stack.push({
-	          key: key,
-	          value: value
-	        });
-	      },
-	
-	      get: function get(key) {
-	        for (var i = 0; i < stack.length; i++) {
-	          if (key === stack[i].key) {
-	            return stack[i];
-	          }
-	        }
-	      },
-	
-	      keys: function keys() {
-	        var keys = [];
-	        for (var i = 0; i < stack.length; i++) {
-	          keys.push(stack[i].key);
-	        }
-	
-	        return keys;
-	      },
-	
-	      top: function top() {
-	        return stack[stack.length - 1];
-	      },
-	
-	      remove: function remove(key) {
-	        var idx = -1;
-	        for (var i = 0; i < stack.length; i++) {
-	          if (key === stack[i].key) {
-	            idx = i;
-	            break;
-	          }
-	        }
-	
-	        return stack.splice(idx, 1)[0];
-	      },
-	
-	      removeTop: function removeTop() {
-	        return stack.splice(stack.length - 1, 1)[0];
-	      },
-	
-	      length: function length() {
-	        return stack.length;
-	      }
-	    };
-	  }
-	};
-	
-	/*@ngInject*/
-	function $daoTooltip() {
+	/*@ngInject*/function $daoTooltip() {
 	  // The default options tooltip and popover.
 	  var defaultOptions = {
 	    placement: 'top',
+	    placementClassPrefix: '',
 	    animation: true,
 	    popupDelay: 0,
 	    popupCloseDelay: 0,
-	    useContentExp: false
+	    useContentExp: false,
+	    templateType: 'url'
 	  };
 	
 	  // Default hide triggers for each show trigger
@@ -2543,6 +3143,7 @@
 	    'click': 'click',
 	    'outsideClick': 'outsideClick',
 	    'focus': 'blur',
+	    'outsideHover': 'outsideHover',
 	    'none': ''
 	  };
 	
@@ -2572,7 +3173,7 @@
 	  };
 	
 	  /**
-	   * This is a helper function for translating camel-case to snake-case.
+	   * This is a helper function for translating camel-case to snake_case.
 	   */
 	  function snake_case(name) {
 	    var regexp = /[A-Z]/g;
@@ -2580,7 +3181,7 @@
 	    return name.replace(regexp, function (letter, pos) {
 	      return (pos ? separator : '') + letter.toLowerCase();
 	    });
-	  }
+	  };
 	
 	  /**
 	   * Returns the actual instance of the $tooltip service.
@@ -2588,9 +3189,15 @@
 	   */
 	
 	  /*@ngInject*/
-	  this.$get = function ($window, $compile, $timeout, $document, $daoPosition, $interpolate, $rootScope, $parse) {
-	    var openedTooltips = stackedMap.createNew();
-	    $document.on('keypress', function (e) {
+	  this.$get = function ($window, $compile, $timeout, $document, $daoPosition, $interpolate, $rootScope, $parse, $daoStackedMap) {
+	    var openedTooltips = $daoStackedMap.createNew();
+	    $document.on('keypress', keypressListener);
+	
+	    $rootScope.$on('$destroy', function () {
+	      $document.off('keypress', keypressListener);
+	    });
+	
+	    function keypressListener(e) {
 	      if (e.which === 27) {
 	        var last = openedTooltips.top();
 	        if (last) {
@@ -2599,7 +3206,7 @@
 	          last = null;
 	        }
 	      }
-	    });
+	    }
 	
 	    return function $tooltip(ttType, prefix, defaultTriggerShow, options) {
 	      options = angular.extend({}, defaultOptions, globalOptions, options);
@@ -2623,7 +3230,6 @@
 	        var hide = show.map(function (trigger) {
 	          return triggerMap[trigger] || trigger;
 	        });
-	
 	        return {
 	          show: show,
 	          hide: hide
@@ -2634,7 +3240,7 @@
 	
 	      var startSym = $interpolate.startSymbol();
 	      var endSym = $interpolate.endSymbol();
-	      var template = '<div ' + directiveName + '-popup ' + 'title="' + startSym + 'title' + endSym + '" ' + (options.useContentExp ? 'content-exp="contentExp()" ' : 'content="' + startSym + 'content' + endSym + '" ') + 'placement="' + startSym + 'placement' + endSym + '" ' + 'popup-class="' + startSym + 'popupClass' + endSym + '" ' + 'animation="animation" ' + 'is-open="isOpen"' + 'origin-scope="origScope" ' + 'style="visibility: hidden; display: block; top: -9999px; left: -9999px;"' + '>' + '</div>';
+	      var template = '<div ' + directiveName + '-popup ' + 'title="' + startSym + 'title' + endSym + '" ' + (options.useContentExp ? 'content-exp="contentExp()" ' : 'content="' + startSym + 'content' + endSym + '" ') + 'placement="' + startSym + 'placement' + endSym + '" ' + 'popup-class="' + startSym + 'popupClass' + endSym + '" ' + 'template-type="' + startSym + 'templateType' + endSym + '" ' + 'animation="animation" ' + 'is-open="isOpen"' + 'origin-scope="origScope" ' + 'style="visibility: hidden; display: block; top: -9999px; left: -9999px;"' + '>' + '</div>';
 	
 	      return {
 	        compile: function compile(tElem, tAttrs) {
@@ -2671,11 +3277,24 @@
 	                  });
 	
 	                  // Now set the calculated positioning.
-	                  var ttCss = $daoPosition.positionElements(element, tooltip, ttScope.placement, appendToBody);
-	                  ttCss.top += 'px';
-	                  ttCss.left += 'px';
-	                  ttCss.visibility = 'visible';
-	                  tooltip.css(ttCss);
+	                  var ttPosition = $daoPosition.positionElements(element, tooltip, ttScope.placement, appendToBody);
+	                  tooltip.css({
+	                    top: ttPosition.top + 'px',
+	                    left: ttPosition.left + 'px',
+	                    visibility: 'visible'
+	                  });
+	
+	                  // If the placement class is prefixed, still need
+	                  // to remove the TWBS standard class.
+	                  if (options.placementClassPrefix) {
+	                    tooltip.removeClass('top bottom left right');
+	                  }
+	
+	                  tooltip.removeClass(options.placementClassPrefix + 'top ' + options.placementClassPrefix + 'top-left ' + options.placementClassPrefix + 'top-right ' + options.placementClassPrefix + 'bottom ' + options.placementClassPrefix + 'bottom-left ' + options.placementClassPrefix + 'bottom-right ' + options.placementClassPrefix + 'left ' + options.placementClassPrefix + 'left-top ' + options.placementClassPrefix + 'left-bottom ' + options.placementClassPrefix + 'right ' + options.placementClassPrefix + 'right-top ' + options.placementClassPrefix + 'right-bottom');
+	
+	                  var placement = ttPosition.placement.split('-');
+	                  tooltip.addClass(placement[0] + ' ' + options.placementClassPrefix + ttPosition.placement);
+	                  $daoPosition.positionArrow(tooltip, ttPosition.placement);
 	
 	                  positionTimeout = null;
 	                }, 0, false);
@@ -2701,7 +3320,7 @@
 	            }
 	
 	            // Show the tooltip with delay if specified, otherwise show it immediately
-	            function showTooltipBind() {
+	            function showTooltipBind(e) {
 	              if (hasEnableExp && !scope.$eval(attrs[prefix + 'Enable'])) {
 	                return;
 	              }
@@ -2720,7 +3339,7 @@
 	              }
 	            }
 	
-	            function hideTooltipBind() {
+	            function hideTooltipBind(e) {
 	              cancelShow();
 	
 	              if (ttScope.popupCloseDelay) {
@@ -2772,19 +3391,20 @@
 	
 	              // First things first: we don't show it anymore.
 	              ttScope.$evalAsync(function () {
-	                ttScope.isOpen = false;
-	                assignIsOpen(false);
-	
-	                // And now we remove it from the DOM. However, if we have animation, we
-	                // need to wait for it to expire beforehand.
-	                // FIXME: this is a placeholder for a port of the transitions library.
-	                // The fade transition in TWBS is 150ms.
-	                if (ttScope.animation) {
-	                  if (!transitionTimeout) {
-	                    transitionTimeout = $timeout(removeTooltip, 150, false);
+	                if (ttScope) {
+	                  ttScope.isOpen = false;
+	                  assignIsOpen(false);
+	                  // And now we remove it from the DOM. However, if we have animation, we
+	                  // need to wait for it to expire beforehand.
+	                  // FIXME: this is a placeholder for a port of the transitions library.
+	                  // The fade transition in TWBS is 150ms.
+	                  if (ttScope.animation) {
+	                    if (!transitionTimeout) {
+	                      transitionTimeout = $timeout(removeTooltip, 150, false);
+	                    }
+	                  } else {
+	                    removeTooltip();
 	                  }
-	                } else {
-	                  removeTooltip();
 	                }
 	              });
 	            }
@@ -2794,7 +3414,6 @@
 	                $timeout.cancel(hideTimeout);
 	                hideTimeout = null;
 	              }
-	
 	              if (transitionTimeout) {
 	                $timeout.cancel(transitionTimeout);
 	                transitionTimeout = null;
@@ -2828,7 +3447,6 @@
 	                tooltip.remove();
 	                tooltip = null;
 	              }
-	
 	              if (tooltipLinkedScope) {
 	                tooltipLinkedScope.$destroy();
 	                tooltipLinkedScope = null;
@@ -2836,9 +3454,9 @@
 	            }
 	
 	            /**
-	             * Set the inital scope values. Once
+	             * Set the initial scope values. Once
 	             * the tooltip is created, the observers
-	             * will be added to keep things in synch.
+	             * will be added to keep things in sync.
 	             */
 	            function prepareTooltip() {
 	              ttScope.title = attrs[prefix + 'Title'];
@@ -2847,12 +3465,15 @@
 	              } else {
 	                ttScope.content = attrs[ttType];
 	              }
+	              // for popover template
+	              ttScope.templateType = attrs['templateType'] ? attrs['templateType'] : 'url';
 	
 	              ttScope.popupClass = attrs[prefix + 'Class'];
 	              ttScope.placement = angular.isDefined(attrs[prefix + 'Placement']) ? attrs[prefix + 'Placement'] : options.placement;
 	
 	              var delay = parseInt(attrs[prefix + 'PopupDelay'], 10);
 	              var closeDelay = parseInt(attrs[prefix + 'PopupCloseDelay'], 10);
+	
 	              ttScope.popupDelay = !isNaN(delay) ? delay : options.popupDelay;
 	              ttScope.popupCloseDelay = !isNaN(closeDelay) ? closeDelay : options.popupCloseDelay;
 	            }
@@ -2941,7 +3562,6 @@
 	                angular.forEach(observers, function (observer) {
 	                  observer();
 	                });
-	
 	                observers.length = 0;
 	              }
 	            }
@@ -2951,31 +3571,40 @@
 	              if (!ttScope || !ttScope.isOpen || !tooltip) {
 	                return;
 	              }
-	
 	              // make sure the tooltip/popover link or tool tooltip/popover itself were not clicked
 	              if (!element[0].contains(e.target) && !tooltip[0].contains(e.target)) {
 	                hideTooltipBind();
 	              }
 	            }
 	
+	            function bodyShowTooltipBind(e) {
+	              tooltip.off('mouseenter', showTooltipBind);
+	              tooltip.off('mouseleave', hideTooltipBind);
+	
+	              tooltip.on('mouseenter', showTooltipBind);
+	              tooltip.on('mouseleave', hideTooltipBind);
+	            }
+	
 	            var unregisterTriggers = function unregisterTriggers() {
 	              triggers.show.forEach(function (trigger) {
 	                if (trigger === 'outsideClick') {
-	                  element[0].removeEventListener('click', toggleTooltipBind);
+	                  element.off('click', toggleTooltipBind);
+	                } else if (trigger === 'outsideHover') {
+	                  element.off('mouseenter', showTooltipBind);
+	                  element.off('mouseleave', hideTooltipBind);
 	                } else {
-	                  element[0].removeEventListener(trigger, showTooltipBind);
-	                  element[0].removeEventListener(trigger, toggleTooltipBind);
+	                  element.off(trigger, showTooltipBind);
+	                  element.off(trigger, toggleTooltipBind);
 	                }
 	              });
-	
 	              triggers.hide.forEach(function (trigger) {
-	                trigger.split(' ').forEach(function (hideTrigger) {
-	                  if (trigger === 'outsideClick') {
-	                    $document[0].removeEventListener('click', bodyHideTooltipBind);
-	                  } else {
-	                    element[0].removeEventListener(hideTrigger, hideTooltipBind);
-	                  }
-	                });
+	                if (trigger === 'outsideClick') {
+	                  $document.off('click', bodyHideTooltipBind);
+	                } else if (trigger === 'outsideHover') {
+	                  element.off('mouseleave', bodyShowTooltipBind);
+	                } else {
+	                  element.off(trigger, hideTooltipBind);
+	                }
 	              });
 	            };
 	
@@ -2987,17 +3616,18 @@
 	
 	              if (triggers.show !== 'none') {
 	                triggers.show.forEach(function (trigger, idx) {
-	                  // Using raw addEventListener due to jqLite/jQuery bug - #4060
 	                  if (trigger === 'outsideClick') {
-	                    element[0].addEventListener('click', toggleTooltipBind);
-	                    $document[0].addEventListener('click', bodyHideTooltipBind);
+	                    element.on('click', toggleTooltipBind);
+	                    $document.on('click', bodyHideTooltipBind);
+	                  } else if (trigger === 'outsideHover') {
+	                    element.on('mouseenter', showTooltipBind);
+	                    element.on('mouseleave', hideTooltipBind);
+	                    element.on('mouseleave', bodyShowTooltipBind);
 	                  } else if (trigger === triggers.hide[idx]) {
-	                    element[0].addEventListener(trigger, toggleTooltipBind);
+	                    element.on(trigger, toggleTooltipBind);
 	                  } else if (trigger) {
-	                    element[0].addEventListener(trigger, showTooltipBind);
-	                    triggers.hide[idx].split(' ').forEach(function (trigger) {
-	                      element[0].addEventListener(trigger, hideTooltipBind);
-	                    });
+	                    element.on(trigger, showTooltipBind);
+	                    element.on(triggers.hide[idx], hideTooltipBind);
 	                  }
 	
 	                  element.on('keypress', function (e) {
@@ -3014,7 +3644,14 @@
 	            var animation = scope.$eval(attrs[prefix + 'Animation']);
 	            ttScope.animation = angular.isDefined(animation) ? !!animation : options.animation;
 	
-	            var appendToBodyVal = scope.$eval(attrs[prefix + 'AppendToBody']);
+	            var appendToBodyVal;
+	            var appendKey = prefix + 'AppendToBody';
+	            if (appendKey in attrs && attrs[appendKey] === undefined) {
+	              appendToBodyVal = true;
+	            } else {
+	              appendToBodyVal = scope.$eval(attrs[appendKey]);
+	            }
+	
 	            appendToBody = angular.isDefined(appendToBodyVal) ? appendToBodyVal : appendToBody;
 	
 	            // if a tooltip is attached to <body> we need to remove it on
@@ -3040,10 +3677,11 @@
 	      };
 	    };
 	  };
-	  this.$get.$inject = ["$window", "$compile", "$timeout", "$document", "$daoPosition", "$interpolate", "$rootScope", "$parse"];
+	  this.$get.$inject = ["$window", "$compile", "$timeout", "$document", "$daoPosition", "$interpolate", "$rootScope", "$parse", "$daoStackedMap"];
 	}
-	/*@ngInject*/
-	function daoTooltipTemplateTransclude($animate, $sce, $compile, $templateRequest) {
+	
+	// This is mostly ngInclude code but with a custom scope
+	/*@ngInject*/function daoTooltipTemplateTransclude($animate, $sce, $compile, $templateRequest) {
 	  return {
 	    link: function link(scope, elem, attrs) {
 	      var origScope = scope.$eval(attrs.tooltipTemplateTranscludeScope);
@@ -3068,25 +3706,56 @@
 	          $animate.leave(currentElement).then(function () {
 	            previousElement = null;
 	          });
-	
 	          previousElement = currentElement;
 	          currentElement = null;
 	        }
 	      };
+	      if (attrs.templateType == 'url') {
+	        scope.$watch($sce.parseAsResourceUrl(attrs.daoTooltipTemplateTransclude), function (src) {
+	          var thisChangeId = ++changeCounter;
 	
-	      scope.$watch($sce.parseAsResourceUrl(attrs.daoTooltipTemplateTransclude), function (src) {
-	        var thisChangeId = ++changeCounter;
+	          if (src) {
+	            //set the 2nd param to true to ignore the template request error so that the inner
+	            //contents and scope can be cleaned up.
+	            $templateRequest(src, true).then(function (response) {
+	              if (thisChangeId !== changeCounter) {
+	                return;
+	              }
+	              var newScope = origScope.$new();
+	              var template = response;
 	
-	        if (src) {
-	          //set the 2nd param to true to ignore the template request error so that the inner
-	          //contents and scope can be cleaned up.
-	          $templateRequest(src, true).then(function (response) {
+	              var clone = $compile(template)(newScope, function (clone) {
+	                cleanupLastIncludeContent();
+	                $animate.enter(clone, elem);
+	              });
+	
+	              currentScope = newScope;
+	              currentElement = clone;
+	
+	              currentScope.$emit('$includeContentLoaded', src);
+	            }, function () {
+	              if (thisChangeId === changeCounter) {
+	                cleanupLastIncludeContent();
+	                scope.$emit('$includeContentError', src);
+	              }
+	            });
+	            scope.$emit('$includeContentRequested', src);
+	          } else {
+	            cleanupLastIncludeContent();
+	          }
+	        });
+	      } else {
+	        scope.$watch(attrs.daoTooltipTemplateTransclude, function (template) {
+	
+	          var thisChangeId = ++changeCounter;
+	
+	          if (template) {
+	
 	            if (thisChangeId !== changeCounter) {
 	              return;
 	            }
 	
 	            var newScope = origScope.$new();
-	            var template = response;
 	
 	            var clone = $compile(template)(newScope, function (clone) {
 	              cleanupLastIncludeContent();
@@ -3095,33 +3764,36 @@
 	
 	            currentScope = newScope;
 	            currentElement = clone;
-	
-	            currentScope.$emit('$includeContentLoaded', src);
-	          }, function () {
-	
-	            if (thisChangeId === changeCounter) {
-	              cleanupLastIncludeContent();
-	              scope.$emit('$includeContentError', src);
-	            }
-	          });
-	
-	          scope.$emit('$includeContentRequested', src);
-	        } else {
-	          cleanupLastIncludeContent();
-	        }
-	      });
+	          } else {
+	            cleanupLastIncludeContent();
+	          }
+	        });
+	      };
 	
 	      scope.$on('$destroy', cleanupLastIncludeContent);
 	    }
 	  };
 	}
-	/*@ngInject*/
-	function daoTooltipClasses() {
+	
+	/**
+	 * Note that it's intentional that these classes are *not* applied through $animate.
+	 * They must not be animated as they're expected to be present on the tooltip on
+	 * initialization.
+	 */
+	/*@ngInject*/function daoTooltipClasses($daoPosition) {
 	  return {
 	    restrict: 'A',
 	    link: function link(scope, element, attrs) {
+	      // need to set the primary position so the
+	      // arrow has space during position measure.
+	      // tooltip.positionTooltip()
 	      if (scope.placement) {
-	        element.addClass(scope.placement);
+	        // // There are no top-left etc... classes
+	        // // in TWBS, so we need the primary position.
+	        var position = $daoPosition.parsePlacement(scope.placement);
+	        element.addClass(position[0]);
+	      } else {
+	        element.addClass('top');
 	      }
 	
 	      if (scope.popupClass) {
@@ -3134,8 +3806,8 @@
 	    }
 	  };
 	}
-	/*@ngInject*/
-	function daoTooltipPopup() {
+	
+	/*@ngInject*/function daoTooltipPopup() {
 	  return {
 	    replace: true,
 	    scope: {
@@ -3145,16 +3817,15 @@
 	      animation: '&',
 	      isOpen: '&'
 	    },
-	    // templateUrl: 'components/dao-tooltip/tooltip-popup.html',
 	    template: _tooltipPopup2.default
 	  };
 	}
-	/*@ngInject*/
-	function daoTooltip($daoTooltip) {
+	
+	/*@ngInject*/function daoTooltip($daoTooltip) {
 	  return $daoTooltip('daoTooltip', 'tooltip', 'mouseenter');
 	}
-	/*@ngInject*/
-	function daoTooltipTemplatePopup() {
+	
+	/*@ngInject*/function daoTooltipTemplatePopup() {
 	  return {
 	    replace: true,
 	    scope: {
@@ -3168,14 +3839,14 @@
 	    template: _tooltipTemplatePopup2.default
 	  };
 	}
-	/*@ngInject*/
-	function daoTooltipTemplate($daoTooltip) {
+	
+	/*@ngInject*/function daoTooltipTemplate($daoTooltip) {
 	  return $daoTooltip('daoTooltipTemplate', 'tooltip', 'mouseenter', {
 	    useContentExp: true
 	  });
 	}
-	/*@ngInject*/
-	function daoTooltipHtmlPopup() {
+	
+	/*@ngInject*/function daoTooltipHtmlPopup() {
 	  return {
 	    replace: true,
 	    scope: {
@@ -3188,40 +3859,39 @@
 	    template: _tooltipHtmlPopup2.default
 	  };
 	}
-	/*@ngInject*/
-	// templateUrl: 'components/dao-tooltip/tooltip-html-popup.html',
-	function daoTooltipHtml($daoTooltip) {
+	
+	/*@ngInject*/function daoTooltipHtml($daoTooltip) {
 	  return $daoTooltip('daoTooltipHtml', 'tooltip', 'mouseenter', {
 	    useContentExp: true
 	  });
-	}
+	};
 
 /***/ },
-/* 51 */
+/* 55 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao tooltip\" tooltip-animation-class=fade dao-tooltip-classes ng-class=\"{ in: isOpen() }\"><div class=tooltip-arrow></div><div class=tooltip-inner dao-tooltip-template-transclude=contentExp() tooltip-template-transclude-scope=originScope()></div></div>"
 
 /***/ },
-/* 52 */
+/* 56 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao tooltip\" tooltip-animation-class=fade dao-tooltip-classes ng-class=\"{ in: isOpen() }\"><div class=tooltip-arrow></div><div class=tooltip-inner ng-bind-html=contentExp()></div></div>"
 
 /***/ },
-/* 53 */
+/* 57 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao tooltip\" tooltip-animation-class=fade dao-tooltip-classes ng-class=\"{ in: isOpen() }\"><div class=tooltip-arrow></div><div class=tooltip-inner ng-bind=content></div></div>"
 
 /***/ },
-/* 54 */
+/* 58 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(55);
+	var content = __webpack_require__(59);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -3241,7 +3911,7 @@
 	}
 
 /***/ },
-/* 55 */
+/* 59 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -3255,165 +3925,7 @@
 
 
 /***/ },
-/* 56 */
-/***/ function(module, exports) {
-
-	'use strict';
-	
-	$daoPosition.$inject = ["$document", "$window"];
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	exports.$daoPosition = $daoPosition;
-	/*@ngInject*/function $daoPosition($document, $window) {
-	  function getStyle(el, cssprop) {
-	    if (el.currentStyle) {
-	      //IE
-	      return el.currentStyle[cssprop];
-	    } else if ($window.getComputedStyle) {
-	      return $window.getComputedStyle(el)[cssprop];
-	    }
-	
-	    // finally try and get inline style
-	    return el.style[cssprop];
-	  }
-	
-	  /**
-	   * Checks if a given element is statically positioned
-	   * @param element - raw DOM element
-	   */
-	  function isStaticPositioned(element) {
-	    return (getStyle(element, 'position') || 'static') === 'static';
-	  }
-	
-	  /**
-	   * returns the closest, non-statically positioned parentOffset of a given element
-	   * @param element
-	   */
-	  var parentOffsetEl = function parentOffsetEl(element) {
-	    var docDomEl = $document[0];
-	    var offsetParent = element.offsetParent || docDomEl;
-	    while (offsetParent && offsetParent !== docDomEl && isStaticPositioned(offsetParent)) {
-	      offsetParent = offsetParent.offsetParent;
-	    }
-	
-	    return offsetParent || docDomEl;
-	  };
-	
-	  return {
-	    /**
-	     * Provides read-only equivalent of jQuery's position function:
-	     * http://api.jquery.com/position/
-	     */
-	    position: function position(element) {
-	      var elBCR = this.offset(element);
-	      var offsetParentBCR = { top: 0, left: 0 };
-	      var offsetParentEl = parentOffsetEl(element[0]);
-	      if (offsetParentEl !== $document[0]) {
-	        offsetParentBCR = this.offset(angular.element(offsetParentEl));
-	        offsetParentBCR.top += offsetParentEl.clientTop - offsetParentEl.scrollTop;
-	        offsetParentBCR.left += offsetParentEl.clientLeft - offsetParentEl.scrollLeft;
-	      }
-	
-	      var boundingClientRect = element[0].getBoundingClientRect();
-	      return {
-	        width: boundingClientRect.width || element.prop('offsetWidth'),
-	        height: boundingClientRect.height || element.prop('offsetHeight'),
-	        top: elBCR.top - offsetParentBCR.top,
-	        left: elBCR.left - offsetParentBCR.left
-	      };
-	    },
-	
-	    /**
-	     * Provides read-only equivalent of jQuery's offset function:
-	     * http://api.jquery.com/offset/
-	     */
-	    offset: function offset(element) {
-	      var boundingClientRect = element[0].getBoundingClientRect();
-	      return {
-	        width: boundingClientRect.width || element.prop('offsetWidth'),
-	        height: boundingClientRect.height || element.prop('offsetHeight'),
-	        top: boundingClientRect.top + ($window.pageYOffset || $document[0].documentElement.scrollTop),
-	        left: boundingClientRect.left + ($window.pageXOffset || $document[0].documentElement.scrollLeft)
-	      };
-	    },
-	
-	    /**
-	     * Provides coordinates for the targetEl in relation to hostEl
-	     */
-	    positionElements: function positionElements(hostEl, targetEl, positionStr, appendToBody) {
-	      var positionStrParts = positionStr.split('-');
-	      var pos0 = positionStrParts[0],
-	          pos1 = positionStrParts[1] || 'center';
-	
-	      var hostElPos, targetElWidth, targetElHeight, targetElPos;
-	
-	      hostElPos = appendToBody ? this.offset(hostEl) : this.position(hostEl);
-	
-	      targetElWidth = targetEl.prop('offsetWidth');
-	      targetElHeight = targetEl.prop('offsetHeight');
-	
-	      var shiftWidth = {
-	        center: function center() {
-	          return hostElPos.left + hostElPos.width / 2 - targetElWidth / 2;
-	        },
-	
-	        left: function left() {
-	          return hostElPos.left;
-	        },
-	
-	        right: function right() {
-	          return hostElPos.left + hostElPos.width;
-	        }
-	      };
-	
-	      var shiftHeight = {
-	        center: function center() {
-	          return hostElPos.top + hostElPos.height / 2 - targetElHeight / 2;
-	        },
-	
-	        top: function top() {
-	          return hostElPos.top;
-	        },
-	
-	        bottom: function bottom() {
-	          return hostElPos.top + hostElPos.height;
-	        }
-	      };
-	
-	      switch (pos0) {
-	        case 'right':
-	          targetElPos = {
-	            top: shiftHeight[pos1](),
-	            left: shiftWidth[pos0]()
-	          };
-	          break;
-	        case 'left':
-	          targetElPos = {
-	            top: shiftHeight[pos1](),
-	            left: hostElPos.left - targetElWidth
-	          };
-	          break;
-	        case 'bottom':
-	          targetElPos = {
-	            top: shiftHeight[pos0](),
-	            left: shiftWidth[pos1]()
-	          };
-	          break;
-	        default:
-	          targetElPos = {
-	            top: hostElPos.top - targetElHeight,
-	            left: shiftWidth[pos1]()
-	          };
-	      }
-	
-	      return targetElPos;
-	    }
-	  };
-	}
-
-/***/ },
-/* 57 */
+/* 60 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3422,11 +3934,11 @@
 	  value: true
 	});
 	
-	var _popover = __webpack_require__(58);
+	var _daoPopover = __webpack_require__(61);
 	
-	var popover = _interopRequireWildcard(_popover);
+	var popover = _interopRequireWildcard(_daoPopover);
 	
-	__webpack_require__(62);
+	__webpack_require__(65);
 	
 	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 	
@@ -3437,12 +3949,12 @@
 	 */
 	
 	var moduleName = 'dao.popover';
-	angular.module(moduleName, []).directive('daoPopoverTemplatePopup', popover.daoPopoverTemplatePopup).directive('daoPopoverTemplate', popover.daoPopoverTemplate).directive('daoPopoverHtmlPopup', popover.daoPopoverHtmlPopup).directive('daoPopoverHtml', popover.daoPopoverHtml).directive('daoPopoverPopup', popover.daoPopoverPopup).directive('daoPopover', popover.daoPopover);
+	angular.module(moduleName, ['dao.tooltip']).directive('daoPopoverTemplatePopup', popover.daoPopoverTemplatePopup).directive('daoPopoverTemplate', popover.daoPopoverTemplate).directive('daoPopoverHtmlPopup', popover.daoPopoverHtmlPopup).directive('daoPopoverHtml', popover.daoPopoverHtml).directive('daoPopoverPopup', popover.daoPopoverPopup).directive('daoPopover', popover.daoPopover);
 	
 	exports.default = moduleName;
 
 /***/ },
-/* 58 */
+/* 61 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3460,114 +3972,89 @@
 	exports.daoPopoverPopup = daoPopoverPopup;
 	exports.daoPopover = daoPopover;
 	
-	var _popover = __webpack_require__(59);
+	var _popover = __webpack_require__(62);
 	
 	var _popover2 = _interopRequireDefault(_popover);
 	
-	var _popoverTemplate = __webpack_require__(60);
+	var _popoverTemplate = __webpack_require__(63);
 	
 	var _popoverTemplate2 = _interopRequireDefault(_popoverTemplate);
 	
-	var _popoverHtml = __webpack_require__(61);
+	var _popoverHtml = __webpack_require__(64);
 	
 	var _popoverHtml2 = _interopRequireDefault(_popoverHtml);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	/*@ngInject*/
-	function daoPopoverTemplatePopup() {
+	'use strict';
+	
+	/*@ngInject*/function daoPopoverTemplatePopup() {
 	  return {
 	    replace: true,
-	    scope: {
-	      title: '@',
-	      contentExp: '&',
-	      placement: '@',
-	      popupClass: '@',
-	      animation: '&',
-	      isOpen: '&',
-	      originScope: '&'
-	    },
+	    scope: { title: '@', contentExp: '&', placement: '@', popupClass: '@', animation: '&', isOpen: '&',
+	      originScope: '&' },
 	    template: _popoverTemplate2.default
 	  };
 	}
 	
-	/*@ngInject*/
-	function daoPopoverTemplate($daoTooltip) {
+	/*@ngInject*/function daoPopoverTemplate($daoTooltip) {
 	  return $daoTooltip('daoPopoverTemplate', 'popover', 'click', {
 	    useContentExp: true
 	  });
 	}
 	
-	/*@ngInject*/
-	function daoPopoverHtmlPopup() {
+	/*@ngInject*/function daoPopoverHtmlPopup() {
 	  return {
 	    replace: true,
-	    scope: {
-	      contentExp: '&',
-	      title: '@',
-	      placement: '@',
-	      popupClass: '@',
-	      animation: '&',
-	      isOpen: '&'
-	    },
+	    scope: { contentExp: '&', title: '@', placement: '@', popupClass: '@', animation: '&', isOpen: '&' },
 	    template: _popoverHtml2.default
 	  };
 	}
 	
-	/*@ngInject*/
-	function daoPopoverHtml($daoTooltip) {
+	/*@ngInject*/function daoPopoverHtml($daoTooltip) {
 	  return $daoTooltip('daoPopoverHtml', 'popover', 'click', {
 	    useContentExp: true
 	  });
 	}
 	
-	/*@ngInject*/
-	function daoPopoverPopup() {
+	/*@ngInject*/function daoPopoverPopup() {
 	  return {
 	    replace: true,
-	    scope: {
-	      title: '@',
-	      content: '@',
-	      placement: '@',
-	      popupClass: '@',
-	      animation: '&',
-	      isOpen: '&'
-	    },
+	    scope: { title: '@', content: '@', placement: '@', popupClass: '@', animation: '&', isOpen: '&' },
 	    template: _popover2.default
 	  };
 	}
 	
-	/*@ngInject*/
-	function daoPopover($daoTooltip) {
+	/*@ngInject*/function daoPopover($daoTooltip) {
 	  return $daoTooltip('daoPopover', 'popover', 'click');
-	}
+	};
 
 /***/ },
-/* 59 */
+/* 62 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao popover\" tooltip-animation-class=fade dao-tooltip-classes ng-class=\"{ in: isOpen() }\"><div class=arrow></div><div class=popover-inner><h3 class=popover-title ng-bind=title ng-if=title></h3><div class=popover-content ng-bind=content></div></div></div>"
 
 /***/ },
-/* 60 */
+/* 63 */
 /***/ function(module, exports) {
 
-	module.exports = "<div class=\"dao popover\" tooltip-animation-class=fade dao-tooltip-classes ng-class=\"{ in: isOpen() }\"><div class=arrow></div><div class=popover-inner><h3 class=popover-title ng-bind=title ng-if=title></h3><div class=popover-content dao-tooltip-template-transclude=contentExp() tooltip-template-transclude-scope=originScope()></div></div></div>"
+	module.exports = "<div class=\"dao popover\" tooltip-animation-class=fade dao-tooltip-classes ng-class=\"{ in: isOpen() }\"><div class=arrow></div><div class=popover-inner><h3 class=popover-title ng-bind=title ng-if=title></h3><div class=popover-content dao-tooltip-template-transclude=contentExp() tooltip-template-transclude-scope=originScope() template-type={{templateType}}></div></div></div>"
 
 /***/ },
-/* 61 */
+/* 64 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao popover\" tooltip-animation-class=fade dao-tooltip-classes ng-class=\"{ in: isOpen() }\"><div class=arrow></div><div class=popover-inner><h3 class=popover-title ng-bind=title ng-if=title></h3><div class=popover-content ng-bind-html=contentExp()></div></div></div>"
 
 /***/ },
-/* 62 */
+/* 65 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(63);
+	var content = __webpack_require__(66);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -3587,7 +4074,7 @@
 	}
 
 /***/ },
-/* 63 */
+/* 66 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -3595,73 +4082,10 @@
 	
 	
 	// module
-	exports.push([module.id, ".dao.popover{position:absolute;top:0;left:0;z-index:1060;display:none;max-width:276px;padding:1px;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-style:normal;font-weight:400;letter-spacing:normal;line-break:auto;line-height:1.42857;text-align:left;text-align:start;text-decoration:none;text-shadow:none;text-transform:none;white-space:normal;word-break:normal;word-spacing:normal;word-wrap:normal;font-size:14px;background-color:#fff;background-clip:padding-box;border:1px solid #ccc;border:1px solid rgba(0,0,0,.2);border-radius:6px;box-shadow:0 5px 10px rgba(0,0,0,.2)}.dao.popover.top{margin-top:-10px}.dao.popover.right{margin-left:10px}.dao.popover.bottom{margin-top:10px}.dao.popover.left{margin-left:-10px}.dao.popover .popover-title{margin:0;padding:20px 22px;font-size:14px;background-color:#e6e9ed;box-shadow:inset 0 -1px 0 rgba(204,209,217,.5);border-radius:5px 5px 0 0}.dao.popover .popover-content{padding:20px 22px}.dao.popover>.arrow,.dao.popover>.arrow:after{position:absolute;display:block;width:0;height:0;border-color:transparent;border-style:solid}.dao.popover>.arrow{border-width:11px}.dao.popover>.arrow:after{border-width:10px;content:\"\"}.dao.popover.top>.arrow{left:50%;margin-left:-11px;border-bottom-width:0;border-top-color:#999;border-top-color:rgba(0,0,0,.25);bottom:-11px}.dao.popover.top>.arrow:after{content:\" \";bottom:1px;margin-left:-10px;border-bottom-width:0;border-top-color:#fff}.dao.popover.right>.arrow{top:50%;left:-11px;margin-top:-11px;border-left-width:0;border-right-color:#999;border-right-color:rgba(0,0,0,.25)}.dao.popover.right>.arrow:after{content:\" \";left:1px;bottom:-10px;border-left-width:0;border-right-color:#fff}.dao.popover.bottom>.arrow{left:50%;margin-left:-11px;border-top-width:0;border-bottom-color:#999;border-bottom-color:rgba(0,0,0,.25);top:-11px}.dao.popover.bottom>.arrow:after{content:\" \";top:1px;margin-left:-10px;border-top-width:0;border-bottom-color:#fff}.dao.popover.left>.arrow{top:50%;right:-11px;margin-top:-11px;border-right-width:0;border-left-color:#999;border-left-color:rgba(0,0,0,.25)}.dao.popover.left>.arrow:after{content:\" \";right:1px;border-right-width:0;border-left-color:#fff;bottom:-10px}", ""]);
+	exports.push([module.id, ".dao.popover{position:absolute;top:0;left:0;z-index:1060;display:none;max-width:276px;padding:1px;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-style:normal;font-weight:400;letter-spacing:normal;line-break:auto;line-height:1.42857;text-align:left;text-align:start;text-decoration:none;text-shadow:none;text-transform:none;white-space:normal;word-break:normal;word-spacing:normal;word-wrap:normal;font-size:14px;background-color:#fff;background-clip:padding-box;border:1px solid #ccc;border:1px solid rgba(0,0,0,.2);border-radius:6px;box-shadow:0 5px 10px rgba(0,0,0,.2)}.dao.popover.top{margin-top:-10px}.dao.popover.right{margin-left:10px}.dao.popover.bottom{margin-top:10px}.dao.popover.left{margin-left:-10px}.dao.popover .popover-title{margin:0;padding:8px 14px;font-size:14px;background-color:#e6e9ed;box-shadow:inset 0 -1px 0 rgba(204,209,217,.5);border-radius:5px 5px 0 0}.dao.popover .popover-content{padding:9px 14px}.dao.popover>.arrow,.dao.popover>.arrow:after{position:absolute;display:block;width:0;height:0;border-color:transparent;border-style:solid}.dao.popover>.arrow{border-width:11px}.dao.popover>.arrow:after{border-width:10px;content:\"\"}.dao.popover.top>.arrow{left:50%;margin-left:-11px;border-bottom-width:0;border-top-color:#999;border-top-color:rgba(0,0,0,.25);bottom:-11px}.dao.popover.top>.arrow:after{content:\" \";bottom:1px;margin-left:-10px;border-bottom-width:0;border-top-color:#fff}.dao.popover.right>.arrow{top:50%;left:-11px;margin-top:-11px;border-left-width:0;border-right-color:#999;border-right-color:rgba(0,0,0,.25)}.dao.popover.right>.arrow:after{content:\" \";left:1px;bottom:-10px;border-left-width:0;border-right-color:#fff}.dao.popover.bottom>.arrow{left:50%;margin-left:-11px;border-top-width:0;border-bottom-color:#999;border-bottom-color:rgba(0,0,0,.25);top:-11px}.dao.popover.bottom>.arrow:after{content:\" \";top:1px;margin-left:-10px;border-top-width:0;border-bottom-color:#fff}.dao.popover.left>.arrow{top:50%;right:-11px;margin-top:-11px;border-right-width:0;border-left-color:#999;border-left-color:rgba(0,0,0,.25)}.dao.popover.left>.arrow:after{content:\" \";right:1px;border-right-width:0;border-left-color:#fff;bottom:-10px}", ""]);
 	
 	// exports
 
-
-/***/ },
-/* 64 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _leftNav = __webpack_require__(65);
-	
-	var moduleName = 'dao.nav'; /**
-	                             * Created by yeting on 16/1/15.
-	                             */
-	
-	angular.module(moduleName, []).directive('leftNav', _leftNav.LeftNavDirective);
-	
-	exports.default = moduleName;
-
-/***/ },
-/* 65 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	exports.LeftNavDirective = LeftNavDirective;
-	
-	var _leftNav = __webpack_require__(66);
-	
-	var _leftNav2 = _interopRequireDefault(_leftNav);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function LeftNavDirective() {
-	  /*ngInject*/
-	
-	  return {
-	    restrict: 'E',
-	    scope: {},
-	    template: _leftNav2.default,
-	    replace: true
-	  };
-	
-	  //function LeftNavLink() {
-	  //}
-	  //
-	  //function LeftNavCompile() {
-	  //}
-	}
-	
-	//function LeftNavController() {
-	//}
-
-/***/ },
-/* 66 */
-/***/ function(module, exports) {
-
-	module.exports = "<div class=\"dao left-nav\"><div class=nav-logo></div><div class=nav-item tooltip-placement=right dao-tooltip=用户><svg><use xlink:href=#users></use></svg></div><div class=nav-item tooltip-placement=right dao-tooltip=对话><svg><use xlink:href=#conversation></use></svg></div><div class=nav-item tooltip-placement=right dao-tooltip=手动消息><svg><use xlink:href=#manual-messages></use></svg></div><div class=nav-item tooltip-placement=right dao-tooltip=自动消息><svg><use xlink:href=#auto-messages></use></svg></div></div>"
 
 /***/ },
 /* 67 */
@@ -3770,7 +4194,7 @@
 	  value: true
 	});
 	
-	var _classCallCheck2 = __webpack_require__(41);
+	var _classCallCheck2 = __webpack_require__(43);
 	
 	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 	
@@ -3847,7 +4271,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".dao.demo-block{padding:10px}", ""]);
+	exports.push([module.id, ".dao.demo-block{padding:10px;border:0}", ""]);
 	
 	// exports
 
