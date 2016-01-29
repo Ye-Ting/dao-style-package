@@ -78,21 +78,23 @@
 	
 	var _index6 = _interopRequireDefault(_index5);
 	
-	var _daoInputDirective = __webpack_require__(67);
+	var _index7 = __webpack_require__(67);
+	
+	var _index8 = _interopRequireDefault(_index7);
+	
+	var _daoInputDirective = __webpack_require__(74);
 	
 	var _daoInputDirective2 = _interopRequireDefault(_daoInputDirective);
 	
-	var _daoDemoDirective = __webpack_require__(71);
+	var _daoDemoDirective = __webpack_require__(78);
 	
 	var _daoDemoDirective2 = _interopRequireDefault(_daoDemoDirective);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	/**
-	 * Created by yeting on 15/10/18.
-	 */
-	
-	var app = angular.module('daoStyle', [_index2.default, _index4.default, _index6.default]);
+	var app = angular.module('daoStyle', [_index2.default, _index4.default, _index6.default, _index8.default]); /**
+	                                                                                                             * Created by yeting on 15/10/18.
+	                                                                                                             */
 	
 	var appHelp = (0, _classHelper2.default)('daoStyle');
 	
@@ -527,7 +529,7 @@
 	
 	
 	// module
-	exports.push([module.id, "html.dao-layout *{box-sizing:border-box}html.dao-layout body{height:100%;margin:0}.dao-layout,.dao-layout-wrap{overflow:hidden;height:100%;margin:0}.dao-layout-wrap{display:flex;flex-direction:row}.dao-layout-sidebar{display:flex;flex:none;z-index:10001}.dao-layout-content{overflow:auto;flex:auto}.dao-layout-content .content-body{position:relative}.dao-layout-content.has-topbar{display:flex;flex-direction:column}.dao-layout-content.has-topbar.has-topbar-fixed>.content-topbar{flex:none;z-index:10000}.dao-layout-content.has-topbar.has-topbar-fixed>.content-body{flex:auto;overflow:auto}", ""]);
+	exports.push([module.id, "html.dao-layout *{box-sizing:border-box}html.dao-layout body{height:100%;margin:0}.dao-layout{z-index:900}.dao-layout,.dao-layout-wrap{overflow:hidden;height:100%;margin:0}.dao-layout-wrap{display:flex;flex-direction:row}.dao-layout-sidebar{display:flex;flex:none}.dao-layout-content{overflow:auto;flex:auto;min-width:1024px}.dao-layout-content .content-body{position:relative}.dao-layout-content.has-topbar{display:flex;flex-direction:column}.dao-layout-content.has-topbar.has-topbar-fixed>.content-topbar{flex:none}.dao-layout-content.has-topbar.has-topbar-fixed>.content-body{flex:auto;overflow:auto}", ""]);
 	
 	// exports
 
@@ -567,7 +569,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".dao-left-nav{width:60px;background-color:#3d444f}.dao-left-nav .dao-nav-logo{padding:10px;margin-top:15px;width:60px;height:60px;cursor:pointer}.dao-left-nav .dao-nav-logo img,.dao-left-nav .dao-nav-logo svg{width:100%;height:100%;border-radius:3px}.dao-left-nav .dao-nav-logo+.dao-popover{padding:0;max-width:none;border:none;background-color:rgba(31,33,38,.9);color:#fff;font-size:13px;transform:translateX(-5px);animation:tooltipHide .3s ease-in;opacity:0}.dao-left-nav .dao-nav-logo+.dao-popover.in{transform:translateX(5px);animation:tooltipShow .3s ease-out;opacity:1}.dao-left-nav .dao-nav-logo+.dao-popover .arrow{top:26px!important;border-width:7px;border-radius:0 0 0 3px;border-color:transparent transparent #1f2126 #1f2126;transform:rotate(45deg);margin-top:-7px}.dao-left-nav .dao-nav-logo+.dao-popover .arrow:after{display:none}.dao-left-nav .dao-nav-logo+.dao-popover .dao-popover-inner .dao-popover-content{padding:0}.dao-left-nav .dao-nav-item{display:flex;justify-content:center;cursor:pointer;width:60px;height:60px;padding:14px 15px}.dao-left-nav .dao-nav-item svg{width:100%;height:100%;fill:#9ba3af;transition:fill .2s}.dao-left-nav .dao-nav-item.active svg,.dao-left-nav .dao-nav-item svg:hover{fill:#fff}.dao-top-nav{width:100%;height:40px;background-color:#fff;box-shadow:0 2px 5px #e4e7ed}.dao-top-nav .dao-nav-item{display:flex;justify-content:center;align-items:center;float:left;height:100%;line-height:40px;font-size:14px;padding:0 14px;text-shadow:0 2px 0 hsla(0,0%,100%,.8);color:#595f69;font-weight:500;cursor:pointer}.dao-top-nav .dao-nav-item.active{background-color:#f5f7fa}.dao-top-nav .dao-nav-item.active .dao-numeric-badge{background-color:#3890ff}.dao-top-nav .dao-nav-item .dao-numeric-badge{margin-left:4px}.dao-left-nav .dao-tooltip.right{transition:none}.dao-left-nav .dao-tooltip.right .dao-tooltip-inner{padding:11px 16px;font-size:14px;background-color:#1f2126;border-radius:6px}.dao-left-nav .dao-tooltip.right .dao-tooltip-arrow{border-width:7px;border-radius:0 0 0 3px;border-color:transparent transparent #1f2126 #1f2126;transform:rotate(45deg);margin-top:-7px}.dao-left-nav .dao-tooltip.right.in{transform:translateX(5px);animation:tooltipShow .3s ease-out;opacity:1}@keyframes tooltipShow{0%{transform:translateX(-5px);opacity:0}to{transform:translateX(5px);opacity:1}}@keyframes tooltipHide{0%{transform:translateX(5px);opacity:1}to{transform:translateX(-5px);opacity:0}}", ""]);
+	exports.push([module.id, ".dao-left-nav{width:60px;background-color:#3d444f}.dao-left-nav .dao-nav-logo{padding:10px;margin-top:15px;width:60px;height:60px;cursor:pointer}.dao-left-nav .dao-nav-logo img,.dao-left-nav .dao-nav-logo svg{width:100%;height:100%;border-radius:3px}.dao-left-nav .dao-nav-logo+.dao-popover{padding:0;max-width:none;border:none;background-color:rgba(31,33,38,.9);color:#fff;font-size:13px;transform:translateX(-5px);animation:tooltipHide .3s ease-in;opacity:0}.dao-left-nav .dao-nav-logo+.dao-popover.in{transform:translateX(5px);animation:tooltipShow .3s ease-out;opacity:1}.dao-left-nav .dao-nav-logo+.dao-popover .arrow{top:26px!important;border-width:7px;border-radius:0 0 0 3px;border-color:transparent transparent #1f2126 #1f2126;transform:rotate(45deg);margin-top:-7px}.dao-left-nav .dao-nav-logo+.dao-popover .arrow:after{display:none}.dao-left-nav .dao-nav-logo+.dao-popover .dao-popover-inner .dao-popover-content{padding:0}.dao-left-nav .dao-nav-item{display:flex;justify-content:center;cursor:pointer;width:60px;height:60px;padding:14px 15px}.dao-left-nav .dao-nav-item svg{width:100%;height:100%;fill:#9ba3af;transition:fill .2s}.dao-left-nav .dao-nav-item.active svg,.dao-left-nav .dao-nav-item svg:hover{fill:#fff}.dao-top-nav{width:100%;height:40px;background-color:#fff;box-shadow:0 2px 5px #e4e7ed}.dao-top-nav .dao-nav-item{display:flex;justify-content:center;align-items:center;float:left;height:100%;line-height:40px;font-size:13px;padding:0 14px;text-shadow:0 2px 0 hsla(0,0%,100%,.8);color:#595f69;font-weight:500;cursor:pointer}.dao-top-nav .dao-nav-item.active{background-color:#f5f7fa}.dao-top-nav .dao-nav-item.active .dao-numeric-badge{background-color:#3890ff}.dao-top-nav .dao-nav-item .dao-numeric-badge{margin-left:4px}.dao-left-nav .dao-tooltip.right{transition:none}.dao-left-nav .dao-tooltip.right .dao-tooltip-inner{padding:11px 16px;font-size:14px;background-color:#1f2126;border-radius:6px}.dao-left-nav .dao-tooltip.right .dao-tooltip-arrow{border-width:7px;border-radius:0 0 0 3px;border-color:transparent transparent #1f2126 #1f2126;transform:rotate(45deg);margin-top:-7px}.dao-left-nav .dao-tooltip.right.in{transform:translateX(5px);animation:tooltipShow .3s ease-out;opacity:1}@keyframes tooltipShow{0%{transform:translateX(-5px);opacity:0}to{transform:translateX(5px);opacity:1}}@keyframes tooltipHide{0%{transform:translateX(5px);opacity:1}to{transform:translateX(-5px);opacity:0}}", ""]);
 	
 	// exports
 
@@ -4097,11 +4099,252 @@
 	  value: true
 	});
 	
-	var _daoInput = __webpack_require__(68);
+	__webpack_require__(68);
+	
+	var _multiSteps = __webpack_require__(70);
+	
+	var _multiSteps2 = _interopRequireDefault(_multiSteps);
+	
+	var _step = __webpack_require__(72);
+	
+	var _step2 = _interopRequireDefault(_step);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var moduleName = 'dao.panelMultiStep'; /**
+	                                        * Created by yeting on 16/1/25.
+	                                        */
+	
+	angular.module(moduleName, []).directive('daoPanelMultiSteps', _multiSteps2.default).directive('daoPanelStep', _step2.default);
+	
+	exports.default = moduleName;
+
+/***/ },
+/* 68 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+	
+	// load the styles
+	var content = __webpack_require__(69);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(4)(content, {"singleton":true});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?minimize!./../../../node_modules/postcss-loader/index.js!./../../../node_modules/sass-loader/index.js!./multi-step.scss", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?minimize!./../../../node_modules/postcss-loader/index.js!./../../../node_modules/sass-loader/index.js!./multi-step.scss");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 69 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(3)();
+	// imports
+	
+	
+	// module
+	exports.push([module.id, ".dao-multi-step .multi-step-sidebar{background-color:transparent;width:200px}.dao-multi-step .multi-step-content{background-color:#fff;border:1px solid #e4e7ed}.dao-multi-step .multi-step-content-body{display:none;min-height:300px}.dao-multi-step .multi-step-content-body.active{display:block}.dao-multi-step .multi-step-item{padding:18px 15px;border-top:1px solid #e4e7ed;border-left:1px solid #e4e7ed;border-bottom:0}.dao-multi-step .multi-step-item:last-child{border-bottom:1px solid #e4e7ed}.dao-multi-step .multi-step-item.active,.dao-multi-step .multi-step-item:hover{background-color:#fff;border-right:1px solid #fff;cursor:pointer}.dao-multi-step .multi-step-item.active{cursor:auto}.dao-multi-step .multi-step-item.success .multi-step-order{border:1px solid #00a755}.dao-multi-step .multi-step-order{display:inline-block;width:26px;height:26px;border-radius:13px;border:1px solid #e4e7ed;line-height:24px;text-align:center;margin-right:8px}", ""]);
+	
+	// exports
+
+
+/***/ },
+/* 70 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _classCallCheck2 = __webpack_require__(43);
+	
+	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+	
+	var _createClass2 = __webpack_require__(44);
+	
+	var _createClass3 = _interopRequireDefault(_createClass2);
+	
+	var _multiSteps = __webpack_require__(71);
+	
+	var _multiSteps2 = _interopRequireDefault(_multiSteps);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function MultiStepsDirective() {
+	  /*ngInject*/
+	
+	  return {
+	    restrict: 'E',
+	    scope: {
+	      currentIndex: '='
+	    },
+	    template: _multiSteps2.default,
+	
+	    controller: MultiStepsController,
+	    controllerAs: 'vm',
+	    bindToController: true,
+	    transclude: true
+	  };
+	} /**
+	   * Created by yeting on 16/1/25.
+	   */
+	
+	var MultiStepsController = function () {
+	  MultiStepsController.$inject = ["$scope"];
+	  function MultiStepsController($scope) {
+	    'ngInject';
+	
+	    (0, _classCallCheck3.default)(this, MultiStepsController);
+	    this.steps = [];
+	    this.currentIndex = 1;
+	    this.$scope = $scope;
+	    this.activate();
+	  }
+	
+	  (0, _createClass3.default)(MultiStepsController, [{
+	    key: 'activate',
+	    value: function activate() {
+	      var _this = this;
+	
+	      this.$scope.$watch('vm.currentIndex', function (value) {
+	        if (typeof value !== 'number' || value > _this.steps.length) {
+	          _this.currentIndex = 1;
+	          return;
+	        }
+	
+	        var currentStep = _this.steps[value - 1];
+	        _this.activeStep(currentStep);
+	      });
+	    }
+	  }, {
+	    key: 'activeStep',
+	    value: function activeStep(step) {
+	      this.steps.forEach(function (stepScope) {
+	        if (stepScope !== step) {
+	          stepScope.isActive = false;
+	        }
+	      });
+	      step.isActive = true;
+	      this.currentIndex = this.steps.indexOf(step) + 1;
+	    }
+	  }, {
+	    key: 'addStep',
+	    value: function addStep(stepScope) {
+	      var _this2 = this;
+	
+	      this.steps.push(stepScope);
+	
+	      if (!stepScope.index) {
+	        stepScope.index = this.steps.indexOf(stepScope) + 1;
+	        if (stepScope.index === 1) {
+	          stepScope.isActive = true;
+	        }
+	      }
+	
+	      stepScope.$on('$destroy', function (event) {
+	        _this2.removeStep(stepScope);
+	      });
+	    }
+	  }, {
+	    key: 'removeStep',
+	    value: function removeStep(step) {
+	      var index = this.steps.indexOf(step);
+	      if (index !== -1) {
+	        this.steps.splice(index, 1);
+	      }
+	    }
+	  }]);
+	  return MultiStepsController;
+	}();
+	
+	exports.default = MultiStepsDirective;
+
+/***/ },
+/* 71 */
+/***/ function(module, exports) {
+
+	module.exports = "<div class=\"dao-layout-wrap dao-multi-step\"><div class=dao-layout-sidebar><div class=multi-step-sidebar><div class=multi-step-item ng-class=\"{'active' : step.isActive , 'success' : step.isSuccessful }\" ng-click=vm.activeStep(step) ng-repeat=\"step in vm.steps\"><div class=multi-step-order>{{ step.index }}</div>{{ step.title }}</div></div></div><div class=dao-layout-content><div class=\"content-body multi-step-content\" ng-transclude></div></div></div>"
+
+/***/ },
+/* 72 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _step = __webpack_require__(73);
+	
+	var _step2 = _interopRequireDefault(_step);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function StepDirective() {
+	  /*ngInject*/
+	
+	  return {
+	    restrict: 'E',
+	    require: '^daoPanelMultiSteps',
+	    scope: {
+	      index: '@',
+	      title: '@',
+	      isSuccessful: '='
+	    },
+	    template: _step2.default,
+	    replace: true,
+	    link: StepLink,
+	    transclude: true
+	  };
+	
+	  function StepLink(scope, element, attrs, daoMultiStepCtrl) {
+	    daoMultiStepCtrl.addStep(scope);
+	
+	    scope.$watch('isActive', function (value) {
+	      element.toggleClass('active', !!value);
+	    });
+	  }
+	} /**
+	   * Created by yeting on 16/1/25.
+	   */
+	
+	exports.default = StepDirective;
+
+/***/ },
+/* 73 */
+/***/ function(module, exports) {
+
+	module.exports = "<div class=multi-step-content-body ng-transclude></div>"
+
+/***/ },
+/* 74 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _daoInput = __webpack_require__(75);
 	
 	var _daoInput2 = _interopRequireDefault(_daoInput);
 	
-	__webpack_require__(69);
+	__webpack_require__(76);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -4139,19 +4382,19 @@
 	exports.default = DaoInputDirective;
 
 /***/ },
-/* 68 */
+/* 75 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao input\" ng-class=\"[state,{'has-button': hasButton}]\"><input type=text placeholder={{::placeholder}}><ng-transclude></ng-transclude><div ng-bind-html=message></div></div>"
 
 /***/ },
-/* 69 */
+/* 76 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(70);
+	var content = __webpack_require__(77);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -4171,7 +4414,7 @@
 	}
 
 /***/ },
-/* 70 */
+/* 77 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -4185,7 +4428,7 @@
 
 
 /***/ },
-/* 71 */
+/* 78 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4198,11 +4441,11 @@
 	
 	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 	
-	var _daoDemo = __webpack_require__(72);
+	var _daoDemo = __webpack_require__(79);
 	
 	var _daoDemo2 = _interopRequireDefault(_daoDemo);
 	
-	__webpack_require__(73);
+	__webpack_require__(80);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -4231,19 +4474,19 @@
 	exports.default = DaoDemoBlockDirective;
 
 /***/ },
-/* 72 */
+/* 79 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao demo-block\"><h4 class=demo-block-header>{{dao.title}}</h4><div ng-transclude></div></div>"
 
 /***/ },
-/* 73 */
+/* 80 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(74);
+	var content = __webpack_require__(81);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -4263,7 +4506,7 @@
 	}
 
 /***/ },
-/* 74 */
+/* 81 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
