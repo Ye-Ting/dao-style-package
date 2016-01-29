@@ -86,7 +86,11 @@
 	
 	var _daoInputDirective2 = _interopRequireDefault(_daoInputDirective);
 	
-	var _daoDemoDirective = __webpack_require__(78);
+	var _daoTableDirective = __webpack_require__(78);
+	
+	var _daoTableDirective2 = _interopRequireDefault(_daoTableDirective);
+	
+	var _daoDemoDirective = __webpack_require__(82);
 	
 	var _daoDemoDirective2 = _interopRequireDefault(_daoDemoDirective);
 	
@@ -98,7 +102,7 @@
 	
 	var appHelp = (0, _classHelper2.default)('daoStyle');
 	
-	app.directive('daoInput', _daoInputDirective2.default);
+	app.directive('daoInput', _daoInputDirective2.default).directive('daoTable', _daoTableDirective2.default);
 	
 	appHelp.directive('daoDemoBlock', _daoDemoDirective2.default);
 	
@@ -139,7 +143,7 @@
 	
 	
 	// module
-	exports.push([module.id, "/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}\n\n/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */@media print{*,:after,:before{background:transparent!important;color:#000!important;box-shadow:none!important;text-shadow:none!important}a,a:visited{text-decoration:underline}a[href]:after{content:\" (\" attr(href) \")\"}abbr[title]:after{content:\" (\" attr(title) \")\"}a[href^=\"#\"]:after,a[href^=\"javascript:\"]:after{content:\"\"}blockquote,pre{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}img,tr{page-break-inside:avoid}img{max-width:100%!important}h2,h3,p{orphans:3;widows:3}h2,h3{page-break-after:avoid}.navbar{display:none}.btn>.caret,.dropup>.btn>.caret{border-top-color:#000!important}.label{border:1px solid #000}.table{border-collapse:collapse!important}.table td,.table th{background-color:#fff!important}.table-bordered td,.table-bordered th{border:1px solid #ddd!important}}.fade{opacity:0;-webkit-transition:opacity .15s linear;transition:opacity .15s linear}.fade.in{opacity:1}.collapse{display:none}.collapse.in{display:block}tr.collapse.in{display:table-row}tbody.collapse.in{display:table-row-group}.collapsing{position:relative;height:0;overflow:hidden;-webkit-transition-property:height,visibility;transition-property:height,visibility;-webkit-transition-duration:.35s;transition-duration:.35s;-webkit-transition-timing-function:ease;transition-timing-function:ease}body{font-family:-apple-system,BlinkMacSystemFont,Neue Haas Grotesk Text Pro,Arial Nova,Segoe UI,Helvetica Neue,\\.PingFang SC,PingFang SC,Microsoft YaHei,Microsoft JhengHei,Source Han Sans SC,Noto Sans CJK SC,Source Han Sans CN,Noto Sans SC,Source Han Sans TC,Noto Sans CJK TC,Hiragino Sans GB,sans-serif}", ""]);
+	exports.push([module.id, "/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}\n\n/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */@media print{*,:after,:before{background:transparent!important;color:#000!important;box-shadow:none!important;text-shadow:none!important}a,a:visited{text-decoration:underline}a[href]:after{content:\" (\" attr(href) \")\"}abbr[title]:after{content:\" (\" attr(title) \")\"}a[href^=\"#\"]:after,a[href^=\"javascript:\"]:after{content:\"\"}blockquote,pre{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}img,tr{page-break-inside:avoid}img{max-width:100%!important}h2,h3,p{orphans:3;widows:3}h2,h3{page-break-after:avoid}.navbar{display:none}.btn>.caret,.dropup>.btn>.caret{border-top-color:#000!important}.label{border:1px solid #000}.table{border-collapse:collapse!important}.table td,.table th{background-color:#fff!important}.table-bordered td,.table-bordered th{border:1px solid #ddd!important}}.fade{opacity:0;-webkit-transition:opacity .15s linear;transition:opacity .15s linear}.fade.in{opacity:1}.collapse{display:none}.collapse.in{display:block}tr.collapse.in{display:table-row}tbody.collapse.in{display:table-row-group}.collapsing{position:relative;height:0;overflow:hidden;-webkit-transition-property:height,visibility;transition-property:height,visibility;-webkit-transition-duration:.35s;transition-duration:.35s;-webkit-transition-timing-function:ease;transition-timing-function:ease}body{font-family:-apple-system,BlinkMacSystemFont,Neue Haas Grotesk Text Pro,Arial Nova,Segoe UI,Helvetica Neue,\\.PingFang SC,PingFang SC,Microsoft YaHei,Microsoft JhengHei,Source Han Sans SC,Noto Sans CJK SC,Source Han Sans CN,Noto Sans SC,Source Han Sans TC,Noto Sans CJK TC,Hiragino Sans GB,sans-serif;-webkit-font-smoothing:antialiased}", ""]);
 	
 	// exports
 
@@ -529,7 +533,7 @@
 	
 	
 	// module
-	exports.push([module.id, "html.dao-layout *{box-sizing:border-box}html.dao-layout body{height:100%;margin:0}.dao-layout{z-index:900}.dao-layout,.dao-layout-wrap{overflow:hidden;height:100%;margin:0}.dao-layout-wrap{display:flex;flex-direction:row}.dao-layout-sidebar{display:flex;flex:none}.dao-layout-content{overflow:auto;flex:auto;min-width:1024px}.dao-layout-content .content-body{position:relative}.dao-layout-content.has-topbar{display:flex;flex-direction:column}.dao-layout-content.has-topbar.has-topbar-fixed>.content-topbar{flex:none}.dao-layout-content.has-topbar.has-topbar-fixed>.content-body{flex:auto;overflow:auto}", ""]);
+	exports.push([module.id, "html.dao-layout{overflow:hidden}html.dao-layout *{box-sizing:border-box}.dao-layout,html.dao-layout body{height:100%;margin:0;overflow:hidden}.dao-layout{z-index:900}.dao-layout-wrap{display:flex;overflow:hidden;flex-direction:row;height:100%;margin:0}.dao-layout-sidebar{display:flex;flex:none}.dao-layout-content{overflow:auto;flex:auto;min-width:1024px}.dao-layout-content .content-body{position:relative}.dao-layout-content.has-topbar{display:flex;flex-direction:column}.dao-layout-content.has-topbar.has-topbar-fixed>.content-topbar{flex:none;z-index:1}.dao-layout-content.has-topbar.has-topbar-fixed>.content-body{flex:auto;overflow:auto}", ""]);
 	
 	// exports
 
@@ -569,7 +573,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".dao-left-nav{width:60px;background-color:#3d444f}.dao-left-nav .dao-nav-logo{padding:10px;margin-top:15px;width:60px;height:60px;cursor:pointer}.dao-left-nav .dao-nav-logo img,.dao-left-nav .dao-nav-logo svg{width:100%;height:100%;border-radius:3px}.dao-left-nav .dao-nav-logo+.dao-popover{padding:0;max-width:none;border:none;background-color:rgba(31,33,38,.9);color:#fff;font-size:13px;transform:translateX(-5px);animation:tooltipHide .3s ease-in;opacity:0}.dao-left-nav .dao-nav-logo+.dao-popover.in{transform:translateX(5px);animation:tooltipShow .3s ease-out;opacity:1}.dao-left-nav .dao-nav-logo+.dao-popover .arrow{top:26px!important;border-width:7px;border-radius:0 0 0 3px;border-color:transparent transparent #1f2126 #1f2126;transform:rotate(45deg);margin-top:-7px}.dao-left-nav .dao-nav-logo+.dao-popover .arrow:after{display:none}.dao-left-nav .dao-nav-logo+.dao-popover .dao-popover-inner .dao-popover-content{padding:0}.dao-left-nav .dao-nav-item{display:flex;justify-content:center;cursor:pointer;width:60px;height:60px;padding:14px 15px}.dao-left-nav .dao-nav-item svg{width:100%;height:100%;fill:#9ba3af;transition:fill .2s}.dao-left-nav .dao-nav-item.active svg,.dao-left-nav .dao-nav-item svg:hover{fill:#fff}.dao-top-nav{width:100%;height:40px;background-color:#fff;box-shadow:0 2px 5px #e4e7ed}.dao-top-nav .dao-nav-item{display:flex;justify-content:center;align-items:center;float:left;height:100%;line-height:40px;font-size:13px;padding:0 14px;text-shadow:0 2px 0 hsla(0,0%,100%,.8);color:#595f69;font-weight:500;cursor:pointer}.dao-top-nav .dao-nav-item.active{background-color:#f5f7fa}.dao-top-nav .dao-nav-item.active .dao-numeric-badge{background-color:#3890ff}.dao-top-nav .dao-nav-item .dao-numeric-badge{margin-left:4px}.dao-left-nav .dao-tooltip.right{transition:none}.dao-left-nav .dao-tooltip.right .dao-tooltip-inner{padding:11px 16px;font-size:14px;background-color:#1f2126;border-radius:6px}.dao-left-nav .dao-tooltip.right .dao-tooltip-arrow{border-width:7px;border-radius:0 0 0 3px;border-color:transparent transparent #1f2126 #1f2126;transform:rotate(45deg);margin-top:-7px}.dao-left-nav .dao-tooltip.right.in{transform:translateX(5px);animation:tooltipShow .3s ease-out;opacity:1}@keyframes tooltipShow{0%{transform:translateX(-5px);opacity:0}to{transform:translateX(5px);opacity:1}}@keyframes tooltipHide{0%{transform:translateX(5px);opacity:1}to{transform:translateX(-5px);opacity:0}}", ""]);
+	exports.push([module.id, ".dao-left-nav{width:60px;background-color:#3d444f}.dao-left-nav .dao-nav-logo{padding:10px;margin-top:15px;width:60px;height:60px;cursor:pointer}.dao-left-nav .dao-nav-logo img,.dao-left-nav .dao-nav-logo svg{width:100%;height:100%;border-radius:3px}.dao-left-nav .dao-nav-logo+.dao-popover{padding:0;max-width:none;border:none;background-color:rgba(31,33,38,.9);color:#fff;font-size:13px;transform:translateX(-5px);animation:tooltipHide .3s ease-in;opacity:0}.dao-left-nav .dao-nav-logo+.dao-popover.in{transform:translateX(5px);animation:tooltipShow .3s ease-out;opacity:1}.dao-left-nav .dao-nav-logo+.dao-popover .arrow{top:26px!important;border-width:7px;border-radius:0 0 0 3px;border-color:transparent transparent #1f2126 #1f2126;transform:rotate(45deg);margin-top:-7px}.dao-left-nav .dao-nav-logo+.dao-popover .arrow:after{display:none}.dao-left-nav .dao-nav-logo+.dao-popover .dao-popover-inner .dao-popover-content{padding:0}.dao-left-nav .dao-nav-item{display:flex;justify-content:center;cursor:pointer;width:60px;height:60px;padding:14px 15px}.dao-left-nav .dao-nav-item svg{width:100%;height:100%;fill:#9ba3af;transition:fill .2s}.dao-left-nav .dao-nav-item.active svg,.dao-left-nav .dao-nav-item svg:hover{fill:#fff}.dao-top-nav{width:100%;height:40px;background-color:#fff;box-shadow:0 2px 5px #e4e7ed}.dao-top-nav .dao-nav-item{display:flex;justify-content:center;align-items:center;float:left;height:100%;line-height:40px;font-size:13px;padding:0 14px;text-shadow:0 2px 0 hsla(0,0%,100%,.8);color:#595f69;font-weight:500;cursor:pointer}.dao-top-nav .dao-nav-item.active{background-color:#f5f7fa}.dao-top-nav .dao-nav-item.active .dao-numeric-badge{background-color:#3890ff}.dao-top-nav .dao-nav-item .dao-numeric-badge{margin-left:4px}.dao-left-nav .dao-tooltip.right{transition:none}.dao-left-nav .dao-tooltip.right .dao-tooltip-inner{padding:11px 16px;font-size:14px;background-color:#1f2126;border-radius:6px}.dao-left-nav .dao-tooltip.right .dao-tooltip-arrow{border-width:7px;border-radius:0 0 0 3px;border-color:transparent transparent #1f2126 #1f2126;transform:rotate(45deg);margin-top:-7px}.dao-left-nav .dao-tooltip.right.in{transform:translateX(5px);animation:tooltipShow .3s ease-out;opacity:1}@keyframes tooltipShow{0%{transform:translateX(-5px)}to{transform:translateX(5px)}}@keyframes tooltipHide{0%{transform:translateX(5px)}to{transform:translateX(-5px)}}", ""]);
 	
 	// exports
 
@@ -3994,7 +3998,7 @@
 	  return {
 	    replace: true,
 	    scope: { title: '@', contentExp: '&', placement: '@', popupClass: '@', animation: '&', isOpen: '&',
-	      originScope: '&' },
+	      originScope: '&', templateType: '@' },
 	    template: _popoverTemplate2.default
 	  };
 	}
@@ -4437,15 +4441,91 @@
 	  value: true
 	});
 	
+	var _daoTable = __webpack_require__(79);
+	
+	var _daoTable2 = _interopRequireDefault(_daoTable);
+	
+	__webpack_require__(80);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function DaoTableDirective() {
+	  /*ngInject*/
+	
+	  return {
+	    restrict: 'EA',
+	    scope: {},
+	    template: _daoTable2.default
+	  };
+	}
+	
+	exports.default = DaoTableDirective;
+
+/***/ },
+/* 79 */
+/***/ function(module, exports) {
+
+	module.exports = ""
+
+/***/ },
+/* 80 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+	
+	// load the styles
+	var content = __webpack_require__(81);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(4)(content, {"singleton":true});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?minimize!./../../../node_modules/postcss-loader/index.js!./../../../node_modules/sass-loader/index.js!./dao-table.scss", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?minimize!./../../../node_modules/postcss-loader/index.js!./../../../node_modules/sass-loader/index.js!./dao-table.scss");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 81 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(3)();
+	// imports
+	
+	
+	// module
+	exports.push([module.id, "table.dao-table.slat{width:100%;margin:16px 0}table.dao-table.slat tr{background:#fff;border-bottom:1px solid #f1f3f6}table.dao-table.slat tr.selected{background:#fffced}table.dao-table.slat td{white-space:nowrap;padding:20px 0;vertical-align:middle}table.dao-table.slat td.left{text-align:left;width:20%}table.dao-table.slat td.right{text-align:right;width:10%}table.dao-table.slat td.checkbox{width:3.5em}table.dao-table.slat td:first-child{padding-left:24px}table.dao-table.slat td:last-child{padding-right:24px}table.dao-table.slat .item{font-weight:400}table.dao-table.slat .item-discription{color:#9ba3af;font-size:13px;margin-top:4px}table.dao-table.slat .item-content{color:#595f69;font-size:16px}table.dao-table.slat .item-name{color:#3890ff;font-size:15px}table.dao-table.slat .item-single-line{height:40px}", ""]);
+	
+	// exports
+
+
+/***/ },
+/* 82 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
 	var _classCallCheck2 = __webpack_require__(43);
 	
 	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 	
-	var _daoDemo = __webpack_require__(79);
+	var _daoDemo = __webpack_require__(83);
 	
 	var _daoDemo2 = _interopRequireDefault(_daoDemo);
 	
-	__webpack_require__(80);
+	__webpack_require__(84);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -4474,19 +4554,19 @@
 	exports.default = DaoDemoBlockDirective;
 
 /***/ },
-/* 79 */
+/* 83 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao demo-block\"><h4 class=demo-block-header>{{dao.title}}</h4><div ng-transclude></div></div>"
 
 /***/ },
-/* 80 */
+/* 84 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(81);
+	var content = __webpack_require__(85);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -4506,7 +4586,7 @@
 	}
 
 /***/ },
-/* 81 */
+/* 85 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();

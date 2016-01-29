@@ -1,6 +1,6 @@
 {
   "name": "dao-style",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "DaoCloud style for Angualr",
   "main": "index.js",
   "scripts": {
