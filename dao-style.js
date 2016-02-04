@@ -54,51 +54,57 @@
 	
 	__webpack_require__(5);
 	
-	__webpack_require__(7);
+	__webpack_require__(10);
 	
-	__webpack_require__(9);
+	__webpack_require__(12);
 	
-	__webpack_require__(11);
+	__webpack_require__(14);
 	
-	__webpack_require__(13);
+	__webpack_require__(16);
 	
-	var _classHelper = __webpack_require__(21);
+	__webpack_require__(19);
+	
+	var _classHelper = __webpack_require__(55);
 	
 	var _classHelper2 = _interopRequireDefault(_classHelper);
 	
-	var _index = __webpack_require__(22);
+	var _index = __webpack_require__(56);
 	
 	var _index2 = _interopRequireDefault(_index);
 	
-	var _index3 = __webpack_require__(51);
+	var _index3 = __webpack_require__(85);
 	
 	var _index4 = _interopRequireDefault(_index3);
 	
-	var _index5 = __webpack_require__(60);
+	var _index5 = __webpack_require__(94);
 	
 	var _index6 = _interopRequireDefault(_index5);
 	
-	var _index7 = __webpack_require__(67);
+	var _index7 = __webpack_require__(101);
 	
 	var _index8 = _interopRequireDefault(_index7);
 	
-	var _daoInputDirective = __webpack_require__(74);
+	var _index9 = __webpack_require__(108);
+	
+	var _index10 = _interopRequireDefault(_index9);
+	
+	var _daoInputDirective = __webpack_require__(110);
 	
 	var _daoInputDirective2 = _interopRequireDefault(_daoInputDirective);
 	
-	var _daoTableDirective = __webpack_require__(78);
+	var _daoTableDirective = __webpack_require__(114);
 	
 	var _daoTableDirective2 = _interopRequireDefault(_daoTableDirective);
 	
-	var _daoDemoDirective = __webpack_require__(82);
+	var _daoDemoDirective = __webpack_require__(118);
 	
 	var _daoDemoDirective2 = _interopRequireDefault(_daoDemoDirective);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	var app = angular.module('daoStyle', [_index2.default, _index4.default, _index6.default, _index8.default]); /**
-	                                                                                                             * Created by yeting on 15/10/18.
-	                                                                                                             */
+	var app = angular.module('daoStyle', [_index2.default, _index4.default, _index6.default, _index8.default, _index10.default]); /**
+	                                                                                                                               * Created by yeting on 15/10/18.
+	                                                                                                                               */
 	
 	var appHelp = (0, _classHelper2.default)('daoStyle');
 	
@@ -462,10 +468,60 @@
 /* 5 */
 /***/ function(module, exports, __webpack_require__) {
 
+	'use strict';
+	
+	__webpack_require__(6);
+	
+	__webpack_require__(8);
+
+/***/ },
+/* 6 */
+/***/ function(module, exports, __webpack_require__) {
+
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(6);
+	var content = __webpack_require__(7);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(4)(content, {"singleton":true});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?minimize!./../../../node_modules/postcss-loader/index.js!./../../../node_modules/sass-loader/index.js!./dao-button-group.scss", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?minimize!./../../../node_modules/postcss-loader/index.js!./../../../node_modules/sass-loader/index.js!./dao-button-group.scss");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 7 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(3)();
+	// imports
+	
+	
+	// module
+	exports.push([module.id, ".dao-btn-group,.dao-btn-group-vertical{position:relative;display:inline-block;vertical-align:middle}.dao-btn-group-vertical>.dao-btn,.dao-btn-group>.dao-btn{position:relative;float:left}.dao-btn-group-vertical>.dao-btn.active,.dao-btn-group-vertical>.dao-btn:active,.dao-btn-group-vertical>.dao-btn:focus,.dao-btn-group-vertical>.dao-btn:hover,.dao-btn-group>.dao-btn.active,.dao-btn-group>.dao-btn:active,.dao-btn-group>.dao-btn:focus,.dao-btn-group>.dao-btn:hover{z-index:2}.dao-btn-group .dao-btn+.dao-btn,.dao-btn-group .dao-btn+.dao-btn-group,.dao-btn-group .dao-btn-group+.dao-btn,.dao-btn-group .dao-btn-group+.dao-btn-group{margin-left:-1px}.dao-btn-group>.dao-btn:not(:first-child):not(:last-child):not(.dropdown-toggle){border-radius:0}.dao-btn-group>.dao-btn:first-child{margin-left:0}.dao-btn-group>.dao-btn:first-child:not(:last-child):not(.dropdown-toggle){border-bottom-right-radius:0;border-top-right-radius:0}.dao-btn-group>.dao-btn:last-child:not(:first-child),.dao-btn-group>.dropdown-toggle:not(:first-child){border-bottom-left-radius:0;border-top-left-radius:0}.dao-btn-group>.dao-btn-group{float:left}.dao-btn-group>.dao-btn-group:not(:first-child):not(:last-child)>.dao-btn{border-radius:0}.dao-btn-group>.dao-btn-group:first-child:not(:last-child)>.dao-btn:last-child,.dao-btn-group>.dao-btn-group:first-child:not(:last-child)>.dropdown-toggle{border-bottom-right-radius:0;border-top-right-radius:0}.dao-btn-group>.dao-btn-group:last-child:not(:first-child)>.dao-btn:first-child{border-bottom-left-radius:0;border-top-left-radius:0}", ""]);
+	
+	// exports
+
+
+/***/ },
+/* 8 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+	
+	// load the styles
+	var content = __webpack_require__(9);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -485,7 +541,7 @@
 	}
 
 /***/ },
-/* 6 */
+/* 9 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -493,19 +549,19 @@
 	
 	
 	// module
-	exports.push([module.id, ".dao-btn{display:inline-block;margin-bottom:0;font-weight:400;text-align:center;vertical-align:middle;touch-action:manipulation;cursor:pointer;background-image:none;border:1px solid transparent;white-space:nowrap;outline:none!important;padding:6px 18px;font-size:14px;line-height:1.42857;border-radius:4px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.dao-btn.active.focus,.dao-btn.active:focus,.dao-btn.focus,.dao-btn:active.focus,.dao-btn:active:focus,.dao-btn:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}.dao-btn.focus,.dao-btn:focus,.dao-btn:hover{color:#333;text-decoration:none}.dao-btn.active,.dao-btn:active{outline:0;background-image:none;box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}.dao-btn+.dao-btn{margin-left:5px}a.dao-btn.disabled,fieldset[disabled] a.dao-btn{pointer-events:none}.dao-btn.blue{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,.1);border-color:#217ef2;box-shadow:inset 0 1px 0 hsla(0,0%,100%,.08),0 1px 1px rgba(0,0,0,.08);background-image:linear-gradient(0deg,hsla(0,0%,100%,.06) 0,hsla(0,0%,100%,.06)),linear-gradient(0deg,rgba(9,109,236,.5) 0,rgba(71,153,255,.5));background-color:#3890ff}.dao-btn.blue:hover{background-image:linear-gradient(0deg,rgba(9,109,236,.5) 0,rgba(71,153,255,.5))}.dao-btn.blue:active{background-image:none;box-shadow:inset 0 0 8px rgba(0,0,0,.04)}.color-card.blue>div{display:block;float:left;height:50px;width:50px}.color-card.blue>div:first-child{background-color:#4799ff}.color-card.blue>div:nth-child(2){background-color:#3890ff}.color-card.blue>div:nth-child(3){background-color:#217ef2}.color-card.blue>div:nth-child(4){background-color:#096dec}.dao-btn.green{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,.1);border-color:#279a5b;box-shadow:inset 0 1px 0 hsla(0,0%,100%,.08),0 1px 1px rgba(0,0,0,.08);background-image:linear-gradient(0deg,hsla(0,0%,100%,.06) 0,hsla(0,0%,100%,.06)),linear-gradient(0deg,rgba(30,133,76,.5) 0,rgba(36,208,113,.5));background-color:#22c36a}.dao-btn.green:hover{background-image:linear-gradient(0deg,rgba(30,133,76,.5) 0,rgba(36,208,113,.5))}.dao-btn.green:active{background-image:none;box-shadow:inset 0 0 8px rgba(0,0,0,.04)}.color-card.green>div{display:block;float:left;height:50px;width:50px}.color-card.green>div:first-child{background-color:#24d071}.color-card.green>div:nth-child(2){background-color:#22c36a}.color-card.green>div:nth-child(3){background-color:#279a5b}.color-card.green>div:nth-child(4){background-color:#1e854c}.dao-btn.yellow{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,.1);border-color:#e7a217;box-shadow:inset 0 1px 0 hsla(0,0%,100%,.08),0 1px 1px rgba(0,0,0,.08);background-image:linear-gradient(0deg,hsla(0,0%,100%,.06) 0,hsla(0,0%,100%,.06)),linear-gradient(0deg,rgba(208,144,16,.5) 0,rgba(248,184,58,.5));background-color:#f7b32b}.dao-btn.yellow:hover{background-image:linear-gradient(0deg,rgba(208,144,16,.5) 0,rgba(248,184,58,.5))}.dao-btn.yellow:active{background-image:none;box-shadow:inset 0 0 8px rgba(0,0,0,.04)}.color-card.yellow>div{display:block;float:left;height:50px;width:50px}.color-card.yellow>div:first-child{background-color:#f8b83a}.color-card.yellow>div:nth-child(2){background-color:#f7b32b}.color-card.yellow>div:nth-child(3){background-color:#e7a217}.color-card.yellow>div:nth-child(4){background-color:#d09010}.dao-btn.orange{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,.1);border-color:#de5e18;box-shadow:inset 0 1px 0 hsla(0,0%,100%,.08),0 1px 1px rgba(0,0,0,.08);background-image:linear-gradient(0deg,hsla(0,0%,100%,.06) 0,hsla(0,0%,100%,.06)),linear-gradient(0deg,rgba(199,81,17,.5) 0,rgba(246,120,52,.5));background-color:#f56e25}.dao-btn.orange:hover{background-image:linear-gradient(0deg,rgba(199,81,17,.5) 0,rgba(246,120,52,.5))}.dao-btn.orange:active{background-image:none;box-shadow:inset 0 0 8px rgba(0,0,0,.04)}.color-card.orange>div{display:block;float:left;height:50px;width:50px}.color-card.orange>div:first-child{background-color:#f67834}.color-card.orange>div:nth-child(2){background-color:#f56e25}.color-card.orange>div:nth-child(3){background-color:#de5e18}.color-card.orange>div:nth-child(4){background-color:#c75111}.dao-btn.red{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,.1);border-color:#e1342b;box-shadow:inset 0 1px 0 hsla(0,0%,100%,.08),0 1px 1px rgba(0,0,0,.08);background-image:linear-gradient(0deg,hsla(0,0%,100%,.06) 0,hsla(0,0%,100%,.06)),linear-gradient(0deg,rgba(213,34,24,.5) 0,rgba(242,86,77,.5));background-color:#f1483f}.dao-btn.red:hover{background-image:linear-gradient(0deg,rgba(213,34,24,.5) 0,rgba(242,86,77,.5))}.dao-btn.red:active{background-image:none;box-shadow:inset 0 0 8px rgba(0,0,0,.04)}.color-card.red>div{display:block;float:left;height:50px;width:50px}.color-card.red>div:first-child{background-color:#f2564d}.color-card.red>div:nth-child(2){background-color:#f1483f}.color-card.red>div:nth-child(3){background-color:#e1342b}.color-card.red>div:nth-child(4){background-color:#d52218}.dao-btn.purple{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,.1);border-color:#6142d0;box-shadow:inset 0 1px 0 hsla(0,0%,100%,.08),0 1px 1px rgba(0,0,0,.08);background-image:linear-gradient(0deg,hsla(0,0%,100%,.06) 0,hsla(0,0%,100%,.06)),linear-gradient(0deg,rgba(78,44,200,.5) 0,rgba(126,97,228,.5));background-color:#7354e2}.dao-btn.purple:hover{background-image:linear-gradient(0deg,rgba(78,44,200,.5) 0,rgba(126,97,228,.5))}.dao-btn.purple:active{background-image:none;box-shadow:inset 0 0 8px rgba(0,0,0,.04)}.color-card.purple>div{display:block;float:left;height:50px;width:50px}.color-card.purple>div:first-child{background-color:#7e61e4}.color-card.purple>div:nth-child(2){background-color:#7354e2}.color-card.purple>div:nth-child(3){background-color:#6142d0}.color-card.purple>div:nth-child(4){background-color:#4e2cc8}.dao-btn.grey{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,.1);border-color:#bec0c3;box-shadow:inset 0 1px 0 hsla(0,0%,100%,.08),0 1px 1px rgba(0,0,0,.08);background-image:linear-gradient(0deg,hsla(0,0%,100%,.06) 0,hsla(0,0%,100%,.06)),linear-gradient(0deg,hsla(215,8%,69%,.5) 0,rgba(213,217,224,.5));background-color:#ccd1d9}.dao-btn.grey:hover{background-image:linear-gradient(0deg,hsla(215,8%,69%,.5) 0,rgba(213,217,224,.5))}.dao-btn.grey:active{background-image:none;box-shadow:inset 0 0 8px rgba(0,0,0,.04)}.color-card.grey>div{display:block;float:left;height:50px;width:50px}.color-card.grey>div:first-child{background-color:#d5d9e0}.color-card.grey>div:nth-child(2){background-color:#ccd1d9}.color-card.grey>div:nth-child(3){background-color:#bec0c3}.color-card.grey>div:nth-child(4){background-color:#abb0b7}.color-card:after,.color-card:before{content:\" \";display:table}.color-card:after{clear:both}.dao-btn.ghost{color:#3d444f;text-shadow:0 1px 0 hsla(0,0%,100%,.9);border-color:#ccd1d9;box-shadow:inset 0 1px 0 hsla(0,0%,100%,.9),0 1px 0 hsla(0,0%,100%,.9);background:none}.dao-btn.ghost:hover{background-color:rgba(204,209,217,.1);box-shadow:0 1px 0 hsla(0,0%,100%,.9)}.dao-btn.ghost.active,.dao-btn.ghost:active{background-color:rgba(204,209,217,.15);box-shadow:inset 0 1px 3px 0 rgba(0,0,0,.07),inset 0 0 4px 0 rgba(0,0,0,.08),0 1px 0 hsla(0,0%,100%,.9)}.dao-btn.disabled,.dao-btn[disabled],fieldset[disabled] .dao-btn{cursor:not-allowed;color:#ccd1d9;text-shadow:0 1px 0 hsla(0,0%,100%,.9);border-color:#ccd1d9!important;box-shadow:inset 0 1px 0 hsla(0,0%,100%,.9),0 1px 0 hsla(0,0%,100%,.9)!important;background:none!important}", ""]);
+	exports.push([module.id, ".dao-btn{display:inline-block;margin-bottom:0;font-weight:400;text-align:center;vertical-align:middle;touch-action:manipulation;cursor:pointer;background-image:none;border:1px solid transparent;white-space:nowrap;outline:none!important;padding:6px 18px;font-size:14px;line-height:20px;border-radius:4px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.dao-btn.active.focus,.dao-btn.active:focus,.dao-btn.focus,.dao-btn:active.focus,.dao-btn:active:focus,.dao-btn:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}.dao-btn.focus,.dao-btn:focus,.dao-btn:hover{color:#333;text-decoration:none}.dao-btn.active,.dao-btn:active{outline:0;background-image:none;box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}.dao-btn+.dao-btn{margin-left:5px}a.dao-btn.disabled,fieldset[disabled] a.dao-btn{pointer-events:none}.dao-btn.blue{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,.1);border-color:#217ef2;box-shadow:inset 0 1px 0 hsla(0,0%,100%,.08),0 1px 1px rgba(0,0,0,.08);background-image:linear-gradient(0deg,hsla(0,0%,100%,.06) 0,hsla(0,0%,100%,.06)),linear-gradient(0deg,rgba(9,109,236,.5) 0,rgba(71,153,255,.5));background-color:#3890ff}.dao-btn.blue:hover{background-image:linear-gradient(0deg,rgba(9,109,236,.5) 0,rgba(71,153,255,.5))}.dao-btn.blue:active{background-image:none;box-shadow:inset 0 0 8px rgba(0,0,0,.04)}.color-card.blue>div{display:block;float:left;height:50px;width:50px}.color-card.blue>div:first-child{background-color:#4799ff}.color-card.blue>div:nth-child(2){background-color:#3890ff}.color-card.blue>div:nth-child(3){background-color:#217ef2}.color-card.blue>div:nth-child(4){background-color:#096dec}.dao-btn.green{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,.1);border-color:#279a5b;box-shadow:inset 0 1px 0 hsla(0,0%,100%,.08),0 1px 1px rgba(0,0,0,.08);background-image:linear-gradient(0deg,hsla(0,0%,100%,.06) 0,hsla(0,0%,100%,.06)),linear-gradient(0deg,rgba(30,133,76,.5) 0,rgba(36,208,113,.5));background-color:#22c36a}.dao-btn.green:hover{background-image:linear-gradient(0deg,rgba(30,133,76,.5) 0,rgba(36,208,113,.5))}.dao-btn.green:active{background-image:none;box-shadow:inset 0 0 8px rgba(0,0,0,.04)}.color-card.green>div{display:block;float:left;height:50px;width:50px}.color-card.green>div:first-child{background-color:#24d071}.color-card.green>div:nth-child(2){background-color:#22c36a}.color-card.green>div:nth-child(3){background-color:#279a5b}.color-card.green>div:nth-child(4){background-color:#1e854c}.dao-btn.yellow{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,.1);border-color:#e7a217;box-shadow:inset 0 1px 0 hsla(0,0%,100%,.08),0 1px 1px rgba(0,0,0,.08);background-image:linear-gradient(0deg,hsla(0,0%,100%,.06) 0,hsla(0,0%,100%,.06)),linear-gradient(0deg,rgba(208,144,16,.5) 0,rgba(248,184,58,.5));background-color:#f7b32b}.dao-btn.yellow:hover{background-image:linear-gradient(0deg,rgba(208,144,16,.5) 0,rgba(248,184,58,.5))}.dao-btn.yellow:active{background-image:none;box-shadow:inset 0 0 8px rgba(0,0,0,.04)}.color-card.yellow>div{display:block;float:left;height:50px;width:50px}.color-card.yellow>div:first-child{background-color:#f8b83a}.color-card.yellow>div:nth-child(2){background-color:#f7b32b}.color-card.yellow>div:nth-child(3){background-color:#e7a217}.color-card.yellow>div:nth-child(4){background-color:#d09010}.dao-btn.orange{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,.1);border-color:#de5e18;box-shadow:inset 0 1px 0 hsla(0,0%,100%,.08),0 1px 1px rgba(0,0,0,.08);background-image:linear-gradient(0deg,hsla(0,0%,100%,.06) 0,hsla(0,0%,100%,.06)),linear-gradient(0deg,rgba(199,81,17,.5) 0,rgba(246,120,52,.5));background-color:#f56e25}.dao-btn.orange:hover{background-image:linear-gradient(0deg,rgba(199,81,17,.5) 0,rgba(246,120,52,.5))}.dao-btn.orange:active{background-image:none;box-shadow:inset 0 0 8px rgba(0,0,0,.04)}.color-card.orange>div{display:block;float:left;height:50px;width:50px}.color-card.orange>div:first-child{background-color:#f67834}.color-card.orange>div:nth-child(2){background-color:#f56e25}.color-card.orange>div:nth-child(3){background-color:#de5e18}.color-card.orange>div:nth-child(4){background-color:#c75111}.dao-btn.red{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,.1);border-color:#e1342b;box-shadow:inset 0 1px 0 hsla(0,0%,100%,.08),0 1px 1px rgba(0,0,0,.08);background-image:linear-gradient(0deg,hsla(0,0%,100%,.06) 0,hsla(0,0%,100%,.06)),linear-gradient(0deg,rgba(213,34,24,.5) 0,rgba(242,86,77,.5));background-color:#f1483f}.dao-btn.red:hover{background-image:linear-gradient(0deg,rgba(213,34,24,.5) 0,rgba(242,86,77,.5))}.dao-btn.red:active{background-image:none;box-shadow:inset 0 0 8px rgba(0,0,0,.04)}.color-card.red>div{display:block;float:left;height:50px;width:50px}.color-card.red>div:first-child{background-color:#f2564d}.color-card.red>div:nth-child(2){background-color:#f1483f}.color-card.red>div:nth-child(3){background-color:#e1342b}.color-card.red>div:nth-child(4){background-color:#d52218}.dao-btn.purple{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,.1);border-color:#6142d0;box-shadow:inset 0 1px 0 hsla(0,0%,100%,.08),0 1px 1px rgba(0,0,0,.08);background-image:linear-gradient(0deg,hsla(0,0%,100%,.06) 0,hsla(0,0%,100%,.06)),linear-gradient(0deg,rgba(78,44,200,.5) 0,rgba(126,97,228,.5));background-color:#7354e2}.dao-btn.purple:hover{background-image:linear-gradient(0deg,rgba(78,44,200,.5) 0,rgba(126,97,228,.5))}.dao-btn.purple:active{background-image:none;box-shadow:inset 0 0 8px rgba(0,0,0,.04)}.color-card.purple>div{display:block;float:left;height:50px;width:50px}.color-card.purple>div:first-child{background-color:#7e61e4}.color-card.purple>div:nth-child(2){background-color:#7354e2}.color-card.purple>div:nth-child(3){background-color:#6142d0}.color-card.purple>div:nth-child(4){background-color:#4e2cc8}.dao-btn.grey{color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,.1);border-color:#bec0c3;box-shadow:inset 0 1px 0 hsla(0,0%,100%,.08),0 1px 1px rgba(0,0,0,.08);background-image:linear-gradient(0deg,hsla(0,0%,100%,.06) 0,hsla(0,0%,100%,.06)),linear-gradient(0deg,hsla(215,8%,69%,.5) 0,rgba(213,217,224,.5));background-color:#ccd1d9}.dao-btn.grey:hover{background-image:linear-gradient(0deg,hsla(215,8%,69%,.5) 0,rgba(213,217,224,.5))}.dao-btn.grey:active{background-image:none;box-shadow:inset 0 0 8px rgba(0,0,0,.04)}.color-card.grey>div{display:block;float:left;height:50px;width:50px}.color-card.grey>div:first-child{background-color:#d5d9e0}.color-card.grey>div:nth-child(2){background-color:#ccd1d9}.color-card.grey>div:nth-child(3){background-color:#bec0c3}.color-card.grey>div:nth-child(4){background-color:#abb0b7}.color-card:after,.color-card:before{content:\" \";display:table}.color-card:after{clear:both}.dao-btn.ghost{color:#3d444f;text-shadow:0 1px 0 hsla(0,0%,100%,.9);border-color:#ccd1d9;box-shadow:inset 0 1px 0 hsla(0,0%,100%,.9),0 1px 0 hsla(0,0%,100%,.9);background:none}.dao-btn.ghost:hover{background-color:rgba(204,209,217,.1);box-shadow:0 1px 0 hsla(0,0%,100%,.9)}.dao-btn.ghost.active,.dao-btn.ghost:active{background-color:rgba(204,209,217,.15);box-shadow:inset 0 1px 3px 0 rgba(0,0,0,.07),inset 0 0 4px 0 rgba(0,0,0,.08),0 1px 0 hsla(0,0%,100%,.9)}.dao-btn.disabled,.dao-btn[disabled],fieldset[disabled] .dao-btn{cursor:not-allowed;color:#ccd1d9;text-shadow:0 1px 0 hsla(0,0%,100%,.9);border-color:#ccd1d9!important;box-shadow:inset 0 1px 0 hsla(0,0%,100%,.9),0 1px 0 hsla(0,0%,100%,.9)!important;background:none!important}.dao-btn.dao-icon{padding:8px 6px;line-height:16px}.dao-btn.dao-icon svg{display:block;width:16px;height:16px}", ""]);
 	
 	// exports
 
 
 /***/ },
-/* 7 */
+/* 10 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(8);
+	var content = __webpack_require__(11);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -525,7 +581,7 @@
 	}
 
 /***/ },
-/* 8 */
+/* 11 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -533,19 +589,19 @@
 	
 	
 	// module
-	exports.push([module.id, "html.dao-layout{overflow:hidden}html.dao-layout *{box-sizing:border-box}.dao-layout,html.dao-layout body{height:100%;margin:0;overflow:hidden}.dao-layout{z-index:900}.dao-layout-wrap{display:flex;overflow:hidden;flex-direction:row;height:100%;margin:0}.dao-layout-sidebar{display:flex;flex:none}.dao-layout-content{overflow:auto;flex:auto;min-width:1024px}.dao-layout-content .content-body{position:relative}.dao-layout-content.has-topbar{display:flex;flex-direction:column}.dao-layout-content.has-topbar.has-topbar-fixed>.content-topbar{flex:none;z-index:1}.dao-layout-content.has-topbar.has-topbar-fixed>.content-body{flex:auto;overflow:auto}", ""]);
+	exports.push([module.id, "html.dao-layout{overflow:hidden}html.dao-layout *{box-sizing:border-box}.dao-layout,html.dao-layout body{height:100%;margin:0;overflow:hidden}.dao-layout{z-index:900}.dao-layout-wrap{display:flex;overflow:hidden;flex-direction:row;height:100%;margin:0}.dao-layout-sidebar{display:flex;flex:none}.dao-layout-content{overflow:auto;flex:auto;min-width:800px}.dao-layout-content .content-body{position:relative}.dao-layout-content.has-topbar{display:flex;flex-direction:column}.dao-layout-content.has-topbar.has-topbar-fixed>.content-topbar{flex:none;z-index:1}.dao-layout-content.has-topbar.has-topbar-fixed>.content-body{flex:auto;overflow:auto}", ""]);
 	
 	// exports
 
 
 /***/ },
-/* 9 */
+/* 12 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(10);
+	var content = __webpack_require__(13);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -565,7 +621,7 @@
 	}
 
 /***/ },
-/* 10 */
+/* 13 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -579,13 +635,13 @@
 
 
 /***/ },
-/* 11 */
+/* 14 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(12);
+	var content = __webpack_require__(15);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -605,7 +661,7 @@
 	}
 
 /***/ },
-/* 12 */
+/* 15 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -619,35 +675,137 @@
 
 
 /***/ },
-/* 13 */
+/* 16 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+	
+	// load the styles
+	var content = __webpack_require__(17);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(4)(content, {"singleton":true});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../../../node_modules/css-loader/index.js?minimize!./../../../node_modules/postcss-loader/index.js!./../../../node_modules/sass-loader/index.js!./dao-dropdown.scss", function() {
+				var newContent = require("!!./../../../node_modules/css-loader/index.js?minimize!./../../../node_modules/postcss-loader/index.js!./../../../node_modules/sass-loader/index.js!./dao-dropdown.scss");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 17 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(3)();
+	// imports
+	
+	
+	// module
+	exports.push([module.id, ".caret{display:inline-block;width:0;height:0;margin-left:2px;vertical-align:middle;border-top:4px dashed;border-right:4px solid transparent;border-left:4px solid transparent}.dao-dropdown,.dropup{position:relative}.dao-dropdown .dropdown-toggle:focus,.dropup .dropdown-toggle:focus{outline:0}.dao-dropdown .dropdown-menu,.dropup .dropdown-menu{position:absolute;top:calc(100% + 10px);z-index:1000;float:left;min-width:160px;padding:12px 0;margin:2px 0 0;list-style:none;font-size:14px;text-align:left;background-color:#fff;border:1px solid rgba(61,68,79,.06);border-radius:5px;box-shadow:0 5px 12px 0 rgba(61,68,79,.3);background-clip:padding-box;transition:all .3s cubic-bezier(.34,1.61,.7,1);transform-origin:50% -10px;transform:scale(0);opacity:0}.dao-dropdown .dropdown-menu:before,.dropup .dropdown-menu:before{content:\"\";position:absolute;display:block;width:31px;height:11px;top:-11px;background-image:url(" + __webpack_require__(18) + ");background-size:100% 100%}.dao-dropdown .dropdown-menu.pull-right,.dropup .dropdown-menu.pull-right{right:0;left:auto}.dao-dropdown .dropdown-menu .divider,.dropup .dropdown-menu .divider{height:1px;padding:0;margin:9px 0;overflow:hidden;background-color:#e5e5e5;cursor:default}.dao-dropdown .dropdown-menu .divider:focus,.dao-dropdown .dropdown-menu .divider:hover,.dropup .dropdown-menu .divider:focus,.dropup .dropdown-menu .divider:hover{background-color:#e5e5e5}.dao-dropdown .dropdown-menu>ul,.dropup .dropdown-menu>ul{padding:0;margin:0;max-height:275px;overflow:auto}.dao-dropdown .dropdown-menu li,.dropup .dropdown-menu li{display:block;padding:5px 15px;clear:both;font-weight:400;line-height:20px;color:#333;white-space:nowrap;cursor:pointer}.dao-dropdown .dropdown-menu li a,.dropup .dropdown-menu li a{color:#333;text-decoration:none}.dao-dropdown .dropdown-menu li a .dao-numeric-badge,.dropup .dropdown-menu li a .dao-numeric-badge{height:14px;line-height:14px;float:right;margin-top:3px}.dao-dropdown .dropdown-menu li:focus,.dao-dropdown .dropdown-menu li:hover,.dropup .dropdown-menu li:focus,.dropup .dropdown-menu li:hover{text-decoration:none;color:#fff;background-color:#3890ff}.dao-dropdown .dropdown-menu li:focus .dao-numeric-badge,.dao-dropdown .dropdown-menu li:hover .dao-numeric-badge,.dropup .dropdown-menu li:focus .dao-numeric-badge,.dropup .dropdown-menu li:hover .dao-numeric-badge{background-color:#fff;color:#3890ff}.dao-dropdown .dropdown-menu li:focus a,.dao-dropdown .dropdown-menu li:hover a,.dropup .dropdown-menu li:focus a,.dropup .dropdown-menu li:hover a{color:#fff;text-decoration:none}.dao-dropdown .dropdown-menu li.active,.dao-dropdown .dropdown-menu li.active:focus,.dao-dropdown .dropdown-menu li.active:hover,.dropup .dropdown-menu li.active,.dropup .dropdown-menu li.active:focus,.dropup .dropdown-menu li.active:hover{text-decoration:none;outline:0;color:#fff;background-color:#3890ff}.dao-dropdown .dropdown-menu li.active .dao-numeric-badge,.dao-dropdown .dropdown-menu li.active:focus .dao-numeric-badge,.dao-dropdown .dropdown-menu li.active:hover .dao-numeric-badge,.dropup .dropdown-menu li.active .dao-numeric-badge,.dropup .dropdown-menu li.active:focus .dao-numeric-badge,.dropup .dropdown-menu li.active:hover .dao-numeric-badge{background-color:#fff;color:#3890ff}.dao-dropdown .dropdown-menu li.active:focus a,.dao-dropdown .dropdown-menu li.active:hover a,.dao-dropdown .dropdown-menu li.active a,.dropup .dropdown-menu li.active:focus a,.dropup .dropdown-menu li.active:hover a,.dropup .dropdown-menu li.active a{color:#fff;text-decoration:none}.dao-dropdown .dropdown-menu>.disabled>a,.dao-dropdown .dropdown-menu>.disabled>a:focus,.dao-dropdown .dropdown-menu>.disabled>a:hover,.dropup .dropdown-menu>.disabled>a,.dropup .dropdown-menu>.disabled>a:focus,.dropup .dropdown-menu>.disabled>a:hover{color:#777}.dao-dropdown .dropdown-menu>.disabled>a:focus,.dao-dropdown .dropdown-menu>.disabled>a:hover,.dropup .dropdown-menu>.disabled>a:focus,.dropup .dropdown-menu>.disabled>a:hover{text-decoration:none;background-color:transparent;background-image:none;cursor:not-allowed}.dao-dropdown.open>.arrow,.dropup.open>.arrow{display:block}.dao-dropdown.open>.dropdown-menu,.dropup.open>.dropdown-menu{transform:scale(1);filter:none;opacity:1}.dao-dropdown.open>a,.dropup.open>a{outline:0}.dao-dropdown .dropdown-menu-right,.dropup .dropdown-menu-right{left:auto;right:0}.dao-dropdown .dropdown-menu-left,.dropup .dropdown-menu-left{left:0;right:auto}.dao-dropdown .dropdown-header,.dropup .dropdown-header{display:block;padding:3px 20px;font-size:12px;line-height:20px;color:#777;white-space:nowrap}.dao-dropdown .dropdown-backdrop,.dropup .dropdown-backdrop{position:fixed;left:0;right:0;bottom:0;top:0;z-index:990}.dao-dropdown .pull-right>.dropdown-menu,.dropup .pull-right>.dropdown-menu{right:0;left:auto}.dropup .caret,.navbar-fixed-bottom .dao-dropdown .caret{border-top:0;border-bottom:4px dashed;content:\"\"}.dropup .dropdown-menu,.navbar-fixed-bottom .dao-dropdown .dropdown-menu{top:auto;bottom:100%;margin-bottom:2px}", ""]);
+	
+	// exports
+
+
+/***/ },
+/* 18 */
+/***/ function(module, exports) {
+
+	module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAAVBAMAAAADRiu8AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAhUExURSBSUkxpcTlCUT1BST1CTj5FUO3t7/z9/cfLy+rq7P///848ExgAAAAKdFJOUwEABQkZEY7mQH1GZ/oeAAAAx0lEQVQoz22QwRGCQAxFAxXEDhzogEAFIjOekQ48WYAH71qKM26Vko2bhF1y3P/m/WTh4AZkKveEkKcZowBCNhlQ5AAbYCcH8MBeLnsIkJ7qhufoiQikgjUclqUzJAEacx6JRhUMoOrb5f18vOZGCQGsvr+EEL5jp4tUDKAW0HhfgXA72aoMWN5PnIfPSLpGhYCpgAYRrIqzEagXtHQVAStm8v8RBa0JooL0kr+ATCAK91+FoFBw7gWiIFXUXLARiKJLilLgFT+JoG4f8niLPgAAAABJRU5ErkJggg=="
+
+/***/ },
+/* 19 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	__webpack_require__(14);
-	
-	__webpack_require__(17);
-	
-	__webpack_require__(18);
-	
-	__webpack_require__(19);
-	
 	__webpack_require__(20);
+	
+	__webpack_require__(23);
+	
+	__webpack_require__(24);
+	
+	__webpack_require__(25);
+	
+	__webpack_require__(26);
+	
+	__webpack_require__(27);
+	
+	__webpack_require__(28);
+	
+	__webpack_require__(29);
+	
+	__webpack_require__(30);
+	
+	__webpack_require__(31);
+	
+	__webpack_require__(32);
+	
+	__webpack_require__(33);
+	
+	__webpack_require__(34);
+	
+	__webpack_require__(35);
+	
+	__webpack_require__(36);
+	
+	__webpack_require__(37);
+	
+	__webpack_require__(38);
+	
+	__webpack_require__(39);
+	
+	__webpack_require__(40);
+	
+	__webpack_require__(41);
+	
+	__webpack_require__(42);
+	
+	__webpack_require__(43);
+	
+	__webpack_require__(44);
+	
+	__webpack_require__(45);
+	
+	__webpack_require__(46);
+	
+	__webpack_require__(47);
+	
+	__webpack_require__(48);
+	
+	__webpack_require__(49);
+	
+	__webpack_require__(50);
+	
+	__webpack_require__(51);
+	
+	__webpack_require__(52);
+	
+	__webpack_require__(53);
+	
+	__webpack_require__(54);
 
 /***/ },
-/* 14 */
+/* 20 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
-	var sprite = __webpack_require__(15);;
+	var sprite = __webpack_require__(21);;
 	var image = "<symbol viewBox=\"0 0 47 45\" id=\"auto-messages\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <path d=\"M44.063,-0.000 C44.063,-0.000 33.781,6.839 33.781,6.839 C33.781,6.839 33.781,31.349 33.781,31.349 C33.781,31.349 44.063,38.188 44.063,38.188 C44.858,38.188 45.547,37.897 46.128,37.316 C46.710,36.734 47.000,36.046 47.000,35.250 C47.000,35.250 47.000,2.937 47.000,2.937 C47.000,2.142 46.710,1.453 46.128,0.872 C45.547,0.290 44.858,-0.000 44.063,-0.000 ZM-0.000,19.094 C-0.000,21.848 0.841,24.081 2.524,25.795 C4.207,27.509 6.318,28.610 8.858,29.100 C8.828,29.130 8.812,29.169 8.812,29.215 C8.812,29.260 8.812,29.314 8.812,29.375 C8.812,29.375 8.812,41.125 8.812,41.125 C8.812,41.921 9.103,42.609 9.684,43.191 C10.266,43.772 10.954,44.063 11.750,44.063 C11.750,44.063 16.156,44.063 16.156,44.063 C16.952,44.063 17.640,43.772 18.222,43.191 C18.803,42.609 19.094,41.921 19.094,41.125 C19.094,41.125 19.094,29.375 19.094,29.375 C19.094,29.375 23.500,29.375 23.500,29.375 C23.500,29.375 23.500,8.812 23.500,8.812 C23.500,8.812 11.750,8.812 11.750,8.812 C10.128,8.812 8.606,9.042 7.183,9.501 C5.760,9.960 4.513,10.633 3.442,11.520 C2.371,12.408 1.530,13.486 0.918,14.756 C0.306,16.026 -0.000,17.472 -0.000,19.094 ZM26.437,29.375 C26.437,29.375 30.844,29.375 30.844,29.375 C30.844,29.375 30.844,8.812 30.844,8.812 C30.844,8.812 26.437,8.812 26.437,8.812 C26.437,8.812 26.437,29.375 26.437,29.375 Z\" id=\"auto-messages_path-1\" class=\"cls-2\" fill-rule=\"evenodd\"/> </symbol>";
 	module.exports = sprite.add(image, "auto-messages");
 
 /***/ },
-/* 15 */
+/* 21 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var Sprite = __webpack_require__(16);
+	var Sprite = __webpack_require__(22);
 	var globalSprite = new Sprite();
 	
 	if (document.body) {
@@ -662,7 +820,7 @@
 
 
 /***/ },
-/* 16 */
+/* 22 */
 /***/ function(module, exports) {
 
 	/**
@@ -912,43 +1070,295 @@
 
 
 /***/ },
-/* 17 */
+/* 23 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
-	var sprite = __webpack_require__(15);;
+	var sprite = __webpack_require__(21);;
 	var image = "<symbol viewBox=\"0 0 46 46\" id=\"conversation\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <path d=\"M26.469,0.000 C31.719,0.000 36.203,1.805 39.922,5.414 C43.641,9.024 45.500,13.344 45.500,18.375 C45.500,21.802 44.479,25.083 42.438,28.219 C42.438,28.219 42.328,28.328 42.328,28.328 C42.255,28.401 42.219,28.474 42.219,28.547 C42.000,28.984 41.891,29.422 41.891,29.859 C41.891,29.859 43.750,37.953 43.750,37.953 C43.750,37.953 36.203,35.109 36.203,35.109 C35.766,34.964 35.401,34.891 35.109,34.891 C34.891,34.891 34.562,34.964 34.125,35.109 C34.125,35.109 33.906,35.219 33.906,35.219 C33.323,35.438 32.448,35.693 31.281,35.984 C29.750,36.422 28.146,36.641 26.469,36.641 C21.219,36.641 16.753,34.854 13.070,31.281 C9.388,27.708 7.547,23.406 7.547,18.375 C7.547,17.063 7.656,15.787 7.875,14.547 C8.750,10.391 10.937,6.927 14.438,4.156 C17.938,1.385 21.948,0.000 26.469,0.000 ZM2.734,37.516 C2.661,37.443 2.625,37.406 2.625,37.406 C2.625,37.406 2.625,37.188 2.625,37.188 C0.875,34.635 -0.000,31.828 -0.000,28.766 C-0.000,24.099 1.786,20.234 5.359,17.172 C5.068,18.776 4.922,20.016 4.922,20.891 C4.922,25.922 6.781,30.242 10.500,33.852 C14.219,37.461 18.703,39.266 23.953,39.266 C25.630,39.266 27.234,39.047 28.766,38.609 C25.484,42.474 21.292,44.406 16.188,44.406 C14.219,44.406 12.104,43.969 9.844,43.094 C9.844,43.094 9.734,43.094 9.734,43.094 C9.443,42.948 9.151,42.875 8.859,42.875 C8.641,42.875 8.312,42.948 7.875,43.094 C7.875,43.094 1.750,45.500 1.750,45.500 C1.750,45.500 3.063,38.609 3.063,38.609 C3.063,38.245 2.953,37.880 2.734,37.516 Z\" id=\"conversation_path-1\" class=\"cls-2\" fill-rule=\"evenodd\"/> </symbol>";
 	module.exports = sprite.add(image, "conversation");
 
 /***/ },
-/* 18 */
+/* 24 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
-	var sprite = __webpack_require__(15);;
+	var sprite = __webpack_require__(21);;
 	var image = "<symbol viewBox=\"0 0 200 200\" id=\"dont-starve\" ><title>dont-starve</title><rect width=\"200\" height=\"200\" fill=\"#93c1d1\"/><path d=\"M321.556,1612.9c0,1.628,1.32,3.446,1.632,5.327,0.11,0.664,1.132,1.376,1.272,2.055a90.267,90.267,0,0,0,5.117,16.663,69.932,69.932,0,0,0,9.648,15.663c4.843,6.149,17.1,15.173,20.98,15.173,2.309,0,14.441-10.977,20.986-32.9,0.777-2.6,1.859-10.517,2.95-17.184,0.983-6.01,1.872-11,1.872-11L384,1602.342l2.012-26.073-32.172,12.942-38.014-6.322,1.462,19.764A15.5,15.5,0,0,1,321.556,1612.9Z\" transform=\"translate(-250 -1500)\" fill=\"#fff\"/><ellipse cx=\"342.34\" cy=\"1620.189\" rx=\"7.111\" ry=\"8.141\" transform=\"translate(-684.93 -1342.022) rotate(-16.063)\" fill=\"#93c1d1\" opacity=\"0.3\"/><ellipse cx=\"367.641\" cy=\"1618.685\" rx=\"7.413\" ry=\"8.246\" transform=\"translate(-683.526 -1335.08) rotate(-16.063)\" fill=\"#93c1d1\" opacity=\"0.3\"/><path d=\"M330.9,1611.223l17.3,1.992a0.7,0.7,0,0,0,.825-0.641l-0.105-2.74a0.681,0.681,0,0,0-.773-0.589l-17.216,1.239A0.369,0.369,0,1,0,330.9,1611.223Z\" transform=\"translate(-250 -1500)\" fill=\"#212223\"/><path d=\"M362.072,1608.185l-0.83,3.567a0.624,0.624,0,0,0,.7.72l16.921-1.125a0.356,0.356,0,0,0,.049-0.711l-16.058-2.916A0.667,0.667,0,0,0,362.072,1608.185Z\" transform=\"translate(-250 -1500)\" fill=\"#212223\"/><ellipse cx=\"94.844\" cy=\"120.984\" rx=\"2.482\" ry=\"3.552\" fill=\"#212223\"/><ellipse cx=\"365.41\" cy=\"1618.565\" rx=\"3.177\" ry=\"1.816\" transform=\"translate(-1541.707 203.659) rotate(-80.218)\" fill=\"#212223\"/><path d=\"M345.126,1627.1l3.754-2.457a0.259,0.259,0,0,1,.3.425l-3.592,2.688a0.4,0.4,0,0,1-.479-0.641Z\" transform=\"translate(-250 -1500)\" fill=\"#212223\"/><path d=\"M362.157,1623.7l2.657,1.77a0.4,0.4,0,0,1-.444.666l-0.025-.018-2.512-1.97A0.277,0.277,0,0,1,362.157,1623.7Z\" transform=\"translate(-250 -1500)\" fill=\"#212223\"/><path d=\"M359.425,1638.265l-0.711-15.923a0.25,0.25,0,0,0-.5.009l-0.128,14.6-2.494-1.836a0.394,0.394,0,0,0-.506.6l3.229,3.076a0.657,0.657,0,0,0,1.11-.505v-0.024Z\" transform=\"translate(-250 -1500)\" fill=\"#212223\"/><path d=\"M352.282,1644.834l10.462-3.514a0.252,0.252,0,0,1,.175.471l-10.22,4.167a0.6,0.6,0,0,1-.453-1.112Z\" transform=\"translate(-250 -1500)\" fill=\"#212223\"/><path d=\"M398.98,1597l-7.929-2.587s16.392-18.776,16.392-22.074-24.949-39.771-29.856-40.11c-7.41-.511-10.007,20.538-3.213,20.538,4.2,0,6.116-4.731,6.116-4.731s-3.431,2.963-5.322,1.248c-1.461-1.325-.566-10.709,3.614-10.709,2.607,0,4.88,9.463,3.918,14.772-0.967,5.333-8.766,14.454-14.647,14.454-5.681,0-2.951-8.328,0-10.15,0,0-21.114-18.485-30.014-18.485-11.028,0-10.805,24.624-10.805,24.624s3.463-11.3,6.42-11.3c3.471,0,12.495,20.919-6.406,19.558-5.9-.425-13.552-10.162-13.552-17.091a21.655,21.655,0,0,1,9.031-18.118c-8.076,0-33.969,35.638-33.969,39.894s19.836,26.441,19.836,26.441l-5.631,6.056a1.179,1.179,0,0,0,.151,1.742l9.941,7.531a4.414,4.414,0,0,0,2.228.874l8.69,0.864s-2.149-11,1.2-19.876a0.961,0.961,0,0,0,.043-0.921c-1.8-2.662-6.632-10.257-5.461-11.987,1.192-1.762,18.8-.867,33,4.932A2.281,2.281,0,0,0,355,1592.1c11.63-8.691,25.03-9.794,26.8-9.145,1.473,0.539.713,10.836-1.192,16.645a1.038,1.038,0,0,0,.114.858c2.345,4,2.934,17.2,2.934,17.2l15.618-19.225A0.947,0.947,0,0,0,398.98,1597Z\" transform=\"translate(-250 -1500)\" fill=\"#212223\"/><path d=\"M327.042,1629.037s-2.283,5.25-4.708,5.716c-2.729.524-8.405-13.232-6.529-17.187,1.038-2.187,8.64,1.983,8.64,1.983Z\" transform=\"translate(-250 -1500)\" fill=\"#fff\"/><path d=\"M381.262,1625.319s3.238,3.983,4.966,3.561c1.611-.393,4.082-7.48,4.565-10.095s0.794-7.1-.675-7.651-7.347,7.49-7.347,7.49Z\" transform=\"translate(-250 -1500)\" fill=\"#fff\"/></symbol>";
 	module.exports = sprite.add(image, "dont-starve");
 
 /***/ },
-/* 19 */
+/* 25 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
-	var sprite = __webpack_require__(15);;
+	var sprite = __webpack_require__(21);;
 	var image = "<symbol viewBox=\"0 0 46 46\" id=\"manual-messages\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <path d=\"M12.250,19.250 C11.229,19.250 10.391,19.578 9.734,20.234 C9.078,20.891 8.750,21.729 8.750,22.750 C8.750,23.771 9.078,24.609 9.734,25.266 C10.391,25.922 11.229,26.250 12.250,26.250 C13.271,26.250 14.109,25.922 14.766,25.266 C15.422,24.609 15.750,23.771 15.750,22.750 C15.750,21.729 15.422,20.891 14.766,20.234 C14.109,19.578 13.271,19.250 12.250,19.250 ZM22.750,19.250 C21.729,19.250 20.891,19.578 20.234,20.234 C19.578,20.891 19.250,21.729 19.250,22.750 C19.250,23.771 19.578,24.609 20.234,25.266 C20.891,25.922 21.729,26.250 22.750,26.250 C23.771,26.250 24.609,25.922 25.266,25.266 C25.922,24.609 26.250,23.771 26.250,22.750 C26.250,21.729 25.922,20.891 25.266,20.234 C24.609,19.578 23.771,19.250 22.750,19.250 ZM33.250,19.250 C32.229,19.250 31.391,19.578 30.734,20.234 C30.078,20.891 29.750,21.729 29.750,22.750 C29.750,23.771 30.078,24.609 30.734,25.266 C31.391,25.922 32.229,26.250 33.250,26.250 C34.271,26.250 35.109,25.922 35.766,25.266 C36.422,24.609 36.750,23.771 36.750,22.750 C36.750,21.729 36.422,20.891 35.766,20.234 C35.109,19.578 34.271,19.250 33.250,19.250 ZM22.750,43.859 C16.479,43.859 11.120,41.727 6.672,37.461 C2.224,33.195 -0.000,28.036 -0.000,21.984 C-0.000,15.932 2.224,10.755 6.672,6.453 C11.120,2.151 16.479,0.000 22.750,0.000 C29.021,0.000 34.380,2.151 38.828,6.453 C43.276,10.755 45.500,15.932 45.500,21.984 C45.500,26.287 44.297,30.224 41.891,33.797 C41.818,33.870 41.745,33.943 41.672,34.016 C41.599,34.089 41.562,34.162 41.562,34.234 C41.271,34.818 41.125,35.365 41.125,35.875 C41.125,35.875 43.531,45.500 43.531,45.500 C43.531,45.500 34.344,42.109 34.344,42.109 C34.052,41.964 33.615,41.891 33.031,41.891 C32.812,41.891 32.411,41.964 31.828,42.109 C31.755,42.109 31.719,42.128 31.719,42.164 C31.719,42.201 31.682,42.219 31.609,42.219 C28.911,43.312 25.958,43.859 22.750,43.859 Z\" id=\"manual-messages_path-1\" class=\"cls-2\" fill-rule=\"evenodd\"/> </symbol>";
 	module.exports = sprite.add(image, "manual-messages");
 
 /***/ },
-/* 20 */
+/* 26 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
-	var sprite = __webpack_require__(15);;
+	var sprite = __webpack_require__(21);;
 	var image = "<symbol viewBox=\"0 0 58 53\" id=\"users\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <path d=\"M-0.012,52.500 C-0.012,52.172 0.006,51.739 0.042,51.201 C0.079,50.663 0.279,49.798 0.644,48.604 C1.009,47.410 1.519,46.484 2.175,45.828 C2.813,45.190 4.080,44.488 5.976,43.723 C7.872,42.957 10.014,42.150 12.403,41.303 C14.791,40.455 16.541,39.749 17.653,39.184 C19.057,38.473 20.146,37.434 20.921,36.066 C21.696,34.699 22.083,33.277 22.083,31.801 C22.083,30.798 21.482,29.613 20.279,28.246 C19.057,26.842 18.068,24.933 17.311,22.518 C16.555,20.102 16.177,17.318 16.177,14.164 C16.177,11.794 16.514,9.684 17.188,7.834 C17.863,5.984 18.783,4.503 19.950,3.391 C21.117,2.279 22.443,1.436 23.929,0.861 C25.415,0.287 27.006,0.000 28.701,0.000 C30.397,0.000 31.978,0.287 33.446,0.861 C34.913,1.436 36.235,2.279 37.411,3.391 C38.587,4.503 39.512,5.984 40.187,7.834 C40.861,9.684 41.198,11.794 41.198,14.164 C41.198,17.318 40.825,20.102 40.077,22.518 C39.330,24.933 38.345,26.842 37.124,28.246 C35.902,29.632 35.292,30.816 35.292,31.801 C35.292,33.259 35.684,34.677 36.467,36.053 C37.251,37.429 38.345,38.473 39.749,39.184 C40.861,39.749 42.611,40.455 44.999,41.303 C47.388,42.150 49.521,42.957 51.399,43.723 C53.276,44.488 54.534,45.190 55.172,45.828 C55.829,46.484 56.339,47.369 56.704,48.480 C57.068,49.592 57.269,50.540 57.305,51.324 C57.305,51.324 57.387,52.500 57.387,52.500 C57.387,52.500 -0.012,52.500 -0.012,52.500 Z\" id=\"users_path-1\" class=\"cls-2\" fill-rule=\"evenodd\"/> </symbol>";
 	module.exports = sprite.add(image, "users");
 
 /***/ },
-/* 21 */
+/* 27 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(21);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-archive\" > <title>archive</title> <g> <path d=\"M2.1,2H29.9A2.1,2.1,0,0,1,32,4.1V8a0,0,0,0,1,0,0H0A0,0,0,0,1,0,8V4.1A2.1,2.1,0,0,1,2.1,2Z\"/> <path d=\"M2,10V27.9A2.1,2.1,0,0,0,4.1,30H27.9A2.1,2.1,0,0,0,30,27.9V10H2Zm20,7a1,1,0,0,1-1,1H11a1,1,0,0,1-1-1V15a1,1,0,0,1,1-1H21a1,1,0,0,1,1,1v2Z\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon-archive");
+
+/***/ },
+/* 28 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(21);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-browser\" > <title>browser</title> <path d=\"M29.9,4H2.1A2.1,2.1,0,0,0,0,6.1V25.9A2.1,2.1,0,0,0,2.1,28H29.9A2.1,2.1,0,0,0,32,25.9V6.1A2.1,2.1,0,0,0,29.9,4ZM7,6A1,1,0,1,1,6,7,1,1,0,0,1,7,6ZM3,6A1,1,0,1,1,2,7,1,1,0,0,1,3,6ZM30,26H2V10H30V26ZM30,8H10V6H30V8Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon-browser");
+
+/***/ },
+/* 29 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(21);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-building\" > <title>building</title> <path d=\"M23.9,2H6.1A2.1,2.1,0,0,0,4,4.1V27.9A2.1,2.1,0,0,0,6.1,30H23.9A2.1,2.1,0,0,0,26,27.9V4.1A2.1,2.1,0,0,0,23.9,2ZM12,6h2V8H12V6Zm0,4h2v2H12V10Zm0,4h2v2H12V14Zm0,4h2v2H12V18Zm-2,6H8V22h2v2Zm0-4H8V18h2v2Zm0-4H8V14h2v2Zm0-4H8V10h2v2Zm0-4H8V6h2V8Zm8,20H12V24h6v4Zm0-8H16V18h2v2Zm0-4H16V14h2v2Zm0-4H16V10h2v2Zm0-4H16V6h2V8Zm4,16H20V22h2v2Zm0-4H20V18h2v2Zm0-4H20V14h2v2Zm0-4H20V10h2v2Zm0-4H20V6h2V8Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon-building");
+
+/***/ },
+/* 30 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(21);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-calendar\" > <title>calendar</title> <g> <path d=\"M27.9,4H24V2H20V4H12V2H8V4H4.1A2.1,2.1,0,0,0,2,6.1V27.9A2.1,2.1,0,0,0,4.1,30H27.9A2.1,2.1,0,0,0,30,27.9V6.1A2.1,2.1,0,0,0,27.9,4ZM28,28H4V11H28V28Z\"/> <rect x=\"19\" y=\"19\" width=\"5\" height=\"5\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon-calendar");
+
+/***/ },
+/* 31 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(21);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-city\" > <title>city</title> <path d=\"M27.9,14H22.1A2.1,2.1,0,0,0,20,16.1V2.1A2.1,2.1,0,0,0,17.9,0H14.1A2.1,2.1,0,0,0,12,2.1v6A2.1,2.1,0,0,0,9.9,6H4.1A2.1,2.1,0,0,0,2,8.1V30H30V16.1A2.1,2.1,0,0,0,27.9,14ZM6,28H4V24H6v4Zm0-6H4V20H6v2Zm0-4H4V16H6v2Zm0-4H4V12H6v2Zm0-4H4V8H6v2Zm4,18H8V24h2v4Zm0-6H8V20h2v2Zm0-4H8V16h2v2Zm0-4H8V12h2v2Zm0-4H8V8h2v2Zm8,18H14V24h4v4Zm0-6H14V20h4v2Zm0-4H14V16h4v2Zm0-4H14V12h4v2Zm0-4H14V8h4v2Zm0-4H14V4h4V6Zm6,22H22V24h2v4Zm0-6H22V20h2v2Zm0-4H22V16h2v2Zm4,10H26V24h2v4Zm0-6H26V20h2v2Zm0-4H26V16h2v2Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon-city");
+
+/***/ },
+/* 32 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(21);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-close-circled\" > <title>close-circled</title> <path d=\"M16,1.2A14.8,14.8,0,1,0,30.8,16,14.8,14.8,0,0,0,16,1.2Zm6.859,19.538-2.121,2.121L16,18.121l-4.738,4.738L9.141,20.738,13.879,16,9.141,11.262l2.121-2.121L16,13.879l4.738-4.738,2.121,2.121L18.121,16Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon-close-circled");
+
+/***/ },
+/* 33 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(21);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-desktop\" > <title>desktop</title> <path d=\"M29.9,2H2.1A2.1,2.1,0,0,0,0,4.1V21.9A2.1,2.1,0,0,0,2.1,24H13l-0.8,4H10v2H22V28H19.8L19,24H29.9A2.1,2.1,0,0,0,32,21.9V4.1A2.1,2.1,0,0,0,29.9,2ZM30,20H2V4H30V20Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon-desktop");
+
+/***/ },
+/* 34 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(21);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-eye\" > <title>eye</title> <g> <path d=\"M16,5.6C7.163,5.6,0,16,0,16S7.163,26.4,16,26.4,32,16,32,16,24.836,5.6,16,5.6Zm0,17.6A7.2,7.2,0,1,1,23.2,16,7.2,7.2,0,0,1,16,23.2Z\"/> <path d=\"M16,16h4.3a4.3,4.3,0,1,1-1.585-3.334Z\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon-eye");
+
+/***/ },
+/* 35 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(21);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-filter\" > <title>filter</title> <path d=\"M27.26,4H4.74A1.737,1.737,0,0,0,3.5,6.957L14,17.592V26.4a2.1,2.1,0,0,0,.615,1.485l1.849,1.849A0.9,0.9,0,0,0,18,29.1V17.592L28.5,6.957A1.737,1.737,0,0,0,27.26,4Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon-filter");
+
+/***/ },
+/* 36 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(21);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-folder-move\" > <title>folder-move</title> <path d=\"M29.9,6H12L10,4H2.1A2.1,2.1,0,0,0,0,6.1V25.9A2.1,2.1,0,0,0,2.1,28H29.9A2.1,2.1,0,0,0,32,25.9V8.1A2.1,2.1,0,0,0,29.9,6ZM16,25L9,18h5V10h4v8h5Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon-folder-move");
+
+/***/ },
+/* 37 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(21);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-folder\" > <title>folder</title> <path d=\"M29.9,6H12L10,4H2.1A2.1,2.1,0,0,0,0,6.1V25.9A2.1,2.1,0,0,0,2.1,28H29.9A2.1,2.1,0,0,0,32,25.9V8.1A2.1,2.1,0,0,0,29.9,6Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon-folder");
+
+/***/ },
+/* 38 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(21);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-foot\" > <title>foot</title> <g> <circle cx=\"19.9\" cy=\"4.32\" r=\"2.92\"/> <circle cx=\"13.612\" cy=\"5.341\" r=\"1.84\"/> <circle cx=\"9.741\" cy=\"8.16\" r=\"1.5\"/> <circle cx=\"7.3\" cy=\"11.4\" r=\"1.45\"/> <path d=\"M22.076,24.07a3.915,3.915,0,0,1-3.084,6.43,3.6,3.6,0,0,1-2.3-.722,4.433,4.433,0,0,1-1.443-1.968l-4.921-8.661a7.238,7.238,0,0,1-.722-1.64,8.144,8.144,0,0,1-.328-2.165,6.627,6.627,0,0,1,2.034-4.855,6.627,6.627,0,0,1,4.855-2.034,7.01,7.01,0,0,1,3.477.919,6.685,6.685,0,0,1,2.493,2.559,6.89,6.89,0,0,1,.919,3.412,6.717,6.717,0,0,1-1.115,3.871A4.832,4.832,0,0,0,22.076,24.07Z\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon-foot");
+
+/***/ },
+/* 39 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(21);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-globe-alt\" > <title>globe-alt</title> <path d=\"M16,1.2A14.8,14.8,0,1,0,30.8,16,14.8,14.8,0,0,0,16,1.2ZM3.314,16a12.634,12.634,0,0,1,.369-3H9.965a21.026,21.026,0,0,0,0,6H3.684A12.634,12.634,0,0,1,3.314,16Zm8.55,0a19.918,19.918,0,0,1,.238-3h7.8a19.952,19.952,0,0,1,.237,3,19.826,19.826,0,0,1-.239,3H12.1A19.927,19.927,0,0,1,11.864,16Zm10.171-3h6.282a12.362,12.362,0,0,1,0,6H22.035a22.1,22.1,0,0,0,.215-3A22.085,22.085,0,0,0,22.035,13Zm5.611-2H21.677a22.213,22.213,0,0,0-3.271-7.45A12.724,12.724,0,0,1,27.646,11ZM16,3.837A20.1,20.1,0,0,1,19.5,11h-7A20.118,20.118,0,0,1,16,3.837Zm-2.416-.286A22.23,22.23,0,0,0,10.322,11H4.354A12.724,12.724,0,0,1,13.586,3.551ZM4.354,21h5.969a22.243,22.243,0,0,0,3.271,7.451A12.724,12.724,0,0,1,4.354,21Zm11.639,7.153A20.111,20.111,0,0,1,12.5,21H19.5A20.156,20.156,0,0,1,15.993,28.153Zm2.412,0.3A22.194,22.194,0,0,0,21.677,21h5.969A12.724,12.724,0,0,1,18.405,28.451Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon-globe-alt");
+
+/***/ },
+/* 40 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(21);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-globe\" > <title>globe</title> <path d=\"M24.965,24.965a12.49,12.49,0,0,0,3.344-5.835l-1.352-.142a5.911,5.911,0,0,1-1.637-3.2q-0.071-.64-0.071-1.992a11.257,11.257,0,0,0-.142-2.063,5.553,5.553,0,0,0-.961-1.779,9.973,9.973,0,0,1-.961-1.494q-0.213-.5-0.676-1.494T21.763,5.469a0.816,0.816,0,0,1,.249.071,0.764,0.764,0,0,1,.249.142,6,6,0,0,1,1-.142A11.844,11.844,0,0,0,17.85,3.477V4.046l0.285,0.64-1,.925L16.5,5.4l-0.712-.712-0.712-.854-1-.356a13.264,13.264,0,0,0-3.2.925V4.9a2.754,2.754,0,0,1,.783-0.285,4.411,4.411,0,0,0,.854-0.285,2.681,2.681,0,0,1,1.138.64q-0.071.071-.783,0.676a3.022,3.022,0,0,0-.783.818,0.833,0.833,0,0,0,.249.32,0.685,0.685,0,0,1,.249.391q0,0.213-.036.6t-0.036.6a18.445,18.445,0,0,1,1.565-1.494,1.974,1.974,0,0,1,1.565.6,3.03,3.03,0,0,1,1.067,1.245,0.716,0.716,0,0,1-.285.6,11.281,11.281,0,0,1-1.138,1.032q-0.783.64-.925,0.783a4.577,4.577,0,0,1-.64.462,2.748,2.748,0,0,0-.712.6,0.619,0.619,0,0,0-.071.64q0.712,1.423.356,1.708a0.282,0.282,0,0,1-.356.036,0.886,0.886,0,0,1-.32-0.249q-0.107-.142-0.285-0.356t-0.249-.285q-0.427-.5-2.7-0.5,0,2.277,1.067,3.06,2.917,2.135,3.344,2.348a3.262,3.262,0,0,0,1.708,0,2.383,2.383,0,0,1,1.637.071,22.96,22.96,0,0,0,3.344,2.063,4.051,4.051,0,0,1,1.423.961q0.783,0.747.427,1.245a15.577,15.577,0,0,0-1,1.637,4.227,4.227,0,0,1-1.423,1.779,4.955,4.955,0,0,0-1.494,2.063A12.607,12.607,0,0,0,24.965,24.965ZM14.435,28.594l0.391-.783,0.391-.783a1.334,1.334,0,0,0,.142-0.6,0.791,0.791,0,0,0-.356-0.6q-1.138-1-1.637-1.494a3.246,3.246,0,0,1-.427-0.818,1.521,1.521,0,0,1-.213-0.818,5.975,5.975,0,0,0,.569-1.708,1.466,1.466,0,0,0-.925-1.565,6.478,6.478,0,0,1-1-.712q-0.5-.427-1.1-0.925T9.312,17a4.214,4.214,0,0,1-1.423-1.352q-0.64-1.85-.712-1.992A4.484,4.484,0,0,1,6.394,11.7a6.735,6.735,0,0,1,.071-2.17q0-.5-0.142-1.779A12.1,12.1,0,0,0,3.335,16a12.21,12.21,0,0,0,3.7,8.965A12.48,12.48,0,0,0,14.435,28.594ZM16,1.2A14.256,14.256,0,0,1,26.46,5.54,14.256,14.256,0,0,1,30.8,16a14.256,14.256,0,0,1-4.34,10.46A14.256,14.256,0,0,1,16,30.8,14.256,14.256,0,0,1,5.54,26.46,14.256,14.256,0,0,1,1.2,16,14.256,14.256,0,0,1,5.54,5.54,14.256,14.256,0,0,1,16,1.2Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon-globe");
+
+/***/ },
+/* 41 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(21);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-hashtag\" > <title>hashtag</title> <g> <path d=\"M27.9,2H4.1A2.1,2.1,0,0,0,2,4.1V27.9A2.1,2.1,0,0,0,4.1,30H27.9A2.1,2.1,0,0,0,30,27.9V4.1A2.1,2.1,0,0,0,27.9,2ZM25,14H20.984L19.9,18H24v2H19.357l-1.335,4.921H15.731L17.065,20h-4.3l-1.335,4.921H9.139L10.473,20H7V18h4.016L12.1,14H8V12h4.643l1.335-4.922h2.292L14.935,12h4.3l1.335-4.922h2.292L21.527,12H25v2Z\"/> <polygon points=\"13.308 18 17.608 18 18.692 14 14.392 14 13.308 18\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon-hashtag");
+
+/***/ },
+/* 42 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(21);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-id\" > <title>id</title> <path d=\"M29.9,4H2.1A2.1,2.1,0,0,0,0,6.1V25.9A2.1,2.1,0,0,0,2.1,28H29.9A2.1,2.1,0,0,0,32,25.9V6.1A2.1,2.1,0,0,0,29.9,4ZM4.012,19.751a2.342,2.342,0,0,1,.127-0.6,1.393,1.393,0,0,1,.324-0.562,2.5,2.5,0,0,1,.788-0.446q0.591-.243,1.338-0.513a10.458,10.458,0,0,0,1.1-.449,1.606,1.606,0,0,0,.683-0.663,1.841,1.841,0,0,0,.243-0.906,1.241,1.241,0,0,0-.382-0.753,2.336,2.336,0,0,1-.382-0.718,0.866,0.866,0,0,1-.533-0.9,1.211,1.211,0,0,1,.168-0.724q-0.046-.319-0.1-0.979a2.027,2.027,0,0,1,.171-0.982A2.723,2.723,0,0,1,8.129,9.7a2.958,2.958,0,0,1,.86-0.594,2.346,2.346,0,0,1,2.021,0,2.958,2.958,0,0,1,.86.594,2.723,2.723,0,0,1,.576.854,2.027,2.027,0,0,1,.171.982q-0.058.66-.1,0.979a1.211,1.211,0,0,1,.168.724,0.866,0.866,0,0,1-.533.9,2.336,2.336,0,0,1-.382.718,1.241,1.241,0,0,0-.382.753,1.841,1.841,0,0,0,.243.906,1.606,1.606,0,0,0,.683.663,10.458,10.458,0,0,0,1.1.449q0.747,0.269,1.338.513a2.5,2.5,0,0,1,.788.446,1.393,1.393,0,0,1,.324.562,2.342,2.342,0,0,1,.127.6L16,20H4ZM28,24H4V22H28v2Zm0-4H18V18H28v2Zm0-4H18V14H28v2Zm0-4H18V10H28v2Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon-id");
+
+/***/ },
+/* 43 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(21);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-inbox\" > <title>inbox</title> <path d=\"M27.879,3.515A2,2,0,0,0,25.938,2H6.062a2,2,0,0,0-1.94,1.515L0,20V30H32V20ZM28.658,20H21a1,1,0,0,0-1,1v2a1,1,0,0,1-1,1H13a1,1,0,0,1-1-1V21a1,1,0,0,0-1-1H3.342a1,1,0,0,1-.97-1.243L5.91,4.606A0.8,0.8,0,0,1,6.686,4H25.314a0.8,0.8,0,0,1,.776.606l3.538,14.151A1,1,0,0,1,28.658,20Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon-inbox");
+
+/***/ },
+/* 44 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(21);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-location\" > <title>location</title> <path d=\"M16,1.849A10.438,10.438,0,0,0,5.562,12.287C5.562,22,16,30,16,30s10.438-8,10.438-17.713A10.438,10.438,0,0,0,16,1.849Zm0,15.645a5.207,5.207,0,1,1,5.207-5.207A5.207,5.207,0,0,1,16,17.494Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon-location");
+
+/***/ },
+/* 45 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(21);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-mail\" > <title>mail</title> <g> <polygon points=\"0 9.5 0 25 9.538 15.462 0 9.5\"/> <path d=\"M20.615,16.615L16,19.5l-4.615-2.885L0.615,27.385A2.093,2.093,0,0,0,2.1,28H29.9a2.093,2.093,0,0,0,1.485-.615Z\"/> <polygon points=\"32 25 32 9.5 22.462 15.462 32 25\"/> <path d=\"M29.9,4H2.1A2.1,2.1,0,0,0,0,6.1V7L16,17,32,7V6.1A2.1,2.1,0,0,0,29.9,4Z\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon-mail");
+
+/***/ },
+/* 46 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(21);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-mobile\" > <title>mobile</title> <path d=\"M21.9,2H10.1A2.1,2.1,0,0,0,8,4.1V27.9A2.1,2.1,0,0,0,10.1,30H21.9A2.1,2.1,0,0,0,24,27.9V4.1A2.1,2.1,0,0,0,21.9,2ZM16,29.3A1.3,1.3,0,1,1,17.3,28,1.3,1.3,0,0,1,16,29.3ZM22,26H10V6H22V26Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon-mobile");
+
+/***/ },
+/* 47 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(21);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-pencil-edit\" > <title>pencil-edit</title> <g> <path d=\"M20,2H4.1A2.1,2.1,0,0,0,2,4.1V27.9A2.1,2.1,0,0,0,4.1,30H27.9A2.1,2.1,0,0,0,30,27.9V12l-2,2V28H4V4H18Z\"/> <path d=\"M30,4.979a0.984,0.984,0,0,0-.054-0.328,4.287,4.287,0,0,0-2.6-2.6A0.984,0.984,0,0,0,27.021,2H25.757L24.343,3.414l4.243,4.243L30,6.243V4.979Z\"/> <polygon points=\"22.984 4.774 11.615 16.142 9.494 22.506 15.858 20.385 27.226 9.016 22.984 4.774\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon-pencil-edit");
+
+/***/ },
+/* 48 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(21);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-plus\" > <title>plus</title> <polygon points=\"28 14 18 14 18 4 14 4 14 14 4 14 4 18 14 18 14 28 18 28 18 18 28 18 28 14\"/> </symbol>";
+	module.exports = sprite.add(image, "icon-plus");
+
+/***/ },
+/* 49 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(21);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-science\" > <title>science</title> <path d=\"M26.45,16c2.868-2.838,4.461-5.774,3.233-7.9s-4.567-2.215-8.458-1.15C20.2,3.048,18.455.2,16,.2s-4.2,2.848-5.225,6.75C6.884,5.885,3.544,5.974,2.317,8.1S2.682,13.162,5.55,16c-2.868,2.838-4.461,5.774-3.233,7.9s4.567,2.215,8.458,1.15c1.024,3.9,2.77,6.75,5.225,6.75s4.2-2.848,5.225-6.75c3.891,1.065,7.231.976,8.458-1.15S29.318,18.838,26.45,16Zm1.5-6.9c0.67,1.16-.23,3.406-2.558,5.909a35.489,35.489,0,0,0-3.252-2.555,35.48,35.48,0,0,0-.587-4.094C24.887,7.6,27.281,7.94,27.951,9.1ZM18.5,20.33c-0.852.492-1.686,0.927-2.5,1.315-0.814-.389-1.648-0.823-2.5-1.315s-1.646-1-2.389-1.508C11.041,17.924,11,16.984,11,16s0.041-1.924.111-2.823c0.743-.51,1.537-1.015,2.389-1.508s1.686-.927,2.5-1.315c0.814,0.389,1.648.823,2.5,1.315s1.646,1,2.389,1.508C20.959,14.076,21,15.016,21,16s-0.041,1.924-.111,2.823C20.146,19.333,19.352,19.838,18.5,20.33ZM20.715,20.5a27.173,27.173,0,0,1-.51,2.784,27.149,27.149,0,0,1-2.666-.95c0.543-.282,1.083-0.572,1.611-0.877S20.2,20.829,20.715,20.5Zm-6.254,1.834a27.149,27.149,0,0,1-2.666.95,27.173,27.173,0,0,1-.51-2.784c0.516,0.329,1.037.652,1.565,0.957S13.918,22.051,14.461,22.333Zm-4.715-4.5A27.178,27.178,0,0,1,7.59,16a27.178,27.178,0,0,1,2.156-1.834C9.719,14.778,9.7,15.39,9.7,16S9.719,17.222,9.746,17.834ZM11.285,11.5a27.175,27.175,0,0,1,.51-2.784,27.163,27.163,0,0,1,2.666.95c-0.543.282-1.083,0.572-1.611,0.877S11.8,11.171,11.285,11.5Zm6.254-1.834a27.163,27.163,0,0,1,2.666-.95,27.175,27.175,0,0,1,.51,2.784c-0.516-.329-1.037-0.652-1.565-0.957S18.082,9.949,17.539,9.667Zm4.715,4.5A27.178,27.178,0,0,1,24.41,16a27.178,27.178,0,0,1-2.156,1.834C22.281,17.222,22.3,16.61,22.3,16S22.281,14.778,22.254,14.166ZM16,2.2c1.339,0,2.834,1.9,3.839,5.17A35.5,35.5,0,0,0,16,8.909,35.5,35.5,0,0,0,12.161,7.37C13.166,4.1,14.661,2.2,16,2.2ZM4.049,9.1c0.67-1.16,3.064-1.5,6.4-.739a35.48,35.48,0,0,0-.587,4.094,35.489,35.489,0,0,0-3.252,2.555C4.279,12.505,3.379,10.26,4.049,9.1Zm0,13.8c-0.67-1.16.23-3.405,2.558-5.909a35.489,35.489,0,0,0,3.252,2.555,35.479,35.479,0,0,0,.587,4.094C7.113,24.4,4.719,24.06,4.049,22.9ZM16,29.8c-1.339,0-2.834-1.9-3.839-5.17A35.5,35.5,0,0,0,16,23.091a35.5,35.5,0,0,0,3.839,1.539C18.834,27.9,17.339,29.8,16,29.8Zm11.951-6.9c-0.67,1.16-3.064,1.5-6.4.74a35.479,35.479,0,0,0,.587-4.094,35.489,35.489,0,0,0,3.252-2.555C27.721,19.495,28.621,21.74,27.951,22.9Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon-science");
+
+/***/ },
+/* 50 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(21);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-search\" > <title>search</title> <path d=\"M31.164,28.336l-8.39-8.39a12.024,12.024,0,1,0-2.828,2.828l8.39,8.39ZM3.5,13A9.5,9.5,0,1,1,13,22.5,9.511,9.511,0,0,1,3.5,13Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon-search");
+
+/***/ },
+/* 51 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(21);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-setting\" > <title>setting</title> <path d=\"M26.519,16a10.54,10.54,0,0,0-.125-1.54l3.344-2.69L26.515,6.225,22.535,7.767a10.494,10.494,0,0,0-2.673-1.544L19.207,2H12.793L12.138,6.223A10.494,10.494,0,0,0,9.465,7.767L5.485,6.225,2.263,11.77l3.344,2.69A10.54,10.54,0,0,0,5.481,16a10.541,10.541,0,0,0,.125,1.54L2.263,20.23l3.222,5.545,3.979-1.542a10.5,10.5,0,0,0,2.673,1.544L12.793,30h6.414l0.655-4.223a10.5,10.5,0,0,0,2.673-1.544l3.979,1.542,3.222-5.545-3.344-2.69A10.541,10.541,0,0,0,26.519,16ZM15.967,21.207A5.207,5.207,0,1,1,21.174,16,5.207,5.207,0,0,1,15.967,21.207Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon-setting");
+
+/***/ },
+/* 52 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(21);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-tag\" > <title>tag</title> <path d=\"M29.222,15.222L16.615,2.615A2.1,2.1,0,0,0,15.13,2H8.87a2.1,2.1,0,0,0-1.485.615l-4.77,4.77A2.1,2.1,0,0,0,2,8.87v6.26a2.1,2.1,0,0,0,.615,1.485L15.222,29.222a2.1,2.1,0,0,0,2.97,0l11.03-11.03A2.1,2.1,0,0,0,29.222,15.222ZM9,11.8A2.8,2.8,0,1,1,11.8,9,2.8,2.8,0,0,1,9,11.8Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon-tag");
+
+/***/ },
+/* 53 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(21);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-twitter\" > <title>twitter</title> <path d=\"M31.125,3.5a13.352,13.352,0,0,1-4.188,1.563A6.568,6.568,0,0,0,17.5,4.938a6.313,6.313,0,0,0-1.938,4.625,6.164,6.164,0,0,0,.188,1.5,18.166,18.166,0,0,1-7.531-2A18.1,18.1,0,0,1,2.25,4.188,6.126,6.126,0,0,0,1.312,7.5,6.156,6.156,0,0,0,4.25,12.938a5.679,5.679,0,0,1-2.938-.812V12.25a6.373,6.373,0,0,0,1.469,4.125,6.492,6.492,0,0,0,3.781,2.313,8.331,8.331,0,0,1-1.75.188,6.36,6.36,0,0,1-1.25-.125,6.891,6.891,0,0,0,2.344,3.281,6.014,6.014,0,0,0,3.781,1.281,12.756,12.756,0,0,1-8.125,2.813q-0.75,0-1.562-.062A18.409,18.409,0,0,0,10.062,29a18.723,18.723,0,0,0,8-1.687,16.843,16.843,0,0,0,5.906-4.406,20.788,20.788,0,0,0,3.531-6,18.4,18.4,0,0,0,1.25-6.594V9.5A13.416,13.416,0,0,0,32,6.063a13.275,13.275,0,0,1-3.75,1.063A6.513,6.513,0,0,0,31.125,3.5Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon-twitter");
+
+/***/ },
+/* 54 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(21);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-user\" > <title>user</title> <path d=\"M30.971,29.277a5.857,5.857,0,0,0-.319-1.506,3.481,3.481,0,0,0-.811-1.4,6.245,6.245,0,0,0-1.969-1.115q-1.477-.608-3.345-1.281a26.158,26.158,0,0,1-2.751-1.122,4.015,4.015,0,0,1-1.709-1.658,4.6,4.6,0,0,1-.608-2.266,3.1,3.1,0,0,1,.956-1.882,5.845,5.845,0,0,0,.956-1.8A2.164,2.164,0,0,0,22.7,13a3.028,3.028,0,0,0-.42-1.81q0.116-.8.261-2.447a5.066,5.066,0,0,0-.427-2.454,6.8,6.8,0,0,0-1.441-2.136,7.394,7.394,0,0,0-2.15-1.484,5.865,5.865,0,0,0-5.052,0,7.394,7.394,0,0,0-2.15,1.484A6.8,6.8,0,0,0,9.883,6.292a5.066,5.066,0,0,0-.427,2.454Q9.6,10.4,9.717,11.193A3.028,3.028,0,0,0,9.3,13a2.164,2.164,0,0,0,1.332,2.244,5.845,5.845,0,0,0,.956,1.8,3.1,3.1,0,0,1,.956,1.882,4.6,4.6,0,0,1-.608,2.266,4.015,4.015,0,0,1-1.709,1.658,26.158,26.158,0,0,1-2.751,1.122q-1.868.673-3.345,1.281a6.245,6.245,0,0,0-1.969,1.115,3.481,3.481,0,0,0-.811,1.4,5.857,5.857,0,0,0-.319,1.506L1,29.9H31Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon-user");
+
+/***/ },
+/* 55 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -1107,7 +1517,7 @@
 	exports.default = register;
 
 /***/ },
-/* 22 */
+/* 56 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1116,21 +1526,21 @@
 	  value: true
 	});
 	
-	var _dialog = __webpack_require__(23);
+	var _dialog = __webpack_require__(57);
 	
 	var dialog = _interopRequireWildcard(_dialog);
 	
-	__webpack_require__(38);
+	__webpack_require__(72);
 	
-	var _daoDialogHeader = __webpack_require__(40);
+	var _daoDialogHeader = __webpack_require__(74);
 	
 	var _daoDialogHeader2 = _interopRequireDefault(_daoDialogHeader);
 	
-	var _daoMultiStep = __webpack_require__(42);
+	var _daoMultiStep = __webpack_require__(76);
 	
 	var _daoMultiStep2 = _interopRequireDefault(_daoMultiStep);
 	
-	var _daoStep = __webpack_require__(49);
+	var _daoStep = __webpack_require__(83);
 	
 	var _daoStep2 = _interopRequireDefault(_daoStep);
 	
@@ -1145,7 +1555,7 @@
 	exports.default = 'dao.dialog';
 
 /***/ },
-/* 23 */
+/* 57 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1164,15 +1574,15 @@
 	exports.daoDialogAnimationClass = daoDialogAnimationClass;
 	exports.daoDialogTransclude = daoDialogTransclude;
 	
-	var _keys = __webpack_require__(24);
+	var _keys = __webpack_require__(58);
 	
 	var _keys2 = _interopRequireDefault(_keys);
 	
-	var _daoBackdrop = __webpack_require__(36);
+	var _daoBackdrop = __webpack_require__(70);
 	
 	var _daoBackdrop2 = _interopRequireDefault(_daoBackdrop);
 	
-	var _daoWindow = __webpack_require__(37);
+	var _daoWindow = __webpack_require__(71);
 	
 	var _daoWindow2 = _interopRequireDefault(_daoWindow);
 	
@@ -1938,43 +2348,43 @@
 	}
 
 /***/ },
-/* 24 */
+/* 58 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = { "default": __webpack_require__(25), __esModule: true };
+	module.exports = { "default": __webpack_require__(59), __esModule: true };
 
 /***/ },
-/* 25 */
+/* 59 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(26);
-	module.exports = __webpack_require__(32).Object.keys;
+	__webpack_require__(60);
+	module.exports = __webpack_require__(66).Object.keys;
 
 /***/ },
-/* 26 */
+/* 60 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 19.1.2.14 Object.keys(O)
-	var toObject = __webpack_require__(27);
+	var toObject = __webpack_require__(61);
 	
-	__webpack_require__(29)('keys', function($keys){
+	__webpack_require__(63)('keys', function($keys){
 	  return function keys(it){
 	    return $keys(toObject(it));
 	  };
 	});
 
 /***/ },
-/* 27 */
+/* 61 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 7.1.13 ToObject(argument)
-	var defined = __webpack_require__(28);
+	var defined = __webpack_require__(62);
 	module.exports = function(it){
 	  return Object(defined(it));
 	};
 
 /***/ },
-/* 28 */
+/* 62 */
 /***/ function(module, exports) {
 
 	// 7.2.1 RequireObjectCoercible(argument)
@@ -1984,13 +2394,13 @@
 	};
 
 /***/ },
-/* 29 */
+/* 63 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// most Object methods by ES6 should accept primitives
-	var $export = __webpack_require__(30)
-	  , core    = __webpack_require__(32)
-	  , fails   = __webpack_require__(35);
+	var $export = __webpack_require__(64)
+	  , core    = __webpack_require__(66)
+	  , fails   = __webpack_require__(69);
 	module.exports = function(KEY, exec){
 	  var fn  = (core.Object || {})[KEY] || Object[KEY]
 	    , exp = {};
@@ -1999,12 +2409,12 @@
 	};
 
 /***/ },
-/* 30 */
+/* 64 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var global    = __webpack_require__(31)
-	  , core      = __webpack_require__(32)
-	  , ctx       = __webpack_require__(33)
+	var global    = __webpack_require__(65)
+	  , core      = __webpack_require__(66)
+	  , ctx       = __webpack_require__(67)
 	  , PROTOTYPE = 'prototype';
 	
 	var $export = function(type, name, source){
@@ -2050,7 +2460,7 @@
 	module.exports = $export;
 
 /***/ },
-/* 31 */
+/* 65 */
 /***/ function(module, exports) {
 
 	// https://github.com/zloirock/core-js/issues/86#issuecomment-115759028
@@ -2059,18 +2469,18 @@
 	if(typeof __g == 'number')__g = global; // eslint-disable-line no-undef
 
 /***/ },
-/* 32 */
+/* 66 */
 /***/ function(module, exports) {
 
 	var core = module.exports = {version: '1.2.6'};
 	if(typeof __e == 'number')__e = core; // eslint-disable-line no-undef
 
 /***/ },
-/* 33 */
+/* 67 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// optional / simple context binding
-	var aFunction = __webpack_require__(34);
+	var aFunction = __webpack_require__(68);
 	module.exports = function(fn, that, length){
 	  aFunction(fn);
 	  if(that === undefined)return fn;
@@ -2091,7 +2501,7 @@
 	};
 
 /***/ },
-/* 34 */
+/* 68 */
 /***/ function(module, exports) {
 
 	module.exports = function(it){
@@ -2100,7 +2510,7 @@
 	};
 
 /***/ },
-/* 35 */
+/* 69 */
 /***/ function(module, exports) {
 
 	module.exports = function(exec){
@@ -2112,25 +2522,25 @@
 	};
 
 /***/ },
-/* 36 */
+/* 70 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=dao-backdrop ng-style=\"{'z-index': 10002 + (index && 1 || 0) + index*10}\"></div>"
 
 /***/ },
-/* 37 */
+/* 71 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao-dialog dao-dialog-overlay\" dialog-render={{$isRendered}} tabindex=-1 role=dialog ng-style=\"{'z-index': 10010 + index*10, display: 'flex'}\"><div class=dao-dialog-overlay-inner><div class=\"dao-dialog-container show-dialog\" dao-dialog-transclude></div></div></div>"
 
 /***/ },
-/* 38 */
+/* 72 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(39);
+	var content = __webpack_require__(73);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -2150,7 +2560,7 @@
 	}
 
 /***/ },
-/* 39 */
+/* 73 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -2164,7 +2574,7 @@
 
 
 /***/ },
-/* 40 */
+/* 74 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2173,7 +2583,7 @@
 	  value: true
 	});
 	
-	var _daoDialogHeader = __webpack_require__(41);
+	var _daoDialogHeader = __webpack_require__(75);
 	
 	var _daoDialogHeader2 = _interopRequireDefault(_daoDialogHeader);
 	
@@ -2191,13 +2601,13 @@
 	exports.default = DaoDialogHeader;
 
 /***/ },
-/* 41 */
+/* 75 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=dao-dialog-header><ng-transclude></ng-transclude><div ng-click=\"$dismiss('close')\" class=dao-close><svg preserveaspectratio=xMidYMid width=34 height=34 viewbox=\"0 0 34 34\"><path d=\"M17.000,0.001 C7.612,0.001 0.001,7.612 0.001,17.000 C0.001,26.388 7.612,33.999 17.000,33.999 C26.388,33.999 33.999,26.388 33.999,17.000 C33.999,7.612 26.388,0.001 17.000,0.001 ZM24.166,21.666 C24.166,21.666 21.666,24.166 21.666,24.166 C21.666,24.166 17.000,19.500 17.000,19.500 C17.000,19.500 12.334,24.166 12.334,24.166 C12.334,24.166 9.834,21.666 9.834,21.666 C9.834,21.666 14.500,17.000 14.500,17.000 C14.500,17.000 9.834,12.335 9.834,12.335 C9.834,12.335 12.334,9.834 12.334,9.834 C12.334,9.834 17.000,14.500 17.000,14.500 C17.000,14.500 21.666,9.834 21.666,9.834 C21.666,9.834 24.166,12.335 24.166,12.335 C24.166,12.335 19.500,17.000 19.500,17.000 C19.500,17.000 24.166,21.666 24.166,21.666 Z\" id=path-1 fill-rule=evenodd></path></svg></div></div>"
 
 /***/ },
-/* 42 */
+/* 76 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2206,15 +2616,15 @@
 	  value: true
 	});
 	
-	var _classCallCheck2 = __webpack_require__(43);
+	var _classCallCheck2 = __webpack_require__(77);
 	
 	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 	
-	var _createClass2 = __webpack_require__(44);
+	var _createClass2 = __webpack_require__(78);
 	
 	var _createClass3 = _interopRequireDefault(_createClass2);
 	
-	var _daoMultiStep = __webpack_require__(48);
+	var _daoMultiStep = __webpack_require__(82);
 	
 	var _daoMultiStep2 = _interopRequireDefault(_daoMultiStep);
 	
@@ -2310,7 +2720,7 @@
 	exports.default = DaoMultiStep;
 
 /***/ },
-/* 43 */
+/* 77 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -2324,12 +2734,12 @@
 	exports.__esModule = true;
 
 /***/ },
-/* 44 */
+/* 78 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
 	
-	var _defineProperty = __webpack_require__(45);
+	var _defineProperty = __webpack_require__(79);
 	
 	var _defineProperty2 = _interopRequireDefault(_defineProperty);
 	
@@ -2356,22 +2766,22 @@
 	exports.__esModule = true;
 
 /***/ },
-/* 45 */
+/* 79 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = { "default": __webpack_require__(46), __esModule: true };
+	module.exports = { "default": __webpack_require__(80), __esModule: true };
 
 /***/ },
-/* 46 */
+/* 80 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var $ = __webpack_require__(47);
+	var $ = __webpack_require__(81);
 	module.exports = function defineProperty(it, key, desc){
 	  return $.setDesc(it, key, desc);
 	};
 
 /***/ },
-/* 47 */
+/* 81 */
 /***/ function(module, exports) {
 
 	var $Object = Object;
@@ -2389,13 +2799,13 @@
 	};
 
 /***/ },
-/* 48 */
+/* 82 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=dao-multi-step ng-transclude></div>"
 
 /***/ },
-/* 49 */
+/* 83 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2404,7 +2814,7 @@
 	  value: true
 	});
 	
-	var _daoStep = __webpack_require__(50);
+	var _daoStep = __webpack_require__(84);
 	
 	var _daoStep2 = _interopRequireDefault(_daoStep);
 	
@@ -2436,13 +2846,13 @@
 	exports.default = DaoStep;
 
 /***/ },
-/* 50 */
+/* 84 */
 /***/ function(module, exports) {
 
 	module.exports = "<div ng-if=isActive class=dao-step ng-class=\"{'dao-animate':daoAnimate}\" ng-transclude></div>"
 
 /***/ },
-/* 51 */
+/* 85 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2451,19 +2861,19 @@
 	  value: true
 	});
 	
-	var _daoPosition = __webpack_require__(52);
+	var _daoPosition = __webpack_require__(86);
 	
 	var position = _interopRequireWildcard(_daoPosition);
 	
-	var _daoStackedMap = __webpack_require__(53);
+	var _daoStackedMap = __webpack_require__(87);
 	
 	var stackedMap = _interopRequireWildcard(_daoStackedMap);
 	
-	var _daoTooltip = __webpack_require__(54);
+	var _daoTooltip = __webpack_require__(88);
 	
 	var tooltip = _interopRequireWildcard(_daoTooltip);
 	
-	__webpack_require__(58);
+	__webpack_require__(92);
 	
 	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 	
@@ -2477,7 +2887,7 @@
 	exports.default = moduleName;
 
 /***/ },
-/* 52 */
+/* 86 */
 /***/ function(module, exports) {
 
 	/**
@@ -3024,7 +3434,7 @@
 	};
 
 /***/ },
-/* 53 */
+/* 87 */
 /***/ function(module, exports) {
 
 	/**
@@ -3089,7 +3499,7 @@
 	};
 
 /***/ },
-/* 54 */
+/* 88 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3112,15 +3522,15 @@
 	exports.daoTooltipHtmlPopup = daoTooltipHtmlPopup;
 	exports.daoTooltipHtml = daoTooltipHtml;
 	
-	var _tooltipTemplatePopup = __webpack_require__(55);
+	var _tooltipTemplatePopup = __webpack_require__(89);
 	
 	var _tooltipTemplatePopup2 = _interopRequireDefault(_tooltipTemplatePopup);
 	
-	var _tooltipHtmlPopup = __webpack_require__(56);
+	var _tooltipHtmlPopup = __webpack_require__(90);
 	
 	var _tooltipHtmlPopup2 = _interopRequireDefault(_tooltipHtmlPopup);
 	
-	var _tooltipPopup = __webpack_require__(57);
+	var _tooltipPopup = __webpack_require__(91);
 	
 	var _tooltipPopup2 = _interopRequireDefault(_tooltipPopup);
 	
@@ -3873,31 +4283,31 @@
 	};
 
 /***/ },
-/* 55 */
+/* 89 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=dao-tooltip tooltip-animation-class=fade dao-tooltip-classes ng-class=\"{ in: isOpen() }\"><div class=dao-tooltip-arrow></div><div class=dao-tooltip-inner dao-tooltip-template-transclude=contentExp() tooltip-template-transclude-scope=originScope()></div></div>"
 
 /***/ },
-/* 56 */
+/* 90 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=dao-tooltip tooltip-animation-class=fade dao-tooltip-classes ng-class=\"{ in: isOpen() }\"><div class=dao-tooltip-arrow></div><div class=dao-tooltip-inner ng-bind-html=contentExp()></div></div>"
 
 /***/ },
-/* 57 */
+/* 91 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=dao-tooltip tooltip-animation-class=fade dao-tooltip-classes ng-class=\"{ in: isOpen() }\"><div class=dao-tooltip-arrow></div><div class=dao-tooltip-inner ng-bind=content></div></div>"
 
 /***/ },
-/* 58 */
+/* 92 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(59);
+	var content = __webpack_require__(93);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -3917,7 +4327,7 @@
 	}
 
 /***/ },
-/* 59 */
+/* 93 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -3931,7 +4341,7 @@
 
 
 /***/ },
-/* 60 */
+/* 94 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3940,11 +4350,11 @@
 	  value: true
 	});
 	
-	var _daoPopover = __webpack_require__(61);
+	var _daoPopover = __webpack_require__(95);
 	
 	var popover = _interopRequireWildcard(_daoPopover);
 	
-	__webpack_require__(65);
+	__webpack_require__(99);
 	
 	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 	
@@ -3960,7 +4370,7 @@
 	exports.default = moduleName;
 
 /***/ },
-/* 61 */
+/* 95 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3978,15 +4388,15 @@
 	exports.daoPopoverPopup = daoPopoverPopup;
 	exports.daoPopover = daoPopover;
 	
-	var _popover = __webpack_require__(62);
+	var _popover = __webpack_require__(96);
 	
 	var _popover2 = _interopRequireDefault(_popover);
 	
-	var _popoverTemplate = __webpack_require__(63);
+	var _popoverTemplate = __webpack_require__(97);
 	
 	var _popoverTemplate2 = _interopRequireDefault(_popoverTemplate);
 	
-	var _popoverHtml = __webpack_require__(64);
+	var _popoverHtml = __webpack_require__(98);
 	
 	var _popoverHtml2 = _interopRequireDefault(_popoverHtml);
 	
@@ -4036,31 +4446,31 @@
 	};
 
 /***/ },
-/* 62 */
+/* 96 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=dao-popover tooltip-animation-class=fade dao-tooltip-classes ng-class=\"{ in: isOpen() }\"><div class=arrow></div><div class=dao-popover-inner><h3 class=dao-popover-title ng-bind=title ng-if=title></h3><div class=dao-popover-content ng-bind=content></div></div></div>"
 
 /***/ },
-/* 63 */
+/* 97 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=dao-popover tooltip-animation-class=fade dao-tooltip-classes ng-class=\"{ in: isOpen() }\"><div class=arrow></div><div class=dao-popover-inner><h3 class=dao-popover-title ng-bind=title ng-if=title></h3><div class=dao-popover-content dao-tooltip-template-transclude=contentExp() tooltip-template-transclude-scope=originScope() template-type={{templateType}}></div></div></div>"
 
 /***/ },
-/* 64 */
+/* 98 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=dao-popover tooltip-animation-class=fade dao-tooltip-classes ng-class=\"{ in: isOpen() }\"><div class=arrow></div><div class=dao-popover-inner><h3 class=dao-popover-title ng-bind=title ng-if=title></h3><div class=dao-popover-content ng-bind-html=contentExp()></div></div></div>"
 
 /***/ },
-/* 65 */
+/* 99 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(66);
+	var content = __webpack_require__(100);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -4080,7 +4490,7 @@
 	}
 
 /***/ },
-/* 66 */
+/* 100 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -4088,13 +4498,13 @@
 	
 	
 	// module
-	exports.push([module.id, ".dao-popover{position:absolute;top:0;left:0;z-index:1060;display:none;max-width:276px;padding:1px;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-style:normal;font-weight:400;letter-spacing:normal;line-break:auto;line-height:1.42857;text-align:left;text-align:start;text-decoration:none;text-shadow:none;text-transform:none;white-space:normal;word-break:normal;word-spacing:normal;word-wrap:normal;font-size:14px;background-color:#fff;background-clip:padding-box;border:1px solid #ccc;border:1px solid rgba(0,0,0,.2);border-radius:6px;box-shadow:0 5px 10px rgba(0,0,0,.2)}.dao-popover.top{margin-top:-10px}.dao-popover.right{margin-left:10px}.dao-popover.bottom{margin-top:10px}.dao-popover.left{margin-left:-10px}.dao-popover .dao-popover-title{margin:0;padding:8px 14px;font-size:14px;background-color:#e6e9ed;box-shadow:inset 0 -1px 0 rgba(204,209,217,.5);border-radius:5px 5px 0 0}.dao-popover .dao-popover-content{padding:9px 14px}.dao-popover>.arrow,.dao-popover>.arrow:after{position:absolute;display:block;width:0;height:0;border-color:transparent;border-style:solid}.dao-popover>.arrow{border-width:11px}.dao-popover>.arrow:after{border-width:10px;content:\"\"}.dao-popover.top>.arrow{left:50%;margin-left:-11px;border-bottom-width:0;border-top-color:#999;border-top-color:rgba(0,0,0,.25);bottom:-11px}.dao-popover.top>.arrow:after{content:\" \";bottom:1px;margin-left:-10px;border-bottom-width:0;border-top-color:#fff}.dao-popover.right>.arrow{top:50%;left:-11px;margin-top:-11px;border-left-width:0;border-right-color:#999;border-right-color:rgba(0,0,0,.25)}.dao-popover.right>.arrow:after{content:\" \";left:1px;bottom:-10px;border-left-width:0;border-right-color:#fff}.dao-popover.bottom>.arrow{left:50%;margin-left:-11px;border-top-width:0;border-bottom-color:#999;border-bottom-color:rgba(0,0,0,.25);top:-11px}.dao-popover.bottom>.arrow:after{content:\" \";top:1px;margin-left:-10px;border-top-width:0;border-bottom-color:#fff}.dao-popover.left>.arrow{top:50%;right:-11px;margin-top:-11px;border-right-width:0;border-left-color:#999;border-left-color:rgba(0,0,0,.25)}.dao-popover.left>.arrow:after{content:\" \";right:1px;border-right-width:0;border-left-color:#fff;bottom:-10px}", ""]);
+	exports.push([module.id, ".dao-popover{position:absolute;top:0;left:0;z-index:1060;display:none;max-width:276px;padding:1px;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-style:normal;font-weight:400;letter-spacing:normal;line-break:auto;line-height:1.42857;text-align:left;text-align:start;text-decoration:none;text-shadow:none;text-transform:none;white-space:normal;word-break:normal;word-spacing:normal;word-wrap:normal;font-size:14px;background-color:#fff;background-clip:padding-box;border:1px solid #ccc;border:1px solid rgba(0,0,0,.2);border-radius:6px;box-shadow:0 5px 10px rgba(0,0,0,.2)}.dao-popover.top{margin-top:-10px}.dao-popover.right{margin-left:10px}.dao-popover.bottom{margin-top:10px}.dao-popover.left{margin-left:-10px}.dao-popover .dao-popover-title{margin:0;padding:8px 14px;font-size:14px;background-color:#e6e9ed;box-shadow:inset 0 -1px 0 rgba(204,209,217,.5);border-radius:5px 5px 0 0}.dao-popover .dao-popover-content{padding:9px 14px;overflow:hidden}.dao-popover>.arrow,.dao-popover>.arrow:after{position:absolute;display:block;width:0;height:0;border-color:transparent;border-style:solid}.dao-popover>.arrow{border-width:11px}.dao-popover>.arrow:after{border-width:10px;content:\"\"}.dao-popover.top>.arrow{left:50%;margin-left:-11px;border-bottom-width:0;border-top-color:#999;border-top-color:rgba(0,0,0,.25);bottom:-11px}.dao-popover.top>.arrow:after{content:\" \";bottom:1px;margin-left:-10px;border-bottom-width:0;border-top-color:#fff}.dao-popover.right>.arrow{top:50%;left:-11px;margin-top:-11px;border-left-width:0;border-right-color:#999;border-right-color:rgba(0,0,0,.25)}.dao-popover.right>.arrow:after{content:\" \";left:1px;bottom:-10px;border-left-width:0;border-right-color:#fff}.dao-popover.bottom>.arrow{left:50%;margin-left:-11px;border-top-width:0;border-bottom-color:#999;border-bottom-color:rgba(0,0,0,.25);top:-11px}.dao-popover.bottom>.arrow:after{content:\" \";top:1px;margin-left:-10px;border-top-width:0;border-bottom-color:#fff}.dao-popover.left>.arrow{top:50%;right:-11px;margin-top:-11px;border-right-width:0;border-left-color:#999;border-left-color:rgba(0,0,0,.25)}.dao-popover.left>.arrow:after{content:\" \";right:1px;border-right-width:0;border-left-color:#fff;bottom:-10px}", ""]);
 	
 	// exports
 
 
 /***/ },
-/* 67 */
+/* 101 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4103,13 +4513,13 @@
 	  value: true
 	});
 	
-	__webpack_require__(68);
+	__webpack_require__(102);
 	
-	var _multiSteps = __webpack_require__(70);
+	var _multiSteps = __webpack_require__(104);
 	
 	var _multiSteps2 = _interopRequireDefault(_multiSteps);
 	
-	var _step = __webpack_require__(72);
+	var _step = __webpack_require__(106);
 	
 	var _step2 = _interopRequireDefault(_step);
 	
@@ -4124,13 +4534,13 @@
 	exports.default = moduleName;
 
 /***/ },
-/* 68 */
+/* 102 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(69);
+	var content = __webpack_require__(103);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -4150,7 +4560,7 @@
 	}
 
 /***/ },
-/* 69 */
+/* 103 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -4164,7 +4574,7 @@
 
 
 /***/ },
-/* 70 */
+/* 104 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4173,15 +4583,15 @@
 	  value: true
 	});
 	
-	var _classCallCheck2 = __webpack_require__(43);
+	var _classCallCheck2 = __webpack_require__(77);
 	
 	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 	
-	var _createClass2 = __webpack_require__(44);
+	var _createClass2 = __webpack_require__(78);
 	
 	var _createClass3 = _interopRequireDefault(_createClass2);
 	
-	var _multiSteps = __webpack_require__(71);
+	var _multiSteps = __webpack_require__(105);
 	
 	var _multiSteps2 = _interopRequireDefault(_multiSteps);
 	
@@ -4277,13 +4687,13 @@
 	exports.default = MultiStepsDirective;
 
 /***/ },
-/* 71 */
+/* 105 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao-layout-wrap dao-multi-step\"><div class=dao-layout-sidebar><div class=multi-step-sidebar><div class=multi-step-item ng-class=\"{'active' : step.isActive , 'success' : step.isSuccessful }\" ng-click=vm.activeStep(step) ng-repeat=\"step in vm.steps\"><div class=multi-step-order>{{ step.index }}</div>{{ step.title }}</div></div></div><div class=dao-layout-content><div class=\"content-body multi-step-content\" ng-transclude></div></div></div>"
 
 /***/ },
-/* 72 */
+/* 106 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4292,7 +4702,7 @@
 	  value: true
 	});
 	
-	var _step = __webpack_require__(73);
+	var _step = __webpack_require__(107);
 	
 	var _step2 = _interopRequireDefault(_step);
 	
@@ -4329,13 +4739,13 @@
 	exports.default = StepDirective;
 
 /***/ },
-/* 73 */
+/* 107 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=multi-step-content-body ng-transclude></div>"
 
 /***/ },
-/* 74 */
+/* 108 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4344,11 +4754,429 @@
 	  value: true
 	});
 	
-	var _daoInput = __webpack_require__(75);
+	var _daoDropdown = __webpack_require__(109);
+	
+	var dropdown = _interopRequireWildcard(_daoDropdown);
+	
+	__webpack_require__(16);
+	
+	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+	
+	/**
+	 * The following features are still outstanding: popup delay, animation as a
+	 * function, placement as a function, inside, support for more triggers than
+	 * just mouse enter/leave, and selector delegatation.
+	 */
+	
+	var moduleName = 'dao.dropdown';
+	angular.module(moduleName, ['dao.position'])
+	// .directive('daoDropdownTemplatePopup', dropdown.daoDropdownTemplatePopup)
+	// .directive('daoDropdownTemplate', dropdown.daoDropdownTemplate)
+	// .directive('daoDropdownHtmlPopup', dropdown.daoDropdownHtmlPopup)
+	// .directive('daoDropdownHtml', dropdown.daoDropdownHtml)
+	// .directive('daoDropdownPopup', dropdown.daoDropdownPopup)
+	// .directive('daoDropdown', dropdown.daoDropdown);
+	
+	.constant('daoDropdownConfig', dropdown.daoDropdownConfig).service('daoDropdownService', dropdown.daoDropdownService).controller('DaoDropdownController', dropdown.DaoDropdownController).directive('daoDropdown', dropdown.daoDropdown).directive('daoDropdownMenu', dropdown.daoDropdownMenu).directive('daoDropdownToggle', dropdown.daoDropdownToggle);
+	
+	exports.default = moduleName;
+
+/***/ },
+/* 109 */
+/***/ function(module, exports) {
+
+	'use strict';
+	
+	daoDropdownService.$inject = ["$document", "$rootScope"];
+	DaoDropdownController.$inject = ["$scope", "$element", "$attrs", "$parse", "daoDropdownConfig", "daoDropdownService", "$animate", "$daoPosition", "$document", "$compile", "$templateRequest"];
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.daoDropdownService = daoDropdownService;
+	exports.DaoDropdownController = DaoDropdownController;
+	exports.daoDropdown = daoDropdown;
+	exports.daoDropdownMenu = daoDropdownMenu;
+	exports.daoDropdownToggle = daoDropdownToggle;
+	var daoDropdownConfig = exports.daoDropdownConfig = {
+	  appendToOpenClass: 'dao-dropdown-open',
+	  openClass: 'open'
+	};
+	
+	/*@ngInject*/function daoDropdownService($document, $rootScope) {
+	  var openScope = null;
+	
+	  this.open = function (dropdownScope) {
+	    if (!openScope) {
+	      $document.on('click', closeDropdown);
+	      $document.on('keydown', keybindFilter);
+	    }
+	
+	    if (openScope && openScope !== dropdownScope) {
+	      openScope.isOpen = false;
+	    }
+	
+	    openScope = dropdownScope;
+	  };
+	
+	  this.close = function (dropdownScope) {
+	    if (openScope === dropdownScope) {
+	      openScope = null;
+	      $document.off('click', closeDropdown);
+	      $document.off('keydown', keybindFilter);
+	    }
+	  };
+	
+	  var closeDropdown = function closeDropdown(evt) {
+	    // This method may still be called during the same mouse event that
+	    // unbound this event handler. So check openScope before proceeding.
+	    if (!openScope) {
+	      return;
+	    }
+	
+	    if (evt && openScope.getAutoClose() === 'disabled') {
+	      return;
+	    }
+	
+	    if (evt && evt.which === 3) {
+	      return;
+	    }
+	
+	    var toggleElement = openScope.getToggleElement();
+	    if (evt && toggleElement && toggleElement[0].contains(evt.target)) {
+	      return;
+	    }
+	
+	    var dropdownElement = openScope.getDropdownElement();
+	    if (evt && openScope.getAutoClose() === 'outsideClick' && dropdownElement && dropdownElement[0].contains(evt.target)) {
+	      return;
+	    }
+	
+	    openScope.isOpen = false;
+	
+	    if (!$rootScope.$$phase) {
+	      openScope.$apply();
+	    }
+	  };
+	
+	  var keybindFilter = function keybindFilter(evt) {
+	    if (evt.which === 27) {
+	      openScope.focusToggleElement();
+	      closeDropdown();
+	    } else if (openScope.isKeynavEnabled() && [38, 40].indexOf(evt.which) !== -1 && openScope.isOpen) {
+	      evt.preventDefault();
+	      evt.stopPropagation();
+	      openScope.focusDropdownEntry(evt.which);
+	    }
+	  };
+	}
+	
+	/*@ngInject*/function DaoDropdownController($scope, $element, $attrs, $parse, daoDropdownConfig, daoDropdownService, $animate, $daoPosition, $document, $compile, $templateRequest) {
+	  var self = this,
+	      scope = $scope.$new(),
+	      // create a child scope so we are not polluting original one
+	  templateScope,
+	      appendToOpenClass = daoDropdownConfig.appendToOpenClass,
+	      openClass = daoDropdownConfig.openClass,
+	      getIsOpen,
+	      setIsOpen = angular.noop,
+	      toggleInvoker = $attrs.onToggle ? $parse($attrs.onToggle) : angular.noop,
+	      appendToBody = false,
+	      appendTo = null,
+	      keynavEnabled = false,
+	      selectedOption = null,
+	      body = $document.find('body');
+	
+	  $element.addClass('dao-dropdown');
+	
+	  this.init = function () {
+	    if ($attrs.isOpen) {
+	      getIsOpen = $parse($attrs.isOpen);
+	      setIsOpen = getIsOpen.assign;
+	
+	      $scope.$watch(getIsOpen, function (value) {
+	        scope.isOpen = !!value;
+	      });
+	    }
+	
+	    if (angular.isDefined($attrs.dropdownAppendTo)) {
+	      var appendToEl = $parse($attrs.dropdownAppendTo)(scope);
+	      if (appendToEl) {
+	        appendTo = angular.element(appendToEl);
+	      }
+	    }
+	
+	    appendToBody = angular.isDefined($attrs.dropdownAppendToBody);
+	    keynavEnabled = angular.isDefined($attrs.keyboardNav);
+	
+	    if (appendToBody && !appendTo) {
+	      appendTo = body;
+	    }
+	
+	    if (appendTo && self.dropdownMenu) {
+	      appendTo.append(self.dropdownMenu);
+	      $element.on('$destroy', function handleDestroyEvent() {
+	        self.dropdownMenu.remove();
+	      });
+	    }
+	  };
+	
+	  this.toggle = function (open) {
+	    return scope.isOpen = arguments.length ? !!open : !scope.isOpen;
+	  };
+	
+	  // Allow other directives to watch status
+	  this.isOpen = function () {
+	    return scope.isOpen;
+	  };
+	
+	  scope.getToggleElement = function () {
+	    return self.toggleElement;
+	  };
+	
+	  scope.getAutoClose = function () {
+	    return $attrs.autoClose || 'always'; //or 'outsideClick' or 'disabled'
+	  };
+	
+	  scope.getElement = function () {
+	    return $element;
+	  };
+	
+	  scope.isKeynavEnabled = function () {
+	    return keynavEnabled;
+	  };
+	
+	  scope.focusDropdownEntry = function (keyCode) {
+	    var elems = self.dropdownMenu ? //If append to body is used.
+	    angular.element(self.dropdownMenu).find('a') : $element.find('ul').eq(0).find('a');
+	
+	    switch (keyCode) {
+	      case 40:
+	        {
+	          if (!angular.isNumber(self.selectedOption)) {
+	            self.selectedOption = 0;
+	          } else {
+	            self.selectedOption = self.selectedOption === elems.length - 1 ? self.selectedOption : self.selectedOption + 1;
+	          }
+	          break;
+	        }
+	      case 38:
+	        {
+	          if (!angular.isNumber(self.selectedOption)) {
+	            self.selectedOption = elems.length - 1;
+	          } else {
+	            self.selectedOption = self.selectedOption === 0 ? 0 : self.selectedOption - 1;
+	          }
+	          break;
+	        }
+	    }
+	    elems[self.selectedOption].focus();
+	  };
+	
+	  scope.getDropdownElement = function () {
+	    return self.dropdownMenu;
+	  };
+	
+	  scope.focusToggleElement = function () {
+	    if (self.toggleElement) {
+	      self.toggleElement[0].focus();
+	    }
+	  };
+	
+	  scope.$watch('isOpen', function (isOpen, wasOpen) {
+	    if (appendTo && self.dropdownMenu) {
+	      var pos = $daoPosition.positionElements($element, self.dropdownMenu, 'bottom-left', true),
+	          css,
+	          rightalign;
+	
+	      css = {
+	        top: pos.top + 'px',
+	        display: isOpen ? 'block' : 'none'
+	      };
+	
+	      rightalign = self.dropdownMenu.hasClass('dropdown-menu-right');
+	      if (!rightalign) {
+	        css.left = pos.left + 'px';
+	        css.right = 'auto';
+	      } else {
+	        css.left = 'auto';
+	        css.right = window.innerWidth - (pos.left + $element.prop('offsetWidth')) + 'px';
+	      }
+	
+	      // Need to adjust our positioning to be relative to the appendTo container
+	      // if it's not the body element
+	      if (!appendToBody) {
+	        var appendOffset = $daoPosition.offset(appendTo);
+	
+	        css.top = pos.top - appendOffset.top + 'px';
+	
+	        if (!rightalign) {
+	          css.left = pos.left - appendOffset.left + 'px';
+	        } else {
+	          css.right = window.innerWidth - (pos.left - appendOffset.left + $element.prop('offsetWidth')) + 'px';
+	        }
+	      }
+	
+	      self.dropdownMenu.css(css);
+	    } else if (self.dropdownMenu) {
+	
+	      var pos = $daoPosition.positionElements($element, self.dropdownMenu, 'bottom-left', true);
+	
+	      var eleWidth = $element.prop('offsetWidth');
+	      var menuWidth = self.dropdownMenu.prop('offsetWidth');
+	
+	      var leftalign = self.dropdownMenu.hasClass('dropdown-menu-left');
+	      var rightalign = self.dropdownMenu.hasClass('dropdown-menu-right');
+	
+	      var arrowOffset = eleWidth / 2 - 15.5;
+	
+	      $element.find('style').remove();
+	
+	      var style = document.createElement('style');
+	      style.innerHTML = "";
+	
+	      if (!leftalign && !rightalign) {
+	        style.innerHTML += ".dao-dropdown>.dropdown-menu{transform-origin:50% -10px !important;" + "left:" + (eleWidth - menuWidth) / 2 + "px !important}" + ".dropdown-menu:before{left: 50% !important; transform: translateX(-50%) !important}";
+	      } else if (leftalign) {
+	        style.innerHTML += ".dao-dropdown>.dropdown-menu{transform-origin:" + eleWidth / 2 + "px -10px !important;}" + ".dropdown-menu:before{left:" + arrowOffset + "px !important}";
+	      } else if (rightalign) {
+	        style.innerHTML += ".dao-dropdown>.dropdown-menu{transform-origin:" + (menuWidth - eleWidth / 2) + "px -10px !important;}" + ".dropdown-menu:before{right:" + arrowOffset + "px !important}";
+	      }
+	
+	      $element.append(style);
+	    }
+	
+	    var openContainer = appendTo ? appendTo : $element;
+	
+	    $animate[isOpen ? 'addClass' : 'removeClass'](openContainer, appendTo ? appendToOpenClass : openClass).then(function () {
+	      if (angular.isDefined(isOpen) && isOpen !== wasOpen) {
+	        toggleInvoker($scope, { open: !!isOpen });
+	      }
+	    });
+	
+	    if (isOpen) {
+	      if (self.dropdownMenuTemplateUrl) {
+	        $templateRequest(self.dropdownMenuTemplateUrl).then(function (tplContent) {
+	          templateScope = scope.$new();
+	          $compile(tplContent.trim())(templateScope, function (dropdownElement) {
+	            var newEl = dropdownElement;
+	            self.dropdownMenu.replaceWith(newEl);
+	            self.dropdownMenu = newEl;
+	          });
+	        });
+	      }
+	
+	      scope.focusToggleElement();
+	      daoDropdownService.open(scope);
+	    } else {
+	      if (self.dropdownMenuTemplateUrl) {
+	        if (templateScope) {
+	          templateScope.$destroy();
+	        }
+	        var newEl = angular.element('<ul class="dropdown-menu"></ul>');
+	        self.dropdownMenu.replaceWith(newEl);
+	        self.dropdownMenu = newEl;
+	      }
+	
+	      daoDropdownService.close(scope);
+	      self.selectedOption = null;
+	    }
+	
+	    if (angular.isFunction(setIsOpen)) {
+	      setIsOpen($scope, isOpen);
+	    }
+	  });
+	
+	  $scope.$on('$locationChangeSuccess', function () {
+	    if (scope.getAutoClose() !== 'disabled') {
+	      scope.isOpen = false;
+	    }
+	  });
+	}
+	
+	/*@ngInject*/function daoDropdown() {
+	  return {
+	    controller: 'DaoDropdownController',
+	    link: function link(scope, element, attrs, dropdownCtrl) {
+	      dropdownCtrl.init();
+	    }
+	  };
+	}
+	
+	/*@ngInject*/function daoDropdownMenu() {
+	  return {
+	    restrict: 'A',
+	    require: '?^daoDropdown',
+	    link: function link(scope, element, attrs, dropdownCtrl) {
+	      if (!dropdownCtrl || angular.isDefined(attrs.dropdownNested)) {
+	        return;
+	      }
+	
+	      element.addClass('dropdown-menu');
+	
+	      var tplUrl = attrs.templateUrl;
+	      if (tplUrl) {
+	        dropdownCtrl.dropdownMenuTemplateUrl = tplUrl;
+	      }
+	
+	      if (!dropdownCtrl.dropdownMenu) {
+	        dropdownCtrl.dropdownMenu = element;
+	      }
+	    }
+	  };
+	}
+	
+	/*@ngInject*/function daoDropdownToggle() {
+	  return {
+	    require: '?^daoDropdown',
+	    link: function link(scope, element, attrs, dropdownCtrl) {
+	      if (!dropdownCtrl) {
+	        return;
+	      }
+	
+	      element.addClass('dropdown-toggle');
+	
+	      dropdownCtrl.toggleElement = element;
+	
+	      var toggleDropdown = function toggleDropdown(event) {
+	        event.preventDefault();
+	
+	        if (!element.hasClass('disabled') && !attrs.disabled) {
+	          scope.$apply(function () {
+	            dropdownCtrl.toggle();
+	          });
+	        }
+	      };
+	
+	      element.bind('click', toggleDropdown);
+	
+	      // WAI-ARIA
+	      element.attr({ 'aria-haspopup': true, 'aria-expanded': false });
+	      scope.$watch(dropdownCtrl.isOpen, function (isOpen) {
+	        element.attr('aria-expanded', !!isOpen);
+	      });
+	
+	      scope.$on('$destroy', function () {
+	        element.unbind('click', toggleDropdown);
+	      });
+	    }
+	  };
+	};
+
+/***/ },
+/* 110 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _daoInput = __webpack_require__(111);
 	
 	var _daoInput2 = _interopRequireDefault(_daoInput);
 	
-	__webpack_require__(76);
+	__webpack_require__(112);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -4386,19 +5214,19 @@
 	exports.default = DaoInputDirective;
 
 /***/ },
-/* 75 */
+/* 111 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao input\" ng-class=\"[state,{'has-button': hasButton}]\"><input type=text placeholder={{::placeholder}}><ng-transclude></ng-transclude><div ng-bind-html=message></div></div>"
 
 /***/ },
-/* 76 */
+/* 112 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(77);
+	var content = __webpack_require__(113);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -4418,7 +5246,7 @@
 	}
 
 /***/ },
-/* 77 */
+/* 113 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -4432,7 +5260,7 @@
 
 
 /***/ },
-/* 78 */
+/* 114 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4441,11 +5269,11 @@
 	  value: true
 	});
 	
-	var _daoTable = __webpack_require__(79);
+	var _daoTable = __webpack_require__(115);
 	
 	var _daoTable2 = _interopRequireDefault(_daoTable);
 	
-	__webpack_require__(80);
+	__webpack_require__(116);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -4462,19 +5290,19 @@
 	exports.default = DaoTableDirective;
 
 /***/ },
-/* 79 */
+/* 115 */
 /***/ function(module, exports) {
 
 	module.exports = ""
 
 /***/ },
-/* 80 */
+/* 116 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(81);
+	var content = __webpack_require__(117);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -4494,7 +5322,7 @@
 	}
 
 /***/ },
-/* 81 */
+/* 117 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -4502,13 +5330,13 @@
 	
 	
 	// module
-	exports.push([module.id, "table.dao-table.slat{width:100%;margin:16px 0}table.dao-table.slat tr{background:#fff;border-bottom:1px solid #f1f3f6}table.dao-table.slat tr.selected{background:#fffced}table.dao-table.slat td{white-space:nowrap;padding:20px 0;vertical-align:middle}table.dao-table.slat td.left{text-align:left;width:20%}table.dao-table.slat td.right{text-align:right;width:10%}table.dao-table.slat td.checkbox{width:3.5em}table.dao-table.slat td:first-child{padding-left:24px}table.dao-table.slat td:last-child{padding-right:24px}table.dao-table.slat .item{font-weight:400}table.dao-table.slat .item-description{color:#9ba3af;font-size:13px;margin-top:4px}table.dao-table.slat .item-content{color:#595f69;font-size:16px}table.dao-table.slat .item-name{color:#3890ff;font-size:15px}table.dao-table.slat .item-single-line{height:40px}", ""]);
+	exports.push([module.id, "table.dao-table.slat{width:100%;margin:16px 0;border:1px solid #e4e7ed}table.dao-table.slat th{text-align:left;font-size:16px;color:#595f69;padding:10px 0}table.dao-table.slat th.right{text-align:right;padding-right:24px}table.dao-table.slat tr{background:#fff;border-bottom:1px solid #f1f3f6}table.dao-table.slat tr.selected{background:#fffced}table.dao-table.slat td{white-space:nowrap;padding:20px 0;vertical-align:middle}table.dao-table.slat td.left{text-align:left;width:20%}table.dao-table.slat td.right{text-align:right;width:10%}table.dao-table.slat td.checkbox{min-width:50px;width:50px;display:table-cell;margin:0}table.dao-table.slat td.checkbox input[type=checkbox]{position:relative;margin:0}table.dao-table.slat td:first-child{padding-left:24px}table.dao-table.slat td:last-child{padding-right:24px}table.dao-table.slat .item{font-weight:400}table.dao-table.slat .item-minor{color:#9ba3af;font-size:13px;margin-top:4px}table.dao-table.slat .item-major{color:#595f69;font-size:16px}table.dao-table.slat .item-link a{color:#3890ff;text-decoration:none}table.dao-table.slat .item-name{font-weight:600;font-size:15px;color:#3890ff}table.dao-table.slat .item-single-line{height:43px}table.dao-table.slat .item-danger{color:#f1483f}table.dao-table.slat .item-success{color:#22c36a}", ""]);
 	
 	// exports
 
 
 /***/ },
-/* 82 */
+/* 118 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4517,15 +5345,15 @@
 	  value: true
 	});
 	
-	var _classCallCheck2 = __webpack_require__(43);
+	var _classCallCheck2 = __webpack_require__(77);
 	
 	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 	
-	var _daoDemo = __webpack_require__(83);
+	var _daoDemo = __webpack_require__(119);
 	
 	var _daoDemo2 = _interopRequireDefault(_daoDemo);
 	
-	__webpack_require__(84);
+	__webpack_require__(120);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -4554,19 +5382,19 @@
 	exports.default = DaoDemoBlockDirective;
 
 /***/ },
-/* 83 */
+/* 119 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao demo-block\"><h4 class=demo-block-header>{{dao.title}}</h4><div ng-transclude></div></div>"
 
 /***/ },
-/* 84 */
+/* 120 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(85);
+	var content = __webpack_require__(121);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -4586,7 +5414,7 @@
 	}
 
 /***/ },
-/* 85 */
+/* 121 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
