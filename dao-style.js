@@ -76,57 +76,57 @@
 	
 	__webpack_require__(27);
 	
-	__webpack_require__(110);
+	__webpack_require__(113);
 	
-	var _index = __webpack_require__(115);
+	var _index = __webpack_require__(118);
 	
 	var _index2 = _interopRequireDefault(_index);
 	
-	var _index3 = __webpack_require__(125);
+	var _index3 = __webpack_require__(128);
 	
 	var _index4 = _interopRequireDefault(_index3);
 	
-	var _index5 = __webpack_require__(154);
+	var _index5 = __webpack_require__(157);
 	
 	var _index6 = _interopRequireDefault(_index5);
 	
-	var _index7 = __webpack_require__(163);
+	var _index7 = __webpack_require__(166);
 	
 	var _index8 = _interopRequireDefault(_index7);
 	
-	var _index9 = __webpack_require__(170);
+	var _index9 = __webpack_require__(173);
 	
 	var _index10 = _interopRequireDefault(_index9);
 	
-	var _index11 = __webpack_require__(178);
+	var _index11 = __webpack_require__(181);
 	
 	var _index12 = _interopRequireDefault(_index11);
 	
-	var _index13 = __webpack_require__(180);
+	var _index13 = __webpack_require__(183);
 	
 	var _index14 = _interopRequireDefault(_index13);
 	
-	var _index15 = __webpack_require__(184);
+	var _index15 = __webpack_require__(187);
 	
 	var _index16 = _interopRequireDefault(_index15);
 	
-	var _index17 = __webpack_require__(189);
+	var _index17 = __webpack_require__(192);
 	
 	var _index18 = _interopRequireDefault(_index17);
 	
-	var _index19 = __webpack_require__(196);
+	var _index19 = __webpack_require__(199);
 	
 	var _index20 = _interopRequireDefault(_index19);
 	
-	var _index21 = __webpack_require__(202);
+	var _index21 = __webpack_require__(205);
 	
 	var _index22 = _interopRequireDefault(_index21);
 	
-	var _index23 = __webpack_require__(206);
+	var _index23 = __webpack_require__(209);
 	
 	var _index24 = _interopRequireDefault(_index23);
 	
-	var _daoDemoDirective = __webpack_require__(208);
+	var _daoDemoDirective = __webpack_require__(211);
 	
 	var _daoDemoDirective2 = _interopRequireDefault(_daoDemoDirective);
 	
@@ -807,7 +807,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".dao-radio{position:relative;display:block;line-height:24px}.dao-radio.disabled label{cursor:not-allowed;color:#9ba3af}.dao-radio label{padding-left:20px;margin-bottom:0;font-weight:400;cursor:pointer;color:#3d444f;font-size:14px}.dao-radio label+label{margin-left:10px}.dao-radio input[type=radio]{position:absolute;margin-left:-20px;margin-top:5px}.dao-radio input[type=radio].disabled,.dao-radio input[type=radio][disabled]{cursor:not-allowed}.dao-radio-block:nth-child(2n+1){border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed}.dao-radio-block:focus,.dao-radio-block:hover{background-color:rgba(245,247,250,.8)}.dao-radio-block.active{opacity:1;background-color:#f0f7ff}.dao-radio-block label{display:flex;align-items:center;padding:20px;font-size:14px;line-height:24px;cursor:pointer}.dao-radio-block label input{margin-right:30px}.dao-radio-block label .dao-radio-block-headline{color:#3d444f;font-weight:500}.dao-radio-block label .dao-radio-block-description{color:#9ba3af;font-weight:400}.dao-radio-grid{float:left;padding:0 5px;position:relative;white-space:nowrap}.dao-radio-grid svg.checked-icon{position:absolute;top:-8px;right:0;width:16px;height:16px;border-radius:50%;fill:#3890ff;background-color:#fff}.dao-radio-grid-wrap{padding:22px 40px 16px;background-color:#fff;border:1px solid #ccd1d9;border-radius:4px;text-align:center;cursor:pointer;font-weight:400;line-height:21px;overflow:hidden}.dao-radio-grid-img{display:inline-block;margin-bottom:10px;width:40px;height:40px}.dao-radio-grid-img img,.dao-radio-grid-img svg{width:100%;height:100%;fill:#ccd1d9}.dao-radio-grid-description,.dao-radio-grid-headline{overflow:hidden;text-overflow:ellipsis}.dao-radio-grid-headline{color:#3d444f;font-size:14px;text-shadow:0 1px 0 hsla(0,0%,100%,.9)}.dao-radio-grid-description{color:#9ba3af;font-size:12px;text-shadow:0 1px 0 hsla(0,0%,100%,.9)}.dao-radio-grid:focus .dao-radio-grid-wrap,.dao-radio-grid:hover .dao-radio-grid-wrap{background-color:rgba(245,247,250,.8);box-shadow:0 1px 1px rgba(0,0,0,.08)}.dao-radio-grid.active .dao-radio-grid-wrap{opacity:1;background-image:linear-gradient(0deg,#f0f7ff,#fbfdff);background-color:#f7fbff;border:1px solid #3890ff;box-shadow:0 0 0 2px rgba(56,144,255,.15)}.dao-radio-grid.active .dao-radio-grid-img img,.dao-radio-grid.active .dao-radio-grid-img svg{fill:#3890ff}", ""]);
+	exports.push([module.id, ".dao-radio{position:relative;display:block;line-height:24px}.dao-radio.disabled label{cursor:not-allowed;color:#9ba3af}.dao-radio label{padding-left:20px;margin-bottom:0;font-weight:400;cursor:pointer;color:#3d444f;font-size:14px}.dao-radio label+label{margin-left:10px}.dao-radio input[type=radio]{position:absolute;margin-left:-20px;margin-top:5px}.dao-radio input[type=radio].disabled,.dao-radio input[type=radio][disabled]{cursor:not-allowed}.dao-radio-block:nth-child(2n+1){border-top:1px solid #e4e7ed;border-bottom:1px solid #e4e7ed}.dao-radio-block:focus,.dao-radio-block:hover{background-color:rgba(245,247,250,.8)}.dao-radio-block.active{opacity:1;background-color:#f0f7ff}.dao-radio-block label{display:flex;align-items:center;padding:20px;font-size:14px;line-height:24px;cursor:pointer}.dao-radio-block label input{margin-right:30px}.dao-radio-block label .dao-radio-block-headline{color:#3d444f;font-weight:500}.dao-radio-block label .dao-radio-block-description{color:#9ba3af;font-weight:400}.dao-radio-grid{float:left;padding:0 5px;position:relative;white-space:nowrap}.dao-radio-grid svg.checked-icon{position:absolute;top:-8px;right:0;width:16px;height:16px;border-radius:50%;fill:#3890ff;background-color:#fff}.dao-radio-grid-wrap{padding:22px 40px 16px;background-color:#fff;border:1px solid #ccd1d9;border-radius:4px;text-align:center;cursor:pointer;font-weight:400;line-height:21px;overflow:hidden}.dao-radio-grid-img{display:inline-block;margin-bottom:10px;width:40px;height:40px}.dao-radio-grid-img img,.dao-radio-grid-img svg{width:100%;height:100%;fill:#3d444f}.dao-radio-grid-description,.dao-radio-grid-headline{overflow:hidden;text-overflow:ellipsis}.dao-radio-grid-headline{color:#3d444f;font-size:14px;text-shadow:0 1px 0 hsla(0,0%,100%,.9)}.dao-radio-grid-description{color:#9ba3af;font-size:12px;text-shadow:0 1px 0 hsla(0,0%,100%,.9)}.dao-radio-grid:focus .dao-radio-grid-wrap,.dao-radio-grid:hover .dao-radio-grid-wrap{background-color:rgba(245,247,250,.8);box-shadow:0 1px 1px rgba(0,0,0,.08)}.dao-radio-grid.active .dao-radio-grid-wrap{opacity:1;background-image:linear-gradient(0deg,#f0f7ff,#fbfdff);background-color:#f7fbff;border:1px solid #3890ff;box-shadow:0 0 0 2px rgba(56,144,255,.15)}.dao-radio-grid.active .dao-radio-grid-img img,.dao-radio-grid.active .dao-radio-grid-img svg{fill:#3890ff}", ""]);
 	
 	// exports
 
@@ -1097,6 +1097,12 @@
 	__webpack_require__(108);
 	
 	__webpack_require__(109);
+	
+	__webpack_require__(110);
+	
+	__webpack_require__(111);
+	
+	__webpack_require__(112);
 
 /***/ },
 /* 28 */
@@ -1104,8 +1110,8 @@
 
 	;
 	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-minus-circled\" > <title>minus-circled</title> <path d=\"M16,1.2A14.8,14.8,0,1,0,30.8,16,14.8,14.8,0,0,0,16,1.2ZM24,18H8V14H24v4Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon-minus-circled");
+	var image = "<symbol viewBox=\"0 0 64 64\" id=\"icon_chart\" > <title>icon</title> <polygon points=\"8 54 8 8 6 8 6 56 62 56 62 54 8 54\" opacity=\"0.9\"/> <path d=\"M14.1,22h3.8A2.1,2.1,0,0,1,20,24.1V50a0,0,0,0,1,0,0H12a0,0,0,0,1,0,0V24.1A2.1,2.1,0,0,1,14.1,22Z\" opacity=\"0.5\"/> <path d=\"M26.1,8h3.8A2.1,2.1,0,0,1,32,10.1V50a0,0,0,0,1,0,0H24a0,0,0,0,1,0,0V10.1A2.1,2.1,0,0,1,26.1,8Z\" opacity=\"0.9\"/> <path d=\"M38.1,34h3.8A2.1,2.1,0,0,1,44,36.1V50a0,0,0,0,1,0,0H36a0,0,0,0,1,0,0V36.1A2.1,2.1,0,0,1,38.1,34Z\" opacity=\"0.5\"/> <path d=\"M50.1,44h3.8A2.1,2.1,0,0,1,56,46.1V50a0,0,0,0,1,0,0H48a0,0,0,0,1,0,0V46.1A2.1,2.1,0,0,1,50.1,44Z\" opacity=\"0.9\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_chart");
 
 /***/ },
 /* 29 */
@@ -1381,605 +1387,11 @@
 
 	;
 	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-plus-circled\" > <title>plus-circled</title> <path d=\"M16,1.2A14.8,14.8,0,1,0,30.8,16,14.8,14.8,0,0,0,16,1.2ZM24,18H18v6H14V18H8V14h6V8h4v6h6v4Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon-plus-circled");
-
-/***/ },
-/* 32 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-success\" > <title>success</title> <path d=\"M16,1.2A14.8,14.8,0,1,0,30.8,16,14.8,14.8,0,0,0,16,1.2ZM13.773,23.268L6.956,16.452l2.177-2.177,4.64,4.64L22.867,9.82,25.044,12Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon-success");
-
-/***/ },
-/* 33 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-warning\" > <title>warning</title> <path d=\"M31.431,27.954L17.181,3.274a1.364,1.364,0,0,0-2.362,0L0.569,27.954A1.364,1.364,0,0,0,1.751,30h28.5A1.364,1.364,0,0,0,31.431,27.954ZM16,27.129a1.539,1.539,0,1,1,1.539-1.539A1.539,1.539,0,0,1,16,27.129Zm1.135-4.677H14.865l-0.4-11.6h3.078Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon-warning");
-
-/***/ },
-/* 34 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon\" > <title>placeholder</title> <path d=\"M32,14V0H18V4H14V0H0V14H4v4H0V32H14V28h4v4H32V18H28V14h4ZM18,18H14V14h4v4Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon");
-
-/***/ },
-/* 35 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_archive\" > <title>archive</title> <g> <path d=\"M2.1,2H29.9A2.1,2.1,0,0,1,32,4.1V8a0,0,0,0,1,0,0H0A0,0,0,0,1,0,8V4.1A2.1,2.1,0,0,1,2.1,2Z\"/> <path d=\"M2,10V27.9A2.1,2.1,0,0,0,4.1,30H27.9A2.1,2.1,0,0,0,30,27.9V10H2Zm20,7a1,1,0,0,1-1,1H11a1,1,0,0,1-1-1V15a1,1,0,0,1,1-1H21a1,1,0,0,1,1,1v2Z\"/> </g> </symbol>";
-	module.exports = sprite.add(image, "icon_archive");
-
-/***/ },
-/* 36 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_arrow-right\" > <title>arrow-right</title> <polygon points=\"26 16 16 6 16 12 6 12 6 20 16 20 16 26 26 16\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_arrow-right");
-
-/***/ },
-/* 37 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_browser\" > <title>browser</title> <path d=\"M29.9,4H2.1A2.1,2.1,0,0,0,0,6.1V25.9A2.1,2.1,0,0,0,2.1,28H29.9A2.1,2.1,0,0,0,32,25.9V6.1A2.1,2.1,0,0,0,29.9,4ZM7,6A1,1,0,1,1,6,7,1,1,0,0,1,7,6ZM3,6A1,1,0,1,1,2,7,1,1,0,0,1,3,6ZM30,26H2V10H30V26ZM30,8H10V6H30V8Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_browser");
-
-/***/ },
-/* 38 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_building\" > <title>building</title> <path d=\"M23.9,2H6.1A2.1,2.1,0,0,0,4,4.1V27.9A2.1,2.1,0,0,0,6.1,30H23.9A2.1,2.1,0,0,0,26,27.9V4.1A2.1,2.1,0,0,0,23.9,2ZM12,6h2V8H12V6Zm0,4h2v2H12V10Zm0,4h2v2H12V14Zm0,4h2v2H12V18Zm-2,6H8V22h2v2Zm0-4H8V18h2v2Zm0-4H8V14h2v2Zm0-4H8V10h2v2Zm0-4H8V6h2V8Zm8,20H12V24h6v4Zm0-8H16V18h2v2Zm0-4H16V14h2v2Zm0-4H16V10h2v2Zm0-4H16V6h2V8Zm4,16H20V22h2v2Zm0-4H20V18h2v2Zm0-4H20V14h2v2Zm0-4H20V10h2v2Zm0-4H20V6h2V8Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_building");
-
-/***/ },
-/* 39 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_calendar\" > <title>calendar</title> <g> <path d=\"M27.9,4H24V2H20V4H12V2H8V4H4.1A2.1,2.1,0,0,0,2,6.1V27.9A2.1,2.1,0,0,0,4.1,30H27.9A2.1,2.1,0,0,0,30,27.9V6.1A2.1,2.1,0,0,0,27.9,4ZM28,28H4V11H28V28Z\"/> <rect x=\"19\" y=\"19\" width=\"5\" height=\"5\"/> </g> </symbol>";
-	module.exports = sprite.add(image, "icon_calendar");
-
-/***/ },
-/* 40 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_caret-down\" > <title>caret-down</title> <polygon points=\"6.411 13.369 8.589 11.191 16 18.602 23.411 11.191 25.589 13.369 16 22.958 6.411 13.369\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_caret-down");
-
-/***/ },
-/* 41 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_caret-left\" > <title>caret-left</title> <polygon points=\"18.631 6.411 20.809 8.589 13.398 16 20.809 23.411 18.631 25.589 9.042 16 18.631 6.411\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_caret-left");
-
-/***/ },
-/* 42 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_caret-right\" > <title>caret-right</title> <polygon points=\"13.369 25.589 11.191 23.411 18.602 16 11.191 8.589 13.369 6.411 22.958 16 13.369 25.589\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_caret-right");
-
-/***/ },
-/* 43 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_caret-up\" > <title>caret-up</title> <polygon points=\"25.589 18.631 23.411 20.809 16 13.398 8.589 20.809 6.411 18.631 16 9.042 25.589 18.631\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_caret-up");
-
-/***/ },
-/* 44 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_ccw-alt\" > <title>ccw-alt</title> <path d=\"M6.675,25.334a13.215,13.215,0,0,0,18.668,0L28.008,28l0.46-8.379-8.379.46,2.992,2.992A10.039,10.039,0,1,1,25.9,14.6l3.19-.175A13.188,13.188,0,1,0,6.675,25.334Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_ccw-alt");
-
-/***/ },
-/* 45 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_ccw\" > <title>ccw</title> <path d=\"M17.884,2.8A13.215,13.215,0,0,0,4.684,16H0.916l5.6,6.25,5.6-6.25H7.884a10.039,10.039,0,1,1,4,7.979L9.75,26.358A13.188,13.188,0,1,0,17.884,2.8Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_ccw");
-
-/***/ },
-/* 46 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_checkmark\" > <title>checkmark</title> <polygon points=\"12.113 28.685 0.216 16.788 4.015 12.989 12.113 21.086 27.985 5.215 31.784 9.014 12.113 28.685\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_checkmark");
-
-/***/ },
-/* 47 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_circle-rotate\" > <title>circle-rotate</title> <g> <path d=\"M16,1.2A14.8,14.8,0,1,0,30.8,16,14.8,14.8,0,0,0,16,1.2Zm0,24.272A9.472,9.472,0,1,1,25.472,16,9.472,9.472,0,0,1,16,25.472Z\" opacity=\"0.5\"/> <path d=\"M2.256,10.5l4.95,1.98A9.473,9.473,0,0,1,16,6.528V1.2A14.8,14.8,0,0,0,2.256,10.5Z\"/> </g> </symbol>";
-	module.exports = sprite.add(image, "icon_circle-rotate");
-
-/***/ },
-/* 48 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_city\" > <title>city</title> <path d=\"M27.9,14H22.1A2.1,2.1,0,0,0,20,16.1V2.1A2.1,2.1,0,0,0,17.9,0H14.1A2.1,2.1,0,0,0,12,2.1v6A2.1,2.1,0,0,0,9.9,6H4.1A2.1,2.1,0,0,0,2,8.1V30H30V16.1A2.1,2.1,0,0,0,27.9,14ZM6,28H4V24H6v4Zm0-6H4V20H6v2Zm0-4H4V16H6v2Zm0-4H4V12H6v2Zm0-4H4V8H6v2Zm4,18H8V24h2v4Zm0-6H8V20h2v2Zm0-4H8V16h2v2Zm0-4H8V12h2v2Zm0-4H8V8h2v2Zm8,18H14V24h4v4Zm0-6H14V20h4v2Zm0-4H14V16h4v2Zm0-4H14V12h4v2Zm0-4H14V8h4v2Zm0-4H14V4h4V6Zm6,22H22V24h2v4Zm0-6H22V20h2v2Zm0-4H22V16h2v2Zm4,10H26V24h2v4Zm0-6H26V20h2v2Zm0-4H26V16h2v2Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_city");
-
-/***/ },
-/* 49 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_clipboard-success\" > <title>clipboard-success</title> <g> <rect x=\"10\" y=\"24\" width=\"6\" height=\"2\"/> <rect x=\"10\" y=\"20\" width=\"4\" height=\"2\"/> <rect x=\"10\" y=\"16\" width=\"6\" height=\"2\"/> <rect x=\"10\" y=\"12\" width=\"10\" height=\"2\"/> <path d=\"M24,24v4H8V10H24v6h2V6.1A2.1,2.1,0,0,0,23.9,4H18.816a2.982,2.982,0,0,0-5.631,0H8.1A2.1,2.1,0,0,0,6,6.1V27.9A2.1,2.1,0,0,0,8.1,30H23.9A2.1,2.1,0,0,0,26,27.9V24H24ZM10.618,6h2.449A0.962,0.962,0,0,0,14,4.993a2,2,0,0,1,2.3-1.971,2.148,2.148,0,0,1,1.7,2.1A0.986,0.986,0,0,0,19,6h2.38a1,1,0,0,1,.894.553L23,8H9L9.724,6.553A1,1,0,0,1,10.618,6Z\"/> <polygon points=\"20.949 25.38 16.508 20.94 17.926 19.522 20.949 22.544 26.874 16.62 28.292 18.038 20.949 25.38\"/> </g> </symbol>";
-	module.exports = sprite.add(image, "icon_clipboard-success");
-
-/***/ },
-/* 50 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_clipboard\" > <title>clipboard</title> <g> <rect x=\"10\" y=\"24\" width=\"6\" height=\"2\"/> <rect x=\"10\" y=\"20\" width=\"4\" height=\"2\"/> <rect x=\"10\" y=\"16\" width=\"6\" height=\"2\"/> <rect x=\"10\" y=\"12\" width=\"10\" height=\"2\"/> <polygon points=\"28 20 21 20 21 17 16.376 21 21 25 21 22 28 22 28 20\"/> <path d=\"M24,24v4H8V10H24v8h2V6.1A2.1,2.1,0,0,0,23.9,4H18.816a2.982,2.982,0,0,0-5.631,0H8.1A2.1,2.1,0,0,0,6,6.1V27.9A2.1,2.1,0,0,0,8.1,30H23.9A2.1,2.1,0,0,0,26,27.9V24H24ZM10.618,6h2.449A0.962,0.962,0,0,0,14,4.993a2,2,0,0,1,2.3-1.971,2.148,2.148,0,0,1,1.7,2.1A0.986,0.986,0,0,0,19,6h2.38a1,1,0,0,1,.894.553L23,8H9L9.724,6.553A1,1,0,0,1,10.618,6Z\"/> </g> </symbol>";
-	module.exports = sprite.add(image, "icon_clipboard");
-
-/***/ },
-/* 51 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_close-circled\" > <title>close-circled</title> <path d=\"M16,1.2A14.8,14.8,0,1,0,30.8,16,14.8,14.8,0,0,0,16,1.2Zm6.859,19.538-2.121,2.121L16,18.121l-4.738,4.738L9.141,20.738,13.879,16,9.141,11.262l2.121-2.121L16,13.879l4.738-4.738,2.121,2.121L18.121,16Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_close-circled");
-
-/***/ },
-/* 52 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_console-alt\" > <title>console-alt</title> <path d=\"M29.9,4H2.1A2.1,2.1,0,0,0,0,6.1V25.9A2.1,2.1,0,0,0,2.1,28H29.9A2.1,2.1,0,0,0,32,25.9V6.1A2.1,2.1,0,0,0,29.9,4ZM7.707,23.041L6.293,21.626,11.919,16,6.293,10.374,7.707,8.959,14.748,16ZM26,23H16V21H26v2Z\"/> <g> <rect y=\"31\" width=\"1\" height=\"1\" fill=\"#fcfcfc\" opacity=\"0.01\"/> <rect x=\"31\" width=\"1\" height=\"1\" fill=\"#fcfcfc\" opacity=\"0.01\"/> <rect width=\"1\" height=\"1\" fill=\"#fcfcfc\" opacity=\"0.01\"/> <rect x=\"31\" y=\"31\" width=\"1\" height=\"1\" fill=\"#fcfcfc\" opacity=\"0.01\"/> </g> </symbol>";
-	module.exports = sprite.add(image, "icon_console-alt");
-
-/***/ },
-/* 53 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_console\" > <title>console</title> <g> <path d=\"M29.9,4H2.1A2.1,2.1,0,0,0,0,6.1V25.9A2.1,2.1,0,0,0,2.1,28H29.9A2.1,2.1,0,0,0,32,25.9V6.1A2.1,2.1,0,0,0,29.9,4ZM30,26H2V6H30V26Z\"/> <path d=\"M3,7V25H29V7H3ZM9.207,21.707L7.793,20.293,12.086,16,7.793,11.707l1.414-1.414L14.914,16ZM24,22H16V20h8v2Z\"/> </g> <g> <rect y=\"31\" width=\"1\" height=\"1\" fill=\"#fcfcfc\" opacity=\"0.01\"/> <rect x=\"31\" width=\"1\" height=\"1\" fill=\"#fcfcfc\" opacity=\"0.01\"/> <rect width=\"1\" height=\"1\" fill=\"#fcfcfc\" opacity=\"0.01\"/> <rect x=\"31\" y=\"31\" width=\"1\" height=\"1\" fill=\"#fcfcfc\" opacity=\"0.01\"/> </g> </symbol>";
-	module.exports = sprite.add(image, "icon_console");
-
-/***/ },
-/* 54 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_container-small-alt\" > <title>container-small-alt</title> <g> <g> <polygon points=\"29.714 8.001 29.714 8 29.714 8 29.714 8.001\"/> <polygon points=\"17 16.574 17 31.417 29.714 24 29.714 9.157 17 16.574\"/> </g> <g> <polygon points=\"2.286 8 2.286 8 2.286 8.001 2.286 8\"/> <polygon points=\"15 16.574 2.286 9.157 2.286 24 15 31.417 15 16.574\"/> </g> <g> <polygon points=\"16 14.842 28.722 7.421 16 0 3.278 7.421 16 14.842\"/> <polygon points=\"29.714 8 29.714 8 29.714 8 29.714 8\"/> <polygon points=\"2.286 8 2.286 8 2.286 8 2.286 8\"/> </g> </g> </symbol>";
-	module.exports = sprite.add(image, "icon_container-small-alt");
-
-/***/ },
-/* 55 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_container-small\" > <title>container-small</title> <g> <polygon points=\"17 16.574 17 29.417 28 23 28 10.158 17 16.574\"/> <polygon points=\"16 14.842 27.008 8.421 16 2 4.992 8.421 16 14.842\"/> <polygon points=\"15 16.574 4 10.158 4 23 15 29.417 15 16.574\"/> </g> </symbol>";
-	module.exports = sprite.add(image, "icon_container-small");
-
-/***/ },
-/* 56 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_cw-alt\" > <title>cw-alt</title> <path d=\"M25.325,25.334a13.215,13.215,0,0,1-18.668,0L3.992,28,3.533,19.62l8.379,0.46L8.92,23.071A10.039,10.039,0,1,0,6.1,14.6l-3.19-.175A13.188,13.188,0,1,1,25.325,25.334Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_cw-alt");
-
-/***/ },
-/* 57 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_cw\" > <title>cw</title> <path d=\"M14.116,2.8A13.215,13.215,0,0,1,27.316,16h3.769l-5.6,6.25L19.884,16h4.231a10.039,10.039,0,1,0-4,7.979l2.132,2.379A13.188,13.188,0,1,1,14.116,2.8Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_cw");
-
-/***/ },
-/* 58 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_daocloud\" > <title>daocloud</title> <g> <polygon points=\"16.092 9.623 21.471 6.97 16.067 4.612 10.664 6.946 16.092 9.623\"/> <polygon points=\"10.566 16.894 10.295 12.521 14.225 10.556 8.674 7.806 5.088 9.378 5.555 13.578 10.566 16.894\"/> <polygon points=\"26.58 13.553 27.096 9.378 23.461 7.806 17.959 10.556 21.938 12.521 21.619 16.894 26.58 13.553\"/> <polygon points=\"21.471 18.981 21.078 24.68 25.647 21.241 26.334 15.715 21.471 18.981\"/> <polygon points=\"10.688 18.981 5.825 15.715 6.464 21.266 11.057 24.68 10.688 18.981\"/> <polygon points=\"19.752 20.136 16.117 22.592 12.432 20.136 12.801 25.981 16.092 28.438 19.334 25.981 19.752 20.136\"/> </g> </symbol>";
-	module.exports = sprite.add(image, "icon_daocloud");
-
-/***/ },
-/* 59 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_deploy\" > <title>deploy</title> <path d=\"M27.436,13.988V13.98A8.5,8.5,0,0,0,12.446,8.49a5.192,5.192,0,0,0-7.063,4.853c0,0.149.01,0.3,0.022,0.442A6.153,6.153,0,0,0,6.456,26H14V18H9.5L16,11.5,22.5,18H18v8h7.544A6.155,6.155,0,0,0,27.436,13.988Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_deploy");
-
-/***/ },
-/* 60 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_desktop\" > <title>desktop</title> <path d=\"M29.9,2H2.1A2.1,2.1,0,0,0,0,4.1V21.9A2.1,2.1,0,0,0,2.1,24H13l-0.8,4H10v2H22V28H19.8L19,24H29.9A2.1,2.1,0,0,0,32,21.9V4.1A2.1,2.1,0,0,0,29.9,2ZM30,20H2V4H30V20Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_desktop");
-
-/***/ },
-/* 61 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_docker-image\" > <title>docker-image</title> <g> <path d=\"M18.13,0H6.1A2.1,2.1,0,0,0,4,2.1V29.9A2.1,2.1,0,0,0,6.1,32H25.9A2.1,2.1,0,0,0,28,29.9V9.87a2.1,2.1,0,0,0-.615-1.485l-7.77-7.77A2.1,2.1,0,0,0,18.13,0ZM25,9H19V3Zm1,21H6V2H17v9h9V30Z\"/> <g> <polygon points=\"16 28.706 16 28.706 16 28.706 16 28.706\"/> <polygon points=\"22.896 16.639 22.896 16.638 22.896 16.638 22.896 16.639\"/> <polygon points=\"16.5 20.948 16.5 28.414 22.896 24.684 22.896 17.217 16.5 20.948\"/> </g> <g> <polygon points=\"9.104 16.638 9.104 16.638 9.104 16.639 9.104 16.638\"/> <polygon points=\"16 28.706 16 28.706 16 28.706 16 28.706\"/> <polygon points=\"15.5 20.948 9.104 17.217 9.104 24.684 15.5 28.414 15.5 20.948\"/> </g> <g> <polygon points=\"22.896 16.638 22.896 16.638 22.895 16.638 22.896 16.638\"/> <polygon points=\"16 20.082 22.4 16.349 16 12.616 9.6 16.349 16 20.082\"/> <polygon points=\"9.105 16.638 9.104 16.638 9.104 16.638 9.105 16.638\"/> </g> </g> </symbol>";
-	module.exports = sprite.add(image, "icon_docker-image");
-
-/***/ },
-/* 62 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_down-arrow\" > <title>down-arrow</title> <polygon points=\"8 12 24 12 16 22 8 12\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_down-arrow");
-
-/***/ },
-/* 63 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_eye\" > <title>eye</title> <g> <path d=\"M16,5.6C7.163,5.6,0,16,0,16S7.163,26.4,16,26.4,32,16,32,16,24.836,5.6,16,5.6Zm0,17.6A7.2,7.2,0,1,1,23.2,16,7.2,7.2,0,0,1,16,23.2Z\"/> <path d=\"M16,16h4.3a4.3,4.3,0,1,1-1.585-3.334Z\"/> </g> </symbol>";
-	module.exports = sprite.add(image, "icon_eye");
-
-/***/ },
-/* 64 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_filter\" > <title>filter</title> <path d=\"M27.26,4H4.74A1.737,1.737,0,0,0,3.5,6.957L14,17.592V26.4a2.1,2.1,0,0,0,.615,1.485l1.849,1.849A0.9,0.9,0,0,0,18,29.1V17.592L28.5,6.957A1.737,1.737,0,0,0,27.26,4Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_filter");
-
-/***/ },
-/* 65 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_folder-move\" > <title>folder-move</title> <path d=\"M29.9,6H12L10,4H2.1A2.1,2.1,0,0,0,0,6.1V25.9A2.1,2.1,0,0,0,2.1,28H29.9A2.1,2.1,0,0,0,32,25.9V8.1A2.1,2.1,0,0,0,29.9,6ZM16,25L9,18h5V10h4v8h5Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_folder-move");
-
-/***/ },
-/* 66 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_folder\" > <title>folder</title> <path d=\"M29.9,6H12L10,4H2.1A2.1,2.1,0,0,0,0,6.1V25.9A2.1,2.1,0,0,0,2.1,28H29.9A2.1,2.1,0,0,0,32,25.9V8.1A2.1,2.1,0,0,0,29.9,6Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_folder");
-
-/***/ },
-/* 67 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_foot\" > <title>foot</title> <g> <circle cx=\"19.9\" cy=\"4.32\" r=\"2.92\"/> <circle cx=\"13.612\" cy=\"5.341\" r=\"1.84\"/> <circle cx=\"9.741\" cy=\"8.16\" r=\"1.5\"/> <circle cx=\"7.3\" cy=\"11.4\" r=\"1.45\"/> <path d=\"M22.076,24.07a3.915,3.915,0,0,1-3.084,6.43,3.6,3.6,0,0,1-2.3-.722,4.433,4.433,0,0,1-1.443-1.968l-4.921-8.661a7.238,7.238,0,0,1-.722-1.64,8.144,8.144,0,0,1-.328-2.165,6.627,6.627,0,0,1,2.034-4.855,6.627,6.627,0,0,1,4.855-2.034,7.01,7.01,0,0,1,3.477.919,6.685,6.685,0,0,1,2.493,2.559,6.89,6.89,0,0,1,.919,3.412,6.717,6.717,0,0,1-1.115,3.871A4.832,4.832,0,0,0,22.076,24.07Z\"/> </g> </symbol>";
-	module.exports = sprite.add(image, "icon_foot");
-
-/***/ },
-/* 68 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_globe-alt\" > <title>globe-alt</title> <path d=\"M16,1.2A14.8,14.8,0,1,0,30.8,16,14.8,14.8,0,0,0,16,1.2ZM3.314,16a12.634,12.634,0,0,1,.369-3H9.965a21.026,21.026,0,0,0,0,6H3.684A12.634,12.634,0,0,1,3.314,16Zm8.55,0a19.918,19.918,0,0,1,.238-3h7.8a19.952,19.952,0,0,1,.237,3,19.826,19.826,0,0,1-.239,3H12.1A19.927,19.927,0,0,1,11.864,16Zm10.171-3h6.282a12.362,12.362,0,0,1,0,6H22.035a22.1,22.1,0,0,0,.215-3A22.085,22.085,0,0,0,22.035,13Zm5.611-2H21.677a22.213,22.213,0,0,0-3.271-7.45A12.724,12.724,0,0,1,27.646,11ZM16,3.837A20.1,20.1,0,0,1,19.5,11h-7A20.118,20.118,0,0,1,16,3.837Zm-2.416-.286A22.23,22.23,0,0,0,10.322,11H4.354A12.724,12.724,0,0,1,13.586,3.551ZM4.354,21h5.969a22.243,22.243,0,0,0,3.271,7.451A12.724,12.724,0,0,1,4.354,21Zm11.639,7.153A20.111,20.111,0,0,1,12.5,21H19.5A20.156,20.156,0,0,1,15.993,28.153Zm2.412,0.3A22.194,22.194,0,0,0,21.677,21h5.969A12.724,12.724,0,0,1,18.405,28.451Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_globe-alt");
-
-/***/ },
-/* 69 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_globe\" > <title>globe</title> <path d=\"M24.965,24.965a12.49,12.49,0,0,0,3.344-5.835l-1.352-.142a5.911,5.911,0,0,1-1.637-3.2q-0.071-.64-0.071-1.992a11.257,11.257,0,0,0-.142-2.063,5.553,5.553,0,0,0-.961-1.779,9.973,9.973,0,0,1-.961-1.494q-0.213-.5-0.676-1.494T21.763,5.469a0.816,0.816,0,0,1,.249.071,0.764,0.764,0,0,1,.249.142,6,6,0,0,1,1-.142A11.844,11.844,0,0,0,17.85,3.477V4.046l0.285,0.64-1,.925L16.5,5.4l-0.712-.712-0.712-.854-1-.356a13.264,13.264,0,0,0-3.2.925V4.9a2.754,2.754,0,0,1,.783-0.285,4.411,4.411,0,0,0,.854-0.285,2.681,2.681,0,0,1,1.138.64q-0.071.071-.783,0.676a3.022,3.022,0,0,0-.783.818,0.833,0.833,0,0,0,.249.32,0.685,0.685,0,0,1,.249.391q0,0.213-.036.6t-0.036.6a18.445,18.445,0,0,1,1.565-1.494,1.974,1.974,0,0,1,1.565.6,3.03,3.03,0,0,1,1.067,1.245,0.716,0.716,0,0,1-.285.6,11.281,11.281,0,0,1-1.138,1.032q-0.783.64-.925,0.783a4.577,4.577,0,0,1-.64.462,2.748,2.748,0,0,0-.712.6,0.619,0.619,0,0,0-.071.64q0.712,1.423.356,1.708a0.282,0.282,0,0,1-.356.036,0.886,0.886,0,0,1-.32-0.249q-0.107-.142-0.285-0.356t-0.249-.285q-0.427-.5-2.7-0.5,0,2.277,1.067,3.06,2.917,2.135,3.344,2.348a3.262,3.262,0,0,0,1.708,0,2.383,2.383,0,0,1,1.637.071,22.96,22.96,0,0,0,3.344,2.063,4.051,4.051,0,0,1,1.423.961q0.783,0.747.427,1.245a15.577,15.577,0,0,0-1,1.637,4.227,4.227,0,0,1-1.423,1.779,4.955,4.955,0,0,0-1.494,2.063A12.607,12.607,0,0,0,24.965,24.965ZM14.435,28.594l0.391-.783,0.391-.783a1.334,1.334,0,0,0,.142-0.6,0.791,0.791,0,0,0-.356-0.6q-1.138-1-1.637-1.494a3.246,3.246,0,0,1-.427-0.818,1.521,1.521,0,0,1-.213-0.818,5.975,5.975,0,0,0,.569-1.708,1.466,1.466,0,0,0-.925-1.565,6.478,6.478,0,0,1-1-.712q-0.5-.427-1.1-0.925T9.312,17a4.214,4.214,0,0,1-1.423-1.352q-0.64-1.85-.712-1.992A4.484,4.484,0,0,1,6.394,11.7a6.735,6.735,0,0,1,.071-2.17q0-.5-0.142-1.779A12.1,12.1,0,0,0,3.335,16a12.21,12.21,0,0,0,3.7,8.965A12.48,12.48,0,0,0,14.435,28.594ZM16,1.2A14.256,14.256,0,0,1,26.46,5.54,14.256,14.256,0,0,1,30.8,16a14.256,14.256,0,0,1-4.34,10.46A14.256,14.256,0,0,1,16,30.8,14.256,14.256,0,0,1,5.54,26.46,14.256,14.256,0,0,1,1.2,16,14.256,14.256,0,0,1,5.54,5.54,14.256,14.256,0,0,1,16,1.2Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_globe");
-
-/***/ },
-/* 70 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_hashtag\" > <title>hashtag</title> <g> <path d=\"M27.9,2H4.1A2.1,2.1,0,0,0,2,4.1V27.9A2.1,2.1,0,0,0,4.1,30H27.9A2.1,2.1,0,0,0,30,27.9V4.1A2.1,2.1,0,0,0,27.9,2ZM25,14H20.984L19.9,18H24v2H19.357l-1.335,4.921H15.731L17.065,20h-4.3l-1.335,4.921H9.139L10.473,20H7V18h4.016L12.1,14H8V12h4.643l1.335-4.922h2.292L14.935,12h4.3l1.335-4.922h2.292L21.527,12H25v2Z\"/> <polygon points=\"13.308 18 17.608 18 18.692 14 14.392 14 13.308 18\"/> </g> </symbol>";
-	module.exports = sprite.add(image, "icon_hashtag");
-
-/***/ },
-/* 71 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_id\" > <title>id</title> <path d=\"M29.9,4H2.1A2.1,2.1,0,0,0,0,6.1V25.9A2.1,2.1,0,0,0,2.1,28H29.9A2.1,2.1,0,0,0,32,25.9V6.1A2.1,2.1,0,0,0,29.9,4ZM4.012,19.751a2.342,2.342,0,0,1,.127-0.6,1.393,1.393,0,0,1,.324-0.562,2.5,2.5,0,0,1,.788-0.446q0.591-.243,1.338-0.513a10.458,10.458,0,0,0,1.1-.449,1.606,1.606,0,0,0,.683-0.663,1.841,1.841,0,0,0,.243-0.906,1.241,1.241,0,0,0-.382-0.753,2.336,2.336,0,0,1-.382-0.718,0.866,0.866,0,0,1-.533-0.9,1.211,1.211,0,0,1,.168-0.724q-0.046-.319-0.1-0.979a2.027,2.027,0,0,1,.171-0.982A2.723,2.723,0,0,1,8.129,9.7a2.958,2.958,0,0,1,.86-0.594,2.346,2.346,0,0,1,2.021,0,2.958,2.958,0,0,1,.86.594,2.723,2.723,0,0,1,.576.854,2.027,2.027,0,0,1,.171.982q-0.058.66-.1,0.979a1.211,1.211,0,0,1,.168.724,0.866,0.866,0,0,1-.533.9,2.336,2.336,0,0,1-.382.718,1.241,1.241,0,0,0-.382.753,1.841,1.841,0,0,0,.243.906,1.606,1.606,0,0,0,.683.663,10.458,10.458,0,0,0,1.1.449q0.747,0.269,1.338.513a2.5,2.5,0,0,1,.788.446,1.393,1.393,0,0,1,.324.562,2.342,2.342,0,0,1,.127.6L16,20H4ZM28,24H4V22H28v2Zm0-4H18V18H28v2Zm0-4H18V14H28v2Zm0-4H18V10H28v2Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_id");
-
-/***/ },
-/* 72 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_inbox\" > <title>inbox</title> <path d=\"M27.879,3.515A2,2,0,0,0,25.938,2H6.062a2,2,0,0,0-1.94,1.515L0,20v7.9A2.1,2.1,0,0,0,2.1,30H29.9A2.1,2.1,0,0,0,32,27.9V20ZM28.658,20H21a1,1,0,0,0-1,1v2a1,1,0,0,1-1,1H13a1,1,0,0,1-1-1V21a1,1,0,0,0-1-1H3.342a1,1,0,0,1-.97-1.243L5.91,4.606A0.8,0.8,0,0,1,6.686,4H25.314a0.8,0.8,0,0,1,.776.606l3.538,14.151A1,1,0,0,1,28.658,20Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_inbox");
-
-/***/ },
-/* 73 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_location\" > <title>location</title> <path d=\"M16,1.849A10.438,10.438,0,0,0,5.562,12.287C5.562,22,16,30,16,30s10.438-8,10.438-17.713A10.438,10.438,0,0,0,16,1.849Zm0,15.645a5.207,5.207,0,1,1,5.207-5.207A5.207,5.207,0,0,1,16,17.494Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_location");
-
-/***/ },
-/* 74 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_lock-small\" > <title>lock-small</title> <path d=\"M22,14V11.9a6,6,0,1,0-12,0V14H8V24H24V14H22ZM12,11.9a4,4,0,1,1,8,0V14H12V11.9Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_lock-small");
-
-/***/ },
-/* 75 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_mail\" > <title>mail</title> <g> <polygon points=\"0 9.5 0 25 9.538 15.462 0 9.5\"/> <path d=\"M20.615,16.615L16,19.5l-4.615-2.885L0.615,27.385A2.093,2.093,0,0,0,2.1,28H29.9a2.093,2.093,0,0,0,1.485-.615Z\"/> <polygon points=\"32 25 32 9.5 22.462 15.462 32 25\"/> <path d=\"M29.9,4H2.1A2.1,2.1,0,0,0,0,6.1V7L16,17,32,7V6.1A2.1,2.1,0,0,0,29.9,4Z\"/> </g> </symbol>";
-	module.exports = sprite.add(image, "icon_mail");
-
-/***/ },
-/* 76 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_mobile\" > <title>mobile</title> <path d=\"M21.9,2H10.1A2.1,2.1,0,0,0,8,4.1V27.9A2.1,2.1,0,0,0,10.1,30H21.9A2.1,2.1,0,0,0,24,27.9V4.1A2.1,2.1,0,0,0,21.9,2ZM16,29.3A1.3,1.3,0,1,1,17.3,28,1.3,1.3,0,0,1,16,29.3ZM22,26H10V6H22V26Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_mobile");
-
-/***/ },
-/* 77 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_pause\" > <title>pause</title> <g> <rect x=\"20\" y=\"4\" width=\"6\" height=\"24\"/> <rect x=\"6\" y=\"4\" width=\"6\" height=\"24\"/> </g> </symbol>";
-	module.exports = sprite.add(image, "icon_pause");
-
-/***/ },
-/* 78 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_pencil-edit\" > <title>pencil-edit</title> <g> <path d=\"M20,2H4.1A2.1,2.1,0,0,0,2,4.1V27.9A2.1,2.1,0,0,0,4.1,30H27.9A2.1,2.1,0,0,0,30,27.9V12l-2,2V28H4V4H18Z\"/> <path d=\"M30,4.979a0.984,0.984,0,0,0-.054-0.328,4.287,4.287,0,0,0-2.6-2.6A0.984,0.984,0,0,0,27.021,2H25.757L24.343,3.414l4.243,4.243L30,6.243V4.979Z\"/> <polygon points=\"22.984 4.774 11.615 16.142 9.494 22.506 15.858 20.385 27.226 9.016 22.984 4.774\"/> </g> </symbol>";
-	module.exports = sprite.add(image, "icon_pencil-edit");
-
-/***/ },
-/* 79 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_play\" > <title>play</title> <polygon points=\"8 28 8 4 28 16 8 28\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_play");
-
-/***/ },
-/* 80 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_plugged\" > <title>plugged</title> <g> <path d=\"M17.893,18H16V14h1.893a2.074,2.074,0,0,0,2.08-1.664A2,2,0,0,0,18,10H16V6H10a6,6,0,0,0-6,6v8a6,6,0,0,0,6,6h6V22h2a2,2,0,0,0,1.973-2.336A2.074,2.074,0,0,0,17.893,18Z\"/> <path d=\"M22,6H16v4h1.893a2.074,2.074,0,0,1,2.08,1.664A2,2,0,0,1,18,14H16v4h1.893a2.074,2.074,0,0,1,2.08,1.664A2,2,0,0,1,18,22H16v4h6a6,6,0,0,0,6-6V12A6,6,0,0,0,22,6Z\" opacity=\"0.4\"/> </g> </symbol>";
-	module.exports = sprite.add(image, "icon_plugged");
-
-/***/ },
-/* 81 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_plus\" > <title>plus</title> <polygon points=\"28 14 18 14 18 4 14 4 14 14 4 14 4 18 14 18 14 28 18 28 18 18 28 18 28 14\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_plus");
-
-/***/ },
-/* 82 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_puzzle\" > <title>puzzle</title> <path d=\"M27.8,14a3.78,3.78,0,0,0-1.8.471V6H17.529A3.78,3.78,0,0,0,18,4.2a4,4,0,0,0-8,0A3.78,3.78,0,0,0,10.471,6H2v8.471A3.78,3.78,0,0,1,3.8,14a4,4,0,0,1,0,8A3.78,3.78,0,0,1,2,21.529V30h8.471A3.78,3.78,0,0,1,10,28.2a4,4,0,0,1,8,0,3.78,3.78,0,0,1-.471,1.8H26V21.529A3.78,3.78,0,0,0,27.8,22,4,4,0,0,0,27.8,14Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_puzzle");
-
-/***/ },
-/* 83 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_question\" > <title>question</title> <path d=\"M16,1.2A14.8,14.8,0,1,0,30.8,16,14.8,14.8,0,0,0,16,1.2ZM15.645,24.88a1.539,1.539,0,1,1,1.539-1.539A1.539,1.539,0,0,1,15.645,24.88Zm2.7-7.56a2.182,2.182,0,0,0-1.16,1.944v0.8H14.106v-0.8a5.217,5.217,0,0,1,2.846-4.69,2.261,2.261,0,0,0,1.386-1.762,2.352,2.352,0,0,0-4.677,0H10.583a5.422,5.422,0,0,1,10.833,0A5.215,5.215,0,0,1,18.344,17.32Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_question");
-
-/***/ },
-/* 84 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_science\" > <title>science</title> <path d=\"M26.45,16c2.868-2.838,4.461-5.774,3.233-7.9s-4.567-2.215-8.458-1.15C20.2,3.048,18.455.2,16,.2s-4.2,2.848-5.225,6.75C6.884,5.885,3.544,5.974,2.317,8.1S2.682,13.162,5.55,16c-2.868,2.838-4.461,5.774-3.233,7.9s4.567,2.215,8.458,1.15c1.024,3.9,2.77,6.75,5.225,6.75s4.2-2.848,5.225-6.75c3.891,1.065,7.231.976,8.458-1.15S29.318,18.838,26.45,16Zm1.5-6.9c0.67,1.16-.23,3.406-2.558,5.909a35.489,35.489,0,0,0-3.252-2.555,35.48,35.48,0,0,0-.587-4.094C24.887,7.6,27.281,7.94,27.951,9.1ZM18.5,20.33c-0.852.492-1.686,0.927-2.5,1.315-0.814-.389-1.648-0.823-2.5-1.315s-1.646-1-2.389-1.508C11.041,17.924,11,16.984,11,16s0.041-1.924.111-2.823c0.743-.51,1.537-1.015,2.389-1.508s1.686-.927,2.5-1.315c0.814,0.389,1.648.823,2.5,1.315s1.646,1,2.389,1.508C20.959,14.076,21,15.016,21,16s-0.041,1.924-.111,2.823C20.146,19.333,19.352,19.838,18.5,20.33ZM20.715,20.5a27.173,27.173,0,0,1-.51,2.784,27.149,27.149,0,0,1-2.666-.95c0.543-.282,1.083-0.572,1.611-0.877S20.2,20.829,20.715,20.5Zm-6.254,1.834a27.149,27.149,0,0,1-2.666.95,27.173,27.173,0,0,1-.51-2.784c0.516,0.329,1.037.652,1.565,0.957S13.918,22.051,14.461,22.333Zm-4.715-4.5A27.178,27.178,0,0,1,7.59,16a27.178,27.178,0,0,1,2.156-1.834C9.719,14.778,9.7,15.39,9.7,16S9.719,17.222,9.746,17.834ZM11.285,11.5a27.175,27.175,0,0,1,.51-2.784,27.163,27.163,0,0,1,2.666.95c-0.543.282-1.083,0.572-1.611,0.877S11.8,11.171,11.285,11.5Zm6.254-1.834a27.163,27.163,0,0,1,2.666-.95,27.175,27.175,0,0,1,.51,2.784c-0.516-.329-1.037-0.652-1.565-0.957S18.082,9.949,17.539,9.667Zm4.715,4.5A27.178,27.178,0,0,1,24.41,16a27.178,27.178,0,0,1-2.156,1.834C22.281,17.222,22.3,16.61,22.3,16S22.281,14.778,22.254,14.166ZM16,2.2c1.339,0,2.834,1.9,3.839,5.17A35.5,35.5,0,0,0,16,8.909,35.5,35.5,0,0,0,12.161,7.37C13.166,4.1,14.661,2.2,16,2.2ZM4.049,9.1c0.67-1.16,3.064-1.5,6.4-.739a35.48,35.48,0,0,0-.587,4.094,35.489,35.489,0,0,0-3.252,2.555C4.279,12.505,3.379,10.26,4.049,9.1Zm0,13.8c-0.67-1.16.23-3.405,2.558-5.909a35.489,35.489,0,0,0,3.252,2.555,35.479,35.479,0,0,0,.587,4.094C7.113,24.4,4.719,24.06,4.049,22.9ZM16,29.8c-1.339,0-2.834-1.9-3.839-5.17A35.5,35.5,0,0,0,16,23.091a35.5,35.5,0,0,0,3.839,1.539C18.834,27.9,17.339,29.8,16,29.8Zm11.951-6.9c-0.67,1.16-3.064,1.5-6.4.74a35.479,35.479,0,0,0,.587-4.094,35.489,35.489,0,0,0,3.252-2.555C27.721,19.495,28.621,21.74,27.951,22.9Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_science");
-
-/***/ },
-/* 85 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_search\" > <title>search</title> <path d=\"M31.164,28.336l-8.39-8.39a12.024,12.024,0,1,0-2.828,2.828l8.39,8.39ZM3.5,13A9.5,9.5,0,1,1,13,22.5,9.511,9.511,0,0,1,3.5,13Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_search");
-
-/***/ },
-/* 86 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_setting\" > <title>setting</title> <path d=\"M26.519,16a10.54,10.54,0,0,0-.125-1.54l3.344-2.69L26.515,6.225,22.535,7.767a10.494,10.494,0,0,0-2.673-1.544L19.207,2H12.793L12.138,6.223A10.494,10.494,0,0,0,9.465,7.767L5.485,6.225,2.263,11.77l3.344,2.69A10.54,10.54,0,0,0,5.481,16a10.541,10.541,0,0,0,.125,1.54L2.263,20.23l3.222,5.545,3.979-1.542a10.5,10.5,0,0,0,2.673,1.544L12.793,30h6.414l0.655-4.223a10.5,10.5,0,0,0,2.673-1.544l3.979,1.542,3.222-5.545-3.344-2.69A10.541,10.541,0,0,0,26.519,16ZM15.967,21.207A5.207,5.207,0,1,1,21.174,16,5.207,5.207,0,0,1,15.967,21.207Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_setting");
-
-/***/ },
-/* 87 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_stop\" > <title>stop</title> <rect x=\"6\" y=\"6\" width=\"20\" height=\"20\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_stop");
-
-/***/ },
-/* 88 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_swap\" > <title>swap</title> <g> <polygon points=\"10 8 10 4 2 10 10 16 10 12 26 12 26 8 10 8\"/> <polygon points=\"22 20 6 20 6 24 22 24 22 28 30 22 22 16 22 20\"/> </g> </symbol>";
-	module.exports = sprite.add(image, "icon_swap");
-
-/***/ },
-/* 89 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_tag\" > <title>tag</title> <path d=\"M29.222,15.222L16.615,2.615A2.1,2.1,0,0,0,15.13,2H8.87a2.1,2.1,0,0,0-1.485.615l-4.77,4.77A2.1,2.1,0,0,0,2,8.87v6.26a2.1,2.1,0,0,0,.615,1.485L15.222,29.222a2.1,2.1,0,0,0,2.97,0l11.03-11.03A2.1,2.1,0,0,0,29.222,15.222ZM9,11.8A2.8,2.8,0,1,1,11.8,9,2.8,2.8,0,0,1,9,11.8Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_tag");
-
-/***/ },
-/* 90 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_trash\" > <title>trash</title> <g> <polygon points=\"21 4 20 2 12 2 11 4 4 4 4 6 28 6 28 4 21 4\"/> <path d=\"M6,8V27.9A2.1,2.1,0,0,0,8.1,30H23.9A2.1,2.1,0,0,0,26,27.9V8H6Zm5,19h0a1,1,0,0,1-1-1V12a1,1,0,0,1,1-1h0a1,1,0,0,1,1,1V26A1,1,0,0,1,11,27Zm5,0h0a1,1,0,0,1-1-1V12a1,1,0,0,1,1-1h0a1,1,0,0,1,1,1V26A1,1,0,0,1,16,27Zm5,0h0a1,1,0,0,1-1-1V12a1,1,0,0,1,1-1h0a1,1,0,0,1,1,1V26A1,1,0,0,1,21,27Z\"/> </g> </symbol>";
-	module.exports = sprite.add(image, "icon_trash");
-
-/***/ },
-/* 91 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_twitter\" > <title>twitter</title> <path d=\"M31.125,3.5a13.352,13.352,0,0,1-4.188,1.563A6.568,6.568,0,0,0,17.5,4.938a6.313,6.313,0,0,0-1.938,4.625,6.164,6.164,0,0,0,.188,1.5,18.166,18.166,0,0,1-7.531-2A18.1,18.1,0,0,1,2.25,4.188,6.126,6.126,0,0,0,1.312,7.5,6.156,6.156,0,0,0,4.25,12.938a5.679,5.679,0,0,1-2.938-.812V12.25a6.373,6.373,0,0,0,1.469,4.125,6.492,6.492,0,0,0,3.781,2.313,8.331,8.331,0,0,1-1.75.188,6.36,6.36,0,0,1-1.25-.125,6.891,6.891,0,0,0,2.344,3.281,6.014,6.014,0,0,0,3.781,1.281,12.756,12.756,0,0,1-8.125,2.813q-0.75,0-1.562-.062A18.409,18.409,0,0,0,10.062,29a18.723,18.723,0,0,0,8-1.687,16.843,16.843,0,0,0,5.906-4.406,20.788,20.788,0,0,0,3.531-6,18.4,18.4,0,0,0,1.25-6.594V9.5A13.416,13.416,0,0,0,32,6.063a13.275,13.275,0,0,1-3.75,1.063A6.513,6.513,0,0,0,31.125,3.5Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_twitter");
-
-/***/ },
-/* 92 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_unplugged\" > <title>unplugged</title> <g> <path d=\"M13.893,18H12V14h1.893a2.074,2.074,0,0,0,2.08-1.664A2,2,0,0,0,14,10H12V6H6a6,6,0,0,0-6,6v8a6,6,0,0,0,6,6h6V22h2a2,2,0,0,0,1.973-2.336A2.074,2.074,0,0,0,13.893,18Z\"/> <path d=\"M26,6H20v4h1.893a2.074,2.074,0,0,1,2.08,1.664A2,2,0,0,1,22,14H20v4h1.893a2.074,2.074,0,0,1,2.08,1.664A2,2,0,0,1,22,22H20v4h6a6,6,0,0,0,6-6V12A6,6,0,0,0,26,6Z\" opacity=\"0.5\"/> </g> </symbol>";
-	module.exports = sprite.add(image, "icon_unplugged");
-
-/***/ },
-/* 93 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_up-arrow\" > <title>up-arrow</title> <polygon points=\"24 20 8 20 16 10 24 20\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_up-arrow");
-
-/***/ },
-/* 94 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_update\" > <title>update</title> <g> <path d=\"M8.938,23.056A9.972,9.972,0,0,1,14.6,6.109L14.426,2.9a13.174,13.174,0,0,0-7.75,22.415L4,27.992l8.379,0.46-0.46-8.379Z\"/> <path d=\"M25.322,6.684L28,4.008l-8.379-.46,0.46,8.379,2.982-2.982A9.971,9.971,0,0,1,17.4,25.891L17.574,29.1A13.171,13.171,0,0,0,25.322,6.684Z\"/> </g> </symbol>";
-	module.exports = sprite.add(image, "icon_update");
-
-/***/ },
-/* 95 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_user\" > <title>user</title> <path d=\"M30.971,29.277a5.857,5.857,0,0,0-.319-1.506,3.481,3.481,0,0,0-.811-1.4,6.245,6.245,0,0,0-1.969-1.115q-1.477-.608-3.345-1.281a26.158,26.158,0,0,1-2.751-1.122,4.015,4.015,0,0,1-1.709-1.658,4.6,4.6,0,0,1-.608-2.266,3.1,3.1,0,0,1,.956-1.882,5.845,5.845,0,0,0,.956-1.8A2.164,2.164,0,0,0,22.7,13a3.028,3.028,0,0,0-.42-1.81q0.116-.8.261-2.447a5.066,5.066,0,0,0-.427-2.454,6.8,6.8,0,0,0-1.441-2.136,7.394,7.394,0,0,0-2.15-1.484,5.865,5.865,0,0,0-5.052,0,7.394,7.394,0,0,0-2.15,1.484A6.8,6.8,0,0,0,9.883,6.292a5.066,5.066,0,0,0-.427,2.454Q9.6,10.4,9.717,11.193A3.028,3.028,0,0,0,9.3,13a2.164,2.164,0,0,0,1.332,2.244,5.845,5.845,0,0,0,.956,1.8,3.1,3.1,0,0,1,.956,1.882,4.6,4.6,0,0,1-.608,2.266,4.015,4.015,0,0,1-1.709,1.658,26.158,26.158,0,0,1-2.751,1.122q-1.868.673-3.345,1.281a6.245,6.245,0,0,0-1.969,1.115,3.481,3.481,0,0,0-.811,1.4,5.857,5.857,0,0,0-.319,1.506L1,29.9H31Z\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_user");
-
-/***/ },
-/* 96 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
-	var image = "<symbol viewBox=\"0 0 64 64\" id=\"icon_chart\" > <title>icon</title> <polygon points=\"8 54 8 8 6 8 6 56 62 56 62 54 8 54\" opacity=\"0.9\"/> <path d=\"M14.1,22h3.8A2.1,2.1,0,0,1,20,24.1V50a0,0,0,0,1,0,0H12a0,0,0,0,1,0,0V24.1A2.1,2.1,0,0,1,14.1,22Z\" opacity=\"0.5\"/> <path d=\"M26.1,8h3.8A2.1,2.1,0,0,1,32,10.1V50a0,0,0,0,1,0,0H24a0,0,0,0,1,0,0V10.1A2.1,2.1,0,0,1,26.1,8Z\" opacity=\"0.9\"/> <path d=\"M38.1,34h3.8A2.1,2.1,0,0,1,44,36.1V50a0,0,0,0,1,0,0H36a0,0,0,0,1,0,0V36.1A2.1,2.1,0,0,1,38.1,34Z\" opacity=\"0.5\"/> <path d=\"M50.1,44h3.8A2.1,2.1,0,0,1,56,46.1V50a0,0,0,0,1,0,0H48a0,0,0,0,1,0,0V46.1A2.1,2.1,0,0,1,50.1,44Z\" opacity=\"0.9\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_chart");
-
-/***/ },
-/* 97 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(29);;
 	var image = "<symbol viewBox=\"0 0 64 64\" id=\"icon_chat\" > <title>chat</title> <g> <circle cx=\"36.079\" cy=\"32.971\" r=\"3.275\" opacity=\"0.25\"/> <circle cx=\"24.847\" cy=\"32.971\" r=\"3.275\" opacity=\"0.25\"/> <circle cx=\"13.615\" cy=\"32.971\" r=\"3.275\" opacity=\"0.25\"/> <path d=\"M63.43,32.107c0-10.073-9.522-18.238-21.267-18.238a24.565,24.565,0,0,0-5.341.6c6.928,3.6,11.558,10.134,11.558,17.591,0,7.5-4.685,14.061-11.682,17.652a24.554,24.554,0,0,0,5.465.63,24.138,24.138,0,0,0,9.229-1.8,27.487,27.487,0,0,0,9.41,2.222,21.838,21.838,0,0,1-3.111-6.2A16.875,16.875,0,0,0,63.43,32.107Z\" opacity=\"0.5\"/> <g opacity=\"0.9\"> <path d=\"M24.4,11.5C11.164,11.5.43,20.708,0.43,32.063A19.024,19.024,0,0,0,6.9,46.106,24.617,24.617,0,0,1,3.393,53.1,30.987,30.987,0,0,0,14,50.592a27.212,27.212,0,0,0,10.4,2.032c13.241,0,23.975-9.205,23.975-20.56S37.646,11.5,24.4,11.5ZM13.615,36.246a3.275,3.275,0,1,1,3.275-3.275A3.275,3.275,0,0,1,13.615,36.246Zm11.232,0a3.275,3.275,0,1,1,3.275-3.275A3.275,3.275,0,0,1,24.847,36.246Zm11.232,0a3.275,3.275,0,1,1,3.275-3.275A3.275,3.275,0,0,1,36.079,36.246Z\"/> </g> </g> </symbol>";
 	module.exports = sprite.add(image, "icon_chat");
 
 /***/ },
-/* 98 */
+/* 32 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1988,7 +1400,7 @@
 	module.exports = sprite.add(image, "icon_container-alt");
 
 /***/ },
-/* 99 */
+/* 33 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1997,7 +1409,7 @@
 	module.exports = sprite.add(image, "icon_container");
 
 /***/ },
-/* 100 */
+/* 34 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2006,7 +1418,7 @@
 	module.exports = sprite.add(image, "icon_drive-alt");
 
 /***/ },
-/* 101 */
+/* 35 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2015,7 +1427,7 @@
 	module.exports = sprite.add(image, "icon_drive");
 
 /***/ },
-/* 102 */
+/* 36 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2024,7 +1436,7 @@
 	module.exports = sprite.add(image, "icon_megaphone-alt");
 
 /***/ },
-/* 103 */
+/* 37 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2033,7 +1445,7 @@
 	module.exports = sprite.add(image, "icon_megaphone");
 
 /***/ },
-/* 104 */
+/* 38 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2042,7 +1454,7 @@
 	module.exports = sprite.add(image, "icon_node");
 
 /***/ },
-/* 105 */
+/* 39 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2051,7 +1463,7 @@
 	module.exports = sprite.add(image, "icon_paper-plane");
 
 /***/ },
-/* 106 */
+/* 40 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2060,7 +1472,7 @@
 	module.exports = sprite.add(image, "icon_radar");
 
 /***/ },
-/* 107 */
+/* 41 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2069,7 +1481,7 @@
 	module.exports = sprite.add(image, "icon_stack-alt");
 
 /***/ },
-/* 108 */
+/* 42 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2078,7 +1490,7 @@
 	module.exports = sprite.add(image, "icon_stack");
 
 /***/ },
-/* 109 */
+/* 43 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2087,23 +1499,644 @@
 	module.exports = sprite.add(image, "icon_users");
 
 /***/ },
+/* 44 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 128 64\" id=\"pic_checklist\" > <title>checklist</title> <path d=\"M63,10a5,5,0,0,1,4.9,4H74V56H42V14h6.1A5,5,0,0,1,53,10H38V60H78V10H63Z\" opacity=\"0.25\"/> <path d=\"M77,9H64V8.215a6.163,6.163,0,0,0-5.414-6.187A6,6,0,0,0,52,8V9H39a2,2,0,0,0-2,2V59a2,2,0,0,0,2,2H77a2,2,0,0,0,2-2V11A2,2,0,0,0,77,9ZM54,10.5V8.127a4.147,4.147,0,0,1,.967-2.738,3.976,3.976,0,0,1,3.43-1.37,4.15,4.15,0,0,1,3.6,4.2V10.5a0.5,0.5,0,0,0,.5.5H63a4,4,0,0,1,4,4v0.5a0.5,0.5,0,0,1-.5.5h-17a0.5,0.5,0,0,1-.5-0.5V15a4,4,0,0,1,4-4h0.5A0.5,0.5,0,0,0,54,10.5ZM68,18a1,1,0,0,0,1-1V15h3.5a0.5,0.5,0,0,1,.5.5v39a0.5,0.5,0,0,1-.5.5h-29a0.5,0.5,0,0,1-.5-0.5v-39a0.5,0.5,0,0,1,.5-0.5H47v2a1,1,0,0,0,1,1H68Zm9,40a1,1,0,0,1-1,1H40a1,1,0,0,1-1-1V12a1,1,0,0,1,1-1h8.546a5.987,5.987,0,0,0-1.194,2H41.5a0.5,0.5,0,0,0-.5.5v43a0.5,0.5,0,0,0,.5.5h33a0.5,0.5,0,0,0,.5-0.5v-43a0.5,0.5,0,0,0-.5-0.5H68.648a5.987,5.987,0,0,0-1.194-2H76a1,1,0,0,1,1,1V58Z\"/> <rect x=\"56.5\" y=\"6.5\" width=\"3\" height=\"3\" rx=\"1.5\" ry=\"1.5\"/> <path d=\"M58,22a6,6,0,1,0,6,6A6,6,0,0,0,58,22Zm-0.9,8.946-2.763-2.763,0.882-.882L57.1,29.182l3.687-3.687,0.882,0.882Z\"/> <g opacity=\"0.25\"> <rect x=\"53\" y=\"46\" width=\"14\" height=\"2\" rx=\"0.5\" ry=\"0.5\"/> <rect x=\"53\" y=\"42\" width=\"14\" height=\"2\" rx=\"0.5\" ry=\"0.5\"/> <rect x=\"53\" y=\"38\" width=\"14\" height=\"2\" rx=\"0.5\" ry=\"0.5\"/> <rect x=\"49\" y=\"46\" width=\"2\" height=\"2\" rx=\"1\" ry=\"1\"/> <rect x=\"49\" y=\"42\" width=\"2\" height=\"2\" rx=\"1\" ry=\"1\"/> <rect x=\"49\" y=\"38\" width=\"2\" height=\"2\" rx=\"1\" ry=\"1\"/> </g> <g opacity=\"0.25\"> <circle cx=\"28\" cy=\"24\" r=\"1\"/> <circle cx=\"101\" cy=\"22\" r=\"1\"/> <circle cx=\"102\" cy=\"42\" r=\"1\"/> <path d=\"M28,40a3,3,0,1,1,3-3A3,3,0,0,1,28,40Zm0-4a1,1,0,1,0,1,1A1,1,0,0,0,28,36Z\"/> <path d=\"M25.464,53H18.536a1,1,0,0,1-.866-1.5l3.464-6a1.04,1.04,0,0,1,1.732,0l3.464,6A1,1,0,0,1,25.464,53Zm-4.329-2h1.731a0.5,0.5,0,0,0,.433-0.75l-0.866-1.5a0.5,0.5,0,0,0-.866,0L20.7,50.25A0.5,0.5,0,0,0,21.134,51Z\"/> <path d=\"M23,25H17a1,1,0,0,1-1-1V18a1,1,0,0,1,1-1h6a1,1,0,0,1,1,1v6A1,1,0,0,1,23,25Zm-4-2h2a1,1,0,0,0,1-1V20a1,1,0,0,0-1-1H19a1,1,0,0,0-1,1v2A1,1,0,0,0,19,23Z\"/> <path d=\"M110,32h-1.5a0.5,0.5,0,0,1-.5-0.5V30a1,1,0,0,0-2,0v1.5a0.5,0.5,0,0,1-.5.5H104a1,1,0,0,0,0,2h1.5a0.5,0.5,0,0,1,.5.5V36a1,1,0,0,0,2,0V34.5a0.5,0.5,0,0,1,.5-0.5H110A1,1,0,0,0,110,32Z\"/> </g> <rect x=\"90\" y=\"22\" width=\"3\" height=\"28\" opacity=\"0.25\"/> <path d=\"M94.714,19.092L91.5,11.058l-3.214,8.035A4,4,0,0,0,88,20.578V56a2,2,0,0,0,2,2h3a2,2,0,0,0,2-2V20.578A4,4,0,0,0,94.714,19.092Zm-3.651-1.557c0.145,0.01.29,0.022,0.437,0.022s0.292-.012.437-0.022L92.923,20H90.077ZM93,55a1,1,0,0,1-1,1H91a1,1,0,0,1-1-1V52.5a0.5,0.5,0,0,1,.5-0.5h2a0.5,0.5,0,0,1,.5.5V55Zm-0.5-5h-2a0.5,0.5,0,0,1-.5-0.5V22h3V49.5A0.5,0.5,0,0,1,92.5,50Z\"/> </symbol>";
+	module.exports = sprite.add(image, "pic_checklist");
+
+/***/ },
+/* 45 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 128 64\" id=\"pic_edit-yaml\" > <title>edit-yaml</title> <path d=\"M91.35,11.563c0.016-.186.028-0.373,0.028-0.562a6.375,6.375,0,0,0-12.75,0c0,0.19.012,0.377,0.028,0.563H91.35Z\" opacity=\"0.25\"/> <path d=\"M64.683,55h-32A6.994,6.994,0,0,0,39,59H71A6.994,6.994,0,0,1,64.683,55Z\" opacity=\"0.25\"/> <path d=\"M79.8,48.77l-1,.806a1,1,0,0,0-.238,1.282l0.75,1.291a1,1,0,0,0,1.226.43l1.193-.462a5.248,5.248,0,0,0,1.337.772l0.2,1.265a1,1,0,0,0,.988.847h1.493a1,1,0,0,0,.988-0.847l0.2-1.265a5.248,5.248,0,0,0,1.337-.772l1.193,0.462a1,1,0,0,0,1.226-.43l0.75-1.291a1,1,0,0,0-.238-1.282l-1-.806a4.767,4.767,0,0,0,0-1.54l1-.806a1,1,0,0,0,.238-1.282l-0.75-1.291a1,1,0,0,0-1.226-.43l-1.193.462a5.247,5.247,0,0,0-1.337-.772l-0.2-1.265A1,1,0,0,0,85.747,41H84.253a1,1,0,0,0-.988.847l-0.2,1.265a5.247,5.247,0,0,0-1.337.772l-1.193-.462a1,1,0,0,0-1.226.43l-0.75,1.291a1,1,0,0,0,.238,1.282l1,0.806A4.767,4.767,0,0,0,79.8,48.77ZM82.413,48a2.6,2.6,0,1,1,2.6,2.6A2.6,2.6,0,0,1,82.413,48Z\"/> <g opacity=\"0.25\"> <rect x=\"47\" y=\"43\" width=\"23\" height=\"2\" rx=\"0.5\" ry=\"0.5\"/> <rect x=\"47\" y=\"39\" width=\"23\" height=\"2\" rx=\"0.5\" ry=\"0.5\"/> <rect x=\"47\" y=\"35\" width=\"23\" height=\"2\" rx=\"0.5\" ry=\"0.5\"/> <rect x=\"47\" y=\"31\" width=\"23\" height=\"2\" rx=\"0.5\" ry=\"0.5\"/> <rect x=\"47\" y=\"27\" width=\"23\" height=\"2\" rx=\"0.5\" ry=\"0.5\"/> </g> <g> <path d=\"M48.041,20.058l-2.034-2.764a0.825,0.825,0,0,1-.171-0.5,0.677,0.677,0,0,1,.693-0.667,0.8,0.8,0,0,1,.684.423l1.53,2.206L50.3,16.538a0.8,0.8,0,0,1,.667-0.414,0.642,0.642,0,0,1,.675.675,0.861,0.861,0,0,1-.18.486l-2.035,2.746V21.85a0.693,0.693,0,1,1-1.387,0V20.058Z\"/> <path d=\"M51.56,21.6l2.2-4.96a0.857,0.857,0,0,1,.811-0.549h0.081a0.844,0.844,0,0,1,.8.549l2.2,4.96a0.676,0.676,0,0,1,.071.279,0.657,0.657,0,0,1-.657.667,0.707,0.707,0,0,1-.666-0.478l-0.423-.99H53.2l-0.441,1.036a0.682,0.682,0,0,1-.64.432,0.638,0.638,0,0,1-.639-0.648A0.736,0.736,0,0,1,51.56,21.6Zm3.9-1.747-0.874-2.08-0.873,2.08h1.747Z\"/> <path d=\"M58.8,16.844a0.688,0.688,0,0,1,.693-0.693H59.65a0.711,0.711,0,0,1,.63.36l1.675,2.728L63.639,16.5a0.678,0.678,0,0,1,.621-0.351h0.153a0.688,0.688,0,0,1,.693.693V21.85a0.689,0.689,0,1,1-1.378,0V18.708L62.513,20.58a0.648,0.648,0,0,1-1.152,0l-1.2-1.845v3.133a0.68,0.68,0,0,1-1.359,0V16.844Z\"/> <path d=\"M66.615,16.826a0.693,0.693,0,0,1,1.387,0v4.4h2.565a0.63,0.63,0,1,1,0,1.26H67.309a0.688,0.688,0,0,1-.693-0.693V16.826Z\"/> </g> <g opacity=\"0.25\"> <circle cx=\"101\" cy=\"19\" r=\"1\"/> <circle cx=\"30\" cy=\"13\" r=\"1\"/> <circle cx=\"20\" cy=\"32\" r=\"1\"/> <path d=\"M26,37a3,3,0,1,1,3,3A3,3,0,0,1,26,37Zm2,0a1,1,0,1,0,1-1A1,1,0,0,0,28,37Z\"/> <path d=\"M15.67,23.5a1,1,0,0,1,0-1l3.464-6a1.04,1.04,0,0,1,1.732,0l3.464,6a1,1,0,0,1-.866,1.5H16.536A1,1,0,0,1,15.67,23.5ZM21.3,21.25l-0.866-1.5a0.5,0.5,0,0,0-.866,0L18.7,21.25a0.5,0.5,0,0,0,.433.75h1.731A0.5,0.5,0,0,0,21.3,21.25Z\"/> <path d=\"M104,43V37a1,1,0,0,1,1-1h6a1,1,0,0,1,1,1v6a1,1,0,0,1-1,1h-6A1,1,0,0,1,104,43Zm6-2V39a1,1,0,0,0-1-1h-2a1,1,0,0,0-1,1v2a1,1,0,0,0,1,1h2A1,1,0,0,0,110,41Z\"/> <path d=\"M93,28h1.5a0.5,0.5,0,0,0,.5-0.5V26a1,1,0,0,1,2,0v1.5a0.5,0.5,0,0,0,.5.5H99a1,1,0,0,1,0,2H97.5a0.5,0.5,0,0,0-.5.5V32a1,1,0,0,1-2,0V30.5a0.5,0.5,0,0,0-.5-0.5H93A1,1,0,0,1,93,28Z\"/> </g> <path d=\"M85.109,36a11.88,11.88,0,0,0-5.4,1.243A0.494,0.494,0,0,1,79,36.794c0-3.709,0-18.767,0-22.8a1,1,0,0,1,1-1H92a1,1,0,0,0,1-1,8,8,0,0,0-8-8H46a8,8,0,0,0-8,8V50a1,1,0,0,1-1,1H32a1,1,0,0,0-1,1,8,8,0,0,0,8,8H71a7.958,7.958,0,0,0,5.708-2.411,0.8,0.8,0,0,1,1.051-.038,11.983,11.983,0,0,0,19.235-9.96A12.116,12.116,0,0,0,85.109,36ZM85,6a6.011,6.011,0,0,1,5.767,4.341A0.507,0.507,0,0,1,90.29,11H79.718a0.507,0.507,0,0,1-.477-0.659A6,6,0,0,1,85,6ZM64.531,58H39a6.011,6.011,0,0,1-5.767-4.341A0.507,0.507,0,0,1,33.71,53H62.229a0.984,0.984,0,0,1,.966.755A7.977,7.977,0,0,0,64.9,57.169,0.5,0.5,0,0,1,64.531,58Zm5.454-.084A6.149,6.149,0,0,1,65,51.767,0.772,0.772,0,0,0,64.223,51H41a1,1,0,0,1-1-1V12a6,6,0,0,1,6-6H78.531a0.5,0.5,0,0,1,.371.828A7.966,7.966,0,0,0,77,12V38.655a1,1,0,0,1-.312.716,11.955,11.955,0,0,0-1.341,15.75,0.813,0.813,0,0,1-.059,1.055A5.97,5.97,0,0,1,69.984,57.916ZM85,58A10,10,0,1,1,95,48,10.012,10.012,0,0,1,85,58Z\"/> </symbol>";
+	module.exports = sprite.add(image, "pic_edit-yaml");
+
+/***/ },
+/* 46 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 128 64\" id=\"pic_warehouse\" > <title>warehouse</title> <path d=\"M105.934,41.07L102,39.349h0L89.4,33.836a1,1,0,0,0-.8,0L83,36.286V38.47l5.6-2.45a1,1,0,0,1,.8,0l10,4.375a1,1,0,0,1,.6.916V53H83v1h19V42.3a0.5,0.5,0,0,1,.7-0.458l2.432,1.064a0.981,0.981,0,0,0,.4.084A1,1,0,0,0,105.934,41.07Z\" opacity=\"0.25\"/> <path d=\"M57,15L31,26.375V29.1L56.2,18.079a2,2,0,0,1,1.6,0L83,29.1V31h0.5V26.375Z\" opacity=\"0.25\"/> <rect x=\"52\" y=\"27\" width=\"10\" height=\"4\" rx=\"1\" ry=\"1\"/> <path d=\"M107,53H85a1,1,0,0,1-1-1V29.161a1,1,0,0,1,1.4-.916l2.2,0.961a0.981,0.981,0,0,0,.4.084,1,1,0,0,0,.4-1.916L84,25.45h0L57.8,13.987a2,2,0,0,0-1.6,0L30,25.449h0l-4.4,1.924a1,1,0,0,0,.8,1.832l2.2-.961a1,1,0,0,1,1.4.916V52a1,1,0,0,1-1,1H21a1,1,0,0,0,0,2h86A1,1,0,0,0,107,53ZM32.6,26.5L56.2,16.171a2,2,0,0,1,1.6,0L81.4,26.5a1,1,0,0,1,.6.916V52a1,1,0,0,1-1,1H74.5a0.5,0.5,0,0,1-.5-0.5V38a1,1,0,0,0-1-1H41a1,1,0,0,0-1,1V52.5a0.5,0.5,0,0,1-.5.5H33a1,1,0,0,1-1-1V27.412A1,1,0,0,1,32.6,26.5Zm9.4,26v-1a0.5,0.5,0,0,1,.5-0.5h29a0.5,0.5,0,0,1,.5.5v1a0.5,0.5,0,0,1-.5.5h-29A0.5,0.5,0,0,1,42,52.5Zm30-12a0.5,0.5,0,0,1-.5.5h-29a0.5,0.5,0,0,1-.5-0.5v-1a0.5,0.5,0,0,1,.5-0.5h29a0.5,0.5,0,0,1,.5.5v1ZM42.5,43h29a0.5,0.5,0,0,1,.5.5v1a0.5,0.5,0,0,1-.5.5h-29a0.5,0.5,0,0,1-.5-0.5v-1A0.5,0.5,0,0,1,42.5,43Zm0,4h29a0.5,0.5,0,0,1,.5.5v1a0.5,0.5,0,0,1-.5.5h-29a0.5,0.5,0,0,1-.5-0.5v-1A0.5,0.5,0,0,1,42.5,47Z\"/> <g opacity=\"0.25\"> <circle cx=\"33\" cy=\"15\" r=\"1\"/> <circle cx=\"70\" cy=\"12\" r=\"1\"/> <circle cx=\"104\" cy=\"22\" r=\"1\"/> <path d=\"M97,27a3,3,0,1,1,3-3A3,3,0,0,1,97,27Zm0-4a1,1,0,1,0,1,1A1,1,0,0,0,97,23Z\"/> <path d=\"M86.964,17H80.036a1,1,0,0,1-.866-1.5l3.464-6a1.04,1.04,0,0,1,1.732,0l3.464,6A1,1,0,0,1,86.964,17Zm-4.329-2h1.731a0.5,0.5,0,0,0,.433-0.75l-0.866-1.5a0.5,0.5,0,0,0-.866,0L82.2,14.25A0.5,0.5,0,0,0,82.634,15Z\"/> <path d=\"M23,21H17a1,1,0,0,1-1-1V14a1,1,0,0,1,1-1h6a1,1,0,0,1,1,1v6A1,1,0,0,1,23,21Zm-4-2h2a1,1,0,0,0,1-1V16a1,1,0,0,0-1-1H19a1,1,0,0,0-1,1v2A1,1,0,0,0,19,19Z\"/> <path d=\"M113,15h-1.5a0.5,0.5,0,0,1-.5-0.5V13a1,1,0,0,0-2,0v1.5a0.5,0.5,0,0,1-.5.5H107a1,1,0,0,0,0,2h1.5a0.5,0.5,0,0,1,.5.5V19a1,1,0,0,0,2,0V17.5a0.5,0.5,0,0,1,.5-0.5H113A1,1,0,0,0,113,15Z\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "pic_warehouse");
+
+/***/ },
+/* 47 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-minus-circled\" > <title>minus-circled</title> <path d=\"M16,1.2A14.8,14.8,0,1,0,30.8,16,14.8,14.8,0,0,0,16,1.2ZM24,18H8V14H24v4Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon-minus-circled");
+
+/***/ },
+/* 48 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-plus-circled\" > <title>plus-circled</title> <path d=\"M16,1.2A14.8,14.8,0,1,0,30.8,16,14.8,14.8,0,0,0,16,1.2ZM24,18H18v6H14V18H8V14h6V8h4v6h6v4Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon-plus-circled");
+
+/***/ },
+/* 49 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-success\" > <title>success</title> <path d=\"M16,1.2A14.8,14.8,0,1,0,30.8,16,14.8,14.8,0,0,0,16,1.2ZM13.773,23.268L6.956,16.452l2.177-2.177,4.64,4.64L22.867,9.82,25.044,12Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon-success");
+
+/***/ },
+/* 50 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon-warning\" > <title>warning</title> <path d=\"M31.431,27.954L17.181,3.274a1.364,1.364,0,0,0-2.362,0L0.569,27.954A1.364,1.364,0,0,0,1.751,30h28.5A1.364,1.364,0,0,0,31.431,27.954ZM16,27.129a1.539,1.539,0,1,1,1.539-1.539A1.539,1.539,0,0,1,16,27.129Zm1.135-4.677H14.865l-0.4-11.6h3.078Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon-warning");
+
+/***/ },
+/* 51 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon\" > <title>placeholder</title> <path d=\"M32,14V0H18V4H14V0H0V14H4v4H0V32H14V28h4v4H32V18H28V14h4ZM18,18H14V14h4v4Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon");
+
+/***/ },
+/* 52 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_archive\" > <title>archive</title> <g> <path d=\"M2.1,2H29.9A2.1,2.1,0,0,1,32,4.1V8a0,0,0,0,1,0,0H0A0,0,0,0,1,0,8V4.1A2.1,2.1,0,0,1,2.1,2Z\"/> <path d=\"M2,10V27.9A2.1,2.1,0,0,0,4.1,30H27.9A2.1,2.1,0,0,0,30,27.9V10H2Zm20,7a1,1,0,0,1-1,1H11a1,1,0,0,1-1-1V15a1,1,0,0,1,1-1H21a1,1,0,0,1,1,1v2Z\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_archive");
+
+/***/ },
+/* 53 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_arrow-right\" > <title>arrow-right</title> <polygon points=\"26 16 16 6 16 12 6 12 6 20 16 20 16 26 26 16\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_arrow-right");
+
+/***/ },
+/* 54 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_browser\" > <title>browser</title> <path d=\"M29.9,4H2.1A2.1,2.1,0,0,0,0,6.1V25.9A2.1,2.1,0,0,0,2.1,28H29.9A2.1,2.1,0,0,0,32,25.9V6.1A2.1,2.1,0,0,0,29.9,4ZM7,6A1,1,0,1,1,6,7,1,1,0,0,1,7,6ZM3,6A1,1,0,1,1,2,7,1,1,0,0,1,3,6ZM30,26H2V10H30V26ZM30,8H10V6H30V8Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_browser");
+
+/***/ },
+/* 55 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_building\" > <title>building</title> <path d=\"M23.9,2H6.1A2.1,2.1,0,0,0,4,4.1V27.9A2.1,2.1,0,0,0,6.1,30H23.9A2.1,2.1,0,0,0,26,27.9V4.1A2.1,2.1,0,0,0,23.9,2ZM12,6h2V8H12V6Zm0,4h2v2H12V10Zm0,4h2v2H12V14Zm0,4h2v2H12V18Zm-2,6H8V22h2v2Zm0-4H8V18h2v2Zm0-4H8V14h2v2Zm0-4H8V10h2v2Zm0-4H8V6h2V8Zm8,20H12V24h6v4Zm0-8H16V18h2v2Zm0-4H16V14h2v2Zm0-4H16V10h2v2Zm0-4H16V6h2V8Zm4,16H20V22h2v2Zm0-4H20V18h2v2Zm0-4H20V14h2v2Zm0-4H20V10h2v2Zm0-4H20V6h2V8Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_building");
+
+/***/ },
+/* 56 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_calendar\" > <title>calendar</title> <g> <path d=\"M27.9,4H24V2H20V4H12V2H8V4H4.1A2.1,2.1,0,0,0,2,6.1V27.9A2.1,2.1,0,0,0,4.1,30H27.9A2.1,2.1,0,0,0,30,27.9V6.1A2.1,2.1,0,0,0,27.9,4ZM28,28H4V11H28V28Z\"/> <rect x=\"19\" y=\"19\" width=\"5\" height=\"5\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_calendar");
+
+/***/ },
+/* 57 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_caret-down\" > <title>caret-down</title> <polygon points=\"6.411 13.369 8.589 11.191 16 18.602 23.411 11.191 25.589 13.369 16 22.958 6.411 13.369\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_caret-down");
+
+/***/ },
+/* 58 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_caret-left\" > <title>caret-left</title> <polygon points=\"18.631 6.411 20.809 8.589 13.398 16 20.809 23.411 18.631 25.589 9.042 16 18.631 6.411\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_caret-left");
+
+/***/ },
+/* 59 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_caret-right\" > <title>caret-right</title> <polygon points=\"13.369 25.589 11.191 23.411 18.602 16 11.191 8.589 13.369 6.411 22.958 16 13.369 25.589\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_caret-right");
+
+/***/ },
+/* 60 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_caret-up\" > <title>caret-up</title> <polygon points=\"25.589 18.631 23.411 20.809 16 13.398 8.589 20.809 6.411 18.631 16 9.042 25.589 18.631\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_caret-up");
+
+/***/ },
+/* 61 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_ccw-alt\" > <title>ccw-alt</title> <path d=\"M6.675,25.334a13.215,13.215,0,0,0,18.668,0L28.008,28l0.46-8.379-8.379.46,2.992,2.992A10.039,10.039,0,1,1,25.9,14.6l3.19-.175A13.188,13.188,0,1,0,6.675,25.334Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_ccw-alt");
+
+/***/ },
+/* 62 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_ccw\" > <title>ccw</title> <path d=\"M17.884,2.8A13.215,13.215,0,0,0,4.684,16H0.916l5.6,6.25,5.6-6.25H7.884a10.039,10.039,0,1,1,4,7.979L9.75,26.358A13.188,13.188,0,1,0,17.884,2.8Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_ccw");
+
+/***/ },
+/* 63 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_checkmark\" > <title>checkmark</title> <polygon points=\"12.113 28.685 0.216 16.788 4.015 12.989 12.113 21.086 27.985 5.215 31.784 9.014 12.113 28.685\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_checkmark");
+
+/***/ },
+/* 64 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_circle-rotate\" > <title>circle-rotate</title> <g> <path d=\"M16,1.2A14.8,14.8,0,1,0,30.8,16,14.8,14.8,0,0,0,16,1.2Zm0,24.272A9.472,9.472,0,1,1,25.472,16,9.472,9.472,0,0,1,16,25.472Z\" opacity=\"0.5\"/> <path d=\"M2.256,10.5l4.95,1.98A9.473,9.473,0,0,1,16,6.528V1.2A14.8,14.8,0,0,0,2.256,10.5Z\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_circle-rotate");
+
+/***/ },
+/* 65 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_city\" > <title>city</title> <path d=\"M27.9,14H22.1A2.1,2.1,0,0,0,20,16.1V2.1A2.1,2.1,0,0,0,17.9,0H14.1A2.1,2.1,0,0,0,12,2.1v6A2.1,2.1,0,0,0,9.9,6H4.1A2.1,2.1,0,0,0,2,8.1V30H30V16.1A2.1,2.1,0,0,0,27.9,14ZM6,28H4V24H6v4Zm0-6H4V20H6v2Zm0-4H4V16H6v2Zm0-4H4V12H6v2Zm0-4H4V8H6v2Zm4,18H8V24h2v4Zm0-6H8V20h2v2Zm0-4H8V16h2v2Zm0-4H8V12h2v2Zm0-4H8V8h2v2Zm8,18H14V24h4v4Zm0-6H14V20h4v2Zm0-4H14V16h4v2Zm0-4H14V12h4v2Zm0-4H14V8h4v2Zm0-4H14V4h4V6Zm6,22H22V24h2v4Zm0-6H22V20h2v2Zm0-4H22V16h2v2Zm4,10H26V24h2v4Zm0-6H26V20h2v2Zm0-4H26V16h2v2Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_city");
+
+/***/ },
+/* 66 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_clipboard-success\" > <title>clipboard-success</title> <g> <rect x=\"10\" y=\"24\" width=\"6\" height=\"2\"/> <rect x=\"10\" y=\"20\" width=\"4\" height=\"2\"/> <rect x=\"10\" y=\"16\" width=\"6\" height=\"2\"/> <rect x=\"10\" y=\"12\" width=\"10\" height=\"2\"/> <path d=\"M24,24v4H8V10H24v6h2V6.1A2.1,2.1,0,0,0,23.9,4H18.816a2.982,2.982,0,0,0-5.631,0H8.1A2.1,2.1,0,0,0,6,6.1V27.9A2.1,2.1,0,0,0,8.1,30H23.9A2.1,2.1,0,0,0,26,27.9V24H24ZM10.618,6h2.449A0.962,0.962,0,0,0,14,4.993a2,2,0,0,1,2.3-1.971,2.148,2.148,0,0,1,1.7,2.1A0.986,0.986,0,0,0,19,6h2.38a1,1,0,0,1,.894.553L23,8H9L9.724,6.553A1,1,0,0,1,10.618,6Z\"/> <polygon points=\"20.949 25.38 16.508 20.94 17.926 19.522 20.949 22.544 26.874 16.62 28.292 18.038 20.949 25.38\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_clipboard-success");
+
+/***/ },
+/* 67 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_clipboard\" > <title>clipboard</title> <g> <rect x=\"10\" y=\"24\" width=\"6\" height=\"2\"/> <rect x=\"10\" y=\"20\" width=\"4\" height=\"2\"/> <rect x=\"10\" y=\"16\" width=\"6\" height=\"2\"/> <rect x=\"10\" y=\"12\" width=\"10\" height=\"2\"/> <polygon points=\"28 20 21 20 21 17 16.376 21 21 25 21 22 28 22 28 20\"/> <path d=\"M24,24v4H8V10H24v8h2V6.1A2.1,2.1,0,0,0,23.9,4H18.816a2.982,2.982,0,0,0-5.631,0H8.1A2.1,2.1,0,0,0,6,6.1V27.9A2.1,2.1,0,0,0,8.1,30H23.9A2.1,2.1,0,0,0,26,27.9V24H24ZM10.618,6h2.449A0.962,0.962,0,0,0,14,4.993a2,2,0,0,1,2.3-1.971,2.148,2.148,0,0,1,1.7,2.1A0.986,0.986,0,0,0,19,6h2.38a1,1,0,0,1,.894.553L23,8H9L9.724,6.553A1,1,0,0,1,10.618,6Z\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_clipboard");
+
+/***/ },
+/* 68 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_close-circled\" > <title>close-circled</title> <path d=\"M16,1.2A14.8,14.8,0,1,0,30.8,16,14.8,14.8,0,0,0,16,1.2Zm6.859,19.538-2.121,2.121L16,18.121l-4.738,4.738L9.141,20.738,13.879,16,9.141,11.262l2.121-2.121L16,13.879l4.738-4.738,2.121,2.121L18.121,16Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_close-circled");
+
+/***/ },
+/* 69 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_console-alt\" > <title>console-alt</title> <path d=\"M29.9,4H2.1A2.1,2.1,0,0,0,0,6.1V25.9A2.1,2.1,0,0,0,2.1,28H29.9A2.1,2.1,0,0,0,32,25.9V6.1A2.1,2.1,0,0,0,29.9,4ZM7.707,23.041L6.293,21.626,11.919,16,6.293,10.374,7.707,8.959,14.748,16ZM26,23H16V21H26v2Z\"/> <g> <rect y=\"31\" width=\"1\" height=\"1\" fill=\"#fcfcfc\" opacity=\"0.01\"/> <rect x=\"31\" width=\"1\" height=\"1\" fill=\"#fcfcfc\" opacity=\"0.01\"/> <rect width=\"1\" height=\"1\" fill=\"#fcfcfc\" opacity=\"0.01\"/> <rect x=\"31\" y=\"31\" width=\"1\" height=\"1\" fill=\"#fcfcfc\" opacity=\"0.01\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_console-alt");
+
+/***/ },
+/* 70 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_console\" > <title>console</title> <g> <path d=\"M29.9,4H2.1A2.1,2.1,0,0,0,0,6.1V25.9A2.1,2.1,0,0,0,2.1,28H29.9A2.1,2.1,0,0,0,32,25.9V6.1A2.1,2.1,0,0,0,29.9,4ZM30,26H2V6H30V26Z\"/> <path d=\"M3,7V25H29V7H3ZM9.207,21.707L7.793,20.293,12.086,16,7.793,11.707l1.414-1.414L14.914,16ZM24,22H16V20h8v2Z\"/> </g> <g> <rect y=\"31\" width=\"1\" height=\"1\" fill=\"#fcfcfc\" opacity=\"0.01\"/> <rect x=\"31\" width=\"1\" height=\"1\" fill=\"#fcfcfc\" opacity=\"0.01\"/> <rect width=\"1\" height=\"1\" fill=\"#fcfcfc\" opacity=\"0.01\"/> <rect x=\"31\" y=\"31\" width=\"1\" height=\"1\" fill=\"#fcfcfc\" opacity=\"0.01\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_console");
+
+/***/ },
+/* 71 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_container-small-alt\" > <title>container-small-alt</title> <g> <g> <polygon points=\"29.714 8.001 29.714 8 29.714 8 29.714 8.001\"/> <polygon points=\"17 16.574 17 31.417 29.714 24 29.714 9.157 17 16.574\"/> </g> <g> <polygon points=\"2.286 8 2.286 8 2.286 8.001 2.286 8\"/> <polygon points=\"15 16.574 2.286 9.157 2.286 24 15 31.417 15 16.574\"/> </g> <g> <polygon points=\"16 14.842 28.722 7.421 16 0 3.278 7.421 16 14.842\"/> <polygon points=\"29.714 8 29.714 8 29.714 8 29.714 8\"/> <polygon points=\"2.286 8 2.286 8 2.286 8 2.286 8\"/> </g> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_container-small-alt");
+
+/***/ },
+/* 72 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_container-small\" > <title>container-small</title> <g> <polygon points=\"17 16.574 17 29.417 28 23 28 10.158 17 16.574\"/> <polygon points=\"16 14.842 27.008 8.421 16 2 4.992 8.421 16 14.842\"/> <polygon points=\"15 16.574 4 10.158 4 23 15 29.417 15 16.574\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_container-small");
+
+/***/ },
+/* 73 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_cw-alt\" > <title>cw-alt</title> <path d=\"M25.325,25.334a13.215,13.215,0,0,1-18.668,0L3.992,28,3.533,19.62l8.379,0.46L8.92,23.071A10.039,10.039,0,1,0,6.1,14.6l-3.19-.175A13.188,13.188,0,1,1,25.325,25.334Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_cw-alt");
+
+/***/ },
+/* 74 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_cw\" > <title>cw</title> <path d=\"M14.116,2.8A13.215,13.215,0,0,1,27.316,16h3.769l-5.6,6.25L19.884,16h4.231a10.039,10.039,0,1,0-4,7.979l2.132,2.379A13.188,13.188,0,1,1,14.116,2.8Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_cw");
+
+/***/ },
+/* 75 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_daocloud\" > <title>daocloud</title> <g> <polygon points=\"16.092 9.623 21.471 6.97 16.067 4.612 10.664 6.946 16.092 9.623\"/> <polygon points=\"10.566 16.894 10.295 12.521 14.225 10.556 8.674 7.806 5.088 9.378 5.555 13.578 10.566 16.894\"/> <polygon points=\"26.58 13.553 27.096 9.378 23.461 7.806 17.959 10.556 21.938 12.521 21.619 16.894 26.58 13.553\"/> <polygon points=\"21.471 18.981 21.078 24.68 25.647 21.241 26.334 15.715 21.471 18.981\"/> <polygon points=\"10.688 18.981 5.825 15.715 6.464 21.266 11.057 24.68 10.688 18.981\"/> <polygon points=\"19.752 20.136 16.117 22.592 12.432 20.136 12.801 25.981 16.092 28.438 19.334 25.981 19.752 20.136\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_daocloud");
+
+/***/ },
+/* 76 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_deploy\" > <title>deploy</title> <path d=\"M27.436,13.988V13.98A8.5,8.5,0,0,0,12.446,8.49a5.192,5.192,0,0,0-7.063,4.853c0,0.149.01,0.3,0.022,0.442A6.153,6.153,0,0,0,6.456,26H14V18H9.5L16,11.5,22.5,18H18v8h7.544A6.155,6.155,0,0,0,27.436,13.988Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_deploy");
+
+/***/ },
+/* 77 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_desktop\" > <title>desktop</title> <path d=\"M29.9,2H2.1A2.1,2.1,0,0,0,0,4.1V21.9A2.1,2.1,0,0,0,2.1,24H13l-0.8,4H10v2H22V28H19.8L19,24H29.9A2.1,2.1,0,0,0,32,21.9V4.1A2.1,2.1,0,0,0,29.9,2ZM30,20H2V4H30V20Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_desktop");
+
+/***/ },
+/* 78 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_docker-image\" > <title>docker-image</title> <g> <path d=\"M18.13,0H6.1A2.1,2.1,0,0,0,4,2.1V29.9A2.1,2.1,0,0,0,6.1,32H25.9A2.1,2.1,0,0,0,28,29.9V9.87a2.1,2.1,0,0,0-.615-1.485l-7.77-7.77A2.1,2.1,0,0,0,18.13,0ZM25,9H19V3Zm1,21H6V2H17v9h9V30Z\"/> <g> <polygon points=\"16 28.706 16 28.706 16 28.706 16 28.706\"/> <polygon points=\"22.896 16.639 22.896 16.638 22.896 16.638 22.896 16.639\"/> <polygon points=\"16.5 20.948 16.5 28.414 22.896 24.684 22.896 17.217 16.5 20.948\"/> </g> <g> <polygon points=\"9.104 16.638 9.104 16.638 9.104 16.639 9.104 16.638\"/> <polygon points=\"16 28.706 16 28.706 16 28.706 16 28.706\"/> <polygon points=\"15.5 20.948 9.104 17.217 9.104 24.684 15.5 28.414 15.5 20.948\"/> </g> <g> <polygon points=\"22.896 16.638 22.896 16.638 22.895 16.638 22.896 16.638\"/> <polygon points=\"16 20.082 22.4 16.349 16 12.616 9.6 16.349 16 20.082\"/> <polygon points=\"9.105 16.638 9.104 16.638 9.104 16.638 9.105 16.638\"/> </g> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_docker-image");
+
+/***/ },
+/* 79 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_down-arrow\" > <title>down-arrow</title> <polygon points=\"8 12 24 12 16 22 8 12\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_down-arrow");
+
+/***/ },
+/* 80 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_eye\" > <title>eye</title> <g> <path d=\"M16,5.6C7.163,5.6,0,16,0,16S7.163,26.4,16,26.4,32,16,32,16,24.836,5.6,16,5.6Zm0,17.6A7.2,7.2,0,1,1,23.2,16,7.2,7.2,0,0,1,16,23.2Z\"/> <path d=\"M16,16h4.3a4.3,4.3,0,1,1-1.585-3.334Z\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_eye");
+
+/***/ },
+/* 81 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_filter\" > <title>filter</title> <path d=\"M27.26,4H4.74A1.737,1.737,0,0,0,3.5,6.957L14,17.592V26.4a2.1,2.1,0,0,0,.615,1.485l1.849,1.849A0.9,0.9,0,0,0,18,29.1V17.592L28.5,6.957A1.737,1.737,0,0,0,27.26,4Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_filter");
+
+/***/ },
+/* 82 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_folder-move\" > <title>folder-move</title> <path d=\"M29.9,6H12L10,4H2.1A2.1,2.1,0,0,0,0,6.1V25.9A2.1,2.1,0,0,0,2.1,28H29.9A2.1,2.1,0,0,0,32,25.9V8.1A2.1,2.1,0,0,0,29.9,6ZM16,25L9,18h5V10h4v8h5Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_folder-move");
+
+/***/ },
+/* 83 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_folder\" > <title>folder</title> <path d=\"M29.9,6H12L10,4H2.1A2.1,2.1,0,0,0,0,6.1V25.9A2.1,2.1,0,0,0,2.1,28H29.9A2.1,2.1,0,0,0,32,25.9V8.1A2.1,2.1,0,0,0,29.9,6Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_folder");
+
+/***/ },
+/* 84 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_foot\" > <title>foot</title> <g> <circle cx=\"19.9\" cy=\"4.32\" r=\"2.92\"/> <circle cx=\"13.612\" cy=\"5.341\" r=\"1.84\"/> <circle cx=\"9.741\" cy=\"8.16\" r=\"1.5\"/> <circle cx=\"7.3\" cy=\"11.4\" r=\"1.45\"/> <path d=\"M22.076,24.07a3.915,3.915,0,0,1-3.084,6.43,3.6,3.6,0,0,1-2.3-.722,4.433,4.433,0,0,1-1.443-1.968l-4.921-8.661a7.238,7.238,0,0,1-.722-1.64,8.144,8.144,0,0,1-.328-2.165,6.627,6.627,0,0,1,2.034-4.855,6.627,6.627,0,0,1,4.855-2.034,7.01,7.01,0,0,1,3.477.919,6.685,6.685,0,0,1,2.493,2.559,6.89,6.89,0,0,1,.919,3.412,6.717,6.717,0,0,1-1.115,3.871A4.832,4.832,0,0,0,22.076,24.07Z\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_foot");
+
+/***/ },
+/* 85 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_globe-alt\" > <title>globe-alt</title> <path d=\"M16,1.2A14.8,14.8,0,1,0,30.8,16,14.8,14.8,0,0,0,16,1.2ZM3.314,16a12.634,12.634,0,0,1,.369-3H9.965a21.026,21.026,0,0,0,0,6H3.684A12.634,12.634,0,0,1,3.314,16Zm8.55,0a19.918,19.918,0,0,1,.238-3h7.8a19.952,19.952,0,0,1,.237,3,19.826,19.826,0,0,1-.239,3H12.1A19.927,19.927,0,0,1,11.864,16Zm10.171-3h6.282a12.362,12.362,0,0,1,0,6H22.035a22.1,22.1,0,0,0,.215-3A22.085,22.085,0,0,0,22.035,13Zm5.611-2H21.677a22.213,22.213,0,0,0-3.271-7.45A12.724,12.724,0,0,1,27.646,11ZM16,3.837A20.1,20.1,0,0,1,19.5,11h-7A20.118,20.118,0,0,1,16,3.837Zm-2.416-.286A22.23,22.23,0,0,0,10.322,11H4.354A12.724,12.724,0,0,1,13.586,3.551ZM4.354,21h5.969a22.243,22.243,0,0,0,3.271,7.451A12.724,12.724,0,0,1,4.354,21Zm11.639,7.153A20.111,20.111,0,0,1,12.5,21H19.5A20.156,20.156,0,0,1,15.993,28.153Zm2.412,0.3A22.194,22.194,0,0,0,21.677,21h5.969A12.724,12.724,0,0,1,18.405,28.451Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_globe-alt");
+
+/***/ },
+/* 86 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_globe\" > <title>globe</title> <path d=\"M24.965,24.965a12.49,12.49,0,0,0,3.344-5.835l-1.352-.142a5.911,5.911,0,0,1-1.637-3.2q-0.071-.64-0.071-1.992a11.257,11.257,0,0,0-.142-2.063,5.553,5.553,0,0,0-.961-1.779,9.973,9.973,0,0,1-.961-1.494q-0.213-.5-0.676-1.494T21.763,5.469a0.816,0.816,0,0,1,.249.071,0.764,0.764,0,0,1,.249.142,6,6,0,0,1,1-.142A11.844,11.844,0,0,0,17.85,3.477V4.046l0.285,0.64-1,.925L16.5,5.4l-0.712-.712-0.712-.854-1-.356a13.264,13.264,0,0,0-3.2.925V4.9a2.754,2.754,0,0,1,.783-0.285,4.411,4.411,0,0,0,.854-0.285,2.681,2.681,0,0,1,1.138.64q-0.071.071-.783,0.676a3.022,3.022,0,0,0-.783.818,0.833,0.833,0,0,0,.249.32,0.685,0.685,0,0,1,.249.391q0,0.213-.036.6t-0.036.6a18.445,18.445,0,0,1,1.565-1.494,1.974,1.974,0,0,1,1.565.6,3.03,3.03,0,0,1,1.067,1.245,0.716,0.716,0,0,1-.285.6,11.281,11.281,0,0,1-1.138,1.032q-0.783.64-.925,0.783a4.577,4.577,0,0,1-.64.462,2.748,2.748,0,0,0-.712.6,0.619,0.619,0,0,0-.071.64q0.712,1.423.356,1.708a0.282,0.282,0,0,1-.356.036,0.886,0.886,0,0,1-.32-0.249q-0.107-.142-0.285-0.356t-0.249-.285q-0.427-.5-2.7-0.5,0,2.277,1.067,3.06,2.917,2.135,3.344,2.348a3.262,3.262,0,0,0,1.708,0,2.383,2.383,0,0,1,1.637.071,22.96,22.96,0,0,0,3.344,2.063,4.051,4.051,0,0,1,1.423.961q0.783,0.747.427,1.245a15.577,15.577,0,0,0-1,1.637,4.227,4.227,0,0,1-1.423,1.779,4.955,4.955,0,0,0-1.494,2.063A12.607,12.607,0,0,0,24.965,24.965ZM14.435,28.594l0.391-.783,0.391-.783a1.334,1.334,0,0,0,.142-0.6,0.791,0.791,0,0,0-.356-0.6q-1.138-1-1.637-1.494a3.246,3.246,0,0,1-.427-0.818,1.521,1.521,0,0,1-.213-0.818,5.975,5.975,0,0,0,.569-1.708,1.466,1.466,0,0,0-.925-1.565,6.478,6.478,0,0,1-1-.712q-0.5-.427-1.1-0.925T9.312,17a4.214,4.214,0,0,1-1.423-1.352q-0.64-1.85-.712-1.992A4.484,4.484,0,0,1,6.394,11.7a6.735,6.735,0,0,1,.071-2.17q0-.5-0.142-1.779A12.1,12.1,0,0,0,3.335,16a12.21,12.21,0,0,0,3.7,8.965A12.48,12.48,0,0,0,14.435,28.594ZM16,1.2A14.256,14.256,0,0,1,26.46,5.54,14.256,14.256,0,0,1,30.8,16a14.256,14.256,0,0,1-4.34,10.46A14.256,14.256,0,0,1,16,30.8,14.256,14.256,0,0,1,5.54,26.46,14.256,14.256,0,0,1,1.2,16,14.256,14.256,0,0,1,5.54,5.54,14.256,14.256,0,0,1,16,1.2Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_globe");
+
+/***/ },
+/* 87 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_hashtag\" > <title>hashtag</title> <g> <path d=\"M27.9,2H4.1A2.1,2.1,0,0,0,2,4.1V27.9A2.1,2.1,0,0,0,4.1,30H27.9A2.1,2.1,0,0,0,30,27.9V4.1A2.1,2.1,0,0,0,27.9,2ZM25,14H20.984L19.9,18H24v2H19.357l-1.335,4.921H15.731L17.065,20h-4.3l-1.335,4.921H9.139L10.473,20H7V18h4.016L12.1,14H8V12h4.643l1.335-4.922h2.292L14.935,12h4.3l1.335-4.922h2.292L21.527,12H25v2Z\"/> <polygon points=\"13.308 18 17.608 18 18.692 14 14.392 14 13.308 18\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_hashtag");
+
+/***/ },
+/* 88 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_id\" > <title>id</title> <path d=\"M29.9,4H2.1A2.1,2.1,0,0,0,0,6.1V25.9A2.1,2.1,0,0,0,2.1,28H29.9A2.1,2.1,0,0,0,32,25.9V6.1A2.1,2.1,0,0,0,29.9,4ZM4.012,19.751a2.342,2.342,0,0,1,.127-0.6,1.393,1.393,0,0,1,.324-0.562,2.5,2.5,0,0,1,.788-0.446q0.591-.243,1.338-0.513a10.458,10.458,0,0,0,1.1-.449,1.606,1.606,0,0,0,.683-0.663,1.841,1.841,0,0,0,.243-0.906,1.241,1.241,0,0,0-.382-0.753,2.336,2.336,0,0,1-.382-0.718,0.866,0.866,0,0,1-.533-0.9,1.211,1.211,0,0,1,.168-0.724q-0.046-.319-0.1-0.979a2.027,2.027,0,0,1,.171-0.982A2.723,2.723,0,0,1,8.129,9.7a2.958,2.958,0,0,1,.86-0.594,2.346,2.346,0,0,1,2.021,0,2.958,2.958,0,0,1,.86.594,2.723,2.723,0,0,1,.576.854,2.027,2.027,0,0,1,.171.982q-0.058.66-.1,0.979a1.211,1.211,0,0,1,.168.724,0.866,0.866,0,0,1-.533.9,2.336,2.336,0,0,1-.382.718,1.241,1.241,0,0,0-.382.753,1.841,1.841,0,0,0,.243.906,1.606,1.606,0,0,0,.683.663,10.458,10.458,0,0,0,1.1.449q0.747,0.269,1.338.513a2.5,2.5,0,0,1,.788.446,1.393,1.393,0,0,1,.324.562,2.342,2.342,0,0,1,.127.6L16,20H4ZM28,24H4V22H28v2Zm0-4H18V18H28v2Zm0-4H18V14H28v2Zm0-4H18V10H28v2Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_id");
+
+/***/ },
+/* 89 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_inbox\" > <title>inbox</title> <path d=\"M27.879,3.515A2,2,0,0,0,25.938,2H6.062a2,2,0,0,0-1.94,1.515L0,20v7.9A2.1,2.1,0,0,0,2.1,30H29.9A2.1,2.1,0,0,0,32,27.9V20ZM28.658,20H21a1,1,0,0,0-1,1v2a1,1,0,0,1-1,1H13a1,1,0,0,1-1-1V21a1,1,0,0,0-1-1H3.342a1,1,0,0,1-.97-1.243L5.91,4.606A0.8,0.8,0,0,1,6.686,4H25.314a0.8,0.8,0,0,1,.776.606l3.538,14.151A1,1,0,0,1,28.658,20Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_inbox");
+
+/***/ },
+/* 90 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_location\" > <title>location</title> <path d=\"M16,1.849A10.438,10.438,0,0,0,5.562,12.287C5.562,22,16,30,16,30s10.438-8,10.438-17.713A10.438,10.438,0,0,0,16,1.849Zm0,15.645a5.207,5.207,0,1,1,5.207-5.207A5.207,5.207,0,0,1,16,17.494Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_location");
+
+/***/ },
+/* 91 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_lock-small\" > <title>lock-small</title> <path d=\"M22,14V11.9a6,6,0,1,0-12,0V14H8V24H24V14H22ZM12,11.9a4,4,0,1,1,8,0V14H12V11.9Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_lock-small");
+
+/***/ },
+/* 92 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_mail\" > <title>mail</title> <g> <polygon points=\"0 9.5 0 25 9.538 15.462 0 9.5\"/> <path d=\"M20.615,16.615L16,19.5l-4.615-2.885L0.615,27.385A2.093,2.093,0,0,0,2.1,28H29.9a2.093,2.093,0,0,0,1.485-.615Z\"/> <polygon points=\"32 25 32 9.5 22.462 15.462 32 25\"/> <path d=\"M29.9,4H2.1A2.1,2.1,0,0,0,0,6.1V7L16,17,32,7V6.1A2.1,2.1,0,0,0,29.9,4Z\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_mail");
+
+/***/ },
+/* 93 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_mobile\" > <title>mobile</title> <path d=\"M21.9,2H10.1A2.1,2.1,0,0,0,8,4.1V27.9A2.1,2.1,0,0,0,10.1,30H21.9A2.1,2.1,0,0,0,24,27.9V4.1A2.1,2.1,0,0,0,21.9,2ZM16,29.3A1.3,1.3,0,1,1,17.3,28,1.3,1.3,0,0,1,16,29.3ZM22,26H10V6H22V26Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_mobile");
+
+/***/ },
+/* 94 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_pause\" > <title>pause</title> <g> <rect x=\"20\" y=\"4\" width=\"6\" height=\"24\"/> <rect x=\"6\" y=\"4\" width=\"6\" height=\"24\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_pause");
+
+/***/ },
+/* 95 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_pencil-edit\" > <title>pencil-edit</title> <g> <path d=\"M20,2H4.1A2.1,2.1,0,0,0,2,4.1V27.9A2.1,2.1,0,0,0,4.1,30H27.9A2.1,2.1,0,0,0,30,27.9V12l-2,2V28H4V4H18Z\"/> <path d=\"M30,4.979a0.984,0.984,0,0,0-.054-0.328,4.287,4.287,0,0,0-2.6-2.6A0.984,0.984,0,0,0,27.021,2H25.757L24.343,3.414l4.243,4.243L30,6.243V4.979Z\"/> <polygon points=\"22.984 4.774 11.615 16.142 9.494 22.506 15.858 20.385 27.226 9.016 22.984 4.774\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_pencil-edit");
+
+/***/ },
+/* 96 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_play\" > <title>play</title> <polygon points=\"8 28 8 4 28 16 8 28\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_play");
+
+/***/ },
+/* 97 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_plugged\" > <title>plugged</title> <g> <path d=\"M17.893,18H16V14h1.893a2.074,2.074,0,0,0,2.08-1.664A2,2,0,0,0,18,10H16V6H10a6,6,0,0,0-6,6v8a6,6,0,0,0,6,6h6V22h2a2,2,0,0,0,1.973-2.336A2.074,2.074,0,0,0,17.893,18Z\"/> <path d=\"M22,6H16v4h1.893a2.074,2.074,0,0,1,2.08,1.664A2,2,0,0,1,18,14H16v4h1.893a2.074,2.074,0,0,1,2.08,1.664A2,2,0,0,1,18,22H16v4h6a6,6,0,0,0,6-6V12A6,6,0,0,0,22,6Z\" opacity=\"0.4\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_plugged");
+
+/***/ },
+/* 98 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_plus\" > <title>plus</title> <polygon points=\"28 14 18 14 18 4 14 4 14 14 4 14 4 18 14 18 14 28 18 28 18 18 28 18 28 14\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_plus");
+
+/***/ },
+/* 99 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_puzzle\" > <title>puzzle</title> <path d=\"M27.8,14a3.78,3.78,0,0,0-1.8.471V6H17.529A3.78,3.78,0,0,0,18,4.2a4,4,0,0,0-8,0A3.78,3.78,0,0,0,10.471,6H2v8.471A3.78,3.78,0,0,1,3.8,14a4,4,0,0,1,0,8A3.78,3.78,0,0,1,2,21.529V30h8.471A3.78,3.78,0,0,1,10,28.2a4,4,0,0,1,8,0,3.78,3.78,0,0,1-.471,1.8H26V21.529A3.78,3.78,0,0,0,27.8,22,4,4,0,0,0,27.8,14Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_puzzle");
+
+/***/ },
+/* 100 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_question\" > <title>question</title> <path d=\"M16,1.2A14.8,14.8,0,1,0,30.8,16,14.8,14.8,0,0,0,16,1.2ZM15.645,24.88a1.539,1.539,0,1,1,1.539-1.539A1.539,1.539,0,0,1,15.645,24.88Zm2.7-7.56a2.182,2.182,0,0,0-1.16,1.944v0.8H14.106v-0.8a5.217,5.217,0,0,1,2.846-4.69,2.261,2.261,0,0,0,1.386-1.762,2.352,2.352,0,0,0-4.677,0H10.583a5.422,5.422,0,0,1,10.833,0A5.215,5.215,0,0,1,18.344,17.32Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_question");
+
+/***/ },
+/* 101 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_science\" > <title>science</title> <path d=\"M26.45,16c2.868-2.838,4.461-5.774,3.233-7.9s-4.567-2.215-8.458-1.15C20.2,3.048,18.455.2,16,.2s-4.2,2.848-5.225,6.75C6.884,5.885,3.544,5.974,2.317,8.1S2.682,13.162,5.55,16c-2.868,2.838-4.461,5.774-3.233,7.9s4.567,2.215,8.458,1.15c1.024,3.9,2.77,6.75,5.225,6.75s4.2-2.848,5.225-6.75c3.891,1.065,7.231.976,8.458-1.15S29.318,18.838,26.45,16Zm1.5-6.9c0.67,1.16-.23,3.406-2.558,5.909a35.489,35.489,0,0,0-3.252-2.555,35.48,35.48,0,0,0-.587-4.094C24.887,7.6,27.281,7.94,27.951,9.1ZM18.5,20.33c-0.852.492-1.686,0.927-2.5,1.315-0.814-.389-1.648-0.823-2.5-1.315s-1.646-1-2.389-1.508C11.041,17.924,11,16.984,11,16s0.041-1.924.111-2.823c0.743-.51,1.537-1.015,2.389-1.508s1.686-.927,2.5-1.315c0.814,0.389,1.648.823,2.5,1.315s1.646,1,2.389,1.508C20.959,14.076,21,15.016,21,16s-0.041,1.924-.111,2.823C20.146,19.333,19.352,19.838,18.5,20.33ZM20.715,20.5a27.173,27.173,0,0,1-.51,2.784,27.149,27.149,0,0,1-2.666-.95c0.543-.282,1.083-0.572,1.611-0.877S20.2,20.829,20.715,20.5Zm-6.254,1.834a27.149,27.149,0,0,1-2.666.95,27.173,27.173,0,0,1-.51-2.784c0.516,0.329,1.037.652,1.565,0.957S13.918,22.051,14.461,22.333Zm-4.715-4.5A27.178,27.178,0,0,1,7.59,16a27.178,27.178,0,0,1,2.156-1.834C9.719,14.778,9.7,15.39,9.7,16S9.719,17.222,9.746,17.834ZM11.285,11.5a27.175,27.175,0,0,1,.51-2.784,27.163,27.163,0,0,1,2.666.95c-0.543.282-1.083,0.572-1.611,0.877S11.8,11.171,11.285,11.5Zm6.254-1.834a27.163,27.163,0,0,1,2.666-.95,27.175,27.175,0,0,1,.51,2.784c-0.516-.329-1.037-0.652-1.565-0.957S18.082,9.949,17.539,9.667Zm4.715,4.5A27.178,27.178,0,0,1,24.41,16a27.178,27.178,0,0,1-2.156,1.834C22.281,17.222,22.3,16.61,22.3,16S22.281,14.778,22.254,14.166ZM16,2.2c1.339,0,2.834,1.9,3.839,5.17A35.5,35.5,0,0,0,16,8.909,35.5,35.5,0,0,0,12.161,7.37C13.166,4.1,14.661,2.2,16,2.2ZM4.049,9.1c0.67-1.16,3.064-1.5,6.4-.739a35.48,35.48,0,0,0-.587,4.094,35.489,35.489,0,0,0-3.252,2.555C4.279,12.505,3.379,10.26,4.049,9.1Zm0,13.8c-0.67-1.16.23-3.405,2.558-5.909a35.489,35.489,0,0,0,3.252,2.555,35.479,35.479,0,0,0,.587,4.094C7.113,24.4,4.719,24.06,4.049,22.9ZM16,29.8c-1.339,0-2.834-1.9-3.839-5.17A35.5,35.5,0,0,0,16,23.091a35.5,35.5,0,0,0,3.839,1.539C18.834,27.9,17.339,29.8,16,29.8Zm11.951-6.9c-0.67,1.16-3.064,1.5-6.4.74a35.479,35.479,0,0,0,.587-4.094,35.489,35.489,0,0,0,3.252-2.555C27.721,19.495,28.621,21.74,27.951,22.9Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_science");
+
+/***/ },
+/* 102 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_search\" > <title>search</title> <path d=\"M31.164,28.336l-8.39-8.39a12.024,12.024,0,1,0-2.828,2.828l8.39,8.39ZM3.5,13A9.5,9.5,0,1,1,13,22.5,9.511,9.511,0,0,1,3.5,13Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_search");
+
+/***/ },
+/* 103 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_setting\" > <title>setting</title> <path d=\"M26.519,16a10.54,10.54,0,0,0-.125-1.54l3.344-2.69L26.515,6.225,22.535,7.767a10.494,10.494,0,0,0-2.673-1.544L19.207,2H12.793L12.138,6.223A10.494,10.494,0,0,0,9.465,7.767L5.485,6.225,2.263,11.77l3.344,2.69A10.54,10.54,0,0,0,5.481,16a10.541,10.541,0,0,0,.125,1.54L2.263,20.23l3.222,5.545,3.979-1.542a10.5,10.5,0,0,0,2.673,1.544L12.793,30h6.414l0.655-4.223a10.5,10.5,0,0,0,2.673-1.544l3.979,1.542,3.222-5.545-3.344-2.69A10.541,10.541,0,0,0,26.519,16ZM15.967,21.207A5.207,5.207,0,1,1,21.174,16,5.207,5.207,0,0,1,15.967,21.207Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_setting");
+
+/***/ },
+/* 104 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_stop\" > <title>stop</title> <rect x=\"6\" y=\"6\" width=\"20\" height=\"20\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_stop");
+
+/***/ },
+/* 105 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_swap\" > <title>swap</title> <g> <polygon points=\"10 8 10 4 2 10 10 16 10 12 26 12 26 8 10 8\"/> <polygon points=\"22 20 6 20 6 24 22 24 22 28 30 22 22 16 22 20\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_swap");
+
+/***/ },
+/* 106 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_tag\" > <title>tag</title> <path d=\"M29.222,15.222L16.615,2.615A2.1,2.1,0,0,0,15.13,2H8.87a2.1,2.1,0,0,0-1.485.615l-4.77,4.77A2.1,2.1,0,0,0,2,8.87v6.26a2.1,2.1,0,0,0,.615,1.485L15.222,29.222a2.1,2.1,0,0,0,2.97,0l11.03-11.03A2.1,2.1,0,0,0,29.222,15.222ZM9,11.8A2.8,2.8,0,1,1,11.8,9,2.8,2.8,0,0,1,9,11.8Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_tag");
+
+/***/ },
+/* 107 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_trash\" > <title>trash</title> <g> <polygon points=\"21 4 20 2 12 2 11 4 4 4 4 6 28 6 28 4 21 4\"/> <path d=\"M6,8V27.9A2.1,2.1,0,0,0,8.1,30H23.9A2.1,2.1,0,0,0,26,27.9V8H6Zm5,19h0a1,1,0,0,1-1-1V12a1,1,0,0,1,1-1h0a1,1,0,0,1,1,1V26A1,1,0,0,1,11,27Zm5,0h0a1,1,0,0,1-1-1V12a1,1,0,0,1,1-1h0a1,1,0,0,1,1,1V26A1,1,0,0,1,16,27Zm5,0h0a1,1,0,0,1-1-1V12a1,1,0,0,1,1-1h0a1,1,0,0,1,1,1V26A1,1,0,0,1,21,27Z\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_trash");
+
+/***/ },
+/* 108 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_twitter\" > <title>twitter</title> <path d=\"M31.125,3.5a13.352,13.352,0,0,1-4.188,1.563A6.568,6.568,0,0,0,17.5,4.938a6.313,6.313,0,0,0-1.938,4.625,6.164,6.164,0,0,0,.188,1.5,18.166,18.166,0,0,1-7.531-2A18.1,18.1,0,0,1,2.25,4.188,6.126,6.126,0,0,0,1.312,7.5,6.156,6.156,0,0,0,4.25,12.938a5.679,5.679,0,0,1-2.938-.812V12.25a6.373,6.373,0,0,0,1.469,4.125,6.492,6.492,0,0,0,3.781,2.313,8.331,8.331,0,0,1-1.75.188,6.36,6.36,0,0,1-1.25-.125,6.891,6.891,0,0,0,2.344,3.281,6.014,6.014,0,0,0,3.781,1.281,12.756,12.756,0,0,1-8.125,2.813q-0.75,0-1.562-.062A18.409,18.409,0,0,0,10.062,29a18.723,18.723,0,0,0,8-1.687,16.843,16.843,0,0,0,5.906-4.406,20.788,20.788,0,0,0,3.531-6,18.4,18.4,0,0,0,1.25-6.594V9.5A13.416,13.416,0,0,0,32,6.063a13.275,13.275,0,0,1-3.75,1.063A6.513,6.513,0,0,0,31.125,3.5Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_twitter");
+
+/***/ },
+/* 109 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_unplugged\" > <title>unplugged</title> <g> <path d=\"M13.893,18H12V14h1.893a2.074,2.074,0,0,0,2.08-1.664A2,2,0,0,0,14,10H12V6H6a6,6,0,0,0-6,6v8a6,6,0,0,0,6,6h6V22h2a2,2,0,0,0,1.973-2.336A2.074,2.074,0,0,0,13.893,18Z\"/> <path d=\"M26,6H20v4h1.893a2.074,2.074,0,0,1,2.08,1.664A2,2,0,0,1,22,14H20v4h1.893a2.074,2.074,0,0,1,2.08,1.664A2,2,0,0,1,22,22H20v4h6a6,6,0,0,0,6-6V12A6,6,0,0,0,26,6Z\" opacity=\"0.5\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_unplugged");
+
+/***/ },
 /* 110 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
-	
-	__webpack_require__(111);
-	
-	__webpack_require__(113);
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_up-arrow\" > <title>up-arrow</title> <polygon points=\"24 20 8 20 16 10 24 20\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_up-arrow");
 
 /***/ },
 /* 111 */
 /***/ function(module, exports, __webpack_require__) {
 
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_update\" > <title>update</title> <g> <path d=\"M8.938,23.056A9.972,9.972,0,0,1,14.6,6.109L14.426,2.9a13.174,13.174,0,0,0-7.75,22.415L4,27.992l8.379,0.46-0.46-8.379Z\"/> <path d=\"M25.322,6.684L28,4.008l-8.379-.46,0.46,8.379,2.982-2.982A9.971,9.971,0,0,1,17.4,25.891L17.574,29.1A13.171,13.171,0,0,0,25.322,6.684Z\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_update");
+
+/***/ },
+/* 112 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(29);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_user\" > <title>user</title> <path d=\"M30.971,29.277a5.857,5.857,0,0,0-.319-1.506,3.481,3.481,0,0,0-.811-1.4,6.245,6.245,0,0,0-1.969-1.115q-1.477-.608-3.345-1.281a26.158,26.158,0,0,1-2.751-1.122,4.015,4.015,0,0,1-1.709-1.658,4.6,4.6,0,0,1-.608-2.266,3.1,3.1,0,0,1,.956-1.882,5.845,5.845,0,0,0,.956-1.8A2.164,2.164,0,0,0,22.7,13a3.028,3.028,0,0,0-.42-1.81q0.116-.8.261-2.447a5.066,5.066,0,0,0-.427-2.454,6.8,6.8,0,0,0-1.441-2.136,7.394,7.394,0,0,0-2.15-1.484,5.865,5.865,0,0,0-5.052,0,7.394,7.394,0,0,0-2.15,1.484A6.8,6.8,0,0,0,9.883,6.292a5.066,5.066,0,0,0-.427,2.454Q9.6,10.4,9.717,11.193A3.028,3.028,0,0,0,9.3,13a2.164,2.164,0,0,0,1.332,2.244,5.845,5.845,0,0,0,.956,1.8,3.1,3.1,0,0,1,.956,1.882,4.6,4.6,0,0,1-.608,2.266,4.015,4.015,0,0,1-1.709,1.658,26.158,26.158,0,0,1-2.751,1.122q-1.868.673-3.345,1.281a6.245,6.245,0,0,0-1.969,1.115,3.481,3.481,0,0,0-.811,1.4,5.857,5.857,0,0,0-.319,1.506L1,29.9H31Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_user");
+
+/***/ },
+/* 113 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	__webpack_require__(114);
+	
+	__webpack_require__(116);
+
+/***/ },
+/* 114 */
+/***/ function(module, exports, __webpack_require__) {
+
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(112);
+	var content = __webpack_require__(115);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -2123,7 +2156,7 @@
 	}
 
 /***/ },
-/* 112 */
+/* 115 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -2137,13 +2170,13 @@
 
 
 /***/ },
-/* 113 */
+/* 116 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(114);
+	var content = __webpack_require__(117);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -2163,7 +2196,7 @@
 	}
 
 /***/ },
-/* 114 */
+/* 117 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -2177,7 +2210,7 @@
 
 
 /***/ },
-/* 115 */
+/* 118 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2186,15 +2219,15 @@
 	  value: true
 	});
 	
-	var _daoInputDirective = __webpack_require__(116);
+	var _daoInputDirective = __webpack_require__(119);
 	
 	var _daoInputDirective2 = _interopRequireDefault(_daoInputDirective);
 	
-	var _daoInputStateDirective = __webpack_require__(120);
+	var _daoInputStateDirective = __webpack_require__(123);
 	
 	var _daoInputStateDirective2 = _interopRequireDefault(_daoInputStateDirective);
 	
-	var _editableDaoInputDirective = __webpack_require__(121);
+	var _editableDaoInputDirective = __webpack_require__(124);
 	
 	var _editableDaoInputDirective2 = _interopRequireDefault(_editableDaoInputDirective);
 	
@@ -2205,7 +2238,7 @@
 	exports.default = 'dao.input';
 
 /***/ },
-/* 116 */
+/* 119 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2215,11 +2248,11 @@
 	  value: true
 	});
 	
-	var _daoInput = __webpack_require__(117);
+	var _daoInput = __webpack_require__(120);
 	
 	var _daoInput2 = _interopRequireDefault(_daoInput);
 	
-	__webpack_require__(118);
+	__webpack_require__(121);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -2255,19 +2288,19 @@
 	exports.default = DaoInputDirective;
 
 /***/ },
-/* 117 */
+/* 120 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=dao-input><form-area></form-area><div ng-bind-html=message></div></div>"
 
 /***/ },
-/* 118 */
+/* 121 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(119);
+	var content = __webpack_require__(122);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -2287,7 +2320,7 @@
 	}
 
 /***/ },
-/* 119 */
+/* 122 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -2295,13 +2328,13 @@
 	
 	
 	// module
-	exports.push([module.id, ".dao-input{display:inline-block}.dao-input input{margin:0;max-width:100%;flex:1 0 auto;outline:0;text-align:left;padding:10px;width:287px;height:34px;color:#3d444f;transition:all .25s ease;box-shadow:none;background-color:#fff;border:1px solid #ccd1d9;border-radius:2px}.dao-input.success input{border:1px solid #22c36a;border-radius:2px;box-shadow:0 0 0 2px rgba(34,195,106,.15)}.dao-input.error input{border:1px solid #f1483f;border-radius:2px;box-shadow:0 0 0 2px rgba(241,72,63,.15)}.dao-input.search{position:relative}.dao-input.search .search-icon{position:absolute;fill:#9ba3af;width:16px;height:16px;left:12px;top:9px}.dao-input.search input{height:34px;line-height:32px;margin-right:15px;width:200px;text-indent:24px;box-shadow:none;border-radius:17px;border:1px solid #ccd1d9}.dao-input.focus input,.dao-input input:focus{border:1px solid #3890ff;box-shadow:0 0 0 2px rgba(56,144,255,.15)}.dao-input.disabled input,.dao-input input[disabled]{background-color:#e4e7ed;border:1px solid #ccd1d9;border-radius:2px;pointer-events:none}", ""]);
+	exports.push([module.id, ".dao-input{display:inline-block}.dao-input input{margin:0;max-width:100%;flex:1 0 auto;outline:0;text-align:left;padding:0 10px;width:287px;height:34px;color:#3d444f;transition:all .25s ease;box-shadow:none;background-color:#fff;border:1px solid #ccd1d9;border-radius:2px;line-height:1}.dao-input.success input{border:1px solid #22c36a;border-radius:2px;box-shadow:0 0 0 2px rgba(34,195,106,.15)}.dao-input.error input{border:1px solid #f1483f;border-radius:2px;box-shadow:0 0 0 2px rgba(241,72,63,.15)}.dao-input.search{position:relative}.dao-input.search .search-icon{position:absolute;fill:#9ba3af;width:16px;height:16px;left:12px;top:9px}.dao-input.search input{height:34px;line-height:32px;margin-right:15px;width:200px;text-indent:24px;box-shadow:none;border-radius:17px;border:1px solid #ccd1d9}.dao-input.focus input,.dao-input input:focus{border:1px solid #3890ff;box-shadow:0 0 0 2px rgba(56,144,255,.15)}.dao-input.disabled input,.dao-input input[disabled]{background-color:#e4e7ed;border:1px solid #ccd1d9;border-radius:2px;pointer-events:none}", ""]);
 	
 	// exports
 
 
 /***/ },
-/* 120 */
+/* 123 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -2339,7 +2372,7 @@
 	exports.default = DaoInputStateDirective;
 
 /***/ },
-/* 121 */
+/* 124 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2349,11 +2382,11 @@
 	  value: true
 	});
 	
-	var _editableDaoInput = __webpack_require__(122);
+	var _editableDaoInput = __webpack_require__(125);
 	
 	var _editableDaoInput2 = _interopRequireDefault(_editableDaoInput);
 	
-	__webpack_require__(123);
+	__webpack_require__(126);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -2462,19 +2495,19 @@
 	exports.default = EditableDaoInputDirective;
 
 /***/ },
-/* 122 */
+/* 125 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=dao-editable-input><div class=\"dao-input form-area\" dao-input-state=canEdit><form-area></form-area></div><div class=edit-op><div class=edit-op-toggle ng-hide=edit ng-click=reventState()><span class=\"glyphicon glyphicon-pencil\" aria-hidden=true></span> 更改</div><div class=edit-op-btn ng-show=edit><button class=\"dao-btn ghost\" ng-click=cancel()>取消</button><btn-submit></btn-submit></div></div></div>"
 
 /***/ },
-/* 123 */
+/* 126 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(124);
+	var content = __webpack_require__(127);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -2494,7 +2527,7 @@
 	}
 
 /***/ },
-/* 124 */
+/* 127 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -2508,7 +2541,7 @@
 
 
 /***/ },
-/* 125 */
+/* 128 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2517,21 +2550,21 @@
 	  value: true
 	});
 	
-	var _dialog = __webpack_require__(126);
+	var _dialog = __webpack_require__(129);
 	
 	var dialog = _interopRequireWildcard(_dialog);
 	
-	__webpack_require__(141);
+	__webpack_require__(144);
 	
-	var _daoDialogHeader = __webpack_require__(143);
+	var _daoDialogHeader = __webpack_require__(146);
 	
 	var _daoDialogHeader2 = _interopRequireDefault(_daoDialogHeader);
 	
-	var _daoMultiStep = __webpack_require__(145);
+	var _daoMultiStep = __webpack_require__(148);
 	
 	var _daoMultiStep2 = _interopRequireDefault(_daoMultiStep);
 	
-	var _daoStep = __webpack_require__(152);
+	var _daoStep = __webpack_require__(155);
 	
 	var _daoStep2 = _interopRequireDefault(_daoStep);
 	
@@ -2546,7 +2579,7 @@
 	exports.default = 'dao.dialog';
 
 /***/ },
-/* 126 */
+/* 129 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2565,15 +2598,15 @@
 	exports.daoDialogAnimationClass = daoDialogAnimationClass;
 	exports.daoDialogTransclude = daoDialogTransclude;
 	
-	var _keys = __webpack_require__(127);
+	var _keys = __webpack_require__(130);
 	
 	var _keys2 = _interopRequireDefault(_keys);
 	
-	var _daoBackdrop = __webpack_require__(139);
+	var _daoBackdrop = __webpack_require__(142);
 	
 	var _daoBackdrop2 = _interopRequireDefault(_daoBackdrop);
 	
-	var _daoWindow = __webpack_require__(140);
+	var _daoWindow = __webpack_require__(143);
 	
 	var _daoWindow2 = _interopRequireDefault(_daoWindow);
 	
@@ -3343,43 +3376,43 @@
 	}
 
 /***/ },
-/* 127 */
+/* 130 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = { "default": __webpack_require__(128), __esModule: true };
+	module.exports = { "default": __webpack_require__(131), __esModule: true };
 
 /***/ },
-/* 128 */
+/* 131 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(129);
-	module.exports = __webpack_require__(135).Object.keys;
+	__webpack_require__(132);
+	module.exports = __webpack_require__(138).Object.keys;
 
 /***/ },
-/* 129 */
+/* 132 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 19.1.2.14 Object.keys(O)
-	var toObject = __webpack_require__(130);
+	var toObject = __webpack_require__(133);
 	
-	__webpack_require__(132)('keys', function($keys){
+	__webpack_require__(135)('keys', function($keys){
 	  return function keys(it){
 	    return $keys(toObject(it));
 	  };
 	});
 
 /***/ },
-/* 130 */
+/* 133 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 7.1.13 ToObject(argument)
-	var defined = __webpack_require__(131);
+	var defined = __webpack_require__(134);
 	module.exports = function(it){
 	  return Object(defined(it));
 	};
 
 /***/ },
-/* 131 */
+/* 134 */
 /***/ function(module, exports) {
 
 	// 7.2.1 RequireObjectCoercible(argument)
@@ -3389,13 +3422,13 @@
 	};
 
 /***/ },
-/* 132 */
+/* 135 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// most Object methods by ES6 should accept primitives
-	var $export = __webpack_require__(133)
-	  , core    = __webpack_require__(135)
-	  , fails   = __webpack_require__(138);
+	var $export = __webpack_require__(136)
+	  , core    = __webpack_require__(138)
+	  , fails   = __webpack_require__(141);
 	module.exports = function(KEY, exec){
 	  var fn  = (core.Object || {})[KEY] || Object[KEY]
 	    , exp = {};
@@ -3404,12 +3437,12 @@
 	};
 
 /***/ },
-/* 133 */
+/* 136 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var global    = __webpack_require__(134)
-	  , core      = __webpack_require__(135)
-	  , ctx       = __webpack_require__(136)
+	var global    = __webpack_require__(137)
+	  , core      = __webpack_require__(138)
+	  , ctx       = __webpack_require__(139)
 	  , PROTOTYPE = 'prototype';
 	
 	var $export = function(type, name, source){
@@ -3455,7 +3488,7 @@
 	module.exports = $export;
 
 /***/ },
-/* 134 */
+/* 137 */
 /***/ function(module, exports) {
 
 	// https://github.com/zloirock/core-js/issues/86#issuecomment-115759028
@@ -3464,18 +3497,18 @@
 	if(typeof __g == 'number')__g = global; // eslint-disable-line no-undef
 
 /***/ },
-/* 135 */
+/* 138 */
 /***/ function(module, exports) {
 
 	var core = module.exports = {version: '1.2.6'};
 	if(typeof __e == 'number')__e = core; // eslint-disable-line no-undef
 
 /***/ },
-/* 136 */
+/* 139 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// optional / simple context binding
-	var aFunction = __webpack_require__(137);
+	var aFunction = __webpack_require__(140);
 	module.exports = function(fn, that, length){
 	  aFunction(fn);
 	  if(that === undefined)return fn;
@@ -3496,7 +3529,7 @@
 	};
 
 /***/ },
-/* 137 */
+/* 140 */
 /***/ function(module, exports) {
 
 	module.exports = function(it){
@@ -3505,7 +3538,7 @@
 	};
 
 /***/ },
-/* 138 */
+/* 141 */
 /***/ function(module, exports) {
 
 	module.exports = function(exec){
@@ -3517,25 +3550,25 @@
 	};
 
 /***/ },
-/* 139 */
+/* 142 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=dao-backdrop ng-style=\"{'z-index': 10002 + (index && 1 || 0) + index*10}\" dao-dialog-animation-class=fade dialog-in-class=in></div>"
 
 /***/ },
-/* 140 */
+/* 143 */
 /***/ function(module, exports) {
 
 	module.exports = "<div dialog-render={{$isRendered}} tabindex=-1 role=dialog class=\"dao-dialog dao-dialog-overlay\" dao-dialog-animation-class=show ng-style=\"{'z-index': 10010 + index*10, display: 'flex'}\"><div class=dao-dialog-overlay-inner><div class=dao-dialog-container dao-dialog-transclude></div></div></div>"
 
 /***/ },
-/* 141 */
+/* 144 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(142);
+	var content = __webpack_require__(145);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -3555,7 +3588,7 @@
 	}
 
 /***/ },
-/* 142 */
+/* 145 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -3569,7 +3602,7 @@
 
 
 /***/ },
-/* 143 */
+/* 146 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3578,7 +3611,7 @@
 	  value: true
 	});
 	
-	var _daoDialogHeader = __webpack_require__(144);
+	var _daoDialogHeader = __webpack_require__(147);
 	
 	var _daoDialogHeader2 = _interopRequireDefault(_daoDialogHeader);
 	
@@ -3596,13 +3629,13 @@
 	exports.default = DaoDialogHeader;
 
 /***/ },
-/* 144 */
+/* 147 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=dao-dialog-header><ng-transclude></ng-transclude><div ng-click=\"$dismiss('close')\" class=dao-close><svg preserveaspectratio=xMidYMid width=34 height=34 viewbox=\"0 0 34 34\"><path d=\"M17.000,0.001 C7.612,0.001 0.001,7.612 0.001,17.000 C0.001,26.388 7.612,33.999 17.000,33.999 C26.388,33.999 33.999,26.388 33.999,17.000 C33.999,7.612 26.388,0.001 17.000,0.001 ZM24.166,21.666 C24.166,21.666 21.666,24.166 21.666,24.166 C21.666,24.166 17.000,19.500 17.000,19.500 C17.000,19.500 12.334,24.166 12.334,24.166 C12.334,24.166 9.834,21.666 9.834,21.666 C9.834,21.666 14.500,17.000 14.500,17.000 C14.500,17.000 9.834,12.335 9.834,12.335 C9.834,12.335 12.334,9.834 12.334,9.834 C12.334,9.834 17.000,14.500 17.000,14.500 C17.000,14.500 21.666,9.834 21.666,9.834 C21.666,9.834 24.166,12.335 24.166,12.335 C24.166,12.335 19.500,17.000 19.500,17.000 C19.500,17.000 24.166,21.666 24.166,21.666 Z\" id=path-1 fill-rule=evenodd></path></svg></div></div>"
 
 /***/ },
-/* 145 */
+/* 148 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3611,15 +3644,15 @@
 	  value: true
 	});
 	
-	var _classCallCheck2 = __webpack_require__(146);
+	var _classCallCheck2 = __webpack_require__(149);
 	
 	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 	
-	var _createClass2 = __webpack_require__(147);
+	var _createClass2 = __webpack_require__(150);
 	
 	var _createClass3 = _interopRequireDefault(_createClass2);
 	
-	var _daoMultiStep = __webpack_require__(151);
+	var _daoMultiStep = __webpack_require__(154);
 	
 	var _daoMultiStep2 = _interopRequireDefault(_daoMultiStep);
 	
@@ -3715,7 +3748,7 @@
 	exports.default = DaoMultiStep;
 
 /***/ },
-/* 146 */
+/* 149 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -3729,12 +3762,12 @@
 	exports.__esModule = true;
 
 /***/ },
-/* 147 */
+/* 150 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
 	
-	var _defineProperty = __webpack_require__(148);
+	var _defineProperty = __webpack_require__(151);
 	
 	var _defineProperty2 = _interopRequireDefault(_defineProperty);
 	
@@ -3761,22 +3794,22 @@
 	exports.__esModule = true;
 
 /***/ },
-/* 148 */
+/* 151 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = { "default": __webpack_require__(149), __esModule: true };
+	module.exports = { "default": __webpack_require__(152), __esModule: true };
 
 /***/ },
-/* 149 */
+/* 152 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var $ = __webpack_require__(150);
+	var $ = __webpack_require__(153);
 	module.exports = function defineProperty(it, key, desc){
 	  return $.setDesc(it, key, desc);
 	};
 
 /***/ },
-/* 150 */
+/* 153 */
 /***/ function(module, exports) {
 
 	var $Object = Object;
@@ -3794,13 +3827,13 @@
 	};
 
 /***/ },
-/* 151 */
+/* 154 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=dao-multi-step ng-transclude></div>"
 
 /***/ },
-/* 152 */
+/* 155 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3809,7 +3842,7 @@
 	  value: true
 	});
 	
-	var _daoStep = __webpack_require__(153);
+	var _daoStep = __webpack_require__(156);
 	
 	var _daoStep2 = _interopRequireDefault(_daoStep);
 	
@@ -3841,13 +3874,13 @@
 	exports.default = DaoStep;
 
 /***/ },
-/* 153 */
+/* 156 */
 /***/ function(module, exports) {
 
 	module.exports = "<div ng-if=isActive class=dao-step ng-class=\"{'dao-animate':daoAnimate}\" ng-transclude></div>"
 
 /***/ },
-/* 154 */
+/* 157 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3856,19 +3889,19 @@
 	  value: true
 	});
 	
-	var _daoPosition = __webpack_require__(155);
+	var _daoPosition = __webpack_require__(158);
 	
 	var position = _interopRequireWildcard(_daoPosition);
 	
-	var _daoStackedMap = __webpack_require__(156);
+	var _daoStackedMap = __webpack_require__(159);
 	
 	var stackedMap = _interopRequireWildcard(_daoStackedMap);
 	
-	var _daoTooltip = __webpack_require__(157);
+	var _daoTooltip = __webpack_require__(160);
 	
 	var tooltip = _interopRequireWildcard(_daoTooltip);
 	
-	__webpack_require__(161);
+	__webpack_require__(164);
 	
 	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 	
@@ -3882,7 +3915,7 @@
 	exports.default = moduleName;
 
 /***/ },
-/* 155 */
+/* 158 */
 /***/ function(module, exports) {
 
 	/**
@@ -4441,7 +4474,7 @@
 	}
 
 /***/ },
-/* 156 */
+/* 159 */
 /***/ function(module, exports) {
 
 	/**
@@ -4514,7 +4547,7 @@
 	};
 
 /***/ },
-/* 157 */
+/* 160 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4537,15 +4570,15 @@
 	exports.daoTooltipHtmlPopup = daoTooltipHtmlPopup;
 	exports.daoTooltipHtml = daoTooltipHtml;
 	
-	var _tooltipTemplatePopup = __webpack_require__(158);
+	var _tooltipTemplatePopup = __webpack_require__(161);
 	
 	var _tooltipTemplatePopup2 = _interopRequireDefault(_tooltipTemplatePopup);
 	
-	var _tooltipHtmlPopup = __webpack_require__(159);
+	var _tooltipHtmlPopup = __webpack_require__(162);
 	
 	var _tooltipHtmlPopup2 = _interopRequireDefault(_tooltipHtmlPopup);
 	
-	var _tooltipPopup = __webpack_require__(160);
+	var _tooltipPopup = __webpack_require__(163);
 	
 	var _tooltipPopup2 = _interopRequireDefault(_tooltipPopup);
 	
@@ -5311,31 +5344,31 @@
 	};
 
 /***/ },
-/* 158 */
+/* 161 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=dao-tooltip tooltip-animation-class=fade dao-tooltip-classes ng-class=\"{ in: isOpen() }\"><div class=dao-tooltip-arrow></div><div class=dao-tooltip-inner dao-tooltip-template-transclude=contentExp() tooltip-template-transclude-scope=originScope()></div></div>"
 
 /***/ },
-/* 159 */
+/* 162 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=dao-tooltip tooltip-animation-class=fade dao-tooltip-classes ng-class=\"{ in: isOpen() }\"><div class=dao-tooltip-arrow></div><div class=dao-tooltip-inner ng-bind-html=contentExp()></div></div>"
 
 /***/ },
-/* 160 */
+/* 163 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=dao-tooltip tooltip-animation-class=fade dao-tooltip-classes ng-class=\"{ in: isOpen() }\"><div class=dao-tooltip-arrow></div><div class=dao-tooltip-inner ng-bind=content></div></div>"
 
 /***/ },
-/* 161 */
+/* 164 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(162);
+	var content = __webpack_require__(165);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -5355,7 +5388,7 @@
 	}
 
 /***/ },
-/* 162 */
+/* 165 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -5369,7 +5402,7 @@
 
 
 /***/ },
-/* 163 */
+/* 166 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -5378,11 +5411,11 @@
 	  value: true
 	});
 	
-	var _daoPopover = __webpack_require__(164);
+	var _daoPopover = __webpack_require__(167);
 	
 	var popover = _interopRequireWildcard(_daoPopover);
 	
-	__webpack_require__(168);
+	__webpack_require__(171);
 	
 	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 	
@@ -5398,7 +5431,7 @@
 	exports.default = moduleName;
 
 /***/ },
-/* 164 */
+/* 167 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -5416,15 +5449,15 @@
 	exports.daoPopoverPopup = daoPopoverPopup;
 	exports.daoPopover = daoPopover;
 	
-	var _popover = __webpack_require__(165);
+	var _popover = __webpack_require__(168);
 	
 	var _popover2 = _interopRequireDefault(_popover);
 	
-	var _popoverTemplate = __webpack_require__(166);
+	var _popoverTemplate = __webpack_require__(169);
 	
 	var _popoverTemplate2 = _interopRequireDefault(_popoverTemplate);
 	
-	var _popoverHtml = __webpack_require__(167);
+	var _popoverHtml = __webpack_require__(170);
 	
 	var _popoverHtml2 = _interopRequireDefault(_popoverHtml);
 	
@@ -5474,31 +5507,31 @@
 	};
 
 /***/ },
-/* 165 */
+/* 168 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=dao-popover tooltip-animation-class=fade dao-tooltip-classes ng-class=\"{ in: isOpen() }\"><div class=arrow></div><div class=dao-popover-inner><h3 class=dao-popover-title ng-bind=title ng-if=title></h3><div class=dao-popover-content ng-bind=content></div></div></div>"
 
 /***/ },
-/* 166 */
+/* 169 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=dao-popover tooltip-animation-class=fade dao-tooltip-classes ng-class=\"{ in: isOpen() }\"><div class=arrow></div><div class=dao-popover-inner><h3 class=dao-popover-title ng-bind=title ng-if=title></h3><div class=dao-popover-content dao-tooltip-template-transclude=contentExp() tooltip-template-transclude-scope=originScope() template-type={{templateType}}></div></div></div>"
 
 /***/ },
-/* 167 */
+/* 170 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=dao-popover tooltip-animation-class=fade dao-tooltip-classes ng-class=\"{ in: isOpen() }\"><div class=arrow></div><div class=dao-popover-inner><h3 class=dao-popover-title ng-bind=title ng-if=title></h3><div class=dao-popover-content ng-bind-html=contentExp()></div></div></div>"
 
 /***/ },
-/* 168 */
+/* 171 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(169);
+	var content = __webpack_require__(172);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -5518,7 +5551,7 @@
 	}
 
 /***/ },
-/* 169 */
+/* 172 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -5532,7 +5565,7 @@
 
 
 /***/ },
-/* 170 */
+/* 173 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -5541,13 +5574,13 @@
 	  value: true
 	});
 	
-	__webpack_require__(171);
+	__webpack_require__(174);
 	
-	var _multiSteps = __webpack_require__(173);
+	var _multiSteps = __webpack_require__(176);
 	
 	var _multiSteps2 = _interopRequireDefault(_multiSteps);
 	
-	var _step = __webpack_require__(176);
+	var _step = __webpack_require__(179);
 	
 	var _step2 = _interopRequireDefault(_step);
 	
@@ -5562,13 +5595,13 @@
 	exports.default = moduleName;
 
 /***/ },
-/* 171 */
+/* 174 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(172);
+	var content = __webpack_require__(175);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -5588,7 +5621,7 @@
 	}
 
 /***/ },
-/* 172 */
+/* 175 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -5602,7 +5635,7 @@
 
 
 /***/ },
-/* 173 */
+/* 176 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -5611,19 +5644,19 @@
 	  value: true
 	});
 	
-	var _classCallCheck2 = __webpack_require__(146);
+	var _classCallCheck2 = __webpack_require__(149);
 	
 	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 	
-	var _createClass2 = __webpack_require__(147);
+	var _createClass2 = __webpack_require__(150);
 	
 	var _createClass3 = _interopRequireDefault(_createClass2);
 	
-	var _multiSteps = __webpack_require__(174);
+	var _multiSteps = __webpack_require__(177);
 	
 	var _multiSteps2 = _interopRequireDefault(_multiSteps);
 	
-	var _nestedMultiSteps = __webpack_require__(175);
+	var _nestedMultiSteps = __webpack_require__(178);
 	
 	var _nestedMultiSteps2 = _interopRequireDefault(_nestedMultiSteps);
 	
@@ -5742,19 +5775,19 @@
 	exports.default = MultiStepsDirective;
 
 /***/ },
-/* 174 */
+/* 177 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao-layout-wrap dao-multi-step\"><div class=dao-layout-sidebar><div class=multi-step-sidebar><div class=multi-step-item ng-class=\"{'active' : step.isActive , 'success' : step.isSuccessful }\" ng-click=vm.activeStep(step) ng-repeat=\"step in vm.steps\"><div class=multi-step-order ng-show=step.index>{{ step.index }}</div>{{ step.title }}</div></div></div><div class=dao-layout-content><div class=multi-step-content ng-transclude></div></div></div>"
 
 /***/ },
-/* 175 */
+/* 178 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao-layout-wrap dao-multi-step\"><div class=dao-layout-sidebar><div class=\"multi-step-sidebar nested\"><div class=multi-step-item ng-class=\"{'active' : step.isActive, 'no-active': step.noActive, 'is-locked': step.isLocked, 'can-not-click': vm.canNotClick }\" ng-click=\"vm.canNotClick ? return : vm.activeStep(step)\" ng-repeat=\"step in vm.steps\"><div class=item-caret ng-show=!step.isSubmenu><svg ng-show=\"!step.isMainmenu && !step.isLocked\"><use xlink:href=#icon_caret-right></use></svg><svg ng-show=step.isMainmenu><use xlink:href=#icon_caret-down></use></svg><svg ng-show=step.isLocked><use xlink:href=#icon_lock-small></use></svg></div><div class=item-dot ng-show=step.isSubmenu></div><div class=title>{{ step.title }}</div><div class=item-success ng-show=step.isSuccessful><svg class=icon><use xlink:href=#icon-success></use></svg></div><div class=item-warning ng-show=step.isWarning><svg class=icon><use xlink:href=#icon-warning></use></svg></div></div></div></div><div class=dao-layout-content><div class=multi-step-content ng-transclude></div></div></div>"
 
 /***/ },
-/* 176 */
+/* 179 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -5764,7 +5797,7 @@
 	  value: true
 	});
 	
-	var _step = __webpack_require__(177);
+	var _step = __webpack_require__(180);
 	
 	var _step2 = _interopRequireDefault(_step);
 	
@@ -5818,13 +5851,13 @@
 	exports.default = StepDirective;
 
 /***/ },
-/* 177 */
+/* 180 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=multi-step-content-body ng-transclude></div>"
 
 /***/ },
-/* 178 */
+/* 181 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -5833,7 +5866,7 @@
 	  value: true
 	});
 	
-	var _daoDropdown = __webpack_require__(179);
+	var _daoDropdown = __webpack_require__(182);
 	
 	var dropdown = _interopRequireWildcard(_daoDropdown);
 	
@@ -5861,7 +5894,7 @@
 	exports.default = moduleName;
 
 /***/ },
-/* 179 */
+/* 182 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -6331,7 +6364,7 @@
 	}
 
 /***/ },
-/* 180 */
+/* 183 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6340,7 +6373,7 @@
 	  value: true
 	});
 	
-	var _daoFeedbackDirective = __webpack_require__(181);
+	var _daoFeedbackDirective = __webpack_require__(184);
 	
 	var _daoFeedbackDirective2 = _interopRequireDefault(_daoFeedbackDirective);
 	
@@ -6351,7 +6384,7 @@
 	exports.default = 'dao.feedback';
 
 /***/ },
-/* 181 */
+/* 184 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6360,7 +6393,7 @@
 	  value: true
 	});
 	
-	__webpack_require__(182);
+	__webpack_require__(185);
 	
 	function DaoFeedbackDirective() {
 	
@@ -6411,13 +6444,13 @@
 	exports.default = DaoFeedbackDirective;
 
 /***/ },
-/* 182 */
+/* 185 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(183);
+	var content = __webpack_require__(186);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -6437,7 +6470,7 @@
 	}
 
 /***/ },
-/* 183 */
+/* 186 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -6451,7 +6484,7 @@
 
 
 /***/ },
-/* 184 */
+/* 187 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6460,9 +6493,9 @@
 	  value: true
 	});
 	
-	__webpack_require__(185);
+	__webpack_require__(188);
 	
-	var _daoSwitch = __webpack_require__(187);
+	var _daoSwitch = __webpack_require__(190);
 	
 	var _daoSwitch2 = _interopRequireDefault(_daoSwitch);
 	
@@ -6475,13 +6508,13 @@
 	exports.default = moduleName;
 
 /***/ },
-/* 185 */
+/* 188 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(186);
+	var content = __webpack_require__(189);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -6501,7 +6534,7 @@
 	}
 
 /***/ },
-/* 186 */
+/* 189 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -6515,7 +6548,7 @@
 
 
 /***/ },
-/* 187 */
+/* 190 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6524,7 +6557,7 @@
 	  value: true
 	});
 	
-	var _daoSwitch = __webpack_require__(188);
+	var _daoSwitch = __webpack_require__(191);
 	
 	var _daoSwitch2 = _interopRequireDefault(_daoSwitch);
 	
@@ -6561,13 +6594,13 @@
 	exports.default = SwitchDirective;
 
 /***/ },
-/* 188 */
+/* 191 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=dao-switch><span class=dao-switch-button ng-class=\"{'checked': ngModel, 'disabled': attrs.disabled}\" ng-click=click()><small></small> <input type=checkbox id={{attrs.id}} name={{attrs.name}} ng-model=ngModel style=display:none> <span class=dao-switch-text><span class=on>{{attrs.on}}</span> <span class=off>{{attrs.off}}</span></span></span> <span class=dao-switch-notice ng-show=attrs.withNotice>{{ngModel ? '已开启' : '已关闭'}}</span></div>"
 
 /***/ },
-/* 189 */
+/* 192 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6576,15 +6609,15 @@
 	  value: true
 	});
 	
-	var _radioGroup = __webpack_require__(190);
+	var _radioGroup = __webpack_require__(193);
 	
 	var _radioGroup2 = _interopRequireDefault(_radioGroup);
 	
-	var _radioBlock = __webpack_require__(192);
+	var _radioBlock = __webpack_require__(195);
 	
 	var _radioBlock2 = _interopRequireDefault(_radioBlock);
 	
-	var _radioGrid = __webpack_require__(194);
+	var _radioGrid = __webpack_require__(197);
 	
 	var _radioGrid2 = _interopRequireDefault(_radioGrid);
 	
@@ -6600,7 +6633,7 @@
 	exports.default = moduleName;
 
 /***/ },
-/* 190 */
+/* 193 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6609,15 +6642,15 @@
 	  value: true
 	});
 	
-	var _classCallCheck2 = __webpack_require__(146);
+	var _classCallCheck2 = __webpack_require__(149);
 	
 	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 	
-	var _createClass2 = __webpack_require__(147);
+	var _createClass2 = __webpack_require__(150);
 	
 	var _createClass3 = _interopRequireDefault(_createClass2);
 	
-	var _radioGroup = __webpack_require__(191);
+	var _radioGroup = __webpack_require__(194);
 	
 	var _radioGroup2 = _interopRequireDefault(_radioGroup);
 	
@@ -6700,13 +6733,13 @@
 	exports.default = RadioGroupDirective;
 
 /***/ },
-/* 191 */
+/* 194 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=dao-radio-group ng-transclude></div>"
 
 /***/ },
-/* 192 */
+/* 195 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6715,7 +6748,7 @@
 	  value: true
 	});
 	
-	var _radioBlock = __webpack_require__(193);
+	var _radioBlock = __webpack_require__(196);
 	
 	var _radioBlock2 = _interopRequireDefault(_radioBlock);
 	
@@ -6751,13 +6784,13 @@
 	exports.default = RadioBlockDirective;
 
 /***/ },
-/* 193 */
+/* 196 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=dao-radio-block ng-class=\"{'active': checked, 'disabled': disabled}\" ng-click=check()><label><input type=radio id={{id}} name={{name}} value={{value}} ng-checked=checked><div><div class=dao-radio-block-headline>{{headline}}</div><div class=dao-radio-block-description>{{description}}</div></div></label></div>"
 
 /***/ },
-/* 194 */
+/* 197 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6766,7 +6799,7 @@
 	  value: true
 	});
 	
-	var _radioGrid = __webpack_require__(195);
+	var _radioGrid = __webpack_require__(198);
 	
 	var _radioGrid2 = _interopRequireDefault(_radioGrid);
 	
@@ -6805,13 +6838,13 @@
 	exports.default = RadioGridDirective;
 
 /***/ },
-/* 195 */
+/* 198 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=dao-radio-grid ng-class=\"{'active': checked, 'disabled': disabled}\" ng-click=check()><svg class=checked-icon ng-show=checked><use xlink:href=#icon-success></use></svg><div class=dao-radio-grid-wrap><div class=dao-radio-grid-img ng-transclude></div><div class=dao-radio-grid-headline>{{headline}}</div><div class=dao-radio-grid-description>{{description}}</div></div></div>"
 
 /***/ },
-/* 196 */
+/* 199 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6820,17 +6853,17 @@
 	  value: true
 	});
 	
-	__webpack_require__(197);
+	__webpack_require__(200);
 	
-	var _daoTab = __webpack_require__(199);
+	var _daoTab = __webpack_require__(202);
 	
 	var _daoTab2 = _interopRequireDefault(_daoTab);
 	
-	var _daoTabset = __webpack_require__(200);
+	var _daoTabset = __webpack_require__(203);
 	
 	var _daoTabset2 = _interopRequireDefault(_daoTabset);
 	
-	var _daoTab3 = __webpack_require__(201);
+	var _daoTab3 = __webpack_require__(204);
 	
 	var daotab = _interopRequireWildcard(_daoTab3);
 	
@@ -6845,13 +6878,13 @@
 	exports.default = moduleName;
 
 /***/ },
-/* 197 */
+/* 200 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(198);
+	var content = __webpack_require__(201);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -6871,7 +6904,7 @@
 	}
 
 /***/ },
-/* 198 */
+/* 201 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -6885,19 +6918,19 @@
 
 
 /***/ },
-/* 199 */
+/* 202 */
 /***/ function(module, exports) {
 
 	module.exports = "<li ng-class=\"[{active: active, disabled: disabled}, classes]\" class=dao-tab-nav-item><a ng-click=select($event) class=dao-tab-nav-link dao-tab-heading-transclude>{{heading}}</a></li>"
 
 /***/ },
-/* 200 */
+/* 203 */
 /***/ function(module, exports) {
 
 	module.exports = "<div><ul class=\"dao-tab-nav dao-tab-nav-{{tabset.type || 'tabs'}}\" ng-class=\"{'dao-tab-nav-stacked': vertical, 'dao-tab-nav-justified': justified}\" ng-transclude></ul><div class=dao-tab-content><div class=dao-tab-pane ng-repeat=\"tab in tabset.tabs\" ng-class=\"{active: tabset.active === tab.index}\" dao-tab-content-transclude=tab></div></div></div>"
 
 /***/ },
-/* 201 */
+/* 204 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6913,11 +6946,11 @@
 	exports.daoTabHeadingTransclude = daoTabHeadingTransclude;
 	exports.daoTabContentTransclude = daoTabContentTransclude;
 	
-	var _daoTab = __webpack_require__(199);
+	var _daoTab = __webpack_require__(202);
 	
 	var _daoTab2 = _interopRequireDefault(_daoTab);
 	
-	var _daoTabset = __webpack_require__(200);
+	var _daoTabset = __webpack_require__(203);
 	
 	var _daoTabset2 = _interopRequireDefault(_daoTabset);
 	
@@ -7143,7 +7176,7 @@
 	}
 
 /***/ },
-/* 202 */
+/* 205 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7152,11 +7185,11 @@
 	  value: true
 	});
 	
-	var _editableTable = __webpack_require__(203);
+	var _editableTable = __webpack_require__(206);
 	
 	var _editableTable2 = _interopRequireDefault(_editableTable);
 	
-	var _daoFixedTable = __webpack_require__(205);
+	var _daoFixedTable = __webpack_require__(208);
 	
 	var _daoFixedTable2 = _interopRequireDefault(_daoFixedTable);
 	
@@ -7169,7 +7202,7 @@
 	exports.default = moduleName;
 
 /***/ },
-/* 203 */
+/* 206 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7178,15 +7211,15 @@
 	  value: true
 	});
 	
-	var _classCallCheck2 = __webpack_require__(146);
+	var _classCallCheck2 = __webpack_require__(149);
 	
 	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 	
-	var _createClass2 = __webpack_require__(147);
+	var _createClass2 = __webpack_require__(150);
 	
 	var _createClass3 = _interopRequireDefault(_createClass2);
 	
-	var _editableTable = __webpack_require__(204);
+	var _editableTable = __webpack_require__(207);
 	
 	var _editableTable2 = _interopRequireDefault(_editableTable);
 	
@@ -7297,13 +7330,13 @@
 	exports.default = editableTableDirective;
 
 /***/ },
-/* 204 */
+/* 207 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao-table-container edit-table\"><div class=dao-table-main><table class=\"dao-table row\"><thead><th ng-repeat=\"header in vm.data_clone.header\">{{header}}</th></thead><tbody><tr ng-repeat=\"row in vm.data_clone.body track by $index\" ng-init=\"rowIndex = $index\"><td ng-repeat=\"td in row\" ng-class=\"{'operate-col': td.type === 'operate'}\"><div ng-if=\"vm.editIndex !== rowIndex\">{{td.value}}<div ng-if=\"td.type === 'switch' && td.theme ==='plug'\"><svg ng-if=td.status style=\"fill: #22c36a;\"><use xlink:href=#icon_plugged></use></svg><svg ng-if=!td.status style=\"fill: #f56e25;\"><use xlink:href=#icon_unplugged></use></svg></div><div class=operate ng-if=\"td.type === 'operate'\"><svg ng-click=vm.edit(rowIndex) ng-if=td.edit><use xlink:href=#icon_pencil-edit></use></svg><svg ng-click=vm.delete(rowIndex) ng-if=td.delete><use xlink:href=#icon_trash></use></svg></div></div><div class=editing ng-if=\"vm.editIndex === rowIndex\"><span ng-if=!td.editable>{{td.value}}</span> <input type=text dao-input-state=\"td.error ? 'error' : ''\" ng-model=td.value ng-if=\"td.editable && !td.type && !td.options\" dao-input><select ng-model=td.value ng-options=\"option for option in td.options\" ng-if=\"td.editable && td.options\"></select><div class=switch ng-if=\"td.type === 'switch' && td.theme ==='plug'\"><svg ng-if=td.status ng-click=\"vm.switch(rowIndex, $index)\" style=\"fill: #22c36a;\"><use xlink:href=#icon_plugged></use></svg><svg ng-if=!td.status ng-click=\"vm.switch(rowIndex, $index)\" style=\"fill: #f56e25;\"><use xlink:href=#icon_unplugged></use></svg></div><div class=operate ng-if=\"td.type === 'operate'\"><div class=\"dao-btn blue\" ng-click=vm.save()>保存</div></div></div></td></tr></tbody></table><div class=empty-state ng-show=\"!vm.data_clone || !vm.data_clone.body || !vm.data_clone.body.length\"><div class=empty-state-title>列表为空</div></div></div><div class=table-bottom><div class=\"dao-btn blue\" ng-click=vm.add() ng-if=\"vm.data_clone.addRow && vm.data_clone.addRow.addButton\">{{vm.data_clone.addRow.addButton}}</div><div class=error-info ng-show=vm.data_clone.errorMessage>{{vm.data_clone.errorMessage}}</div></div></div>"
 
 /***/ },
-/* 205 */
+/* 208 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7312,11 +7345,11 @@
 	  value: true
 	});
 	
-	var _classCallCheck2 = __webpack_require__(146);
+	var _classCallCheck2 = __webpack_require__(149);
 	
 	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 	
-	var _createClass2 = __webpack_require__(147);
+	var _createClass2 = __webpack_require__(150);
 	
 	var _createClass3 = _interopRequireDefault(_createClass2);
 	
@@ -7394,7 +7427,7 @@
 	exports.default = daoFixedTableDirective;
 
 /***/ },
-/* 206 */
+/* 209 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7403,7 +7436,7 @@
 	  value: true
 	});
 	
-	var _selectAll = __webpack_require__(207);
+	var _selectAll = __webpack_require__(210);
 	
 	var _selectAll2 = _interopRequireDefault(_selectAll);
 	
@@ -7419,7 +7452,7 @@
 	exports.default = moduleName;
 
 /***/ },
-/* 207 */
+/* 210 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -7457,7 +7490,7 @@
 	exports.default = SelectAllDirective;
 
 /***/ },
-/* 208 */
+/* 211 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7466,11 +7499,11 @@
 	  value: true
 	});
 	
-	var _daoDemo = __webpack_require__(209);
+	var _daoDemo = __webpack_require__(212);
 	
 	var _daoDemo2 = _interopRequireDefault(_daoDemo);
 	
-	__webpack_require__(210);
+	__webpack_require__(213);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -7494,19 +7527,19 @@
 	exports.default = DaoDemoBlockDirective;
 
 /***/ },
-/* 209 */
+/* 212 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao demo-block\"><h4 class=demo-block-header>{{dao.title}}</h4><div ng-transclude></div></div>"
 
 /***/ },
-/* 210 */
+/* 213 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(211);
+	var content = __webpack_require__(214);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -7526,7 +7559,7 @@
 	}
 
 /***/ },
-/* 211 */
+/* 214 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
