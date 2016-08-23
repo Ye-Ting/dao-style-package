@@ -20,7 +20,11 @@ $white: #ffffff;
 
 // function
 @function generate-color($base-color, $level) {
-	@if $level == -1 {
+	@if $level == -3 {
+		@return desaturate(lighten($base-color, 36), 15);
+	} @else if $level == -2 {
+		@return desaturate(lighten($base-color, 25), 25);
+	} @else if $level == -1 {
 		@return lighten($base-color, 4);
 	} @else if $level == 1 {
 		@return desaturate(darken($base-color, 7), 11);
