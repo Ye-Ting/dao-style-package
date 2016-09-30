@@ -80,65 +80,65 @@
 	
 	__webpack_require__(31);
 	
-	__webpack_require__(162);
+	__webpack_require__(225);
 	
-	var _index = __webpack_require__(167);
+	var _index = __webpack_require__(230);
 	
 	var _index2 = _interopRequireDefault(_index);
 	
-	var _index3 = __webpack_require__(197);
+	var _index3 = __webpack_require__(260);
 	
 	var _index4 = _interopRequireDefault(_index3);
 	
-	var _index5 = __webpack_require__(229);
+	var _index5 = __webpack_require__(292);
 	
 	var _index6 = _interopRequireDefault(_index5);
 	
-	var _index7 = __webpack_require__(238);
+	var _index7 = __webpack_require__(301);
 	
 	var _index8 = _interopRequireDefault(_index7);
 	
-	var _index9 = __webpack_require__(245);
+	var _index9 = __webpack_require__(308);
 	
 	var _index10 = _interopRequireDefault(_index9);
 	
-	var _index11 = __webpack_require__(253);
+	var _index11 = __webpack_require__(316);
 	
 	var _index12 = _interopRequireDefault(_index11);
 	
-	var _index13 = __webpack_require__(255);
+	var _index13 = __webpack_require__(318);
 	
 	var _index14 = _interopRequireDefault(_index13);
 	
-	var _index15 = __webpack_require__(264);
+	var _index15 = __webpack_require__(327);
 	
 	var _index16 = _interopRequireDefault(_index15);
 	
-	var _index17 = __webpack_require__(268);
+	var _index17 = __webpack_require__(331);
 	
 	var _index18 = _interopRequireDefault(_index17);
 	
-	var _index19 = __webpack_require__(273);
+	var _index19 = __webpack_require__(336);
 	
 	var _index20 = _interopRequireDefault(_index19);
 	
-	var _index21 = __webpack_require__(280);
+	var _index21 = __webpack_require__(343);
 	
 	var _index22 = _interopRequireDefault(_index21);
 	
-	var _index23 = __webpack_require__(286);
+	var _index23 = __webpack_require__(349);
 	
 	var _index24 = _interopRequireDefault(_index23);
 	
-	var _index25 = __webpack_require__(290);
+	var _index25 = __webpack_require__(353);
 	
 	var _index26 = _interopRequireDefault(_index25);
 	
-	var _index27 = __webpack_require__(292);
+	var _index27 = __webpack_require__(355);
 	
 	var _index28 = _interopRequireDefault(_index27);
 	
-	var _index29 = __webpack_require__(297);
+	var _index29 = __webpack_require__(360);
 	
 	var _index30 = _interopRequireDefault(_index29);
 	
@@ -533,7 +533,7 @@
 	
 	
 	// module
-	exports.push([module.id, "html.dao-layout{overflow:hidden}html.dao-layout *{box-sizing:border-box}.dao-layout,html.dao-layout body{overflow:hidden;height:100%;margin:0}.dao-layout{z-index:900}.dao-layout-wrap{overflow:hidden;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;height:100%;margin:0}.dao-layout-sidebar,.dao-layout-wrap{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}.dao-layout-sidebar{-webkit-box-flex:0;-webkit-flex:none;-ms-flex:none;flex:none}.dao-layout-content{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;overflow:auto;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-flex:1;-webkit-flex:auto;-ms-flex:auto;flex:auto}.dao-layout-content .content-topbar{z-index:1000;-webkit-box-flex:0;-webkit-flex:none;-ms-flex:none;flex:none}.dao-layout-content .content-body{position:relative;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1}.dao-layout-content .content-body>:first-child{display:block;min-height:100%;margin:0 auto -2em;padding-bottom:2em}.dao-layout-content .content-footer{z-index:1000;font-size:13px;line-height:2em;color:#c0c9ce;text-align:center}.dao-layout-content.only-body-scroll{overflow:hidden}.dao-layout-content.only-body-scroll>.content-body{overflow:auto}", ""]);
+	exports.push([module.id, "html.dao-layout{overflow:hidden}html.dao-layout *{box-sizing:border-box}.dao-layout,html.dao-layout body{overflow:hidden;height:100%;margin:0}.dao-layout{z-index:900}.dao-layout-wrap{overflow:hidden;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;height:100%;margin:0}.dao-layout-sidebar,.dao-layout-wrap{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}.dao-layout-sidebar{-webkit-box-flex:0;-webkit-flex:none;-ms-flex:none;flex:none}.dao-layout-content{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;overflow:auto;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-flex:1;-webkit-flex:auto;-ms-flex:auto;flex:auto}.dao-layout-content .content-topbar{z-index:1000;-webkit-box-flex:0;-webkit-flex:none;-ms-flex:none;flex:none}.dao-layout-content .content-body{position:relative;-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1}.dao-layout-content .content-footer{z-index:1000;font-size:13px;line-height:2em;color:#c0c9ce;text-align:center}.dao-layout-content.only-body-scroll{overflow:hidden}.dao-layout-content.only-body-scroll>.content-body{overflow:auto}.dao-layout-content.sticky-footer .content-body{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.dao-layout-content.sticky-footer .content-body>:first-child{-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;width:100%}.dao-layout-content.sticky-footer .content-body .content-footer{-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;width:100%}", ""]);
 	
 	// exports
 
@@ -573,7 +573,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".dao-left-nav{width:60px;background-color:#1f2126;overflow-y:auto}.dao-left-nav .dao-nav-logo{padding:10px;margin-top:15px;width:60px;height:60px;cursor:pointer}.dao-left-nav .dao-nav-logo img,.dao-left-nav .dao-nav-logo svg{width:100%;height:100%;border-radius:3px}.dao-left-nav .dao-nav-logo+.dao-popover{padding:0;max-width:none;border:none;background-color:rgba(31,33,38,.9);color:#fff;font-size:13px;-webkit-transform:translateX(-5px);transform:translateX(-5px);-webkit-animation:tooltipHide .3s ease-in;animation:tooltipHide .3s ease-in;opacity:0}.dao-left-nav .dao-nav-logo+.dao-popover.in{-webkit-transform:translateX(5px);transform:translateX(5px);-webkit-animation:tooltipShow .3s ease-out;animation:tooltipShow .3s ease-out;opacity:1}.dao-left-nav .dao-nav-logo+.dao-popover .arrow{top:26px!important;border-width:7px;border-radius:0 0 0 3px;border-color:transparent transparent #1f2126 #1f2126;-webkit-transform:rotate(45deg);transform:rotate(45deg);margin-top:-7px}.dao-left-nav .dao-nav-logo+.dao-popover .arrow:after{display:none}.dao-left-nav .dao-nav-logo+.dao-popover .dao-popover-inner .dao-popover-content{padding:0}.dao-left-nav .dao-nav-item{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;cursor:pointer;width:60px;height:60px;padding:14px}.dao-left-nav .dao-nav-item svg{width:100%;height:100%;fill:#9ba3af;-webkit-transition:fill .2s;transition:fill .2s;pointer-events:none}.dao-left-nav .dao-nav-item.active svg,.dao-left-nav .dao-nav-item svg:hover{fill:#fff}.dao-top-nav{width:100%;height:40px;background-color:#fff;box-shadow:0 1px 2px 1px rgba(204,209,217,.6)}.dao-top-nav .dao-nav-item{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;float:left;height:100%;line-height:40px;font-size:13px;padding:0 14px;text-shadow:0 1px 0 hsla(0,0%,100%,.8);color:#595f69;font-weight:500;cursor:pointer}.dao-top-nav .dao-nav-item.active{background-color:#f0f2f7}.dao-top-nav .dao-nav-item.active .dao-numeric-badge{background-color:#3890ff}.dao-top-nav .dao-nav-item .dao-numeric-badge{margin-left:4px}.dao-left-nav .dao-tooltip.right{-webkit-transition:none;transition:none}.dao-left-nav .dao-tooltip.right .dao-tooltip-inner{padding:11px 16px;font-size:14px;background-color:#1f2126;border-radius:6px}.dao-left-nav .dao-tooltip.right .dao-tooltip-arrow{border-width:7px;border-radius:0 0 0 3px;border-color:transparent transparent #1f2126 #1f2126;-webkit-transform:rotate(45deg);transform:rotate(45deg);margin-top:-7px}.dao-left-nav .dao-tooltip.right.in{-webkit-transform:translateX(5px);transform:translateX(5px);-webkit-animation:tooltipShow .3s ease-out;animation:tooltipShow .3s ease-out;opacity:1}@-webkit-keyframes tooltipShow{0%{-webkit-transform:translateX(-5px);transform:translateX(-5px)}to{-webkit-transform:translateX(5px);transform:translateX(5px)}}@keyframes tooltipShow{0%{-webkit-transform:translateX(-5px);transform:translateX(-5px)}to{-webkit-transform:translateX(5px);transform:translateX(5px)}}@-webkit-keyframes tooltipHide{0%{-webkit-transform:translateX(5px);transform:translateX(5px)}to{-webkit-transform:translateX(-5px);transform:translateX(-5px)}}@keyframes tooltipHide{0%{-webkit-transform:translateX(5px);transform:translateX(5px)}to{-webkit-transform:translateX(-5px);transform:translateX(-5px)}}", ""]);
+	exports.push([module.id, ".dao-left-nav{width:60px;background-color:#1f2126;overflow-y:auto}.dao-left-nav .dao-nav-logo{padding:10px;margin-top:15px;width:60px;height:60px;cursor:pointer}.dao-left-nav .dao-nav-logo img,.dao-left-nav .dao-nav-logo svg{width:100%;height:100%;border-radius:3px}.dao-left-nav .dao-nav-logo+.dao-popover{padding:0;max-width:none;border:none;background-color:rgba(31,33,38,.9);color:#fff;font-size:13px;-webkit-transform:translateX(-5px);transform:translateX(-5px);-webkit-animation:tooltipHide .3s ease-in;animation:tooltipHide .3s ease-in;opacity:0}.dao-left-nav .dao-nav-logo+.dao-popover.in{-webkit-transform:translateX(5px);transform:translateX(5px);-webkit-animation:tooltipShow .3s ease-out;animation:tooltipShow .3s ease-out;opacity:1}.dao-left-nav .dao-nav-logo+.dao-popover .arrow{top:26px!important;-webkit-transform:rotate(45deg);transform:rotate(45deg);margin-top:-7px;background:-webkit-linear-gradient(45deg,#1f2126 50%,transparent 0);background:linear-gradient(45deg,#1f2126 50%,transparent 0);border-radius:0 0 0 3px}.dao-left-nav .dao-nav-logo+.dao-popover .dao-popover-inner .dao-popover-content{padding:0}.dao-left-nav .dao-nav-item{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;cursor:pointer;width:60px;height:60px;padding:14px}.dao-left-nav .dao-nav-item svg{width:100%;height:100%;fill:#9ba3af;-webkit-transition:fill .2s;transition:fill .2s;pointer-events:none}.dao-left-nav .dao-nav-item.active svg,.dao-left-nav .dao-nav-item svg:hover{fill:#fff}.dao-top-nav{width:100%;height:40px;background-color:#fff;box-shadow:0 1px 2px 1px rgba(204,209,217,.6)}.dao-top-nav .dao-nav-item{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;float:left;height:100%;line-height:40px;font-size:13px;padding:0 14px;text-shadow:0 1px 0 hsla(0,0%,100%,.8);color:#595f69;font-weight:500;cursor:pointer}.dao-top-nav .dao-nav-item.active{background-color:#f0f2f7}.dao-top-nav .dao-nav-item.active .dao-numeric-badge{background-color:#3890ff}.dao-top-nav .dao-nav-item .dao-numeric-badge{margin-left:4px}.dao-left-nav .dao-tooltip.right{-webkit-transition:none;transition:none}.dao-left-nav .dao-tooltip.right .dao-tooltip-inner{padding:11px 16px;font-size:14px;background-color:#1f2126;border-radius:6px}.dao-left-nav .dao-tooltip.right .dao-tooltip-arrow{border-width:7px;border-radius:0 0 0 3px;border-color:transparent transparent #1f2126 #1f2126;-webkit-transform:rotate(45deg);transform:rotate(45deg);margin-top:-7px}.dao-left-nav .dao-tooltip.right.in{-webkit-transform:translateX(5px);transform:translateX(5px);-webkit-animation:tooltipShow .3s ease-out;animation:tooltipShow .3s ease-out;opacity:1}@-webkit-keyframes tooltipShow{0%{-webkit-transform:translateX(-5px);transform:translateX(-5px)}to{-webkit-transform:translateX(5px);transform:translateX(5px)}}@keyframes tooltipShow{0%{-webkit-transform:translateX(-5px);transform:translateX(-5px)}to{-webkit-transform:translateX(5px);transform:translateX(5px)}}@-webkit-keyframes tooltipHide{0%{-webkit-transform:translateX(5px);transform:translateX(5px)}to{-webkit-transform:translateX(-5px);transform:translateX(-5px)}}@keyframes tooltipHide{0%{-webkit-transform:translateX(5px);transform:translateX(5px)}to{-webkit-transform:translateX(-5px);transform:translateX(-5px)}}", ""]);
 	
 	// exports
 
@@ -613,7 +613,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".dao-numeric-badge{display:inline-block;box-sizing:border-box;color:#fff;background-color:#ccd1d9;font-family:Helvetica,sans-serif;text-align:center;text-shadow:none;font-weight:400;font-size:12px;line-height:16px;height:16px;min-width:16px;padding:0 4px;border-radius:8px}.dao-numeric-badge.active{background-color:#3890ff}", ""]);
+	exports.push([module.id, ".dao-numeric-badge{display:inline-block;box-sizing:border-box;color:#fff;background-color:#ccd1d9;text-align:center;text-shadow:none;font-weight:400;font-size:12px;line-height:16px;height:16px;min-width:16px;padding:0 4px;border-radius:8px}.dao-numeric-badge.active{background-color:#3890ff}", ""]);
 	
 	// exports
 
@@ -893,7 +893,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".dao-setting-layout{color:#3d444f;font-size:14px;font-weight:400;line-height:24px;border:1px solid #e4e7ed;border-radius:4px;box-shadow:0 1px 4px rgba(204,209,217,.3);background-color:#fff}.dao-setting-layout:not(:first-of-type){margin-top:30px}.dao-setting-section{padding:30px;border-bottom:1px solid #e4e7ed}.dao-setting-section.dao-setting-layout-title{background-color:#f5f7fa;border-radius:3px 3px 0 0;box-shadow:inset 0 1px 0 0 hsla(0,0%,100%,.6)}.dao-setting-section.dao-setting-layout-title .dao-setting-title{font-size:20px;font-weight:400;margin:0}.dao-setting-section:last-child{border-bottom:none}.dao-setting-title{margin-bottom:30px;color:#3d444f;font-size:18px;line-height:1}.dao-setting-title .helper-text{margin-top:15px;font-size:14px;color:#9ba3af}.dao-setting-item{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}.dao-setting-item:not(:first-child){margin-top:20px}.dao-setting-item.with-higher-el{margin-top:-5px}.dao-setting-item.with-higher-el:not(:first-child){margin-top:15px}.dao-setting-item.with-higher-el .dao-setting-label{padding-top:5px}.dao-setting-label{-webkit-box-flex:0;-webkit-flex:none;-ms-flex:none;flex:none;width:130px}.dao-setting-content{-webkit-box-flex:1;-webkit-flex:auto;-ms-flex:auto;flex:auto;min-width:300px}.dao-setting-content>*{vertical-align:middle}.dao-setting-content>:not(:first-child){margin-top:20px}.dao-setting-content .helper-text{color:#9ba3af}.dao-setting-item.upper-lower-structure{display:block}.dao-setting-item.upper-lower-structure:not(:first-child){margin-top:30px}.dao-setting-item.upper-lower-structure .dao-setting-item{display:block}.dao-setting-item.upper-lower-structure .dao-setting-item:not(:first-child){margin-top:40px}.dao-setting-item.upper-lower-structure .dao-setting-label{width:auto;margin-bottom:30px;color:#3d444f;font-size:18px;line-height:1}.dao-setting-item.upper-lower-structure .dao-setting-label .helper-text{margin-top:15px;font-size:14px;color:#9ba3af}@media (max-width:765px){.dao-setting-item{-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}}", ""]);
+	exports.push([module.id, ".dao-setting-layout{color:#3d444f;font-size:14px;font-weight:400;border:1px solid #e4e7ed;border-radius:4px;box-shadow:0 1px 4px rgba(204,209,217,.3);background-color:#fff;line-height:1}.dao-setting-layout:not(:first-of-type){margin-top:30px}.dao-setting-layout-title{position:relative;padding:25px 30px 0;background-color:#f5f7fa;border-radius:4px 4px 0 0;border-bottom:1px solid #e4e7ed;box-shadow:inset 0 1px 0 0 hsla(0,0%,100%,.6)}.dao-setting-layout-title .dao-setting-title{font-size:18px;font-weight:400;margin-bottom:25px}.dao-setting-layout-title .dao-setting-title .helper-text{margin-bottom:-5px}.dao-setting-layout-title .dao-setting-title-toggle{position:absolute;font-size:14px;right:30px;bottom:50%;-webkit-transform:translateY(50%);transform:translateY(50%)}.dao-setting-section{position:relative;padding:30px;border-bottom:1px solid #e4e7ed}.dao-setting-section :first-child.dao-setting-title{margin-top:-10px}.dao-setting-section>.dao-setting-title{margin-bottom:0}.dao-setting-section>.dao-setting-title:not(:first-child){margin-top:20px}.dao-setting-section>.dao-setting-title:after{position:absolute;content:'';display:block;width:100%;margin:10px 0 0;border:none;background:-webkit-linear-gradient(left,transparent,#e4e7ed 30px,#e4e7ed calc(100% - 30px),transparent 100%);background:linear-gradient(90deg,transparent 0,#e4e7ed 30px,#e4e7ed calc(100% - 30px),transparent 100%);height:1px;-webkit-transform:translateX(-30px);transform:translateX(-30px)}.dao-setting-section:last-child{border-bottom:none}.dao-setting-title{margin-bottom:30px;color:#595f69;font-size:16px;line-height:1}.dao-setting-title .helper-text{margin-top:12px;font-size:14px;color:#9ba3af}.dao-setting-title+div.dao-setting-item{margin-top:40px}.dao-setting-item{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}.dao-setting-item:not(:first-child){margin-top:20px}.dao-setting-item .dao-setting-content>:first-child.dao-btn,.dao-setting-item .dao-setting-content>:first-child.dao-clipboard,.dao-setting-item .dao-setting-content>:first-child.dao-editable-input,.dao-setting-item .dao-setting-content>:first-child.dao-input-container,.dao-setting-item .dao-setting-content>:first-child.dao-select,.dao-setting-item .dao-setting-content>:first-child.dao-switch,.dao-setting-item .dao-setting-content>:first-child.higher-ele,.dao-setting-item .dao-setting-content>:first-child input.dao-control{margin-top:-10px}.dao-setting-item:last-child .dao-setting-content>:last-child.dao-btn,.dao-setting-item:last-child .dao-setting-content>:last-child.dao-clipboard,.dao-setting-item:last-child .dao-setting-content>:last-child.dao-editable-input,.dao-setting-item:last-child .dao-setting-content>:last-child.dao-input-container,.dao-setting-item:last-child .dao-setting-content>:last-child.dao-select,.dao-setting-item:last-child .dao-setting-content>:last-child.dao-switch,.dao-setting-item:last-child .dao-setting-content>:last-child.higher-ele,.dao-setting-item:last-child .dao-setting-content>:last-child input.dao-control{margin-bottom:-10px}.dao-setting-label{-webkit-box-flex:0;-webkit-flex:none;-ms-flex:none;flex:none;min-width:130px;padding-right:15px}.dao-setting-label svg{width:16px;height:16px;fill:#ccd1d9;vertical-align:middle;margin-top:-2px;cursor:pointer}.dao-setting-content{-webkit-box-flex:1;-webkit-flex:auto;-ms-flex:auto;flex:auto;min-width:300px}.dao-setting-content>*{vertical-align:middle}.dao-setting-content>:first-child:not(.dao-btn){line-height:24px;margin-top:-5px;margin-bottom:-5px}.dao-setting-content>:not(:first-child){margin-top:20px}.dao-setting-content>:not(:first-child):not(.dao-btn){line-height:24px;margin-top:15px;margin-bottom:-5px}.dao-setting-content .helper-text{color:#9ba3af}.dao-setting-content .dao-table-container{line-height:24px;padding:0}.dao-setting-layout-footer{background-color:#fbfcfc;padding:20px 30px;border-radius:0 0 4px 4px}@media (max-width:765px){.dao-setting-item{-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}.dao-setting-label{margin-bottom:20px}}", ""]);
 	
 	// exports
 
@@ -1013,7 +1013,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".dao-dropdown-tab .dao-dropdown-menu{width:280px;padding:0;background-color:#f5f7fa;border-radius:5px}.dao-dropdown-tab .dao-dropdown-menu .arrow{display:none}.dao-dropdown-tab .dao-dropdown-menu .search-container{padding:0 11px;margin:10px 0}.dao-dropdown-tab .dao-dropdown-menu .search-container .search{display:block}.dao-dropdown-tab .dao-dropdown-menu .search-container .search input{width:100%}.dao-dropdown-tab .dao-dropdown-menu ul.check-items{padding:5px 0;max-height:350px;overflow:auto;margin:0;background-color:#fff}.dao-dropdown-tab .dao-dropdown-menu ul.check-items.no-tab{border-top:1px solid #e4e7ed}.dao-dropdown-tab .dao-dropdown-menu ul.check-items:nth-last-of-type(1){border-radius:0 0 5px 5px}.dao-dropdown-tab .dao-dropdown-menu ul.check-items li svg{visibility:hidden;margin-right:0}.dao-dropdown-tab .dao-dropdown-menu ul.check-items li.active{background-color:inherit;color:#333}.dao-dropdown-tab .dao-dropdown-menu ul.check-items li.active svg{visibility:visible}.dao-dropdown-tab .dao-dropdown-menu ul.check-items li.active a{color:#333}.dao-dropdown-tab .dao-dropdown-menu ul.check-items li:hover{background-color:#3890ff;color:#fff}.dao-dropdown-tab .dao-dropdown-menu ul.select-items{padding:5px 0;background-color:#fff}.dao-dropdown-tab .dao-dropdown-menu ul.select-items:nth-of-type(1){border-radius:5px 5px 0 0}.dao-dropdown-tab .dao-dropdown-menu ul.select-items:nth-last-of-type(1){border-radius:0 0 5px 5px}.dao-dropdown-tab .dao-dropdown-menu ul.select-items li{padding:5px 10px}.dao-dropdown-tab .dao-dropdown-menu ul.select-items li svg{margin-right:0}.dao-dropdown-tab .dao-dropdown-menu p.divide-content{background-color:#f5f7fa;font-size:12px;line-height:20px;margin:0;border-top:1px solid #e4e7ed;color:#9ba3af;padding-left:10px}.dao-dropdown-tab .dao-dropdown-menu .dao-tabset .dao-tab-nav{padding:0 16px}.dao-dropdown-tab .dao-dropdown-menu .dao-tabset .dao-tab-nav .dao-tab-nav-item .dao-tab-nav-link{padding:10px 15px 9px;line-height:13px}.dao-dropdown-tab .dao-dropdown-menu .dao-tabset .dao-tab-nav .dao-tab-nav-item.active .dao-tab-nav-link{padding:9px 15px}", ""]);
+	exports.push([module.id, ".dao-dropdown-tab .dao-dropdown-menu{width:280px;padding:0;background-color:#f5f7fa;border-radius:5px}.dao-dropdown-tab .dao-dropdown-menu .arrow{display:none}.dao-dropdown-tab .dao-dropdown-menu .search-container{padding:0 11px;margin:10px 0}.dao-dropdown-tab .dao-dropdown-menu .search-container input.dao-control.search{display:block;width:100%}.dao-dropdown-tab .dao-dropdown-menu ul.check-items{padding:5px 0;max-height:350px;overflow:auto;margin:0;background-color:#fff}.dao-dropdown-tab .dao-dropdown-menu ul.check-items.no-tab{border-top:1px solid #e4e7ed}.dao-dropdown-tab .dao-dropdown-menu ul.check-items:nth-last-of-type(1){border-radius:0 0 5px 5px}.dao-dropdown-tab .dao-dropdown-menu ul.check-items li svg{visibility:hidden;margin-right:0}.dao-dropdown-tab .dao-dropdown-menu ul.check-items li.active{background-color:inherit;color:#333}.dao-dropdown-tab .dao-dropdown-menu ul.check-items li.active svg{visibility:visible}.dao-dropdown-tab .dao-dropdown-menu ul.check-items li.active a{color:#333}.dao-dropdown-tab .dao-dropdown-menu ul.check-items li:hover{background-color:#3890ff;color:#fff}.dao-dropdown-tab .dao-dropdown-menu ul.select-items{padding:5px 0;background-color:#fff}.dao-dropdown-tab .dao-dropdown-menu ul.select-items:nth-of-type(1){border-radius:5px 5px 0 0}.dao-dropdown-tab .dao-dropdown-menu ul.select-items:nth-last-of-type(1){border-radius:0 0 5px 5px}.dao-dropdown-tab .dao-dropdown-menu ul.select-items li{padding:5px 10px}.dao-dropdown-tab .dao-dropdown-menu ul.select-items li svg{margin-right:0}.dao-dropdown-tab .dao-dropdown-menu p.divide-content{background-color:#f5f7fa;font-size:12px;line-height:20px;margin:0;border-top:1px solid #e4e7ed;color:#9ba3af;padding-left:10px}.dao-dropdown-tab .dao-dropdown-menu .dao-tabset .dao-tab-nav{padding:0 16px}.dao-dropdown-tab .dao-dropdown-menu .dao-tabset .dao-tab-nav .dao-tab-nav-item .dao-tab-nav-link{padding:10px 15px 9px;line-height:13px}.dao-dropdown-tab .dao-dropdown-menu .dao-tabset .dao-tab-nav .dao-tab-nav-item.active .dao-tab-nav-link{padding:9px 15px}", ""]);
 	
 	// exports
 
@@ -1279,6 +1279,132 @@
 	__webpack_require__(160);
 	
 	__webpack_require__(161);
+	
+	__webpack_require__(162);
+	
+	__webpack_require__(163);
+	
+	__webpack_require__(164);
+	
+	__webpack_require__(165);
+	
+	__webpack_require__(166);
+	
+	__webpack_require__(167);
+	
+	__webpack_require__(168);
+	
+	__webpack_require__(169);
+	
+	__webpack_require__(170);
+	
+	__webpack_require__(171);
+	
+	__webpack_require__(172);
+	
+	__webpack_require__(173);
+	
+	__webpack_require__(174);
+	
+	__webpack_require__(175);
+	
+	__webpack_require__(176);
+	
+	__webpack_require__(177);
+	
+	__webpack_require__(178);
+	
+	__webpack_require__(179);
+	
+	__webpack_require__(180);
+	
+	__webpack_require__(181);
+	
+	__webpack_require__(182);
+	
+	__webpack_require__(183);
+	
+	__webpack_require__(184);
+	
+	__webpack_require__(185);
+	
+	__webpack_require__(186);
+	
+	__webpack_require__(187);
+	
+	__webpack_require__(188);
+	
+	__webpack_require__(189);
+	
+	__webpack_require__(190);
+	
+	__webpack_require__(191);
+	
+	__webpack_require__(192);
+	
+	__webpack_require__(193);
+	
+	__webpack_require__(194);
+	
+	__webpack_require__(195);
+	
+	__webpack_require__(196);
+	
+	__webpack_require__(197);
+	
+	__webpack_require__(198);
+	
+	__webpack_require__(199);
+	
+	__webpack_require__(200);
+	
+	__webpack_require__(201);
+	
+	__webpack_require__(202);
+	
+	__webpack_require__(203);
+	
+	__webpack_require__(204);
+	
+	__webpack_require__(205);
+	
+	__webpack_require__(206);
+	
+	__webpack_require__(207);
+	
+	__webpack_require__(208);
+	
+	__webpack_require__(209);
+	
+	__webpack_require__(210);
+	
+	__webpack_require__(211);
+	
+	__webpack_require__(212);
+	
+	__webpack_require__(213);
+	
+	__webpack_require__(214);
+	
+	__webpack_require__(215);
+	
+	__webpack_require__(216);
+	
+	__webpack_require__(217);
+	
+	__webpack_require__(218);
+	
+	__webpack_require__(219);
+	
+	__webpack_require__(220);
+	
+	__webpack_require__(221);
+	
+	__webpack_require__(222);
+	
+	__webpack_require__(223);
+	
+	__webpack_require__(224);
 
 /***/ },
 /* 32 */
@@ -1286,8 +1412,8 @@
 
 	;
 	var sprite = __webpack_require__(33);;
-	var image = "<symbol viewBox=\"0 0 64 64\" id=\"icon_chart\" > <title>icon</title> <polygon points=\"8 54 8 8 6 8 6 56 62 56 62 54 8 54\" opacity=\"0.9\"/> <path d=\"M14.1,22h3.8A2.1,2.1,0,0,1,20,24.1V50a0,0,0,0,1,0,0H12a0,0,0,0,1,0,0V24.1A2.1,2.1,0,0,1,14.1,22Z\" opacity=\"0.5\"/> <path d=\"M26.1,8h3.8A2.1,2.1,0,0,1,32,10.1V50a0,0,0,0,1,0,0H24a0,0,0,0,1,0,0V10.1A2.1,2.1,0,0,1,26.1,8Z\" opacity=\"0.9\"/> <path d=\"M38.1,34h3.8A2.1,2.1,0,0,1,44,36.1V50a0,0,0,0,1,0,0H36a0,0,0,0,1,0,0V36.1A2.1,2.1,0,0,1,38.1,34Z\" opacity=\"0.5\"/> <path d=\"M50.1,44h3.8A2.1,2.1,0,0,1,56,46.1V50a0,0,0,0,1,0,0H48a0,0,0,0,1,0,0V46.1A2.1,2.1,0,0,1,50.1,44Z\" opacity=\"0.9\"/> </symbol>";
-	module.exports = sprite.add(image, "icon_chart");
+	var image = "<symbol viewBox=\"0 0 200 40\" id=\"banner_construction\" > <title>construction</title> <rect width=\"200\" height=\"40\" fill=\"#1f2126\"/> <g> <polygon points=\"200 0 191.668 0 151.668 40 179.952 40 200 19.952 200 0\" fill=\"#f7b32b\"/> <polygon points=\"134.668 0 94.668 40 122.952 40 162.952 0 134.668 0\" fill=\"#f7b32b\"/> <polygon points=\"77.668 0 37.668 40 65.952 40 105.952 0 77.668 0\" fill=\"#f7b32b\"/> <polygon points=\"20.668 0 0 20.668 0 40 8.952 40 48.952 0 20.668 0\" fill=\"#f7b32b\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "banner_construction");
 
 /***/ },
 /* 33 */
@@ -1563,11 +1689,38 @@
 
 	;
 	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 200 40\" id=\"banner_moon\" > <title>moon</title> <rect width=\"200\" height=\"40\" fill=\"#1f2126\"/> <path d=\"M107,23.5A12.485,12.485,0,0,1,95.015,7.467a13,13,0,1,0,18.738,14.041A12.429,12.429,0,0,1,107,23.5Z\" fill=\"#f5f7fa\"/> </symbol>";
+	module.exports = sprite.add(image, "banner_moon");
+
+/***/ },
+/* 36 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 64 64\" id=\"icon_app-center-big\" > <title>app-center-big</title> <g> <g> <polygon points=\"32 32 32 43.667 22 37.833 22 26.167 32 32\" opacity=\"0.25\"/> <polygon points=\"32 32 42 26.167 42 37.833 32 43.667 32 32\" opacity=\"0.5\"/> <polygon points=\"22 26.167 32 20.333 42 26.167 32 32 22 26.167\" opacity=\"0.9\"/> </g> <g> <path d=\"M14.051,31A17.971,17.971,0,0,1,31,14.051V6.025A25.993,25.993,0,0,0,6.025,31Z\" opacity=\"0.9\"/> <path d=\"M33,14.051A17.971,17.971,0,0,1,49.949,31h8.025A25.993,25.993,0,0,0,33,6.025Z\" opacity=\"0.5\"/> <path d=\"M49.95,33A17.971,17.971,0,0,1,33,49.949v8.025A25.993,25.993,0,0,0,57.975,33Z\" opacity=\"0.25\"/> <path d=\"M31,49.949A17.971,17.971,0,0,1,14.05,33H6.025A25.993,25.993,0,0,0,31,57.975Z\" opacity=\"0.5\"/> </g> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_app-center-big");
+
+/***/ },
+/* 37 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 64 64\" id=\"icon_chart\" > <title>icon</title> <polygon points=\"8 54 8 8 6 8 6 56 62 56 62 54 8 54\" opacity=\"0.9\"/> <path d=\"M14.1,22h3.8A2.1,2.1,0,0,1,20,24.1V50a0,0,0,0,1,0,0H12a0,0,0,0,1,0,0V24.1A2.1,2.1,0,0,1,14.1,22Z\" opacity=\"0.5\"/> <path d=\"M26.1,8h3.8A2.1,2.1,0,0,1,32,10.1V50a0,0,0,0,1,0,0H24a0,0,0,0,1,0,0V10.1A2.1,2.1,0,0,1,26.1,8Z\" opacity=\"0.9\"/> <path d=\"M38.1,34h3.8A2.1,2.1,0,0,1,44,36.1V50a0,0,0,0,1,0,0H36a0,0,0,0,1,0,0V36.1A2.1,2.1,0,0,1,38.1,34Z\" opacity=\"0.5\"/> <path d=\"M50.1,44h3.8A2.1,2.1,0,0,1,56,46.1V50a0,0,0,0,1,0,0H48a0,0,0,0,1,0,0V46.1A2.1,2.1,0,0,1,50.1,44Z\" opacity=\"0.9\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_chart");
+
+/***/ },
+/* 38 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
 	var image = "<symbol viewBox=\"0 0 64 64\" id=\"icon_chat\" > <title>chat</title> <g> <circle cx=\"36.079\" cy=\"32.971\" r=\"3.275\" opacity=\"0.25\"/> <circle cx=\"24.847\" cy=\"32.971\" r=\"3.275\" opacity=\"0.25\"/> <circle cx=\"13.615\" cy=\"32.971\" r=\"3.275\" opacity=\"0.25\"/> <path d=\"M63.43,32.107c0-10.073-9.522-18.238-21.267-18.238a24.565,24.565,0,0,0-5.341.6c6.928,3.6,11.558,10.134,11.558,17.591,0,7.5-4.685,14.061-11.682,17.652a24.554,24.554,0,0,0,5.465.63,24.138,24.138,0,0,0,9.229-1.8,27.487,27.487,0,0,0,9.41,2.222,21.838,21.838,0,0,1-3.111-6.2A16.875,16.875,0,0,0,63.43,32.107Z\" opacity=\"0.5\"/> <g opacity=\"0.9\"> <path d=\"M24.4,11.5C11.164,11.5.43,20.708,0.43,32.063A19.024,19.024,0,0,0,6.9,46.106,24.617,24.617,0,0,1,3.393,53.1,30.987,30.987,0,0,0,14,50.592a27.212,27.212,0,0,0,10.4,2.032c13.241,0,23.975-9.205,23.975-20.56S37.646,11.5,24.4,11.5ZM13.615,36.246a3.275,3.275,0,1,1,3.275-3.275A3.275,3.275,0,0,1,13.615,36.246Zm11.232,0a3.275,3.275,0,1,1,3.275-3.275A3.275,3.275,0,0,1,24.847,36.246Zm11.232,0a3.275,3.275,0,1,1,3.275-3.275A3.275,3.275,0,0,1,36.079,36.246Z\"/> </g> </g> </symbol>";
 	module.exports = sprite.add(image, "icon_chat");
 
 /***/ },
-/* 36 */
+/* 39 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1576,7 +1729,7 @@
 	module.exports = sprite.add(image, "icon_container");
 
 /***/ },
-/* 37 */
+/* 40 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1585,7 +1738,7 @@
 	module.exports = sprite.add(image, "icon_docker-image-big");
 
 /***/ },
-/* 38 */
+/* 41 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1594,7 +1747,7 @@
 	module.exports = sprite.add(image, "icon_document");
 
 /***/ },
-/* 39 */
+/* 42 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1603,7 +1756,7 @@
 	module.exports = sprite.add(image, "icon_download");
 
 /***/ },
-/* 40 */
+/* 43 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1612,7 +1765,7 @@
 	module.exports = sprite.add(image, "icon_drive");
 
 /***/ },
-/* 41 */
+/* 44 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1621,7 +1774,16 @@
 	module.exports = sprite.add(image, "icon_history");
 
 /***/ },
-/* 42 */
+/* 45 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 64 64\" id=\"icon_machine-cluster-big\" > <title>machine-cluster-big</title> <g> <rect x=\"20\" y=\"42\" width=\"24\" height=\"2\" opacity=\"0.5\"/> <rect x=\"20\" y=\"46\" width=\"24\" height=\"2\" opacity=\"0.5\"/> <circle cx=\"32\" cy=\"26\" r=\"2\" opacity=\"0.25\"/> <path d=\"M14,10H8.1A2.106,2.106,0,0,0,6,12.1V51.9A2.1,2.1,0,0,0,8.1,54H14Z\" opacity=\"0.5\"/> <path d=\"M50,10h5.9A2.1,2.1,0,0,1,58,12.1V51.9A2.106,2.106,0,0,1,55.9,54H50Z\" opacity=\"0.5\"/> <path d=\"M45.9,6H18.1A2.107,2.107,0,0,0,16,8.1V55.9A2.107,2.107,0,0,0,18.1,58H45.9A2.107,2.107,0,0,0,48,55.9V8.1A2.107,2.107,0,0,0,45.9,6ZM44,48H20V46H44Zm0-4H20V42H44ZM30,26a2,2,0,1,1,2,2A2,2,0,0,1,30,26ZM44,16H20V12H44Z\" opacity=\"0.9\"/> <rect x=\"20\" y=\"12\" width=\"24\" height=\"4\" opacity=\"0.5\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_machine-cluster-big");
+
+/***/ },
+/* 46 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1630,7 +1792,7 @@
 	module.exports = sprite.add(image, "icon_megaphone-alt");
 
 /***/ },
-/* 43 */
+/* 47 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1639,7 +1801,7 @@
 	module.exports = sprite.add(image, "icon_megaphone");
 
 /***/ },
-/* 44 */
+/* 48 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1648,7 +1810,7 @@
 	module.exports = sprite.add(image, "icon_node");
 
 /***/ },
-/* 45 */
+/* 49 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1657,7 +1819,7 @@
 	module.exports = sprite.add(image, "icon_paper-plane");
 
 /***/ },
-/* 46 */
+/* 50 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1666,7 +1828,7 @@
 	module.exports = sprite.add(image, "icon_puzzle-big");
 
 /***/ },
-/* 47 */
+/* 51 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1675,7 +1837,7 @@
 	module.exports = sprite.add(image, "icon_radar");
 
 /***/ },
-/* 48 */
+/* 52 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1684,7 +1846,7 @@
 	module.exports = sprite.add(image, "icon_register");
 
 /***/ },
-/* 49 */
+/* 53 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1693,7 +1855,7 @@
 	module.exports = sprite.add(image, "icon_stack-alt");
 
 /***/ },
-/* 50 */
+/* 54 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1702,7 +1864,7 @@
 	module.exports = sprite.add(image, "icon_stack");
 
 /***/ },
-/* 51 */
+/* 55 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1711,7 +1873,7 @@
 	module.exports = sprite.add(image, "icon_users");
 
 /***/ },
-/* 52 */
+/* 56 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1720,49 +1882,13 @@
 	module.exports = sprite.add(image, "icon_virtual-machine-big");
 
 /***/ },
-/* 53 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(33);;
-	var image = "<symbol viewBox=\"0 0 128 64\" id=\"pic_app-stack\" > <title>app-stack</title> <g> <path d=\"M64,38,44.75,27l-3.062,1.75,20.08,11.474a4.5,4.5,0,0,0,4.465,0L86.313,28.75,83.25,27Z\" opacity=\"0.25\"/> <path d=\"M64,48,44.75,37l-3.062,1.75,20.08,11.474a4.5,4.5,0,0,0,4.465,0L86.313,38.75,83.25,37Z\" opacity=\"0.25\"/> <path d=\"M90.977,30.263,85.266,27l5.711-3.264a2,2,0,0,0,0-3.473L65.985,5.982a4,4,0,0,0-3.969,0L37.023,20.263a2,2,0,0,0,0,3.473L42.734,27l-5.711,3.263a2,2,0,0,0,0,3.473L42.734,37l-5.711,3.263a2,2,0,0,0,0,3.473L62.015,58.018a4,4,0,0,0,3.969,0L90.977,43.736a2,2,0,0,0,0-3.473L85.266,37l5.711-3.264A2,2,0,0,0,90.977,30.263Zm-52.2-8.7L62.76,7.861a2.5,2.5,0,0,1,2.481,0L89.225,21.566a.5.5,0,0,1,0,.868L65.24,36.139a2.5,2.5,0,0,1-2.481,0L38.775,22.434A.5.5,0,0,1,38.775,21.566Zm50.449,20a.5.5,0,0,1,0,.868L65.24,56.139a2.5,2.5,0,0,1-2.481,0L38.775,42.434a.5.5,0,0,1,0-.868l5.975-3.414,17.265,9.866a4,4,0,0,0,3.969,0L83.25,38.152Zm0-9.132L65.24,46.139a2.5,2.5,0,0,1-2.481,0L38.775,32.434a.5.5,0,0,1,0-.868l5.975-3.414,17.265,9.866a4,4,0,0,0,3.969,0L83.25,28.152l5.975,3.414A.5.5,0,0,1,89.225,32.434Z\"/> <g opacity=\"0.25\"> <circle cx=\"100\" cy=\"31\" r=\"1\"/> <circle cx=\"30\" cy=\"15\" r=\"1\"/> <circle cx=\"22\" cy=\"36\" r=\"1\"/> <path d=\"M26,43a3,3,0,1,1,3,3A3,3,0,0,1,26,43Zm2,0a1,1,0,1,0,1-1A1,1,0,0,0,28,43Z\"/> <path d=\"M16.67,29.5a1,1,0,0,1,0-1l3.464-6a1.04,1.04,0,0,1,1.732,0l3.464,6a1,1,0,0,1-.866,1.5H17.536A1,1,0,0,1,16.67,29.5ZM22.3,27.25l-.866-1.5a.5.5,0,0,0-.866,0l-.866,1.5a.5.5,0,0,0,.433.75h1.731A.5.5,0,0,0,22.3,27.25Z\"/> <path d=\"M102,45V39a1,1,0,0,1,1-1h6a1,1,0,0,1,1,1v6a1,1,0,0,1-1,1h-6A1,1,0,0,1,102,45Zm6-2V41a1,1,0,0,0-1-1h-2a1,1,0,0,0-1,1v2a1,1,0,0,0,1,1h2A1,1,0,0,0,108,43Z\"/> <path d=\"M100,20h1.5a.5.5,0,0,0,.5-.5V18a1,1,0,0,1,2,0v1.5a.5.5,0,0,0,.5.5H106a1,1,0,0,1,0,2h-1.5a.5.5,0,0,0-.5.5V24a1,1,0,0,1-2,0V22.5a.5.5,0,0,0-.5-.5H100a1,1,0,0,1,0-2Z\"/> </g> <g opacity=\"0.25\"> <path d=\"M56.088,18.139l3.012-.715-1.225,1.747-1.788-1.032m4.789-1.674-.083-.048a1.953,1.953,0,0,0-1.388-.155l-7.3,1.637a1.45,1.45,0,0,0-.381.125c-.368.214-.372.549-.008.759a1.545,1.545,0,0,0,1.1.125l1.506-.35,2.841,1.64-.574.837c-.164.243-.137.479.195.671a1.465,1.465,0,0,0,1.349,0,.541.541,0,0,0,.209-.21l2.8-4.232c.189-.295.124-.575-.265-.8\"/> <path d=\"M63.268,21.711l1.966-1.143,1.1.634c.709.409.813.866.179,1.235l-.013.007a2.164,2.164,0,0,1-2.1-.081l-1.13-.652m4.454-1.176-1.928-1.113a1.541,1.541,0,0,0-1.413,0l-5.055,2.938c-.393.229-.391.59,0,.818a1.541,1.541,0,0,0,1.413,0l1.275-.741,1.079.623a4.965,4.965,0,0,0,4.863.2l.019-.011c1.307-.759,1.282-1.825-.257-2.713\"/> <path d=\"M69.659,25.4l1.966-1.143,1.1.634c.709.409.813.866.179,1.235l-.013.007a2.168,2.168,0,0,1-2.107-.085L69.659,25.4m4.454-1.176-1.928-1.113a1.541,1.541,0,0,0-1.413,0l-5.055,2.938c-.393.229-.391.59,0,.818a1.541,1.541,0,0,0,1.413,0l1.275-.741,1.079.623a4.965,4.965,0,0,0,4.863.2l.019-.011c1.307-.759,1.282-1.825-.257-2.713\"/> </g> </g> </symbol>";
-	module.exports = sprite.add(image, "pic_app-stack");
-
-/***/ },
-/* 54 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(33);;
-	var image = "<symbol viewBox=\"0 0 128 64\" id=\"pic_checklist\" > <title>checklist</title> <path d=\"M63,10a5,5,0,0,1,4.9,4H74V56H42V14h6.1A5,5,0,0,1,53,10H38V60H78V10H63Z\" opacity=\"0.25\"/> <path d=\"M77,9H64V8.215a6.163,6.163,0,0,0-5.414-6.187A6,6,0,0,0,52,8V9H39a2,2,0,0,0-2,2V59a2,2,0,0,0,2,2H77a2,2,0,0,0,2-2V11A2,2,0,0,0,77,9ZM54,10.5V8.127a4.147,4.147,0,0,1,.967-2.738,3.976,3.976,0,0,1,3.43-1.37,4.15,4.15,0,0,1,3.6,4.2V10.5a0.5,0.5,0,0,0,.5.5H63a4,4,0,0,1,4,4v0.5a0.5,0.5,0,0,1-.5.5h-17a0.5,0.5,0,0,1-.5-0.5V15a4,4,0,0,1,4-4h0.5A0.5,0.5,0,0,0,54,10.5ZM68,18a1,1,0,0,0,1-1V15h3.5a0.5,0.5,0,0,1,.5.5v39a0.5,0.5,0,0,1-.5.5h-29a0.5,0.5,0,0,1-.5-0.5v-39a0.5,0.5,0,0,1,.5-0.5H47v2a1,1,0,0,0,1,1H68Zm9,40a1,1,0,0,1-1,1H40a1,1,0,0,1-1-1V12a1,1,0,0,1,1-1h8.546a5.987,5.987,0,0,0-1.194,2H41.5a0.5,0.5,0,0,0-.5.5v43a0.5,0.5,0,0,0,.5.5h33a0.5,0.5,0,0,0,.5-0.5v-43a0.5,0.5,0,0,0-.5-0.5H68.648a5.987,5.987,0,0,0-1.194-2H76a1,1,0,0,1,1,1V58Z\"/> <rect x=\"56.5\" y=\"6.5\" width=\"3\" height=\"3\" rx=\"1.5\" ry=\"1.5\"/> <path d=\"M58,22a6,6,0,1,0,6,6A6,6,0,0,0,58,22Zm-0.9,8.946-2.763-2.763,0.882-.882L57.1,29.182l3.687-3.687,0.882,0.882Z\"/> <g opacity=\"0.25\"> <rect x=\"53\" y=\"46\" width=\"14\" height=\"2\" rx=\"0.5\" ry=\"0.5\"/> <rect x=\"53\" y=\"42\" width=\"14\" height=\"2\" rx=\"0.5\" ry=\"0.5\"/> <rect x=\"53\" y=\"38\" width=\"14\" height=\"2\" rx=\"0.5\" ry=\"0.5\"/> <rect x=\"49\" y=\"46\" width=\"2\" height=\"2\" rx=\"1\" ry=\"1\"/> <rect x=\"49\" y=\"42\" width=\"2\" height=\"2\" rx=\"1\" ry=\"1\"/> <rect x=\"49\" y=\"38\" width=\"2\" height=\"2\" rx=\"1\" ry=\"1\"/> </g> <g opacity=\"0.25\"> <circle cx=\"28\" cy=\"24\" r=\"1\"/> <circle cx=\"101\" cy=\"22\" r=\"1\"/> <circle cx=\"102\" cy=\"42\" r=\"1\"/> <path d=\"M28,40a3,3,0,1,1,3-3A3,3,0,0,1,28,40Zm0-4a1,1,0,1,0,1,1A1,1,0,0,0,28,36Z\"/> <path d=\"M25.464,53H18.536a1,1,0,0,1-.866-1.5l3.464-6a1.04,1.04,0,0,1,1.732,0l3.464,6A1,1,0,0,1,25.464,53Zm-4.329-2h1.731a0.5,0.5,0,0,0,.433-0.75l-0.866-1.5a0.5,0.5,0,0,0-.866,0L20.7,50.25A0.5,0.5,0,0,0,21.134,51Z\"/> <path d=\"M23,25H17a1,1,0,0,1-1-1V18a1,1,0,0,1,1-1h6a1,1,0,0,1,1,1v6A1,1,0,0,1,23,25Zm-4-2h2a1,1,0,0,0,1-1V20a1,1,0,0,0-1-1H19a1,1,0,0,0-1,1v2A1,1,0,0,0,19,23Z\"/> <path d=\"M110,32h-1.5a0.5,0.5,0,0,1-.5-0.5V30a1,1,0,0,0-2,0v1.5a0.5,0.5,0,0,1-.5.5H104a1,1,0,0,0,0,2h1.5a0.5,0.5,0,0,1,.5.5V36a1,1,0,0,0,2,0V34.5a0.5,0.5,0,0,1,.5-0.5H110A1,1,0,0,0,110,32Z\"/> </g> <rect x=\"90\" y=\"22\" width=\"3\" height=\"28\" opacity=\"0.25\"/> <path d=\"M94.714,19.092L91.5,11.058l-3.214,8.035A4,4,0,0,0,88,20.578V56a2,2,0,0,0,2,2h3a2,2,0,0,0,2-2V20.578A4,4,0,0,0,94.714,19.092Zm-3.651-1.557c0.145,0.01.29,0.022,0.437,0.022s0.292-.012.437-0.022L92.923,20H90.077ZM93,55a1,1,0,0,1-1,1H91a1,1,0,0,1-1-1V52.5a0.5,0.5,0,0,1,.5-0.5h2a0.5,0.5,0,0,1,.5.5V55Zm-0.5-5h-2a0.5,0.5,0,0,1-.5-0.5V22h3V49.5A0.5,0.5,0,0,1,92.5,50Z\"/> </symbol>";
-	module.exports = sprite.add(image, "pic_checklist");
-
-/***/ },
-/* 55 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(33);;
-	var image = "<symbol viewBox=\"0 0 128 64\" id=\"pic_docker-image-shield\" > <title>docker-image-shield</title> <g> <g> <rect x=\"49\" y=\"46\" width=\"20\" height=\"2\" rx=\"0.5\" ry=\"0.5\" opacity=\"0.25\"/> <rect x=\"49\" y=\"50\" width=\"20\" height=\"2\" rx=\"0.5\" ry=\"0.5\" opacity=\"0.25\"/> </g> <path d=\"M84,6H54a2,2,0,0,0-2,2v3H49a2,2,0,0,0-2,2v3H44a2,2,0,0,0-2,2V56a2,2,0,0,0,2,2H74a2,2,0,0,0,2-2V53h3a2,2,0,0,0,2-2V48h3a2,2,0,0,0,2-2V8A2,2,0,0,0,84,6ZM74,55a1,1,0,0,1-1,1H45a1,1,0,0,1-1-1V19a1,1,0,0,1,1-1H73a1,1,0,0,1,1,1Zm5-5a1,1,0,0,1-1,1H76V18a2,2,0,0,0-2-2H49V14a1,1,0,0,1,1-1H78a1,1,0,0,1,1,1Zm5-5a1,1,0,0,1-1,1H81V13a2,2,0,0,0-2-2H54V9a1,1,0,0,1,1-1H83a1,1,0,0,1,1,1Z\"/> <g> <path d=\"M59,44.579l-.376-.152c-.265-.108-6.5-2.688-7.932-7.145-.975-3.041-.955-12.254-.953-12.646l0-1.107,1.1.117a9.881,9.881,0,0,0,7.481-1.983L59,21.048l.676.618a9.933,9.933,0,0,0,7.477,1.98l1.1-.117,0,1.107c0,.392.022,9.6-.953,12.646-1.428,4.456-7.667,7.036-7.932,7.145Zm-7.258-18.87c.027,3.106.209,8.951.854,10.962.882,2.752,4.614,4.929,6.4,5.738,1.275-.59,5.44-2.715,6.41-5.738.645-2.012.827-7.855.854-10.962A12.113,12.113,0,0,1,59,23.662,12.121,12.121,0,0,1,51.742,25.709Z\"/> <polygon points=\"59 27.658 60.062 30.928 63.5 30.928 60.719 32.949 61.781 36.218 59 34.197 56.219 36.218 57.281 32.949 54.5 30.928 57.938 30.928 59 27.658\"/> </g> <g opacity=\"0.25\"> <circle cx=\"101\" cy=\"21\" r=\"1\"/> <circle cx=\"30\" cy=\"15\" r=\"1\"/> <circle cx=\"20\" cy=\"34\" r=\"1\"/> <path d=\"M26,39a3,3,0,1,1,3,3A3,3,0,0,1,26,39Zm2,0a1,1,0,1,0,1-1A1,1,0,0,0,28,39Z\"/> <path d=\"M15.67,25.5a1,1,0,0,1,0-1l3.464-6a1.04,1.04,0,0,1,1.732,0l3.464,6a1,1,0,0,1-.866,1.5H16.536A1,1,0,0,1,15.67,25.5ZM21.3,23.25l-.866-1.5a.5.5,0,0,0-.866,0l-.866,1.5a.5.5,0,0,0,.433.75h1.731A.5.5,0,0,0,21.3,23.25Z\"/> <path d=\"M104,45V39a1,1,0,0,1,1-1h6a1,1,0,0,1,1,1v6a1,1,0,0,1-1,1h-6A1,1,0,0,1,104,45Zm6-2V41a1,1,0,0,0-1-1h-2a1,1,0,0,0-1,1v2a1,1,0,0,0,1,1h2A1,1,0,0,0,110,43Z\"/> <path d=\"M93,30h1.5a.5.5,0,0,0,.5-.5V28a1,1,0,0,1,2,0v1.5a.5.5,0,0,0,.5.5H99a1,1,0,0,1,0,2H97.5a.5.5,0,0,0-.5.5V34a1,1,0,0,1-2,0V32.5a.5.5,0,0,0-.5-.5H93a1,1,0,0,1,0-2Z\"/> </g> </g> </symbol>";
-	module.exports = sprite.add(image, "pic_docker-image-shield");
-
-/***/ },
-/* 56 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(33);;
-	var image = "<symbol viewBox=\"0 0 128 64\" id=\"pic_docker-image\" > <title>docker-image</title> <g> <g> <rect x=\"49\" y=\"46\" width=\"20\" height=\"2\" rx=\"0.5\" ry=\"0.5\" opacity=\"0.25\"/> <rect x=\"49\" y=\"50\" width=\"20\" height=\"2\" rx=\"0.5\" ry=\"0.5\" opacity=\"0.25\"/> </g> <path d=\"M84,6H54a2,2,0,0,0-2,2v3H49a2,2,0,0,0-2,2v3H44a2,2,0,0,0-2,2V56a2,2,0,0,0,2,2H74a2,2,0,0,0,2-2V53h3a2,2,0,0,0,2-2V48h3a2,2,0,0,0,2-2V8A2,2,0,0,0,84,6ZM74,55a1,1,0,0,1-1,1H45a1,1,0,0,1-1-1V19a1,1,0,0,1,1-1H73a1,1,0,0,1,1,1Zm5-5a1,1,0,0,1-1,1H76V18a2,2,0,0,0-2-2H49V14a1,1,0,0,1,1-1H78a1,1,0,0,1,1,1Zm5-5a1,1,0,0,1-1,1H81V13a2,2,0,0,0-2-2H54V9a1,1,0,0,1,1-1H83a1,1,0,0,1,1,1Z\"/> <path d=\"M68.5,26.886l-9-5.25a1,1,0,0,0-1.008,0l-9,5.25a1,1,0,0,0-.5.864v10.5a1,1,0,0,0,.5.864l9,5.25a1,1,0,0,0,1.008,0l9-5.25a1,1,0,0,0,.5-.864V27.75A1,1,0,0,0,68.5,26.886Zm-9-2.935,6.511,3.8-6.511,3.8a1,1,0,0,1-1.008,0l-6.511-3.8,6.511-3.8A1,1,0,0,1,59.5,23.951ZM51,29.492l6.5,3.794a1,1,0,0,1,.5.864v7.61l-6.5-3.794A1,1,0,0,1,51,37.1Zm9,12.268v-7.61a1,1,0,0,1,.5-.864L67,29.492V37.1a1,1,0,0,1-.5.864Z\"/> <g opacity=\"0.25\"> <circle cx=\"95\" cy=\"15\" r=\"1\"/> <circle cx=\"33\" cy=\"48\" r=\"1\"/> <circle cx=\"18\" cy=\"24\" r=\"1\"/> <path d=\"M94,38a3,3,0,1,1,3,3A3,3,0,0,1,94,38Zm2,0a1,1,0,1,0,1-1A1,1,0,0,0,96,38Z\"/> <path d=\"M101.134,24.5a1,1,0,0,1,0-1l3.464-6a1.04,1.04,0,0,1,1.732,0l3.464,6a1,1,0,0,1-.866,1.5H102A1,1,0,0,1,101.134,24.5Zm5.629-2.25-.866-1.5a.5.5,0,0,0-.866,0l-.866,1.5a.5.5,0,0,0,.433.75h1.731A.5.5,0,0,0,106.762,22.25Z\"/> <path d=\"M22,40V34a1,1,0,0,1,1-1h6a1,1,0,0,1,1,1v6a1,1,0,0,1-1,1H23A1,1,0,0,1,22,40Zm6-2V36a1,1,0,0,0-1-1H25a1,1,0,0,0-1,1v2a1,1,0,0,0,1,1h2A1,1,0,0,0,28,38Z\"/> <path d=\"M26,15h1.5a.5.5,0,0,0,.5-.5V13a1,1,0,0,1,2,0v1.5a.5.5,0,0,0,.5.5H32a1,1,0,0,1,0,2H30.5a.5.5,0,0,0-.5.5V19a1,1,0,0,1-2,0V17.5a.5.5,0,0,0-.5-.5H26a1,1,0,0,1,0-2Z\"/> </g> </g> </symbol>";
-	module.exports = sprite.add(image, "pic_docker-image");
-
-/***/ },
 /* 57 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
 	var sprite = __webpack_require__(33);;
-	var image = "<symbol viewBox=\"0 0 128 64\" id=\"pic_edit-yaml\" > <title>edit-yaml</title> <path d=\"M91.35,11.563c0.016-.186.028-0.373,0.028-0.562a6.375,6.375,0,0,0-12.75,0c0,0.19.012,0.377,0.028,0.563H91.35Z\" opacity=\"0.25\"/> <path d=\"M64.683,55h-32A6.994,6.994,0,0,0,39,59H71A6.994,6.994,0,0,1,64.683,55Z\" opacity=\"0.25\"/> <path d=\"M79.8,48.77l-1,.806a1,1,0,0,0-.238,1.282l0.75,1.291a1,1,0,0,0,1.226.43l1.193-.462a5.248,5.248,0,0,0,1.337.772l0.2,1.265a1,1,0,0,0,.988.847h1.493a1,1,0,0,0,.988-0.847l0.2-1.265a5.248,5.248,0,0,0,1.337-.772l1.193,0.462a1,1,0,0,0,1.226-.43l0.75-1.291a1,1,0,0,0-.238-1.282l-1-.806a4.767,4.767,0,0,0,0-1.54l1-.806a1,1,0,0,0,.238-1.282l-0.75-1.291a1,1,0,0,0-1.226-.43l-1.193.462a5.247,5.247,0,0,0-1.337-.772l-0.2-1.265A1,1,0,0,0,85.747,41H84.253a1,1,0,0,0-.988.847l-0.2,1.265a5.247,5.247,0,0,0-1.337.772l-1.193-.462a1,1,0,0,0-1.226.43l-0.75,1.291a1,1,0,0,0,.238,1.282l1,0.806A4.767,4.767,0,0,0,79.8,48.77ZM82.413,48a2.6,2.6,0,1,1,2.6,2.6A2.6,2.6,0,0,1,82.413,48Z\"/> <g opacity=\"0.25\"> <rect x=\"47\" y=\"43\" width=\"23\" height=\"2\" rx=\"0.5\" ry=\"0.5\"/> <rect x=\"47\" y=\"39\" width=\"23\" height=\"2\" rx=\"0.5\" ry=\"0.5\"/> <rect x=\"47\" y=\"35\" width=\"23\" height=\"2\" rx=\"0.5\" ry=\"0.5\"/> <rect x=\"47\" y=\"31\" width=\"23\" height=\"2\" rx=\"0.5\" ry=\"0.5\"/> <rect x=\"47\" y=\"27\" width=\"23\" height=\"2\" rx=\"0.5\" ry=\"0.5\"/> </g> <g> <path d=\"M48.041,20.058l-2.034-2.764a0.825,0.825,0,0,1-.171-0.5,0.677,0.677,0,0,1,.693-0.667,0.8,0.8,0,0,1,.684.423l1.53,2.206L50.3,16.538a0.8,0.8,0,0,1,.667-0.414,0.642,0.642,0,0,1,.675.675,0.861,0.861,0,0,1-.18.486l-2.035,2.746V21.85a0.693,0.693,0,1,1-1.387,0V20.058Z\"/> <path d=\"M51.56,21.6l2.2-4.96a0.857,0.857,0,0,1,.811-0.549h0.081a0.844,0.844,0,0,1,.8.549l2.2,4.96a0.676,0.676,0,0,1,.071.279,0.657,0.657,0,0,1-.657.667,0.707,0.707,0,0,1-.666-0.478l-0.423-.99H53.2l-0.441,1.036a0.682,0.682,0,0,1-.64.432,0.638,0.638,0,0,1-.639-0.648A0.736,0.736,0,0,1,51.56,21.6Zm3.9-1.747-0.874-2.08-0.873,2.08h1.747Z\"/> <path d=\"M58.8,16.844a0.688,0.688,0,0,1,.693-0.693H59.65a0.711,0.711,0,0,1,.63.36l1.675,2.728L63.639,16.5a0.678,0.678,0,0,1,.621-0.351h0.153a0.688,0.688,0,0,1,.693.693V21.85a0.689,0.689,0,1,1-1.378,0V18.708L62.513,20.58a0.648,0.648,0,0,1-1.152,0l-1.2-1.845v3.133a0.68,0.68,0,0,1-1.359,0V16.844Z\"/> <path d=\"M66.615,16.826a0.693,0.693,0,0,1,1.387,0v4.4h2.565a0.63,0.63,0,1,1,0,1.26H67.309a0.688,0.688,0,0,1-.693-0.693V16.826Z\"/> </g> <g opacity=\"0.25\"> <circle cx=\"101\" cy=\"19\" r=\"1\"/> <circle cx=\"30\" cy=\"13\" r=\"1\"/> <circle cx=\"20\" cy=\"32\" r=\"1\"/> <path d=\"M26,37a3,3,0,1,1,3,3A3,3,0,0,1,26,37Zm2,0a1,1,0,1,0,1-1A1,1,0,0,0,28,37Z\"/> <path d=\"M15.67,23.5a1,1,0,0,1,0-1l3.464-6a1.04,1.04,0,0,1,1.732,0l3.464,6a1,1,0,0,1-.866,1.5H16.536A1,1,0,0,1,15.67,23.5ZM21.3,21.25l-0.866-1.5a0.5,0.5,0,0,0-.866,0L18.7,21.25a0.5,0.5,0,0,0,.433.75h1.731A0.5,0.5,0,0,0,21.3,21.25Z\"/> <path d=\"M104,43V37a1,1,0,0,1,1-1h6a1,1,0,0,1,1,1v6a1,1,0,0,1-1,1h-6A1,1,0,0,1,104,43Zm6-2V39a1,1,0,0,0-1-1h-2a1,1,0,0,0-1,1v2a1,1,0,0,0,1,1h2A1,1,0,0,0,110,41Z\"/> <path d=\"M93,28h1.5a0.5,0.5,0,0,0,.5-0.5V26a1,1,0,0,1,2,0v1.5a0.5,0.5,0,0,0,.5.5H99a1,1,0,0,1,0,2H97.5a0.5,0.5,0,0,0-.5.5V32a1,1,0,0,1-2,0V30.5a0.5,0.5,0,0,0-.5-0.5H93A1,1,0,0,1,93,28Z\"/> </g> <path d=\"M85.109,36a11.88,11.88,0,0,0-5.4,1.243A0.494,0.494,0,0,1,79,36.794c0-3.709,0-18.767,0-22.8a1,1,0,0,1,1-1H92a1,1,0,0,0,1-1,8,8,0,0,0-8-8H46a8,8,0,0,0-8,8V50a1,1,0,0,1-1,1H32a1,1,0,0,0-1,1,8,8,0,0,0,8,8H71a7.958,7.958,0,0,0,5.708-2.411,0.8,0.8,0,0,1,1.051-.038,11.983,11.983,0,0,0,19.235-9.96A12.116,12.116,0,0,0,85.109,36ZM85,6a6.011,6.011,0,0,1,5.767,4.341A0.507,0.507,0,0,1,90.29,11H79.718a0.507,0.507,0,0,1-.477-0.659A6,6,0,0,1,85,6ZM64.531,58H39a6.011,6.011,0,0,1-5.767-4.341A0.507,0.507,0,0,1,33.71,53H62.229a0.984,0.984,0,0,1,.966.755A7.977,7.977,0,0,0,64.9,57.169,0.5,0.5,0,0,1,64.531,58Zm5.454-.084A6.149,6.149,0,0,1,65,51.767,0.772,0.772,0,0,0,64.223,51H41a1,1,0,0,1-1-1V12a6,6,0,0,1,6-6H78.531a0.5,0.5,0,0,1,.371.828A7.966,7.966,0,0,0,77,12V38.655a1,1,0,0,1-.312.716,11.955,11.955,0,0,0-1.341,15.75,0.813,0.813,0,0,1-.059,1.055A5.97,5.97,0,0,1,69.984,57.916ZM85,58A10,10,0,1,1,95,48,10.012,10.012,0,0,1,85,58Z\"/> </symbol>";
-	module.exports = sprite.add(image, "pic_edit-yaml");
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"color-icon_edge\" > <title>edge</title> <path d=\"M18.786,31H18.148a1.027,1.027,0,0,0-.174-0.032c-0.443,0-.884-0.04-1.325-0.086a14.524,14.524,0,0,1-1.6-.256,12.456,12.456,0,0,1-2.557-.846A11.134,11.134,0,0,1,8.954,27.19,11.987,11.987,0,0,1,6.81,23.964a10.353,10.353,0,0,1-.944-3.916c-0.022-.6,0-1.2.028-1.8a10.392,10.392,0,0,1,.186-1.439A11.234,11.234,0,0,1,6.953,14.1a10.864,10.864,0,0,1,2.431-3.3,14.156,14.156,0,0,1,3.563-2.39c0.019-.009.04-0.016,0.059-0.023-0.241.359-.487,0.71-0.715,1.071A7.232,7.232,0,0,0,11.72,10.6a10.32,10.32,0,0,0-.408,1.219,4.292,4.292,0,0,0-.235,1.272h10.56a0.083,0.083,0,0,0,.1-0.09c0.006-.143.024-0.286,0.017-0.428a9.855,9.855,0,0,0-.1-1.1A6.41,6.41,0,0,0,20.927,9.3,4.773,4.773,0,0,0,18.971,7.4,6.478,6.478,0,0,0,16.2,6.7,9.429,9.429,0,0,0,15.1,6.72c-0.427.03-.854,0.079-1.278,0.136a14.67,14.67,0,0,0-2.543.592A16.053,16.053,0,0,0,7.933,8.97a17.663,17.663,0,0,0-3.616,2.885,18.9,18.9,0,0,0-1.8,2.159c-0.035.05-.073,0.1-0.118,0.158a0.259,0.259,0,0,1,0-.047c0.081-.454.152-0.909,0.245-1.36a16.726,16.726,0,0,1,1.4-4.057A15.037,15.037,0,0,1,5.247,6.688,13.558,13.558,0,0,1,7.985,3.807a12.965,12.965,0,0,1,4.98-2.385,13.261,13.261,0,0,1,2.017-.336c0.354-.03.707-0.059,1.062-0.077a9.69,9.69,0,0,1,1.437.05c0.371,0.036.744,0.068,1.113,0.122a14.264,14.264,0,0,1,2.036.457,12.752,12.752,0,0,1,6.591,4.589,12.673,12.673,0,0,1,1.686,2.948,13.788,13.788,0,0,1,.749,2.587c0.069,0.371.123,0.746,0.174,1.12,0.038,0.274.064,0.549,0.088,0.825,0.029,0.34.068,0.68,0.072,1.02C30,15.872,30,17.017,30,18.162c0,0.037,0,.074,0,0.111a0.078,0.078,0,0,1-.087.085l-0.166,0H11.434c-0.055,0-.111,0-0.166,0a0.079,0.079,0,0,0-.085.087c0,0.032,0,.065,0,0.1a6.086,6.086,0,0,0,.186,1.423A5.528,5.528,0,0,0,13.876,23.4a7.95,7.95,0,0,0,1.937.875,10.781,10.781,0,0,0,1.851.394,12.018,12.018,0,0,0,1.323.105,13.678,13.678,0,0,0,1.77-.052c0.416-.048.835-0.086,1.248-0.15a15.392,15.392,0,0,0,2.088-.479,12.462,12.462,0,0,0,3.278-1.488c0.033-.022.069-0.039,0.128-0.073v6.058c0,0.028,0,.056,0,0.083a0.149,0.149,0,0,1-.088.157c-0.118.063-.233,0.132-0.351,0.194a14.832,14.832,0,0,1-2.4.985,17.406,17.406,0,0,1-1.966.514Q21.9,30.68,21.1,30.8c-0.392.058-.787,0.1-1.182,0.131-0.317.026-.636,0.026-0.954,0.041A1.31,1.31,0,0,0,18.786,31Z\" fill=\"#3177bc\"/> </symbol>";
+	module.exports = sprite.add(image, "color-icon_edge");
 
 /***/ },
 /* 58 */
@@ -1770,8 +1896,8 @@
 
 	;
 	var sprite = __webpack_require__(33);;
-	var image = "<symbol viewBox=\"0 0 128 64\" id=\"pic_plug\" > <title>pic</title> <g opacity=\"0.25\"> <circle cx=\"108\" cy=\"26\" r=\"1\"/> <circle cx=\"86\" cy=\"14\" r=\"1\"/> <circle cx=\"18\" cy=\"24\" r=\"1\"/> <path d=\"M95,22a3,3,0,1,1,3,3A3,3,0,0,1,95,22Zm2,0a1,1,0,1,0,1-1A1,1,0,0,0,97,22Z\"/> <path d=\"M84.67,37.5a1,1,0,0,1,0-1l3.464-6a1.04,1.04,0,0,1,1.732,0l3.464,6a1,1,0,0,1-.866,1.5H85.536A1,1,0,0,1,84.67,37.5ZM90.3,35.25l-0.866-1.5a0.5,0.5,0,0,0-.866,0L87.7,35.25a0.5,0.5,0,0,0,.433.75h1.731A0.5,0.5,0,0,0,90.3,35.25Z\"/> <path d=\"M33,39V33a1,1,0,0,1,1-1h6a1,1,0,0,1,1,1v6a1,1,0,0,1-1,1H34A1,1,0,0,1,33,39Zm6-2V35a1,1,0,0,0-1-1H36a1,1,0,0,0-1,1v2a1,1,0,0,0,1,1h2A1,1,0,0,0,39,37Z\"/> <path d=\"M27,18h1.5a0.5,0.5,0,0,0,.5-0.5V16a1,1,0,0,1,2,0v1.5a0.5,0.5,0,0,0,.5.5H33a1,1,0,0,1,0,2H31.5a0.5,0.5,0,0,0-.5.5V22a1,1,0,0,1-2,0V20.5a0.5,0.5,0,0,0-.5-0.5H27A1,1,0,0,1,27,18Z\"/> </g> <g opacity=\"0.25\"> <path d=\"M85,58H43a2,2,0,0,1-2-2H87A2,2,0,0,1,85,58Z\"/> <path d=\"M81,52H47a2,2,0,0,1-2-2H83A2,2,0,0,1,81,52Z\"/> <path d=\"M68.047,44a9.854,9.854,0,0,1-8.338-4.49c0.068,0.18.117,0.364,0.2,0.543A9.989,9.989,0,0,0,63.052,44H49a2,2,0,0,0,2,2H77a2,2,0,0,0,2-2H68.047Z\"/> </g> <path d=\"M85,52H84.444A3.953,3.953,0,0,0,85,50a4,4,0,0,0-4-4H80.445A3.959,3.959,0,0,0,81,44a4,4,0,0,0-4-4H69.047a4,4,0,0,1-2.965-6.686l7.793-8.6A10,10,0,0,0,66.465,8H62.918A8,8,0,0,0,56,4H46V7H42V9h4v6H42v2h4v3H56a8,8,0,0,0,6.918-4h3.547a2,2,0,0,1,1.482,3.343l-7.793,8.6A11.839,11.839,0,0,0,57.732,40H51a4,4,0,0,0-4,4,3.953,3.953,0,0,0,.556,2H47a4,4,0,0,0-4,4,3.953,3.953,0,0,0,.556,2H43a4,4,0,0,0,0,8H85A4,4,0,0,0,85,52ZM56,18H48V6h8A6,6,0,0,1,56,18Zm5.636,11.285,7.794-8.6A4,4,0,0,0,66.465,14H63.737a7.727,7.727,0,0,0,0-4h2.728a8,8,0,0,1,5.929,13.373l-7.793,8.6A6,6,0,0,0,69.047,42H77a2,2,0,0,1,0,4H69.047A10,10,0,0,1,61.636,29.285ZM51,42h7.66a11.88,11.88,0,0,0,3.711,4H51A2,2,0,0,1,51,42Zm-4,6H81a2,2,0,0,1,0,4H47A2,2,0,0,1,47,48ZM85,58H43a2,2,0,0,1,0-4H85A2,2,0,0,1,85,58Z\"/> <rect x=\"51\" y=\"6\" width=\"2\" height=\"12\"/> </symbol>";
-	module.exports = sprite.add(image, "pic_plug");
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"color-icon_firefox\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <defs> <radialGradient id=\"color-icon_firefox_a\" cx=\"76.6\" cy=\"339.097\" r=\"26.846\" gradientTransform=\"translate(-56.11 -296.699) scale(0.941 0.886)\" gradientUnits=\"userSpaceOnUse\"> <stop offset=\"0\" stop-color=\"#52c4f1\"/> <stop offset=\"0.077\" stop-color=\"#45bbec\"/> <stop offset=\"0.182\" stop-color=\"#00a9dc\"/> <stop offset=\"0.376\" stop-color=\"#2276b8\"/> <stop offset=\"0.501\" stop-color=\"#035495\"/> <stop offset=\"0.75\" stop-color=\"#1d204e\"/> </radialGradient> <radialGradient id=\"color-icon_firefox_b\" cx=\"45.096\" cy=\"213.498\" r=\"26.308\" gradientTransform=\"translate(-22.535 -202.082) scale(1 0.981)\" gradientUnits=\"userSpaceOnUse\"> <stop offset=\"0.119\" stop-color=\"#fff\"/> <stop offset=\"0.122\" stop-color=\"#fffffa\"/> <stop offset=\"0.25\" stop-color=\"#ffe560\"/> <stop offset=\"0.287\" stop-color=\"#ffdf56\"/> <stop offset=\"0.347\" stop-color=\"#f8d03b\"/> <stop offset=\"0.406\" stop-color=\"#f0be1b\"/> <stop offset=\"0.473\" stop-color=\"#eb9d23\"/> <stop offset=\"0.548\" stop-color=\"#e57c27\"/> <stop offset=\"0.765\" stop-color=\"#dd5626\"/> <stop offset=\"0.903\" stop-color=\"#c33a28\"/> <stop offset=\"1\" stop-color=\"#b02228\"/> </radialGradient> </defs> <title>firefox</title> <path d=\"M15.962,29.6A13.782,13.782,0,1,0,2.189,15.809h0A13.777,13.777,0,0,0,15.952,29.6h.01Z\" fill=\"url(#color-icon_firefox_a)\"/> <path d=\"M26.4,23.987c.792-1.486,1.862-2.36,2.441-3.388.767-1.372,2.229-5.217,1.127-8.328.506,1.943.343,3.919-1.257,4.915a15.035,15.035,0,0,0,.31-7.087A6.876,6.876,0,0,0,26.854,6.27,5.009,5.009,0,0,1,28.03,9.356a11.766,11.766,0,0,0-7.054-5.495,10.65,10.65,0,0,1,4.262,4.556A5.326,5.326,0,0,0,22.5,6.874a9.227,9.227,0,0,1,3.062,7.732,8.329,8.329,0,0,0-1.3-2.057c.441,4.033.057,4.9-.212,5.968a3.564,3.564,0,0,0-.335-1.086,9.026,9.026,0,0,1-.865,3.054c-.621,1.363-1.257,1.78-1.543,1.731a.236.236,0,0,1-.114-.041,1.171,1.171,0,0,0-.008-.482.994.994,0,0,0-.433.327,1.225,1.225,0,0,1-.269.278c-.016.016.188-.261.171-.253a3.386,3.386,0,0,0-.318.294c-.4.416-.767.882-.955.751a.633.633,0,0,0,.351-.5,3.033,3.033,0,0,1-1.453.547,6.339,6.339,0,0,1-4.009-.7,1.779,1.779,0,0,1,1.1.065c-.343-.376-1.184-.3-1.78-.49A5.764,5.764,0,0,1,12,20.747a5.654,5.654,0,0,0,4.278-.563c1-.678,1.584-1.176,2.106-1.053a.507.507,0,0,0,.465-.882,2.758,2.758,0,0,0-2.751-.767c-1.037.261-1.91,1.086-3.364.514a1.966,1.966,0,0,1-.269-.122,1.7,1.7,0,0,0,.2,0,7.128,7.128,0,0,1-.914-.425c-.024-.016.212.041.188.024-1.38-.816-1.29-1.47-1.29-1.87a1.164,1.164,0,0,1,.563-.963,2.931,2.931,0,0,1,.318.139s-.09-.139-.147-.212c.016-.008.024-.008.041-.016a6.149,6.149,0,0,1,.71.286.826.826,0,0,1,.335.253s.057-.041,0-.163a.855.855,0,0,0-.359-.359h.008a2.431,2.431,0,0,1,.416.2,1.955,1.955,0,0,0,.082-.849,1.214,1.214,0,0,0-.106-.457c-.057-.09.016-.122.106-.049a2.136,2.136,0,0,0-.09-.212h0c.073-.351,2.147-1.437,2.3-1.551a1.919,1.919,0,0,0,.572-.686,1.506,1.506,0,0,0,.155-.808c-.016-.269-.171-.433-2.384-.408a1.463,1.463,0,0,1-1.233-.678c-.054-.07-.1-.139-.134-.2a2.043,2.043,0,0,1-.114-.245A4.764,4.764,0,0,1,13.3,6.159c.049-.041-.2.024-.147-.016a5.269,5.269,0,0,1,.474-.253.942.942,0,0,0-.767-.09,2.031,2.031,0,0,0-.686.237c.082-.09.351-.22.286-.212a4.356,4.356,0,0,0-1.38.686.8.8,0,0,1,.008-.131,2.318,2.318,0,0,0-.825.776,1.094,1.094,0,0,0-.008-.163,3.56,3.56,0,0,0-.4.449.008.008,0,0,1-.008.008h0A5.98,5.98,0,0,0,6.54,7.5,3.908,3.908,0,0,1,5.414,6.237c-.033-.049-.033.115-.066.063a4.053,4.053,0,0,1-.425-1.535,1.617,1.617,0,0,0-.588.939c-.041.131-.073.2-.1.278-.008.024.016-.237.008-.212a1.969,1.969,0,0,0-.212.4,1.806,1.806,0,0,0-.1.351.008.008,0,0,1-.008.008.494.494,0,0,0-.016-.155,6.707,6.707,0,0,0-.278.931,7.985,7.985,0,0,0-.155,2.278c0,.082.008.155.008.22a6.5,6.5,0,0,0-.656,1.1,14.66,14.66,0,0,0-1.208,4.074,9.813,9.813,0,0,1,.7-1.584,13.944,13.944,0,0,0-.457,5.184c.008-.082.082-.71.261-1.551a12.741,12.741,0,0,0,1.764,5.862c.98,1.674,3.552,5.56,10.01,7.013a3.1,3.1,0,0,1-1.151-.612,15.167,15.167,0,0,0,4.172.71.814.814,0,0,1-.661-.359s6.262.351,8.426-2.6c-.743.865-2.613,1.11-3.323,1.119,1.078-.988,3.462-.972,6.05-3.511A5.229,5.229,0,0,0,29.132,21.2C28.928,22.493,27.687,23.277,26.4,23.987Z\" fill=\"url(#color-icon_firefox_b)\"/> </symbol>";
+	module.exports = sprite.add(image, "color-icon_firefox");
 
 /***/ },
 /* 59 */
@@ -1779,8 +1905,8 @@
 
 	;
 	var sprite = __webpack_require__(33);;
-	var image = "<symbol viewBox=\"0 0 128 64\" id=\"pic_success\" > <title>pic</title> <path d=\"M91,32a2.988,2.988,0,0,0-1.431-2.25,1.55,1.55,0,0,1-.289-2.2,2.988,2.988,0,0,0,.8-2.543,2.988,2.988,0,0,0-1.964-1.8,1.55,1.55,0,0,1-.847-2.046,2.988,2.988,0,0,0,.114-2.664,2.993,2.993,0,0,0-2.371-1.234,1.55,1.55,0,0,1-1.349-1.759,2.983,2.983,0,0,0-.571-2.6,2.983,2.983,0,0,0-2.6-.571,1.55,1.55,0,0,1-1.759-1.349A2.993,2.993,0,0,0,77.5,8.617a2.988,2.988,0,0,0-2.664.114,1.55,1.55,0,0,1-2.046-.847,2.988,2.988,0,0,0-1.8-1.964,2.988,2.988,0,0,0-2.543.8,1.55,1.55,0,0,1-2.2-.289,2.484,2.484,0,0,0-4.5,0,1.55,1.55,0,0,1-2.2.289,2.988,2.988,0,0,0-2.543-.8,2.988,2.988,0,0,0-1.8,1.964,1.55,1.55,0,0,1-2.046.847A2.988,2.988,0,0,0,50.5,8.617a2.993,2.993,0,0,0-1.234,2.371,1.55,1.55,0,0,1-1.759,1.349,2.983,2.983,0,0,0-2.6.571,2.983,2.983,0,0,0-.571,2.6,1.55,1.55,0,0,1-1.349,1.759A2.993,2.993,0,0,0,40.617,18.5a2.988,2.988,0,0,0,.114,2.664,1.55,1.55,0,0,1-.847,2.046,2.988,2.988,0,0,0-1.964,1.8,2.988,2.988,0,0,0,.8,2.543,1.55,1.55,0,0,1-.289,2.2A2.988,2.988,0,0,0,37,32a2.988,2.988,0,0,0,1.431,2.25,1.55,1.55,0,0,1,.289,2.2,2.988,2.988,0,0,0-.8,2.543,2.988,2.988,0,0,0,1.964,1.8,1.55,1.55,0,0,1,.847,2.046,2.988,2.988,0,0,0-.114,2.664,2.993,2.993,0,0,0,2.371,1.234,1.55,1.55,0,0,1,1.349,1.759,2.468,2.468,0,0,0,3.17,3.17,1.55,1.55,0,0,1,1.759,1.349A2.993,2.993,0,0,0,50.5,55.383a2.988,2.988,0,0,0,2.664-.114,1.55,1.55,0,0,1,2.046.847,2.988,2.988,0,0,0,1.8,1.964,2.988,2.988,0,0,0,2.543-.8,1.55,1.55,0,0,1,2.2.289,2.484,2.484,0,0,0,4.5,0,1.55,1.55,0,0,1,2.2-.289,2.484,2.484,0,0,0,4.346-1.164,1.55,1.55,0,0,1,2.046-.847,2.485,2.485,0,0,0,3.9-2.257,1.55,1.55,0,0,1,1.759-1.349,2.468,2.468,0,0,0,3.17-3.17,1.55,1.55,0,0,1,1.349-1.759A2.993,2.993,0,0,0,87.383,45.5a2.988,2.988,0,0,0-.114-2.664,1.55,1.55,0,0,1,.847-2.046,2.988,2.988,0,0,0,1.964-1.8,2.988,2.988,0,0,0-.8-2.543,1.55,1.55,0,0,1,.289-2.2A2.988,2.988,0,0,0,91,32ZM64,55A23,23,0,1,1,87,32,23,23,0,0,1,64,55Z\"/> <path d=\"M64,12A20,20,0,1,1,44,32,20.023,20.023,0,0,1,64,12m0-1A21,21,0,1,0,85,32,21,21,0,0,0,64,11h0Z\"/> <polygon points=\"60.84 42.313 51.168 32.641 54.256 29.552 60.84 36.135 73.744 23.232 76.832 26.32 60.84 42.313\"/> </symbol>";
-	module.exports = sprite.add(image, "pic_success");
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"color-icon_ie\" > <title>ie</title> <path d=\"M23.641,17.836h7.28A14.112,14.112,0,0,0,31,16.288a13.541,13.541,0,0,0-1.822-6.8c1.2-3.187,1.157-5.893-.448-7.512C27.2,0.458,23.107.7,18.476,2.757c-0.343-.026-0.688-0.038-1.037-0.038A13.577,13.577,0,0,0,4.278,12.992a18.885,18.885,0,0,1,6.891-5.755c-0.255.237-1.74,1.718-1.992,1.967C1.794,16.593-.535,26.248,1.97,28.758c1.9,1.906,5.358,1.583,9.325-.361a13.564,13.564,0,0,0,18.976-7.711H22.935a5.956,5.956,0,0,1-11.206-2.829V17.833l11.912,0h0Zm-11.9-3.58a5.707,5.707,0,0,1,11.4,0H11.74ZM28.662,3.487c1.034,1.047,1.008,2.97.123,5.371a13.612,13.612,0,0,0-6.316-5.175c2.78-1.193,5.039-1.352,6.193-.2h0ZM3.883,28.283c-1.318-1.319-.923-4.093.779-7.433a13.622,13.622,0,0,0,5.777,7.072c-2.944,1.337-5.353,1.563-6.557.361h0Z\" fill=\"#1fbaee\" fill-rule=\"evenodd\"/> </symbol>";
+	module.exports = sprite.add(image, "color-icon_ie");
 
 /***/ },
 /* 60 */
@@ -1788,11 +1914,56 @@
 
 	;
 	var sprite = __webpack_require__(33);;
-	var image = "<symbol viewBox=\"0 0 128 64\" id=\"pic_warehouse\" > <title>warehouse</title> <path d=\"M105.934,41.07L102,39.349h0L89.4,33.836a1,1,0,0,0-.8,0L83,36.286V38.47l5.6-2.45a1,1,0,0,1,.8,0l10,4.375a1,1,0,0,1,.6.916V53H83v1h19V42.3a0.5,0.5,0,0,1,.7-0.458l2.432,1.064a0.981,0.981,0,0,0,.4.084A1,1,0,0,0,105.934,41.07Z\" opacity=\"0.25\"/> <path d=\"M57,15L31,26.375V29.1L56.2,18.079a2,2,0,0,1,1.6,0L83,29.1V31h0.5V26.375Z\" opacity=\"0.25\"/> <rect x=\"52\" y=\"27\" width=\"10\" height=\"4\" rx=\"1\" ry=\"1\"/> <path d=\"M107,53H85a1,1,0,0,1-1-1V29.161a1,1,0,0,1,1.4-.916l2.2,0.961a0.981,0.981,0,0,0,.4.084,1,1,0,0,0,.4-1.916L84,25.45h0L57.8,13.987a2,2,0,0,0-1.6,0L30,25.449h0l-4.4,1.924a1,1,0,0,0,.8,1.832l2.2-.961a1,1,0,0,1,1.4.916V52a1,1,0,0,1-1,1H21a1,1,0,0,0,0,2h86A1,1,0,0,0,107,53ZM32.6,26.5L56.2,16.171a2,2,0,0,1,1.6,0L81.4,26.5a1,1,0,0,1,.6.916V52a1,1,0,0,1-1,1H74.5a0.5,0.5,0,0,1-.5-0.5V38a1,1,0,0,0-1-1H41a1,1,0,0,0-1,1V52.5a0.5,0.5,0,0,1-.5.5H33a1,1,0,0,1-1-1V27.412A1,1,0,0,1,32.6,26.5Zm9.4,26v-1a0.5,0.5,0,0,1,.5-0.5h29a0.5,0.5,0,0,1,.5.5v1a0.5,0.5,0,0,1-.5.5h-29A0.5,0.5,0,0,1,42,52.5Zm30-12a0.5,0.5,0,0,1-.5.5h-29a0.5,0.5,0,0,1-.5-0.5v-1a0.5,0.5,0,0,1,.5-0.5h29a0.5,0.5,0,0,1,.5.5v1ZM42.5,43h29a0.5,0.5,0,0,1,.5.5v1a0.5,0.5,0,0,1-.5.5h-29a0.5,0.5,0,0,1-.5-0.5v-1A0.5,0.5,0,0,1,42.5,43Zm0,4h29a0.5,0.5,0,0,1,.5.5v1a0.5,0.5,0,0,1-.5.5h-29a0.5,0.5,0,0,1-.5-0.5v-1A0.5,0.5,0,0,1,42.5,47Z\"/> <g opacity=\"0.25\"> <circle cx=\"33\" cy=\"15\" r=\"1\"/> <circle cx=\"70\" cy=\"12\" r=\"1\"/> <circle cx=\"104\" cy=\"22\" r=\"1\"/> <path d=\"M97,27a3,3,0,1,1,3-3A3,3,0,0,1,97,27Zm0-4a1,1,0,1,0,1,1A1,1,0,0,0,97,23Z\"/> <path d=\"M86.964,17H80.036a1,1,0,0,1-.866-1.5l3.464-6a1.04,1.04,0,0,1,1.732,0l3.464,6A1,1,0,0,1,86.964,17Zm-4.329-2h1.731a0.5,0.5,0,0,0,.433-0.75l-0.866-1.5a0.5,0.5,0,0,0-.866,0L82.2,14.25A0.5,0.5,0,0,0,82.634,15Z\"/> <path d=\"M23,21H17a1,1,0,0,1-1-1V14a1,1,0,0,1,1-1h6a1,1,0,0,1,1,1v6A1,1,0,0,1,23,21Zm-4-2h2a1,1,0,0,0,1-1V16a1,1,0,0,0-1-1H19a1,1,0,0,0-1,1v2A1,1,0,0,0,19,19Z\"/> <path d=\"M113,15h-1.5a0.5,0.5,0,0,1-.5-0.5V13a1,1,0,0,0-2,0v1.5a0.5,0.5,0,0,1-.5.5H107a1,1,0,0,0,0,2h1.5a0.5,0.5,0,0,1,.5.5V19a1,1,0,0,0,2,0V17.5a0.5,0.5,0,0,1,.5-0.5H113A1,1,0,0,0,113,15Z\"/> </g> </symbol>";
-	module.exports = sprite.add(image, "pic_warehouse");
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"color-icon_opera\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <defs> <linearGradient id=\"color-icon_opera_a\" x1=\"-439.864\" y1=\"601.384\" x2=\"-439.864\" y2=\"601.49\" gradientTransform=\"translate(93836.603 -153952) scale(213.3 256)\" gradientUnits=\"userSpaceOnUse\"> <stop offset=\"0.3\" stop-color=\"#ff1b2d\"/> <stop offset=\"0.438\" stop-color=\"#fa1a2c\"/> <stop offset=\"0.594\" stop-color=\"#ed1528\"/> <stop offset=\"0.758\" stop-color=\"#d60e21\"/> <stop offset=\"0.927\" stop-color=\"#b70519\"/> <stop offset=\"1\" stop-color=\"#a70014\"/> </linearGradient> <linearGradient id=\"color-icon_opera_b\" x1=\"-439.785\" y1=\"601.827\" x2=\"-439.785\" y2=\"601.935\" gradientTransform=\"translate(74828.101 -133842.307) scale(170.1 222.4)\" gradientUnits=\"userSpaceOnUse\"> <stop offset=\"0\" stop-color=\"#9c0000\"/> <stop offset=\"0.7\" stop-color=\"#ff4b4b\"/> </linearGradient> </defs> <title>opera</title> <g> <path d=\"M11.4,23.886a12.145,12.145,0,0,1-2.614-7.558v-.656A12.211,12.211,0,0,1,11.4,8.114a10.047,10.047,0,0,1,8.3-3.773,9.79,9.79,0,0,1,5.63,1.236A13.853,13.853,0,0,0,16.055,2H16a14,14,0,0,0-.667,27.989c.219.011.448.011.667.011a13.909,13.909,0,0,0,9.33-3.566c-1.641,1.094-3.467,1.138-5.523,1.138-3.325.011-6.409-1.072-8.411-3.686h0Z\" fill=\"url(#color-icon_opera_a)\"/> <path d=\"M11.4,8.114a6.247,6.247,0,0,1,4.758-2.428c4.08,0,7.383,4.616,7.383,10.325s-3.3,10.325-7.383,10.325A6.3,6.3,0,0,1,11.4,23.908a10.549,10.549,0,0,0,8.323,4.266,10.075,10.075,0,0,0,5.611-1.717,14.016,14.016,0,0,0,0-20.891,10.049,10.049,0,0,0-5.611-1.717A10.485,10.485,0,0,0,11.4,8.114Z\" fill=\"url(#color-icon_opera_b)\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "color-icon_opera");
 
 /***/ },
 /* 61 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"color-icon_qq-browser\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <defs> <linearGradient id=\"color-icon_qq-browser_a\" x1=\"2\" y1=\"18\" x2=\"30\" y2=\"18\" gradientTransform=\"matrix(1, 0, 0, -1, 0, 34)\" gradientUnits=\"userSpaceOnUse\"> <stop offset=\"0\" stop-color=\"#00b4ff\"/> <stop offset=\"1\" stop-color=\"#0079f4\"/> </linearGradient> <linearGradient id=\"color-icon_qq-browser_b\" x1=\"2.049\" y1=\"10.503\" x2=\"31.997\" y2=\"10.503\" gradientTransform=\"matrix(1, 0, 0, -1, 0, 34)\" gradientUnits=\"userSpaceOnUse\"> <stop offset=\"0.122\" stop-color=\"#00b4ff\" stop-opacity=\"0\"/> <stop offset=\"0.174\" stop-color=\"#00b4ff\" stop-opacity=\"0.009\"/> <stop offset=\"0.201\" stop-color=\"#00b4ff\" stop-opacity=\"0.039\"/> <stop offset=\"0.221\" stop-color=\"#00b4ff\" stop-opacity=\"0.092\"/> <stop offset=\"0.239\" stop-color=\"#00b4ff\" stop-opacity=\"0.166\"/> <stop offset=\"0.255\" stop-color=\"#00b4ff\" stop-opacity=\"0.262\"/> <stop offset=\"0.27\" stop-color=\"#00b4ff\" stop-opacity=\"0.381\"/> <stop offset=\"0.283\" stop-color=\"#00b4ff\" stop-opacity=\"0.522\"/> <stop offset=\"0.296\" stop-color=\"#00b4ff\" stop-opacity=\"0.686\"/> <stop offset=\"0.308\" stop-color=\"#00b4ff\" stop-opacity=\"0.866\"/> <stop offset=\"0.315\" stop-color=\"#00b4ff\"/> <stop offset=\"0.326\" stop-color=\"#10b9ff\"/> <stop offset=\"0.357\" stop-color=\"#39c4ff\"/> <stop offset=\"0.391\" stop-color=\"#5fcfff\"/> <stop offset=\"0.429\" stop-color=\"#7fd8ff\"/> <stop offset=\"0.471\" stop-color=\"#9be0ff\"/> <stop offset=\"0.518\" stop-color=\"#b1e6ff\"/> <stop offset=\"0.573\" stop-color=\"#c2ebff\"/> <stop offset=\"0.64\" stop-color=\"#cdefff\"/> <stop offset=\"0.736\" stop-color=\"#d4f0ff\"/> <stop offset=\"1\" stop-color=\"#d6f1ff\"/> </linearGradient> </defs> <title>qq-browser</title> <g> <path d=\"M16,2A14,14,0,1,0,30,16,14,14,0,0,0,16,2Zm0,21a7,7,0,1,1,7-7A7,7,0,0,1,16,23Z\" fill=\"url(#color-icon_qq-browser_a)\"/> <path d=\"M28.9,22.153a5.04,5.04,0,0,0-9.9-.627,2.729,2.729,0,0,0-3.6,1.388l-.024.055A7,7,0,0,1,9.079,17h0v-.037H2.049V17A13.99,13.99,0,0,0,16,30H27.52a3.989,3.989,0,0,0,1.38-7.847Z\" fill=\"url(#color-icon_qq-browser_b)\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "color-icon_qq-browser");
+
+/***/ },
+/* 62 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"color-icon_safari\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <defs> <radialGradient id=\"color-icon_safari_a\" cx=\"16\" cy=\"18\" r=\"14\" gradientTransform=\"matrix(1, 0, 0, -1, 0, 34)\" gradientUnits=\"userSpaceOnUse\"> <stop offset=\"0\" stop-color=\"#1ac0e3\"/> <stop offset=\"0.308\" stop-color=\"#19b8e8\"/> <stop offset=\"0.788\" stop-color=\"#18a2f7\"/> <stop offset=\"1\" stop-color=\"#1796ff\"/> </radialGradient> </defs> <title>Artboard 1</title> <g> <circle cx=\"16\" cy=\"16\" r=\"14\" fill=\"url(#color-icon_safari_a)\"/> <g> <polygon points=\"13.997 13.997 24.4 7.6 18.003 18.003 7.6 24.4 13.997 13.997\" fill=\"#ebebeb\"/> <polygon points=\"13.997 13.997 24.4 7.6 18.003 18.003 13.997 13.997\" fill=\"#f23333\"/> </g> </g> </symbol>";
+	module.exports = sprite.add(image, "color-icon_safari");
+
+/***/ },
+/* 63 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"color-icon_sougou-browser\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <defs> <linearGradient id=\"color-icon_sougou-browser_a\" x1=\"16\" y1=\"33\" x2=\"16\" y2=\"3\" gradientTransform=\"matrix(1, 0, 0, -1, 0, 34)\" gradientUnits=\"userSpaceOnUse\"> <stop offset=\"0\" stop-color=\"#fafafa\"/> <stop offset=\"0.218\" stop-color=\"#f6f8f9\"/> <stop offset=\"0.437\" stop-color=\"#eaf0f6\"/> <stop offset=\"0.655\" stop-color=\"#d6e5f2\"/> <stop offset=\"0.873\" stop-color=\"#bad4ec\"/> <stop offset=\"1\" stop-color=\"#a6c8e7\"/> </linearGradient> </defs> <title>sougou-browser</title> <g> <circle cx=\"16\" cy=\"16\" r=\"15\" fill=\"url(#color-icon_sougou-browser_a)\"/> <path d=\"M2.38,15.166c0-5.407,5.227-10.848,8.3-10.848a7.247,7.247,0,0,0-4.324,6.561c0,10.21,11.786,4.317,11.786,12.279,0,2.732-3,4.137-4.915,4.137A11.868,11.868,0,0,1,2.38,15.166Z\" fill=\"#4d9feb\"/> <path d=\"M29.929,16.447c0,5.407-5.268,10.848-8.3,10.848,0,0,4.324-.581,4.324-6.561,0-9.02-11.786-4.317-11.786-12.279,0-2.732,3-4.137,4.915-4.137A11.868,11.868,0,0,1,29.929,16.447Z\" fill=\"#4d9feb\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "color-icon_sougou-browser");
+
+/***/ },
+/* 64 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"color-icon_win\" > <title>win</title> <path d=\"M3.066,15.82c6.192-2.55,9.189-1.19,11.873.633l-3.1,10.653C9.145,25.295,6.216,23.8,0,26.374L3.03,15.835l0.036-.015h0Z\" fill=\"#00b4f1\"/> <path d=\"M16.563,17.482c2.691,1.811,5.444,3.139,11.771.975L25.381,28.73c-6.21,2.568-9.191,1.114-11.88-.708l3.062-10.539h0Z\" fill=\"#ffc300\"/> <path d=\"M15.455,14.532a10.113,10.113,0,0,0-5.84-2.13,15.933,15.933,0,0,0-6.049,1.472l3.06-10.6c6.212-2.569,9.2-1.113,11.889.708l-3.06,10.554h0Z\" fill=\"#f8682c\"/> <path d=\"M32,5.776C25.8,8.34,22.815,6.9,20.129,5.089L17.069,15.7c2.683,1.82,5.927,3.312,11.875.651L32,5.776h0Z\" fill=\"#91c300\"/> </symbol>";
+	module.exports = sprite.add(image, "color-icon_win");
+
+/***/ },
+/* 65 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"color-icon_win10\" > <title>win10</title> <path d=\"M2,16.271V6.258L13.581,4.688V16.271H2Zm12.739,0H29.795V2.374L14.739,4.466V16.271ZM13.581,17.43H2v8.856l11.581,1.569V17.43Zm1.158,0V28.077l15.056,2.092V17.43H14.739Z\" fill=\"#00bdf6\"/> </symbol>";
+	module.exports = sprite.add(image, "color-icon_win10");
+
+/***/ },
+/* 66 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1801,7 +1972,7 @@
 	module.exports = sprite.add(image, "icon");
 
 /***/ },
-/* 62 */
+/* 67 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1810,7 +1981,7 @@
 	module.exports = sprite.add(image, "icon_air-traffic-tower");
 
 /***/ },
-/* 63 */
+/* 68 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1819,7 +1990,7 @@
 	module.exports = sprite.add(image, "icon_archive");
 
 /***/ },
-/* 64 */
+/* 69 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1828,7 +1999,7 @@
 	module.exports = sprite.add(image, "icon_arrow-right");
 
 /***/ },
-/* 65 */
+/* 70 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1837,7 +2008,7 @@
 	module.exports = sprite.add(image, "icon_aws");
 
 /***/ },
-/* 66 */
+/* 71 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1846,7 +2017,25 @@
 	module.exports = sprite.add(image, "icon_bell");
 
 /***/ },
-/* 67 */
+/* 72 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_board\" > <title>board</title> <g> <path d=\"M18,2.5H17V2a1,1,0,0,0-2,0v.5H14a1,1,0,0,0-1,1V4h6V3.5A1,1,0,0,0,18,2.5Z\"/> <path d=\"M26.5,26H5.5a1,1,0,0,0,0,2H8.359l-.639,2.557a1,1,0,1,0,1.94.485L10.42,28H21.58l.76,3.042a1,1,0,1,0,1.94-.485L23.641,28H26.5a1,1,0,0,0,0-2Z\"/> <path d=\"M26.022,6.978a1,1,0,0,0-1-.978H6.978a1,1,0,0,0-1,.978l-.356,16a1,1,0,0,0,1,1.022H25.378a1,1,0,0,0,1-1.022ZM23,15.6l-1.672-1.672-4.5,4.5-3.263-3.263-2.746,2.746a.9.9,0,0,1-1.272-1.273l4.019-4.018,3.263,3.263,3.224-3.224L18.4,11H23Z\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_board");
+
+/***/ },
+/* 73 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_bridge-network\" > <title>bridge-network</title> <g> <path d=\"M22,6a3.949,3.949,0,0,0-3.851,5.023l-7.125,7.125a4.069,4.069,0,1,0,2.828,2.828l7.125-7.125A3.993,3.993,0,1,0,22,6ZM10,24.4A2.4,2.4,0,1,1,12.4,22,2.4,2.4,0,0,1,10,24.4Zm12-12A2.4,2.4,0,1,1,24.4,10,2.4,2.4,0,0,1,22,12.4Z\"/> <path d=\"M2,4.1V27.9A2.1,2.1,0,0,0,4.1,30H27.9A2.1,2.1,0,0,0,30,27.9V4.1A2.1,2.1,0,0,0,27.9,2H4.1A2.1,2.1,0,0,0,2,4.1ZM28,28H4V4H28Z\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_bridge-network");
+
+/***/ },
+/* 74 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1855,7 +2044,7 @@
 	module.exports = sprite.add(image, "icon_browser");
 
 /***/ },
-/* 68 */
+/* 75 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1864,7 +2053,7 @@
 	module.exports = sprite.add(image, "icon_building");
 
 /***/ },
-/* 69 */
+/* 76 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1873,16 +2062,16 @@
 	module.exports = sprite.add(image, "icon_calendar");
 
 /***/ },
-/* 70 */
+/* 77 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
 	var sprite = __webpack_require__(33);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_camera\" > <title>camera</title> <g> <circle cx=\"16\" cy=\"18\" r=\"6\"/> <path d=\"M29.9,8H24.174a1,1,0,0,1-.927-0.625L22.189,4.757A1,1,0,0,0,21.219,4H10.781a1,1,0,0,0-.97.757L8.753,7.375A1,1,0,0,1,7.826,8H2.1A2.1,2.1,0,0,0,0,10.1V25.9A2.1,2.1,0,0,0,2.1,28H29.9A2.1,2.1,0,0,0,32,25.9V10.1A2.1,2.1,0,0,0,29.9,8ZM16,26a8,8,0,1,1,8-8A8,8,0,0,1,16,26ZM26,12.7a1.25,1.25,0,1,1,1.25-1.25A1.25,1.25,0,0,1,26,12.7Z\"/> </g> </symbol>";
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_camera\" > <title>camera</title> <g> <circle cx=\"16\" cy=\"18\" r=\"6\"/> <path d=\"M29.9,8H24.174a1,1,0,0,1-.927-.625L22.189,4.757A1,1,0,0,0,21.219,4H10.781a1,1,0,0,0-.97.757L8.753,7.375A1,1,0,0,1,7.826,8H2.1A2.1,2.1,0,0,0,0,10.1V25.9A2.1,2.1,0,0,0,2.1,28H29.9A2.1,2.1,0,0,0,32,25.9V10.1A2.1,2.1,0,0,0,29.9,8ZM16,26a8,8,0,1,1,8-8A8,8,0,0,1,16,26Z\"/> </g> </symbol>";
 	module.exports = sprite.add(image, "icon_camera");
 
 /***/ },
-/* 71 */
+/* 78 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1891,7 +2080,7 @@
 	module.exports = sprite.add(image, "icon_caret-down");
 
 /***/ },
-/* 72 */
+/* 79 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1900,7 +2089,7 @@
 	module.exports = sprite.add(image, "icon_caret-left");
 
 /***/ },
-/* 73 */
+/* 80 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1909,7 +2098,7 @@
 	module.exports = sprite.add(image, "icon_caret-right");
 
 /***/ },
-/* 74 */
+/* 81 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1918,7 +2107,7 @@
 	module.exports = sprite.add(image, "icon_caret-up");
 
 /***/ },
-/* 75 */
+/* 82 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1927,7 +2116,7 @@
 	module.exports = sprite.add(image, "icon_ccw-alt");
 
 /***/ },
-/* 76 */
+/* 83 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1936,7 +2125,25 @@
 	module.exports = sprite.add(image, "icon_ccw");
 
 /***/ },
-/* 77 */
+/* 84 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_centos\" > <title>centos</title> <g> <polygon points=\"5 10.029 6.1 8.929 6.808 8.222 7.515 8.929 12.586 14 14 14 14 12.586 8.929 7.515 8.222 6.807 8.929 6.1 10.029 5 5 5 5 10.029\"/> <polygon points=\"14 11.172 14 5 11.445 5 11.444 5 9.636 6.808 14 11.172\"/> <polygon points=\"5 11.444 5 14 11.172 14 6.808 9.636 5 11.444\"/> <polygon points=\"23.778 6.808 23.071 7.515 18 12.586 18 14 19.414 14 24.486 8.929 25.193 8.222 25.9 8.929 27 10.029 27 5 21.971 5 23.071 6.1 23.778 6.808\"/> <polygon points=\"20.828 14 27 14 27 11.444 25.192 9.636 20.828 14\"/> <polygon points=\"4 17 12.172 17 13.172 16 12.172 15 4 15 4 12.444 0.444 16 4 19.556 4 17\"/> <polygon points=\"12.445 4 15 4 15 12.172 16 13.172 17 12.172 17 4 19.556 4 16 0.444 12.445 4\"/> <polygon points=\"18 11.172 22.364 6.808 20.556 5 18 5 18 11.172\"/> <polygon points=\"18 20.828 18 27 20.556 27 22.364 25.192 18 20.828\"/> <polygon points=\"20.828 18 25.192 22.364 27 20.556 27 18 20.828 18\"/> <polygon points=\"26.999 21.971 25.899 23.071 25.192 23.778 24.485 23.071 19.414 18 18 18 18 19.414 23.071 24.486 23.778 25.193 23.071 25.9 21.971 27 26.999 27 26.999 21.971\"/> <polygon points=\"6.808 22.364 11.172 18 5 18 5 20.556 6.808 22.364\"/> <polygon points=\"28 15 19.828 15 18.828 16 19.828 17 28 17 28 19.556 31.556 16 28 12.444 28 15\"/> <polygon points=\"8.222 25.192 8.929 24.485 14 19.414 14 18 12.586 18 7.514 23.071 6.807 23.778 6.1 23.071 5 21.971 5 27 10.029 27 8.929 25.9 8.222 25.192\"/> <polygon points=\"19.556 28 17 28 17 19.828 16 18.828 15 19.828 15 28 12.444 28 16 31.556 19.556 28\"/> <polygon points=\"14 20.828 9.636 25.192 11.444 27 14 27 14 20.828\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_centos");
+
+/***/ },
+/* 85 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_checkmark-small\" > <title>checkmark-small</title> <polygon points=\"13.773 23.268 6.956 16.452 9.133 14.275 13.773 18.914 22.867 9.82 25.044 11.997 13.773 23.268\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_checkmark-small");
+
+/***/ },
+/* 86 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1945,7 +2152,7 @@
 	module.exports = sprite.add(image, "icon_checkmark");
 
 /***/ },
-/* 78 */
+/* 87 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1954,7 +2161,7 @@
 	module.exports = sprite.add(image, "icon_circle-rotate");
 
 /***/ },
-/* 79 */
+/* 88 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1963,7 +2170,7 @@
 	module.exports = sprite.add(image, "icon_city");
 
 /***/ },
-/* 80 */
+/* 89 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1972,7 +2179,7 @@
 	module.exports = sprite.add(image, "icon_clipboard-success");
 
 /***/ },
-/* 81 */
+/* 90 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1981,7 +2188,16 @@
 	module.exports = sprite.add(image, "icon_clipboard");
 
 /***/ },
-/* 82 */
+/* 91 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_clock\" > <title>clock</title> <g> <path d=\"M16,3.315A12.685,12.685,0,1,1,3.315,16,12.7,12.7,0,0,1,16,3.315M16,1.2A14.8,14.8,0,1,0,30.8,16,14.8,14.8,0,0,0,16,1.2Z\"/> <polygon points=\"15 7 15 15 9 15 9 17 17 17 17 7 15 7\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_clock");
+
+/***/ },
+/* 92 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1990,7 +2206,7 @@
 	module.exports = sprite.add(image, "icon_close-circled");
 
 /***/ },
-/* 83 */
+/* 93 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -1999,7 +2215,7 @@
 	module.exports = sprite.add(image, "icon_console-alt");
 
 /***/ },
-/* 84 */
+/* 94 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2008,16 +2224,7 @@
 	module.exports = sprite.add(image, "icon_console");
 
 /***/ },
-/* 85 */
-/***/ function(module, exports, __webpack_require__) {
-
-	;
-	var sprite = __webpack_require__(33);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_container-small-alt\" > <title>container-small-alt</title> <g> <g> <polygon points=\"29.714 8.001 29.714 8 29.714 8 29.714 8.001\"/> <polygon points=\"17 16.574 17 31.417 29.714 24 29.714 9.157 17 16.574\"/> </g> <g> <polygon points=\"2.286 8 2.286 8 2.286 8.001 2.286 8\"/> <polygon points=\"15 16.574 2.286 9.157 2.286 24 15 31.417 15 16.574\"/> </g> <g> <polygon points=\"16 14.842 28.722 7.421 16 0 3.278 7.421 16 14.842\"/> <polygon points=\"29.714 8 29.714 8 29.714 8 29.714 8\"/> <polygon points=\"2.286 8 2.286 8 2.286 8 2.286 8\"/> </g> </g> </symbol>";
-	module.exports = sprite.add(image, "icon_container-small-alt");
-
-/***/ },
-/* 86 */
+/* 95 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2026,7 +2233,7 @@
 	module.exports = sprite.add(image, "icon_container-small");
 
 /***/ },
-/* 87 */
+/* 96 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2035,7 +2242,7 @@
 	module.exports = sprite.add(image, "icon_cpu");
 
 /***/ },
-/* 88 */
+/* 97 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2044,7 +2251,7 @@
 	module.exports = sprite.add(image, "icon_cross");
 
 /***/ },
-/* 89 */
+/* 98 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2053,7 +2260,7 @@
 	module.exports = sprite.add(image, "icon_cw-alt");
 
 /***/ },
-/* 90 */
+/* 99 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2062,7 +2269,7 @@
 	module.exports = sprite.add(image, "icon_cw");
 
 /***/ },
-/* 91 */
+/* 100 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2071,16 +2278,25 @@
 	module.exports = sprite.add(image, "icon_danger");
 
 /***/ },
-/* 92 */
+/* 101 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
 	var sprite = __webpack_require__(33);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_daocloud\" > <title>daocloud</title> <g> <polygon points=\"16.092 9.623 21.471 6.97 16.067 4.612 10.664 6.946 16.092 9.623\"/> <polygon points=\"10.566 16.894 10.295 12.521 14.225 10.556 8.674 7.806 5.088 9.378 5.555 13.578 10.566 16.894\"/> <polygon points=\"26.58 13.553 27.096 9.378 23.461 7.806 17.959 10.556 21.938 12.521 21.619 16.894 26.58 13.553\"/> <polygon points=\"21.471 18.981 21.078 24.68 25.647 21.241 26.334 15.715 21.471 18.981\"/> <polygon points=\"10.688 18.981 5.825 15.715 6.464 21.266 11.057 24.68 10.688 18.981\"/> <polygon points=\"19.752 20.136 16.117 22.592 12.432 20.136 12.801 25.981 16.092 28.438 19.334 25.981 19.752 20.136\"/> </g> </symbol>";
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_daocloud\" > <title>daocloud</title> <g> <polygon points=\"16.012 8.104 22.324 4.992 15.983 2.225 9.642 4.963 16.012 8.104\"/> <polygon points=\"9.527 16.636 9.21 11.505 13.821 9.2 7.308 5.972 3.1 7.816 3.647 12.745 9.527 16.636\"/> <polygon points=\"28.318 12.716 28.924 7.816 24.658 5.972 18.202 9.2 22.871 11.505 22.497 16.636 28.318 12.716\"/> <polygon points=\"22.324 19.085 21.863 25.772 27.223 21.737 28.03 15.252 22.324 19.085\"/> <polygon points=\"9.671 19.085 3.965 15.252 4.714 21.766 10.103 25.772 9.671 19.085\"/> <polygon points=\"20.306 20.44 16.041 23.322 11.717 20.44 12.15 27.299 16.012 30.182 19.816 27.299 20.306 20.44\"/> </g> </symbol>";
 	module.exports = sprite.add(image, "icon_daocloud");
 
 /***/ },
-/* 93 */
+/* 102 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_daomirror\" > <title>daomirror</title> <path d=\"M8.157,26.715C7.171,27.7,4,28,4,28s0.3-3.17,1.285-4.156A2.317,2.317,0,0,1,8.5,23.5,2.317,2.317,0,0,1,8.157,26.715Z\"/> <path d=\"M13.651,25.544l-0.267,4.631a25.376,25.376,0,0,0,6.994-4.655c1.353-1.353,1.435-3.468,1.293-4.918A33.169,33.169,0,0,1,13.651,25.544Z\"/> <path d=\"M7.846,15.457a38.976,38.976,0,0,1,3.514-5.13c-1.449-.136-3.537-0.043-4.877,1.3a25.378,25.378,0,0,0-4.655,6.994l4.59-.265A22.814,22.814,0,0,1,7.846,15.457Z\"/> <path d=\"M28.862,3.142l0,0h0l0-.005,0,0c-0.209-.155-7.5-1.113-14.07,5.458C9.843,13.539,6.93,19.868,7.43,20.368l4.2,4.2c0.5,0.5,6.829-2.413,11.772-7.356C29.976,10.64,29.018,3.351,28.862,3.142Zm-6.519,9.2a1.9,1.9,0,1,1,0-2.687A1.9,1.9,0,0,1,22.344,12.344Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_daomirror");
+
+/***/ },
+/* 103 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2089,7 +2305,16 @@
 	module.exports = sprite.add(image, "icon_datadog");
 
 /***/ },
-/* 94 */
+/* 104 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_dce\" > <title>dce</title> <g> <path d=\"M25,28H16.058A11.909,11.909,0,0,1,4.012,16.529,2.472,2.472,0,0,1,4,16.28v-.311a1.738,1.738,0,0,1,.011-.24A12.022,12.022,0,0,1,16.058,4H25a2.5,2.5,0,0,1,0,5H16.058A7.087,7.087,0,0,0,9,16.116v.008A6.886,6.886,0,0,0,15.894,23l.164,0H25a2.5,2.5,0,0,1,0,5Z\"/> <path d=\"M25.5,18.5h-10A2.507,2.507,0,0,1,13,16h0a2.507,2.507,0,0,1,2.5-2.5h10A2.507,2.507,0,0,1,28,16h0A2.507,2.507,0,0,1,25.5,18.5Z\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_dce");
+
+/***/ },
+/* 105 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2098,7 +2323,7 @@
 	module.exports = sprite.add(image, "icon_deploy");
 
 /***/ },
-/* 95 */
+/* 106 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2107,16 +2332,16 @@
 	module.exports = sprite.add(image, "icon_desktop");
 
 /***/ },
-/* 96 */
+/* 107 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
 	var sprite = __webpack_require__(33);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_docker-image\" > <title>docker-image</title> <g> <path d=\"M18.13,0H6.1A2.1,2.1,0,0,0,4,2.1V29.9A2.1,2.1,0,0,0,6.1,32H25.9A2.1,2.1,0,0,0,28,29.9V9.87a2.1,2.1,0,0,0-.615-1.485l-7.77-7.77A2.1,2.1,0,0,0,18.13,0ZM25,9H19V3Zm1,21H6V2H17v9h9V30Z\"/> <g> <polygon points=\"16 28.706 16 28.706 16 28.706 16 28.706\"/> <polygon points=\"22.896 16.639 22.896 16.638 22.896 16.638 22.896 16.639\"/> <polygon points=\"16.5 20.948 16.5 28.414 22.896 24.684 22.896 17.217 16.5 20.948\"/> </g> <g> <polygon points=\"9.104 16.638 9.104 16.638 9.104 16.639 9.104 16.638\"/> <polygon points=\"16 28.706 16 28.706 16 28.706 16 28.706\"/> <polygon points=\"15.5 20.948 9.104 17.217 9.104 24.684 15.5 28.414 15.5 20.948\"/> </g> <g> <polygon points=\"22.896 16.638 22.896 16.638 22.895 16.638 22.896 16.638\"/> <polygon points=\"16 20.082 22.4 16.349 16 12.616 9.6 16.349 16 20.082\"/> <polygon points=\"9.105 16.638 9.104 16.638 9.104 16.638 9.105 16.638\"/> </g> </g> </symbol>";
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_docker-image\" > <title>docker-image</title> <g> <path d=\"M28,6V30H4V2H24V0H4A2,2,0,0,0,2,2V30a2,2,0,0,0,2,2H28a2,2,0,0,0,2-2V6Z\"/> <path d=\"M30,5H27a2,2,0,0,1-2-2V0Z\"/> <polygon points=\"16.5 17.141 16.5 23.563 22 20.354 22 13.933 16.5 17.141\"/> <polygon points=\"16 16.275 21.504 13.065 16 9.854 10.496 13.065 16 16.275\"/> <polygon points=\"15.5 17.141 10 13.933 10 20.354 15.5 23.563 15.5 17.141\"/> </g> </symbol>";
 	module.exports = sprite.add(image, "icon_docker-image");
 
 /***/ },
-/* 97 */
+/* 108 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2125,7 +2350,7 @@
 	module.exports = sprite.add(image, "icon_docker");
 
 /***/ },
-/* 98 */
+/* 109 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2134,16 +2359,16 @@
 	module.exports = sprite.add(image, "icon_down-arrow");
 
 /***/ },
-/* 99 */
+/* 110 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
 	var sprite = __webpack_require__(33);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_drive-small\" > <title>icon</title> <g> <path d=\"M24,2H8A4,4,0,0,0,4,6V26a4,4,0,0,0,4,4H24a4,4,0,0,0,4-4V6A4,4,0,0,0,24,2ZM11.023,12.262c-0.006-.069-0.01-0.137-0.01-0.208a2.439,2.439,0,0,1,3.318-2.28,3.992,3.992,0,0,1,7.042,2.579v0A2.891,2.891,0,0,1,20.483,18H11.517A2.89,2.89,0,0,1,11.023,12.262ZM24,28H8a2,2,0,0,1,0-4H24A2,2,0,0,1,24,28Z\"/> <rect x=\"22\" y=\"25\" width=\"2\" height=\"2\" rx=\"1\" ry=\"1\"/> <rect x=\"8\" y=\"25\" width=\"1\" height=\"2\"/> <rect x=\"10\" y=\"25\" width=\"1\" height=\"2\"/> <rect x=\"12\" y=\"25\" width=\"1\" height=\"2\"/> </g> </symbol>";
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_drive-small\" > <title>drive-small</title> <g> <rect x=\"22\" y=\"25\" width=\"2\" height=\"2\"/> <rect x=\"8\" y=\"25\" width=\"1\" height=\"2\"/> <rect x=\"10\" y=\"25\" width=\"1\" height=\"2\"/> <rect x=\"12\" y=\"25\" width=\"1\" height=\"2\"/> <rect x=\"14\" y=\"25\" width=\"1\" height=\"2\"/> <path d=\"M24,2H8A4,4,0,0,0,4,6V26a4,4,0,0,0,4,4H24a4,4,0,0,0,4-4V6A4,4,0,0,0,24,2ZM11.023,12.262c-.006-.069-.01-.137-.01-.208a2.439,2.439,0,0,1,3.318-2.28,3.992,3.992,0,0,1,7.042,2.579v0A2.891,2.891,0,0,1,20.483,18H11.517a2.89,2.89,0,0,1-.493-5.738ZM24,29H8a3,3,0,0,1,0-6H24a3,3,0,0,1,0,6Z\"/> </g> </symbol>";
 	module.exports = sprite.add(image, "icon_drive-small");
 
 /***/ },
-/* 100 */
+/* 111 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2152,7 +2377,7 @@
 	module.exports = sprite.add(image, "icon_eject");
 
 /***/ },
-/* 101 */
+/* 112 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2161,7 +2386,16 @@
 	module.exports = sprite.add(image, "icon_etcd");
 
 /***/ },
-/* 102 */
+/* 113 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_eye-slash\" > <title>eye-slash</title> <g> <path d=\"M25.909,9.626,22.538,13A7.189,7.189,0,0,1,13,22.538l-2.552,2.552A13.334,13.334,0,0,0,16,26.4C24.836,26.4,32,16,32,16A33.306,33.306,0,0,0,25.909,9.626Z\"/> <path d=\"M27.293,3.293l-4.33,4.33A14.216,14.216,0,0,0,16,5.6C7.163,5.6,0,16,0,16a32.653,32.653,0,0,0,7.3,7.281L3.293,27.293l1.414,1.414,24-24ZM8.8,16a7.19,7.19,0,0,1,11.529-5.743L18.24,12.346a4.28,4.28,0,0,0-5.895,5.895l-2.089,2.089A7.159,7.159,0,0,1,8.8,16Z\"/> <path d=\"M15.305,20.23a4.226,4.226,0,0,0,4.925-4.925Z\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_eye-slash");
+
+/***/ },
+/* 114 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2170,16 +2404,25 @@
 	module.exports = sprite.add(image, "icon_eye");
 
 /***/ },
-/* 103 */
+/* 115 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
 	var sprite = __webpack_require__(33);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_file\" > <title>file</title> <g> <path d=\"M18.13,0H6.1A2.1,2.1,0,0,0,4,2.1V29.9A2.1,2.1,0,0,0,6.1,32H25.9A2.1,2.1,0,0,0,28,29.9V9.87a2.1,2.1,0,0,0-.615-1.485L19.615.615A2.1,2.1,0,0,0,18.13,0ZM25,9H19V3Zm1,21H6V2H17v9h9Z\"/> <rect x=\"10\" y=\"15\" width=\"12\" height=\"2\"/> <rect x=\"10\" y=\"19\" width=\"12\" height=\"2\"/> <rect x=\"10\" y=\"23\" width=\"12\" height=\"2\"/> </g> </symbol>";
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_fedora\" > <title>fedora</title> <g> <path d=\"M15.9,2.2A13.9,13.9,0,0,0,2,16.091H2V26.847H2A3.16,3.16,0,0,0,5.161,30H15.906A13.9,13.9,0,0,0,15.9,2.2Zm5.323,6.459c-.44,0-.6-.084-1.242-.084a3.443,3.443,0,0,0-3.443,3.438V14.99h0a.486.486,0,0,0,.486.486h2.262a1.519,1.519,0,1,1,0,3.037H16.538v3.472a6.524,6.524,0,0,1-6.524,6.524,5.187,5.187,0,0,1-1.441-.194,1.682,1.682,0,0,1-1.341-1.5,1.44,1.44,0,0,1,1.54-1.469c.439,0,.6.084,1.242.084a3.444,3.444,0,0,0,3.444-3.438V19a.486.486,0,0,0-.486-.485H10.709a1.519,1.519,0,1,1,.016-3.037h2.732V12.019a6.524,6.524,0,0,1,6.524-6.524,5.178,5.178,0,0,1,1.441.194,1.683,1.683,0,0,1,1.341,1.5A1.439,1.439,0,0,1,21.224,8.659Z\" opacity=\"0.7\"/> <g> <path d=\"M19.992,8.564a3.476,3.476,0,0,0-3.459,3.459v2.958a.513.513,0,0,0,.5.5h2.958a3.459,3.459,0,0,0,0-6.919Z\"/> <path d=\"M12.968,18.52H10.01a3.459,3.459,0,1,0,3.459,3.459V19A.491.491,0,0,0,12.968,18.52Z\"/> <path d=\"M15.9,2.2A13.9,13.9,0,0,0,2,16.091H2V26.847H2A3.16,3.16,0,0,0,5.161,30H15.906A13.9,13.9,0,0,0,15.9,2.2Zm4.092,16.32H16.533v3.459a6.523,6.523,0,1,1-6.523-6.5H13.47V12.024a6.523,6.523,0,1,1,6.523,6.5Z\"/> </g> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_fedora");
+
+/***/ },
+/* 116 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_file\" > <title>file</title> <g> <path d=\"M28,6V30H4V2H24V0H4A2,2,0,0,0,2,2V30a2,2,0,0,0,2,2H28a2,2,0,0,0,2-2V6Z\"/> <path d=\"M30,5H27a2,2,0,0,1-2-2V0Z\"/> <rect x=\"10\" y=\"12\" width=\"12\" height=\"2\"/> <rect x=\"10\" y=\"16\" width=\"12\" height=\"2\"/> <rect x=\"10\" y=\"20\" width=\"12\" height=\"2\"/> </g> </symbol>";
 	module.exports = sprite.add(image, "icon_file");
 
 /***/ },
-/* 104 */
+/* 117 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2188,7 +2431,7 @@
 	module.exports = sprite.add(image, "icon_filter");
 
 /***/ },
-/* 105 */
+/* 118 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2197,7 +2440,7 @@
 	module.exports = sprite.add(image, "icon_folder-move");
 
 /***/ },
-/* 106 */
+/* 119 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2206,7 +2449,7 @@
 	module.exports = sprite.add(image, "icon_folder");
 
 /***/ },
-/* 107 */
+/* 120 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2215,7 +2458,16 @@
 	module.exports = sprite.add(image, "icon_foot");
 
 /***/ },
-/* 108 */
+/* 121 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_gift\" > <title>gift</title> <path d=\"M15,10H3a1,1,0,0,0-1,1v4H15V10Z\"/> <path d=\"M29,10H17v5H30V11A1,1,0,0,0,29,10Z\"/> <path d=\"M28,17H17V30H27a1,1,0,0,0,1-1V17Z\"/> <path d=\"M4,17V29a1,1,0,0,0,1,1H15V17H4Z\"/> <path d=\"M22.961,2.028c-2.044,0-4.393,2.768-5.165,3.678L16,7.822,14.2,5.706c-0.772-.91-3.122-3.678-5.165-3.678A3.385,3.385,0,0,0,5.407,5.305C5.407,7.01,6.67,9,10.228,9H21.772c3.558,0,4.82-1.99,4.82-3.695A3.385,3.385,0,0,0,22.961,2.028ZM10.228,7c-2.4,0-2.82-1.069-2.82-1.695A1.406,1.406,0,0,1,9.039,4.028c1.118,0,3.64,2.972,3.64,2.972H10.228ZM21.772,7H19.321s2.523-2.972,3.64-2.972a1.406,1.406,0,0,1,1.632,1.277C24.593,5.931,24.174,7,21.772,7Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_gift");
+
+/***/ },
+/* 122 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2224,7 +2476,7 @@
 	module.exports = sprite.add(image, "icon_git-branch");
 
 /***/ },
-/* 109 */
+/* 123 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2233,7 +2485,7 @@
 	module.exports = sprite.add(image, "icon_github");
 
 /***/ },
-/* 110 */
+/* 124 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2242,7 +2494,7 @@
 	module.exports = sprite.add(image, "icon_globe-alt");
 
 /***/ },
-/* 111 */
+/* 125 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2251,7 +2503,7 @@
 	module.exports = sprite.add(image, "icon_globe");
 
 /***/ },
-/* 112 */
+/* 126 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2260,7 +2512,7 @@
 	module.exports = sprite.add(image, "icon_graylog2");
 
 /***/ },
-/* 113 */
+/* 127 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2269,7 +2521,7 @@
 	module.exports = sprite.add(image, "icon_hashtag");
 
 /***/ },
-/* 114 */
+/* 128 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2278,7 +2530,7 @@
 	module.exports = sprite.add(image, "icon_heart");
 
 /***/ },
-/* 115 */
+/* 129 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2287,7 +2539,7 @@
 	module.exports = sprite.add(image, "icon_id");
 
 /***/ },
-/* 116 */
+/* 130 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2296,7 +2548,25 @@
 	module.exports = sprite.add(image, "icon_inbox");
 
 /***/ },
-/* 117 */
+/* 131 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_info\" > <title>info</title> <path d=\"M16,1.2A14.8,14.8,0,1,0,30.8,16,14.8,14.8,0,0,0,16,1.2Zm0,7.05a1.539,1.539,0,1,1-1.539,1.539A1.539,1.539,0,0,1,16,8.25ZM19.386,24H12.614V22.519h1.847V14H12.614V12.668h4.925v9.851h1.847V24Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_info");
+
+/***/ },
+/* 132 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_linux\" > <title>linux</title> <g> <path d=\"M29.488,27.231c0,.718-.865,1.312-2.9,1.948-1.638.512-2.618,2.744-4.673,2.457-1.605-.224-1.55-1.164-2.55-1.53-.926-.338-5.512-.424-6.716.765-1.51,1.49-4.714.018-5.828-.271-1.5-.389-3.808-.672-4.113-1.385-.319-.745.272-1.17.5-2.148.125-.543-.67-1.772-.395-2.384.385-.854,1.71-.275,2.355-.642a1.385,1.385,0,0,0,.885-1.479c.276.9.129,1.459-.559,1.851-.854.486-1.975-.063-2.191.449-.243.578.617,1.483.448,2.352-.2,1.026-.7,1.263-.463,1.762.19.4,2.58.71,3.887,1.015,1.081.253,3.868,1.553,4.925.117.734-1-.484-2.966-.6-3.163A34.83,34.83,0,0,0,8.55,22.719c-1.513-1.584-1.866-.561-2.108-.675s-.336-1.529.432-2.678c.589-.883,1.161-3.079,1.886-4.417.323-.6,2.846-3.7,2.846-4.347C11.6,8.158,9.584.567,15.411.354c5-.183,5.517,4.435,5.517,5.657a9.9,9.9,0,0,0,.524,3.736c1.489,3.857,3.221,3.724,4.593,8.019,1.241,3.884.351,4.848-.063,4.835-.973-.029-.973,2.042-2.8,1.72-1.2-.211-1.2-1.955-2-1.692-.607.2-.623,1.578-.361,2.437.707,2.317-1.062,4.788.84,5.6,1.715.735,2.75-1.39,4.373-1.918,2.421-.789,2.935-1.169,2.928-1.616-.009-.567-1.03-.619-1.683-1.161a2.122,2.122,0,0,1-.811-1.789,2.03,2.03,0,0,1,.273-.979,3.438,3.438,0,0,0,.856,2.315C28.435,26.231,29.488,26.159,29.488,27.231ZM21.746,20.6c-.118-.483-.095-2.465-.263-3.168-.572-2.4-1.356-2.868-1.359-2.884-.411-2.675-1.74-3.168-1.74-4.292,0-.535.229-.744.229-1.456,0-.447-.738-.447-1.228-.682-.248-.119-1.034-.452-1.034-.452a1.518,1.518,0,0,1-.151-.679c0-.1.038-1.14.855-1.14.965,0,.959,1.156.959,1.156,0,.41-.181.466-.181.708,0,.136.167.206.3.206.264,0,.491-.286.529-.685.1-1.077-.281-2.346-1.484-2.444-1.69-.139-1.667,1.737-1.571,2.6a1.768,1.768,0,0,0-1.362-.158c0-1.168-.24-2.325-1.065-2.269s-1.024,1.011-1.024,1.542c0,1,.416,1.406.517,1.448s.263-.051.332-.179c.047-.1-.048-.14-.122-.14-.117,0-.436-.383-.436-.838,0-.361.162-.889.709-.889.435,0,.662.587.679,1A2.117,2.117,0,0,1,13.8,7.4a7.007,7.007,0,0,1-1.015.854c-.229.13-.639.429-.639.747a.271.271,0,0,0,.142.256c.358.156.731,1.013,1.659,1.013a6.835,6.835,0,0,0,3.627-1.035c.15-.215.356-.282.46-.149.149.19-.081.423-.3.468A22.249,22.249,0,0,1,14.4,10.711c-.87.072-1.183-.278-1.2-.059a1.945,1.945,0,0,0,1.46.736c1.092-.076,2.091-.921,2.8-1.176.282-.1.391-.017.419.049s.061.256-.341.4c-1.107.407-2.564,1.907-3.233,1.907-.967,0-1.623-1.86-1.934-1.794-.074.016,0,.405-.169.885-.154.426-.721,1.325-.931,1.937a1.715,1.715,0,0,0,.1,1.454,7.241,7.241,0,0,0-1.953,5.132c.119,1.621-.4,1.335-.4,1.335a6.509,6.509,0,0,0,2,2.324c.978.786,1.894,1.639,1.919,2.128a1.508,1.508,0,0,1-.361.781,4.484,4.484,0,0,0,.765.87,3.279,3.279,0,0,0,2.9.629,4.035,4.035,0,0,0,3.09-1.519c.307-.416,1.177-1.091.995-1.716-.254-.868-.281-3.185,1.221-2.848a1.148,1.148,0,0,1,.618-.989S21.874,21.125,21.746,20.6Z\"/> <path d=\"M15.655,7.868q-.072,0-.164-.163a.288.288,0,0,0-.274-.157q.455-.074.53.182A.1.1,0,0,1,15.655,7.868Z\"/> <path d=\"M14.3,7.543a.315.315,0,0,0-.278.173c-.15.273-.241.139-.239.069C13.791,7.476,14.237,7.541,14.3,7.543Z\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_linux");
+
+/***/ },
+/* 133 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2305,16 +2575,16 @@
 	module.exports = sprite.add(image, "icon_list");
 
 /***/ },
-/* 118 */
+/* 134 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
 	var sprite = __webpack_require__(33);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_local-drive-small\" > <title>local-drive-small</title> <g> <path d=\"M24,2H8A4,4,0,0,0,4,6V26a4,4,0,0,0,4,4H24a4,4,0,0,0,4-4V6A4,4,0,0,0,24,2Zm0,26H8a2,2,0,0,1,0-4H24A2,2,0,0,1,24,28Z\"/> <rect x=\"22\" y=\"25\" width=\"2\" height=\"2\" rx=\"1\" ry=\"1\"/> <rect x=\"8\" y=\"25\" width=\"1\" height=\"2\"/> <rect x=\"10\" y=\"25\" width=\"1\" height=\"2\"/> <rect x=\"12\" y=\"25\" width=\"1\" height=\"2\"/> </g> </symbol>";
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_local-drive-small\" > <title>local-drive-small</title> <g> <rect x=\"22\" y=\"25\" width=\"2\" height=\"2\"/> <rect x=\"8\" y=\"25\" width=\"1\" height=\"2\"/> <rect x=\"10\" y=\"25\" width=\"1\" height=\"2\"/> <rect x=\"12\" y=\"25\" width=\"1\" height=\"2\"/> <rect x=\"14\" y=\"25\" width=\"1\" height=\"2\"/> <path d=\"M24,2H8A4,4,0,0,0,4,6V26a4,4,0,0,0,4,4H24a4,4,0,0,0,4-4V6A4,4,0,0,0,24,2Zm0,27H8a3,3,0,0,1,0-6H24a3,3,0,0,1,0,6Z\"/> </g> </symbol>";
 	module.exports = sprite.add(image, "icon_local-drive-small");
 
 /***/ },
-/* 119 */
+/* 135 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2323,7 +2593,7 @@
 	module.exports = sprite.add(image, "icon_location");
 
 /***/ },
-/* 120 */
+/* 136 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2332,7 +2602,7 @@
 	module.exports = sprite.add(image, "icon_lock-small");
 
 /***/ },
-/* 121 */
+/* 137 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2341,7 +2611,16 @@
 	module.exports = sprite.add(image, "icon_mail");
 
 /***/ },
-/* 122 */
+/* 138 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_meter\" > <title>meter</title> <g> <path d=\"M16,1.2A14.8,14.8,0,1,0,30.8,16,14.8,14.8,0,0,0,16,1.2ZM19,26H13a1,1,0,0,1-1-1V23a1,1,0,0,1,1-1h6a1,1,0,0,1,1,1v2A1,1,0,0,1,19,26Zm4.243-1.029-.675-2.7A3,3,0,0,0,19.658,20H12.342a3,3,0,0,0-2.91,2.272l-.675,2.7a1,1,0,0,1-1.636.507,12.941,12.941,0,0,1-4.1-10.31A13,13,0,0,1,29,16a12.938,12.938,0,0,1-4.121,9.477A1,1,0,0,1,23.243,24.971Z\"/> <circle cx=\"16\" cy=\"16\" r=\"1.8\"/> <path d=\"M23.533,8.467s-6.106,7.944-6.613,8.452a1.3,1.3,0,0,1-1.838-1.838C15.588,14.573,23.533,8.467,23.533,8.467Z\"/> <rect x=\"19.872\" y=\"6.63\" width=\"2.498\" height=\"1\" transform=\"translate(4.387 21.858) rotate(-60.005)\"/> <rect x=\"5.881\" y=\"20.621\" width=\"2.499\" height=\"0.999\" transform=\"translate(-9.611 6.401) rotate(-30.023)\"/> <rect x=\"23.621\" y=\"10.379\" width=\"2.499\" height=\"0.999\" transform=\"translate(-2.106 13.903) rotate(-30.023)\"/> <rect x=\"25\" y=\"15.5\" width=\"2.5\" height=\"1\"/> <rect x=\"4.5\" y=\"15.5\" width=\"2.5\" height=\"1\"/> <rect x=\"24.37\" y=\"19.872\" width=\"0.999\" height=\"2.499\" transform=\"translate(-5.86 32.089) rotate(-59.983)\"/> <rect x=\"6.63\" y=\"9.63\" width=\"0.999\" height=\"2.499\" transform=\"translate(-5.857 11.61) rotate(-59.983)\"/> <rect x=\"10.379\" y=\"5.881\" width=\"1\" height=\"2.498\" transform=\"translate(-2.108 6.395) rotate(-30.003)\"/> <rect x=\"15.5\" y=\"4.5\" width=\"1\" height=\"2.5\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_meter");
+
+/***/ },
+/* 139 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2350,7 +2629,7 @@
 	module.exports = sprite.add(image, "icon_minus-circled");
 
 /***/ },
-/* 123 */
+/* 140 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2359,16 +2638,34 @@
 	module.exports = sprite.add(image, "icon_mobile");
 
 /***/ },
-/* 124 */
+/* 141 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
 	var sprite = __webpack_require__(33);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_node-small\" > <title>icon</title> <g> <path d=\"M27.9,2H4.1A2.1,2.1,0,0,0,2,4.1V7.9A2.1,2.1,0,0,0,4.1,10H27.9A2.1,2.1,0,0,0,30,7.9V4.1A2.1,2.1,0,0,0,27.9,2ZM7,7H5V5H7V7Zm9.5,0.5h-1v-1h1v1Zm0-2h-1v-1h1v1Zm2,2h-1v-1h1v1Zm0-2h-1v-1h1v1Zm2,2h-1v-1h1v1Zm0-2h-1v-1h1v1Zm2,2h-1v-1h1v1Zm0-2h-1v-1h1v1Zm2,2h-1v-1h1v1Zm0-2h-1v-1h1v1Zm2,2h-1v-1h1v1Zm0-2h-1v-1h1v1Z\"/> <path d=\"M27.9,12H4.1A2.1,2.1,0,0,0,2,14.1v3.8A2.1,2.1,0,0,0,4.1,20H27.9A2.1,2.1,0,0,0,30,17.9V14.1A2.1,2.1,0,0,0,27.9,12ZM7,17H5V15H7v2Zm9.5,0.5h-1v-1h1v1Zm0-2h-1v-1h1v1Zm2,2h-1v-1h1v1Zm0-2h-1v-1h1v1Zm2,2h-1v-1h1v1Zm0-2h-1v-1h1v1Zm2,2h-1v-1h1v1Zm0-2h-1v-1h1v1Zm2,2h-1v-1h1v1Zm0-2h-1v-1h1v1Zm2,2h-1v-1h1v1Zm0-2h-1v-1h1v1Z\"/> <path d=\"M27.9,22H4.1A2.1,2.1,0,0,0,2,24.1v3.8A2.1,2.1,0,0,0,4.1,30H27.9A2.1,2.1,0,0,0,30,27.9V24.1A2.1,2.1,0,0,0,27.9,22ZM7,27H5V25H7v2Zm9.5,0.5h-1v-1h1v1Zm0-2h-1v-1h1v1Zm2,2h-1v-1h1v1Zm0-2h-1v-1h1v1Zm2,2h-1v-1h1v1Zm0-2h-1v-1h1v1Zm2,2h-1v-1h1v1Zm0-2h-1v-1h1v1Zm2,2h-1v-1h1v1Zm0-2h-1v-1h1v1Zm2,2h-1v-1h1v1Zm0-2h-1v-1h1v1Z\"/> </g> </symbol>";
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_moon\" > <title>moon</title> <path d=\"M23,19.5A12.485,12.485,0,0,1,11.015,3.467,13,13,0,1,0,29.753,17.509,12.429,12.429,0,0,1,23,19.5Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_moon");
+
+/***/ },
+/* 142 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_network\" > <title>network</title> <path d=\"M28,15H17V12h3a1,1,0,0,0,1-1V5a1,1,0,0,0-1-1H12a1,1,0,0,0-1,1v6a1,1,0,0,0,1,1h3v3H4a1,1,0,0,0,0,2H8v3H5a1,1,0,0,0-1,1v6a1,1,0,0,0,1,1h8a1,1,0,0,0,1-1V21a1,1,0,0,0-1-1H10V17H22v3H19a1,1,0,0,0-1,1v6a1,1,0,0,0,1,1h8a1,1,0,0,0,1-1V21a1,1,0,0,0-1-1H24V17h4a1,1,0,0,0,0-2Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_network");
+
+/***/ },
+/* 143 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_node-small\" > <title>node-small</title> <g> <path d=\"M29,2H3A1,1,0,0,0,2,3V9a1,1,0,0,0,1,1H29a1,1,0,0,0,1-1V3A1,1,0,0,0,29,2ZM7,7H5V5H7Zm9.5.5h-1v-1h1Zm0-2h-1v-1h1Zm2,2h-1v-1h1Zm0-2h-1v-1h1Zm2,2h-1v-1h1Zm0-2h-1v-1h1Zm2,2h-1v-1h1Zm0-2h-1v-1h1Zm2,2h-1v-1h1Zm0-2h-1v-1h1Zm2,2h-1v-1h1Zm0-2h-1v-1h1Z\"/> <path d=\"M29,12H3a1,1,0,0,0-1,1v6a1,1,0,0,0,1,1H29a1,1,0,0,0,1-1V13A1,1,0,0,0,29,12ZM7,17H5V15H7Zm9.5.5h-1v-1h1Zm0-2h-1v-1h1Zm2,2h-1v-1h1Zm0-2h-1v-1h1Zm2,2h-1v-1h1Zm0-2h-1v-1h1Zm2,2h-1v-1h1Zm0-2h-1v-1h1Zm2,2h-1v-1h1Zm0-2h-1v-1h1Zm2,2h-1v-1h1Zm0-2h-1v-1h1Z\"/> <path d=\"M29,22H3a1,1,0,0,0-1,1v6a1,1,0,0,0,1,1H29a1,1,0,0,0,1-1V23A1,1,0,0,0,29,22ZM7,27H5V25H7Zm9.5.5h-1v-1h1Zm0-2h-1v-1h1Zm2,2h-1v-1h1Zm0-2h-1v-1h1Zm2,2h-1v-1h1Zm0-2h-1v-1h1Zm2,2h-1v-1h1Zm0-2h-1v-1h1Zm2,2h-1v-1h1Zm0-2h-1v-1h1Zm2,2h-1v-1h1Zm0-2h-1v-1h1Z\"/> </g> </symbol>";
 	module.exports = sprite.add(image, "icon_node-small");
 
 /***/ },
-/* 125 */
+/* 144 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2377,7 +2674,16 @@
 	module.exports = sprite.add(image, "icon_octopus");
 
 /***/ },
-/* 126 */
+/* 145 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_open-in-new\" > <title>open-in-new-alt</title> <g> <polygon points=\"18 4 18 6 24.586 6 11.293 19.293 12.707 20.707 26 7.414 26 14 28 14 28 4 18 4\"/> <path d=\"M26,26H6V6H16V4H6.1A2.1,2.1,0,0,0,4,6.1V25.9A2.1,2.1,0,0,0,6.1,28H25.9A2.1,2.1,0,0,0,28,25.9V16H26Z\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_open-in-new");
+
+/***/ },
+/* 146 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2386,7 +2692,7 @@
 	module.exports = sprite.add(image, "icon_openstack");
 
 /***/ },
-/* 127 */
+/* 147 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2395,7 +2701,16 @@
 	module.exports = sprite.add(image, "icon_outgoing");
 
 /***/ },
-/* 128 */
+/* 148 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_overlay-network\" > <title>overlay-network</title> <g> <path d=\"M23,5a3.949,3.949,0,0,0-3.851,5.023l-9.125,9.125A3.991,3.991,0,1,0,13,23a3.962,3.962,0,0,0-.149-1.023l9.125-9.125A3.993,3.993,0,1,0,23,5ZM9,25a2,2,0,1,1,2-2A2,2,0,0,1,9,25ZM23,11a2,2,0,1,1,2-2A2,2,0,0,1,23,11Z\"/> <path d=\"M16,20.95V30H2V16h9.05l2-2H2.1A2.1,2.1,0,0,0,0,16.1V29.9A2.1,2.1,0,0,0,2.1,32H15.9A2.1,2.1,0,0,0,18,29.9V18.95Z\"/> <path d=\"M14,2.1V13.05l2-2V2H30V16H20.95l-2,2H29.9A2.1,2.1,0,0,0,32,15.9V2.1A2.1,2.1,0,0,0,29.9,0H16.1A2.1,2.1,0,0,0,14,2.1Z\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_overlay-network");
+
+/***/ },
+/* 149 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2404,7 +2719,16 @@
 	module.exports = sprite.add(image, "icon_pause");
 
 /***/ },
-/* 129 */
+/* 150 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_pawn\" > <title>pawn</title> <path d=\"M21.365,12.066,19.495,11a5.5,5.5,0,1,0-6.989,0l-1.871,1.069a.5.5,0,0,0,.248.934H21.117A.5.5,0,0,0,21.365,12.066Z\"/> <path d=\"M10.707,24.293,7,28v2H25V28l-3.707-3.707A1,1,0,0,0,20.586,24H11.414A1,1,0,0,0,10.707,24.293Z\"/> <path d=\"M18.324,14H13.676a.493.493,0,0,0-.5.461,29.272,29.272,0,0,1-1.721,7.862.5.5,0,0,0,.459.678h8.168a.5.5,0,0,0,.459-.678,29.272,29.272,0,0,1-1.721-7.862A.493.493,0,0,0,18.324,14Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_pawn");
+
+/***/ },
+/* 151 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2413,7 +2737,7 @@
 	module.exports = sprite.add(image, "icon_pencil-edit");
 
 /***/ },
-/* 130 */
+/* 152 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2422,7 +2746,7 @@
 	module.exports = sprite.add(image, "icon_pencil");
 
 /***/ },
-/* 131 */
+/* 153 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2431,7 +2755,7 @@
 	module.exports = sprite.add(image, "icon_pie-chart");
 
 /***/ },
-/* 132 */
+/* 154 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2440,7 +2764,7 @@
 	module.exports = sprite.add(image, "icon_play");
 
 /***/ },
-/* 133 */
+/* 155 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2449,7 +2773,7 @@
 	module.exports = sprite.add(image, "icon_plugged");
 
 /***/ },
-/* 134 */
+/* 156 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2458,7 +2782,7 @@
 	module.exports = sprite.add(image, "icon_plus-circled");
 
 /***/ },
-/* 135 */
+/* 157 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2467,7 +2791,25 @@
 	module.exports = sprite.add(image, "icon_plus");
 
 /***/ },
-/* 136 */
+/* 158 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_pull\" > <title>pull</title> <polygon points=\"21.293 15.293 17 19.586 17 2 15 2 15 19.586 10.707 15.293 9.293 16.707 16 23.414 22.707 16.707 21.293 15.293\"/> <path d=\"M22,6V8h6V28H4V8h6V6H4.1A2.1,2.1,0,0,0,2,8.1V27.9A2.1,2.1,0,0,0,4.1,30H27.9A2.1,2.1,0,0,0,30,27.9V8.1A2.1,2.1,0,0,0,27.9,6Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_pull");
+
+/***/ },
+/* 159 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_push\" > <title>push</title> <path d=\"M28,16V28H4V16H2V27.9A2.1,2.1,0,0,0,4.1,30H27.9A2.1,2.1,0,0,0,30,27.9V16Z\"/> <polygon points=\"22.707 11.293 16 4.586 9.293 11.293 10.707 12.707 15 8.414 15 24 17 24 17 8.414 21.293 12.707 22.707 11.293\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_push");
+
+/***/ },
+/* 160 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2476,7 +2818,7 @@
 	module.exports = sprite.add(image, "icon_puzzle");
 
 /***/ },
-/* 137 */
+/* 161 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2485,7 +2827,7 @@
 	module.exports = sprite.add(image, "icon_question-mark");
 
 /***/ },
-/* 138 */
+/* 162 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2494,7 +2836,43 @@
 	module.exports = sprite.add(image, "icon_question");
 
 /***/ },
-/* 139 */
+/* 163 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_ram-memory\" > <title>ram-memory</title> <path d=\"M28.5,15A2.5,2.5,0,0,1,30,12.711V10a2,2,0,0,0-2-2H4a2,2,0,0,0-2,2v2.711a2.5,2.5,0,0,1,0,4.578V24H3.867V22H5.733v2H7.6V22H9.467v2h1.867V22H13.2v2h1.867V22h1.867v2H18.8V22h1.867v2h1.867V22H24.4v2h1.867V22h1.867v2H30V17.289A2.5,2.5,0,0,1,28.5,15ZM11,17a1,1,0,0,1-1,1H7a1,1,0,0,1-1-1V13a1,1,0,0,1,1-1h3a1,1,0,0,1,1,1Zm7.5,0a1,1,0,0,1-1,1h-3a1,1,0,0,1-1-1V13a1,1,0,0,1,1-1h3a1,1,0,0,1,1,1ZM26,17a1,1,0,0,1-1,1H22a1,1,0,0,1-1-1V13a1,1,0,0,1,1-1h3a1,1,0,0,1,1,1Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_ram-memory");
+
+/***/ },
+/* 164 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_redhat\" > <title>redhat</title> <g> <path d=\"M14.562,7.823c-.678,0-1.164.089-1.585.1a1.188,1.188,0,0,1-.9-.487.425.425,0,0,0-.74.194l-.007.018a.861.861,0,0,0,.529,1.1s.558,1.038.982.586c.3-.32.468-.494,2.073-.61h0c.764-.055.842-.233.82-.421A1.169,1.169,0,0,0,14.562,7.823Z\"/> <path d=\"M23.56,4.333A13.9,13.9,0,0,0,2.828,20.442h.963a5.058,5.058,0,0,0,2.324-.564,1.231,1.231,0,0,1,.564-.141,1.158,1.158,0,0,1,1.033.564,1.806,1.806,0,0,0,.61.681,1.372,1.372,0,0,0,.845.211.585.585,0,0,0,.54-.235.368.368,0,0,0-.282-.493,1.3,1.3,0,0,1-.681-.728,2.471,2.471,0,0,1-.7-1.221A1.117,1.117,0,0,1,9.5,17.3a2.755,2.755,0,0,1,1.381,1.4.473.473,0,0,0,.652.152.485.485,0,0,0,.048-.035.4.4,0,0,1,.7.07c.171.265,1.417,1.929,2.771,1.972a21.54,21.54,0,0,0,2.7-.3,3.577,3.577,0,0,1,.869.282c.422.067.731-.327,1.2-.3.377.018.776.282,1.2.282s1.327-.515,1.315-.3a9.991,9.991,0,0,1-.376,1.338,8.009,8.009,0,0,1-.141,1.127,4.216,4.216,0,0,1-.61,1.08,10.938,10.938,0,0,0-.845,1.2,8.49,8.49,0,0,1-.963,1.338c-.17.227.96-.018,1.362-.4a4.142,4.142,0,0,1,1.878-1.5c.638-.14.782-.384.7-.61a.247.247,0,0,1-.023-.094.2.2,0,0,1,.117-.188,6.792,6.792,0,0,1,2.536-.446,7.633,7.633,0,0,1,1.691.188A13.888,13.888,0,0,0,23.56,4.333Zm3.735,11.392c-.669,3.658-6.65,4.888-12.469,3.126-5.545-1.684-10.415-5.025-9.852-6.984C5.3,10.726,7.111,10.239,9.522,10.5c-.365.746-.342,1.625,1.258,2.6a16.581,16.581,0,0,0,6.148,1.966c.332-.035.632-.2.332-.4a2.049,2.049,0,0,1-.731-1.3c-.094-.39-.2-.93-2.294-1.33-4.5-.859-4.323-2.128-4.19-2.859,0,0,.4-1.8.565-2.428S11.2,4.667,14.1,5.319a5.026,5.026,0,0,0,3.037-.211,3.609,3.609,0,0,1,3.4.687,15.813,15.813,0,0,1,2.4,5.21A2.547,2.547,0,0,1,23,12.741a6.684,6.684,0,0,1-.48.918c-.059.1-.01.206.116.141a2.168,2.168,0,0,0,1.2-1.5C26.2,12.836,27.6,14.065,27.295,15.725Z\"/> <path d=\"M18.424,5.614h-.079c-.15,0-.306.01-.465.026a3.722,3.722,0,0,0-1.307.349.042.042,0,0,0-.025.038.044.044,0,0,0,.045.042H16.6c.089-.014.181-.026.271-.037.861-.086,1.588.057,1.623.32a1,1,0,0,1-.9.537.06.06,0,0,0,0,.117,3.144,3.144,0,0,0,.792.116c.89.02,1.624-.3,1.631-.718S19.314,5.634,18.424,5.614Z\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_redhat");
+
+/***/ },
+/* 165 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_reply-line\" > <title>reply</title> <path d=\"M23.9,10H8.414l4.293-4.293L11.293,4.293,4.586,11l6.707,6.707,1.414-1.414L8.414,12H24V28h2V12.1A2.1,2.1,0,0,0,23.9,10Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_reply-line");
+
+/***/ },
+/* 166 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_rook\" > <title>rook</title> <g> <rect x=\"11\" y=\"12\" width=\"10\" height=\"11\" rx=\"0.5\" ry=\"0.5\"/> <path d=\"M10.707,24.293,7,28v2H25V28l-3.707-3.707A1,1,0,0,0,20.586,24H11.414A1,1,0,0,0,10.707,24.293Z\"/> <path d=\"M7,2.5V7l3.707,3.707a1,1,0,0,0,.707.293h9.172a1,1,0,0,0,.707-.293L25,7V2.5a.5.5,0,0,0-.5-.5H21.724a.5.5,0,0,0-.493.418L20.87,4.582A.5.5,0,0,1,20.376,5H18.724a.5.5,0,0,1-.493-.418L17.87,2.418A.5.5,0,0,0,17.376,2H14.624a.5.5,0,0,0-.493.418L13.77,4.582A.5.5,0,0,1,13.276,5H11.624a.5.5,0,0,1-.493-.418L10.77,2.418A.5.5,0,0,0,10.276,2H7.5A.5.5,0,0,0,7,2.5Z\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_rook");
+
+/***/ },
+/* 167 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2503,7 +2881,7 @@
 	module.exports = sprite.add(image, "icon_scaleio");
 
 /***/ },
-/* 140 */
+/* 168 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2512,7 +2890,7 @@
 	module.exports = sprite.add(image, "icon_science");
 
 /***/ },
-/* 141 */
+/* 169 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2521,7 +2899,7 @@
 	module.exports = sprite.add(image, "icon_search-circled");
 
 /***/ },
-/* 142 */
+/* 170 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2530,7 +2908,16 @@
 	module.exports = sprite.add(image, "icon_search");
 
 /***/ },
-/* 143 */
+/* 171 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_service\" > <title>service</title> <g> <path d=\"M23.491,19.281l.337.967a1.75,1.75,0,0,1-.784,2.094l-1.5.856a1.75,1.75,0,0,1-2.193-.375l-.6-.694-.172.9a1.75,1.75,0,0,1-1.719,1.422H15.137a1.75,1.75,0,0,1-1.719-1.422l-.172-.9-.6.694a1.75,1.75,0,0,1-2.193.375l-1.5-.856a1.75,1.75,0,0,1-.784-2.094l.337-.967L2,23l14,8,14-8Z\"/> <path d=\"M26.851,12.714V10.988L24.7,10.577A8.731,8.731,0,0,0,24.173,8.6l1.655-1.429-.856-1.5L22.9,6.4a8.836,8.836,0,0,0-1.445-1.445l.722-2.074-1.5-.856L19.248,3.678a8.733,8.733,0,0,0-1.974-.524L16.863,1H15.137l-.411,2.154a8.733,8.733,0,0,0-1.974.524L11.322,2.023l-1.5.856.722,2.074A8.836,8.836,0,0,0,9.1,6.4L7.028,5.676l-.856,1.5L7.827,8.6A8.731,8.731,0,0,0,7.3,10.577l-2.154.411v1.726l2.154.411A8.733,8.733,0,0,0,7.827,15.1L6.172,16.529l.856,1.5L9.1,17.3a8.838,8.838,0,0,0,1.445,1.445l-.722,2.074,1.5.856,1.429-1.655a8.731,8.731,0,0,0,1.974.524l.411,2.154h1.726l.411-2.154a8.731,8.731,0,0,0,1.974-.524l1.429,1.655,1.5-.856-.722-2.074A8.838,8.838,0,0,0,22.9,17.3l2.074.722.856-1.5L24.173,15.1a8.733,8.733,0,0,0,.524-1.974ZM16,5.147a6.7,6.7,0,0,1,6.647,5.866H17.452A1.676,1.676,0,0,1,16,10.175l-2.6-4.5A6.683,6.683,0,0,1,16,5.147Zm-6.7,6.7a6.687,6.687,0,0,1,2.656-5.335l2.6,4.5a1.676,1.676,0,0,1,0,1.676l-2.6,4.5A6.687,6.687,0,0,1,9.3,11.851Zm6.7,6.7a6.683,6.683,0,0,1-2.6-.524l2.6-4.5a1.676,1.676,0,0,1,1.452-.838h5.195A6.7,6.7,0,0,1,16,18.556Z\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_service");
+
+/***/ },
+/* 172 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2539,7 +2926,16 @@
 	module.exports = sprite.add(image, "icon_setting");
 
 /***/ },
-/* 144 */
+/* 173 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_shop-line\" > <title>shop</title> <path d=\"M29.7,9.1,28.2,5.3A1.955,1.955,0,0,0,26.3,4H5.7A2.051,2.051,0,0,0,3.8,5.3L2.3,9.1A4.013,4.013,0,0,0,2,10.6v.7A4.373,4.373,0,0,0,4,15V28a2.006,2.006,0,0,0,2,2H26a2.006,2.006,0,0,0,2-2V15h0a4.507,4.507,0,0,0,2-3.7v-.7A4.013,4.013,0,0,0,29.7,9.1ZM6,28V15.7a4.354,4.354,0,0,0,3.5-1.5l.5.5V28Zm20,0H12V24H26ZM12,22V15.6a3.907,3.907,0,0,0,3.4-.9l.6-.6a4.159,4.159,0,0,0,5.9.6l.6-.6A4.354,4.354,0,0,0,26,15.6V22ZM28,11.5a2.326,2.326,0,0,1-2.3,2.3h-.2a2.376,2.376,0,0,1-2-2.4V11a1,1,0,0,0-2,0v.4a2.376,2.376,0,0,1-2,2.4,2.391,2.391,0,0,1-2.5-2V11a1,1,0,0,0-2,0v.4a2.376,2.376,0,0,1-2,2.4,2.391,2.391,0,0,1-2.5-2V11a.945.945,0,0,0-1-1,.945.945,0,0,0-1,1v.4a2.376,2.376,0,0,1-2,2.4,2.391,2.391,0,0,1-2.5-2V11a4.013,4.013,0,0,1,.3-1.5L5.7,6H26.3l1.4,3.5A4.013,4.013,0,0,1,28,11Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_shop-line");
+
+/***/ },
+/* 174 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2548,16 +2944,133 @@
 	module.exports = sprite.add(image, "icon_splunk");
 
 /***/ },
-/* 145 */
+/* 175 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
 	var sprite = __webpack_require__(33);;
-	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_stack-small\" > <title>stack-small</title> <g> <polygon points=\"2 10 16 2 30 10 16 18 2 10\"/> <polygon points=\"16 26.419 5.134 20.209 2 22 16 30 30 22 26.866 20.209 16 26.419\"/> <polygon points=\"16 20.419 5.134 14.209 2 16 16 24 30 16 26.866 14.209 16 20.419\"/> </g> </symbol>";
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_stack-file\" > <title>stack-file</title> <g> <path d=\"M28,6V30H4V2H24V0H4A2,2,0,0,0,2,2V30a2,2,0,0,0,2,2H28a2,2,0,0,0,2-2V6Z\"/> <path d=\"M30,5H27a2,2,0,0,1-2-2V0Z\"/> <polygon points=\"9 14 16 10 23 14 16 18 9 14\"/> <polygon points=\"16.496 18.868 16 19.152 15.504 18.868 10.617 16.076 9 17 16 21 23 17 21.383 16.076 16.496 18.868\"/> <polygon points=\"16.496 21.868 16 22.152 15.504 21.868 10.617 19.076 9 20 16 24 23 20 21.383 19.076 16.496 21.868\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_stack-file");
+
+/***/ },
+/* 176 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_stack-small\" > <title>stack-small</title> <g> <polygon points=\"2 10 16 2 30 10 16 18 2 10\"/> <polygon points=\"16.992 19.736 16 20.303 15.008 19.736 5.234 14.152 2 16 16 24 30 16 26.766 14.152 16.992 19.736\"/> <polygon points=\"16.992 25.736 16 26.303 15.008 25.736 5.234 20.152 2 22 16 30 30 22 26.766 20.152 16.992 25.736\"/> </g> </symbol>";
 	module.exports = sprite.add(image, "icon_stack-small");
 
 /***/ },
-/* 146 */
+/* 177 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_star-line\" > <title>star</title> <path d=\"M16,5.482l2.8,5.681a2.952,2.952,0,0,0,2.223,1.615l6.269.911-4.536,4.422a2.952,2.952,0,0,0-.849,2.613l1.071,6.243L17.374,24.02a2.953,2.953,0,0,0-2.748,0L9.019,26.967l1.071-6.243a2.952,2.952,0,0,0-.849-2.613L4.7,13.689l6.269-.911A2.952,2.952,0,0,0,13.2,11.163L16,5.482m0-3.319a.941.941,0,0,0-.854.531L11.4,10.278a.953.953,0,0,1-.717.521L2.317,12.015a.953.953,0,0,0-.528,1.625l6.056,5.9a.953.953,0,0,1,.274.843l-1.43,8.335a.95.95,0,0,0,1.382,1l7.486-3.935a.953.953,0,0,1,.887,0l7.486,3.935a.95.95,0,0,0,1.382-1l-1.43-8.335a.953.953,0,0,1,.274-.843l6.056-5.9a.953.953,0,0,0-.528-1.625L21.314,10.8a.953.953,0,0,1-.717-.521L16.854,2.694A.941.941,0,0,0,16,2.163Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_star-line");
+
+/***/ },
+/* 178 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_star\" > <title>star</title> <polygon points=\"16 23.313 8.188 28 10.25 19.125 3.375 13.125 12.438 12.375 16 4 19.563 12.375 28.625 13.125 21.75 19.125 23.813 28 16 23.313\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_star");
+
+/***/ },
+/* 179 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_status-dash\" > <title>status-dash</title> <rect x=\"8\" y=\"15\" width=\"16\" height=\"2\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_status-dash");
+
+/***/ },
+/* 180 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_status-dot-small\" > <title>status-dot-small</title> <circle cx=\"16\" cy=\"16\" r=\"5\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_status-dot-small");
+
+/***/ },
+/* 181 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_status-dot\" > <title>status-dot</title> <circle cx=\"16\" cy=\"16\" r=\"10\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_status-dot");
+
+/***/ },
+/* 182 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_status-empty-dot\" > <title>status-empty-dot</title> <path d=\"M16,8a8,8,0,1,1-8,8,8.009,8.009,0,0,1,8-8m0-2A10,10,0,1,0,26,16,10,10,0,0,0,16,6Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_status-empty-dot");
+
+/***/ },
+/* 183 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_status-half-dot\" > <title>status-half-dot</title> <path d=\"M16,6A10,10,0,1,0,26,16,10,10,0,0,0,16,6ZM8,16a8,8,0,0,1,16,0Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_status-half-dot");
+
+/***/ },
+/* 184 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_status-progress-circle\" > <title>status-progress-circle</title> <path d=\"M23.394,3.193l-1,1.735A12.777,12.777,0,1,1,16,3.2v-2a14.831,14.831,0,1,0,7.394,1.993Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_status-progress-circle");
+
+/***/ },
+/* 185 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_status-progress-cross\" > <title>status-progress-cross</title> <polygon points=\"22.707 10.707 21.293 9.293 16 14.586 10.707 9.293 9.293 10.707 14.586 16 9.293 21.293 10.707 22.707 16 17.414 21.293 22.707 22.707 21.293 17.414 16 22.707 10.707\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_status-progress-cross");
+
+/***/ },
+/* 186 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_status-slash-dot\" > <title>status-slash-dot</title> <path d=\"M16,6A10,10,0,1,0,26,16,10,10,0,0,0,16,6Zm0,2a7.951,7.951,0,0,1,4.9,1.688L9.688,20.9A7.987,7.987,0,0,1,16,8Zm0,16a7.951,7.951,0,0,1-4.9-1.688L22.312,11.1A7.987,7.987,0,0,1,16,24Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_status-slash-dot");
+
+/***/ },
+/* 187 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_status-three-dots\" > <title>status-three-dots</title> <g> <circle cx=\"16\" cy=\"8.05\" r=\"5\"/> <circle cx=\"7.975\" cy=\"21.95\" r=\"5\"/> <circle cx=\"24.025\" cy=\"21.95\" r=\"5\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_status-three-dots");
+
+/***/ },
+/* 188 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_status-two-dots\" > <title>status-two-dots</title> <g> <path d=\"M13.338,20.983a6,6,0,1,1,0-9.965,10.017,10.017,0,0,1,1.17-1.625,8,8,0,1,0,0,13.215A10.014,10.014,0,0,1,13.338,20.983Z\"/> <circle cx=\"22\" cy=\"16\" r=\"8\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_status-two-dots");
+
+/***/ },
+/* 189 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2566,7 +3079,7 @@
 	module.exports = sprite.add(image, "icon_stop");
 
 /***/ },
-/* 147 */
+/* 190 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2575,7 +3088,16 @@
 	module.exports = sprite.add(image, "icon_success");
 
 /***/ },
-/* 148 */
+/* 191 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_suse\" > <title>suse</title> <g> <path d=\"M27.768,13.509a1.27,1.27,0,0,1-1.22-1.31,1.266,1.266,0,1,1,1.22,1.31h0Zm0.293-1.146a0.5,0.5,0,0,0,.562-0.374,0.607,0.607,0,0,0-1.122,0,0.5,0.5,0,0,0,.561.374\"/> <path d=\"M13.44,20.773l0.045,0,0.007-.053a2.353,2.353,0,0,1-.08-0.6,3.19,3.19,0,0,1,.524-2.333,2.155,2.155,0,0,1,.913-0.528,4.022,4.022,0,0,1,4.119,1.459c0.692,0.8,1.031,1.166,1.2,1.33L20.227,20.1,20.3,20.154c0.055,0.031,2.3,1.066,2.3,1.066l0.046-.011V21.16c-0.015-.017-1.425-1.838-1.175-3.339,0.2-1.2,1.15-1.088,2.465-.938,0.43,0.049.92,0.105,1.426,0.117a10.485,10.485,0,0,0,3.874-.661,4.818,4.818,0,0,0,1.237-.661,0.725,0.725,0,0,0,.18-0.316l0.032-.084a3.714,3.714,0,0,0,.122-0.435,0.133,0.133,0,0,0-.02-0.136l-0.13.024a5.522,5.522,0,0,1-2.406.736A11.979,11.979,0,0,1,24.4,14.133l-0.024-.028-0.5-1.179A10.192,10.192,0,0,0,28.15,14.8a3.928,3.928,0,0,0,2.588-.845,1.579,1.579,0,0,1,.166-0.107L30.93,13.8a9.747,9.747,0,0,0-1.191-3.013,1.988,1.988,0,0,0-.458-0.4c-1.751-1.021-5.907-1.637-6.1-1.665l-0.033.009-0.012.029s-0.016.862-.018,0.958a25.826,25.826,0,0,0-6.4-1.239A16.675,16.675,0,0,0,6.174,11.19l-0.14.087A10.921,10.921,0,0,0,1.466,16.37a5.953,5.953,0,0,0-.256,3.369,5.2,5.2,0,0,0,.78,1.688,5.07,5.07,0,0,0,3.688,2.1A3.765,3.765,0,0,0,9.93,21.006a3.475,3.475,0,0,0-1.489-3.915,3.1,3.1,0,0,0-3.27-.074A2.181,2.181,0,0,0,4.15,18.87a2.038,2.038,0,0,0,1.963,2.016,2.357,2.357,0,0,0,.744-0.128,1.161,1.161,0,0,0,.284-0.126l0.03-.02,0.02-.011-0.007,0a0.666,0.666,0,0,0,.3-0.552,0.7,0.7,0,0,0-.026-0.183A0.668,0.668,0,0,0,6.69,19.4l-0.046.009-0.062.021-0.091.03a1.677,1.677,0,0,1-.358.051,0.664,0.664,0,0,1-.566-0.661V18.841a0.761,0.761,0,0,1,.119-0.393,1.168,1.168,0,0,1,1.085-.406,1.818,1.818,0,0,1,1.557,1.109,1.907,1.907,0,0,1-.211,2,2.389,2.389,0,0,1-2.268.7A3.18,3.18,0,0,1,3.34,17.328a3.72,3.72,0,0,1,4.179-1.8,5.181,5.181,0,0,1,3.774,3.327,5.126,5.126,0,0,1,.206.7l0.071,0.3,1.844,0.9,0.025,0.018h0Zm13.11-9.81a1.762,1.762,0,0,0-.563,1.238,1.785,1.785,0,0,0,1.715,1.84,1.777,1.777,0,0,0,1.839-1.714,1.784,1.784,0,0,0-1.716-1.841,1.765,1.765,0,0,0-1.275.477\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_suse");
+
+/***/ },
+/* 192 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2584,7 +3106,7 @@
 	module.exports = sprite.add(image, "icon_swap");
 
 /***/ },
-/* 149 */
+/* 193 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2593,7 +3115,7 @@
 	module.exports = sprite.add(image, "icon_swarm");
 
 /***/ },
-/* 150 */
+/* 194 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2602,7 +3124,7 @@
 	module.exports = sprite.add(image, "icon_tag");
 
 /***/ },
-/* 151 */
+/* 195 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2611,7 +3133,7 @@
 	module.exports = sprite.add(image, "icon_trash");
 
 /***/ },
-/* 152 */
+/* 196 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2620,7 +3142,16 @@
 	module.exports = sprite.add(image, "icon_twitter");
 
 /***/ },
-/* 153 */
+/* 197 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_ubuntu\" > <title>ubuntu</title> <path d=\"M4.09,13.411A2.589,2.589,0,1,0,6.679,16,2.589,2.589,0,0,0,4.09,13.411ZM22.577,25.179a2.589,2.589,0,1,0,3.536.948A2.588,2.588,0,0,0,22.577,25.179ZM9.714,16A7.553,7.553,0,0,1,12.93,9.812L11.037,6.642A11.273,11.273,0,0,0,6.386,13.18a3.637,3.637,0,0,1,0,5.64,11.264,11.264,0,0,0,4.651,6.539l1.893-3.171A7.549,7.549,0,0,1,9.714,16Zm7.563-7.564a7.563,7.563,0,0,1,7.533,6.893l3.69-.054a11.215,11.215,0,0,0-3.343-7.3A3.635,3.635,0,0,1,20.281,5.16a11.253,11.253,0,0,0-7.99.756l1.8,3.224A7.543,7.543,0,0,1,17.277,8.437Zm0,15.127a7.529,7.529,0,0,1-3.186-.7l-1.8,3.224a11.239,11.239,0,0,0,7.989.756,3.635,3.635,0,0,1,4.876-2.819,11.212,11.212,0,0,0,3.343-7.3l-3.69-.054A7.562,7.562,0,0,1,17.277,23.564Zm5.3-16.743a2.589,2.589,0,1,0-.948-3.535A2.587,2.587,0,0,0,22.576,6.821Z\"/> </symbol>";
+	module.exports = sprite.add(image, "icon_ubuntu");
+
+/***/ },
+/* 198 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2629,7 +3160,7 @@
 	module.exports = sprite.add(image, "icon_unplugged");
 
 /***/ },
-/* 154 */
+/* 199 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2638,7 +3169,7 @@
 	module.exports = sprite.add(image, "icon_up-arrow");
 
 /***/ },
-/* 155 */
+/* 200 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2647,7 +3178,7 @@
 	module.exports = sprite.add(image, "icon_update");
 
 /***/ },
-/* 156 */
+/* 201 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2656,7 +3187,16 @@
 	module.exports = sprite.add(image, "icon_user");
 
 /***/ },
-/* 157 */
+/* 202 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 32 32\" id=\"icon_virtual-machine\" > <title>virtual-machine</title> <g> <path d=\"M29,22H3a1,1,0,0,0-1,1v6a1,1,0,0,0,1,1H29a1,1,0,0,0,1-1V23A1,1,0,0,0,29,22ZM7,27H5V25H7Zm9.5.5h-1v-1h1Zm0-2h-1v-1h1Zm2,2h-1v-1h1Zm0-2h-1v-1h1Zm2,2h-1v-1h1Zm0-2h-1v-1h1Zm2,2h-1v-1h1Zm0-2h-1v-1h1Zm2,2h-1v-1h1Zm0-2h-1v-1h1Zm2,2h-1v-1h1Zm0-2h-1v-1h1Z\"/> <g> <path d=\"M21,5v6H18v1h3a1,1,0,0,0,1-1V5Z\" opacity=\"0.5\"/> <path d=\"M17,15H15V12h2V11H15V9H14v2H11V9H10v2a1,1,0,0,0,1,1h3v3a1,1,0,0,0,1,1h2Z\" opacity=\"0.25\"/> <path d=\"M25,4H22V1a1,1,0,0,0-1-1H11a1,1,0,0,0-1,1V8H7A1,1,0,0,0,6,9V19a1,1,0,0,0,1,1H17a1,1,0,0,0,1-1V16h7a1,1,0,0,0,1-1V5A1,1,0,0,0,25,4ZM11,1H21V4H15a1,1,0,0,0-1,1V8H11Zm6,18H7V9H17Zm8-4H18V9a1,1,0,0,0-1-1H15V5H25Z\"/> <rect x=\"7\" y=\"9\" width=\"10\" height=\"10\" opacity=\"0.2\"/> <path d=\"M15,5V8h2a1,1,0,0,1,1,1v6h7V5Z\" opacity=\"0.2\"/> <path d=\"M11,1V8h3V5a1,1,0,0,1,1-1h6V1Z\" opacity=\"0.2\"/> </g> </g> </symbol>";
+	module.exports = sprite.add(image, "icon_virtual-machine");
+
+/***/ },
+/* 203 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2665,7 +3205,7 @@
 	module.exports = sprite.add(image, "icon_vsphere");
 
 /***/ },
-/* 158 */
+/* 204 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2674,7 +3214,7 @@
 	module.exports = sprite.add(image, "icon_warning");
 
 /***/ },
-/* 159 */
+/* 205 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2683,7 +3223,160 @@
 	module.exports = sprite.add(image, "icon_wechat");
 
 /***/ },
-/* 160 */
+/* 206 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 128 64\" id=\"pic_app-stack\" > <title>app-stack</title> <g> <path d=\"M64,38,44.75,27l-3.062,1.75,20.08,11.474a4.5,4.5,0,0,0,4.465,0L86.313,28.75,83.25,27Z\" opacity=\"0.25\"/> <path d=\"M64,48,44.75,37l-3.062,1.75,20.08,11.474a4.5,4.5,0,0,0,4.465,0L86.313,38.75,83.25,37Z\" opacity=\"0.25\"/> <path d=\"M90.977,30.263,85.266,27l5.711-3.264a2,2,0,0,0,0-3.473L65.985,5.982a4,4,0,0,0-3.969,0L37.023,20.263a2,2,0,0,0,0,3.473L42.734,27l-5.711,3.263a2,2,0,0,0,0,3.473L42.734,37l-5.711,3.263a2,2,0,0,0,0,3.473L62.015,58.018a4,4,0,0,0,3.969,0L90.977,43.736a2,2,0,0,0,0-3.473L85.266,37l5.711-3.264A2,2,0,0,0,90.977,30.263Zm-52.2-8.7L62.76,7.861a2.5,2.5,0,0,1,2.481,0L89.225,21.566a.5.5,0,0,1,0,.868L65.24,36.139a2.5,2.5,0,0,1-2.481,0L38.775,22.434A.5.5,0,0,1,38.775,21.566Zm50.449,20a.5.5,0,0,1,0,.868L65.24,56.139a2.5,2.5,0,0,1-2.481,0L38.775,42.434a.5.5,0,0,1,0-.868l5.975-3.414,17.265,9.866a4,4,0,0,0,3.969,0L83.25,38.152Zm0-9.132L65.24,46.139a2.5,2.5,0,0,1-2.481,0L38.775,32.434a.5.5,0,0,1,0-.868l5.975-3.414,17.265,9.866a4,4,0,0,0,3.969,0L83.25,28.152l5.975,3.414A.5.5,0,0,1,89.225,32.434Z\"/> <g opacity=\"0.25\"> <circle cx=\"100\" cy=\"31\" r=\"1\"/> <circle cx=\"30\" cy=\"15\" r=\"1\"/> <circle cx=\"22\" cy=\"36\" r=\"1\"/> <path d=\"M26,43a3,3,0,1,1,3,3A3,3,0,0,1,26,43Zm2,0a1,1,0,1,0,1-1A1,1,0,0,0,28,43Z\"/> <path d=\"M16.67,29.5a1,1,0,0,1,0-1l3.464-6a1.04,1.04,0,0,1,1.732,0l3.464,6a1,1,0,0,1-.866,1.5H17.536A1,1,0,0,1,16.67,29.5ZM22.3,27.25l-.866-1.5a.5.5,0,0,0-.866,0l-.866,1.5a.5.5,0,0,0,.433.75h1.731A.5.5,0,0,0,22.3,27.25Z\"/> <path d=\"M102,45V39a1,1,0,0,1,1-1h6a1,1,0,0,1,1,1v6a1,1,0,0,1-1,1h-6A1,1,0,0,1,102,45Zm6-2V41a1,1,0,0,0-1-1h-2a1,1,0,0,0-1,1v2a1,1,0,0,0,1,1h2A1,1,0,0,0,108,43Z\"/> <path d=\"M100,20h1.5a.5.5,0,0,0,.5-.5V18a1,1,0,0,1,2,0v1.5a.5.5,0,0,0,.5.5H106a1,1,0,0,1,0,2h-1.5a.5.5,0,0,0-.5.5V24a1,1,0,0,1-2,0V22.5a.5.5,0,0,0-.5-.5H100a1,1,0,0,1,0-2Z\"/> </g> <g opacity=\"0.25\"> <path d=\"M56.088,18.139l3.012-.715-1.225,1.747-1.788-1.032m4.789-1.674-.083-.048a1.953,1.953,0,0,0-1.388-.155l-7.3,1.637a1.45,1.45,0,0,0-.381.125c-.368.214-.372.549-.008.759a1.545,1.545,0,0,0,1.1.125l1.506-.35,2.841,1.64-.574.837c-.164.243-.137.479.195.671a1.465,1.465,0,0,0,1.349,0,.541.541,0,0,0,.209-.21l2.8-4.232c.189-.295.124-.575-.265-.8\"/> <path d=\"M63.268,21.711l1.966-1.143,1.1.634c.709.409.813.866.179,1.235l-.013.007a2.164,2.164,0,0,1-2.1-.081l-1.13-.652m4.454-1.176-1.928-1.113a1.541,1.541,0,0,0-1.413,0l-5.055,2.938c-.393.229-.391.59,0,.818a1.541,1.541,0,0,0,1.413,0l1.275-.741,1.079.623a4.965,4.965,0,0,0,4.863.2l.019-.011c1.307-.759,1.282-1.825-.257-2.713\"/> <path d=\"M69.659,25.4l1.966-1.143,1.1.634c.709.409.813.866.179,1.235l-.013.007a2.168,2.168,0,0,1-2.107-.085L69.659,25.4m4.454-1.176-1.928-1.113a1.541,1.541,0,0,0-1.413,0l-5.055,2.938c-.393.229-.391.59,0,.818a1.541,1.541,0,0,0,1.413,0l1.275-.741,1.079.623a4.965,4.965,0,0,0,4.863.2l.019-.011c1.307-.759,1.282-1.825-.257-2.713\"/> </g> </g> </symbol>";
+	module.exports = sprite.add(image, "pic_app-stack");
+
+/***/ },
+/* 207 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 128 64\" id=\"pic_chat\" > <title>chat</title> <path d=\"M56,22.187a1,1,0,0,1,1-1H97a1,1,0,0,1,1,1v24a1,1,0,0,1-1,1H93.673A2,2,0,0,0,91.7,48.834l-0.71,3.954-5.418-5.062a2,2,0,0,0-1.365-.539H57a1,1,0,0,1-1-1v-24Zm0-3a2,2,0,0,0-2,2v26a2,2,0,0,0,2,2H84.149a1,1,0,0,1,.7.281l6.045,5.847a1,1,0,0,0,1.673-.51l1.029-4.827a1,1,0,0,1,.978-0.791H98a2,2,0,0,0,2-2v-26a2,2,0,0,0-2-2H56Z\"/> <path d=\"M43.424,40.726l-5.418,5.062L37.3,41.834a2,2,0,0,0-1.968-1.647H32a1,1,0,0,1-1-1v-26a1,1,0,0,1,1-1H70a1,1,0,0,1,1,1v6h2v-7a2,2,0,0,0-2-2H31a2,2,0,0,0-2,2v28a2,2,0,0,0,2,2h3.43a1,1,0,0,1,.978.791l1.029,4.827a1,1,0,0,0,1.673.51l6.045-5.847a1,1,0,0,1,.7-0.281H55v-2H44.789A2,2,0,0,0,43.424,40.726Z\"/> <path d=\"M54,41.187v-20a2,2,0,0,1,2-2H71v-2H54a2,2,0,0,0-2,2v22h2Z\" opacity=\"0.25\"/> <path d=\"M91.492,29.187H62.508a0.5,0.5,0,0,1-.508-0.5v-1a0.5,0.5,0,0,1,.508-0.5H91.492a0.5,0.5,0,0,1,.508.5v1A0.5,0.5,0,0,1,91.492,29.187Z\"/> <path d=\"M91.492,35.187H62.508a0.5,0.5,0,0,1-.508-0.5v-1a0.5,0.5,0,0,1,.508-0.5H91.492a0.5,0.5,0,0,1,.508.5v1A0.5,0.5,0,0,1,91.492,35.187Z\"/> <path d=\"M85.39,41.187H62.508a0.5,0.5,0,0,1-.508-0.5v-1a0.5,0.5,0,0,1,.508-0.5H85.39a0.5,0.5,0,0,1,.508.5v1A0.5,0.5,0,0,1,85.39,41.187Z\"/> <g opacity=\"0.25\"> <circle cx=\"37.036\" cy=\"11.187\" r=\"1\"/> <circle cx=\"23\" cy=\"35.187\" r=\"1\"/> <circle cx=\"107\" cy=\"41.187\" r=\"1\"/> <path d=\"M20,24.187a3,3,0,1,1,3-3A3,3,0,0,1,20,24.187Zm0-4a1,1,0,1,0,1,1A1,1,0,0,0,20,20.187Z\"/> <path d=\"M108,16.152h-6.928a1,1,0,0,1-.866-1.5l3.464-6a1.04,1.04,0,0,1,1.732,0l3.464,6A1,1,0,0,1,108,16.152Zm-4.329-2H105.4a0.5,0.5,0,0,0,.433-0.75l-0.866-1.5a0.5,0.5,0,0,0-.866,0l-0.866,1.5A0.5,0.5,0,0,0,103.671,14.152Z\"/> <path d=\"M21,50.187H15a1,1,0,0,1-1-1v-6a1,1,0,0,1,1-1h6a1,1,0,0,1,1,1v6A1,1,0,0,1,21,50.187Zm-4-2h2a1,1,0,0,0,1-1v-2a1,1,0,0,0-1-1H17a1,1,0,0,0-1,1v2A1,1,0,0,0,17,48.187Z\"/> <path d=\"M121,26.187h-1.5a0.5,0.5,0,0,1-.5-0.5v-1.5a1,1,0,0,0-2,0v1.5a0.5,0.5,0,0,1-.5.5H115a1,1,0,0,0,0,2h1.5a0.5,0.5,0,0,1,.5.5v1.5a1,1,0,1,0,2,0v-1.5a0.5,0.5,0,0,1,.5-0.5H121A1,1,0,0,0,121,26.187Z\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "pic_chat");
+
+/***/ },
+/* 208 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 128 64\" id=\"pic_checklist\" > <title>checklist</title> <path d=\"M63,10a5,5,0,0,1,4.9,4H74V56H42V14h6.1A5,5,0,0,1,53,10H38V60H78V10H63Z\" opacity=\"0.25\"/> <path d=\"M77,9H64V8.215a6.163,6.163,0,0,0-5.414-6.187A6,6,0,0,0,52,8V9H39a2,2,0,0,0-2,2V59a2,2,0,0,0,2,2H77a2,2,0,0,0,2-2V11A2,2,0,0,0,77,9ZM54,10.5V8.127a4.147,4.147,0,0,1,.967-2.738,3.976,3.976,0,0,1,3.43-1.37,4.15,4.15,0,0,1,3.6,4.2V10.5a0.5,0.5,0,0,0,.5.5H63a4,4,0,0,1,4,4v0.5a0.5,0.5,0,0,1-.5.5h-17a0.5,0.5,0,0,1-.5-0.5V15a4,4,0,0,1,4-4h0.5A0.5,0.5,0,0,0,54,10.5ZM68,18a1,1,0,0,0,1-1V15h3.5a0.5,0.5,0,0,1,.5.5v39a0.5,0.5,0,0,1-.5.5h-29a0.5,0.5,0,0,1-.5-0.5v-39a0.5,0.5,0,0,1,.5-0.5H47v2a1,1,0,0,0,1,1H68Zm9,40a1,1,0,0,1-1,1H40a1,1,0,0,1-1-1V12a1,1,0,0,1,1-1h8.546a5.987,5.987,0,0,0-1.194,2H41.5a0.5,0.5,0,0,0-.5.5v43a0.5,0.5,0,0,0,.5.5h33a0.5,0.5,0,0,0,.5-0.5v-43a0.5,0.5,0,0,0-.5-0.5H68.648a5.987,5.987,0,0,0-1.194-2H76a1,1,0,0,1,1,1V58Z\"/> <rect x=\"56.5\" y=\"6.5\" width=\"3\" height=\"3\" rx=\"1.5\" ry=\"1.5\"/> <path d=\"M58,22a6,6,0,1,0,6,6A6,6,0,0,0,58,22Zm-0.9,8.946-2.763-2.763,0.882-.882L57.1,29.182l3.687-3.687,0.882,0.882Z\"/> <g opacity=\"0.25\"> <rect x=\"53\" y=\"46\" width=\"14\" height=\"2\" rx=\"0.5\" ry=\"0.5\"/> <rect x=\"53\" y=\"42\" width=\"14\" height=\"2\" rx=\"0.5\" ry=\"0.5\"/> <rect x=\"53\" y=\"38\" width=\"14\" height=\"2\" rx=\"0.5\" ry=\"0.5\"/> <rect x=\"49\" y=\"46\" width=\"2\" height=\"2\" rx=\"1\" ry=\"1\"/> <rect x=\"49\" y=\"42\" width=\"2\" height=\"2\" rx=\"1\" ry=\"1\"/> <rect x=\"49\" y=\"38\" width=\"2\" height=\"2\" rx=\"1\" ry=\"1\"/> </g> <g opacity=\"0.25\"> <circle cx=\"28\" cy=\"24\" r=\"1\"/> <circle cx=\"101\" cy=\"22\" r=\"1\"/> <circle cx=\"102\" cy=\"42\" r=\"1\"/> <path d=\"M28,40a3,3,0,1,1,3-3A3,3,0,0,1,28,40Zm0-4a1,1,0,1,0,1,1A1,1,0,0,0,28,36Z\"/> <path d=\"M25.464,53H18.536a1,1,0,0,1-.866-1.5l3.464-6a1.04,1.04,0,0,1,1.732,0l3.464,6A1,1,0,0,1,25.464,53Zm-4.329-2h1.731a0.5,0.5,0,0,0,.433-0.75l-0.866-1.5a0.5,0.5,0,0,0-.866,0L20.7,50.25A0.5,0.5,0,0,0,21.134,51Z\"/> <path d=\"M23,25H17a1,1,0,0,1-1-1V18a1,1,0,0,1,1-1h6a1,1,0,0,1,1,1v6A1,1,0,0,1,23,25Zm-4-2h2a1,1,0,0,0,1-1V20a1,1,0,0,0-1-1H19a1,1,0,0,0-1,1v2A1,1,0,0,0,19,23Z\"/> <path d=\"M110,32h-1.5a0.5,0.5,0,0,1-.5-0.5V30a1,1,0,0,0-2,0v1.5a0.5,0.5,0,0,1-.5.5H104a1,1,0,0,0,0,2h1.5a0.5,0.5,0,0,1,.5.5V36a1,1,0,0,0,2,0V34.5a0.5,0.5,0,0,1,.5-0.5H110A1,1,0,0,0,110,32Z\"/> </g> <rect x=\"90\" y=\"22\" width=\"3\" height=\"28\" opacity=\"0.25\"/> <path d=\"M94.714,19.092L91.5,11.058l-3.214,8.035A4,4,0,0,0,88,20.578V56a2,2,0,0,0,2,2h3a2,2,0,0,0,2-2V20.578A4,4,0,0,0,94.714,19.092Zm-3.651-1.557c0.145,0.01.29,0.022,0.437,0.022s0.292-.012.437-0.022L92.923,20H90.077ZM93,55a1,1,0,0,1-1,1H91a1,1,0,0,1-1-1V52.5a0.5,0.5,0,0,1,.5-0.5h2a0.5,0.5,0,0,1,.5.5V55Zm-0.5-5h-2a0.5,0.5,0,0,1-.5-0.5V22h3V49.5A0.5,0.5,0,0,1,92.5,50Z\"/> </symbol>";
+	module.exports = sprite.add(image, "pic_checklist");
+
+/***/ },
+/* 209 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 128 64\" id=\"pic_docker-image-shield\" > <title>docker-image-shield</title> <g> <g> <rect x=\"49\" y=\"46\" width=\"20\" height=\"2\" rx=\"0.5\" ry=\"0.5\" opacity=\"0.25\"/> <rect x=\"49\" y=\"50\" width=\"20\" height=\"2\" rx=\"0.5\" ry=\"0.5\" opacity=\"0.25\"/> </g> <path d=\"M84,6H54a2,2,0,0,0-2,2v3H49a2,2,0,0,0-2,2v3H44a2,2,0,0,0-2,2V56a2,2,0,0,0,2,2H74a2,2,0,0,0,2-2V53h3a2,2,0,0,0,2-2V48h3a2,2,0,0,0,2-2V8A2,2,0,0,0,84,6ZM74,55a1,1,0,0,1-1,1H45a1,1,0,0,1-1-1V19a1,1,0,0,1,1-1H73a1,1,0,0,1,1,1Zm5-5a1,1,0,0,1-1,1H76V18a2,2,0,0,0-2-2H49V14a1,1,0,0,1,1-1H78a1,1,0,0,1,1,1Zm5-5a1,1,0,0,1-1,1H81V13a2,2,0,0,0-2-2H54V9a1,1,0,0,1,1-1H83a1,1,0,0,1,1,1Z\"/> <g> <path d=\"M59,44.579l-.376-.152c-.265-.108-6.5-2.688-7.932-7.145-.975-3.041-.955-12.254-.953-12.646l0-1.107,1.1.117a9.881,9.881,0,0,0,7.481-1.983L59,21.048l.676.618a9.933,9.933,0,0,0,7.477,1.98l1.1-.117,0,1.107c0,.392.022,9.6-.953,12.646-1.428,4.456-7.667,7.036-7.932,7.145Zm-7.258-18.87c.027,3.106.209,8.951.854,10.962.882,2.752,4.614,4.929,6.4,5.738,1.275-.59,5.44-2.715,6.41-5.738.645-2.012.827-7.855.854-10.962A12.113,12.113,0,0,1,59,23.662,12.121,12.121,0,0,1,51.742,25.709Z\"/> <polygon points=\"59 27.658 60.062 30.928 63.5 30.928 60.719 32.949 61.781 36.218 59 34.197 56.219 36.218 57.281 32.949 54.5 30.928 57.938 30.928 59 27.658\"/> </g> <g opacity=\"0.25\"> <circle cx=\"101\" cy=\"21\" r=\"1\"/> <circle cx=\"30\" cy=\"15\" r=\"1\"/> <circle cx=\"20\" cy=\"34\" r=\"1\"/> <path d=\"M26,39a3,3,0,1,1,3,3A3,3,0,0,1,26,39Zm2,0a1,1,0,1,0,1-1A1,1,0,0,0,28,39Z\"/> <path d=\"M15.67,25.5a1,1,0,0,1,0-1l3.464-6a1.04,1.04,0,0,1,1.732,0l3.464,6a1,1,0,0,1-.866,1.5H16.536A1,1,0,0,1,15.67,25.5ZM21.3,23.25l-.866-1.5a.5.5,0,0,0-.866,0l-.866,1.5a.5.5,0,0,0,.433.75h1.731A.5.5,0,0,0,21.3,23.25Z\"/> <path d=\"M104,45V39a1,1,0,0,1,1-1h6a1,1,0,0,1,1,1v6a1,1,0,0,1-1,1h-6A1,1,0,0,1,104,45Zm6-2V41a1,1,0,0,0-1-1h-2a1,1,0,0,0-1,1v2a1,1,0,0,0,1,1h2A1,1,0,0,0,110,43Z\"/> <path d=\"M93,30h1.5a.5.5,0,0,0,.5-.5V28a1,1,0,0,1,2,0v1.5a.5.5,0,0,0,.5.5H99a1,1,0,0,1,0,2H97.5a.5.5,0,0,0-.5.5V34a1,1,0,0,1-2,0V32.5a.5.5,0,0,0-.5-.5H93a1,1,0,0,1,0-2Z\"/> </g> </g> </symbol>";
+	module.exports = sprite.add(image, "pic_docker-image-shield");
+
+/***/ },
+/* 210 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 128 64\" id=\"pic_docker-image\" > <title>docker-image</title> <g> <g> <rect x=\"49\" y=\"46\" width=\"20\" height=\"2\" rx=\"0.5\" ry=\"0.5\" opacity=\"0.25\"/> <rect x=\"49\" y=\"50\" width=\"20\" height=\"2\" rx=\"0.5\" ry=\"0.5\" opacity=\"0.25\"/> </g> <path d=\"M84,6H54a2,2,0,0,0-2,2v3H49a2,2,0,0,0-2,2v3H44a2,2,0,0,0-2,2V56a2,2,0,0,0,2,2H74a2,2,0,0,0,2-2V53h3a2,2,0,0,0,2-2V48h3a2,2,0,0,0,2-2V8A2,2,0,0,0,84,6ZM74,55a1,1,0,0,1-1,1H45a1,1,0,0,1-1-1V19a1,1,0,0,1,1-1H73a1,1,0,0,1,1,1Zm5-5a1,1,0,0,1-1,1H76V18a2,2,0,0,0-2-2H49V14a1,1,0,0,1,1-1H78a1,1,0,0,1,1,1Zm5-5a1,1,0,0,1-1,1H81V13a2,2,0,0,0-2-2H54V9a1,1,0,0,1,1-1H83a1,1,0,0,1,1,1Z\"/> <path d=\"M68.5,26.886l-9-5.25a1,1,0,0,0-1.008,0l-9,5.25a1,1,0,0,0-.5.864v10.5a1,1,0,0,0,.5.864l9,5.25a1,1,0,0,0,1.008,0l9-5.25a1,1,0,0,0,.5-.864V27.75A1,1,0,0,0,68.5,26.886Zm-9-2.935,6.511,3.8-6.511,3.8a1,1,0,0,1-1.008,0l-6.511-3.8,6.511-3.8A1,1,0,0,1,59.5,23.951ZM51,29.492l6.5,3.794a1,1,0,0,1,.5.864v7.61l-6.5-3.794A1,1,0,0,1,51,37.1Zm9,12.268v-7.61a1,1,0,0,1,.5-.864L67,29.492V37.1a1,1,0,0,1-.5.864Z\"/> <g opacity=\"0.25\"> <circle cx=\"95\" cy=\"15\" r=\"1\"/> <circle cx=\"33\" cy=\"48\" r=\"1\"/> <circle cx=\"18\" cy=\"24\" r=\"1\"/> <path d=\"M94,38a3,3,0,1,1,3,3A3,3,0,0,1,94,38Zm2,0a1,1,0,1,0,1-1A1,1,0,0,0,96,38Z\"/> <path d=\"M101.134,24.5a1,1,0,0,1,0-1l3.464-6a1.04,1.04,0,0,1,1.732,0l3.464,6a1,1,0,0,1-.866,1.5H102A1,1,0,0,1,101.134,24.5Zm5.629-2.25-.866-1.5a.5.5,0,0,0-.866,0l-.866,1.5a.5.5,0,0,0,.433.75h1.731A.5.5,0,0,0,106.762,22.25Z\"/> <path d=\"M22,40V34a1,1,0,0,1,1-1h6a1,1,0,0,1,1,1v6a1,1,0,0,1-1,1H23A1,1,0,0,1,22,40Zm6-2V36a1,1,0,0,0-1-1H25a1,1,0,0,0-1,1v2a1,1,0,0,0,1,1h2A1,1,0,0,0,28,38Z\"/> <path d=\"M26,15h1.5a.5.5,0,0,0,.5-.5V13a1,1,0,0,1,2,0v1.5a.5.5,0,0,0,.5.5H32a1,1,0,0,1,0,2H30.5a.5.5,0,0,0-.5.5V19a1,1,0,0,1-2,0V17.5a.5.5,0,0,0-.5-.5H26a1,1,0,0,1,0-2Z\"/> </g> </g> </symbol>";
+	module.exports = sprite.add(image, "pic_docker-image");
+
+/***/ },
+/* 211 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 128 64\" id=\"pic_drive\" > <title>pic_drive</title> <g> <g> <path d=\"M83.017,58.05h-37a4,4,0,0,1-4-4v-43a4,4,0,0,1,4-4h37a4,4,0,0,1,4,4v43A4,4,0,0,1,83.017,58.05Zm-37-49a2,2,0,0,0-2,2v43a2,2,0,0,0,2,2h37a2,2,0,0,0,2-2v-43a2,2,0,0,0-2-2Z\"/> <path d=\"M83.017,47.05h-37a4,4,0,0,1-4-4v-5h2v5a2,2,0,0,0,2,2h37a2,2,0,0,0,2-2v-5h2v5A4,4,0,0,1,83.017,47.05Z\"/> <rect x=\"49.017\" y=\"50.05\" width=\"2\" height=\"3\"/> <rect x=\"53.017\" y=\"50.05\" width=\"2\" height=\"3\"/> <rect x=\"57.017\" y=\"50.05\" width=\"2\" height=\"3\"/> <rect x=\"61.017\" y=\"50.05\" width=\"2\" height=\"3\"/> <rect x=\"77.017\" y=\"50.05\" width=\"3\" height=\"3\"/> <g opacity=\"0.2\"> <path d=\"M55.669,25.146c-.01-.119-.017-.236-.017-.359a4.21,4.21,0,0,1,5.727-3.935A6.89,6.89,0,0,1,73.532,25.3h0A4.99,4.99,0,0,1,72,35.05H56.521a4.988,4.988,0,0,1-.851-9.9Z\"/> </g> <g opacity=\"0.2\"> <path d=\"M43.2,45.591H85.825v8.25s-.937,3.25-3.062,3.313-37-.125-37-.125-2.812-1.562-2.875-3.375S43.2,45.591,43.2,45.591Z\"/> </g> </g> <g opacity=\"0.25\"> <circle cx=\"101.017\" cy=\"30.05\" r=\"1\"/> <circle cx=\"32.017\" cy=\"14.05\" r=\"1\"/> <circle cx=\"23.017\" cy=\"35.05\" r=\"1\"/> <path d=\"M28.017,41.05a3,3,0,1,1,3,3A3,3,0,0,1,28.017,41.05Zm2,0a1,1,0,1,0,1-1A1,1,0,0,0,30.017,41.05Z\"/> <path d=\"M103.15,44.514a1,1,0,0,1,0-1l3.464-6a1.04,1.04,0,0,1,1.732,0l3.464,6a1,1,0,0,1-.866,1.5h-6.928A1,1,0,0,1,103.15,44.514Zm5.629-2.25-.866-1.5a.5.5,0,0,0-.866,0l-.866,1.5a.5.5,0,0,0,.433.75h1.731A.5.5,0,0,0,108.779,42.264Z\"/> <path d=\"M16.017,22.05v-6a1,1,0,0,1,1-1h6a1,1,0,0,1,1,1v6a1,1,0,0,1-1,1h-6A1,1,0,0,1,16.017,22.05Zm6-2v-2a1,1,0,0,0-1-1h-2a1,1,0,0,0-1,1v2a1,1,0,0,0,1,1h2A1,1,0,0,0,22.017,20.05Z\"/> <path d=\"M102.017,19.05h1.5a.5.5,0,0,0,.5-.5v-1.5a1,1,0,1,1,2,0v1.5a.5.5,0,0,0,.5.5h1.5a1,1,0,0,1,0,2h-1.5a.5.5,0,0,0-.5.5v1.5a1,1,0,1,1-2,0v-1.5a.5.5,0,0,0-.5-.5h-1.5a1,1,0,0,1,0-2Z\"/> </g> </g> </symbol>";
+	module.exports = sprite.add(image, "pic_drive");
+
+/***/ },
+/* 212 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 128 64\" id=\"pic_edit-yaml\" > <title>edit-yaml</title> <path d=\"M91.35,11.563c0.016-.186.028-0.373,0.028-0.562a6.375,6.375,0,0,0-12.75,0c0,0.19.012,0.377,0.028,0.563H91.35Z\" opacity=\"0.25\"/> <path d=\"M64.683,55h-32A6.994,6.994,0,0,0,39,59H71A6.994,6.994,0,0,1,64.683,55Z\" opacity=\"0.25\"/> <path d=\"M79.8,48.77l-1,.806a1,1,0,0,0-.238,1.282l0.75,1.291a1,1,0,0,0,1.226.43l1.193-.462a5.248,5.248,0,0,0,1.337.772l0.2,1.265a1,1,0,0,0,.988.847h1.493a1,1,0,0,0,.988-0.847l0.2-1.265a5.248,5.248,0,0,0,1.337-.772l1.193,0.462a1,1,0,0,0,1.226-.43l0.75-1.291a1,1,0,0,0-.238-1.282l-1-.806a4.767,4.767,0,0,0,0-1.54l1-.806a1,1,0,0,0,.238-1.282l-0.75-1.291a1,1,0,0,0-1.226-.43l-1.193.462a5.247,5.247,0,0,0-1.337-.772l-0.2-1.265A1,1,0,0,0,85.747,41H84.253a1,1,0,0,0-.988.847l-0.2,1.265a5.247,5.247,0,0,0-1.337.772l-1.193-.462a1,1,0,0,0-1.226.43l-0.75,1.291a1,1,0,0,0,.238,1.282l1,0.806A4.767,4.767,0,0,0,79.8,48.77ZM82.413,48a2.6,2.6,0,1,1,2.6,2.6A2.6,2.6,0,0,1,82.413,48Z\"/> <g opacity=\"0.25\"> <rect x=\"47\" y=\"43\" width=\"23\" height=\"2\" rx=\"0.5\" ry=\"0.5\"/> <rect x=\"47\" y=\"39\" width=\"23\" height=\"2\" rx=\"0.5\" ry=\"0.5\"/> <rect x=\"47\" y=\"35\" width=\"23\" height=\"2\" rx=\"0.5\" ry=\"0.5\"/> <rect x=\"47\" y=\"31\" width=\"23\" height=\"2\" rx=\"0.5\" ry=\"0.5\"/> <rect x=\"47\" y=\"27\" width=\"23\" height=\"2\" rx=\"0.5\" ry=\"0.5\"/> </g> <g> <path d=\"M48.041,20.058l-2.034-2.764a0.825,0.825,0,0,1-.171-0.5,0.677,0.677,0,0,1,.693-0.667,0.8,0.8,0,0,1,.684.423l1.53,2.206L50.3,16.538a0.8,0.8,0,0,1,.667-0.414,0.642,0.642,0,0,1,.675.675,0.861,0.861,0,0,1-.18.486l-2.035,2.746V21.85a0.693,0.693,0,1,1-1.387,0V20.058Z\"/> <path d=\"M51.56,21.6l2.2-4.96a0.857,0.857,0,0,1,.811-0.549h0.081a0.844,0.844,0,0,1,.8.549l2.2,4.96a0.676,0.676,0,0,1,.071.279,0.657,0.657,0,0,1-.657.667,0.707,0.707,0,0,1-.666-0.478l-0.423-.99H53.2l-0.441,1.036a0.682,0.682,0,0,1-.64.432,0.638,0.638,0,0,1-.639-0.648A0.736,0.736,0,0,1,51.56,21.6Zm3.9-1.747-0.874-2.08-0.873,2.08h1.747Z\"/> <path d=\"M58.8,16.844a0.688,0.688,0,0,1,.693-0.693H59.65a0.711,0.711,0,0,1,.63.36l1.675,2.728L63.639,16.5a0.678,0.678,0,0,1,.621-0.351h0.153a0.688,0.688,0,0,1,.693.693V21.85a0.689,0.689,0,1,1-1.378,0V18.708L62.513,20.58a0.648,0.648,0,0,1-1.152,0l-1.2-1.845v3.133a0.68,0.68,0,0,1-1.359,0V16.844Z\"/> <path d=\"M66.615,16.826a0.693,0.693,0,0,1,1.387,0v4.4h2.565a0.63,0.63,0,1,1,0,1.26H67.309a0.688,0.688,0,0,1-.693-0.693V16.826Z\"/> </g> <g opacity=\"0.25\"> <circle cx=\"101\" cy=\"19\" r=\"1\"/> <circle cx=\"30\" cy=\"13\" r=\"1\"/> <circle cx=\"20\" cy=\"32\" r=\"1\"/> <path d=\"M26,37a3,3,0,1,1,3,3A3,3,0,0,1,26,37Zm2,0a1,1,0,1,0,1-1A1,1,0,0,0,28,37Z\"/> <path d=\"M15.67,23.5a1,1,0,0,1,0-1l3.464-6a1.04,1.04,0,0,1,1.732,0l3.464,6a1,1,0,0,1-.866,1.5H16.536A1,1,0,0,1,15.67,23.5ZM21.3,21.25l-0.866-1.5a0.5,0.5,0,0,0-.866,0L18.7,21.25a0.5,0.5,0,0,0,.433.75h1.731A0.5,0.5,0,0,0,21.3,21.25Z\"/> <path d=\"M104,43V37a1,1,0,0,1,1-1h6a1,1,0,0,1,1,1v6a1,1,0,0,1-1,1h-6A1,1,0,0,1,104,43Zm6-2V39a1,1,0,0,0-1-1h-2a1,1,0,0,0-1,1v2a1,1,0,0,0,1,1h2A1,1,0,0,0,110,41Z\"/> <path d=\"M93,28h1.5a0.5,0.5,0,0,0,.5-0.5V26a1,1,0,0,1,2,0v1.5a0.5,0.5,0,0,0,.5.5H99a1,1,0,0,1,0,2H97.5a0.5,0.5,0,0,0-.5.5V32a1,1,0,0,1-2,0V30.5a0.5,0.5,0,0,0-.5-0.5H93A1,1,0,0,1,93,28Z\"/> </g> <path d=\"M85.109,36a11.88,11.88,0,0,0-5.4,1.243A0.494,0.494,0,0,1,79,36.794c0-3.709,0-18.767,0-22.8a1,1,0,0,1,1-1H92a1,1,0,0,0,1-1,8,8,0,0,0-8-8H46a8,8,0,0,0-8,8V50a1,1,0,0,1-1,1H32a1,1,0,0,0-1,1,8,8,0,0,0,8,8H71a7.958,7.958,0,0,0,5.708-2.411,0.8,0.8,0,0,1,1.051-.038,11.983,11.983,0,0,0,19.235-9.96A12.116,12.116,0,0,0,85.109,36ZM85,6a6.011,6.011,0,0,1,5.767,4.341A0.507,0.507,0,0,1,90.29,11H79.718a0.507,0.507,0,0,1-.477-0.659A6,6,0,0,1,85,6ZM64.531,58H39a6.011,6.011,0,0,1-5.767-4.341A0.507,0.507,0,0,1,33.71,53H62.229a0.984,0.984,0,0,1,.966.755A7.977,7.977,0,0,0,64.9,57.169,0.5,0.5,0,0,1,64.531,58Zm5.454-.084A6.149,6.149,0,0,1,65,51.767,0.772,0.772,0,0,0,64.223,51H41a1,1,0,0,1-1-1V12a6,6,0,0,1,6-6H78.531a0.5,0.5,0,0,1,.371.828A7.966,7.966,0,0,0,77,12V38.655a1,1,0,0,1-.312.716,11.955,11.955,0,0,0-1.341,15.75,0.813,0.813,0,0,1-.059,1.055A5.97,5.97,0,0,1,69.984,57.916ZM85,58A10,10,0,1,1,95,48,10.012,10.012,0,0,1,85,58Z\"/> </symbol>";
+	module.exports = sprite.add(image, "pic_edit-yaml");
+
+/***/ },
+/* 213 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 128 64\" id=\"pic_email\" > <title>email</title> <g> <g opacity=\"0.25\"> <polygon points=\"89 57.377 89 30.5 66.641 43.915 89 57.377\"/> <polygon points=\"84 57.5 39 30.5 39 57.5 84 57.5\"/> <g> <polygon points=\"66.976 12 64.086 12 61.086 15 63.976 15 66.976 12\"/> <polygon points=\"49.086 15 51.976 15 54.976 12 52.086 12 49.086 15\"/> <polygon points=\"60.976 12 58.086 12 55.086 15 57.976 15 60.976 12\"/> <polygon points=\"72.976 12 70.086 12 67.086 15 69.976 15 72.976 12\"/> <polygon points=\"79.086 15 82 15 82 12.086 79.086 15\"/> <polygon points=\"48.976 12 46 12 46 14.976 48.976 12\"/> <polygon points=\"78.976 12 76.086 12 73.086 15 75.976 15 78.976 12\"/> </g> <circle cx=\"53.5\" cy=\"26\" r=\"1.5\"/> <circle cx=\"74.5\" cy=\"26\" r=\"1.5\"/> </g> <path d=\"M84,18.267V8a2,2,0,0,0-2-2H46a2,2,0,0,0-2,2V18.267a1,1,0,0,1-.486.857l-4.543,2.726A2,2,0,0,0,38,23.566V56a2,2,0,0,0,2,2H88a2,2,0,0,0,2-2V23.566a2,2,0,0,0-.971-1.715l-4.543-2.726A1,1,0,0,1,84,18.267ZM47,8H81a1,1,0,0,1,1,1V29.468a1,1,0,0,1-.486.857L65.543,39.908a3,3,0,0,1-3.087,0L46.486,30.325A1,1,0,0,1,46,29.468V9A1,1,0,0,1,47,8ZM40.486,23.275l2.757-1.654a.5.5,0,0,1,.757.429v5.9a.5.5,0,0,1-.757.429l-2.757-1.654A1,1,0,0,1,40,25.868V24.133A1,1,0,0,1,40.486,23.275ZM40,55V30.532a1,1,0,0,1,1.514-.857l42.327,25.4a.5.5,0,0,1-.257.929H41A1,1,0,0,1,40,55Zm46.486-.675L67.373,42.857a1,1,0,0,1,0-1.715L86.486,29.675A1,1,0,0,1,88,30.532V53.468A1,1,0,0,1,86.486,54.325Zm1.029-27.6-2.757,1.654A.5.5,0,0,1,84,27.951v-5.9a.5.5,0,0,1,.757-.429l2.757,1.654a1,1,0,0,1,.486.857v1.735A1,1,0,0,1,87.514,26.725Z\"/> <g opacity=\"0.25\"> <circle cx=\"95\" cy=\"15\" r=\"1\"/> <circle cx=\"33\" cy=\"48\" r=\"1\"/> <circle cx=\"18\" cy=\"24\" r=\"1\"/> <path d=\"M94,38a3,3,0,1,1,3,3A3,3,0,0,1,94,38Zm2,0a1,1,0,1,0,1-1A1,1,0,0,0,96,38Z\"/> <path d=\"M101.134,24.5a1,1,0,0,1,0-1l3.464-6a1.04,1.04,0,0,1,1.732,0l3.464,6a1,1,0,0,1-.866,1.5H102A1,1,0,0,1,101.134,24.5Zm5.629-2.25-.866-1.5a.5.5,0,0,0-.866,0l-.866,1.5a.5.5,0,0,0,.433.75h1.731A.5.5,0,0,0,106.762,22.25Z\"/> <path d=\"M22,40V34a1,1,0,0,1,1-1h6a1,1,0,0,1,1,1v6a1,1,0,0,1-1,1H23A1,1,0,0,1,22,40Zm6-2V36a1,1,0,0,0-1-1H25a1,1,0,0,0-1,1v2a1,1,0,0,0,1,1h2A1,1,0,0,0,28,38Z\"/> <path d=\"M26,15h1.5a.5.5,0,0,0,.5-.5V13a1,1,0,0,1,2,0v1.5a.5.5,0,0,0,.5.5H32a1,1,0,0,1,0,2H30.5a.5.5,0,0,0-.5.5V19a1,1,0,0,1-2,0V17.5a.5.5,0,0,0-.5-.5H26a1,1,0,0,1,0-2Z\"/> </g> <g> <circle cx=\"57\" cy=\"23\" r=\"2\"/> <circle cx=\"71\" cy=\"23\" r=\"2\"/> <path d=\"M64,28.6A2.6,2.6,0,0,1,61.4,26a.6.6,0,1,1,1.2,0,1.4,1.4,0,0,0,2.8,0,.6.6,0,1,1,1.2,0A2.6,2.6,0,0,1,64,28.6Z\"/> </g> </g> </symbol>";
+	module.exports = sprite.add(image, "pic_email");
+
+/***/ },
+/* 214 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 128 64\" id=\"pic_image-repo\" > <title>image-repo</title> <g> <g opacity=\"0.2\"> <circle cx=\"35.033\" cy=\"18.993\" r=\"1\"/> <circle cx=\"98.033\" cy=\"32.993\" r=\"1\"/> <circle cx=\"74.033\" cy=\"10.993\" r=\"1\"/> <path d=\"M33.033,36.993a3,3,0,1,1,3-3A3,3,0,0,1,33.033,36.993Zm0-4a1,1,0,1,0,1,1A1,1,0,0,0,33.033,32.993Z\"/> <path d=\"M23.961,23.958H17.033a1,1,0,0,1-.866-1.5l3.464-6a1.04,1.04,0,0,1,1.732,0l3.464,6a1,1,0,0,1-.866,1.5Zm-4.329-2h1.731a.5.5,0,0,0,.433-.75l-.866-1.5a.5.5,0,0,0-.866,0l-.866,1.5A.5.5,0,0,0,19.632,21.958Z\"/> <path d=\"M110.033,31.993h-6a1,1,0,0,1-1-1v-6a1,1,0,0,1,1-1h6a1,1,0,0,1,1,1v6A1,1,0,0,1,110.033,31.993Zm-4-2h2a1,1,0,0,0,1-1v-2a1,1,0,0,0-1-1h-2a1,1,0,0,0-1,1v2A1,1,0,0,0,106.033,29.993Z\"/> <path d=\"M94.033,11.993h-1.5a.5.5,0,0,1-.5-.5v-1.5a1,1,0,0,0-2,0v1.5a.5.5,0,0,1-.5.5h-1.5a1,1,0,0,0,0,2h1.5a.5.5,0,0,1,.5.5v1.5a1,1,0,1,0,2,0v-1.5a.5.5,0,0,1,.5-.5h1.5a1,1,0,0,0,0-2Z\"/> </g> <g> <rect x=\"60.033\" y=\"19.027\" width=\"8\" height=\"2\" rx=\"1\" ry=\"1\"/> <path d=\"M40.033,22.69V55.027a1,1,0,0,0,1,1h6a1,1,0,0,0,1-1v-28.5a.5.5,0,0,1,.5-.5h32a.5.5,0,0,1,.5.5v28.5a1,1,0,0,0,1,1h6a1,1,0,0,0,1-1V22.69a1,1,0,0,0-.544-.89L65.445,10.247a2,2,0,0,0-1.825,0L40.577,21.8A1,1,0,0,0,40.033,22.69Zm46.5,31.336h-3a.5.5,0,0,1-.5-.5V24.869c0-.552-.448-.842-1-.842h-35c-.552,0-.99.29-.99.842V53.4c0,.276-.244.628-.52.628h-2.99c-.276,0-.5-.352-.5-.628V23.6a.5.5,0,0,1,.272-.445l21.772-10.9a1,1,0,0,1,.912,0L86.762,23.17a.5.5,0,0,1,.272.445V53.527A.5.5,0,0,1,86.533,54.027Z\"/> <path d=\"M73.537,35.413l-9-5.25a1,1,0,0,0-1.008,0l-9,5.25a1,1,0,0,0-.5.864v10.5a1,1,0,0,0,.5.864l9,5.25a1,1,0,0,0,1.008,0l9-5.25a1,1,0,0,0,.5-.864v-10.5A1,1,0,0,0,73.537,35.413Zm-9-2.935,6.511,3.8-6.511,3.8a1,1,0,0,1-1.008,0l-6.511-3.8,6.511-3.8A1,1,0,0,1,64.537,32.478Zm-8.5,5.54,6.5,3.794a1,1,0,0,1,.5.864v7.61l-6.5-3.794a1,1,0,0,1-.5-.864Zm9,12.268v-7.61a1,1,0,0,1,.5-.864l6.5-3.794v7.61a1,1,0,0,1-.5.864Z\"/> <g opacity=\"0.2\"> <polygon points=\"88.133 22.977 87.213 24.757 64.513 13.487 42.013 24.657 41.103 22.877 64.493 11.247 64.513 11.297 64.543 11.247 88.133 22.977\"/> </g> <line x1=\"43.033\" y1=\"55.027\" x2=\"37.033\" y2=\"55.027\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" stroke-width=\"2\"/> <line x1=\"92.033\" y1=\"55.027\" x2=\"86.033\" y2=\"55.027\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" stroke-width=\"2\"/> <polygon points=\"72.283 36.86 64.2 41.777 64.2 51.61 73.033 46.61 72.283 36.86\" opacity=\"0.2\"/> <path d=\"M64.7,52.193a1.168,1.168,0,0,1-1.331-.018c-.431-.3-2.952-1.768-5.073-2.99l-3.053,1.781s7.36,4.2,8.126,4.74a1.168,1.168,0,0,0,1.331.018l8.052-4.758s-1.376-.809-3-1.76Z\" opacity=\"0.2\"/> </g> </g> </symbol>";
+	module.exports = sprite.add(image, "pic_image-repo");
+
+/***/ },
+/* 215 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 128 64\" id=\"pic_network\" > <title>pic_network</title> <g> <g opacity=\"0.25\"> <ellipse cx=\"111.007\" cy=\"27.887\" rx=\"0.993\" ry=\"0.987\"/> <ellipse cx=\"41.013\" cy=\"16.913\" rx=\"0.993\" ry=\"0.987\"/> <ellipse cx=\"17.013\" cy=\"32.9\" rx=\"0.993\" ry=\"0.987\"/> <path d=\"M102.052,44.9a2.981,2.981,0,1,1,2.98,2.96A2.974,2.974,0,0,1,102.052,44.9Zm1.987,0a.994.994,0,1,0,.993-.987A.991.991,0,0,0,104.039,44.9Z\"/> <path d=\"M29.276,26.407a.982.982,0,0,1,0-.987L32.718,19.5a1.037,1.037,0,0,1,1.721,0L37.88,25.42a.987.987,0,0,1-.861,1.48H30.137A1,1,0,0,1,29.276,26.407Zm5.592-2.22-.86-1.48a.5.5,0,0,0-.86,0l-.86,1.48a.493.493,0,0,0,.43.74h1.72A.493.493,0,0,0,34.868,24.186Z\"/> <path d=\"M20.065,40.913V34.993a.99.99,0,0,1,.993-.987H27.02a.99.99,0,0,1,.993.987v5.921a.99.99,0,0,1-.993.987H21.059A.99.99,0,0,1,20.065,40.913Zm5.961-1.974V36.966a.99.99,0,0,0-.993-.987H23.046a.99.99,0,0,0-.993.987V38.94a.99.99,0,0,0,.993.987h1.987A.99.99,0,0,0,26.026,38.94Z\"/> <path d=\"M92.007,29.966H93.5a.5.5,0,0,0,.5-.493v-1.48a.994.994,0,0,1,1.987,0v1.48a.5.5,0,0,0,.5.493h1.49a.987.987,0,1,1,0,1.974h-1.49a.5.5,0,0,0-.5.493v1.48a.994.994,0,0,1-1.987,0v-1.48a.5.5,0,0,0-.5-.493h-1.49a.987.987,0,1,1,0-1.974Z\"/> </g> <g> <path d=\"M86,38.95H68a2.008,2.008,0,0,0-2,2v9.974a2.008,2.008,0,0,0,2,2h5v1.914H72a1,1,0,0,0,0,2H82a1,1,0,0,0,0-2H81V52.932h5a2.008,2.008,0,0,0,2-2V40.954A2.008,2.008,0,0,0,86,38.95Zm-7,16H75V53.443a.5.5,0,0,1,.5-.5h3a.5.5,0,0,1,.5.5Zm7-4.5a.5.5,0,0,1-.5.5h-17a.5.5,0,0,1-.5-.5V41.418a.5.5,0,0,1,.5-.5h17a.5.5,0,0,1,.5.5Z\"/> <path d=\"M73,7.95H55a2.008,2.008,0,0,0-2,2v9.92a2.008,2.008,0,0,0,2,2h5v2H59a1,1,0,0,0,0,2H69a1,1,0,0,0,0-2H68v-2h5a2.008,2.008,0,0,0,2-2V9.954A2.008,2.008,0,0,0,73,7.95Zm-7,16H62v-1.5a.5.5,0,0,1,.5-.5h3a.5.5,0,0,1,.5.5Zm6.5-3.98h-17a.5.5,0,0,1-.5-.5V10.451a.5.5,0,0,1,.5-.5h17a.5.5,0,0,1,.5.5v9.022A.5.5,0,0,1,72.5,19.975Z\"/> <path d=\"M60,39.013H42a2.008,2.008,0,0,0-2,2v9.92a2.008,2.008,0,0,0,2,2h5v2H46a1,1,0,0,0,0,2H56a1,1,0,0,0,0-2H55v-2h5a2.008,2.008,0,0,0,2-2v-9.92A2.008,2.008,0,0,0,60,39.013ZM53,54.95H49V53.443a.5.5,0,0,1,.5-.5h3a.5.5,0,0,1,.5.5Zm6.5-3.922h-17a.5.5,0,0,1-.5-.5V41.418a.5.5,0,0,1,.5-.5h17a.5.5,0,0,1,.5.5v9.109A.5.5,0,0,1,59.5,51.028Z\"/> <path d=\"M78,33.956v6.119H76V33.9a1,1,0,0,0-1-1H53a1,1,0,0,0-1,1v6.041H50V33.956a3.005,3.005,0,0,1,3-3.006H63.05L63,24.885h2V30.95H75A3.012,3.012,0,0,1,78,33.956Z\"/> <rect x=\"43\" y=\"41.919\" width=\"16\" height=\"8.016\" rx=\"0.5\" ry=\"0.5\" opacity=\"0.25\"/> <rect x=\"69\" y=\"41.919\" width=\"16\" height=\"8.016\" rx=\"0.5\" ry=\"0.5\" opacity=\"0.25\"/> <path d=\"M71.5,10.95h-15a.5.5,0,0,0-.5.5v6.92a.5.5,0,0,0,.5.5h15a.5.5,0,0,0,.5-.5v-6.92A.5.5,0,0,0,71.5,10.95Zm-4.072,5.918H60.571a.505.505,0,1,1,0-1h6.857a.505.505,0,1,1,0,1Zm0-3.006H60.571a.505.505,0,1,1,0-1h6.857a.505.505,0,1,1,0,1Z\" opacity=\"0.25\"/> </g> </g> </symbol>";
+	module.exports = sprite.add(image, "pic_network");
+
+/***/ },
+/* 216 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 128 64\" id=\"pic_node\" > <title>pic_node</title> <g> <g> <polyline points=\"88.372 25.177 80.772 24 48.772 24 41.172 25.714\" fill=\"none\" stroke=\"#000\" stroke-miterlimit=\"10\" stroke-width=\"2\"/> <polyline points=\"41.172 14.537 48.772 16 80.772 16 88.372 14.51\" fill=\"none\" stroke=\"#000\" stroke-miterlimit=\"10\" stroke-width=\"2\"/> <polygon points=\"41.572 15.408 48.772 17.041 48.772 22.755 41.505 24.347 41.572 15.408\" opacity=\"0.2\"/> <polygon points=\"88.035 24.347 80.835 22.714 80.835 17 88.102 15.408 88.035 24.347\" opacity=\"0.2\"/> <circle cx=\"52.933\" cy=\"20\" r=\"1\"/> <g> <rect x=\"66.933\" y=\"19\" width=\"1\" height=\"2\"/> <rect x=\"68.933\" y=\"19\" width=\"1\" height=\"2\"/> <rect x=\"70.933\" y=\"19\" width=\"1\" height=\"2\"/> <rect x=\"72.933\" y=\"19\" width=\"1\" height=\"2\"/> <rect x=\"74.933\" y=\"19\" width=\"1\" height=\"2\"/> </g> <g> <rect x=\"66.933\" y=\"32\" width=\"1\" height=\"2\"/> <rect x=\"68.933\" y=\"32\" width=\"1\" height=\"2\"/> <rect x=\"70.933\" y=\"32\" width=\"1\" height=\"2\"/> <rect x=\"72.933\" y=\"32\" width=\"1\" height=\"2\"/> <rect x=\"74.933\" y=\"32\" width=\"1\" height=\"2\"/> </g> <g> <rect x=\"66.933\" y=\"45\" width=\"1\" height=\"2\"/> <rect x=\"68.933\" y=\"45\" width=\"1\" height=\"2\"/> <rect x=\"70.933\" y=\"45\" width=\"1\" height=\"2\"/> <rect x=\"72.933\" y=\"45\" width=\"1\" height=\"2\"/> <rect x=\"74.933\" y=\"45\" width=\"1\" height=\"2\"/> </g> <polyline points=\"88.372 38.299 80.772 37 48.772 37 41.172 38.327\" fill=\"none\" stroke=\"#000\" stroke-miterlimit=\"10\" stroke-width=\"2\"/> <polyline points=\"41.172 27.66 48.772 29 80.772 29 88.372 27.633\" fill=\"none\" stroke=\"#000\" stroke-miterlimit=\"10\" stroke-width=\"2\"/> <polygon points=\"41.59 28.531 48.79 30.163 48.79 35.878 41.523 37.469 41.59 28.531\" opacity=\"0.2\"/> <polygon points=\"88.035 37.469 80.835 35.837 80.835 30.122 88.102 28.531 88.035 37.469\" opacity=\"0.2\"/> <circle cx=\"52.933\" cy=\"33\" r=\"1\"/> <polyline points=\"88.372 51.422 80.772 50 48.772 50 41.172 51.449\" fill=\"none\" stroke=\"#000\" stroke-miterlimit=\"10\" stroke-width=\"2\"/> <polyline points=\"41.172 40.782 48.772 42 80.772 42 88.372 40.755\" fill=\"none\" stroke=\"#000\" stroke-miterlimit=\"10\" stroke-width=\"2\"/> <polygon points=\"41.572 41.653 48.772 42.823 48.772 49 41.505 50.592 41.572 41.653\" opacity=\"0.2\"/> <polygon points=\"88.035 50.592 80.835 48.959 80.835 42.891 88.102 41.653 88.035 50.592\" opacity=\"0.2\"/> <circle cx=\"52.933\" cy=\"46\" r=\"1\"/> <g opacity=\"0.2\"> <rect x=\"42.372\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> <rect x=\"43.972\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> <rect x=\"45.572\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> <rect x=\"47.172\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> <rect x=\"48.772\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> <rect x=\"50.372\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> <rect x=\"51.972\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> <rect x=\"53.572\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> <rect x=\"55.172\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> <rect x=\"56.772\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> <rect x=\"58.372\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> <rect x=\"59.972\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> <rect x=\"61.572\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> <rect x=\"63.172\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> <rect x=\"64.772\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> <rect x=\"66.372\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> <rect x=\"67.972\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> <rect x=\"69.572\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> <rect x=\"71.172\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> <rect x=\"72.772\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> <rect x=\"74.372\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> <rect x=\"75.972\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> <rect x=\"77.572\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> <rect x=\"79.172\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> <rect x=\"80.772\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> <rect x=\"82.372\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> <rect x=\"83.972\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> <rect x=\"85.572\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> </g> <g opacity=\"0.2\"> <rect x=\"42.372\" y=\"50.51\" width=\"0.8\" height=\"1.633\"/> <rect x=\"43.972\" y=\"50.51\" width=\"0.8\" height=\"1.633\"/> <rect x=\"45.572\" y=\"50.51\" width=\"0.8\" height=\"1.633\"/> <rect x=\"47.172\" y=\"50.51\" width=\"0.8\" height=\"1.633\"/> <rect x=\"48.772\" y=\"50.51\" width=\"0.8\" height=\"1.633\"/> <rect x=\"50.372\" y=\"50.51\" width=\"0.8\" height=\"1.633\"/> <rect x=\"51.972\" y=\"50.51\" width=\"0.8\" height=\"1.633\"/> <rect x=\"53.572\" y=\"50.51\" width=\"0.8\" height=\"1.633\"/> <rect x=\"55.172\" y=\"50.51\" width=\"0.8\" height=\"1.633\"/> <rect x=\"56.772\" y=\"50.51\" width=\"0.8\" height=\"1.633\"/> <rect x=\"58.372\" y=\"50.51\" width=\"0.8\" height=\"1.633\"/> <rect x=\"59.972\" y=\"50.51\" width=\"0.8\" height=\"1.633\"/> <rect x=\"61.572\" y=\"50.51\" width=\"0.8\" height=\"1.633\"/> <rect x=\"63.172\" y=\"50.51\" width=\"0.8\" height=\"1.633\"/> <rect x=\"64.772\" y=\"50.51\" width=\"0.8\" height=\"1.633\"/> <rect x=\"66.372\" y=\"50.51\" width=\"0.8\" height=\"1.633\"/> <rect x=\"67.972\" y=\"50.51\" width=\"0.8\" height=\"1.633\"/> <rect x=\"69.572\" y=\"50.51\" width=\"0.8\" height=\"1.633\"/> <rect x=\"71.172\" y=\"50.51\" width=\"0.8\" height=\"1.633\"/> <rect x=\"72.772\" y=\"50.51\" width=\"0.8\" height=\"1.633\"/> <rect x=\"74.372\" y=\"50.51\" width=\"0.8\" height=\"1.633\"/> <rect x=\"75.972\" y=\"50.51\" width=\"0.8\" height=\"1.633\"/> <rect x=\"77.572\" y=\"50.51\" width=\"0.8\" height=\"1.633\"/> <rect x=\"79.172\" y=\"50.51\" width=\"0.8\" height=\"1.633\"/> <rect x=\"80.772\" y=\"50.51\" width=\"0.8\" height=\"1.633\"/> <rect x=\"82.372\" y=\"50.51\" width=\"0.8\" height=\"1.633\"/> <rect x=\"83.972\" y=\"50.51\" width=\"0.8\" height=\"1.633\"/> <rect x=\"85.572\" y=\"50.51\" width=\"0.8\" height=\"1.633\"/> </g> <rect x=\"87.172\" y=\"13.776\" width=\"0.8\" height=\"1.633\"/> <rect x=\"40.933\" y=\"13\" width=\"48\" height=\"40\" rx=\"1\" ry=\"1\" fill=\"none\" stroke=\"#000\" stroke-miterlimit=\"10\" stroke-width=\"2\"/> </g> <g opacity=\"0.2\"> <ellipse cx=\"96.94\" cy=\"32.987\" rx=\"0.993\" ry=\"0.987\"/> <ellipse cx=\"31.94\" cy=\"48.013\" rx=\"0.993\" ry=\"0.987\"/> <ellipse cx=\"17.927\" cy=\"27.013\" rx=\"0.993\" ry=\"0.987\"/> <path d=\"M101.972,44.979a2.981,2.981,0,1,1,2.98,2.96A2.974,2.974,0,0,1,101.972,44.979Zm1.987,0a.994.994,0,1,0,.993-.987A.991.991,0,0,0,103.959,44.979Z\"/> <path d=\"M22.066,21.507a.982.982,0,0,1,0-.987L25.508,14.6a1.037,1.037,0,0,1,1.721,0L30.67,20.52A.987.987,0,0,1,29.809,22H22.927A1,1,0,0,1,22.066,21.507Zm5.592-2.22-.86-1.48a.5.5,0,0,0-.86,0l-.86,1.48a.493.493,0,0,0,.43.74h1.72A.493.493,0,0,0,27.658,19.286Z\"/> <path d=\"M19.985,42.953V37.032a.99.99,0,0,1,.993-.987H26.94a.99.99,0,0,1,.993.987v5.921a.99.99,0,0,1-.993.987H20.979A.99.99,0,0,1,19.985,42.953Zm5.961-1.974V39.005a.99.99,0,0,0-.993-.987H22.966a.99.99,0,0,0-.993.987v1.974a.99.99,0,0,0,.993.987h1.987A.99.99,0,0,0,25.946,40.979Z\"/> <path d=\"M104.927,18.96h1.49a.5.5,0,0,0,.5-.493v-1.48a.994.994,0,0,1,1.987,0v1.48a.5.5,0,0,0,.5.493h1.49a.987.987,0,1,1,0,1.974H109.4a.5.5,0,0,0-.5.493v1.48a.994.994,0,0,1-1.987,0v-1.48a.5.5,0,0,0-.5-.493h-1.49a.987.987,0,1,1,0-1.974Z\"/> </g> </g> </symbol>";
+	module.exports = sprite.add(image, "pic_node");
+
+/***/ },
+/* 217 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 128 64\" id=\"pic_plug\" > <title>pic</title> <g opacity=\"0.25\"> <circle cx=\"108\" cy=\"26\" r=\"1\"/> <circle cx=\"86\" cy=\"14\" r=\"1\"/> <circle cx=\"18\" cy=\"24\" r=\"1\"/> <path d=\"M95,22a3,3,0,1,1,3,3A3,3,0,0,1,95,22Zm2,0a1,1,0,1,0,1-1A1,1,0,0,0,97,22Z\"/> <path d=\"M84.67,37.5a1,1,0,0,1,0-1l3.464-6a1.04,1.04,0,0,1,1.732,0l3.464,6a1,1,0,0,1-.866,1.5H85.536A1,1,0,0,1,84.67,37.5ZM90.3,35.25l-0.866-1.5a0.5,0.5,0,0,0-.866,0L87.7,35.25a0.5,0.5,0,0,0,.433.75h1.731A0.5,0.5,0,0,0,90.3,35.25Z\"/> <path d=\"M33,39V33a1,1,0,0,1,1-1h6a1,1,0,0,1,1,1v6a1,1,0,0,1-1,1H34A1,1,0,0,1,33,39Zm6-2V35a1,1,0,0,0-1-1H36a1,1,0,0,0-1,1v2a1,1,0,0,0,1,1h2A1,1,0,0,0,39,37Z\"/> <path d=\"M27,18h1.5a0.5,0.5,0,0,0,.5-0.5V16a1,1,0,0,1,2,0v1.5a0.5,0.5,0,0,0,.5.5H33a1,1,0,0,1,0,2H31.5a0.5,0.5,0,0,0-.5.5V22a1,1,0,0,1-2,0V20.5a0.5,0.5,0,0,0-.5-0.5H27A1,1,0,0,1,27,18Z\"/> </g> <g opacity=\"0.25\"> <path d=\"M85,58H43a2,2,0,0,1-2-2H87A2,2,0,0,1,85,58Z\"/> <path d=\"M81,52H47a2,2,0,0,1-2-2H83A2,2,0,0,1,81,52Z\"/> <path d=\"M68.047,44a9.854,9.854,0,0,1-8.338-4.49c0.068,0.18.117,0.364,0.2,0.543A9.989,9.989,0,0,0,63.052,44H49a2,2,0,0,0,2,2H77a2,2,0,0,0,2-2H68.047Z\"/> </g> <path d=\"M85,52H84.444A3.953,3.953,0,0,0,85,50a4,4,0,0,0-4-4H80.445A3.959,3.959,0,0,0,81,44a4,4,0,0,0-4-4H69.047a4,4,0,0,1-2.965-6.686l7.793-8.6A10,10,0,0,0,66.465,8H62.918A8,8,0,0,0,56,4H46V7H42V9h4v6H42v2h4v3H56a8,8,0,0,0,6.918-4h3.547a2,2,0,0,1,1.482,3.343l-7.793,8.6A11.839,11.839,0,0,0,57.732,40H51a4,4,0,0,0-4,4,3.953,3.953,0,0,0,.556,2H47a4,4,0,0,0-4,4,3.953,3.953,0,0,0,.556,2H43a4,4,0,0,0,0,8H85A4,4,0,0,0,85,52ZM56,18H48V6h8A6,6,0,0,1,56,18Zm5.636,11.285,7.794-8.6A4,4,0,0,0,66.465,14H63.737a7.727,7.727,0,0,0,0-4h2.728a8,8,0,0,1,5.929,13.373l-7.793,8.6A6,6,0,0,0,69.047,42H77a2,2,0,0,1,0,4H69.047A10,10,0,0,1,61.636,29.285ZM51,42h7.66a11.88,11.88,0,0,0,3.711,4H51A2,2,0,0,1,51,42Zm-4,6H81a2,2,0,0,1,0,4H47A2,2,0,0,1,47,48ZM85,58H43a2,2,0,0,1,0-4H85A2,2,0,0,1,85,58Z\"/> <rect x=\"51\" y=\"6\" width=\"2\" height=\"12\"/> </symbol>";
+	module.exports = sprite.add(image, "pic_plug");
+
+/***/ },
+/* 218 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 128 64\" id=\"pic_stack-repo\" > <title>stack-repo</title> <g> <g> <path d=\"M72.2,38.873l3.523-2.144a.5.5,0,0,0-.008-.859l-11.312-6.6a1,1,0,0,0-1.007,0L52.146,35.812a.5.5,0,0,0-.01.858l3.526,2.162-3.516,2.04a.5.5,0,0,0-.011.859l3.487,2.142-3.476,2.02a.5.5,0,0,0-.011.858L63.4,53.673a1,1,0,0,0,1.043,0l11.282-6.866a.5.5,0,0,0-.008-.859l-3.486-2.037,3.494-2.124a.5.5,0,0,0-.007-.859Zm-16.89-2.59,8.339-4.844a.5.5,0,0,1,.5,0l8.389,4.884-8.359,5.091a.5.5,0,0,1-.522,0ZM72.542,46.4l-8.359,5.091a.5.5,0,0,1-.522,0l-8.349-5.13,2.24-1.3,5.849,3.59a1,1,0,0,0,1.043,0l5.848-3.562Zm-8.88.07-8.35-5.13,2.27-1.32,5.819,3.57a1,1,0,0,0,1.043,0l5.808-3.533,2.29,1.33-8.359,5.081A.5.5,0,0,1,63.662,46.473Z\"/> <path d=\"M57.575,40.024l5.849,3.59a.9.9,0,0,0,1.042-.012l5.781-3.531,2.3,1.328-8.338,5.056a.52.52,0,0,1-.6-.009c-.308-.205-8.344-5.109-8.344-5.109Z\" opacity=\"0.2\"/> <rect x=\"59.95\" y=\"19.133\" width=\"8\" height=\"2\" rx=\"1\" ry=\"1\"/> <path d=\"M39.96,22.8V55.133a1,1,0,0,0,1,1h5.98a1,1,0,0,0,1-1l.01-28.658a.5.5,0,0,1,.5-.5H79.46a.5.5,0,0,1,.5.5V55.133a1,1,0,0,0,1,1h5.99a1,1,0,0,0,1-1V22.8a1,1,0,0,0-.544-.89L64.872,10.354a2,2,0,0,0-1.825,0L40.5,21.907A1,1,0,0,0,39.96,22.8Zm45.5,31.336H82.45a.5.5,0,0,1-.5-.5V24.976c0-.552-.448-.842-1-.842h-34c-.552,0-.99.29-.99.842v28.53c0,.276-.244.628-.52.628H42.45c-.276,0-.5-.352-.5-.628V23.711a.5.5,0,0,1,.272-.445L63.5,12.369a1,1,0,0,1,.912,0L85.688,23.276a.5.5,0,0,1,.272.445V53.633A.5.5,0,0,1,85.46,54.133Z\"/> <g opacity=\"0.2\"> <polygon points=\"87.483 23.25 86.563 25.03 64.263 13.56 41.963 25.03 41.053 23.25 64.243 11.32 64.263 11.37 64.293 11.32 87.483 23.25\"/> </g> <line x1=\"42.95\" y1=\"55.133\" x2=\"36.95\" y2=\"55.133\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" stroke-width=\"2\"/> <line x1=\"90.95\" y1=\"55.1\" x2=\"84.95\" y2=\"55.1\" fill=\"none\" stroke=\"#000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" stroke-width=\"2\"/> </g> <g opacity=\"0.2\"> <circle cx=\"19.95\" cy=\"27.133\" r=\"1\"/> <circle cx=\"76.95\" cy=\"12.133\" r=\"1\"/> <circle cx=\"110.95\" cy=\"25.133\" r=\"1\"/> <path d=\"M95.95,17.133a3,3,0,1,1,3-3A3,3,0,0,1,95.95,17.133Zm0-4a1,1,0,1,0,1,1A1,1,0,0,0,95.95,13.133Z\"/> <path d=\"M28.95,20.1H22.022a1,1,0,0,1-.866-1.5l3.464-6a1.04,1.04,0,0,1,1.732,0l3.464,6a1,1,0,0,1-.866,1.5Zm-4.329-2h1.731a.5.5,0,0,0,.433-.75l-.866-1.5a.5.5,0,0,0-.866,0l-.866,1.5A.5.5,0,0,0,24.621,18.1Z\"/> <path d=\"M34.95,38.133h-6a1,1,0,0,1-1-1v-6a1,1,0,0,1,1-1h6a1,1,0,0,1,1,1v6A1,1,0,0,1,34.95,38.133Zm-4-2h2a1,1,0,0,0,1-1v-2a1,1,0,0,0-1-1h-2a1,1,0,0,0-1,1v2A1,1,0,0,0,30.95,36.133Z\"/> <path d=\"M103.95,31.133h-1.5a.5.5,0,0,1-.5-.5v-1.5a1,1,0,1,0-2,0v1.5a.5.5,0,0,1-.5.5h-1.5a1,1,0,0,0,0,2h1.5a.5.5,0,0,1,.5.5v1.5a1,1,0,0,0,2,0v-1.5a.5.5,0,0,1,.5-.5h1.5a1,1,0,0,0,0-2Z\"/> </g> </g> </symbol>";
+	module.exports = sprite.add(image, "pic_stack-repo");
+
+/***/ },
+/* 219 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 128 64\" id=\"pic_success\" > <title>pic</title> <path d=\"M91,32a2.988,2.988,0,0,0-1.431-2.25,1.55,1.55,0,0,1-.289-2.2,2.988,2.988,0,0,0,.8-2.543,2.988,2.988,0,0,0-1.964-1.8,1.55,1.55,0,0,1-.847-2.046,2.988,2.988,0,0,0,.114-2.664,2.993,2.993,0,0,0-2.371-1.234,1.55,1.55,0,0,1-1.349-1.759,2.983,2.983,0,0,0-.571-2.6,2.983,2.983,0,0,0-2.6-.571,1.55,1.55,0,0,1-1.759-1.349A2.993,2.993,0,0,0,77.5,8.617a2.988,2.988,0,0,0-2.664.114,1.55,1.55,0,0,1-2.046-.847,2.988,2.988,0,0,0-1.8-1.964,2.988,2.988,0,0,0-2.543.8,1.55,1.55,0,0,1-2.2-.289,2.484,2.484,0,0,0-4.5,0,1.55,1.55,0,0,1-2.2.289,2.988,2.988,0,0,0-2.543-.8,2.988,2.988,0,0,0-1.8,1.964,1.55,1.55,0,0,1-2.046.847A2.988,2.988,0,0,0,50.5,8.617a2.993,2.993,0,0,0-1.234,2.371,1.55,1.55,0,0,1-1.759,1.349,2.983,2.983,0,0,0-2.6.571,2.983,2.983,0,0,0-.571,2.6,1.55,1.55,0,0,1-1.349,1.759A2.993,2.993,0,0,0,40.617,18.5a2.988,2.988,0,0,0,.114,2.664,1.55,1.55,0,0,1-.847,2.046,2.988,2.988,0,0,0-1.964,1.8,2.988,2.988,0,0,0,.8,2.543,1.55,1.55,0,0,1-.289,2.2A2.988,2.988,0,0,0,37,32a2.988,2.988,0,0,0,1.431,2.25,1.55,1.55,0,0,1,.289,2.2,2.988,2.988,0,0,0-.8,2.543,2.988,2.988,0,0,0,1.964,1.8,1.55,1.55,0,0,1,.847,2.046,2.988,2.988,0,0,0-.114,2.664,2.993,2.993,0,0,0,2.371,1.234,1.55,1.55,0,0,1,1.349,1.759,2.468,2.468,0,0,0,3.17,3.17,1.55,1.55,0,0,1,1.759,1.349A2.993,2.993,0,0,0,50.5,55.383a2.988,2.988,0,0,0,2.664-.114,1.55,1.55,0,0,1,2.046.847,2.988,2.988,0,0,0,1.8,1.964,2.988,2.988,0,0,0,2.543-.8,1.55,1.55,0,0,1,2.2.289,2.484,2.484,0,0,0,4.5,0,1.55,1.55,0,0,1,2.2-.289,2.484,2.484,0,0,0,4.346-1.164,1.55,1.55,0,0,1,2.046-.847,2.485,2.485,0,0,0,3.9-2.257,1.55,1.55,0,0,1,1.759-1.349,2.468,2.468,0,0,0,3.17-3.17,1.55,1.55,0,0,1,1.349-1.759A2.993,2.993,0,0,0,87.383,45.5a2.988,2.988,0,0,0-.114-2.664,1.55,1.55,0,0,1,.847-2.046,2.988,2.988,0,0,0,1.964-1.8,2.988,2.988,0,0,0-.8-2.543,1.55,1.55,0,0,1,.289-2.2A2.988,2.988,0,0,0,91,32ZM64,55A23,23,0,1,1,87,32,23,23,0,0,1,64,55Z\"/> <path d=\"M64,12A20,20,0,1,1,44,32,20.023,20.023,0,0,1,64,12m0-1A21,21,0,1,0,85,32,21,21,0,0,0,64,11h0Z\"/> <polygon points=\"60.84 42.313 51.168 32.641 54.256 29.552 60.84 36.135 73.744 23.232 76.832 26.32 60.84 42.313\"/> </symbol>";
+	module.exports = sprite.add(image, "pic_success");
+
+/***/ },
+/* 220 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 128 64\" id=\"pic_virtual-machine\" > <title>pic_virtual-machine</title> <g> <g> <rect x=\"50.05\" y=\"22.6\" width=\"17\" height=\"17\" rx=\"1\" ry=\"1\" opacity=\"0.2\"/> <path d=\"M65.975,39.95h-15a2,2,0,0,1-2-2v-15a2,2,0,0,1,2-2h15a2,2,0,0,1,2,2v15A2,2,0,0,1,65.975,39.95Zm-15-16.5v14a.5.5,0,0,0,.5.5h14a.5.5,0,0,0,.5-.5v-14a.5.5,0,0,0-.5-.5h-14A.5.5,0,0,0,50.975,23.45Z\"/> <path d=\"M55.975,22.888h-2V10.95a2,2,0,0,1,2-2h15a2,2,0,0,1,2,2v6.813h-2V11.45a.5.5,0,0,0-.5-.5h-14a.5.5,0,0,0-.5.5Z\"/> <path d=\"M78.975,35.95H67.163v-2H78.475a.5.5,0,0,0,.5-.5v-14a.5.5,0,0,0-.5-.5h-14a.5.5,0,0,0-.5.5v3.184h-2V18.95a2,2,0,0,1,2-2h15a2,2,0,0,1,2,2v15A2,2,0,0,1,78.975,35.95Z\"/> <g opacity=\"0.2\"> <path d=\"M72.975,17.69v8.19a2.006,2.006,0,0,1-2,2h-7v5.57a.5.5,0,0,0,.5.5h2.69v2h-3.19a2.006,2.006,0,0,1-2-2V27.88h-6a2.006,2.006,0,0,1-2-2V22.82h2v2.56a.5.5,0,0,0,.5.5h5.5V22.63h2v3.25h6.5a.5.5,0,0,0,.5-.5V17.69Z\"/> </g> <polyline points=\"87.707 54.819 80.423 52.95 49.757 52.95 42.473 54.844\" fill=\"none\" stroke=\"#000\" stroke-miterlimit=\"10\" stroke-width=\"2\"/> <polyline points=\"42.473 45.044 49.757 46.95 80.423 46.95 87.707 45.019\" fill=\"none\" stroke=\"#000\" stroke-miterlimit=\"10\" stroke-width=\"2\"/> <polygon points=\"42.569 45.619 49.757 47.306 49.757 52.781 42.569 54.244 42.569 45.619\" opacity=\"0.2\"/> <polygon points=\"87.611 54.244 80.423 52.556 80.423 47.081 87.611 45.619 87.611 54.244\" opacity=\"0.2\"/> <circle cx=\"54.975\" cy=\"49.95\" r=\"1\"/> <rect x=\"65.857\" y=\"49.556\" width=\"1.533\" height=\"0.75\"/> <rect x=\"68.157\" y=\"49.556\" width=\"1.533\" height=\"0.75\"/> <rect x=\"70.457\" y=\"49.556\" width=\"1.533\" height=\"0.75\"/> <rect x=\"72.757\" y=\"49.556\" width=\"1.533\" height=\"0.75\"/> <rect x=\"75.057\" y=\"49.556\" width=\"1.533\" height=\"0.75\"/> <rect x=\"41.975\" y=\"43.95\" width=\"46\" height=\"12\" rx=\"1\" ry=\"1\" fill=\"none\" stroke=\"#000\" stroke-miterlimit=\"10\" stroke-width=\"2\"/> </g> <g opacity=\"0.2\"> <circle cx=\"25.975\" cy=\"30.95\" r=\"1\"/> <circle cx=\"95.975\" cy=\"44.95\" r=\"1\"/> <circle cx=\"107.975\" cy=\"26.95\" r=\"1\"/> <path d=\"M107.975,47.95a3,3,0,1,1,3-3A3,3,0,0,1,107.975,47.95Zm0-4a1,1,0,1,0,1,1A1,1,0,0,0,107.975,43.95Z\"/> <path d=\"M101.975,23.914H95.047a1,1,0,0,1-.866-1.5l3.464-6a1.04,1.04,0,0,1,1.732,0l3.464,6a1,1,0,0,1-.866,1.5Zm-4.329-2h1.731a.5.5,0,0,0,.433-.75l-.866-1.5a.5.5,0,0,0-.866,0l-.866,1.5A.5.5,0,0,0,97.646,21.914Z\"/> <path d=\"M41.975,23.95h-6a1,1,0,0,1-1-1v-6a1,1,0,0,1,1-1h6a1,1,0,0,1,1,1v6A1,1,0,0,1,41.975,23.95Zm-4-2h2a1,1,0,0,0,1-1v-2a1,1,0,0,0-1-1h-2a1,1,0,0,0-1,1v2A1,1,0,0,0,37.975,21.95Z\"/> <path d=\"M31.975,42.95h-1.5a.5.5,0,0,1-.5-.5v-1.5a1,1,0,0,0-2,0v1.5a.5.5,0,0,1-.5.5h-1.5a1,1,0,0,0,0,2h1.5a.5.5,0,0,1,.5.5v1.5a1,1,0,0,0,2,0v-1.5a.5.5,0,0,1,.5-.5h1.5a1,1,0,1,0,0-2Z\"/> </g> </g> </symbol>";
+	module.exports = sprite.add(image, "pic_virtual-machine");
+
+/***/ },
+/* 221 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 128 64\" id=\"pic_warehouse\" > <title>warehouse</title> <path d=\"M105.934,41.07L102,39.349h0L89.4,33.836a1,1,0,0,0-.8,0L83,36.286V38.47l5.6-2.45a1,1,0,0,1,.8,0l10,4.375a1,1,0,0,1,.6.916V53H83v1h19V42.3a0.5,0.5,0,0,1,.7-0.458l2.432,1.064a0.981,0.981,0,0,0,.4.084A1,1,0,0,0,105.934,41.07Z\" opacity=\"0.25\"/> <path d=\"M57,15L31,26.375V29.1L56.2,18.079a2,2,0,0,1,1.6,0L83,29.1V31h0.5V26.375Z\" opacity=\"0.25\"/> <rect x=\"52\" y=\"27\" width=\"10\" height=\"4\" rx=\"1\" ry=\"1\"/> <path d=\"M107,53H85a1,1,0,0,1-1-1V29.161a1,1,0,0,1,1.4-.916l2.2,0.961a0.981,0.981,0,0,0,.4.084,1,1,0,0,0,.4-1.916L84,25.45h0L57.8,13.987a2,2,0,0,0-1.6,0L30,25.449h0l-4.4,1.924a1,1,0,0,0,.8,1.832l2.2-.961a1,1,0,0,1,1.4.916V52a1,1,0,0,1-1,1H21a1,1,0,0,0,0,2h86A1,1,0,0,0,107,53ZM32.6,26.5L56.2,16.171a2,2,0,0,1,1.6,0L81.4,26.5a1,1,0,0,1,.6.916V52a1,1,0,0,1-1,1H74.5a0.5,0.5,0,0,1-.5-0.5V38a1,1,0,0,0-1-1H41a1,1,0,0,0-1,1V52.5a0.5,0.5,0,0,1-.5.5H33a1,1,0,0,1-1-1V27.412A1,1,0,0,1,32.6,26.5Zm9.4,26v-1a0.5,0.5,0,0,1,.5-0.5h29a0.5,0.5,0,0,1,.5.5v1a0.5,0.5,0,0,1-.5.5h-29A0.5,0.5,0,0,1,42,52.5Zm30-12a0.5,0.5,0,0,1-.5.5h-29a0.5,0.5,0,0,1-.5-0.5v-1a0.5,0.5,0,0,1,.5-0.5h29a0.5,0.5,0,0,1,.5.5v1ZM42.5,43h29a0.5,0.5,0,0,1,.5.5v1a0.5,0.5,0,0,1-.5.5h-29a0.5,0.5,0,0,1-.5-0.5v-1A0.5,0.5,0,0,1,42.5,43Zm0,4h29a0.5,0.5,0,0,1,.5.5v1a0.5,0.5,0,0,1-.5.5h-29a0.5,0.5,0,0,1-.5-0.5v-1A0.5,0.5,0,0,1,42.5,47Z\"/> <g opacity=\"0.25\"> <circle cx=\"33\" cy=\"15\" r=\"1\"/> <circle cx=\"70\" cy=\"12\" r=\"1\"/> <circle cx=\"104\" cy=\"22\" r=\"1\"/> <path d=\"M97,27a3,3,0,1,1,3-3A3,3,0,0,1,97,27Zm0-4a1,1,0,1,0,1,1A1,1,0,0,0,97,23Z\"/> <path d=\"M86.964,17H80.036a1,1,0,0,1-.866-1.5l3.464-6a1.04,1.04,0,0,1,1.732,0l3.464,6A1,1,0,0,1,86.964,17Zm-4.329-2h1.731a0.5,0.5,0,0,0,.433-0.75l-0.866-1.5a0.5,0.5,0,0,0-.866,0L82.2,14.25A0.5,0.5,0,0,0,82.634,15Z\"/> <path d=\"M23,21H17a1,1,0,0,1-1-1V14a1,1,0,0,1,1-1h6a1,1,0,0,1,1,1v6A1,1,0,0,1,23,21Zm-4-2h2a1,1,0,0,0,1-1V16a1,1,0,0,0-1-1H19a1,1,0,0,0-1,1v2A1,1,0,0,0,19,19Z\"/> <path d=\"M113,15h-1.5a0.5,0.5,0,0,1-.5-0.5V13a1,1,0,0,0-2,0v1.5a0.5,0.5,0,0,1-.5.5H107a1,1,0,0,0,0,2h1.5a0.5,0.5,0,0,1,.5.5V19a1,1,0,0,0,2,0V17.5a0.5,0.5,0,0,1,.5-0.5H113A1,1,0,0,0,113,15Z\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "pic_warehouse");
+
+/***/ },
+/* 222 */
+/***/ function(module, exports, __webpack_require__) {
+
+	;
+	var sprite = __webpack_require__(33);;
+	var image = "<symbol viewBox=\"0 0 330 88\" id=\"dashboard_lenovo\" > <title>lenovo</title> <g> <path d=\"M104.6,39c-4.162,1.571-6.159,4.948-5.442,9.592l0,0L114.712,42.2A8.2,8.2,0,0,0,104.6,39Z\"/> <path d=\"M184.559,38.554a9.1,9.1,0,0,0-9.08,9.064,8.964,8.964,0,0,0,8.935,8.993h0l.149,0a9.092,9.092,0,0,0,9.012-8.861A9.245,9.245,0,0,0,184.559,38.554Z\"/> <path d=\"M25,0V88H305V0ZM88.264,65.4H57.529V21.729h9.735V56.935h21Zm34.166-3.933c-6.766,4.836-14.144,6.173-21.983,3.319-7.974-2.9-12.306-11.08-10.869-19.806,1.333-8.094,8.376-14.214,16.966-14.743a18.083,18.083,0,0,1,18,12.75c.557,1.876.112,2.6-1.621,3.315-6.171,2.544-12.275,5.254-18.4,7.91-.792.34-1.557.73-2.63,1.238,4.7,3.242,9.937,2.84,16.877-1.135l6.208,5.372C124,60.37,123.207,60.91,122.43,61.467Zm40.384,3.219h-9.451v-10.1c0-2.64.016-5.281,0-7.921-.036-4.749-2.671-8-6.528-8.082-4.97-.11-8.8,3.28-8.907,8.094-.112,5.014-.032,10.032-.036,15.048V64.7h-9.428V31.767h8.51l.382,2.685a30.029,30.029,0,0,1,10.19-3.608c7.781-1.016,14.521,3.773,15.153,11.783C163.264,49.867,162.814,57.188,162.814,64.686Zm21.917.93a18,18,0,0,1-18.237-17.759q0-.1,0-.194a18.02,18.02,0,1,1,18.239,17.953Zm31.143-.185L200.947,31.745h10.7l8.719,21.268,8.587-21.268h10.04L225.782,65.431ZM274.15,47.486a18.019,18.019,0,0,1-36.035.46v-.317a18.018,18.018,0,0,1,36.036-.143Z\"/> <path d=\"M256.068,38.559a9.263,9.263,0,0,0-9.006,9.208,9.124,9.124,0,0,0,9.034,8.851,8.965,8.965,0,0,0,9.071-8.857v-.153h0A9.122,9.122,0,0,0,256.068,38.559Z\"/> </g> </symbol>";
+	module.exports = sprite.add(image, "dashboard_lenovo");
+
+/***/ },
+/* 223 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2692,7 +3385,7 @@
 	module.exports = sprite.add(image, "dashboard_vmware");
 
 /***/ },
-/* 161 */
+/* 224 */
 /***/ function(module, exports, __webpack_require__) {
 
 	;
@@ -2701,23 +3394,23 @@
 	module.exports = sprite.add(image, "dashboard_xen");
 
 /***/ },
-/* 162 */
+/* 225 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	__webpack_require__(163);
+	__webpack_require__(226);
 	
-	__webpack_require__(165);
+	__webpack_require__(228);
 
 /***/ },
-/* 163 */
+/* 226 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(164);
+	var content = __webpack_require__(227);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -2737,7 +3430,7 @@
 	}
 
 /***/ },
-/* 164 */
+/* 227 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -2751,13 +3444,13 @@
 
 
 /***/ },
-/* 165 */
+/* 228 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(166);
+	var content = __webpack_require__(229);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -2777,7 +3470,7 @@
 	}
 
 /***/ },
-/* 166 */
+/* 229 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -2791,7 +3484,7 @@
 
 
 /***/ },
-/* 167 */
+/* 230 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2800,11 +3493,11 @@
 	  value: true
 	});
 	
-	var _daoInput = __webpack_require__(168);
+	var _daoInput = __webpack_require__(231);
 	
 	var _daoInput2 = _interopRequireDefault(_daoInput);
 	
-	var _editableDaoInput = __webpack_require__(173);
+	var _editableDaoInput = __webpack_require__(236);
 	
 	var _editableDaoInput2 = _interopRequireDefault(_editableDaoInput);
 	
@@ -2817,7 +3510,7 @@
 	exports.default = moduleName;
 
 /***/ },
-/* 168 */
+/* 231 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2827,15 +3520,15 @@
 	  value: true
 	});
 	
-	var _daoInput = __webpack_require__(169);
+	var _daoInput = __webpack_require__(232);
 	
 	var _daoInput2 = _interopRequireDefault(_daoInput);
 	
-	var _daoInputWithIcon = __webpack_require__(170);
+	var _daoInputWithIcon = __webpack_require__(233);
 	
 	var _daoInputWithIcon2 = _interopRequireDefault(_daoInputWithIcon);
 	
-	__webpack_require__(171);
+	__webpack_require__(234);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -2864,6 +3557,7 @@
 	    restrict: 'E',
 	    scope: {
 	      info: '=',
+	      loading: '=',
 	      error: '=',
 	      success: '=',
 	      warning: '=',
@@ -2885,25 +3579,25 @@
 	exports.default = DaoInputContainerDirective;
 
 /***/ },
-/* 169 */
+/* 232 */
 /***/ function(module, exports) {
 
-	module.exports = "<div class=\"dao-input-container\" ng-class=\"{'error': error, 'success': success, 'search': search}\">\n\t<svg class=\"search-icon\" ng-if=\"search\">\n\t  <use xlink:href=\"#icon_search\"></use>\n\t</svg>\n  <ng-transclude></ng-transclude>\n  <div class=\"dao-input-message error\" ng-show=\"error && message\">\n  \t<svg class=\"icon\"><use xlink:href=\"#icon_danger\"></use></svg>\n  \t<span class=\"text-danger\" ng-bind-html=\"message\"></span>\n  </div>\n  <div class=\"dao-input-message success\" ng-show=\"success && message\">\n  \t<svg class=\"icon\"><use xlink:href=\"#icon_success\"></use></svg>\n  \t<span class=\"text-success\" ng-bind-html=\"message\"></span>\n  </div>\n</div>\n"
+	module.exports = "<div class=\"dao-input-container\" ng-class=\"{'error': error, 'success': success, 'search': search}\">\n  <ng-transclude></ng-transclude>\n  <div class=\"dao-input-message error\" ng-show=\"error && message\">\n    <svg class=\"icon\"><use xlink:href=\"#icon_danger\"></use></svg>\n    <span class=\"text-danger\" ng-bind-html=\"message\"></span>\n  </div>\n  <div class=\"dao-input-message success\" ng-show=\"success && message\">\n    <svg class=\"icon\"><use xlink:href=\"#icon_success\"></use></svg>\n    <span class=\"text-success\" ng-bind-html=\"message\"></span>\n  </div>\n</div>\n"
 
 /***/ },
-/* 170 */
+/* 233 */
 /***/ function(module, exports) {
 
-	module.exports = "<div class=\"dao-input-container icon-inside\" ng-class=\"{'info':info, 'error': error, 'success': success, 'search': search}\">\n\n\t<svg class=\"search-icon\" ng-if=\"search\">\n\t  <use xlink:href=\"#icon_search\"></use>\n\t</svg>\n\n  <ng-transclude></ng-transclude>\n\n  <span class=\"icon info-icon\" ng-show=\"info\" popover-is-open=\"info && _message && showPopover\" dao-popover-html=\"_message\" popover-trigger=\"none\" popover-placement=\"{{messagePlacement || 'right-top'}}\">\n    <svg>\n      <use xlink:href=\"#icon_question\"></use>\n    </svg>\n  </span>\n  <span class=\"icon error-icon\" ng-show=\"error\" popover-is-open=\"error && _message && showPopover\" dao-popover-html=\"_message\" popover-trigger=\"none\" popover-placement=\"{{messagePlacement || 'right-top'}}\">\n    <svg>\n      <use xlink:href=\"#icon_warning\"></use>\n    </svg>\n  </span>\n  <span class=\"icon success-icon\" ng-show=\"success\" popover-is-open=\"success && _message && showPopover\" dao-popover-html=\"_message\" popover-trigger=\"none\" popover-placement=\"{{messagePlacement || 'right-top'}}\">\n    <svg>\n      <use xlink:href=\"#icon_success\"></use>\n    </svg>\n  </span>\n</div>\n"
+	module.exports = "<div class=\"dao-input-container icon-inside\" ng-class=\"{'loading': loading, 'info':info, 'error': error, 'success': success, 'search': search}\">\n  <ng-transclude></ng-transclude>\n  <span class=\"icon loading-icon\" ng-show=\"loading\">\n    <svg>\n      <use xlink:href=\"#icon_status-progress-circle\"></use>\n    </svg>\n  </span>\n  <span class=\"icon info-icon\" ng-show=\"info\" popover-class=\"blue\" popover-is-open=\"info && _message && showPopover\" dao-popover-html=\"_message\" popover-trigger=\"none\" popover-placement=\"{{messagePlacement || 'right-top'}}\">\n    <svg>\n      <use xlink:href=\"#icon_question\"></use>\n    </svg>\n  </span>\n  <span class=\"icon error-icon\" ng-show=\"error\" popover-class=\"red\" popover-is-open=\"error && _message && showPopover\" dao-popover-html=\"_message\" popover-trigger=\"none\" popover-placement=\"{{messagePlacement || 'right-top'}}\">\n    <svg>\n      <use xlink:href=\"#icon_warning\"></use>\n    </svg>\n  </span>\n  <span class=\"icon success-icon\" ng-show=\"success\" popover-class=\"green\" popover-is-open=\"success && _message && showPopover\" dao-popover-html=\"_message\" popover-trigger=\"none\" popover-placement=\"{{messagePlacement || 'right-top'}}\">\n    <svg>\n      <use xlink:href=\"#icon_success\"></use>\n    </svg>\n  </span>\n</div>\n"
 
 /***/ },
-/* 171 */
+/* 234 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(172);
+	var content = __webpack_require__(235);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -2923,7 +3617,7 @@
 	}
 
 /***/ },
-/* 172 */
+/* 235 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -2931,272 +3625,179 @@
 	
 	
 	// module
-	exports.push([module.id, ".dao-input,.dao-input-container{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;vertical-align:middle}.dao-input-container input,.dao-input input{margin:0;-webkit-box-flex:0;-webkit-flex:none;-ms-flex:none;flex:none;outline:none;padding:0 10px;width:287px;height:32px;color:#3d444f;-webkit-transition:all .25s ease;transition:all .25s ease;box-shadow:none;background-color:#fff;border:1px solid #ccd1d9;border-radius:2px;line-height:1;vertical-align:bottom}.dao-input-container>:not(:last-child),.dao-input>:not(:last-child){margin-right:5px}.dao-input-container.message-bottom,.dao-input.message-bottom{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;-ms-grid-row-align:flex-start;align-items:flex-start;vertical-align:top}.dao-input-container.message-bottom .dao-input-message,.dao-input.message-bottom .dao-input-message{margin:5px 0 0}.dao-input-container.success input,.dao-input.success input{border:1px solid #22c36a;border-radius:2px;box-shadow:0 0 0 2px rgba(34,195,106,.15)}.dao-input-container.error input,.dao-input-container.error input:active,.dao-input-container.error input:focus,.dao-input.error input,.dao-input.error input:active,.dao-input.error input:focus{border:1px solid #f1483f;border-radius:2px;box-shadow:0 0 0 2px rgba(241,72,63,.15)}.dao-input-container.search,.dao-input.search{position:relative}.dao-input-container.search .search-icon,.dao-input.search .search-icon{position:absolute;fill:#9ba3af;width:16px;height:16px;left:12px;top:8px}.dao-input-container.search input,.dao-input.search input{height:32px;line-height:30px;margin-right:15px;width:200px;text-indent:24px;box-shadow:none;border-radius:17px;border:1px solid #ccd1d9}.dao-input-container.info input,.dao-input-container input:active,.dao-input-container input:focus,.dao-input.info input,.dao-input input:active,.dao-input input:focus{border:1px solid #3890ff;box-shadow:0 0 0 2px rgba(56,144,255,.15)}.dao-input-container.disabled input,.dao-input-container input[disabled],.dao-input.disabled input,.dao-input input[disabled]{background-color:#e4e7ed;border:1px solid #ccd1d9;border-radius:2px;cursor:not-allowed}.dao-input-container.icon-inside,.dao-input.icon-inside{position:relative}.dao-input-container.icon-inside.error input,.dao-input-container.icon-inside.info input,.dao-input-container.icon-inside.success input,.dao-input.icon-inside.error input,.dao-input.icon-inside.info input,.dao-input.icon-inside.success input{padding:0 30px 0 10px}.dao-input-container.icon-inside .error-icon,.dao-input-container.icon-inside .info-icon,.dao-input-container.icon-inside .success-icon,.dao-input.icon-inside .error-icon,.dao-input.icon-inside .info-icon,.dao-input.icon-inside .success-icon{position:absolute;margin-right:0;width:16px;height:16px;right:12px;top:8px}.dao-input-container.icon-inside .error-icon svg,.dao-input-container.icon-inside .info-icon svg,.dao-input-container.icon-inside .success-icon svg,.dao-input.icon-inside .error-icon svg,.dao-input.icon-inside .info-icon svg,.dao-input.icon-inside .success-icon svg{width:100%;height:100%}.dao-input-container.icon-inside .info-icon svg,.dao-input.icon-inside .info-icon svg{fill:#3890ff}.dao-input-container.icon-inside .error-icon svg,.dao-input.icon-inside .error-icon svg{fill:#f1483f}.dao-input-container.icon-inside .success-icon svg,.dao-input.icon-inside .success-icon svg{fill:#22c36a}.dao-input-container.icon-inside .icon+.dao-popover,.dao-input.icon-inside .icon+.dao-popover{padding:0;margin-right:0;border:none;border-radius:5px;font-size:12px;line-height:20px;color:#fff;display:table!important;word-break:break-word}.dao-input-container.icon-inside .icon+.dao-popover .arrow,.dao-input.icon-inside .icon+.dao-popover .arrow{border-width:10px}.dao-input-container.icon-inside .icon+.dao-popover.right,.dao-input.icon-inside .icon+.dao-popover.right{margin-left:30px}.dao-input-container.icon-inside .icon+.dao-popover.right>.arrow,.dao-input.icon-inside .icon+.dao-popover.right>.arrow{left:-7px;margin-top:-10px}.dao-input-container.icon-inside .icon+.dao-popover.left>.arrow,.dao-input.icon-inside .icon+.dao-popover.left>.arrow{right:-10px;margin-top:-10px}.dao-input-container.icon-inside .icon+.dao-popover.top>.arrow,.dao-input.icon-inside .icon+.dao-popover.top>.arrow{bottom:-7px}.dao-input-container.icon-inside .icon+.dao-popover.bottom>.arrow,.dao-input.icon-inside .icon+.dao-popover.bottom>.arrow{top:-7px}.dao-input-container.icon-inside .icon+.dao-popover.bottom-right,.dao-input-container.icon-inside .icon+.dao-popover.top-right,.dao-input.icon-inside .icon+.dao-popover.bottom-right,.dao-input.icon-inside .icon+.dao-popover.top-right{left:auto!important;right:5px!important}.dao-input-container.icon-inside .icon+.dao-popover.bottom-right>.arrow,.dao-input-container.icon-inside .icon+.dao-popover.top-right>.arrow,.dao-input.icon-inside .icon+.dao-popover.bottom-right>.arrow,.dao-input.icon-inside .icon+.dao-popover.top-right>.arrow{margin:4px 0!important}.dao-input-container.icon-inside .icon+.dao-popover.right-top,.dao-input.icon-inside .icon+.dao-popover.right-top{top:0!important}.dao-input-container.icon-inside .icon+.dao-popover.right-top>.arrow,.dao-input.icon-inside .icon+.dao-popover.right-top>.arrow{margin:0 4px!important}.dao-input-container.icon-inside .icon+.dao-popover.right>.arrow,.dao-input-container.icon-inside .icon+.dao-popover.right>.arrow:after,.dao-input.icon-inside .icon+.dao-popover.right>.arrow,.dao-input.icon-inside .icon+.dao-popover.right>.arrow:after{border-left-width:0}.dao-input-container.icon-inside .icon+.dao-popover.left>.arrow,.dao-input-container.icon-inside .icon+.dao-popover.left>.arrow:after,.dao-input.icon-inside .icon+.dao-popover.left>.arrow,.dao-input.icon-inside .icon+.dao-popover.left>.arrow:after{border-right-width:0}.dao-input-container.icon-inside .icon+.dao-popover.top>.arrow,.dao-input-container.icon-inside .icon+.dao-popover.top>.arrow:after,.dao-input.icon-inside .icon+.dao-popover.top>.arrow,.dao-input.icon-inside .icon+.dao-popover.top>.arrow:after{border-bottom-width:0}.dao-input-container.icon-inside .icon+.dao-popover.bottom>.arrow,.dao-input-container.icon-inside .icon+.dao-popover.bottom>.arrow:after,.dao-input.icon-inside .icon+.dao-popover.bottom>.arrow,.dao-input.icon-inside .icon+.dao-popover.bottom>.arrow:after{border-top-width:0}.dao-input-container.icon-inside .icon+.dao-popover .dao-popover-content,.dao-input.icon-inside .icon+.dao-popover .dao-popover-content{word-wrap:break-word;padding:6px 11px}.dao-input-container.icon-inside .info-icon+.dao-popover,.dao-input.icon-inside .info-icon+.dao-popover{background-color:#3890ff}.dao-input-container.icon-inside .info-icon+.dao-popover.right>.arrow,.dao-input-container.icon-inside .info-icon+.dao-popover.right>.arrow:after,.dao-input.icon-inside .info-icon+.dao-popover.right>.arrow,.dao-input.icon-inside .info-icon+.dao-popover.right>.arrow:after{border-right-color:#3890ff}.dao-input-container.icon-inside .info-icon+.dao-popover.left>.arrow,.dao-input-container.icon-inside .info-icon+.dao-popover.left>.arrow:after,.dao-input.icon-inside .info-icon+.dao-popover.left>.arrow,.dao-input.icon-inside .info-icon+.dao-popover.left>.arrow:after{border-left-color:#3890ff}.dao-input-container.icon-inside .info-icon+.dao-popover.top>.arrow,.dao-input-container.icon-inside .info-icon+.dao-popover.top>.arrow:after,.dao-input.icon-inside .info-icon+.dao-popover.top>.arrow,.dao-input.icon-inside .info-icon+.dao-popover.top>.arrow:after{border-top-color:#3890ff}.dao-input-container.icon-inside .info-icon+.dao-popover.bottom>.arrow,.dao-input-container.icon-inside .info-icon+.dao-popover.bottom>.arrow:after,.dao-input.icon-inside .info-icon+.dao-popover.bottom>.arrow,.dao-input.icon-inside .info-icon+.dao-popover.bottom>.arrow:after{border-bottom-color:#3890ff}.dao-input-container.icon-inside .error-icon+.dao-popover,.dao-input.icon-inside .error-icon+.dao-popover{background-color:#f1483f}.dao-input-container.icon-inside .error-icon+.dao-popover.right>.arrow,.dao-input-container.icon-inside .error-icon+.dao-popover.right>.arrow:after,.dao-input.icon-inside .error-icon+.dao-popover.right>.arrow,.dao-input.icon-inside .error-icon+.dao-popover.right>.arrow:after{border-right-color:#f1483f}.dao-input-container.icon-inside .error-icon+.dao-popover.left>.arrow,.dao-input-container.icon-inside .error-icon+.dao-popover.left>.arrow:after,.dao-input.icon-inside .error-icon+.dao-popover.left>.arrow,.dao-input.icon-inside .error-icon+.dao-popover.left>.arrow:after{border-left-color:#f1483f}.dao-input-container.icon-inside .error-icon+.dao-popover.top>.arrow,.dao-input-container.icon-inside .error-icon+.dao-popover.top>.arrow:after,.dao-input.icon-inside .error-icon+.dao-popover.top>.arrow,.dao-input.icon-inside .error-icon+.dao-popover.top>.arrow:after{border-top-color:#f1483f}.dao-input-container.icon-inside .error-icon+.dao-popover.bottom>.arrow,.dao-input-container.icon-inside .error-icon+.dao-popover.bottom>.arrow:after,.dao-input.icon-inside .error-icon+.dao-popover.bottom>.arrow,.dao-input.icon-inside .error-icon+.dao-popover.bottom>.arrow:after{border-bottom-color:#f1483f}.dao-input-container.icon-inside .success-icon+.dao-popover,.dao-input.icon-inside .success-icon+.dao-popover{background-color:#22c36a}.dao-input-container.icon-inside .success-icon+.dao-popover.right>.arrow,.dao-input-container.icon-inside .success-icon+.dao-popover.right>.arrow:after,.dao-input.icon-inside .success-icon+.dao-popover.right>.arrow,.dao-input.icon-inside .success-icon+.dao-popover.right>.arrow:after{border-right-color:#22c36a}.dao-input-container.icon-inside .success-icon+.dao-popover.left>.arrow,.dao-input-container.icon-inside .success-icon+.dao-popover.left>.arrow:after,.dao-input.icon-inside .success-icon+.dao-popover.left>.arrow,.dao-input.icon-inside .success-icon+.dao-popover.left>.arrow:after{border-left-color:#22c36a}.dao-input-container.icon-inside .success-icon+.dao-popover.top>.arrow,.dao-input-container.icon-inside .success-icon+.dao-popover.top>.arrow:after,.dao-input.icon-inside .success-icon+.dao-popover.top>.arrow,.dao-input.icon-inside .success-icon+.dao-popover.top>.arrow:after{border-top-color:#22c36a}.dao-input-container.icon-inside .success-icon+.dao-popover.bottom>.arrow,.dao-input-container.icon-inside .success-icon+.dao-popover.bottom>.arrow:after,.dao-input.icon-inside .success-icon+.dao-popover.bottom>.arrow,.dao-input.icon-inside .success-icon+.dao-popover.bottom>.arrow:after{border-bottom-color:#22c36a}.dao-input-message{-webkit-box-flex:1;-webkit-flex:auto;-ms-flex:auto;flex:auto;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;word-break:break-all}.dao-input-message.error{color:#ed5565}.dao-input-message.success{color:#2ecc71}", ""]);
+	exports.push([module.id, ".dao-input-group-addon{padding:8px 10px;font-weight:400;line-height:1;height:32px;background-color:#f5f7fa;color:#9ba3af;border:1px solid #ccd1d9;border-radius:2px;text-align:center}.dao-input,.dao-input-container{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;vertical-align:middle}input.dao-control{margin:0;-webkit-box-flex:0;-webkit-flex:none;-ms-flex:none;flex:none;outline:none;padding:0 10px;width:287px;height:32px;color:#3d444f;-webkit-transition:all .25s ease;transition:all .25s ease;box-shadow:none;background-color:#fff;background-size:16px 16px;background-repeat:no-repeat;background-position:right 8px center;border:1px solid #ccd1d9;border-radius:2px;line-height:1;vertical-align:middle}input.dao-control:hover{border-color:#9ba3af}input.dao-control+.dao-btn{margin-left:20px}input.dao-control::-webkit-input-placeholder{color:#9ba3af}input.dao-control::-moz-placeholder{color:#9ba3af}input.dao-control:-ms-input-placeholder{color:#9ba3af}input.dao-control::placeholder{color:#9ba3af}textarea.dao-control{margin:0;-webkit-box-flex:0;-webkit-flex:none;-ms-flex:none;flex:none;outline:none;padding:0 10px;width:287px;height:32px;color:#3d444f;-webkit-transition:all .25s ease;transition:all .25s ease;box-shadow:none;background-color:#fff;background-size:16px 16px;background-repeat:no-repeat;background-position:right 8px center;border:1px solid #ccd1d9;border-radius:2px;line-height:1;vertical-align:middle}textarea.dao-control:hover{border-color:#9ba3af}textarea.dao-control+.dao-btn{margin-left:20px}textarea.dao-control::-webkit-input-placeholder{color:#9ba3af}textarea.dao-control::-moz-placeholder{color:#9ba3af}textarea.dao-control:-ms-input-placeholder{color:#9ba3af}textarea.dao-control::placeholder{color:#9ba3af}.dao-input-container input,.dao-input input{margin:0;-webkit-box-flex:0;-webkit-flex:none;-ms-flex:none;flex:none;outline:none;padding:0 10px;width:287px;height:32px;color:#3d444f;-webkit-transition:all .25s ease;transition:all .25s ease;box-shadow:none;background-color:#fff;background-size:16px 16px;background-repeat:no-repeat;background-position:right 8px center;border:1px solid #ccd1d9;border-radius:2px;line-height:1;vertical-align:middle}.dao-input-container input:hover,.dao-input input:hover{border-color:#9ba3af}.dao-input-container input+.dao-btn,.dao-input input+.dao-btn{margin-left:20px}.dao-input-container input::-webkit-input-placeholder,.dao-input input::-webkit-input-placeholder{color:#9ba3af}.dao-input-container input::-moz-placeholder,.dao-input input::-moz-placeholder{color:#9ba3af}.dao-input-container input:-ms-input-placeholder,.dao-input input:-ms-input-placeholder{color:#9ba3af}.dao-input-container input::placeholder,.dao-input input::placeholder{color:#9ba3af}.dao-input+.dao-btn,.dao-input-container+.dao-btn{margin-left:20px}.dao-input-container.message-bottom,.dao-input.message-bottom{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;-ms-grid-row-align:flex-start;align-items:flex-start;vertical-align:top}.dao-input-container.message-bottom .dao-input-message,.dao-input.message-bottom .dao-input-message{margin:6px 0 0}.dao-input-container.message-bottom.no-message-icon .dao-input-message>.icon,.dao-input.message-bottom.no-message-icon .dao-input-message>.icon{display:none}.dao-input-container.success input,.dao-input.success input{border:1px solid #22c36a;border-radius:2px;box-shadow:0 0 0 2px rgba(34,195,106,.15)}.dao-input-container.error input,.dao-input-container.error input:active,.dao-input-container.error input:focus,.dao-input.error input,.dao-input.error input:active,.dao-input.error input:focus{border:1px solid #f1483f;border-radius:2px;box-shadow:0 0 0 2px rgba(241,72,63,.15)}.dao-input-container.required:not(.search) input,.dao-input-container:not(.search) input[required],.dao-input.required:not(.search) input,.dao-input:not(.search) input[required],input:not(.search).dao-control.required,input:not(.search).dao-control[required]{padding:0 30px 0 10px;background-image:url(\"data:image/svg+xml;utf8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20fill=%27%233890ff%27%20viewBox=%270%200%2032%2032%27%3E%3Ccircle%20cx=%2716%27%20cy=%2716%27%20r=%275%27/%3E%3C/svg%3E\")}.dao-input-container.required:not(.search) input:valid,.dao-input-container:not(.search) input[required]:valid,.dao-input.required:not(.search) input:valid,.dao-input:not(.search) input[required]:valid,input:not(.search).dao-control.required:valid,input:not(.search).dao-control[required]:valid{padding:0 10px;background-size:0 0;background-position:right 16px center}input.search.dao-control{height:32px;line-height:30px;margin-right:15px;width:200px;border-radius:17px;padding:0 10px 0 30px;background-size:16px 16px;background-repeat:no-repeat;background-position:left 8px center;background-image:url(\"data:image/svg+xml;utf8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20fill=%27%239ba3af%27%20viewBox=%270%200%2032%2032%27%3E%3Cpath%20d=%27M31.164,28.336l-8.39-8.39a12.024,12.024,0,1,0-2.828,2.828l8.39,8.39ZM3.5,13A9.5,9.5,0,1,1,13,22.5,9.511,9.511,0,0,1,3.5,13Z%27/%3E%3C/svg%3E\")}input.search.dao-control.required{background-image:url(\"data:image/svg+xml;utf8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20fill=%27%23ccd1d9%27%20viewBox=%270%200%2032%2032%27%3E%3Cpath%20d=%27M31.164,28.336l-8.39-8.39a12.024,12.024,0,1,0-2.828,2.828l8.39,8.39ZM3.5,13A9.5,9.5,0,1,1,13,22.5,9.511,9.511,0,0,1,3.5,13Z%27/%3E%3C/svg%3E\")}input.search.dao-control.required:active,input.search.dao-control.required:focus,input.search.dao-control.required:valid{background-image:url(\"data:image/svg+xml;utf8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20fill=%27%239ba3af%27%20viewBox=%270%200%2032%2032%27%3E%3Cpath%20d=%27M31.164,28.336l-8.39-8.39a12.024,12.024,0,1,0-2.828,2.828l8.39,8.39ZM3.5,13A9.5,9.5,0,1,1,13,22.5,9.511,9.511,0,0,1,3.5,13Z%27/%3E%3C/svg%3E\")}input.search.dao-control[required]{background-image:url(\"data:image/svg+xml;utf8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20fill=%27%23ccd1d9%27%20viewBox=%270%200%2032%2032%27%3E%3Cpath%20d=%27M31.164,28.336l-8.39-8.39a12.024,12.024,0,1,0-2.828,2.828l8.39,8.39ZM3.5,13A9.5,9.5,0,1,1,13,22.5,9.511,9.511,0,0,1,3.5,13Z%27/%3E%3C/svg%3E\")}.dao-input-container.search input,.dao-input.search input,input.search.dao-control[required]:active,input.search.dao-control[required]:focus,input.search.dao-control[required]:valid{background-image:url(\"data:image/svg+xml;utf8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20fill=%27%239ba3af%27%20viewBox=%270%200%2032%2032%27%3E%3Cpath%20d=%27M31.164,28.336l-8.39-8.39a12.024,12.024,0,1,0-2.828,2.828l8.39,8.39ZM3.5,13A9.5,9.5,0,1,1,13,22.5,9.511,9.511,0,0,1,3.5,13Z%27/%3E%3C/svg%3E\")}.dao-input-container.search input,.dao-input.search input{height:32px;line-height:30px;margin-right:15px;width:200px;border-radius:17px;padding:0 10px 0 30px;background-size:16px 16px;background-repeat:no-repeat;background-position:left 8px center}.dao-input-container.search input.required,.dao-input.search input.required{background-image:url(\"data:image/svg+xml;utf8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20fill=%27%23ccd1d9%27%20viewBox=%270%200%2032%2032%27%3E%3Cpath%20d=%27M31.164,28.336l-8.39-8.39a12.024,12.024,0,1,0-2.828,2.828l8.39,8.39ZM3.5,13A9.5,9.5,0,1,1,13,22.5,9.511,9.511,0,0,1,3.5,13Z%27/%3E%3C/svg%3E\")}.dao-input-container.search input.required:active,.dao-input-container.search input.required:focus,.dao-input-container.search input.required:valid,.dao-input.search input.required:active,.dao-input.search input.required:focus,.dao-input.search input.required:valid{background-image:url(\"data:image/svg+xml;utf8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20fill=%27%239ba3af%27%20viewBox=%270%200%2032%2032%27%3E%3Cpath%20d=%27M31.164,28.336l-8.39-8.39a12.024,12.024,0,1,0-2.828,2.828l8.39,8.39ZM3.5,13A9.5,9.5,0,1,1,13,22.5,9.511,9.511,0,0,1,3.5,13Z%27/%3E%3C/svg%3E\")}.dao-input-container.search input[required],.dao-input.search input[required]{background-image:url(\"data:image/svg+xml;utf8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20fill=%27%23ccd1d9%27%20viewBox=%270%200%2032%2032%27%3E%3Cpath%20d=%27M31.164,28.336l-8.39-8.39a12.024,12.024,0,1,0-2.828,2.828l8.39,8.39ZM3.5,13A9.5,9.5,0,1,1,13,22.5,9.511,9.511,0,0,1,3.5,13Z%27/%3E%3C/svg%3E\")}.dao-input-container.search input[required]:active,.dao-input-container.search input[required]:focus,.dao-input-container.search input[required]:valid,.dao-input.search input[required]:active,.dao-input.search input[required]:focus,.dao-input.search input[required]:valid{background-image:url(\"data:image/svg+xml;utf8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20fill=%27%239ba3af%27%20viewBox=%270%200%2032%2032%27%3E%3Cpath%20d=%27M31.164,28.336l-8.39-8.39a12.024,12.024,0,1,0-2.828,2.828l8.39,8.39ZM3.5,13A9.5,9.5,0,1,1,13,22.5,9.511,9.511,0,0,1,3.5,13Z%27/%3E%3C/svg%3E\")}.dao-input-container.info input,.dao-input-container input:active,.dao-input-container input:focus,.dao-input.info input,.dao-input input:active,.dao-input input:focus,input.dao-control:active,input.dao-control:focus,textarea.dao-control:active,textarea.dao-control:focus{border:1px solid #3890ff;box-shadow:0 0 0 2px rgba(56,144,255,.15)}input.dao-control.disabled{background-color:#f5f7fa;color:#9ba3af;border:1px solid #ccd1d9;border-radius:2px;cursor:not-allowed}input.dao-control.disabled:active,input.dao-control.disabled:focus{box-shadow:none}input.dao-control[disabled]{background-color:#f5f7fa;color:#9ba3af;border:1px solid #ccd1d9;border-radius:2px;cursor:not-allowed}input.dao-control[disabled]:active,input.dao-control[disabled]:focus{box-shadow:none}input.dao-control.readonly{background-color:#f5f7fa;color:#9ba3af;border:1px solid #ccd1d9;border-radius:2px;cursor:not-allowed}input.dao-control.readonly:active,input.dao-control.readonly:focus{box-shadow:none}input.dao-control[readonly]{background-color:#f5f7fa;color:#9ba3af;border:1px solid #ccd1d9;border-radius:2px;cursor:not-allowed}input.dao-control[readonly]:active,input.dao-control[readonly]:focus{box-shadow:none}textarea.dao-control.disabled{background-color:#f5f7fa;color:#9ba3af;border:1px solid #ccd1d9;border-radius:2px;cursor:not-allowed}textarea.dao-control.disabled:active,textarea.dao-control.disabled:focus{box-shadow:none}textarea.dao-control[disabled]{background-color:#f5f7fa;color:#9ba3af;border:1px solid #ccd1d9;border-radius:2px;cursor:not-allowed}textarea.dao-control[disabled]:active,textarea.dao-control[disabled]:focus{box-shadow:none}textarea.dao-control.readonly{background-color:#f5f7fa;color:#9ba3af;border:1px solid #ccd1d9;border-radius:2px;cursor:not-allowed}textarea.dao-control.readonly:active,textarea.dao-control.readonly:focus{box-shadow:none}textarea.dao-control[readonly]{background-color:#f5f7fa;color:#9ba3af;border:1px solid #ccd1d9;border-radius:2px;cursor:not-allowed}textarea.dao-control[readonly]:active,textarea.dao-control[readonly]:focus{box-shadow:none}.dao-input-container.disabled input,.dao-input-container.readonly input,.dao-input-container input[disabled],.dao-input-container input[readonly],.dao-input.disabled input,.dao-input.readonly input,.dao-input input[disabled],.dao-input input[readonly]{background-color:#f5f7fa;color:#9ba3af;border:1px solid #ccd1d9;border-radius:2px;cursor:not-allowed}.dao-input-container.disabled input:active,.dao-input-container.disabled input:focus,.dao-input-container.readonly input:active,.dao-input-container.readonly input:focus,.dao-input-container input[disabled]:active,.dao-input-container input[disabled]:focus,.dao-input-container input[readonly]:active,.dao-input-container input[readonly]:focus,.dao-input.disabled input:active,.dao-input.disabled input:focus,.dao-input.readonly input:active,.dao-input.readonly input:focus,.dao-input input[disabled]:active,.dao-input input[disabled]:focus,.dao-input input[readonly]:active,.dao-input input[readonly]:focus{box-shadow:none}.dao-input-container.disabled input,.dao-input-container.readonly input,.dao-input-container input[disabled],.dao-input-container input[readonly],.dao-input.disabled input,.dao-input.readonly input,.dao-input input[disabled],.dao-input input[readonly],input.dao-control.disabled,input.dao-control.readonly,input.dao-control[disabled],input.dao-control[readonly]{padding:0 30px 0 10px;background-image:url(\"data:image/svg+xml;utf8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20fill=%27%239ba3af%27%20viewBox=%270%200%2032%2032%27%3E%3Cpath%20d=%27M22,14V11.9a6,6,0,1,0-12,0V14H8V24H24V14H22ZM12,11.9a4,4,0,1,1,8,0V14H12V11.9Z%27/%3E%3C/svg%3E\")}.dao-input-container.icon-inside,.dao-input.icon-inside{position:relative}.dao-input-container.icon-inside.error input,.dao-input-container.icon-inside.info input,.dao-input-container.icon-inside.loading input,.dao-input-container.icon-inside.success input,.dao-input.icon-inside.error input,.dao-input.icon-inside.info input,.dao-input.icon-inside.loading input,.dao-input.icon-inside.success input,input.dao-control.error,input.dao-control.info,input.dao-control.success{padding:0 30px 0 10px}.dao-input-container.icon-inside .error-icon,.dao-input-container.icon-inside .info-icon,.dao-input-container.icon-inside .loading-icon,.dao-input-container.icon-inside .success-icon,.dao-input.icon-inside .error-icon,.dao-input.icon-inside .info-icon,.dao-input.icon-inside .loading-icon,.dao-input.icon-inside .success-icon{z-index:2;position:absolute;margin-right:0;width:16px;height:16px;right:8px;top:8px}.dao-input-container.icon-inside .error-icon svg,.dao-input-container.icon-inside .info-icon svg,.dao-input-container.icon-inside .loading-icon svg,.dao-input-container.icon-inside .success-icon svg,.dao-input.icon-inside .error-icon svg,.dao-input.icon-inside .info-icon svg,.dao-input.icon-inside .loading-icon svg,.dao-input.icon-inside .success-icon svg{width:100%;height:100%}.dao-input-container.icon-inside .loading-icon svg,.dao-input.icon-inside .loading-icon svg{fill:#3890ff;-webkit-animation:spin 1.5s infinite linear;animation:spin 1.5s infinite linear}.dao-input-container.icon-inside .info-icon svg,.dao-input.icon-inside .info-icon svg{fill:#3890ff}.dao-input-container.icon-inside .error-icon svg,.dao-input.icon-inside .error-icon svg{fill:#f1483f}.dao-input-container.icon-inside .success-icon svg,.dao-input.icon-inside .success-icon svg{fill:#22c36a}.dao-input-container.icon-inside .icon+.dao-popover,.dao-input.icon-inside .icon+.dao-popover{padding:0;margin-right:0;border:none;border-radius:5px;font-size:12px;line-height:20px;color:#fff;display:table!important;word-break:break-word}.dao-input-container.icon-inside .icon+.dao-popover .arrow,.dao-input.icon-inside .icon+.dao-popover .arrow{border-width:10px}.dao-input-container.icon-inside .icon+.dao-popover.right,.dao-input.icon-inside .icon+.dao-popover.right{margin-left:23px}.dao-input-container.icon-inside .icon+.dao-popover.left>.arrow,.dao-input.icon-inside .icon+.dao-popover.left>.arrow{right:-10px;margin-top:-10px}.dao-input-container.icon-inside .icon+.dao-popover.top,.dao-input.icon-inside .icon+.dao-popover.top{margin-top:-12px}.dao-input-container.icon-inside .icon+.dao-popover.bottom>.arrow,.dao-input.icon-inside .icon+.dao-popover.bottom>.arrow{top:-5px}.dao-input-container.icon-inside .icon+.dao-popover.top-right .arrow,.dao-input.icon-inside .icon+.dao-popover.top-right .arrow{-webkit-transform:translateX(-1px) rotate(45deg)!important;transform:translateX(-1px) rotate(45deg)!important}.dao-input-container.icon-inside .icon+.dao-popover.bottom-right,.dao-input-container.icon-inside .icon+.dao-popover.top-right,.dao-input.icon-inside .icon+.dao-popover.bottom-right,.dao-input.icon-inside .icon+.dao-popover.top-right{-webkit-transform:translate(7px,-1px);transform:translate(7px,-1px)}.dao-input-container.icon-inside .icon+.dao-popover.bottom-right>.arrow,.dao-input-container.icon-inside .icon+.dao-popover.top-right>.arrow,.dao-input.icon-inside .icon+.dao-popover.bottom-right>.arrow,.dao-input.icon-inside .icon+.dao-popover.top-right>.arrow{margin-right:4px!important}.dao-input-container.icon-inside .icon+.dao-popover.right-top,.dao-input.icon-inside .icon+.dao-popover.right-top{top:0!important}.dao-input-container.icon-inside .icon+.dao-popover.right>.arrow,.dao-input-container.icon-inside .icon+.dao-popover.right>.arrow:after,.dao-input.icon-inside .icon+.dao-popover.right>.arrow,.dao-input.icon-inside .icon+.dao-popover.right>.arrow:after{border-left-width:0}.dao-input-container.icon-inside .icon+.dao-popover.left>.arrow,.dao-input-container.icon-inside .icon+.dao-popover.left>.arrow:after,.dao-input.icon-inside .icon+.dao-popover.left>.arrow,.dao-input.icon-inside .icon+.dao-popover.left>.arrow:after{border-right-width:0}.dao-input-container.icon-inside .icon+.dao-popover.top>.arrow,.dao-input-container.icon-inside .icon+.dao-popover.top>.arrow:after,.dao-input.icon-inside .icon+.dao-popover.top>.arrow,.dao-input.icon-inside .icon+.dao-popover.top>.arrow:after{border-bottom-width:0}.dao-input-container.icon-inside .icon+.dao-popover.bottom>.arrow,.dao-input-container.icon-inside .icon+.dao-popover.bottom>.arrow:after,.dao-input.icon-inside .icon+.dao-popover.bottom>.arrow,.dao-input.icon-inside .icon+.dao-popover.bottom>.arrow:after{border-top-width:0}.dao-input-container.icon-inside .icon+.dao-popover .dao-popover-content,.dao-input.icon-inside .icon+.dao-popover .dao-popover-content{word-wrap:break-word;padding:6px 11px}.dao-input-container.icon-inside .info-icon+.dao-popover,.dao-input.icon-inside .info-icon+.dao-popover{background-color:#3890ff;max-width:none}.dao-input-container.icon-inside .info-icon+.dao-popover.right>.arrow,.dao-input-container.icon-inside .info-icon+.dao-popover.right>.arrow:after,.dao-input.icon-inside .info-icon+.dao-popover.right>.arrow,.dao-input.icon-inside .info-icon+.dao-popover.right>.arrow:after{border-right-color:#3890ff}.dao-input-container.icon-inside .info-icon+.dao-popover.left>.arrow,.dao-input-container.icon-inside .info-icon+.dao-popover.left>.arrow:after,.dao-input.icon-inside .info-icon+.dao-popover.left>.arrow,.dao-input.icon-inside .info-icon+.dao-popover.left>.arrow:after{border-left-color:#3890ff}.dao-input-container.icon-inside .info-icon+.dao-popover.top>.arrow,.dao-input-container.icon-inside .info-icon+.dao-popover.top>.arrow:after,.dao-input.icon-inside .info-icon+.dao-popover.top>.arrow,.dao-input.icon-inside .info-icon+.dao-popover.top>.arrow:after{border-top-color:#3890ff}.dao-input-container.icon-inside .info-icon+.dao-popover.bottom>.arrow,.dao-input-container.icon-inside .info-icon+.dao-popover.bottom>.arrow:after,.dao-input.icon-inside .info-icon+.dao-popover.bottom>.arrow,.dao-input.icon-inside .info-icon+.dao-popover.bottom>.arrow:after{border-bottom-color:#3890ff}.dao-input-container.icon-inside .error-icon+.dao-popover,.dao-input.icon-inside .error-icon+.dao-popover{background-color:#f1483f;max-width:none}.dao-input-container.icon-inside .error-icon+.dao-popover.right>.arrow,.dao-input-container.icon-inside .error-icon+.dao-popover.right>.arrow:after,.dao-input.icon-inside .error-icon+.dao-popover.right>.arrow,.dao-input.icon-inside .error-icon+.dao-popover.right>.arrow:after{border-right-color:#f1483f}.dao-input-container.icon-inside .error-icon+.dao-popover.left>.arrow,.dao-input-container.icon-inside .error-icon+.dao-popover.left>.arrow:after,.dao-input.icon-inside .error-icon+.dao-popover.left>.arrow,.dao-input.icon-inside .error-icon+.dao-popover.left>.arrow:after{border-left-color:#f1483f}.dao-input-container.icon-inside .error-icon+.dao-popover.top>.arrow,.dao-input-container.icon-inside .error-icon+.dao-popover.top>.arrow:after,.dao-input.icon-inside .error-icon+.dao-popover.top>.arrow,.dao-input.icon-inside .error-icon+.dao-popover.top>.arrow:after{border-top-color:#f1483f}.dao-input-container.icon-inside .error-icon+.dao-popover.bottom>.arrow,.dao-input-container.icon-inside .error-icon+.dao-popover.bottom>.arrow:after,.dao-input.icon-inside .error-icon+.dao-popover.bottom>.arrow,.dao-input.icon-inside .error-icon+.dao-popover.bottom>.arrow:after{border-bottom-color:#f1483f}.dao-input-container.icon-inside .success-icon+.dao-popover,.dao-input.icon-inside .success-icon+.dao-popover{background-color:#22c36a;max-width:none}.dao-input-container.icon-inside .success-icon+.dao-popover.right>.arrow,.dao-input-container.icon-inside .success-icon+.dao-popover.right>.arrow:after,.dao-input.icon-inside .success-icon+.dao-popover.right>.arrow,.dao-input.icon-inside .success-icon+.dao-popover.right>.arrow:after{border-right-color:#22c36a}.dao-input-container.icon-inside .success-icon+.dao-popover.left>.arrow,.dao-input-container.icon-inside .success-icon+.dao-popover.left>.arrow:after,.dao-input.icon-inside .success-icon+.dao-popover.left>.arrow,.dao-input.icon-inside .success-icon+.dao-popover.left>.arrow:after{border-left-color:#22c36a}.dao-input-container.icon-inside .success-icon+.dao-popover.top>.arrow,.dao-input-container.icon-inside .success-icon+.dao-popover.top>.arrow:after,.dao-input.icon-inside .success-icon+.dao-popover.top>.arrow,.dao-input.icon-inside .success-icon+.dao-popover.top>.arrow:after{border-top-color:#22c36a}.dao-input-container.icon-inside .success-icon+.dao-popover.bottom>.arrow,.dao-input-container.icon-inside .success-icon+.dao-popover.bottom>.arrow:after,.dao-input.icon-inside .success-icon+.dao-popover.bottom>.arrow,.dao-input.icon-inside .success-icon+.dao-popover.bottom>.arrow:after{border-bottom-color:#22c36a}.dao-input-container.dao-input-group,.dao-input.dao-input-group{width:287px}.dao-input-container.dao-input-group input,.dao-input.dao-input-group input{-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;width:100%;z-index:1}.dao-input-container.dao-input-group .dao-input-container,.dao-input.dao-input-group .dao-input-container{-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;width:auto}.dao-input-container.dao-input-group .dao-input-container,.dao-input-container.dao-input-group .dao-input-container>:first-child,.dao-input.dao-input-group .dao-input-container,.dao-input.dao-input-group .dao-input-container>:first-child{margin:0;width:100%}.dao-input-container.dao-input-group .dao-select,.dao-input.dao-input-group .dao-select{width:auto}.dao-input-container.dao-input-group .dao-input-group-addon:not(:last-child),.dao-input-container.dao-input-group .dao-select:not(:last-child) .dao-select-input,.dao-input.dao-input-group .dao-input-group-addon:not(:last-child),.dao-input.dao-input-group .dao-select:not(:last-child) .dao-select-input{border-right:0}.dao-input-container.dao-input-group .dao-input-container:not(:last-child) input,.dao-input-container.dao-input-group .dao-input-group-addon:not(:last-child),.dao-input-container.dao-input-group .dao-select:not(:last-child) .dao-select-input,.dao-input-container.dao-input-group input:not(:last-child),.dao-input.dao-input-group .dao-input-container:not(:last-child) input,.dao-input.dao-input-group .dao-input-group-addon:not(:last-child),.dao-input.dao-input-group .dao-select:not(:last-child) .dao-select-input,.dao-input.dao-input-group input:not(:last-child){border-bottom-right-radius:0;border-top-right-radius:0;margin-right:0}.dao-input-container.dao-input-group .dao-input-group-addon:not(:first-child),.dao-input-container.dao-input-group .dao-select:not(:first-child) .dao-select-input,.dao-input.dao-input-group .dao-input-group-addon:not(:first-child),.dao-input.dao-input-group .dao-select:not(:first-child) .dao-select-input{border-left:0}.dao-input-container.dao-input-group .dao-input-container:not(:first-child) input,.dao-input-container.dao-input-group .dao-input-group-addon:not(:first-child),.dao-input-container.dao-input-group .dao-select:not(:first-child) .dao-select-input,.dao-input-container.dao-input-group input:not(:first-child),.dao-input.dao-input-group .dao-input-container:not(:first-child) input,.dao-input.dao-input-group .dao-input-group-addon:not(:first-child),.dao-input.dao-input-group .dao-select:not(:first-child) .dao-select-input,.dao-input.dao-input-group input:not(:first-child){border-bottom-left-radius:0;border-top-left-radius:0;margin-left:0}.dao-input-message{word-break:break-all;margin-left:10px}.dao-input-message>span{vertical-align:middle}.no-message-icon .dao-input-message>.icon{display:none}.dao-input-message.error{color:#f1483f}.dao-input-message.success{color:#22c36a}textarea.dao-control{min-height:32px;height:auto;padding-top:5px;padding-bottom:5px;line-height:24px}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@keyframes spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}", ""]);
 	
 	// exports
 
 
 /***/ },
-/* 173 */
+/* 236 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	EditableDaoInputDirective.$inject = ["$compile"];
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 	
-	var _classCallCheck2 = __webpack_require__(174);
+	var _classCallCheck2 = __webpack_require__(237);
 	
 	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 	
-	var _createClass2 = __webpack_require__(175);
+	var _createClass2 = __webpack_require__(238);
 	
 	var _createClass3 = _interopRequireDefault(_createClass2);
 	
-	var _editableDaoInput = __webpack_require__(194);
+	var _editableDaoInput = __webpack_require__(257);
 	
 	var _editableDaoInput2 = _interopRequireDefault(_editableDaoInput);
 	
-	__webpack_require__(195);
+	__webpack_require__(258);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	function EditableDaoInputDirective($compile) {
+	function EditableDaoInputDirective() {
 	  'ngInject';
 	
 	  return {
-	    priority: 10,
 	    restrict: 'E',
 	    template: _editableDaoInput2.default,
 	    scope: {
-	      daoData: '='
+	      data: '=',
+	      options: '='
 	    },
 	    replace: true,
-	    transclude: true,
 	    controller: editableDaoInputController,
 	    controllerAs: 'vm'
 	  };
 	}
 	
 	var editableDaoInputController = function () {
-	  editableDaoInputController.$inject = ["$scope", "$element", "$attrs", "$parse"];
-	  function editableDaoInputController($scope, $element, $attrs, $parse) {
+	  editableDaoInputController.$inject = ["$scope", "$element", "$timeout"];
+	  function editableDaoInputController($scope, $element, $timeout) {
 	    'ngInject';
 	
 	    (0, _classCallCheck3.default)(this, editableDaoInputController);
-	    var optionsGetter = $parse($attrs.daoOptions);
-	    this.options = optionsGetter($scope.$parent);
-	    this.data = $scope.daoData;
-	    this.data_clone = angular.copy(this.data, {});
-	    this.edit = this.options.editState;
-	    // this.canEdit = 'disabled';
-	    this.isError = false;
+	    this.$scope = $scope;
+	    this.$el = $element;
+	    this.$timeout = $timeout;
+	
+	    this.init();
 	  }
 	
 	  (0, _createClass3.default)(editableDaoInputController, [{
-	    key: 'cancel',
-	    value: function cancel() {
-	      this.edit = false;
-	      // this.canEdit = "disabled";
+	    key: 'init',
+	    value: function init() {
+	      this.options = this.$scope.options;
+	      // 是值引用不是地址引用，所以在下面需要 watch this.data，当 this.data 值改变时需要同步到 this.$scope.data
+	      this.data = this.$scope.data;
+	      this.dataOrigin = this.$scope.data;
+	      this.isEdit = this.options.editState;
 	      this.isError = false;
-	      angular.merge(this.data, this.data_clone);
+	      this.isFocus = this.isEdit;
+	      this.activate();
 	    }
 	  }, {
-	    key: 'reventState',
-	    value: function reventState() {
-	      this.edit = !this.edit;
-	      // this.canEdit = this.edit?'':'disabled';
+	    key: 'activate',
+	    value: function activate() {
+	      var _this = this;
+	
+	      this.$scope.$watch(function () {
+	        return _this.data;
+	      }, function (newVal) {
+	        return _this.setInputData(newVal);
+	      });
+	      this.$scope.$watch(function () {
+	        return _this.$scope.data;
+	      }, function (newVal) {
+	        return _this.setOriginData(newVal);
+	      });
+	    }
+	  }, {
+	    key: 'setInputData',
+	    value: function setInputData(val) {
+	      var _this2 = this;
+	
+	      // 为了将值传出去，用于外部 checkFun 的回调方法里面需要用到 this.$scope.data
+	      this.$scope.data = val;
+	      if (val === this.dataOrigin) {
+	        // 值被还原的时候不检测
+	        this.isError = false;
+	        return;
+	      }
+	      // 需要值传出去并且脏检查之后，才能执行 checkFun
+	      // 作用：实时检测
+	      this.$timeout(function () {
+	        _this2.isError = !_this2.options.checkFun();
+	      });
+	    }
+	  }, {
+	    key: 'setOriginData',
+	    value: function setOriginData(val) {
+	      // 当 this.data !== this.$scope.data 时 this.$scope.data 是外部同步进来的
+	      // 为了确定值是外部同步进来的还是内部修改的，需要赋值到 dataOrigin 变量，所以需要 watch this.data 以及 this.$scope.data
+	      if (this.data !== val) {
+	        this.dataOrigin = val;
+	        // 为了将值同步进来
+	        this.data = val;
+	      }
+	    }
+	  }, {
+	    key: 'cancel',
+	    value: function cancel() {
+	      this.isEdit = false;
+	      this.isError = false;
+	      this.data = this.dataOrigin;
+	    }
+	  }, {
+	    key: 'edit',
+	    value: function edit() {
+	      var _this3 = this;
+	
+	      this.isEdit = true;
+	      // 不在 disabled 状态时，才能设置焦点，所以要用到 $timeout
+	      this.$timeout(function () {
+	        angular.element(_this3.$el[0]).find('input')[0].focus();
+	      });
+	    }
+	
+	    // ng-keyPress 不能监听 esc 键，所以用 keyUp，Firefox 在 keydown 下也不能监听 esc 键
+	
+	  }, {
+	    key: 'keyUp',
+	    value: function keyUp(e) {
+	      switch (e.keyCode) {
+	        case 13:
+	          // enter 键
+	          this.save();
+	          break;
+	        case 27:
+	          // esc 键
+	          this.cancel();
+	          break;
+	      }
 	    }
 	  }, {
 	    key: 'save',
 	    value: function save() {
 	      if (this.options.checkFun()) {
-	        angular.copy(this.data, this.data_clone);
+	        this.dataOrigin = this.data;
 	        this.options.successFun();
-	        // this.canEdit = 'disabled';
-	        this.edit = false;
+	        this.isEdit = false;
 	        this.isError = false;
 	      } else {
 	        this.isError = true;
+	        angular.element(this.$el[0]).find('input')[0].focus();
 	      }
 	    }
 	  }]);
 	  return editableDaoInputController;
 	}();
-	// function EditableDaoInputCompile(el, attrs) {
-	//   return EditableDaoInputLink;
-	// }
-	// function EditableDaoInputLink(scope, el, attrs, ctrl, transclude) {
-	//   const stateGetter = $parse(attrs.editable);
-	//   const stateSetter = val => stateGetter.assign && stateGetter.assign(scope, val);
-	//   const optionsGetter = $parse(attrs.daoOptions);
-	//   scope.options = optionsGetter(scope);
-	//   scope.isError = false; //用于记录是否显示错误信息
-	// let modelGetter = () => '';
-	// let modelSetter = modelGetter;
-	//   let edit = stateGetter(scope);
-	//   let cache;
-	//   if (edit === undefined) edit = false;
-	
-	//   scope.$watch(attrs.editable, val => {
-	//     scope.edit = val;
-	//   // 如果 true 说明本次操作打开了输入框，需要把值同步到 cache
-	//   if (!!val === true) {
-	//     cache = modelGetter(scope);
-	//   }
-	// });
-	//   scope.canEdit = 'disabled';
-	
-	//   Object.defineProperty(scope, 'edit', {
-	//       get: () => edit,
-	//     set(val) {
-	//     stateSetter(val);
-	//     edit = val;
-	//     this.canEdit = (!val) ? 'disabled' : '';
-	//   },
-	// });
-	
-	//   scope.reventState = () => {
-	//     scope.edit = !scope.edit;
-	//   };
-	
-	//   scope.save = () => {
-	//     //先运行传进来的检查函数,如果成功则执行success回调
-	//     if(scope.options.checkFun()) {
-	//       scope.options.successFun();
-	//       scope.edit = !scope.edit;
-	//       scope.isError = false;
-	//     } else {
-	//       scope.isError = true;
-	//       console.log(scope.options.errorMsg);
-	//     }
-	//   };
-	//   scope.cancel = () => {
-	//     scope.isError = false;
-	//     scope.reventState();
-	
-	//     //如果取消 需要还原数据
-	//     modelSetter(cache);
-	//   };
-	
-	//   transclude(scope, clone => {
-	//     var input = el.find('form-area');
-	//   angular.forEach(clone, e => {
-	//     if (e.tagName == 'DIV') {
-	//     input.replaceWith(e);
-	//     var model = angular.element(e).attr('ng-model');
-	//     //绑定了 ng-model
-	//     if (model) {
-	//       modelGetter = $parse(model);
-	//       modelSetter = val => modelGetter.assign && modelGetter.assign(scope, val);
-	//     }
-	//   }
-	//   });
-	
-	// });
-	// }
-	
-	// function EditableDaoInputDirective($compile, $parse) {
-	//   'ngInject';
-	//
-	//   return {
-	//     priority: 10,
-	//     restrict: 'E',
-	//     template: template,
-	//     replace: true,
-	//     transclude: true,
-	//     //compile: EditableDaoInputCompile,
-	//     link: {
-	//       pre: EditableDaoInputLink,
-	//     },
-	//
-	//     // link: EditableDaoInputLink,
-	//     // controller: DaoInputController,
-	//     // controllerAs: 'vm',
-	//     // bindToController: true,
-	//   };
-	//
-	//   function EditableDaoInputCompile(el, attrs) {
-	//     return EditableDaoInputLink;
-	//   }
-	//
-	//   /**
-	//    * 这个组件这么设计的原因
-	//    * 1. input透传，可以在上面绑定其他任何其他东西不影响行为
-	//    * 2. 保存按钮可定制，可以用别的
-	//    * 3. 直接绑定行为的话无法控制点击按钮变灰
-	//    * 4. 最佳实践请手动备份 ng-model 绑定的值，防止在输入状态确定前意外改变里面的值
-	//    */
-	//   function EditableDaoInputLink(scope, el, attrs, ctrl, transclude) {
-	//     const stateGetter = $parse(attrs.editable);
-	//     const stateSetter = val => stateGetter.assign && stateGetter.assign(scope, val);
-	//     let modelGetter = () => '';
-	//     let modelSetter = modelGetter;
-	//     let edit = stateGetter(scope);
-	//     let cache;
-	//     if (edit === undefined) edit = false;
-	//
-	//     scope.$watch(attrs.editable, val => {
-	//       scope.edit = val;
-	//       // 如果 true 说明本次操作打开了输入框，需要把值同步到 cache
-	//       if (!!val === true) {
-	//         cache = modelGetter(scope);
-	//       }
-	//     });
-	//     scope.canEdit = 'disabled';
-	//
-	//     Object.defineProperty(scope, 'edit', {
-	//       get: () => edit,
-	//       set(val) {
-	//         stateSetter(val);
-	//         edit = val;
-	//         this.canEdit = (!val) ? 'disabled' : '';
-	//       },
-	//     });
-	//
-	//     scope.reventState = () => {
-	//       scope.edit = !scope.edit;
-	//     };
-	//
-	//     scope.cancel = () => {
-	//       scope.reventState();
-	//
-	//       //如果取消 需要还原数据
-	//       modelSetter(cache);
-	//     };
-	//
-	//     transclude(scope, clone => {
-	//       var input = el.find('form-area');
-	//       // var submit = el.find('btn-submit');
-	//       angular.forEach(clone, e => {
-	//         if (e.tagName == 'DIV') {
-	//           input.replaceWith(e);
-	//           var model = angular.element(e).attr('ng-model');
-	//           //绑定了 ng-model
-	//           if (model) {
-	//             modelGetter = $parse(model);
-	//             modelSetter = val => modelGetter.assign && modelGetter.assign(scope, val);
-	//           }
-	//           // if(pattern) {
-	//           //   console.log(pattern)
-	//           // }
-	//         }
-	//
-	//         // if (e.tagName == 'BUTTON') {
-	//         //   submit.replaceWith(e);
-	//         // }
-	//       });
-	//
-	//     });
-	//   }
-	// }
 	
 	exports.default = EditableDaoInputDirective;
 
 /***/ },
-/* 174 */
+/* 237 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -3210,14 +3811,14 @@
 	};
 
 /***/ },
-/* 175 */
+/* 238 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
 	
 	exports.__esModule = true;
 	
-	var _defineProperty = __webpack_require__(176);
+	var _defineProperty = __webpack_require__(239);
 	
 	var _defineProperty2 = _interopRequireDefault(_defineProperty);
 	
@@ -3242,37 +3843,37 @@
 	}();
 
 /***/ },
-/* 176 */
+/* 239 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = { "default": __webpack_require__(177), __esModule: true };
+	module.exports = { "default": __webpack_require__(240), __esModule: true };
 
 /***/ },
-/* 177 */
+/* 240 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(178);
-	var $Object = __webpack_require__(181).Object;
+	__webpack_require__(241);
+	var $Object = __webpack_require__(244).Object;
 	module.exports = function defineProperty(it, key, desc){
 	  return $Object.defineProperty(it, key, desc);
 	};
 
 /***/ },
-/* 178 */
+/* 241 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var $export = __webpack_require__(179);
+	var $export = __webpack_require__(242);
 	// 19.1.2.4 / 15.2.3.6 Object.defineProperty(O, P, Attributes)
-	$export($export.S + $export.F * !__webpack_require__(189), 'Object', {defineProperty: __webpack_require__(185).f});
+	$export($export.S + $export.F * !__webpack_require__(252), 'Object', {defineProperty: __webpack_require__(248).f});
 
 /***/ },
-/* 179 */
+/* 242 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var global    = __webpack_require__(180)
-	  , core      = __webpack_require__(181)
-	  , ctx       = __webpack_require__(182)
-	  , hide      = __webpack_require__(184)
+	var global    = __webpack_require__(243)
+	  , core      = __webpack_require__(244)
+	  , ctx       = __webpack_require__(245)
+	  , hide      = __webpack_require__(247)
 	  , PROTOTYPE = 'prototype';
 	
 	var $export = function(type, name, source){
@@ -3332,7 +3933,7 @@
 	module.exports = $export;
 
 /***/ },
-/* 180 */
+/* 243 */
 /***/ function(module, exports) {
 
 	// https://github.com/zloirock/core-js/issues/86#issuecomment-115759028
@@ -3341,18 +3942,18 @@
 	if(typeof __g == 'number')__g = global; // eslint-disable-line no-undef
 
 /***/ },
-/* 181 */
+/* 244 */
 /***/ function(module, exports) {
 
 	var core = module.exports = {version: '2.3.0'};
 	if(typeof __e == 'number')__e = core; // eslint-disable-line no-undef
 
 /***/ },
-/* 182 */
+/* 245 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// optional / simple context binding
-	var aFunction = __webpack_require__(183);
+	var aFunction = __webpack_require__(246);
 	module.exports = function(fn, that, length){
 	  aFunction(fn);
 	  if(that === undefined)return fn;
@@ -3373,7 +3974,7 @@
 	};
 
 /***/ },
-/* 183 */
+/* 246 */
 /***/ function(module, exports) {
 
 	module.exports = function(it){
@@ -3382,12 +3983,12 @@
 	};
 
 /***/ },
-/* 184 */
+/* 247 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var dP         = __webpack_require__(185)
-	  , createDesc = __webpack_require__(193);
-	module.exports = __webpack_require__(189) ? function(object, key, value){
+	var dP         = __webpack_require__(248)
+	  , createDesc = __webpack_require__(256);
+	module.exports = __webpack_require__(252) ? function(object, key, value){
 	  return dP.f(object, key, createDesc(1, value));
 	} : function(object, key, value){
 	  object[key] = value;
@@ -3395,15 +3996,15 @@
 	};
 
 /***/ },
-/* 185 */
+/* 248 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var anObject       = __webpack_require__(186)
-	  , IE8_DOM_DEFINE = __webpack_require__(188)
-	  , toPrimitive    = __webpack_require__(192)
+	var anObject       = __webpack_require__(249)
+	  , IE8_DOM_DEFINE = __webpack_require__(251)
+	  , toPrimitive    = __webpack_require__(255)
 	  , dP             = Object.defineProperty;
 	
-	exports.f = __webpack_require__(189) ? Object.defineProperty : function defineProperty(O, P, Attributes){
+	exports.f = __webpack_require__(252) ? Object.defineProperty : function defineProperty(O, P, Attributes){
 	  anObject(O);
 	  P = toPrimitive(P, true);
 	  anObject(Attributes);
@@ -3416,17 +4017,17 @@
 	};
 
 /***/ },
-/* 186 */
+/* 249 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var isObject = __webpack_require__(187);
+	var isObject = __webpack_require__(250);
 	module.exports = function(it){
 	  if(!isObject(it))throw TypeError(it + ' is not an object!');
 	  return it;
 	};
 
 /***/ },
-/* 187 */
+/* 250 */
 /***/ function(module, exports) {
 
 	module.exports = function(it){
@@ -3434,24 +4035,24 @@
 	};
 
 /***/ },
-/* 188 */
+/* 251 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = !__webpack_require__(189) && !__webpack_require__(190)(function(){
-	  return Object.defineProperty(__webpack_require__(191)('div'), 'a', {get: function(){ return 7; }}).a != 7;
+	module.exports = !__webpack_require__(252) && !__webpack_require__(253)(function(){
+	  return Object.defineProperty(__webpack_require__(254)('div'), 'a', {get: function(){ return 7; }}).a != 7;
 	});
 
 /***/ },
-/* 189 */
+/* 252 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// Thank's IE8 for his funny defineProperty
-	module.exports = !__webpack_require__(190)(function(){
+	module.exports = !__webpack_require__(253)(function(){
 	  return Object.defineProperty({}, 'a', {get: function(){ return 7; }}).a != 7;
 	});
 
 /***/ },
-/* 190 */
+/* 253 */
 /***/ function(module, exports) {
 
 	module.exports = function(exec){
@@ -3463,11 +4064,11 @@
 	};
 
 /***/ },
-/* 191 */
+/* 254 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var isObject = __webpack_require__(187)
-	  , document = __webpack_require__(180).document
+	var isObject = __webpack_require__(250)
+	  , document = __webpack_require__(243).document
 	  // in old IE typeof document.createElement is 'object'
 	  , is = isObject(document) && isObject(document.createElement);
 	module.exports = function(it){
@@ -3475,11 +4076,11 @@
 	};
 
 /***/ },
-/* 192 */
+/* 255 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 7.1.1 ToPrimitive(input [, PreferredType])
-	var isObject = __webpack_require__(187);
+	var isObject = __webpack_require__(250);
 	// instead of the ES6 spec version, we didn't implement @@toPrimitive case
 	// and the second argument - flag - preferred type is a string
 	module.exports = function(it, S){
@@ -3492,7 +4093,7 @@
 	};
 
 /***/ },
-/* 193 */
+/* 256 */
 /***/ function(module, exports) {
 
 	module.exports = function(bitmap, value){
@@ -3505,19 +4106,19 @@
 	};
 
 /***/ },
-/* 194 */
+/* 257 */
 /***/ function(module, exports) {
 
-	module.exports = "<div class=\"dao-editable-input\">\n\t<dao-input-container>\n\t  <input placeholder=\"{{vm.options.placeholder}}\" ng-model=\"vm.data.data\" ng-disabled=\"!vm.edit\">\n\t</dao-input-container>\n\t<div class=\"edit-op\">\n\t\t<div class=\"edit-op-toggle\" ng-hide=\"vm.edit\" ng-click=\"vm.reventState()\"><span class=\"glyphicon glyphicon-pencil\" aria-hidden=\"true\"></span> 更改\n\t\t</div>\n\t\t<div class=\"edit-op-btn\" ng-show=\"vm.edit\">\n\t\t\t<button class=\"dao-btn ghost\" ng-click=\"vm.cancel()\">取消</button>\n\t\t\t<button class=\"dao-btn blue\" ng-click=\"vm.save()\"><span ng-bind=\"vm.options.saveBtnContent\"></span></button>\n\t\t</div>\n\t</div>\n\t<div class=\"edit-op-error\" ng-bind=\"vm.options.errorMsg\" ng-show=\"vm.isError\"></div>\n</div>\n"
+	module.exports = "<div class=\"dao-editable-input\">\n\t<dao-input-container>\n\t  <input placeholder=\"{{vm.options.placeholder}}\" ng-model=\"vm.data\" ng-disabled=\"!vm.isEdit\" ng-keyUp=\"vm.keyUp($event)\">\n\t</dao-input-container>\n\t<div class=\"edit-op\">\n\t\t<div class=\"edit-op-toggle\" ng-hide=\"vm.isEdit\" ng-click=\"vm.edit()\">\n\t\t\t<svg><use xlink:href=\"#icon_pencil\"></use></svg><span class=\"text\">更改</span>\n\t\t</div>\n\t\t<div class=\"edit-op-btn\" ng-show=\"vm.isEdit\">\n\t\t\t<button class=\"dao-btn blue\" ng-click=\"vm.save()\" ng-bind=\"vm.options.saveBtnContent || '保存'\"></button>\n\t\t\t<button class=\"dao-btn ghost\" ng-click=\"vm.cancel()\">取消</button>\n\t\t</div>\n\t</div>\n\t<div class=\"edit-op-error\" ng-bind=\"vm.options.errorMsg\" ng-show=\"vm.isError\"></div>\n</div>\n"
 
 /***/ },
-/* 195 */
+/* 258 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(196);
+	var content = __webpack_require__(259);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -3537,7 +4138,7 @@
 	}
 
 /***/ },
-/* 196 */
+/* 259 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -3545,13 +4146,13 @@
 	
 	
 	// module
-	exports.push([module.id, ".dao-editable-input{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:end;-webkit-align-items:flex-end;-ms-flex-align:end;align-items:flex-end;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}.dao-editable-input .form-area{vertical-align:middle;cursor:pointer;color:#999}.dao-editable-input .form-area div[dao-input]{margin:0}.dao-editable-input .edit-op{line-height:35px;padding-left:20px;height:35px}.dao-editable-input .edit-op .edit-op-toggle{position:absolute;color:#aab2bd;cursor:pointer}.dao-editable-input .edit-op .edit-op-btn{margin:-1px 0;position:absolute}.dao-editable-input .edit-op-error{width:100%;line-height:35px;color:#f1483f}", ""]);
+	exports.push([module.id, ".dao-editable-input{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:end;-webkit-align-items:flex-end;-ms-flex-align:end;align-items:flex-end;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}.dao-editable-input .form-area{vertical-align:middle;cursor:pointer;color:#999}.dao-editable-input .form-area div[dao-input]{margin:0}.dao-editable-input .edit-op{line-height:35px;padding-left:20px;height:35px}.dao-editable-input .edit-op .edit-op-toggle{position:absolute;color:#9ba3af;cursor:pointer}.dao-editable-input .edit-op .edit-op-toggle svg{fill:#9ba3af;width:16px;height:16px;vertical-align:middle}.dao-editable-input .edit-op .edit-op-toggle .text{margin-left:5px;vertical-align:middle;line-height:16px}.dao-editable-input .edit-op .edit-op-btn{position:absolute}.dao-editable-input .edit-op-error{width:100%;line-height:35px;color:#f1483f}", ""]);
 	
 	// exports
 
 
 /***/ },
-/* 197 */
+/* 260 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3560,21 +4161,21 @@
 	  value: true
 	});
 	
-	var _dialog = __webpack_require__(198);
+	var _dialog = __webpack_require__(261);
 	
 	var dialog = _interopRequireWildcard(_dialog);
 	
-	__webpack_require__(221);
+	__webpack_require__(284);
 	
-	var _daoDialogHeader = __webpack_require__(223);
+	var _daoDialogHeader = __webpack_require__(286);
 	
 	var _daoDialogHeader2 = _interopRequireDefault(_daoDialogHeader);
 	
-	var _daoMultiStep = __webpack_require__(225);
+	var _daoMultiStep = __webpack_require__(288);
 	
 	var _daoMultiStep2 = _interopRequireDefault(_daoMultiStep);
 	
-	var _daoStep = __webpack_require__(227);
+	var _daoStep = __webpack_require__(290);
 	
 	var _daoStep2 = _interopRequireDefault(_daoStep);
 	
@@ -3589,7 +4190,7 @@
 	exports.default = 'dao.dialog';
 
 /***/ },
-/* 198 */
+/* 261 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3602,7 +4203,7 @@
 	});
 	exports.stackedMap = exports.multiMap = undefined;
 	
-	var _keys = __webpack_require__(199);
+	var _keys = __webpack_require__(262);
 	
 	var _keys2 = _interopRequireDefault(_keys);
 	
@@ -3613,11 +4214,11 @@
 	exports.daoDialogAnimationClass = daoDialogAnimationClass;
 	exports.daoDialogTransclude = daoDialogTransclude;
 	
-	var _daoBackdrop = __webpack_require__(219);
+	var _daoBackdrop = __webpack_require__(282);
 	
 	var _daoBackdrop2 = _interopRequireDefault(_daoBackdrop);
 	
-	var _daoWindow = __webpack_require__(220);
+	var _daoWindow = __webpack_require__(283);
 	
 	var _daoWindow2 = _interopRequireDefault(_daoWindow);
 	
@@ -4387,44 +4988,44 @@
 	}
 
 /***/ },
-/* 199 */
+/* 262 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = { "default": __webpack_require__(200), __esModule: true };
+	module.exports = { "default": __webpack_require__(263), __esModule: true };
 
 /***/ },
-/* 200 */
+/* 263 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(201);
-	module.exports = __webpack_require__(181).Object.keys;
+	__webpack_require__(264);
+	module.exports = __webpack_require__(244).Object.keys;
 
 /***/ },
-/* 201 */
+/* 264 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 19.1.2.14 Object.keys(O)
-	var toObject = __webpack_require__(202)
-	  , $keys    = __webpack_require__(204);
+	var toObject = __webpack_require__(265)
+	  , $keys    = __webpack_require__(267);
 	
-	__webpack_require__(218)('keys', function(){
+	__webpack_require__(281)('keys', function(){
 	  return function keys(it){
 	    return $keys(toObject(it));
 	  };
 	});
 
 /***/ },
-/* 202 */
+/* 265 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 7.1.13 ToObject(argument)
-	var defined = __webpack_require__(203);
+	var defined = __webpack_require__(266);
 	module.exports = function(it){
 	  return Object(defined(it));
 	};
 
 /***/ },
-/* 203 */
+/* 266 */
 /***/ function(module, exports) {
 
 	// 7.2.1 RequireObjectCoercible(argument)
@@ -4434,25 +5035,25 @@
 	};
 
 /***/ },
-/* 204 */
+/* 267 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 19.1.2.14 / 15.2.3.14 Object.keys(O)
-	var $keys       = __webpack_require__(205)
-	  , enumBugKeys = __webpack_require__(217);
+	var $keys       = __webpack_require__(268)
+	  , enumBugKeys = __webpack_require__(280);
 	
 	module.exports = Object.keys || function keys(O){
 	  return $keys(O, enumBugKeys);
 	};
 
 /***/ },
-/* 205 */
+/* 268 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var has          = __webpack_require__(206)
-	  , toIObject    = __webpack_require__(207)
-	  , arrayIndexOf = __webpack_require__(210)(false)
-	  , IE_PROTO     = __webpack_require__(214)('IE_PROTO');
+	var has          = __webpack_require__(269)
+	  , toIObject    = __webpack_require__(270)
+	  , arrayIndexOf = __webpack_require__(273)(false)
+	  , IE_PROTO     = __webpack_require__(277)('IE_PROTO');
 	
 	module.exports = function(object, names){
 	  var O      = toIObject(object)
@@ -4468,7 +5069,7 @@
 	};
 
 /***/ },
-/* 206 */
+/* 269 */
 /***/ function(module, exports) {
 
 	var hasOwnProperty = {}.hasOwnProperty;
@@ -4477,28 +5078,28 @@
 	};
 
 /***/ },
-/* 207 */
+/* 270 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// to indexed object, toObject with fallback for non-array-like ES3 strings
-	var IObject = __webpack_require__(208)
-	  , defined = __webpack_require__(203);
+	var IObject = __webpack_require__(271)
+	  , defined = __webpack_require__(266);
 	module.exports = function(it){
 	  return IObject(defined(it));
 	};
 
 /***/ },
-/* 208 */
+/* 271 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// fallback for non-array-like ES3 and non-enumerable old V8 strings
-	var cof = __webpack_require__(209);
+	var cof = __webpack_require__(272);
 	module.exports = Object('z').propertyIsEnumerable(0) ? Object : function(it){
 	  return cof(it) == 'String' ? it.split('') : Object(it);
 	};
 
 /***/ },
-/* 209 */
+/* 272 */
 /***/ function(module, exports) {
 
 	var toString = {}.toString;
@@ -4508,14 +5109,14 @@
 	};
 
 /***/ },
-/* 210 */
+/* 273 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// false -> Array#indexOf
 	// true  -> Array#includes
-	var toIObject = __webpack_require__(207)
-	  , toLength  = __webpack_require__(211)
-	  , toIndex   = __webpack_require__(213);
+	var toIObject = __webpack_require__(270)
+	  , toLength  = __webpack_require__(274)
+	  , toIndex   = __webpack_require__(276);
 	module.exports = function(IS_INCLUDES){
 	  return function($this, el, fromIndex){
 	    var O      = toIObject($this)
@@ -4534,18 +5135,18 @@
 	};
 
 /***/ },
-/* 211 */
+/* 274 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 7.1.15 ToLength
-	var toInteger = __webpack_require__(212)
+	var toInteger = __webpack_require__(275)
 	  , min       = Math.min;
 	module.exports = function(it){
 	  return it > 0 ? min(toInteger(it), 0x1fffffffffffff) : 0; // pow(2, 53) - 1 == 9007199254740991
 	};
 
 /***/ },
-/* 212 */
+/* 275 */
 /***/ function(module, exports) {
 
 	// 7.1.4 ToInteger
@@ -4556,10 +5157,10 @@
 	};
 
 /***/ },
-/* 213 */
+/* 276 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var toInteger = __webpack_require__(212)
+	var toInteger = __webpack_require__(275)
 	  , max       = Math.max
 	  , min       = Math.min;
 	module.exports = function(index, length){
@@ -4568,20 +5169,20 @@
 	};
 
 /***/ },
-/* 214 */
+/* 277 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var shared = __webpack_require__(215)('keys')
-	  , uid    = __webpack_require__(216);
+	var shared = __webpack_require__(278)('keys')
+	  , uid    = __webpack_require__(279);
 	module.exports = function(key){
 	  return shared[key] || (shared[key] = uid(key));
 	};
 
 /***/ },
-/* 215 */
+/* 278 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var global = __webpack_require__(180)
+	var global = __webpack_require__(243)
 	  , SHARED = '__core-js_shared__'
 	  , store  = global[SHARED] || (global[SHARED] = {});
 	module.exports = function(key){
@@ -4589,7 +5190,7 @@
 	};
 
 /***/ },
-/* 216 */
+/* 279 */
 /***/ function(module, exports) {
 
 	var id = 0
@@ -4599,7 +5200,7 @@
 	};
 
 /***/ },
-/* 217 */
+/* 280 */
 /***/ function(module, exports) {
 
 	// IE 8- don't enum bug keys
@@ -4608,13 +5209,13 @@
 	).split(',');
 
 /***/ },
-/* 218 */
+/* 281 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// most Object methods by ES6 should accept primitives
-	var $export = __webpack_require__(179)
-	  , core    = __webpack_require__(181)
-	  , fails   = __webpack_require__(190);
+	var $export = __webpack_require__(242)
+	  , core    = __webpack_require__(244)
+	  , fails   = __webpack_require__(253);
 	module.exports = function(KEY, exec){
 	  var fn  = (core.Object || {})[KEY] || Object[KEY]
 	    , exp = {};
@@ -4623,25 +5224,25 @@
 	};
 
 /***/ },
-/* 219 */
+/* 282 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao-backdrop\" ng-style=\"{'z-index': 10002 + (index && 1 || 0) + index*10}\"\n     dao-dialog-animation-class=\"fade\"\n     dialog-in-class=\"in\"\n></div>\n"
 
 /***/ },
-/* 220 */
+/* 283 */
 /***/ function(module, exports) {
 
 	module.exports = "<div dialog-render=\"{{$isRendered}}\" tabindex=\"-1\" role=\"dialog\"\n     class=\"dao-dialog dao-dialog-overlay\"\n     dao-dialog-animation-class=\"show\"\n     ng-style=\"{'z-index': 10010 + index*10, display: 'flex'}\">\n    <div class=\"dao-dialog-overlay-inner\">\n        <div class=\"dao-dialog-container\" dao-dialog-transclude>\n        </div>\n    </div>\n</div>\n"
 
 /***/ },
-/* 221 */
+/* 284 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(222);
+	var content = __webpack_require__(285);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -4661,7 +5262,7 @@
 	}
 
 /***/ },
-/* 222 */
+/* 285 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -4675,7 +5276,7 @@
 
 
 /***/ },
-/* 223 */
+/* 286 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4684,7 +5285,7 @@
 	  value: true
 	});
 	
-	var _daoDialogHeader = __webpack_require__(224);
+	var _daoDialogHeader = __webpack_require__(287);
 	
 	var _daoDialogHeader2 = _interopRequireDefault(_daoDialogHeader);
 	
@@ -4702,13 +5303,13 @@
 	exports.default = DaoDialogHeader;
 
 /***/ },
-/* 224 */
+/* 287 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao-dialog-header\">\n  <ng-transclude></ng-transclude>\n  <div ng-click=\"$dismiss('close')\" class=\"dao-close\">\n  \t<svg preserveAspectRatio=\"xMidYMid\" width=\"34\" height=\"34\" viewBox=\"0 0 34 34\">\n  \t  <path d=\"M17.000,0.001 C7.612,0.001 0.001,7.612 0.001,17.000 C0.001,26.388 7.612,33.999 17.000,33.999 C26.388,33.999 33.999,26.388 33.999,17.000 C33.999,7.612 26.388,0.001 17.000,0.001 ZM24.166,21.666 C24.166,21.666 21.666,24.166 21.666,24.166 C21.666,24.166 17.000,19.500 17.000,19.500 C17.000,19.500 12.334,24.166 12.334,24.166 C12.334,24.166 9.834,21.666 9.834,21.666 C9.834,21.666 14.500,17.000 14.500,17.000 C14.500,17.000 9.834,12.335 9.834,12.335 C9.834,12.335 12.334,9.834 12.334,9.834 C12.334,9.834 17.000,14.500 17.000,14.500 C17.000,14.500 21.666,9.834 21.666,9.834 C21.666,9.834 24.166,12.335 24.166,12.335 C24.166,12.335 19.500,17.000 19.500,17.000 C19.500,17.000 24.166,21.666 24.166,21.666 Z\" id=\"path-1\" fill-rule=\"evenodd\"/>\n  \t</svg>\n  </div>\n</div>\n"
 
 /***/ },
-/* 225 */
+/* 288 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4717,15 +5318,15 @@
 	  value: true
 	});
 	
-	var _classCallCheck2 = __webpack_require__(174);
+	var _classCallCheck2 = __webpack_require__(237);
 	
 	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 	
-	var _createClass2 = __webpack_require__(175);
+	var _createClass2 = __webpack_require__(238);
 	
 	var _createClass3 = _interopRequireDefault(_createClass2);
 	
-	var _daoMultiStep = __webpack_require__(226);
+	var _daoMultiStep = __webpack_require__(289);
 	
 	var _daoMultiStep2 = _interopRequireDefault(_daoMultiStep);
 	
@@ -4822,13 +5423,13 @@
 	exports.default = DaoMultiStep;
 
 /***/ },
-/* 226 */
+/* 289 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao-multi-step\" ng-transclude>\n\n</div>\n"
 
 /***/ },
-/* 227 */
+/* 290 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4837,7 +5438,7 @@
 	  value: true
 	});
 	
-	var _daoStep = __webpack_require__(228);
+	var _daoStep = __webpack_require__(291);
 	
 	var _daoStep2 = _interopRequireDefault(_daoStep);
 	
@@ -4869,13 +5470,13 @@
 	exports.default = DaoStep;
 
 /***/ },
-/* 228 */
+/* 291 */
 /***/ function(module, exports) {
 
 	module.exports = "<div ng-if=\"isActive\" class=\"dao-step\" ng-class=\"{'dao-animate':daoAnimate}\" ng-transclude>\n\n</div>\n"
 
 /***/ },
-/* 229 */
+/* 292 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4884,19 +5485,19 @@
 	  value: true
 	});
 	
-	var _daoPosition = __webpack_require__(230);
+	var _daoPosition = __webpack_require__(293);
 	
 	var position = _interopRequireWildcard(_daoPosition);
 	
-	var _daoStackedMap = __webpack_require__(231);
+	var _daoStackedMap = __webpack_require__(294);
 	
 	var stackedMap = _interopRequireWildcard(_daoStackedMap);
 	
-	var _daoTooltip = __webpack_require__(232);
+	var _daoTooltip = __webpack_require__(295);
 	
 	var tooltip = _interopRequireWildcard(_daoTooltip);
 	
-	__webpack_require__(236);
+	__webpack_require__(299);
 	
 	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 	
@@ -4910,7 +5511,7 @@
 	exports.default = moduleName;
 
 /***/ },
-/* 230 */
+/* 293 */
 /***/ function(module, exports) {
 
 	/**
@@ -5126,6 +5727,20 @@
 	      };
 	    },
 	
+	    // appendToContainer
+	    containerOffset: function containerOffset(elem, container) {
+	      elem = this.getRawNode(elem);
+	
+	      var elemBCR = elem.getBoundingClientRect();
+	      var containerElem = angular.element($document[0].querySelector(appendToContainer));
+	      return {
+	        width: Math.round(angular.isNumber(elemBCR.width) ? elemBCR.width : elem.offsetWidth),
+	        height: Math.round(angular.isNumber(elemBCR.height) ? elemBCR.height : elem.offsetHeight),
+	        top: Math.round(elemBCR.top + (containerElem.scrollTop - containerElem.offsetTop || $window.pageYOffset || $document[0].documentElement.scrollTop)),
+	        left: Math.round(elemBCR.left + (-containerElem.offsetLeft || $window.pageXOffset || $document[0].documentElement.scrollLeft))
+	      };
+	    },
+	
 	    /**
 	     * Provides offset distance to the closest scrollable ancestor
 	     * or viewport.  Accounts for border and scrollbar width.
@@ -5288,7 +5903,7 @@
 	     *     <li>**placement**: The resolved placement.</li>
 	     *   </ul>
 	     */
-	    positionElements: function positionElements(hostElem, targetElem, placement, appendToBody) {
+	    positionElements: function positionElements(hostElem, targetElem, placement, appendToBody, appendToContainer) {
 	      hostElem = this.getRawNode(hostElem);
 	      targetElem = this.getRawNode(targetElem);
 	      // 判断为 hostElem 为 relative 并且 targetElem 为子元素
@@ -5300,7 +5915,7 @@
 	
 	      placement = this.parsePlacement(placement);
 	
-	      var hostElemPos = appendToBody ? this.offset(hostElem) : this.position(hostElem);
+	      var hostElemPos = appendToContainer ? this.containerOffset(hostElem, appendToContainer) : appendToBody ? this.offset(hostElem) : this.position(hostElem);
 	
 	      if (isRelative) {
 	        hostElemPos.top = 0;
@@ -5469,7 +6084,7 @@
 	}
 
 /***/ },
-/* 231 */
+/* 294 */
 /***/ function(module, exports) {
 
 	/**
@@ -5542,7 +6157,7 @@
 	};
 
 /***/ },
-/* 232 */
+/* 295 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -5565,15 +6180,15 @@
 	exports.daoTooltipHtmlPopup = daoTooltipHtmlPopup;
 	exports.daoTooltipHtml = daoTooltipHtml;
 	
-	var _tooltipTemplatePopup = __webpack_require__(233);
+	var _tooltipTemplatePopup = __webpack_require__(296);
 	
 	var _tooltipTemplatePopup2 = _interopRequireDefault(_tooltipTemplatePopup);
 	
-	var _tooltipHtmlPopup = __webpack_require__(234);
+	var _tooltipHtmlPopup = __webpack_require__(297);
 	
 	var _tooltipHtmlPopup2 = _interopRequireDefault(_tooltipHtmlPopup);
 	
-	var _tooltipPopup = __webpack_require__(235);
+	var _tooltipPopup = __webpack_require__(298);
 	
 	var _tooltipPopup2 = _interopRequireDefault(_tooltipPopup);
 	
@@ -5714,6 +6329,8 @@
 	            var hideTimeout;
 	            var positionTimeout;
 	            var appendToBody = angular.isDefined(options.appendToBody) ? options.appendToBody : false;
+	            var appendToDaoLayoutBody = $parse(attrs[prefix + 'AppendToDaoLayoutBody'])() || false;
+	            var appendToContainer = options.appendToContinaer || false;
 	            var triggers = getTriggers(undefined);
 	            var hasEnableExp = angular.isDefined(attrs[prefix + 'Enable']);
 	            var ttScope = scope.$new(true);
@@ -5737,7 +6354,7 @@
 	                  });
 	
 	                  // Now set the calculated positioning.
-	                  var ttPosition = $daoPosition.positionElements(element, tooltip, ttScope.placement, appendToBody);
+	                  var ttPosition = $daoPosition.positionElements(element, tooltip, ttScope.placement, appendToBody, appendToContainer);
 	                  tooltip.css({
 	                    top: ttPosition.top + 'px',
 	                    left: ttPosition.left + 'px',
@@ -5899,8 +6516,11 @@
 	              }
 	
 	              tooltipLinkedScope = ttScope.$new();
+	
 	              tooltip = tooltipLinker(tooltipLinkedScope, function (tooltip) {
-	                if (appendToBody) {
+	                if (appendToContainer) {
+	                  angular.element($document[0].querySelector(appendToContainer)).append(tooltip);
+	                } else if (appendToBody) {
 	                  $document.find('body').append(tooltip);
 	                } else {
 	                  element.after(tooltip);
@@ -5943,6 +6563,12 @@
 	              ttScope.templateType = attrs['templateType'] ? attrs['templateType'] : 'url';
 	
 	              ttScope.popupClass = attrs[prefix + 'Class'];
+	              scope.$watch(function () {
+	                return attrs[prefix + 'Class'];
+	              }, function (newValue) {
+	                ttScope.popupClass = newValue;
+	              });
+	
 	              ttScope.placement = angular.isDefined(attrs[prefix + 'Placement']) ? attrs[prefix + 'Placement'] : options.placement;
 	
 	              var delay = parseInt(attrs[prefix + 'PopupDelay'], 10);
@@ -6278,9 +6904,14 @@
 	        element.addClass('top');
 	      }
 	
-	      if (scope.popupClass) {
-	        element.addClass(scope.popupClass);
-	      }
+	      scope.$watch(function () {
+	        return scope.popupClass;
+	      }, function (newValue, oldValue) {
+	        element.removeClass(oldValue);
+	        if (newValue) {
+	          element.addClass(newValue);
+	        }
+	      });
 	
 	      if (scope.animation()) {
 	        element.addClass(attrs.tooltipAnimationClass);
@@ -6349,31 +6980,31 @@
 	};
 
 /***/ },
-/* 233 */
+/* 296 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao-tooltip\"\n  tooltip-animation-class=\"fade\"\n  dao-tooltip-classes\n  ng-class=\"{ in: isOpen() }\">\n  <div class=\"dao-tooltip-arrow\"></div>\n  <div class=\"dao-tooltip-inner\"\n    dao-tooltip-template-transclude=\"contentExp()\"\n    tooltip-template-transclude-scope=\"originScope()\"></div>\n</div>\n"
 
 /***/ },
-/* 234 */
+/* 297 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao-tooltip\"\n  tooltip-animation-class=\"fade\"\n  dao-tooltip-classes\n  ng-class=\"{ in: isOpen() }\">\n  <div class=\"dao-tooltip-arrow\"></div>\n  <div class=\"dao-tooltip-inner\" ng-bind-html=\"contentExp()\"></div>\n</div>\n"
 
 /***/ },
-/* 235 */
+/* 298 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao-tooltip\"\n  tooltip-animation-class=\"fade\"\n  dao-tooltip-classes\n  ng-class=\"{ in: isOpen() }\">\n  <div class=\"dao-tooltip-arrow\"></div>\n  <div class=\"dao-tooltip-inner\" ng-bind=\"content\"></div>\n</div>\n"
 
 /***/ },
-/* 236 */
+/* 299 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(237);
+	var content = __webpack_require__(300);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -6393,7 +7024,7 @@
 	}
 
 /***/ },
-/* 237 */
+/* 300 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -6407,7 +7038,7 @@
 
 
 /***/ },
-/* 238 */
+/* 301 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6416,11 +7047,11 @@
 	  value: true
 	});
 	
-	var _daoPopover = __webpack_require__(239);
+	var _daoPopover = __webpack_require__(302);
 	
 	var popover = _interopRequireWildcard(_daoPopover);
 	
-	__webpack_require__(243);
+	__webpack_require__(306);
 	
 	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 	
@@ -6437,7 +7068,7 @@
 	exports.default = moduleName;
 
 /***/ },
-/* 239 */
+/* 302 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6455,15 +7086,15 @@
 	exports.daoPopoverPopup = daoPopoverPopup;
 	exports.daoPopover = daoPopover;
 	
-	var _popover = __webpack_require__(240);
+	var _popover = __webpack_require__(303);
 	
 	var _popover2 = _interopRequireDefault(_popover);
 	
-	var _popoverTemplate = __webpack_require__(241);
+	var _popoverTemplate = __webpack_require__(304);
 	
 	var _popoverTemplate2 = _interopRequireDefault(_popoverTemplate);
 	
-	var _popoverHtml = __webpack_require__(242);
+	var _popoverHtml = __webpack_require__(305);
 	
 	var _popoverHtml2 = _interopRequireDefault(_popoverHtml);
 	
@@ -6513,31 +7144,31 @@
 	};
 
 /***/ },
-/* 240 */
+/* 303 */
 /***/ function(module, exports) {
 
-	module.exports = "<div class=\"dao-popover\"\n  tooltip-animation-class=\"fade\"\n  dao-tooltip-classes\n  ng-class=\"{ in: isOpen() }\">\n  <div class=\"arrow\"></div>\n\n  <div class=\"dao-popover-inner\">\n      <h3 class=\"dao-popover-title\" ng-bind=\"title\" ng-if=\"title\"></h3>\n      <div class=\"dao-popover-content\" ng-bind=\"content\"></div>\n  </div>\n</div>\n"
+	module.exports = "<div class=\"dao-popover\"\n  tooltip-animation-class=\"fade\"\n  dao-tooltip-classes\n  ng-class=\"{ in: isOpen() }\">\n  <div class=\"arrow\"></div>\n  <div class=\"arrow-guard\"></div>\n  <div class=\"shadow-box\"></div>\n  <div class=\"dao-popover-inner\">\n      <h3 class=\"dao-popover-title\" ng-bind=\"title\" ng-if=\"title\"></h3>\n      <div class=\"dao-popover-content\" ng-bind=\"content\"></div>\n  </div>\n</div>\n"
 
 /***/ },
-/* 241 */
+/* 304 */
 /***/ function(module, exports) {
 
-	module.exports = "<div class=\"dao-popover\"\n  tooltip-animation-class=\"fade\"\n  dao-tooltip-classes\n  ng-class=\"{ in: isOpen() }\">\n  <div class=\"arrow\"></div>\n\n  <div class=\"dao-popover-inner\">\n      <h3 class=\"dao-popover-title\" ng-bind=\"title\" ng-if=\"title\"></h3>\n      <div class=\"dao-popover-content\"\n        dao-tooltip-template-transclude=\"contentExp()\"\n        tooltip-template-transclude-scope=\"originScope()\"\n        template-type=\"{{templateType}}\"></div>\n  </div>\n</div>\n"
+	module.exports = "<div class=\"dao-popover\"\n  tooltip-animation-class=\"fade\"\n  dao-tooltip-classes\n  ng-class=\"{ in: isOpen() }\">\n  <div class=\"arrow\"></div>\n  <div class=\"arrow-guard\"></div>\n  <div class=\"shadow-box\"></div>\n  <div class=\"dao-popover-inner\">\n      <h3 class=\"dao-popover-title\" ng-bind=\"title\" ng-if=\"title\"></h3>\n      <div class=\"dao-popover-content\"\n        dao-tooltip-template-transclude=\"contentExp()\"\n        tooltip-template-transclude-scope=\"originScope()\"\n        template-type=\"{{templateType}}\"></div>\n  </div>\n</div>\n"
 
 /***/ },
-/* 242 */
+/* 305 */
 /***/ function(module, exports) {
 
-	module.exports = "<div class=\"dao-popover\"\n  tooltip-animation-class=\"fade\"\n  dao-tooltip-classes\n  ng-class=\"{ in: isOpen() }\">\n  <div class=\"arrow\"></div>\n\n  <div class=\"dao-popover-inner\">\n      <h3 class=\"dao-popover-title\" ng-bind=\"title\" ng-if=\"title\"></h3>\n      <div class=\"dao-popover-content\" ng-bind-html=\"contentExp()\"></div>\n  </div>\n</div>\n"
+	module.exports = "<div class=\"dao-popover\"\n  tooltip-animation-class=\"fade\"\n  dao-tooltip-classes\n  ng-class=\"{ in: isOpen() }\">\n  <div class=\"arrow\"></div>\n  <div class=\"arrow-guard\"></div>\n  <div class=\"shadow-box\"></div>\n  <div class=\"dao-popover-inner\">\n      <h3 class=\"dao-popover-title\" ng-bind=\"title\" ng-if=\"title\"></h3>\n      <div class=\"dao-popover-content\" ng-bind-html=\"contentExp()\"></div>\n  </div>\n</div>\n"
 
 /***/ },
-/* 243 */
+/* 306 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(244);
+	var content = __webpack_require__(307);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -6557,7 +7188,7 @@
 	}
 
 /***/ },
-/* 244 */
+/* 307 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -6565,13 +7196,13 @@
 	
 	
 	// module
-	exports.push([module.id, ".dao-popover{position:absolute;top:0;left:0;z-index:1060;display:none;max-width:276px;padding:1px;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-style:normal;font-weight:400;letter-spacing:normal;line-break:auto;line-height:1.42857;text-align:left;text-align:start;text-decoration:none;text-shadow:none;text-transform:none;white-space:normal;word-break:normal;word-spacing:normal;word-wrap:normal;font-size:14px;background-color:#fff;background-clip:padding-box;border:1px solid #ccc;border:1px solid rgba(0,0,0,.2);border-radius:6px;-webkit-filter:drop-shadow(0 5px 10px rgba(0,0,0,.2));filter:drop-shadow(0 5px 10px rgba(0,0,0,.2))}@media (-ms-high-contrast:none),screen and (-ms-high-contrast:active){.dao-popover{box-shadow:0 5px 10px rgba(0,0,0,.2)}}.dao-popover.top{margin-top:-10px}.dao-popover.right{margin-left:10px}.dao-popover.bottom{margin-top:10px}.dao-popover.left{margin-left:-10px}.dao-popover .dao-popover-title{margin:0;padding:8px 14px;font-size:14px;background-color:#e6e9ed;box-shadow:inset 0 -1px 0 rgba(204,209,217,.5);border-radius:5px 5px 0 0}.dao-popover .dao-popover-content{padding:9px 14px;overflow:hidden}.dao-popover>.arrow,.dao-popover>.arrow:after{position:absolute;display:block;width:0;height:0;border-color:transparent;border-style:solid}.dao-popover>.arrow{border-width:11px}.dao-popover>.arrow:after{border-width:10px;content:\"\"}.dao-popover.top>.arrow{left:50%;margin-left:-11px;border-bottom-width:0;border-top-color:#999;border-top-color:rgba(0,0,0,.25);bottom:-11px}.dao-popover.top>.arrow:after{content:\" \";bottom:1px;margin-left:-10px;border-bottom-width:0;border-top-color:#fff}.dao-popover.right>.arrow{top:50%;left:-11px;margin-top:-11px;border-left-width:0;border-right-color:#999;border-right-color:rgba(0,0,0,.25)}.dao-popover.right>.arrow:after{content:\" \";left:1px;bottom:-10px;border-left-width:0;border-right-color:#fff}.dao-popover.bottom>.arrow{left:50%;margin-left:-11px;border-top-width:0;border-bottom-color:#999;border-bottom-color:rgba(0,0,0,.25);top:-11px}.dao-popover.bottom>.arrow:after{content:\" \";top:1px;margin-left:-10px;border-top-width:0;border-bottom-color:#fff}.dao-popover.left>.arrow{top:50%;right:-11px;margin-top:-11px;border-right-width:0;border-left-color:#999;border-left-color:rgba(0,0,0,.25)}.dao-popover.left>.arrow:after{content:\" \";right:1px;border-right-width:0;border-left-color:#fff;bottom:-10px}", ""]);
+	exports.push([module.id, ".dao-popover{position:absolute;top:0;left:0;z-index:1060;display:none;max-width:276px;font-size:13px;line-height:20px;font-family:-apple-system,BlinkMacSystemFont,Neue Haas Grotesk Text Pro,Arial Nova,Segoe UI,Helvetica Neue,\\.PingFang SC,PingFang SC,Microsoft YaHei,Microsoft JhengHei,Source Han Sans SC,Noto Sans CJK SC,Source Han Sans CN,Noto Sans SC,Source Han Sans TC,Noto Sans CJK TC,Hiragino Sans GB,sans-serif;font-style:normal;font-weight:400;letter-spacing:normal;line-break:auto;line-height:1.42857;text-align:left;text-align:start;text-decoration:none;text-shadow:none;text-transform:none;white-space:normal;word-break:normal;word-spacing:normal;word-wrap:normal;font-size:14px;background-color:#fff;background-clip:padding-box;border-radius:5px}.dao-popover.top{margin-top:-10px!important}.dao-popover.right{margin-top:0!important;margin-left:10px}.dao-popover.bottom{margin-top:10px!important}.dao-popover.left{margin-top:0!important;margin-left:-10px}.dao-popover.top-left{-webkit-transform:translateX(-8px);transform:translateX(-8px)}.dao-popover.top-right{-webkit-transform:translateX(8px);transform:translateX(8px)}.dao-popover>.shadow-box{width:100%;height:100%;border-radius:5px;box-shadow:0 0 0 1px rgba(61,68,79,.06),0 5px 12px 0 rgba(61,68,79,.3);position:absolute}.dao-popover>.dao-popover-inner{z-index:2118;position:relative}.dao-popover.green{background-color:#22c36a;color:#fff}.dao-popover.green>.arrow,.dao-popover.green>.arrow-guard{background:#22c36a}.dao-popover.red{background-color:#f1483f;color:#fff}.dao-popover.red>.arrow,.dao-popover.red>.arrow-guard{background:#f1483f}.dao-popover.blue{background-color:#3890ff;color:#fff}.dao-popover.blue>.arrow,.dao-popover.blue>.arrow-guard{background:#3890ff}.dao-popover.white{background-color:#fff;color:#000}.dao-popover.white>.arrow,.dao-popover.white>.arrow-guard{background:#fff}.dao-popover.black{background-color:#1f2126;color:#fff}.dao-popover.black>.arrow,.dao-popover.black>.arrow-guard{background:#1f2126}.dao-popover .dao-popover-title{margin:0;padding:8px 14px;font-size:14px;background-color:#e6e9ed;box-shadow:inset 0 -1px 0 rgba(204,209,217,.5);border-radius:5px 5px 0 0}.dao-popover .dao-popover-content{padding:9px 14px;overflow:hidden}.dao-popover>.arrow{z-index:2007;border-radius:0 0 0 2px;box-shadow:0 0 0 1px rgba(61,68,79,.06),0 5px 12px 0 rgba(61,68,79,.3);-webkit-transform:rotate(45deg);transform:rotate(45deg)}.dao-popover>.arrow,.dao-popover>.arrow-guard{width:11.31371px;height:11.31371px;position:absolute;background-color:#fff}.dao-popover>.arrow-guard{z-index:2008;border-radius:5px}.dao-popover.left>.arrow{top:50%;right:0;margin-right:-5.05685px!important;margin-top:-5.65685px}.dao-popover.right>.arrow{top:50%;left:0;margin-left:-5.05685px!important;margin-top:-5.65685px}.dao-popover.bottom>.arrow{left:50%;top:0;margin-top:-5.05685px!important;margin-left:-5.65685px}.dao-popover.top>.arrow{left:50%;bottom:0;margin-bottom:-5.05685px!important;margin-left:-5.65685px}.dao-popover.bottom-right>.arrow,.dao-popover.top-right>.arrow{-webkit-transform:translate(-50%) rotate(45deg);transform:translate(-50%) rotate(45deg)}.dao-popover.bottom-left>.arrow,.dao-popover.top-left>.arrow{-webkit-transform:translate(50%) rotate(45deg);transform:translate(50%) rotate(45deg)}.dao-popover.left-bottom>.arrow,.dao-popover.right-bottom>.arrow{-webkit-transform:translateY(-50%) rotate(45deg);transform:translateY(-50%) rotate(45deg)}.dao-popover.left-top>.arrow,.dao-popover.right-top>.arrow{-webkit-transform:translateY(50%) rotate(45deg);transform:translateY(50%) rotate(45deg)}.dao-popover.left>.arrow-guard{height:100%;right:0}.dao-popover.right>.arrow-guard{height:100%;left:0}.dao-popover.bottom>.arrow-guard{width:100%;top:0}.dao-popover.top>.arrow-guard{bottom:0;width:100%}", ""]);
 	
 	// exports
 
 
 /***/ },
-/* 245 */
+/* 308 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6580,13 +7211,13 @@
 	  value: true
 	});
 	
-	__webpack_require__(246);
+	__webpack_require__(309);
 	
-	var _multiSteps = __webpack_require__(248);
+	var _multiSteps = __webpack_require__(311);
 	
 	var _multiSteps2 = _interopRequireDefault(_multiSteps);
 	
-	var _step = __webpack_require__(251);
+	var _step = __webpack_require__(314);
 	
 	var _step2 = _interopRequireDefault(_step);
 	
@@ -6602,13 +7233,13 @@
 	exports.default = moduleName;
 
 /***/ },
-/* 246 */
+/* 309 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(247);
+	var content = __webpack_require__(310);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -6628,7 +7259,7 @@
 	}
 
 /***/ },
-/* 247 */
+/* 310 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -6642,7 +7273,7 @@
 
 
 /***/ },
-/* 248 */
+/* 311 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6651,19 +7282,19 @@
 	  value: true
 	});
 	
-	var _classCallCheck2 = __webpack_require__(174);
+	var _classCallCheck2 = __webpack_require__(237);
 	
 	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 	
-	var _createClass2 = __webpack_require__(175);
+	var _createClass2 = __webpack_require__(238);
 	
 	var _createClass3 = _interopRequireDefault(_createClass2);
 	
-	var _multiSteps = __webpack_require__(249);
+	var _multiSteps = __webpack_require__(312);
 	
 	var _multiSteps2 = _interopRequireDefault(_multiSteps);
 	
-	var _nestedMultiSteps = __webpack_require__(250);
+	var _nestedMultiSteps = __webpack_require__(313);
 	
 	var _nestedMultiSteps2 = _interopRequireDefault(_nestedMultiSteps);
 	
@@ -6705,7 +7336,7 @@
 	
 	    (0, _classCallCheck3.default)(this, MultiStepsController);
 	    this.steps = [];
-	    this.currentIndex = 1;
+	    this.currentIndex = this.currentIndex || 1;
 	    this.nested = $scope.vm.nested;
 	    this.canNotClick = $scope.vm.canNotClick;
 	    this.$scope = $scope;
@@ -6783,19 +7414,19 @@
 	exports.default = MultiStepsDirective;
 
 /***/ },
-/* 249 */
+/* 312 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao-layout-wrap dao-multi-step\">\n  <div class=\"dao-layout-sidebar\">\n    <div class=\"multi-step-sidebar\">\n      <div class=\"multi-step-item\" ng-class=\"{'active' : step.isActive , 'success' : step.isSuccessful }\" ng-click=\"vm.activeStep(step)\" ng-repeat=\"step in vm.steps\">\n        <div class=\"multi-step-order\" ng-show=\"step.index\">\n          {{ step.index }}\n        </div>\n        {{ step.title }}\n      </div>\n    </div>\n  </div>\n  <div class=\"dao-layout-content\">\n    <div class=\"multi-step-content\" ng-transclude>\n\n    </div>\n  </div>\n</div>\n"
 
 /***/ },
-/* 250 */
+/* 313 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao-layout-wrap dao-multi-step\">\n  <div class=\"dao-layout-sidebar\">\n    <div class=\"multi-step-sidebar nested\">\n      <div class=\"multi-step-item\" ng-class=\"{'active' : step.isActive, 'no-active': step.noActive, 'is-locked': step.isLocked, 'can-not-click': vm.canNotClick }\" ng-click=\"vm.canNotClick ? return : vm.activeStep(step)\" ng-repeat=\"step in vm.steps\">\n        <div class=\"item-caret\" ng-show=\"!step.isSubmenu\">\n          <svg ng-show=\"!step.isMainmenu && !step.isLocked\"><use xlink:href=\"#icon_caret-right\"></use></svg>\n          <svg ng-show=\"step.isMainmenu\"><use xlink:href=\"#icon_caret-down\"></use></svg>\n          <svg ng-show=\"step.isLocked\"><use xlink:href=\"#icon_lock-small\"></use></svg>\n        </div>\n        <div class=\"item-dot\" ng-show=\"step.isSubmenu\"></div>\n        <div class=\"title\">{{ step.title }}</div>\n        <div class=\"item-success\" ng-show=\"step.isSuccessful\">\n          <svg class=\"icon\"><use xlink:href=\"#icon_success\"></use></svg>\n        </div>\n        <div class=\"item-warning\" ng-show=\"step.isWarning\">\n          <svg class=\"icon\"><use xlink:href=\"#icon_warning\"></use></svg>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div class=\"dao-layout-content\">\n    <div class=\"multi-step-content\" ng-transclude>\n\n    </div>\n  </div>\n</div>\n"
 
 /***/ },
-/* 251 */
+/* 314 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6805,7 +7436,7 @@
 	  value: true
 	});
 	
-	var _step = __webpack_require__(252);
+	var _step = __webpack_require__(315);
 	
 	var _step2 = _interopRequireDefault(_step);
 	
@@ -6860,13 +7491,13 @@
 	exports.default = StepDirective;
 
 /***/ },
-/* 252 */
+/* 315 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"multi-step-content-body\" ng-transclude>\n</div>\n"
 
 /***/ },
-/* 253 */
+/* 316 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6875,7 +7506,7 @@
 	  value: true
 	});
 	
-	var _daoDropdown = __webpack_require__(254);
+	var _daoDropdown = __webpack_require__(317);
 	
 	var dropdown = _interopRequireWildcard(_daoDropdown);
 	
@@ -6904,7 +7535,7 @@
 	exports.default = moduleName;
 
 /***/ },
-/* 254 */
+/* 317 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -7003,6 +7634,7 @@
 	      setIsOpen = angular.noop,
 	      toggleInvoker = $attrs.onToggle ? $parse($attrs.onToggle) : angular.noop,
 	      appendToBody = false,
+	      appendToContainer = $attrs.dropdownAppendToContainer || false,
 	      appendTo = null,
 	      keynavEnabled = false,
 	      selectedOption = null,
@@ -7041,6 +7673,11 @@
 	
 	    if (appendToBody && !appendTo) {
 	      appendTo = body;
+	    }
+	
+	    if (appendToContainer) {
+	      var container = angular.element($document[0].querySelector(appendToContainer));
+	      appendTo = container[0] ? container : appendTo;
 	    }
 	
 	    if (appendTo && self.dropdownMenu) {
@@ -7116,6 +7753,38 @@
 	    }
 	  };
 	
+	  // from http://stackoverflow.com/questions/3000887/need-to-calculate-offsetright-in-javascript
+	  function getDimensions() {
+	    var winW = 630,
+	        winH = 460;
+	    if (document.body && document.body.offsetWidth) {
+	      winW = document.body.offsetWidth;
+	      winH = document.body.offsetHeight;
+	    }
+	    if (document.compatMode == 'CSS1Compat' && document.documentElement && document.documentElement.offsetWidth) {
+	      winW = document.documentElement.offsetWidth;
+	      winH = document.documentElement.offsetHeight;
+	    }
+	    if (window.innerWidth && window.innerHeight) {
+	      winW = window.innerWidth;
+	      winH = window.innerHeight;
+	    }
+	    return { "width": winW, "height": winH };
+	  }
+	  //Get the location of element
+	  function getOffsetRight(element) {
+	    var width = element.offsetWidth;
+	    var right = 0;
+	    while (element.offsetParent) {
+	      right += element.offsetLeft;
+	      element = element.offsetParent;
+	    }
+	    right += element.offsetLeft;
+	    right = getDimensions()["width"] - right;
+	    right -= width;
+	    return right;
+	  }
+	
 	  scope.$watch('isOpen', function (isOpen, wasOpen) {
 	    if (appendTo && self.dropdownMenu) {
 	      var pos = $daoPosition.positionElements($element, self.dropdownMenu, 'bottom-left', true);
@@ -7144,14 +7813,19 @@
 	
 	        css.top = pos.top - appendOffset.top + 'px';
 	
+	        var container = appendToContainer ? $document[0].querySelector(appendToContainer) : body[0];
+	
 	        if (daoBody) {
-	          css.top = pos.top - appendOffset.top + body[0].scrollTop + 'px';
+	          css.top = pos.top - appendOffset.top + container.scrollTop + 'px';
 	        }
 	
 	        if (!rightalign) {
 	          css.left = pos.left - appendOffset.left + 'px';
 	        } else {
-	          css.right = $window.innerWidth - (pos.left + $element.prop('offsetWidth')) + 'px';
+	          // css.right = $window.innerWidth -
+	          //   (pos.left + $element.prop('offsetWidth')) + 'px';
+	
+	          css.right = $window.innerWidth - (pos.left + $element.prop('offsetWidth') + getOffsetRight(container)) + 'px';
 	        }
 	      }
 	
@@ -7173,7 +7847,7 @@
 	      self.dropdownMenu.addClass(menuPlacement[0]);
 	
 	      var borderProp = 'border-' + menuPlacement[0] + '-width';
-	      var borderWidth = $window.getComputedStyle(arrowElem)[borderProp].replace(/[^0-9]/g, '') * 1; // 数字
+	      var borderWidth = $window.getComputedStyle(arrowElem).getPropertyValue(borderProp).replace(/[^0-9]/g, '') * 1; // 数字
 	
 	      switch (menuPlacement[0]) {
 	        case 'top':
@@ -7374,7 +8048,7 @@
 	}
 
 /***/ },
-/* 255 */
+/* 318 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7383,17 +8057,17 @@
 	  value: true
 	});
 	
-	__webpack_require__(256);
+	__webpack_require__(319);
 	
-	var _daoSelect = __webpack_require__(258);
+	var _daoSelect = __webpack_require__(321);
 	
 	var _daoSelect2 = _interopRequireDefault(_daoSelect);
 	
-	var _daoOption = __webpack_require__(260);
+	var _daoOption = __webpack_require__(323);
 	
 	var _daoOption2 = _interopRequireDefault(_daoOption);
 	
-	var _daoOptionGroup = __webpack_require__(262);
+	var _daoOptionGroup = __webpack_require__(325);
 	
 	var _daoOptionGroup2 = _interopRequireDefault(_daoOptionGroup);
 	
@@ -7405,13 +8079,13 @@
 	exports.default = moduleName;
 
 /***/ },
-/* 256 */
+/* 319 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(257);
+	var content = __webpack_require__(320);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -7431,7 +8105,7 @@
 	}
 
 /***/ },
-/* 257 */
+/* 320 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -7439,13 +8113,13 @@
 	
 	
 	// module
-	exports.push([module.id, ".dao-select{color:#3d444f;position:relative}.dao-select-header{width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;overflow:hidden}.dao-select-header.withBtn .dao-select-input{border-top-right-radius:0;border-bottom-right-radius:0;border-right:0;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;width:0}.dao-select-btn{-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;border-top-left-radius:0;border-bottom-left-radius:0;height:32px}.dao-select-input{width:100%;position:relative;height:32px;background-image:-webkit-gradient(linear,left bottom,left top,from(rgba(61,68,79,.05)),to(rgba(61,68,79,0)));background-image:-webkit-linear-gradient(bottom,rgba(61,68,79,.05),rgba(61,68,79,0));background-image:linear-gradient(0deg,rgba(61,68,79,.05) 0,rgba(61,68,79,0));border:1px solid #ccd1d9;border-radius:4px;cursor:pointer}.dao-select-input:hover{background-color:rgba(204,209,217,.1)}.dao-select-svg{position:absolute;right:10px;top:7px;width:16px;height:16px}.dao-select-svg svg{width:16px;height:16px;fill:#3d444f}.dao-select-chosen{height:30px;line-height:30px;padding:0 10px;margin-right:30px;overflow:hidden;text-overflow:ellipsis;word-break:keep-all;white-space:nowrap}.dao-select-chosen span.dao-select-chosen-tab,.dao-select-default{color:#9ba3af}.dao-select-options{padding:0;margin:0 0 20px;list-style:none;text-align:left;border-radius:4px;background-color:#fff;box-shadow:0 0 0 1px rgba(61,68,79,.06),0 5px 12px 0 rgba(61,68,79,.3);background-clip:padding-box;display:none;position:absolute;top:40px;left:0;width:100%;z-index:1000}.dao-select-options .dao-tabset .dao-tab-nav{background-color:#f5f7fa;padding:10px 10px 0;margin-top:0;border-top-left-radius:4px;border-top-right-radius:4px}.dao-select-options .search-container{background-color:#f5f7fa;padding:10px;border-top-left-radius:4px;border-top-right-radius:4px;border-bottom:1px solid #e4e7ed}.dao-select-options .search-container .dao-input.search,.dao-select-options .search-container .dao-input.search input{width:100%}.dao-select-options .search-container+.dao-tabset .dao-tab-nav{padding-top:0}.dao-select-options.withSearch .dao-select-items{margin-top:0}.dao-select-options.withSearch .dao-select-items .dao-select-category:first-child .dao-select-category-label{border-top:none}.dao-select-category:first-child .dao-select-category-label{margin-top:0}.dao-select-options.withTab .dao-select-category:first-child .dao-select-category-label{border-top:none}.dao-select-options.withTab .dao-select-items{margin:0;max-height:none}.dao-select-options.withTab .dao-select-items .dao-tab-content{max-height:200px;overflow-y:auto;margin:0 0 5px}.dao-select-options.withTab.withSearch .search-container{margin-bottom:-1px}.dao-select-noOption{padding:5px 20px;color:#9ba3af}.dao-select-items{max-height:200px;overflow-y:auto;margin:5px 0}.dao-select-items .dao-select-category{padding:0;margin:0}.dao-select-items .dao-select-category-label{padding:0 10px;margin:5px 0;background-color:#f5f7fa;border-top:1px solid #e4e7ed;font-size:12px;height:20px;line-height:20px}.dao-select-items .dao-option-item{padding:5px 10px 5px 30px;cursor:pointer;line-height:20px;word-break:break-all;position:relative}.dao-select-items .dao-option-item svg.icon{visibility:hidden;position:absolute;left:10px;top:7.5px}.dao-select-items .dao-option-item svg.icon+span.text{display:inline;margin-left:0;line-height:22px}.dao-select-items .dao-option-item.disabled{cursor:default;color:#ccd1d9}.dao-select-items .dao-option-item:hover{background-color:#3890ff;color:#fff}.dao-select-items .dao-option-item.active svg{visibility:visible}.dao-select-items .dao-option-item.active svg.icon+span.text{margin-left:0}.dao-select.open .dao-select-options{display:block}.dao-select.open .dao-select-input{background-color:rgba(204,209,217,.15);box-shadow:inset 0 1px 3px 0 rgba(0,0,0,.07),inset 0 0 4px 0 rgba(0,0,0,.08)}.dao-select.disabled .dao-select-input:hover{background-color:transparent;background-image:-webkit-gradient(linear,left bottom,left top,from(rgba(61,68,79,.05)),to(rgba(61,68,79,0)));background-image:-webkit-linear-gradient(bottom,rgba(61,68,79,.05),rgba(61,68,79,0));background-image:linear-gradient(0deg,rgba(61,68,79,.05) 0,rgba(61,68,79,0))}.dao-select.disabled .dao-select-btn,.dao-select.disabled .dao-select-input{cursor:not-allowed}.dao-select.disabled .dao-select-chosen{color:#ccd1d9}.dao-select.disabled .dao-select-svg svg{fill:#ccd1d9}", ""]);
+	exports.push([module.id, ".dao-select{color:#3d444f;position:relative;display:inline-block;width:287px}.dao-select-header{width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;overflow:hidden}.dao-select-header.withBtn .dao-select-input{border-top-right-radius:0;border-bottom-right-radius:0;border-right:0;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;width:0}.dao-select-btn{-webkit-box-flex:0;-webkit-flex-grow:0;-ms-flex-positive:0;flex-grow:0;border-top-left-radius:0;border-bottom-left-radius:0;height:32px}.dao-select-input{width:100%;position:relative;height:32px;background-image:-webkit-gradient(linear,left bottom,left top,from(rgba(61,68,79,.05)),to(rgba(61,68,79,0)));background-image:-webkit-linear-gradient(bottom,rgba(61,68,79,.05),rgba(61,68,79,0));background-image:linear-gradient(0deg,rgba(61,68,79,.05) 0,rgba(61,68,79,0));border:1px solid #ccd1d9;border-radius:4px;cursor:pointer}.dao-select-input:hover{background-color:rgba(204,209,217,.1)}.dao-select-svg{position:absolute;right:10px;top:7px;width:16px;height:16px}.dao-select-svg svg{width:16px;height:16px;fill:#3d444f}.dao-select-chosen{height:30px;line-height:30px;padding:0 10px;margin-right:30px;overflow:hidden;text-overflow:ellipsis;word-break:keep-all;white-space:nowrap}.dao-select-chosen span.dao-select-chosen-tab,.dao-select-default{color:#9ba3af}.dao-select-options{padding:0;margin:0 0 20px;list-style:none;text-align:left;border-radius:4px;background-color:#fff;box-shadow:0 0 0 1px rgba(61,68,79,.06),0 5px 12px 0 rgba(61,68,79,.3);background-clip:padding-box;display:none;position:absolute;top:40px;left:0;width:100%;z-index:1000}.dao-select-options .dao-tabset .dao-tab-nav{background-color:#f5f7fa;padding:10px 10px 0;margin-top:0;border-top-left-radius:4px;border-top-right-radius:4px}.dao-select-options .search-container{background-color:#f5f7fa;padding:10px;border-top-left-radius:4px;border-top-right-radius:4px;border-bottom:1px solid #e4e7ed}.dao-select-options .search-container input.dao-control.search{width:100%}.dao-select-options .search-container+.dao-tabset .dao-tab-nav{padding-top:0}.dao-select-options.withSearch .dao-select-items{margin-top:0}.dao-select-options.withSearch .dao-select-items .dao-select-category:first-child .dao-select-category-label{border-top:none}.dao-select-category:first-child .dao-select-category-label{margin-top:0}.dao-select-options.withTab .dao-select-category:first-child .dao-select-category-label{border-top:none}.dao-select-options.withTab .dao-select-items{margin:0;max-height:none}.dao-select-options.withTab .dao-select-items .dao-tab-content{max-height:200px;overflow-y:auto;margin:0 0 5px}.dao-select-options.withTab.withSearch .search-container{margin-bottom:-1px}.dao-select-noOption{padding:10px 20px 5px;color:#9ba3af}.dao-select-items{max-height:200px;overflow-y:auto;margin:5px 0}.dao-select-items .dao-select-category{padding:0;margin:0}.dao-select-items .dao-select-category-label{color:#9ba3af;padding:0 10px;margin:5px 0 0;background-color:#f5f7fa;border-top:1px solid #e4e7ed;font-size:12px;height:20px;line-height:20px}.dao-select-items .dao-option-item{padding:5px 10px 5px 30px;cursor:pointer;line-height:20px;word-break:break-all;position:relative}.dao-select-items .dao-option-item svg.icon{visibility:hidden;position:absolute;left:10px;top:7.5px}.dao-select-items .dao-option-item svg.icon+span.text{display:inline;margin-left:0;line-height:22px}.dao-select-items .dao-option-item.disabled{cursor:default;color:#ccd1d9}.dao-select-items .dao-option-item:hover{background-color:#3890ff;color:#fff}.dao-select-items .dao-option-item.active svg{visibility:visible}.dao-select-items .dao-option-item.active svg.icon+span.text{margin-left:0}.dao-select.open .dao-select-options{display:block}.dao-select.open .dao-select-input{background-color:rgba(204,209,217,.15);box-shadow:inset 0 1px 3px 0 rgba(0,0,0,.07),inset 0 0 4px 0 rgba(0,0,0,.08)}.dao-select.disabled .dao-select-input:hover{background-color:transparent;background-image:-webkit-gradient(linear,left bottom,left top,from(rgba(61,68,79,.05)),to(rgba(61,68,79,0)));background-image:-webkit-linear-gradient(bottom,rgba(61,68,79,.05),rgba(61,68,79,0));background-image:linear-gradient(0deg,rgba(61,68,79,.05) 0,rgba(61,68,79,0))}.dao-select.disabled .dao-select-btn,.dao-select.disabled .dao-select-input{cursor:not-allowed}.dao-select.disabled .dao-select-chosen{color:#ccd1d9}.dao-select.disabled .dao-select-svg svg{fill:#ccd1d9}", ""]);
 	
 	// exports
 
 
 /***/ },
-/* 258 */
+/* 321 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7454,17 +8128,17 @@
 	  value: true
 	});
 	
-	var _classCallCheck2 = __webpack_require__(174);
+	var _classCallCheck2 = __webpack_require__(237);
 	
 	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 	
-	var _createClass2 = __webpack_require__(175);
+	var _createClass2 = __webpack_require__(238);
 	
 	var _createClass3 = _interopRequireDefault(_createClass2);
 	
 	exports.default = SelectDirective;
 	
-	var _daoSelect = __webpack_require__(259);
+	var _daoSelect = __webpack_require__(322);
 	
 	var _daoSelect2 = _interopRequireDefault(_daoSelect);
 	
@@ -7472,49 +8146,41 @@
 	
 	function SelectDirective() {
 	
-	  // function linkFun(scope, el, attrs) {
-	  //   scope.attrs = attrs;
-	  //   if (!attrs.disabled) {
-	  //     scope.click = () => {
-	  //       scope.ngModel = !scope.ngModel;
-	  //     }
-	  //   }
-	  //   if (scope.ngChange) {
-	  //     scope.$watch('ngModel', (newValue, oldValue) => {
-	  //       if (oldValue !== undefined) {
-	  //         scope.ngChange();
-	  //       }
-	  //     })
-	  //   }
-	  // }
+	  function linkFun(scope, element, attrs, ngModel) {
+	    if (!ngModel) {
+	      return;
+	    }
+	    ngModel.$render = function () {};
+	    scope.set = function (selected) {
+	      ngModel.$setViewValue(selected);
+	    };
+	  }
 	
 	  return {
 	    restrict: 'AE',
 	    replace: true,
+	    require: 'ngModel',
 	    transclude: true,
 	    scope: {
-	      // ngModel: '=',
-	
-	      selected: '=?',
-	      withSearch: '=?',
-	      withBtn: '=?',
-	      withTab: '=?',
+	      ngModel: '=',
+	      withSearch: '@',
+	      withBtn: '@',
+	      withTab: '@',
 	      searchPlaceholder: '@',
 	      defaultTitle: '@',
 	      btnContent: '@',
 	      btnEvent: '=?',
-	      disabled: '@'
+	      disabled: '='
 	    },
 	
 	    controller: SelectController,
 	    controllerAs: 'vm',
 	    bindToController: true,
 	
-	    template: _daoSelect2.default
+	    template: _daoSelect2.default,
+	    link: linkFun
 	  };
 	}
-	
-	// link: linkFun
 	
 	var SelectController = function () {
 	  SelectController.$inject = ["$scope", "$element", "$document", "$rootScope"];
@@ -7537,17 +8203,22 @@
 	    this.$options = [];
 	    this.$optionGroup = [];
 	
-	    $scope.$on('$destroy', function () {
-	      // console.log('销毁');
-	    });
-	    $scope.$watch('vm.selected', function (selected) {
+	    $scope.$watch('vm.ngModel', function (selected) {
 	      // console.log('selected变化了');
 	      if (selected == null) {
 	        _this.$options.forEach(function (option) {
 	          option.isSelected = false;
 	        });
 	      }
+	      _this.$options.forEach(function (option) {
+	        if (option.value == selected) {
+	          option.isSelected = true;
+	        } else {
+	          option.isSelected = false;
+	        }
+	      });
 	    });
+	
 	    $scope.$watch('vm.filter', function (search) {
 	      // console.log(search);
 	      _this.$options.forEach(function (option) {
@@ -7611,7 +8282,7 @@
 	  }, {
 	    key: 'isEmpty',
 	    value: function isEmpty() {
-	      if (this.selected == null) {
+	      if (this.ngModel == null) {
 	        return true;
 	      } else {
 	        return false;
@@ -7620,7 +8291,7 @@
 	  }, {
 	    key: 'toggleOptions',
 	    value: function toggleOptions() {
-	      if (this.disabled == 'disabled') {
+	      if (!!this.disabled) {
 	        return;
 	      }
 	
@@ -7643,18 +8314,16 @@
 	  }, {
 	    key: 'setSelected',
 	    value: function setSelected(selected) {
-	      var _this2 = this;
-	
-	      this.selected = selected;
 	      this.$options.forEach(function (option) {
 	        // console.log(option);
-	        if (option.value == _this2.selected.value) {
+	        if (option.value == selected) {
 	          option.isSelected = true;
 	        } else {
 	          option.isSelected = false;
 	        }
 	      });
 	      this.closeOptions();
+	      this.$scope.set(selected);
 	    }
 	  }, {
 	    key: 'closeOptions',
@@ -7667,18 +8336,36 @@
 	        this.$scope.$digest();
 	      }
 	    }
+	  }, {
+	    key: 'getText',
+	    value: function getText() {
+	      for (var i = 0; i < this.$options.length; i++) {
+	        if (angular.equals(this.$options[i].value, this.ngModel)) {
+	          return this.$options[i].text;
+	        }
+	      }
+	    }
+	  }, {
+	    key: 'getTab',
+	    value: function getTab() {
+	      for (var i = 0; i < this.$options.length; i++) {
+	        if (angular.equals(this.$options[i].value, this.ngModel)) {
+	          return this.$options[i].tabName;
+	        }
+	      }
+	    }
 	  }]);
 	  return SelectController;
 	}();
 
 /***/ },
-/* 259 */
+/* 322 */
 /***/ function(module, exports) {
 
-	module.exports = "<div class=\"dao-select\" ng-class=\"{'open': vm.isOpen,'disabled': vm.disabled == 'disabled'}\">\n\n  <div class=\"dao-select-header\" ng-class=\"{'withBtn': vm.withBtn}\">\n    <div class=\"dao-select-input\" ng-click=\"vm.toggleOptions()\">\n      <div class=\"dao-select-chosen dao-select-default\" ng-show=\"vm.isEmpty()\">{{vm.defaultTitle}}</div>\n      <div class=\"dao-select-chosen\" ng-hide=\"vm.isEmpty()\"><span class=\"dao-select-chosen-tab\" ng-hide=\"!vm.selected.tab\">{{vm.selected.tab}}:&nbsp</span>{{vm.selected.name}}</div>\n      <span class=\"dao-select-svg\"><svg><use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_caret-down\"></use></svg></span>\n    </div>\n    <div class=\"dao-btn blue dao-select-btn\" ng-if=\"vm.withBtn\" ng-click=\"vm.btnEvent()\">{{vm.btnContent}}</div>\n  </div>\n\n  <div class=\"dao-select-options\" ng-class=\"{'withTab': vm.withTab, 'withSearch': vm.withSearch}\">\n\n    <div class=\"search-container\" ng-if=\"vm.withSearch\">\n      <div class=\"dao-input search\">\n        <svg class=\"search-icon\">\n          <use xlink:href=\"#icon_search\"></use>\n        </svg>\n        <input type=\"text\" placeholder=\"{{vm.searchPlaceholder}}\" ng-model=\"vm.filter\">\n      </div>\n    </div>\n\n    <div class=\"dao-select-items\" ng-transclude></div>\n\n  </div>\n\n</div>\n"
+	module.exports = "<div class=\"dao-select\" ng-class=\"{'open': vm.isOpen,'disabled': !!vm.disabled}\">\n\n  <div class=\"dao-select-header\" ng-class=\"{'withBtn': vm.withBtn}\">\n    <div class=\"dao-select-input\" ng-click=\"vm.toggleOptions()\">\n      <div class=\"dao-select-chosen dao-select-default\" ng-show=\"vm.isEmpty()\">{{vm.defaultTitle}}</div>\n      <div class=\"dao-select-chosen\" ng-hide=\"vm.isEmpty()\"><span class=\"dao-select-chosen-tab\" ng-show=\"vm.getTab()\">{{vm.getTab()}}:&nbsp;</span>{{vm.getText()}}</div>\n      <span class=\"dao-select-svg\"><svg><use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#icon_caret-down\"></use></svg></span>\n    </div>\n    <div class=\"dao-btn blue dao-select-btn\" ng-if=\"vm.withBtn\" ng-click=\"vm.btnEvent()\">{{vm.btnContent}}</div>\n  </div>\n\n  <div class=\"dao-select-options\" ng-class=\"{'withTab': vm.withTab, 'withSearch': vm.withSearch}\">\n\n    <div class=\"search-container\" ng-if=\"vm.withSearch\">\n      <input class=\"dao-control search\"\n             type=\"text\"\n             placeholder=\"{{vm.searchPlaceholder}}\"\n             ng-model=\"vm.filter\"\n             required>\n    </div>\n\n    <div class=\"dao-select-items\" ng-transclude></div>\n\n  </div>\n\n</div>\n"
 
 /***/ },
-/* 260 */
+/* 323 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7688,7 +8375,7 @@
 	});
 	exports.default = OptionDirective;
 	
-	var _daoOption = __webpack_require__(261);
+	var _daoOption = __webpack_require__(324);
 	
 	var _daoOption2 = _interopRequireDefault(_daoOption);
 	
@@ -7705,7 +8392,7 @@
 	      value: '=',
 	      text: '=',
 	      tabName: '@',
-	      disabled: '@'
+	      disabled: '='
 	    },
 	
 	    // controller: OptionController,
@@ -7732,26 +8419,16 @@
 	      optionGroupCtrl.addOption(scope);
 	    }
 	
-	    function setSelected(value, text, tab) {
-	      if (scope.disabled == 'disabled') {
-	        // console.log('aa');
+	    function setSelected(value) {
+	      if (!!scope.disabled) {
 	        return;
 	      }
-	      var selected = void 0;
-	      if (tab) {
-	        selected = { 'name': text, 'value': value, 'tab': tab };
-	      } else {
-	        selected = { 'name': text, 'value': value };
-	      }
+	      var selected = value;
 	      selectCtrl.setSelected(selected);
 	    }
 	    scope.setSelected = setSelected;
 	
-	    if (selectCtrl.selected) {
-	      scope.isSelected = selectCtrl.selected.value == scope.value ? true : false;
-	    } else {
-	      scope.isSelected = false;
-	    }
+	    scope.isSelected = angular.equals(selectCtrl.ngModel, scope.value);
 	
 	    scope.isShow = true;
 	  }
@@ -7776,13 +8453,13 @@
 	// }
 
 /***/ },
-/* 261 */
+/* 324 */
 /***/ function(module, exports) {
 
-	module.exports = "<div class=\"dao-option-item\" ng-click=\"setSelected(value, text, tabName)\" ng-class=\"{'active': isSelected, 'disabled': disabled == 'disabled'}\" ng-show=\"isShow\">\n  <svg class=\"icon\">\n    <use xlink:href=\"#icon_checkmark\"></use>\n  </svg>\n  <span class=\"text\">{{text}}</span>\n</div>\n"
+	module.exports = "<div class=\"dao-option-item\" ng-click=\"setSelected(value)\" ng-class=\"{'active': isSelected, 'disabled': !!disabled}\" ng-show=\"isShow\">\n  <svg class=\"icon\">\n    <use xlink:href=\"#icon_checkmark\"></use>\n  </svg>\n  <span class=\"text\">{{text}}</span>\n</div>\n"
 
 /***/ },
-/* 262 */
+/* 325 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7791,17 +8468,17 @@
 	  value: true
 	});
 	
-	var _classCallCheck2 = __webpack_require__(174);
+	var _classCallCheck2 = __webpack_require__(237);
 	
 	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 	
-	var _createClass2 = __webpack_require__(175);
+	var _createClass2 = __webpack_require__(238);
 	
 	var _createClass3 = _interopRequireDefault(_createClass2);
 	
 	exports.default = OptionGroupDirective;
 	
-	var _daoOptionGroup = __webpack_require__(263);
+	var _daoOptionGroup = __webpack_require__(326);
 	
 	var _daoOptionGroup2 = _interopRequireDefault(_daoOptionGroup);
 	
@@ -7829,6 +8506,9 @@
 	  };
 	  function linkFun(scope, element, attrs, selectCtrl) {
 	    selectCtrl.addOptionGroup(scope);
+	    // if(!attrs.hasOwnProperty('noOptionTip')) {
+	    //   scope.vm.hasTip = false;
+	    // }
 	  }
 	}
 	
@@ -7839,9 +8519,7 @@
 	
 	    (0, _classCallCheck3.default)(this, OptionGroupController);
 	    this.$options = [];
-	
 	    this.$scope = $scope;
-	    // this.isShow = true;
 	    this.showTip = false;
 	  }
 	
@@ -7861,13 +8539,13 @@
 	}();
 
 /***/ },
-/* 263 */
+/* 326 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao-select-category\">\n  <div class=\"dao-select-category-label\" ng-if=\"vm.label\">{{vm.label}}</div>\n  <div ng-transclude></div>\n  <div class=\"dao-select-noOption\" ng-show=\"vm.showTip\">{{vm.noOptionTip}}</div>\n</div>\n"
 
 /***/ },
-/* 264 */
+/* 327 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7876,7 +8554,7 @@
 	  value: true
 	});
 	
-	var _daoFeedbackDirective = __webpack_require__(265);
+	var _daoFeedbackDirective = __webpack_require__(328);
 	
 	var _daoFeedbackDirective2 = _interopRequireDefault(_daoFeedbackDirective);
 	
@@ -7887,7 +8565,7 @@
 	exports.default = 'dao.feedback';
 
 /***/ },
-/* 265 */
+/* 328 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -7896,7 +8574,7 @@
 	  value: true
 	});
 	
-	__webpack_require__(266);
+	__webpack_require__(329);
 	
 	function DaoFeedbackDirective() {
 	
@@ -7979,13 +8657,13 @@
 	exports.default = DaoFeedbackDirective;
 
 /***/ },
-/* 266 */
+/* 329 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(267);
+	var content = __webpack_require__(330);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -8005,7 +8683,7 @@
 	}
 
 /***/ },
-/* 267 */
+/* 330 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -8013,13 +8691,13 @@
 	
 	
 	// module
-	exports.push([module.id, ".dao-feedback{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex}.dao-feedback.hidden{display:none}.dao-feedback.animated{-webkit-animation-duration:1.5s;animation-duration:1.5s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.dao-feedback.fadeOut{-webkit-animation-name:fadeOut;animation-name:fadeOut}.dao-feedback .icon{margin-left:10px}.dao-feedback .icon.spin{-webkit-animation:spin 1.5s infinite linear;animation:spin 1.5s infinite linear}.dao-feedback .icon.success{fill:#22c36a}.dao-feedback .icon.loading{fill:#9ba3af}.dao-feedback .icon.warning{fill:#f7b32b}.dao-feedback .icon.error{fill:#ed5565}@-webkit-keyframes fadeOut{0%{opacity:1}to{opacity:0}}@keyframes fadeOut{0%{opacity:1}to{opacity:0}}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@keyframes spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}", ""]);
+	exports.push([module.id, ".dao-feedback{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;vertical-align:middle}.dao-feedback.hidden{display:none}.dao-feedback.animated{-webkit-animation-duration:1.5s;animation-duration:1.5s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.dao-feedback.fadeOut{-webkit-animation-name:fadeOut;animation-name:fadeOut}.dao-feedback .icon{margin-left:10px}.dao-feedback .icon.spin{-webkit-animation:spin 1.5s infinite linear;animation:spin 1.5s infinite linear}.dao-feedback .icon.success{fill:#22c36a}.dao-feedback .icon.loading{fill:#9ba3af}.dao-feedback .icon.warning{fill:#f7b32b}.dao-feedback .icon.error{fill:#ed5565}@-webkit-keyframes fadeOut{0%{opacity:1}to{opacity:0}}@keyframes fadeOut{0%{opacity:1}to{opacity:0}}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@keyframes spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}", ""]);
 	
 	// exports
 
 
 /***/ },
-/* 268 */
+/* 331 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8028,9 +8706,9 @@
 	  value: true
 	});
 	
-	__webpack_require__(269);
+	__webpack_require__(332);
 	
-	var _daoSwitch = __webpack_require__(271);
+	var _daoSwitch = __webpack_require__(334);
 	
 	var _daoSwitch2 = _interopRequireDefault(_daoSwitch);
 	
@@ -8043,13 +8721,13 @@
 	exports.default = moduleName;
 
 /***/ },
-/* 269 */
+/* 332 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(270);
+	var content = __webpack_require__(333);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -8069,7 +8747,7 @@
 	}
 
 /***/ },
-/* 270 */
+/* 333 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -8083,7 +8761,7 @@
 
 
 /***/ },
-/* 271 */
+/* 334 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8092,7 +8770,7 @@
 	  value: true
 	});
 	
-	var _daoSwitch = __webpack_require__(272);
+	var _daoSwitch = __webpack_require__(335);
 	
 	var _daoSwitch2 = _interopRequireDefault(_daoSwitch);
 	
@@ -8132,13 +8810,13 @@
 	exports.default = SwitchDirective;
 
 /***/ },
-/* 272 */
+/* 335 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao-switch\">\n  <span class=\"dao-switch-button\" ng-class=\"{'checked': ngModel, 'disabled': attrs.disabled}\" ng-click=\"click()\">\n    <small></small>\n    <input type=\"checkbox\" id=\"{{attrs.id}}\" name=\"{{attrs.name}}\" ng-model=\"ngModel\" style=\"display:none\">\n    <span class=\"dao-switch-text\">\n      <span class=\"on\">{{attrs.on}}</span>\n      <span class=\"off\">{{attrs.off}}</span>\n    </span>\n  </span>\n  <span class=\"dao-switch-notice\" ng-show=\"attrs.withNotice\">\n  \t<span ng-show=\"!option.on || !option.off\">{{ngModel ? '已开启' : '已关闭'}}</span>\n  \t<span ng-show=\"option.on && option.off\">\n  \t\t{{ngModel ? option.on : option.off}}\n  \t</span>\n  </span>\n</div>\n"
 
 /***/ },
-/* 273 */
+/* 336 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8147,15 +8825,15 @@
 	  value: true
 	});
 	
-	var _radioGroup = __webpack_require__(274);
+	var _radioGroup = __webpack_require__(337);
 	
 	var _radioGroup2 = _interopRequireDefault(_radioGroup);
 	
-	var _radioBlock = __webpack_require__(276);
+	var _radioBlock = __webpack_require__(339);
 	
 	var _radioBlock2 = _interopRequireDefault(_radioBlock);
 	
-	var _radioGrid = __webpack_require__(278);
+	var _radioGrid = __webpack_require__(341);
 	
 	var _radioGrid2 = _interopRequireDefault(_radioGrid);
 	
@@ -8171,7 +8849,7 @@
 	exports.default = moduleName;
 
 /***/ },
-/* 274 */
+/* 337 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8180,15 +8858,15 @@
 	  value: true
 	});
 	
-	var _classCallCheck2 = __webpack_require__(174);
+	var _classCallCheck2 = __webpack_require__(237);
 	
 	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 	
-	var _createClass2 = __webpack_require__(175);
+	var _createClass2 = __webpack_require__(238);
 	
 	var _createClass3 = _interopRequireDefault(_createClass2);
 	
-	var _radioGroup = __webpack_require__(275);
+	var _radioGroup = __webpack_require__(338);
 	
 	var _radioGroup2 = _interopRequireDefault(_radioGroup);
 	
@@ -8291,13 +8969,13 @@
 	exports.default = RadioGroupDirective;
 
 /***/ },
-/* 275 */
+/* 338 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao-radio-group\" ng-transclude>\n\n</div>\n"
 
 /***/ },
-/* 276 */
+/* 339 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8306,7 +8984,7 @@
 	  value: true
 	});
 	
-	var _radioBlock = __webpack_require__(277);
+	var _radioBlock = __webpack_require__(340);
 	
 	var _radioBlock2 = _interopRequireDefault(_radioBlock);
 	
@@ -8342,13 +9020,13 @@
 	exports.default = RadioBlockDirective;
 
 /***/ },
-/* 277 */
+/* 340 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao-radio-block\" ng-class=\"{'active': checked, 'disabled': disabled}\" ng-click=\"check()\">\n  <label>\n    <input type=\"radio\" id=\"{{id}}\" name=\"{{name}}\" value=\"{{value}}\" ng-checked=\"checked\">\n    <div>\n      <div class=\"dao-radio-block-headline\">\n        {{headline}}\n      </div>\n      <div class=\"dao-radio-block-description\">\n        {{description}}\n      </div>\n    </div>\n  </label>\n</div>\n"
 
 /***/ },
-/* 278 */
+/* 341 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8357,7 +9035,7 @@
 	  value: true
 	});
 	
-	var _radioGrid = __webpack_require__(279);
+	var _radioGrid = __webpack_require__(342);
 	
 	var _radioGrid2 = _interopRequireDefault(_radioGrid);
 	
@@ -8396,13 +9074,13 @@
 	exports.default = RadioGridDirective;
 
 /***/ },
-/* 279 */
+/* 342 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao-radio-grid\" ng-class=\"{'active': checked, 'disabled': disabled}\" ng-click=\"check()\">\n  <svg class=\"checked-icon\" ng-show=\"checked\">\n    <use xlink:href=\"#icon_success\"></use>\n  </svg>\n  <div class=\"dao-radio-grid-wrap\">\n    <div class=\"dao-radio-grid-img\" ng-transclude>\n\n    </div>\n    <div class=\"dao-radio-grid-headline\">\n      {{headline}}\n    </div>\n    <div class=\"dao-radio-grid-description\">\n      {{description}}\n    </div>\n  </div>\n</div>\n"
 
 /***/ },
-/* 280 */
+/* 343 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8411,17 +9089,17 @@
 	  value: true
 	});
 	
-	__webpack_require__(281);
+	__webpack_require__(344);
 	
-	var _daoTab = __webpack_require__(283);
+	var _daoTab = __webpack_require__(346);
 	
 	var _daoTab2 = _interopRequireDefault(_daoTab);
 	
-	var _daoTabset = __webpack_require__(284);
+	var _daoTabset = __webpack_require__(347);
 	
 	var _daoTabset2 = _interopRequireDefault(_daoTabset);
 	
-	var _daoTab3 = __webpack_require__(285);
+	var _daoTab3 = __webpack_require__(348);
 	
 	var daotab = _interopRequireWildcard(_daoTab3);
 	
@@ -8436,13 +9114,13 @@
 	exports.default = moduleName;
 
 /***/ },
-/* 281 */
+/* 344 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(282);
+	var content = __webpack_require__(345);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -8462,7 +9140,7 @@
 	}
 
 /***/ },
-/* 282 */
+/* 345 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -8476,19 +9154,19 @@
 
 
 /***/ },
-/* 283 */
+/* 346 */
 /***/ function(module, exports) {
 
 	module.exports = "<li ng-class=\"[{active: active, disabled: disabled}, classes]\" class=\"dao-tab-nav-item\">\n  <a href ng-click=\"select($event)\" class=\"dao-tab-nav-link\" dao-tab-heading-transclude>{{heading}}</a>\n</li>\n"
 
 /***/ },
-/* 284 */
+/* 347 */
 /***/ function(module, exports) {
 
 	module.exports = "<div>\n  <ul class=\"dao-tab-nav dao-tab-nav-{{tabset.type || 'tabs'}}\" ng-class=\"{'dao-tab-nav-stacked': vertical, 'dao-tab-nav-justified': justified}\" ng-transclude></ul>\n  <div class=\"dao-tab-content\">\n    <div class=\"dao-tab-pane\"\n         ng-repeat=\"tab in tabset.tabs\"\n         ng-class=\"{active: tabset.active === tab.index}\"\n         dao-tab-content-transclude=\"tab\">\n    </div>\n  </div>\n</div>\n"
 
 /***/ },
-/* 285 */
+/* 348 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8504,11 +9182,11 @@
 	exports.daoTabHeadingTransclude = daoTabHeadingTransclude;
 	exports.daoTabContentTransclude = daoTabContentTransclude;
 	
-	var _daoTab = __webpack_require__(283);
+	var _daoTab = __webpack_require__(346);
 	
 	var _daoTab2 = _interopRequireDefault(_daoTab);
 	
-	var _daoTabset = __webpack_require__(284);
+	var _daoTabset = __webpack_require__(347);
 	
 	var _daoTabset2 = _interopRequireDefault(_daoTabset);
 	
@@ -8734,7 +9412,7 @@
 	}
 
 /***/ },
-/* 286 */
+/* 349 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8743,11 +9421,11 @@
 	  value: true
 	});
 	
-	var _editableTable = __webpack_require__(287);
+	var _editableTable = __webpack_require__(350);
 	
 	var _editableTable2 = _interopRequireDefault(_editableTable);
 	
-	var _daoFixedTable = __webpack_require__(289);
+	var _daoFixedTable = __webpack_require__(352);
 	
 	var _daoFixedTable2 = _interopRequireDefault(_daoFixedTable);
 	
@@ -8760,7 +9438,7 @@
 	exports.default = moduleName;
 
 /***/ },
-/* 287 */
+/* 350 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8769,15 +9447,15 @@
 	  value: true
 	});
 	
-	var _classCallCheck2 = __webpack_require__(174);
+	var _classCallCheck2 = __webpack_require__(237);
 	
 	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 	
-	var _createClass2 = __webpack_require__(175);
+	var _createClass2 = __webpack_require__(238);
 	
 	var _createClass3 = _interopRequireDefault(_createClass2);
 	
-	var _editableTable = __webpack_require__(288);
+	var _editableTable = __webpack_require__(351);
 	
 	var _editableTable2 = _interopRequireDefault(_editableTable);
 	
@@ -8825,8 +9503,15 @@
 	          return;
 	        }
 	
+	        // 先自动取消
+	        if (typeof _this.editIndex === 'number') {
+	          _this.cancel();
+	        }
+	
 	        // 只要外部的数据发生变化就更新列表内容
 	        _this.data_clone = angular.copy(newV, {});
+	        // data 重新赋值了，地址都变了的情况
+	        _this.data = newV;
 	      }, true);
 	
 	      angular.element(window.document).on('click', function (e) {
@@ -8949,14 +9634,6 @@
 	
 	      if (typeof this.editIndex !== 'number') return true;
 	
-	      if (this.option.checkFun) {
-	        var errorMessage = this.option.checkFun(this.data_clone.body);
-	        if (errorMessage) {
-	          this.option.errorMessage = errorMessage;
-	          return false;
-	        }
-	      };
-	
 	      var correct = true;
 	      this.option.errorMessage = '';
 	      angular.forEach(this.data_clone.body[this.editIndex], function (v) {
@@ -8978,6 +9655,17 @@
 	          }
 	        }
 	      });
+	
+	      if (!correct) {
+	        return correct;
+	      } else if (this.option.checkFun) {
+	        var errorMessage = this.option.checkFun(this.data_clone.body);
+	        if (errorMessage) {
+	          this.option.errorMessage = errorMessage;
+	          return false;
+	        }
+	      }
+	
 	      return correct;
 	    }
 	  }]);
@@ -8987,13 +9675,13 @@
 	exports.default = editableTableDirective;
 
 /***/ },
-/* 288 */
+/* 351 */
 /***/ function(module, exports) {
 
-	module.exports = "<div class=\"dao-table-container edit-table\">\n  <div class=\"dao-table-main\">\n    <table class=\"dao-table row\">\n      <thead>\n        <th ng-repeat=\"header in vm.data_clone.header\">{{header}}</th>\n      </thead>\n      <tbody>\n        <tr ng-repeat=\"row in vm.data_clone.body track by $index\" ng-class=\"{selected: vm.editIndex === rowIndex}\" ng-init=\"rowIndex = $index\">\n          <td ng-repeat=\"td in row\" ng-class=\"{'operate-col': td.type === 'operate'}\">\n            <div ng-show=\"vm.editIndex !== rowIndex\">\n              {{ td.label || td.value }}\n              <div ng-if=\"td.type === 'switch' && td.theme ==='plug'\">\n                <svg ng-if=\"td.status\" style=\"fill: #22c36a;\">\n                  <use xlink:href=\"#icon_plugged\"></use>\n                </svg>\n                <svg ng-if=\"!td.status\" style=\"fill: #f56e25;\">\n                  <use xlink:href=\"#icon_unplugged\"></use>\n                </svg>\n              </div>\n              <div class=\"operate\" ng-if=\"td.type === 'operate'\">\n                <svg ng-click=\"vm.edit(rowIndex)\" ng-if=\"td.edit\">\n                  <use xlink:href=\"#icon_pencil\"></use>\n                </svg>\n                <svg ng-click=\"vm.delete(rowIndex)\" ng-if=\"td.delete\">\n                  <use xlink:href=\"#icon_trash\"></use>\n                </svg>\n              </div>\n            </div>\n            <div class=\"editing\" ng-show=\"vm.editIndex === rowIndex\">\n              <span ng-if=\"!td.editable\">{{td.value}}</span>\n              <dao-input-container error=\"td.error\" ng-if=\"td.editable && !td.type && !td.options\">\n                <input type=\"text\" ng-model=\"td.value\" placeholder=\"{{td.placeholder}}\">\n              </dao-input-container>\n              <select ng-model=\"td.value\"\n                      ng-options=\"option for option in td.options\"\n                      ng-if=\"td.editable && td.options && !td.label\"></select>\n              <select ng-model=\"td.value\"\n                      ng-options=\"option.value as option.label for option in td.options\"\n                      ng-change=\"vm.updateCell(td)\"\n                      ng-if=\"td.editable && td.options && td.label && td.options[0].value\"></select>\n              <div class=\"switch\" ng-if=\"td.type === 'switch' && td.theme ==='plug'\">\n                <svg ng-show=\"td.status\" ng-click=\"vm.switch(rowIndex, $index)\" style=\"fill: #22c36a;\">\n                  <use xlink:href=\"#icon_plugged\"></use>\n                </svg>\n                <svg ng-show=\"!td.status\" ng-click=\"vm.switch(rowIndex, $index)\" style=\"fill: #f56e25;\">\n                  <use xlink:href=\"#icon_unplugged\"></use>\n                </svg>\n              </div>\n              <div class=\"operate\" ng-if=\"td.type === 'operate'\">\n                <div class=\"dao-btn ghost\" ng-click=\"vm.cancel()\">取消</div>\n              </div>\n            </div>\n          </td>\n        </tr>\n      </tbody>\n    </table>\n    <div class=\"empty-state\" ng-show=\"!vm.data_clone || !vm.data_clone.body || !vm.data_clone.body.length\">\n      <div class=\"empty-state-title\">列表为空</div>\n    </div>\n  </div>\n  <div class=\"table-bottom\">\n    <div class=\"dao-btn blue\" ng-click=\"vm.add()\" ng-if=\"vm.option.addRow && vm.option.addRow.addButton\">\n      {{vm.option.addRow.addButton}}\n    </div>\n    <div class=\"error-info\" ng-show=\"vm.option.errorMessage\">\n      {{vm.option.errorMessage}}\n    </div>\n  </div>\n</div>\n"
+	module.exports = "<div class=\"dao-table-container edit-table\">\n  <div class=\"dao-table-main\">\n    <table class=\"dao-table row\">\n      <thead>\n        <th ng-repeat=\"header in vm.data_clone.header\">{{header}}</th>\n      </thead>\n      <tbody>\n        <tr ng-repeat=\"row in vm.data_clone.body track by $index\" ng-class=\"{selected: vm.editIndex === rowIndex}\" ng-init=\"rowIndex = $index\">\n          <td ng-repeat=\"td in row\" ng-class=\"{'operate-col': td.type === 'operate'}\">\n            <div ng-show=\"vm.editIndex !== rowIndex\">\n              {{ td.label || td.value || td.default }}\n              <div ng-if=\"td.type === 'switch' && td.theme ==='plug'\">\n                <svg ng-if=\"td.status\" style=\"fill: #22c36a;\">\n                  <use xlink:href=\"#icon_plugged\"></use>\n                </svg>\n                <svg ng-if=\"!td.status\" style=\"fill: #f56e25;\">\n                  <use xlink:href=\"#icon_unplugged\"></use>\n                </svg>\n              </div>\n              <div class=\"operate\" ng-if=\"td.type === 'operate'\">\n                <svg ng-click=\"vm.edit(rowIndex)\" ng-if=\"td.edit\">\n                  <use xlink:href=\"#icon_pencil\"></use>\n                </svg>\n                <svg ng-click=\"vm.delete(rowIndex)\" ng-if=\"td.delete\">\n                  <use xlink:href=\"#icon_trash\"></use>\n                </svg>\n              </div>\n            </div>\n            <div class=\"editing\" ng-show=\"vm.editIndex === rowIndex\">\n              <span ng-if=\"!td.editable\">{{td.value}}</span>\n              <dao-input-container error=\"td.error\" ng-if=\"td.editable && !td.type && !td.options\">\n                <input type=\"text\" ng-model=\"td.value\" placeholder=\"{{td.placeholder}}\">\n              </dao-input-container>\n              <select ng-model=\"td.value\"\n                      ng-options=\"option for option in td.options\"\n                      ng-if=\"td.editable && td.options && !td.label\"></select>\n              <select ng-model=\"td.value\"\n                      ng-options=\"option.value as option.label for option in td.options\"\n                      ng-change=\"vm.updateCell(td)\"\n                      ng-if=\"td.editable && td.options && td.label && td.options[0].value\"></select>\n              <div class=\"switch\" ng-if=\"td.type === 'switch' && td.theme ==='plug'\">\n                <svg ng-show=\"td.status\" ng-click=\"vm.switch(rowIndex, $index)\" style=\"fill: #22c36a;\">\n                  <use xlink:href=\"#icon_plugged\"></use>\n                </svg>\n                <svg ng-show=\"!td.status\" ng-click=\"vm.switch(rowIndex, $index)\" style=\"fill: #f56e25;\">\n                  <use xlink:href=\"#icon_unplugged\"></use>\n                </svg>\n              </div>\n              <div class=\"operate\" ng-if=\"td.type === 'operate'\">\n                <div class=\"dao-btn ghost\" ng-click=\"vm.cancel()\">取消</div>\n              </div>\n            </div>\n          </td>\n        </tr>\n      </tbody>\n    </table>\n    <div class=\"empty-state\" ng-show=\"!vm.data_clone || !vm.data_clone.body || !vm.data_clone.body.length\">\n      <div class=\"empty-state-title\">列表为空</div>\n    </div>\n  </div>\n  <div class=\"table-bottom\">\n    <div class=\"dao-btn blue\" ng-click=\"vm.add()\" ng-if=\"vm.option.addRow && vm.option.addRow.addButton\">\n      {{vm.option.addRow.addButton}}\n    </div>\n    <div class=\"error-info\" ng-show=\"vm.option.errorMessage\">\n      {{vm.option.errorMessage}}\n    </div>\n  </div>\n</div>\n"
 
 /***/ },
-/* 289 */
+/* 352 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9002,11 +9690,11 @@
 	  value: true
 	});
 	
-	var _classCallCheck2 = __webpack_require__(174);
+	var _classCallCheck2 = __webpack_require__(237);
 	
 	var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 	
-	var _createClass2 = __webpack_require__(175);
+	var _createClass2 = __webpack_require__(238);
 	
 	var _createClass3 = _interopRequireDefault(_createClass2);
 	
@@ -9084,7 +9772,7 @@
 	exports.default = daoFixedTableDirective;
 
 /***/ },
-/* 290 */
+/* 353 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9093,7 +9781,7 @@
 	  value: true
 	});
 	
-	var _selectAll = __webpack_require__(291);
+	var _selectAll = __webpack_require__(354);
 	
 	var _selectAll2 = _interopRequireDefault(_selectAll);
 	
@@ -9109,7 +9797,7 @@
 	exports.default = moduleName;
 
 /***/ },
-/* 291 */
+/* 354 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -9147,7 +9835,7 @@
 	exports.default = SelectAllDirective;
 
 /***/ },
-/* 292 */
+/* 355 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9156,9 +9844,9 @@
 	  value: true
 	});
 	
-	__webpack_require__(293);
+	__webpack_require__(356);
 	
-	var _daoTopNavDirective = __webpack_require__(295);
+	var _daoTopNavDirective = __webpack_require__(358);
 	
 	var _daoTopNavDirective2 = _interopRequireDefault(_daoTopNavDirective);
 	
@@ -9171,13 +9859,13 @@
 	exports.default = moduleName;
 
 /***/ },
-/* 293 */
+/* 356 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(294);
+	var content = __webpack_require__(357);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -9197,7 +9885,7 @@
 	}
 
 /***/ },
-/* 294 */
+/* 357 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -9211,7 +9899,7 @@
 
 
 /***/ },
-/* 295 */
+/* 358 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9221,9 +9909,9 @@
 	  value: true
 	});
 	
-	__webpack_require__(293);
+	__webpack_require__(356);
 	
-	var _daoTopNav = __webpack_require__(296);
+	var _daoTopNav = __webpack_require__(359);
 	
 	var _daoTopNav2 = _interopRequireDefault(_daoTopNav);
 	
@@ -9280,13 +9968,13 @@
 	exports.default = DaoTopNavDirective;
 
 /***/ },
-/* 296 */
+/* 359 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao-top-nav lively\">\n\t<div class=\"dao-pseudo-hover-state\"></div>\n\t<ng-transclude></ng-transclude>\n</div>\n"
 
 /***/ },
-/* 297 */
+/* 360 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9295,11 +9983,11 @@
 	  value: true
 	});
 	
-	var _daoCopyBlock = __webpack_require__(298);
+	var _daoCopyBlock = __webpack_require__(361);
 	
 	var _daoCopyBlock2 = _interopRequireDefault(_daoCopyBlock);
 	
-	var _daoClipboard = __webpack_require__(302);
+	var _daoClipboard = __webpack_require__(365);
 	
 	var _daoClipboard2 = _interopRequireDefault(_daoClipboard);
 	
@@ -9311,7 +9999,7 @@
 	exports.default = moduleName;
 
 /***/ },
-/* 298 */
+/* 361 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9320,11 +10008,11 @@
 	  value: true
 	});
 	
-	var _daoCopyBlock = __webpack_require__(299);
+	var _daoCopyBlock = __webpack_require__(362);
 	
 	var _daoCopyBlock2 = _interopRequireDefault(_daoCopyBlock);
 	
-	__webpack_require__(300);
+	__webpack_require__(363);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -9345,19 +10033,19 @@
 	exports.default = DaoCopyBlock;
 
 /***/ },
-/* 299 */
+/* 362 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"dao-clipboard\">\n  <pre dao-select-all>{{content}}</pre>\n  <div class=\"copy-button\" dao-clipboard ng-click=\"copied = true\" data-clipboard-text=\"{{content}}\" ng-mouseleave=\"copied = false\">\n  \t<span ng-show=\"!copied\" dao-tooltip=\"点击复制\" tooltip-placement=\"bottom\">\n\t    <svg>\n\t      <use xlink:href=\"#icon_clipboard\"></use>\n\t    </svg>\n  \t</span>\n  \t<span ng-show=\"copied\" dao-tooltip=\"复制成功\" tooltip-placement=\"bottom\">\n\t    <svg>\n\t      <use xlink:href=\"#icon_clipboard-success\"></use>\n\t    </svg>\n  \t</span>\n  </div>\n</div>\n"
 
 /***/ },
-/* 300 */
+/* 363 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(301);
+	var content = __webpack_require__(364);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(4)(content, {"singleton":true});
@@ -9377,7 +10065,7 @@
 	}
 
 /***/ },
-/* 301 */
+/* 364 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(3)();
@@ -9385,13 +10073,13 @@
 	
 	
 	// module
-	exports.push([module.id, ".dao-clipboard{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;background:#f5f7fa;border:1px solid #ccc;border-radius:4px;line-height:1}.dao-clipboard pre{padding:0 0 0 1em;word-break:break-all;color:#3d444f;white-space:pre-line;font-size:13px;font-family:Consolas,Liberation Mono,Courier,monospace;margin:0;border:none;overflow:hidden;line-height:30px}.dao-clipboard .copy-button{padding:8px}.dao-clipboard .copy-button svg{width:14px;height:14px;cursor:pointer;-webkit-transition:fill .3s;transition:fill .3s}.dao-clipboard .copy-button svg:hover{fill:#3890ff}.dao-clipboard .copy-button svg:active{fill:#217ef2}", ""]);
+	exports.push([module.id, ".dao-clipboard{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;background:#f5f7fa;border:1px solid #ccc;border-radius:4px;padding:4px 0}.dao-clipboard pre{padding:0 1em;word-break:break-all;color:#3d444f;white-space:pre-line;font-size:13px;font-family:Consolas,Liberation Mono,Courier,monospace;border:none;overflow:hidden;margin:0;line-height:22px}.dao-clipboard .copy-button{padding-right:8px}.dao-clipboard .copy-button span{line-height:22px}.dao-clipboard .copy-button svg{width:14px;height:14px;cursor:pointer;vertical-align:-1.5px;-webkit-transition:fill .3s;transition:fill .3s}.dao-clipboard .copy-button svg:hover{fill:#3890ff}.dao-clipboard .copy-button svg:active{fill:#217ef2}", ""]);
 	
 	// exports
 
 
 /***/ },
-/* 302 */
+/* 365 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9400,7 +10088,7 @@
 	  value: true
 	});
 	
-	var _clipboard = __webpack_require__(303);
+	var _clipboard = __webpack_require__(366);
 	
 	var _clipboard2 = _interopRequireDefault(_clipboard);
 	
@@ -9440,20 +10128,20 @@
 	exports.default = DaoClipboard;
 
 /***/ },
-/* 303 */
+/* 366 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;'use strict';
 	
-	var _setPrototypeOf = __webpack_require__(304);
+	var _setPrototypeOf = __webpack_require__(367);
 	
 	var _setPrototypeOf2 = _interopRequireDefault2(_setPrototypeOf);
 	
-	var _create = __webpack_require__(310);
+	var _create = __webpack_require__(373);
 	
 	var _create2 = _interopRequireDefault2(_create);
 	
-	var _typeof2 = __webpack_require__(316);
+	var _typeof2 = __webpack_require__(379);
 	
 	var _typeof3 = _interopRequireDefault2(_typeof2);
 	
@@ -9461,7 +10149,7 @@
 	
 	(function (global, factory) {
 	  if (true) {
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [module, __webpack_require__(348), __webpack_require__(350), __webpack_require__(351)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [module, __webpack_require__(411), __webpack_require__(413), __webpack_require__(414)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 	  } else if (typeof exports !== "undefined") {
 	    factory(module, require('./clipboard-action'), require('./tiny-emitter/tinyemitter'), require('./good-listener/listen'));
 	  } else {
@@ -9619,34 +10307,34 @@
 	});
 
 /***/ },
-/* 304 */
+/* 367 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = { "default": __webpack_require__(305), __esModule: true };
+	module.exports = { "default": __webpack_require__(368), __esModule: true };
 
 /***/ },
-/* 305 */
+/* 368 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(306);
-	module.exports = __webpack_require__(181).Object.setPrototypeOf;
+	__webpack_require__(369);
+	module.exports = __webpack_require__(244).Object.setPrototypeOf;
 
 /***/ },
-/* 306 */
+/* 369 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 19.1.3.19 Object.setPrototypeOf(O, proto)
-	var $export = __webpack_require__(179);
-	$export($export.S, 'Object', {setPrototypeOf: __webpack_require__(307).set});
+	var $export = __webpack_require__(242);
+	$export($export.S, 'Object', {setPrototypeOf: __webpack_require__(370).set});
 
 /***/ },
-/* 307 */
+/* 370 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// Works with __proto__ only. Old v8 can't work with null proto objects.
 	/* eslint-disable no-proto */
-	var isObject = __webpack_require__(187)
-	  , anObject = __webpack_require__(186);
+	var isObject = __webpack_require__(250)
+	  , anObject = __webpack_require__(249);
 	var check = function(O, proto){
 	  anObject(O);
 	  if(!isObject(proto) && proto !== null)throw TypeError(proto + ": can't set as prototype!");
@@ -9655,7 +10343,7 @@
 	  set: Object.setPrototypeOf || ('__proto__' in {} ? // eslint-disable-line
 	    function(test, buggy, set){
 	      try {
-	        set = __webpack_require__(182)(Function.call, __webpack_require__(308).f(Object.prototype, '__proto__').set, 2);
+	        set = __webpack_require__(245)(Function.call, __webpack_require__(371).f(Object.prototype, '__proto__').set, 2);
 	        set(test, []);
 	        buggy = !(test instanceof Array);
 	      } catch(e){ buggy = true; }
@@ -9670,18 +10358,18 @@
 	};
 
 /***/ },
-/* 308 */
+/* 371 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var pIE            = __webpack_require__(309)
-	  , createDesc     = __webpack_require__(193)
-	  , toIObject      = __webpack_require__(207)
-	  , toPrimitive    = __webpack_require__(192)
-	  , has            = __webpack_require__(206)
-	  , IE8_DOM_DEFINE = __webpack_require__(188)
+	var pIE            = __webpack_require__(372)
+	  , createDesc     = __webpack_require__(256)
+	  , toIObject      = __webpack_require__(270)
+	  , toPrimitive    = __webpack_require__(255)
+	  , has            = __webpack_require__(269)
+	  , IE8_DOM_DEFINE = __webpack_require__(251)
 	  , gOPD           = Object.getOwnPropertyDescriptor;
 	
-	exports.f = __webpack_require__(189) ? gOPD : function getOwnPropertyDescriptor(O, P){
+	exports.f = __webpack_require__(252) ? gOPD : function getOwnPropertyDescriptor(O, P){
 	  O = toIObject(O);
 	  P = toPrimitive(P, true);
 	  if(IE8_DOM_DEFINE)try {
@@ -9691,56 +10379,56 @@
 	};
 
 /***/ },
-/* 309 */
+/* 372 */
 /***/ function(module, exports) {
 
 	exports.f = {}.propertyIsEnumerable;
 
 /***/ },
-/* 310 */
+/* 373 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = { "default": __webpack_require__(311), __esModule: true };
+	module.exports = { "default": __webpack_require__(374), __esModule: true };
 
 /***/ },
-/* 311 */
+/* 374 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(312);
-	var $Object = __webpack_require__(181).Object;
+	__webpack_require__(375);
+	var $Object = __webpack_require__(244).Object;
 	module.exports = function create(P, D){
 	  return $Object.create(P, D);
 	};
 
 /***/ },
-/* 312 */
+/* 375 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var $export = __webpack_require__(179)
+	var $export = __webpack_require__(242)
 	// 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
-	$export($export.S, 'Object', {create: __webpack_require__(313)});
+	$export($export.S, 'Object', {create: __webpack_require__(376)});
 
 /***/ },
-/* 313 */
+/* 376 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
-	var anObject    = __webpack_require__(186)
-	  , dPs         = __webpack_require__(314)
-	  , enumBugKeys = __webpack_require__(217)
-	  , IE_PROTO    = __webpack_require__(214)('IE_PROTO')
+	var anObject    = __webpack_require__(249)
+	  , dPs         = __webpack_require__(377)
+	  , enumBugKeys = __webpack_require__(280)
+	  , IE_PROTO    = __webpack_require__(277)('IE_PROTO')
 	  , Empty       = function(){ /* empty */ }
 	  , PROTOTYPE   = 'prototype';
 	
 	// Create object with fake `null` prototype: use iframe Object with cleared prototype
 	var createDict = function(){
 	  // Thrash, waste and sodomy: IE GC bug
-	  var iframe = __webpack_require__(191)('iframe')
+	  var iframe = __webpack_require__(254)('iframe')
 	    , i      = enumBugKeys.length
 	    , gt     = '>'
 	    , iframeDocument;
 	  iframe.style.display = 'none';
-	  __webpack_require__(315).appendChild(iframe);
+	  __webpack_require__(378).appendChild(iframe);
 	  iframe.src = 'javascript:'; // eslint-disable-line no-script-url
 	  // createDict = iframe.contentWindow.Object;
 	  // html.removeChild(iframe);
@@ -9766,14 +10454,14 @@
 	};
 
 /***/ },
-/* 314 */
+/* 377 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var dP       = __webpack_require__(185)
-	  , anObject = __webpack_require__(186)
-	  , getKeys  = __webpack_require__(204);
+	var dP       = __webpack_require__(248)
+	  , anObject = __webpack_require__(249)
+	  , getKeys  = __webpack_require__(267);
 	
-	module.exports = __webpack_require__(189) ? Object.defineProperties : function defineProperties(O, Properties){
+	module.exports = __webpack_require__(252) ? Object.defineProperties : function defineProperties(O, Properties){
 	  anObject(O);
 	  var keys   = getKeys(Properties)
 	    , length = keys.length
@@ -9784,24 +10472,24 @@
 	};
 
 /***/ },
-/* 315 */
+/* 378 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(180).document && document.documentElement;
+	module.exports = __webpack_require__(243).document && document.documentElement;
 
 /***/ },
-/* 316 */
+/* 379 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
 	
 	exports.__esModule = true;
 	
-	var _iterator = __webpack_require__(317);
+	var _iterator = __webpack_require__(380);
 	
 	var _iterator2 = _interopRequireDefault(_iterator);
 	
-	var _symbol = __webpack_require__(334);
+	var _symbol = __webpack_require__(397);
 	
 	var _symbol2 = _interopRequireDefault(_symbol);
 	
@@ -9816,28 +10504,28 @@
 	};
 
 /***/ },
-/* 317 */
+/* 380 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = { "default": __webpack_require__(318), __esModule: true };
+	module.exports = { "default": __webpack_require__(381), __esModule: true };
 
 /***/ },
-/* 318 */
+/* 381 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(319);
-	__webpack_require__(329);
-	module.exports = __webpack_require__(333).f('iterator');
+	__webpack_require__(382);
+	__webpack_require__(392);
+	module.exports = __webpack_require__(396).f('iterator');
 
 /***/ },
-/* 319 */
+/* 382 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	var $at  = __webpack_require__(320)(true);
+	var $at  = __webpack_require__(383)(true);
 	
 	// 21.1.3.27 String.prototype[@@iterator]()
-	__webpack_require__(321)(String, 'String', function(iterated){
+	__webpack_require__(384)(String, 'String', function(iterated){
 	  this._t = String(iterated); // target
 	  this._i = 0;                // next index
 	// 21.1.5.2.1 %StringIteratorPrototype%.next()
@@ -9852,11 +10540,11 @@
 	});
 
 /***/ },
-/* 320 */
+/* 383 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var toInteger = __webpack_require__(212)
-	  , defined   = __webpack_require__(203);
+	var toInteger = __webpack_require__(275)
+	  , defined   = __webpack_require__(266);
 	// true  -> String#at
 	// false -> String#codePointAt
 	module.exports = function(TO_STRING){
@@ -9874,20 +10562,20 @@
 	};
 
 /***/ },
-/* 321 */
+/* 384 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	var LIBRARY        = __webpack_require__(322)
-	  , $export        = __webpack_require__(179)
-	  , redefine       = __webpack_require__(323)
-	  , hide           = __webpack_require__(184)
-	  , has            = __webpack_require__(206)
-	  , Iterators      = __webpack_require__(324)
-	  , $iterCreate    = __webpack_require__(325)
-	  , setToStringTag = __webpack_require__(326)
-	  , getPrototypeOf = __webpack_require__(328)
-	  , ITERATOR       = __webpack_require__(327)('iterator')
+	var LIBRARY        = __webpack_require__(385)
+	  , $export        = __webpack_require__(242)
+	  , redefine       = __webpack_require__(386)
+	  , hide           = __webpack_require__(247)
+	  , has            = __webpack_require__(269)
+	  , Iterators      = __webpack_require__(387)
+	  , $iterCreate    = __webpack_require__(388)
+	  , setToStringTag = __webpack_require__(389)
+	  , getPrototypeOf = __webpack_require__(391)
+	  , ITERATOR       = __webpack_require__(390)('iterator')
 	  , BUGGY          = !([].keys && 'next' in [].keys()) // Safari has buggy iterators w/o `next`
 	  , FF_ITERATOR    = '@@iterator'
 	  , KEYS           = 'keys'
@@ -9949,35 +10637,35 @@
 	};
 
 /***/ },
-/* 322 */
+/* 385 */
 /***/ function(module, exports) {
 
 	module.exports = true;
 
 /***/ },
-/* 323 */
+/* 386 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(184);
+	module.exports = __webpack_require__(247);
 
 /***/ },
-/* 324 */
+/* 387 */
 /***/ function(module, exports) {
 
 	module.exports = {};
 
 /***/ },
-/* 325 */
+/* 388 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	var create         = __webpack_require__(313)
-	  , descriptor     = __webpack_require__(193)
-	  , setToStringTag = __webpack_require__(326)
+	var create         = __webpack_require__(376)
+	  , descriptor     = __webpack_require__(256)
+	  , setToStringTag = __webpack_require__(389)
 	  , IteratorPrototype = {};
 	
 	// 25.1.2.1.1 %IteratorPrototype%[@@iterator]()
-	__webpack_require__(184)(IteratorPrototype, __webpack_require__(327)('iterator'), function(){ return this; });
+	__webpack_require__(247)(IteratorPrototype, __webpack_require__(390)('iterator'), function(){ return this; });
 	
 	module.exports = function(Constructor, NAME, next){
 	  Constructor.prototype = create(IteratorPrototype, {next: descriptor(1, next)});
@@ -9985,24 +10673,24 @@
 	};
 
 /***/ },
-/* 326 */
+/* 389 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var def = __webpack_require__(185).f
-	  , has = __webpack_require__(206)
-	  , TAG = __webpack_require__(327)('toStringTag');
+	var def = __webpack_require__(248).f
+	  , has = __webpack_require__(269)
+	  , TAG = __webpack_require__(390)('toStringTag');
 	
 	module.exports = function(it, tag, stat){
 	  if(it && !has(it = stat ? it : it.prototype, TAG))def(it, TAG, {configurable: true, value: tag});
 	};
 
 /***/ },
-/* 327 */
+/* 390 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var store      = __webpack_require__(215)('wks')
-	  , uid        = __webpack_require__(216)
-	  , Symbol     = __webpack_require__(180).Symbol
+	var store      = __webpack_require__(278)('wks')
+	  , uid        = __webpack_require__(279)
+	  , Symbol     = __webpack_require__(243).Symbol
 	  , USE_SYMBOL = typeof Symbol == 'function';
 	
 	var $exports = module.exports = function(name){
@@ -10013,13 +10701,13 @@
 	$exports.store = store;
 
 /***/ },
-/* 328 */
+/* 391 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 19.1.2.9 / 15.2.3.2 Object.getPrototypeOf(O)
-	var has         = __webpack_require__(206)
-	  , toObject    = __webpack_require__(202)
-	  , IE_PROTO    = __webpack_require__(214)('IE_PROTO')
+	var has         = __webpack_require__(269)
+	  , toObject    = __webpack_require__(265)
+	  , IE_PROTO    = __webpack_require__(277)('IE_PROTO')
 	  , ObjectProto = Object.prototype;
 	
 	module.exports = Object.getPrototypeOf || function(O){
@@ -10031,14 +10719,14 @@
 	};
 
 /***/ },
-/* 329 */
+/* 392 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(330);
-	var global        = __webpack_require__(180)
-	  , hide          = __webpack_require__(184)
-	  , Iterators     = __webpack_require__(324)
-	  , TO_STRING_TAG = __webpack_require__(327)('toStringTag');
+	__webpack_require__(393);
+	var global        = __webpack_require__(243)
+	  , hide          = __webpack_require__(247)
+	  , Iterators     = __webpack_require__(387)
+	  , TO_STRING_TAG = __webpack_require__(390)('toStringTag');
 	
 	for(var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList', 'CSSRuleList'], i = 0; i < 5; i++){
 	  var NAME       = collections[i]
@@ -10049,20 +10737,20 @@
 	}
 
 /***/ },
-/* 330 */
+/* 393 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
-	var addToUnscopables = __webpack_require__(331)
-	  , step             = __webpack_require__(332)
-	  , Iterators        = __webpack_require__(324)
-	  , toIObject        = __webpack_require__(207);
+	var addToUnscopables = __webpack_require__(394)
+	  , step             = __webpack_require__(395)
+	  , Iterators        = __webpack_require__(387)
+	  , toIObject        = __webpack_require__(270);
 	
 	// 22.1.3.4 Array.prototype.entries()
 	// 22.1.3.13 Array.prototype.keys()
 	// 22.1.3.29 Array.prototype.values()
 	// 22.1.3.30 Array.prototype[@@iterator]()
-	module.exports = __webpack_require__(321)(Array, 'Array', function(iterated, kind){
+	module.exports = __webpack_require__(384)(Array, 'Array', function(iterated, kind){
 	  this._t = toIObject(iterated); // target
 	  this._i = 0;                   // next index
 	  this._k = kind;                // kind
@@ -10088,13 +10776,13 @@
 	addToUnscopables('entries');
 
 /***/ },
-/* 331 */
+/* 394 */
 /***/ function(module, exports) {
 
 	module.exports = function(){ /* empty */ };
 
 /***/ },
-/* 332 */
+/* 395 */
 /***/ function(module, exports) {
 
 	module.exports = function(done, value){
@@ -10102,58 +10790,58 @@
 	};
 
 /***/ },
-/* 333 */
+/* 396 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports.f = __webpack_require__(327);
+	exports.f = __webpack_require__(390);
 
 /***/ },
-/* 334 */
+/* 397 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = { "default": __webpack_require__(335), __esModule: true };
+	module.exports = { "default": __webpack_require__(398), __esModule: true };
 
 /***/ },
-/* 335 */
+/* 398 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(336);
-	__webpack_require__(345);
-	__webpack_require__(346);
-	__webpack_require__(347);
-	module.exports = __webpack_require__(181).Symbol;
+	__webpack_require__(399);
+	__webpack_require__(408);
+	__webpack_require__(409);
+	__webpack_require__(410);
+	module.exports = __webpack_require__(244).Symbol;
 
 /***/ },
-/* 336 */
+/* 399 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	// ECMAScript 6 symbols shim
-	var global         = __webpack_require__(180)
-	  , has            = __webpack_require__(206)
-	  , DESCRIPTORS    = __webpack_require__(189)
-	  , $export        = __webpack_require__(179)
-	  , redefine       = __webpack_require__(323)
-	  , META           = __webpack_require__(337).KEY
-	  , $fails         = __webpack_require__(190)
-	  , shared         = __webpack_require__(215)
-	  , setToStringTag = __webpack_require__(326)
-	  , uid            = __webpack_require__(216)
-	  , wks            = __webpack_require__(327)
-	  , wksExt         = __webpack_require__(333)
-	  , wksDefine      = __webpack_require__(338)
-	  , keyOf          = __webpack_require__(339)
-	  , enumKeys       = __webpack_require__(340)
-	  , isArray        = __webpack_require__(342)
-	  , anObject       = __webpack_require__(186)
-	  , toIObject      = __webpack_require__(207)
-	  , toPrimitive    = __webpack_require__(192)
-	  , createDesc     = __webpack_require__(193)
-	  , _create        = __webpack_require__(313)
-	  , gOPNExt        = __webpack_require__(343)
-	  , $GOPD          = __webpack_require__(308)
-	  , $DP            = __webpack_require__(185)
-	  , $keys          = __webpack_require__(204)
+	var global         = __webpack_require__(243)
+	  , has            = __webpack_require__(269)
+	  , DESCRIPTORS    = __webpack_require__(252)
+	  , $export        = __webpack_require__(242)
+	  , redefine       = __webpack_require__(386)
+	  , META           = __webpack_require__(400).KEY
+	  , $fails         = __webpack_require__(253)
+	  , shared         = __webpack_require__(278)
+	  , setToStringTag = __webpack_require__(389)
+	  , uid            = __webpack_require__(279)
+	  , wks            = __webpack_require__(390)
+	  , wksExt         = __webpack_require__(396)
+	  , wksDefine      = __webpack_require__(401)
+	  , keyOf          = __webpack_require__(402)
+	  , enumKeys       = __webpack_require__(403)
+	  , isArray        = __webpack_require__(405)
+	  , anObject       = __webpack_require__(249)
+	  , toIObject      = __webpack_require__(270)
+	  , toPrimitive    = __webpack_require__(255)
+	  , createDesc     = __webpack_require__(256)
+	  , _create        = __webpack_require__(376)
+	  , gOPNExt        = __webpack_require__(406)
+	  , $GOPD          = __webpack_require__(371)
+	  , $DP            = __webpack_require__(248)
+	  , $keys          = __webpack_require__(267)
 	  , gOPD           = $GOPD.f
 	  , dP             = $DP.f
 	  , gOPN           = gOPNExt.f
@@ -10268,11 +10956,11 @@
 	
 	  $GOPD.f = $getOwnPropertyDescriptor;
 	  $DP.f   = $defineProperty;
-	  __webpack_require__(344).f = gOPNExt.f = $getOwnPropertyNames;
-	  __webpack_require__(309).f  = $propertyIsEnumerable;
-	  __webpack_require__(341).f = $getOwnPropertySymbols;
+	  __webpack_require__(407).f = gOPNExt.f = $getOwnPropertyNames;
+	  __webpack_require__(372).f  = $propertyIsEnumerable;
+	  __webpack_require__(404).f = $getOwnPropertySymbols;
 	
-	  if(DESCRIPTORS && !__webpack_require__(322)){
+	  if(DESCRIPTORS && !__webpack_require__(385)){
 	    redefine(ObjectProto, 'propertyIsEnumerable', $propertyIsEnumerable, true);
 	  }
 	
@@ -10347,7 +11035,7 @@
 	});
 	
 	// 19.4.3.4 Symbol.prototype[@@toPrimitive](hint)
-	$Symbol[PROTOTYPE][TO_PRIMITIVE] || __webpack_require__(184)($Symbol[PROTOTYPE], TO_PRIMITIVE, $Symbol[PROTOTYPE].valueOf);
+	$Symbol[PROTOTYPE][TO_PRIMITIVE] || __webpack_require__(247)($Symbol[PROTOTYPE], TO_PRIMITIVE, $Symbol[PROTOTYPE].valueOf);
 	// 19.4.3.5 Symbol.prototype[@@toStringTag]
 	setToStringTag($Symbol, 'Symbol');
 	// 20.2.1.9 Math[@@toStringTag]
@@ -10356,18 +11044,18 @@
 	setToStringTag(global.JSON, 'JSON', true);
 
 /***/ },
-/* 337 */
+/* 400 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var META     = __webpack_require__(216)('meta')
-	  , isObject = __webpack_require__(187)
-	  , has      = __webpack_require__(206)
-	  , setDesc  = __webpack_require__(185).f
+	var META     = __webpack_require__(279)('meta')
+	  , isObject = __webpack_require__(250)
+	  , has      = __webpack_require__(269)
+	  , setDesc  = __webpack_require__(248).f
 	  , id       = 0;
 	var isExtensible = Object.isExtensible || function(){
 	  return true;
 	};
-	var FREEZE = !__webpack_require__(190)(function(){
+	var FREEZE = !__webpack_require__(253)(function(){
 	  return isExtensible(Object.preventExtensions({}));
 	});
 	var setMeta = function(it){
@@ -10414,25 +11102,25 @@
 	};
 
 /***/ },
-/* 338 */
+/* 401 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var global         = __webpack_require__(180)
-	  , core           = __webpack_require__(181)
-	  , LIBRARY        = __webpack_require__(322)
-	  , wksExt         = __webpack_require__(333)
-	  , defineProperty = __webpack_require__(185).f;
+	var global         = __webpack_require__(243)
+	  , core           = __webpack_require__(244)
+	  , LIBRARY        = __webpack_require__(385)
+	  , wksExt         = __webpack_require__(396)
+	  , defineProperty = __webpack_require__(248).f;
 	module.exports = function(name){
 	  var $Symbol = core.Symbol || (core.Symbol = LIBRARY ? {} : global.Symbol || {});
 	  if(name.charAt(0) != '_' && !(name in $Symbol))defineProperty($Symbol, name, {value: wksExt.f(name)});
 	};
 
 /***/ },
-/* 339 */
+/* 402 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var getKeys   = __webpack_require__(204)
-	  , toIObject = __webpack_require__(207);
+	var getKeys   = __webpack_require__(267)
+	  , toIObject = __webpack_require__(270);
 	module.exports = function(object, el){
 	  var O      = toIObject(object)
 	    , keys   = getKeys(O)
@@ -10443,13 +11131,13 @@
 	};
 
 /***/ },
-/* 340 */
+/* 403 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// all enumerable object keys, includes symbols
-	var getKeys = __webpack_require__(204)
-	  , gOPS    = __webpack_require__(341)
-	  , pIE     = __webpack_require__(309);
+	var getKeys = __webpack_require__(267)
+	  , gOPS    = __webpack_require__(404)
+	  , pIE     = __webpack_require__(372);
 	module.exports = function(it){
 	  var result     = getKeys(it)
 	    , getSymbols = gOPS.f;
@@ -10463,28 +11151,28 @@
 	};
 
 /***/ },
-/* 341 */
+/* 404 */
 /***/ function(module, exports) {
 
 	exports.f = Object.getOwnPropertySymbols;
 
 /***/ },
-/* 342 */
+/* 405 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 7.2.2 IsArray(argument)
-	var cof = __webpack_require__(209);
+	var cof = __webpack_require__(272);
 	module.exports = Array.isArray || function isArray(arg){
 	  return cof(arg) == 'Array';
 	};
 
 /***/ },
-/* 343 */
+/* 406 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// fallback for IE11 buggy Object.getOwnPropertyNames with iframe and window
-	var toIObject = __webpack_require__(207)
-	  , gOPN      = __webpack_require__(344).f
+	var toIObject = __webpack_require__(270)
+	  , gOPN      = __webpack_require__(407).f
 	  , toString  = {}.toString;
 	
 	var windowNames = typeof window == 'object' && window && Object.getOwnPropertyNames
@@ -10504,54 +11192,54 @@
 
 
 /***/ },
-/* 344 */
+/* 407 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// 19.1.2.7 / 15.2.3.4 Object.getOwnPropertyNames(O)
-	var $keys      = __webpack_require__(205)
-	  , hiddenKeys = __webpack_require__(217).concat('length', 'prototype');
+	var $keys      = __webpack_require__(268)
+	  , hiddenKeys = __webpack_require__(280).concat('length', 'prototype');
 	
 	exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O){
 	  return $keys(O, hiddenKeys);
 	};
 
 /***/ },
-/* 345 */
+/* 408 */
 /***/ function(module, exports) {
 
 
 
 /***/ },
-/* 346 */
+/* 409 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(338)('asyncIterator');
+	__webpack_require__(401)('asyncIterator');
 
 /***/ },
-/* 347 */
+/* 410 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(338)('observable');
+	__webpack_require__(401)('observable');
 
 /***/ },
-/* 348 */
+/* 411 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;'use strict';
 	
-	var _defineProperty = __webpack_require__(176);
+	var _defineProperty = __webpack_require__(239);
 	
 	var _defineProperty2 = _interopRequireDefault2(_defineProperty);
 	
-	var _iterator = __webpack_require__(317);
+	var _iterator = __webpack_require__(380);
 	
 	var _iterator2 = _interopRequireDefault2(_iterator);
 	
-	var _typeof3 = __webpack_require__(316);
+	var _typeof3 = __webpack_require__(379);
 	
 	var _typeof4 = _interopRequireDefault2(_typeof3);
 	
-	var _symbol = __webpack_require__(334);
+	var _symbol = __webpack_require__(397);
 	
 	var _symbol2 = _interopRequireDefault2(_symbol);
 	
@@ -10559,7 +11247,7 @@
 	
 	(function (global, factory) {
 	  if (true) {
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [module, __webpack_require__(349)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [module, __webpack_require__(412)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 	  } else if (typeof exports !== "undefined") {
 	    factory(module, require('./select/select'));
 	  } else {
@@ -10782,7 +11470,7 @@
 	});
 
 /***/ },
-/* 349 */
+/* 412 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -10816,7 +11504,7 @@
 	module.exports = select;
 
 /***/ },
-/* 350 */
+/* 413 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -10886,13 +11574,13 @@
 	module.exports = E;
 
 /***/ },
-/* 351 */
+/* 414 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var is = __webpack_require__(352);
-	var delegate = __webpack_require__(353);
+	var is = __webpack_require__(415);
+	var delegate = __webpack_require__(416);
 	
 	/**
 	 * Validates all params and calls the right
@@ -10985,7 +11673,7 @@
 	module.exports = listen;
 
 /***/ },
-/* 352 */
+/* 415 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -11035,12 +11723,12 @@
 	};
 
 /***/ },
-/* 353 */
+/* 416 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var closest = __webpack_require__(354);
+	var closest = __webpack_require__(417);
 	
 	/**
 	 * Delegates event to a selector.
@@ -11086,12 +11774,12 @@
 	module.exports = delegate;
 
 /***/ },
-/* 354 */
+/* 417 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var matches = __webpack_require__(355);
+	var matches = __webpack_require__(418);
 	
 	module.exports = function (element, selector, checkYoSelf) {
 	  var parent = checkYoSelf ? element : element.parentNode;
@@ -11103,7 +11791,7 @@
 	};
 
 /***/ },
-/* 355 */
+/* 418 */
 /***/ function(module, exports) {
 
 	"use strict";
