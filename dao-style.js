@@ -1075,7 +1075,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".dao-auto-complete{width:287px;height:32px}.dac-dropdown,.dac-dropdown-menu{width:287px}.dao-dropdown-menu .dac-li{cursor:pointer}.dao-dropdown-menu .dac-li.selected{text-decoration:none!important;color:#fff!important;background-color:#3890ff!important}.dao-dropdown-menu .dac-li:hover{color:#333;background-color:transparent}.dao-dropdown-menu .dac-li.empty{color:#9ba3af;cursor:auto}.dac-index-max{z-index:10011}", ""]);
+	exports.push([module.id, ".dao-auto-complete{width:287px;height:32px}.dac-dropdown,.dac-dropdown-menu{width:287px}.dao-dropdown-menu .dac-li{cursor:pointer}.dao-dropdown-menu .dac-li.selected{text-decoration:none!important;color:#fff!important;background-color:#3890ff!important}.dao-dropdown-menu .dac-li:hover{color:#333;background-color:transparent}.dao-dropdown-menu .dac-li.empty{color:#9ba3af;cursor:auto}.dac-index-max{z-index:10011}.dac-group{background-color:#f5f7fa;font-size:12px;line-height:20px;margin:0;border-top:1px solid #e4e7ed;color:#9ba3af;padding-left:10px}", ""]);
 	
 	// exports
 
@@ -4736,7 +4736,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".dao-editable-input{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;-ms-flex-wrap:wrap;flex-wrap:wrap}.dao-editable-input .form-area{vertical-align:middle;cursor:pointer;color:#999}.dao-editable-input .form-area div[dao-input]{margin:0}.dao-editable-input .edit-op{line-height:35px;padding-left:20px;height:35px}.dao-editable-input .edit-op .edit-op-toggle{position:absolute;color:#9ba3af;cursor:pointer}.dao-editable-input .edit-op .edit-op-toggle svg{fill:#9ba3af;width:16px;height:16px;vertical-align:middle}.dao-editable-input .edit-op .edit-op-toggle .text{margin-left:5px;vertical-align:middle;line-height:16px}.dao-editable-input .edit-op .edit-op-btn{position:absolute}.dao-editable-input .edit-op-error{width:100%;line-height:35px;color:#f1483f}", ""]);
+	exports.push([module.id, ".dao-editable-input{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;-ms-flex-wrap:wrap;flex-wrap:wrap}.dao-editable-input .form-area{vertical-align:middle;cursor:pointer;color:#999}.dao-editable-input .form-area div[dao-input]{margin:0}.dao-editable-input .edit-op{line-height:32px;padding-left:20px;height:32px}.dao-editable-input .edit-op .edit-op-toggle{color:#9ba3af;cursor:pointer}.dao-editable-input .edit-op .edit-op-toggle svg{fill:#9ba3af;width:16px;height:16px;vertical-align:middle}.dao-editable-input .edit-op .edit-op-toggle .text{margin-left:5px;vertical-align:middle;line-height:16px}.dao-editable-input .edit-op .edit-op-btn{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex}.dao-editable-input .edit-op-error{width:100%;line-height:32px;color:#f1483f}", ""]);
 	
 	// exports
 
@@ -12594,17 +12594,27 @@
 	  function autocompleteLink(scope, ele, attr, ctrl, transclude) {
 	    transclude(function (clone) {
 	      var html = '';
-	
-	      clone.attr('ng-repeat', '(index, ' + ctrl.itemName + ') in dacvm.filteredOptions');
-	      clone.attr('ng-mousedown', 'dacvm.onMousedown($event)');
-	      clone.attr('ng-mouseover', 'dacvm.onMouseover(index)');
-	      clone.attr('ng-mouseleave', 'dacvm.onMouseleave()');
-	      clone.attr('ng-class', '{\n        selected: dacvm._get(dacvm.filteredOptions[dacvm.index], dacvm.itemKey)\n          === ' + scope.dacvm.valueExpr + '\n      }');
-	      clone.attr('class', 'dac-li');
-	
 	      for (var i = 0; i < clone.length; i++) {
+	        // debugger
+	        if (clone[i].nodeType !== 1) continue;
+	        if (clone[i].nodeName === 'LI') {
+	          var ngRepeat = '(index, ' + ctrl.itemName + ') in dacvm.filteredOptions';
+	
+	          if (clone[i].getAttribute('category')) {
+	            ngRepeat = ngRepeat + ' | filter: ' + clone[i].getAttribute('category');
+	          }
+	
+	          clone[i].setAttribute('ng-repeat', ngRepeat);
+	          clone[i].setAttribute('ng-mousedown', 'dacvm.onMousedown($event)');
+	          clone[i].setAttribute('ng-mouseover', 'dacvm.onMouseover(index)');
+	          clone[i].setAttribute('ng-mouseleave', 'dacvm.onMouseleave()');
+	          clone[i].setAttribute('class', 'dac-li');
+	          clone[i].setAttribute('ng-class', '{\n            selected: dacvm._get(dacvm.filteredOptions[dacvm.index], dacvm.itemKey)\n              === ' + scope.dacvm.valueExpr + '\n          }');
+	        }
+	
 	        html += clone[i].outerHTML || '';
 	      }
+	
 	      ele.find('ul').append($compile(html)(scope));
 	      // 万一 options 变化，就需要重新编译li
 	      scope.$watchCollection(function () {
@@ -12648,7 +12658,10 @@
 	      errorMessage: '=?errorMessage',
 	      dropdownClass: '@?dropdownClass',
 	      selectLike: '=?selectLike',
-	      ngChange: '&?onChange'
+	      ngChange: '&?onChange',
+	      ngFocus: '&?onFocus',
+	      ngBlur: '&?onBlur',
+	      hotLoad: '<hotLoad'
 	    },
 	    link: {
 	      pre: autocompleteLink
@@ -12768,6 +12781,10 @@
 	      if (this.filteredOptions.length > 0) {
 	        this.error = false;
 	      }
+	      // hot-load配置项决定是否实时将数据同步到model
+	      if (this.hotLoad) {
+	        this.assign();
+	      }
 	      // 如果是 select 版，下拉菜单一直都是打开的。
 	      if (this.search.length > 0 || this.selectLike) {
 	        this.open();
@@ -12791,6 +12808,9 @@
 	  }, {
 	    key: 'onFocus',
 	    value: function onFocus() {
+	      if (this.ngFocus) {
+	        this.ngFocus();
+	      }
 	      this.getFilteredOptions();
 	      if (this.selectLike) {
 	        this.open();
@@ -12799,6 +12819,9 @@
 	  }, {
 	    key: 'onBlur',
 	    value: function onBlur() {
+	      if (this.ngBlur) {
+	        this.ngBlur();
+	      }
 	      this.assign();
 	      this.close();
 	    }
@@ -12839,7 +12862,7 @@
 	
 	      var that = this;
 	      return options.filter(function (val) {
-	        return _this._get(val, that.itemKey).toLowerCase().startsWith(that.search.toLowerCase());
+	        return _this._get(val, that.itemKey).toLowerCase().includes(that.search.toLowerCase());
 	      });
 	    }
 	  }, {
